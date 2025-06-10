@@ -23,21 +23,15 @@ jobs:
         run: |
           python -m worker
 
-      - name: Commit
-        id: commit
+      - name: Commit and Push
+        id: commit_n_push
         run: |
           git config --local user.email "action@github.com"
           git config --local user.name "GitHub Action"
           git add clash.yaml
           git commit -m "Update clash.yaml."
+          git push
         if: ${{ github.ref == 'refs/heads/main' }}
-
-      - name: Push
-        uses: ad-m/github-push-action@master
-        if: ${{ steps.commit.outputs.hasChange == 'true' }}
-        with:
-          github_token: ${{ secrets.TOKEN }}
-          branch: ${{ github.ref }}
 
           
           
