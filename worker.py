@@ -1,8 +1,15 @@
 import requests
 import yaml
 
+import argparse
+
+parser = argparse.ArgumentParser()
+parser.add_argument('--url', type=str, default="https://raw.githubusercontent.com/aiboboxx/clashfree/refs/heads/main/clash.yml")
+parser.add_argument('--output', type=str, default="clash.yaml")
+args = parser.parse_args()
+
 # Download the original configuration file
-url = "https://raw.githubusercontent.com/aiboboxx/clashfree/refs/heads/main/clash.yml"
+url = args.url
 response = requests.get(url)
 content = response.text
 
@@ -46,8 +53,8 @@ for line in lines:
         filtered_lines.append(line)
 
 # Save the final result
-with open('clash.yaml', 'w', encoding='utf-8') as f:
+with open(args.output, 'w', encoding='utf-8') as f:
     f.write("\n".join(filtered_lines))
 
 print(f"Processing completed! Removed {len(removed_names)} SS proxies")
-print(f"Saved as: clash.yaml")
+print(f"Saved as: {args.output}")
