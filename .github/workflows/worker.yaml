@@ -6,11 +6,6 @@ on:
 jobs:
   worker:
     runs-on: ubuntu-latest
-    env:
-      modes: ${{ github.event.inputs.modes }}
-      
-      output_dir: ./
-      file_name: tmp.md
 
     steps:
       - uses: actions/checkout@v4
@@ -31,7 +26,7 @@ jobs:
       - name: Commit
         id: commit
         run: |
-          if [ -n "$(git status --porcelain README.md)" ]; then
+          if [ -n "$(git status --porcelain clash.yaml)" ]; then
             git config --local user.email "github-actions[bot]@users.noreply.github.com"
             git config --local user.name "github-actions[bot]"
             git add README.md
