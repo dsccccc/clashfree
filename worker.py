@@ -2,7 +2,7 @@ import requests
 import yaml
 
 # Download the original configuration file
-url = "https://ghproxy.net/https://raw.githubusercontent.com/aiboboxx/clashfree/refs/heads/main/clash.yml"
+url = "https://raw.githubusercontent.com/aiboboxx/clashfree/refs/heads/main/clash.yml"
 response = requests.get(url)
 content = response.text
 
