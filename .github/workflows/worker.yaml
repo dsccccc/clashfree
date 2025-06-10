@@ -30,7 +30,6 @@ jobs:
           git config --local user.name "GitHub Action"
           git add clash.yaml
           git commit -m "Update clash.yaml."
-          git push
         if: ${{ github.ref == 'refs/heads/main' }}
 
       - name: Push
