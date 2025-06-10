@@ -15,6 +15,9 @@ on:
 jobs:
   worker:
     runs-on: ubuntu-latest
+    env:
+      url: ${{ github.event.inputs.url }}
+      output: ${{ github.event.inputs.output }}
         
     steps:
       - uses: actions/checkout@v4
