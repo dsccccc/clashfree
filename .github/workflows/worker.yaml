@@ -2,11 +2,20 @@ name: Worker
 
 on:
   workflow_dispatch:
+      inputs:
+        url:
+          type: string
+          default: https://raw.githubusercontent.com/aiboboxx/clashfree/refs/heads/main/clash.yml
+          required: false
+        output:
+          type: string
+          default: worker.yaml
+          required: false
 
 jobs:
   worker:
     runs-on: ubuntu-latest
-
+        
     steps:
       - uses: actions/checkout@v4
       - name: Set up Python 3.11
@@ -21,14 +30,14 @@ jobs:
 
       - name: Run
         run: |
-          python -m worker
+          python -m worker --url $url --output $output
 
       - name: Commit and Push
         id: commit_n_push
         run: |
           git config --local user.email "action@github.com"
           git config --local user.name "GitHub Action"
-          git add clash.yaml
+          git add "$output"
           git commit -m "Update clash.yaml."
           git push
         if: ${{ github.ref == 'refs/heads/main' }}
