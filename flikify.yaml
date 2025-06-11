@@ -12,8 +12,8 @@ proxies:
   cipher: auto
   name: '[VMess] 吉林省 移动(全省通用)'
   network: ws
-  port: 30829
-  server: v29.heduian.link
+  port: 30808
+  server: v8.heduian.link
   skip-cert-verify: true
   tfo: false
   tls: false
@@ -22,51 +22,43 @@ proxies:
   uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
   ws-opts:
     headers:
-      Host: ocbc.com
+      Host: v8.heduian.link
     path: /oooo
-- name: '[Trojan] 广东省 移动'
-  password: 2b1ed981-6547-4094-998b-06a3323d6f6c
-  port: 21031
-  server: 120.233.44.201
+- alterId: 2
+  cipher: auto
+  name: '[VMess] 吉林省 移动(全省通用) 2'
+  network: ws
+  port: 30809
+  server: v9.heduian.link
   skip-cert-verify: true
-  sni: k54.tudou211.com
   tfo: false
-  type: trojan
+  tls: false
+  type: vmess
   udp: true
-- name: '[Trojan] 广东省 联通'
-  password: 5dc6fa05-a601-aba6-7761-ecde22d2b0fc
-  port: 15229
-  server: 99dfcb82-sxhts0-t5qufl-8n27.cu.plebai.net
+  uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
+  ws-opts:
+    headers:
+      Host: baidu.com
+    path: /oooo
+- alterId: 2
+  cipher: auto
+  name: '[VMess] 吉林省 移动(全省通用) 3'
+  network: ws
+  port: 30832
+  server: v32.heduian.link
   skip-cert-verify: true
-  sni: 99dfcb82-sxhts0-t5qufl-8n27.cu.plebai.net
   tfo: false
-  type: trojan
+  tls: false
+  type: vmess
   udp: true
-- alterId: 64
+  uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
+  ws-opts:
+    headers:
+      Host: baidu.com
+    path: /oooo
+- alterId: 0
   cipher: auto
   name: '[VMess] 广东省湛江市 移动'
-  port: 46159
-  server: 120.198.71.216
-  skip-cert-verify: true
-  tfo: false
-  tls: false
-  type: vmess
-  udp: true
-  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
-- alterId: 0
-  cipher: auto
-  name: '[VMess] 广东省湛江市 移动 2'
-  port: 59082
-  server: 120.198.71.216
-  skip-cert-verify: true
-  tfo: false
-  tls: false
-  type: vmess
-  udp: true
-  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
-- alterId: 0
-  cipher: auto
-  name: '[VMess] 广东省湛江市 移动 3'
   port: 49355
   server: 120.198.71.219
   skip-cert-verify: true
@@ -103,37 +95,42 @@ proxies:
   uuid: efcb7d7c-c582-46f5-eeff-0e553342528d
   ws-opts:
     path: /tg@hkaa0
-- alterId: 64
-  cipher: auto
-  name: '[VMess] 🇨🇳 广东省广州市 移动'
-  port: 49554
-  server: 183.236.51.38
-  skip-cert-verify: true
-  tfo: false
-  tls: false
-  type: vmess
-  udp: true
-  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
-- alterId: 64
-  cipher: auto
-  name: '[VMess] 🇨🇳 广东省广州市 移动 2'
-  port: 33519
-  server: 183.236.51.38
-  skip-cert-verify: true
-  tfo: false
-  tls: false
-  type: vmess
-  udp: true
-  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
-- name: '[Trojan] 🇨🇳 广东省广州市 腾讯云'
+- name: '[Trojan] 🇨🇳 上海市 上海电信科技发展有限公司(中山南路111号)'
   password: 85f133142f04dbf6547da33895cfabb3
   port: 39001
-  server: 113.99.140.184
+  server: 203.156.253.11
   skip-cert-verify: true
   sni: www.yrtok.com
   tfo: false
   type: trojan
   udp: true
+- alterId: 0
+  cipher: auto
+  name: '[VMess] 🇨🇳 广东省广州市 移动'
+  port: 41024
+  server: 183.236.51.38
+  skip-cert-verify: true
+  tfo: false
+  tls: false
+  type: vmess
+  udp: true
+  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
+- alterId: 2
+  cipher: auto
+  name: '[VMess] 🇨🇳 江苏省 移动'
+  network: ws
+  port: 30812
+  server: v12.heduian.link
+  skip-cert-verify: true
+  tfo: false
+  tls: false
+  type: vmess
+  udp: true
+  uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
+  ws-opts:
+    headers:
+      Host: ocbc.com
+    path: /oooo
 - alterId: 0
   cipher: auto
   name: '[VMess] 🇩🇪 _US_美国->🇩🇪_DE_德国'
@@ -347,8 +344,8 @@ proxies:
   ws-opts:
     path: /
 - name: '[Trojan] 🇺🇸 美国 Amazon数据中心'
-  password: telegram-id-privatevpns
-  port: 22222
+  password: telegram-id-directvpn
+  port: 22223
   server: 13.39.206.106
   skip-cert-verify: true
   sni: trojan.burgerip.co.uk
@@ -359,66 +356,57 @@ proxies:
   cipher: auto
   name: '[VMess] 🇺🇸 美国 CloudFlare节点'
   network: ws
-  port: 80
-  server: xcvg65.999815.xyz
-  skip-cert-verify: true
-  tfo: false
-  tls: false
-  type: vmess
-  udp: true
-  uuid: 90f357dd-79ac-47c6-b0b8-958e2d19de07
-  ws-opts:
-    headers:
-      Host: xcvg65.999815.xyz
-    path: /10W6SJaK0F0oVXeNU6S2RVRP
-- alterId: 0
-  cipher: auto
-  name: '[VMess] 🇺🇸 美国 CloudFlare节点 2'
-  network: ws
-  port: 80
-  server: 2sdfre3.999820.xyz
-  skip-cert-verify: true
-  tfo: false
-  tls: false
-  type: vmess
-  udp: true
-  uuid: 90f357dd-79ac-47c6-b0b8-958e2d19de07
-  ws-opts:
-    headers:
-      Host: 2sdfre3.999820.xyz
-    path: /10W6SJaK0F0oVXeNU6S2RVRP
-- alterId: 0
-  cipher: auto
-  name: '[VMess] 🇺🇸 美国 CloudFlare节点 3'
-  network: ws
-  port: 80
-  server: www.xinjuc.com
-  skip-cert-verify: true
-  tfo: false
-  tls: false
-  type: vmess
-  udp: true
-  uuid: 2f38f848-a899-4c87-9807-207a41615e3c
-  ws-opts:
-    headers:
-      Host: hk.freeyyds.dpdns.org
-    path: /rongseven?ed=2048
-- alterId: 0
-  cipher: auto
-  name: '[VMess] 🇺🇸 美国 CloudFlare节点 4'
-  network: ws
-  port: 2096
-  server: de01.sh-cloudflare.sbs
+  port: 8443
+  server: us01.sh-cloudflare.sbs
   skip-cert-verify: true
   tfo: false
   tls: true
   type: vmess
   udp: true
-  uuid: 2eb19b98-500f-4d92-ab72-c767e7916502
+  uuid: 02862da5-e857-48b3-adc7-5f74c1918dee
   ws-opts:
     headers:
-      Host: de01.sh-cloudflare.sbs
+      Host: us01.sh-cloudflare.sbs
     path: /
+- alterId: 0
+  cipher: auto
+  name: '[VMess] 🇺🇸 美国 CloudFlare节点 2'
+  network: ws
+  port: 80
+  server: xxxsde4.freevpnatm2025.dpdns.org
+  skip-cert-verify: true
+  tfo: false
+  tls: false
+  type: vmess
+  udp: true
+  uuid: 90f357dd-79ac-47c6-b0b8-958e2d19de07
+  ws-opts:
+    headers:
+      Host: xxxsde4.freevpnatm2025.dpdns.org
+    path: /10W6SJaK0F0oVXeNU6S2RVRP
+- name: '[Trojan] 🇺🇸 美国 CloudFlare节点'
+  network: ws
+  password: 4a3ee276-f50f-46f6-ba4d-13571732ab70
+  port: 443
+  server: 172.67.204.120
+  skip-cert-verify: true
+  sni: ddcDe.890603.XYz
+  tfo: false
+  type: trojan
+  udp: true
+  ws-opts:
+    headers:
+      Host: ddcDe.890603.XYz
+    path: /COp52Dbu3dvwvDWUxOqxq
+- name: '[Trojan] 🇺🇸 美国 惠普公司'
+  password: telegram-id-directvpn
+  port: 22223
+  server: 15.236.57.247
+  skip-cert-verify: true
+  sni: trojan.burgerip.co.uk
+  tfo: false
+  type: trojan
+  udp: true
 proxy-groups:
 - name: 🚀 全球互联
   proxies:
@@ -432,16 +420,14 @@ proxy-groups:
   - 🇹🇼 台湾
   - 🇸🇬 新加坡
   - '[VMess] 吉林省 移动(全省通用)'
-  - '[Trojan] 广东省 移动'
-  - '[Trojan] 广东省 联通'
+  - '[VMess] 吉林省 移动(全省通用) 2'
+  - '[VMess] 吉林省 移动(全省通用) 3'
   - '[VMess] 广东省湛江市 移动'
-  - '[VMess] 广东省湛江市 移动 2'
-  - '[VMess] 广东省湛江市 移动 3'
   - '[VMess] 🇨🇦 _CA_加拿大'
   - '[VMess] 🇨🇳 _TW_台湾->🇺🇸_US_美国'
+  - '[Trojan] 🇨🇳 上海市 上海电信科技发展有限公司(中山南路111号)'
   - '[VMess] 🇨🇳 广东省广州市 移动'
-  - '[VMess] 🇨🇳 广东省广州市 移动 2'
-  - '[Trojan] 🇨🇳 广东省广州市 腾讯云'
+  - '[VMess] 🇨🇳 江苏省 移动'
   - '[VMess] 🇩🇪 _US_美国->🇩🇪_DE_德国'
   - '[VMess] 🇬🇧 _US_美国->🇬🇧_GB_英国_1'
   - '[VMess] 🇬🇧 _US_美国->🇬🇧_GB_英国_2'
@@ -459,8 +445,8 @@ proxy-groups:
   - '[Trojan] 🇺🇸 美国 Amazon数据中心'
   - '[VMess] 🇺🇸 美国 CloudFlare节点'
   - '[VMess] 🇺🇸 美国 CloudFlare节点 2'
-  - '[VMess] 🇺🇸 美国 CloudFlare节点 3'
-  - '[VMess] 🇺🇸 美国 CloudFlare节点 4'
+  - '[Trojan] 🇺🇸 美国 CloudFlare节点'
+  - '[Trojan] 🇺🇸 美国 惠普公司'
   type: select
 - name: 🎥 Netflix
   proxies:
@@ -470,16 +456,14 @@ proxy-groups:
   - 🇹🇼 台湾
   - 🇸🇬 新加坡
   - '[VMess] 吉林省 移动(全省通用)'
-  - '[Trojan] 广东省 移动'
-  - '[Trojan] 广东省 联通'
+  - '[VMess] 吉林省 移动(全省通用) 2'
+  - '[VMess] 吉林省 移动(全省通用) 3'
   - '[VMess] 广东省湛江市 移动'
-  - '[VMess] 广东省湛江市 移动 2'
-  - '[VMess] 广东省湛江市 移动 3'
   - '[VMess] 🇨🇦 _CA_加拿大'
   - '[VMess] 🇨🇳 _TW_台湾->🇺🇸_US_美国'
+  - '[Trojan] 🇨🇳 上海市 上海电信科技发展有限公司(中山南路111号)'
   - '[VMess] 🇨🇳 广东省广州市 移动'
-  - '[VMess] 🇨🇳 广东省广州市 移动 2'
-  - '[Trojan] 🇨🇳 广东省广州市 腾讯云'
+  - '[VMess] 🇨🇳 江苏省 移动'
   - '[VMess] 🇩🇪 _US_美国->🇩🇪_DE_德国'
   - '[VMess] 🇬🇧 _US_美国->🇬🇧_GB_英国_1'
   - '[VMess] 🇬🇧 _US_美国->🇬🇧_GB_英国_2'
@@ -497,8 +481,8 @@ proxy-groups:
   - '[Trojan] 🇺🇸 美国 Amazon数据中心'
   - '[VMess] 🇺🇸 美国 CloudFlare节点'
   - '[VMess] 🇺🇸 美国 CloudFlare节点 2'
-  - '[VMess] 🇺🇸 美国 CloudFlare节点 3'
-  - '[VMess] 🇺🇸 美国 CloudFlare节点 4'
+  - '[Trojan] 🇺🇸 美国 CloudFlare节点'
+  - '[Trojan] 🇺🇸 美国 惠普公司'
   type: select
 - name: 📹 Youtube
   proxies:
@@ -508,16 +492,14 @@ proxy-groups:
   - 🇹🇼 台湾
   - 🇸🇬 新加坡
   - '[VMess] 吉林省 移动(全省通用)'
-  - '[Trojan] 广东省 移动'
-  - '[Trojan] 广东省 联通'
+  - '[VMess] 吉林省 移动(全省通用) 2'
+  - '[VMess] 吉林省 移动(全省通用) 3'
   - '[VMess] 广东省湛江市 移动'
-  - '[VMess] 广东省湛江市 移动 2'
-  - '[VMess] 广东省湛江市 移动 3'
   - '[VMess] 🇨🇦 _CA_加拿大'
   - '[VMess] 🇨🇳 _TW_台湾->🇺🇸_US_美国'
+  - '[Trojan] 🇨🇳 上海市 上海电信科技发展有限公司(中山南路111号)'
   - '[VMess] 🇨🇳 广东省广州市 移动'
-  - '[VMess] 🇨🇳 广东省广州市 移动 2'
-  - '[Trojan] 🇨🇳 广东省广州市 腾讯云'
+  - '[VMess] 🇨🇳 江苏省 移动'
   - '[VMess] 🇩🇪 _US_美国->🇩🇪_DE_德国'
   - '[VMess] 🇬🇧 _US_美国->🇬🇧_GB_英国_1'
   - '[VMess] 🇬🇧 _US_美国->🇬🇧_GB_英国_2'
@@ -535,8 +517,8 @@ proxy-groups:
   - '[Trojan] 🇺🇸 美国 Amazon数据中心'
   - '[VMess] 🇺🇸 美国 CloudFlare节点'
   - '[VMess] 🇺🇸 美国 CloudFlare节点 2'
-  - '[VMess] 🇺🇸 美国 CloudFlare节点 3'
-  - '[VMess] 🇺🇸 美国 CloudFlare节点 4'
+  - '[Trojan] 🇺🇸 美国 CloudFlare节点'
+  - '[Trojan] 🇺🇸 美国 惠普公司'
   type: select
 - name: ▶️ Disney+
   proxies:
@@ -546,16 +528,14 @@ proxy-groups:
   - 🇹🇼 台湾
   - 🇸🇬 新加坡
   - '[VMess] 吉林省 移动(全省通用)'
-  - '[Trojan] 广东省 移动'
-  - '[Trojan] 广东省 联通'
+  - '[VMess] 吉林省 移动(全省通用) 2'
+  - '[VMess] 吉林省 移动(全省通用) 3'
   - '[VMess] 广东省湛江市 移动'
-  - '[VMess] 广东省湛江市 移动 2'
-  - '[VMess] 广东省湛江市 移动 3'
   - '[VMess] 🇨🇦 _CA_加拿大'
   - '[VMess] 🇨🇳 _TW_台湾->🇺🇸_US_美国'
+  - '[Trojan] 🇨🇳 上海市 上海电信科技发展有限公司(中山南路111号)'
   - '[VMess] 🇨🇳 广东省广州市 移动'
-  - '[VMess] 🇨🇳 广东省广州市 移动 2'
-  - '[Trojan] 🇨🇳 广东省广州市 腾讯云'
+  - '[VMess] 🇨🇳 江苏省 移动'
   - '[VMess] 🇩🇪 _US_美国->🇩🇪_DE_德国'
   - '[VMess] 🇬🇧 _US_美国->🇬🇧_GB_英国_1'
   - '[VMess] 🇬🇧 _US_美国->🇬🇧_GB_英国_2'
@@ -573,8 +553,8 @@ proxy-groups:
   - '[Trojan] 🇺🇸 美国 Amazon数据中心'
   - '[VMess] 🇺🇸 美国 CloudFlare节点'
   - '[VMess] 🇺🇸 美国 CloudFlare节点 2'
-  - '[VMess] 🇺🇸 美国 CloudFlare节点 3'
-  - '[VMess] 🇺🇸 美国 CloudFlare节点 4'
+  - '[Trojan] 🇺🇸 美国 CloudFlare节点'
+  - '[Trojan] 🇺🇸 美国 惠普公司'
   type: select
 - name: 🌍 国外媒体
   proxies:
@@ -585,16 +565,14 @@ proxy-groups:
   - 🇹🇼 台湾
   - 🇸🇬 新加坡
   - '[VMess] 吉林省 移动(全省通用)'
-  - '[Trojan] 广东省 移动'
-  - '[Trojan] 广东省 联通'
+  - '[VMess] 吉林省 移动(全省通用) 2'
+  - '[VMess] 吉林省 移动(全省通用) 3'
   - '[VMess] 广东省湛江市 移动'
-  - '[VMess] 广东省湛江市 移动 2'
-  - '[VMess] 广东省湛江市 移动 3'
   - '[VMess] 🇨🇦 _CA_加拿大'
   - '[VMess] 🇨🇳 _TW_台湾->🇺🇸_US_美国'
+  - '[Trojan] 🇨🇳 上海市 上海电信科技发展有限公司(中山南路111号)'
   - '[VMess] 🇨🇳 广东省广州市 移动'
-  - '[VMess] 🇨🇳 广东省广州市 移动 2'
-  - '[Trojan] 🇨🇳 广东省广州市 腾讯云'
+  - '[VMess] 🇨🇳 江苏省 移动'
   - '[VMess] 🇩🇪 _US_美国->🇩🇪_DE_德国'
   - '[VMess] 🇬🇧 _US_美国->🇬🇧_GB_英国_1'
   - '[VMess] 🇬🇧 _US_美国->🇬🇧_GB_英国_2'
@@ -612,8 +590,8 @@ proxy-groups:
   - '[Trojan] 🇺🇸 美国 Amazon数据中心'
   - '[VMess] 🇺🇸 美国 CloudFlare节点'
   - '[VMess] 🇺🇸 美国 CloudFlare节点 2'
-  - '[VMess] 🇺🇸 美国 CloudFlare节点 3'
-  - '[VMess] 🇺🇸 美国 CloudFlare节点 4'
+  - '[Trojan] 🇺🇸 美国 CloudFlare节点'
+  - '[Trojan] 🇺🇸 美国 惠普公司'
   type: select
 - name: 📲 Telegram
   proxies:
@@ -638,16 +616,14 @@ proxy-groups:
   - 🇹🇼 台湾
   - 🇸🇬 新加坡
   - '[VMess] 吉林省 移动(全省通用)'
-  - '[Trojan] 广东省 移动'
-  - '[Trojan] 广东省 联通'
+  - '[VMess] 吉林省 移动(全省通用) 2'
+  - '[VMess] 吉林省 移动(全省通用) 3'
   - '[VMess] 广东省湛江市 移动'
-  - '[VMess] 广东省湛江市 移动 2'
-  - '[VMess] 广东省湛江市 移动 3'
   - '[VMess] 🇨🇦 _CA_加拿大'
   - '[VMess] 🇨🇳 _TW_台湾->🇺🇸_US_美国'
+  - '[Trojan] 🇨🇳 上海市 上海电信科技发展有限公司(中山南路111号)'
   - '[VMess] 🇨🇳 广东省广州市 移动'
-  - '[VMess] 🇨🇳 广东省广州市 移动 2'
-  - '[Trojan] 🇨🇳 广东省广州市 腾讯云'
+  - '[VMess] 🇨🇳 江苏省 移动'
   - '[VMess] 🇩🇪 _US_美国->🇩🇪_DE_德国'
   - '[VMess] 🇬🇧 _US_美国->🇬🇧_GB_英国_1'
   - '[VMess] 🇬🇧 _US_美国->🇬🇧_GB_英国_2'
@@ -665,8 +641,8 @@ proxy-groups:
   - '[Trojan] 🇺🇸 美国 Amazon数据中心'
   - '[VMess] 🇺🇸 美国 CloudFlare节点'
   - '[VMess] 🇺🇸 美国 CloudFlare节点 2'
-  - '[VMess] 🇺🇸 美国 CloudFlare节点 3'
-  - '[VMess] 🇺🇸 美国 CloudFlare节点 4'
+  - '[Trojan] 🇺🇸 美国 CloudFlare节点'
+  - '[Trojan] 🇺🇸 美国 惠普公司'
   type: select
 - name: 🇭🇰 香港
   proxies:
@@ -696,8 +672,8 @@ proxy-groups:
   - '[Trojan] 🇺🇸 美国 Amazon数据中心'
   - '[VMess] 🇺🇸 美国 CloudFlare节点'
   - '[VMess] 🇺🇸 美国 CloudFlare节点 2'
-  - '[VMess] 🇺🇸 美国 CloudFlare节点 3'
-  - '[VMess] 🇺🇸 美国 CloudFlare节点 4'
+  - '[Trojan] 🇺🇸 美国 CloudFlare节点'
+  - '[Trojan] 🇺🇸 美国 惠普公司'
   type: select
 - name: 🇹🇼 台湾
   proxies:
@@ -745,6 +721,85 @@ rules:
 - DOMAIN,static.assetlab.io,DIRECT
 - DOMAIN-SUFFIX,syncthing.net,DIRECT
 - DOMAIN,stats.114515.best,DIRECT
+- DOMAIN-KEYWORD,1drv,Ⓜ️ 微软服务
+- DOMAIN-KEYWORD,microsoft,Ⓜ️ 微软服务
+- DOMAIN-SUFFIX,aadrm.com,Ⓜ️ 微软服务
+- DOMAIN-SUFFIX,acompli.com,Ⓜ️ 微软服务
+- DOMAIN-SUFFIX,acompli.net,Ⓜ️ 微软服务
+- DOMAIN-SUFFIX,aka.ms,Ⓜ️ 微软服务
+- DOMAIN-SUFFIX,akadns.net,Ⓜ️ 微软服务
+- DOMAIN-SUFFIX,aspnetcdn.com,Ⓜ️ 微软服务
+- DOMAIN-SUFFIX,assets-yammer.com,Ⓜ️ 微软服务
+- DOMAIN-SUFFIX,azure.com,Ⓜ️ 微软服务
+- DOMAIN-SUFFIX,azure.net,Ⓜ️ 微软服务
+- DOMAIN-SUFFIX,azureedge.net,Ⓜ️ 微软服务
+- DOMAIN-SUFFIX,azureiotcentral.com,Ⓜ️ 微软服务
+- DOMAIN-SUFFIX,azurerms.com,Ⓜ️ 微软服务
+- DOMAIN-SUFFIX,bing.com,Ⓜ️ 微软服务
+- DOMAIN-SUFFIX,bing.net,Ⓜ️ 微软服务
+- DOMAIN-SUFFIX,bingapis.com,Ⓜ️ 微软服务
+- DOMAIN-SUFFIX,cloudapp.net,Ⓜ️ 微软服务
+- DOMAIN-SUFFIX,cloudappsecurity.com,Ⓜ️ 微软服务
+- DOMAIN-SUFFIX,edgesuite.net,Ⓜ️ 微软服务
+- DOMAIN-SUFFIX,gfx.ms,Ⓜ️ 微软服务
+- DOMAIN-SUFFIX,hotmail.com,Ⓜ️ 微软服务
+- DOMAIN-SUFFIX,live.com,Ⓜ️ 微软服务
+- DOMAIN-SUFFIX,live.net,Ⓜ️ 微软服务
+- DOMAIN-SUFFIX,lync.com,Ⓜ️ 微软服务
+- DOMAIN-SUFFIX,msappproxy.net,Ⓜ️ 微软服务
+- DOMAIN-SUFFIX,msauth.net,Ⓜ️ 微软服务
+- DOMAIN-SUFFIX,msauthimages.net,Ⓜ️ 微软服务
+- DOMAIN-SUFFIX,msecnd.net,Ⓜ️ 微软服务
+- DOMAIN-SUFFIX,msedge.net,Ⓜ️ 微软服务
+- DOMAIN-SUFFIX,msft.net,Ⓜ️ 微软服务
+- DOMAIN-SUFFIX,msftauth.net,Ⓜ️ 微软服务
+- DOMAIN-SUFFIX,msftauthimages.net,Ⓜ️ 微软服务
+- DOMAIN-SUFFIX,msftidentity.com,Ⓜ️ 微软服务
+- DOMAIN-SUFFIX,msidentity.com,Ⓜ️ 微软服务
+- DOMAIN-SUFFIX,msn.cn,Ⓜ️ 微软服务
+- DOMAIN-SUFFIX,msn.com,Ⓜ️ 微软服务
+- DOMAIN-SUFFIX,msocdn.com,Ⓜ️ 微软服务
+- DOMAIN-SUFFIX,msocsp.com,Ⓜ️ 微软服务
+- DOMAIN-SUFFIX,mstea.ms,Ⓜ️ 微软服务
+- DOMAIN-SUFFIX,o365weve.com,Ⓜ️ 微软服务
+- DOMAIN-SUFFIX,oaspapps.com,Ⓜ️ 微软服务
+- DOMAIN-SUFFIX,office.com,Ⓜ️ 微软服务
+- DOMAIN-SUFFIX,office.net,Ⓜ️ 微软服务
+- DOMAIN-SUFFIX,office365.com,Ⓜ️ 微软服务
+- DOMAIN-SUFFIX,officeppe.net,Ⓜ️ 微软服务
+- DOMAIN-SUFFIX,omniroot.com,Ⓜ️ 微软服务
+- DOMAIN-SUFFIX,onedrive.com,Ⓜ️ 微软服务
+- DOMAIN-SUFFIX,onenote.com,Ⓜ️ 微软服务
+- DOMAIN-SUFFIX,onenote.net,Ⓜ️ 微软服务
+- DOMAIN-SUFFIX,onestore.ms,Ⓜ️ 微软服务
+- DOMAIN-SUFFIX,outlook.com,Ⓜ️ 微软服务
+- DOMAIN-SUFFIX,outlookmobile.com,Ⓜ️ 微软服务
+- DOMAIN-SUFFIX,phonefactor.net,Ⓜ️ 微软服务
+- DOMAIN-SUFFIX,public-trust.com,Ⓜ️ 微软服务
+- DOMAIN-SUFFIX,sfbassets.com,Ⓜ️ 微软服务
+- DOMAIN-SUFFIX,sfx.ms,Ⓜ️ 微软服务
+- DOMAIN-SUFFIX,sharepoint.com,Ⓜ️ 微软服务
+- DOMAIN-SUFFIX,sharepointonline.com,Ⓜ️ 微软服务
+- DOMAIN-SUFFIX,skype.com,Ⓜ️ 微软服务
+- DOMAIN-SUFFIX,skypeassets.com,Ⓜ️ 微软服务
+- DOMAIN-SUFFIX,skypeforbusiness.com,Ⓜ️ 微软服务
+- DOMAIN-SUFFIX,staffhub.ms,Ⓜ️ 微软服务
+- DOMAIN-SUFFIX,svc.ms,Ⓜ️ 微软服务
+- DOMAIN-SUFFIX,sway-cdn.com,Ⓜ️ 微软服务
+- DOMAIN-SUFFIX,sway-extensions.com,Ⓜ️ 微软服务
+- DOMAIN-SUFFIX,sway.com,Ⓜ️ 微软服务
+- DOMAIN-SUFFIX,trafficmanager.net,Ⓜ️ 微软服务
+- DOMAIN-SUFFIX,uservoice.com,Ⓜ️ 微软服务
+- DOMAIN-SUFFIX,virtualearth.net,Ⓜ️ 微软服务
+- DOMAIN-SUFFIX,visualstudio.com,Ⓜ️ 微软服务
+- DOMAIN-SUFFIX,windows-ppe.net,Ⓜ️ 微软服务
+- DOMAIN-SUFFIX,windows.com,Ⓜ️ 微软服务
+- DOMAIN-SUFFIX,windows.net,Ⓜ️ 微软服务
+- DOMAIN-SUFFIX,windowsazure.com,Ⓜ️ 微软服务
+- DOMAIN-SUFFIX,windowsupdate.com,Ⓜ️ 微软服务
+- DOMAIN-SUFFIX,wunderlist.com,Ⓜ️ 微软服务
+- DOMAIN-SUFFIX,yammer.com,Ⓜ️ 微软服务
+- DOMAIN-SUFFIX,yammerusercontent.com,Ⓜ️ 微软服务
 - DOMAIN,alt1-mtalk.google.com,DIRECT
 - DOMAIN,alt2-mtalk.google.com,DIRECT
 - DOMAIN,alt3-mtalk.google.com,DIRECT
