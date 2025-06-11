@@ -1,0 +1,38 @@
+name: Auto
+
+on:
+  schedule:
+    - cron: '0 * * * *'
+
+jobs:
+  worker:
+    runs-on: ubuntu-latest
+    env:
+      output: flikify.yaml
+      url: https://raw.githubusercontent.com/Flikify/getNode/refs/heads/main/clash.yaml
+      
+    steps:
+      - uses: actions/checkout@v4
+      - name: Set up Python 3.11
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+
+      - name: Install Dependency
+        run: |
+          python -m pip install --upgrade pip
+          pip install -r requirements.txt
+
+      - name: Run
+        run: |
+          python -m worker --url $url --output $output
+
+      - name: Commit and Push
+        id: commit_n_push
+        run: |
+          git config --local user.email "action@github.com"
+          git config --local user.name "GitHub Action"
+          git add $output
+          git commit -m "Update ${output}."
+          git push
+        if: ${{ github.ref == 'refs/heads/main' }}
