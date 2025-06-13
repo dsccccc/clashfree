@@ -24,47 +24,25 @@ proxies:
     headers:
       Host: ocbc.com
     path: /oooo
-- alterId: 2
+- alterId: 0
   cipher: auto
-  name: '[VMess] 吉林省 移动(全省通用) 2'
+  name: '[VMess] 安徽省合肥市 移动'
   network: ws
-  port: 30832
-  server: v32.heduian.link
+  port: 46022
+  server: 112.29.213.228
   skip-cert-verify: true
   tfo: false
   tls: false
   type: vmess
   udp: true
-  uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
+  uuid: 4c5a8a75-7d65-40a9-8c3b-a67abae08534
   ws-opts:
-    headers:
-      Host: baidu.com
-    path: /oooo
-- name: '[Trojan] 广东省 联通'
-  password: 6aaaf4f4-be44-11ed-a8bf-f23c91cfbbc9
-  port: 15229
-  server: 83157169-sxr340-syuosn-1mffg.cu.plebai.net
-  skip-cert-verify: true
-  sni: 83157169-sxr340-syuosn-1mffg.cu.plebai.net
-  tfo: false
-  type: trojan
-  udp: true
+    path: /zh-cn
 - alterId: 0
   cipher: auto
   name: '[VMess] 广东省湛江市 移动'
   port: 59082
   server: 120.198.71.216
-  skip-cert-verify: true
-  tfo: false
-  tls: false
-  type: vmess
-  udp: true
-  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
-- alterId: 64
-  cipher: auto
-  name: '[VMess] 广东省湛江市 移动 2'
-  port: 41175
-  server: 120.198.71.214
   skip-cert-verify: true
   tfo: false
   tls: false
@@ -99,9 +77,65 @@ proxies:
   uuid: efcb7d7c-c582-46f5-eeff-0e553342528d
   ws-opts:
     path: /tg@hkaa0
+- name: '[Trojan] 🇨🇳 上海市 上海电信科技发展有限公司(中山南路111号)'
+  password: 85f133142f04dbf6547da33895cfabb3
+  port: 39001
+  server: 203.156.253.11
+  skip-cert-verify: true
+  sni: www.yrtok.com
+  tfo: false
+  type: trojan
+  udp: true
+- name: '[Trojan] 🇨🇳 广东省广州市 电信'
+  password: 85f133142f04dbf6547da33895cfabb3
+  port: 39001
+  server: 116.31.75.150
+  skip-cert-verify: true
+  sni: www.yrtok.com
+  tfo: false
+  type: trojan
+  udp: true
 - alterId: 0
   cipher: auto
   name: '[VMess] 🇨🇳 广东省广州市 移动'
+  port: 41024
+  server: 183.236.51.38
+  skip-cert-verify: true
+  tfo: false
+  tls: false
+  type: vmess
+  udp: true
+  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
+- alterId: 0
+  cipher: auto
+  name: '[VMess] 🇨🇳 广东省广州市 移动 2'
+  network: ws
+  port: 52511
+  server: aflzzul.meiquankongjian.com
+  skip-cert-verify: true
+  tfo: false
+  tls: false
+  type: vmess
+  udp: true
+  uuid: 342bacfd-2b8f-3f49-a16e-439db5b0b9d5
+  ws-opts:
+    headers:
+      Host: aflzzul.meiquankongjian.com
+    path: /564dfa20/
+- alterId: 64
+  cipher: auto
+  name: '[VMess] 🇨🇳 广东省广州市 移动 3'
+  port: 41491
+  server: 120.232.153.41
+  skip-cert-verify: true
+  tfo: false
+  tls: false
+  type: vmess
+  udp: true
+  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
+- alterId: 0
+  cipher: auto
+  name: '[VMess] 🇨🇳 广东省广州市 移动 4'
   port: 41302
   server: 183.236.51.38
   skip-cert-verify: true
@@ -110,22 +144,6 @@ proxies:
   type: vmess
   udp: true
   uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
-- name: '[Trojan] 🇨🇳 江苏省 移动'
-  password: FpQhGpIr
-  port: 38632
-  server: 36.151.251.62
-  skip-cert-verify: true
-  tfo: false
-  type: trojan
-  udp: true
-- name: '[Trojan] 🇨🇳 江苏省 移动 2'
-  password: FpQhGpIr
-  port: 4448
-  server: 36.151.251.56
-  skip-cert-verify: true
-  tfo: false
-  type: trojan
-  udp: true
 - alterId: 0
   cipher: auto
   name: '[VMess] 🇩🇪 _US_美国->🇩🇪_DE_德国'
@@ -142,6 +160,17 @@ proxies:
     headers:
       Host: flkf2.shabijichang.com
     path: /
+- alterId: 0
+  cipher: auto
+  name: '[VMess] 🇩🇪 德国 V2CROSS.COM'
+  port: 10534
+  server: 94.136.185.230
+  skip-cert-verify: true
+  tfo: false
+  tls: false
+  type: vmess
+  udp: true
+  uuid: b01c7ef9-33ec-41f6-bfbf-77ddc4d21649
 - alterId: 0
   cipher: auto
   name: '[VMess] 🇬🇧 _US_美国->🇬🇧_GB_英国_1'
@@ -342,51 +371,45 @@ proxies:
   cipher: auto
   name: '[VMess] 🇺🇸 美国 CloudFlare节点'
   network: ws
-  port: 8443
-  server: us01.sh-cloudflare.sbs
-  servername: us01.sh-cloudflare.sbs
+  port: 443
+  server: CCVfbgt667yuI.999864.XyZ
   skip-cert-verify: true
   tfo: false
   tls: true
   type: vmess
   udp: true
-  uuid: 6121bf03-1ed9-4b57-9b79-d1af73058054
+  uuid: ecb31946-b81d-4e37-bfd9-2eb7fa5c4e52
   ws-opts:
     headers:
-      Host: us01.sh-cloudflare.sbs
-    path: /
+      Host: ccvfbgt667yui.999864.xyz
+    path: /BbckrKsbv22PK1qu2TvM
 - alterId: 0
   cipher: auto
   name: '[VMess] 🇺🇸 美国 CloudFlare节点 2'
   network: ws
-  port: 2087
-  server: 104.21.64.1
-  skip-cert-verify: true
-  tfo: false
-  tls: true
-  type: vmess
-  udp: true
-  uuid: 1c36906e-1a21-4330-b04f-85baf1a6ff26
-  ws-opts:
-    headers:
-      Host: rak1d3.777269.xyz
-    path: /
-- alterId: 0
-  cipher: auto
-  name: '[VMess] 🇺🇸 美国 CloudFlare节点 3'
-  network: ws
   port: 2096
-  server: 104.21.112.1
+  server: de01.sh-cloudflare.sbs
   skip-cert-verify: true
   tfo: false
   tls: true
   type: vmess
   udp: true
-  uuid: b3928f8d-ea81-4d75-bcec-4016a072adff
+  uuid: 337edede-50e3-4a26-97e7-7a1013e2f1d5
   ws-opts:
     headers:
       Host: de01.sh-cloudflare.sbs
     path: /
+- alterId: 0
+  cipher: auto
+  name: '[VMess] 🇺🇸 美国 华盛顿Cogent通信公司'
+  port: 56051
+  server: 38.47.176.251
+  skip-cert-verify: true
+  tfo: false
+  tls: false
+  type: vmess
+  udp: true
+  uuid: 2bca3569-0662-47f7-fdf8-421f30e71f44
 proxy-groups:
 - name: 🚀 全球互联
   proxies:
@@ -400,16 +423,18 @@ proxy-groups:
   - 🇹🇼 台湾
   - 🇸🇬 新加坡
   - '[VMess] 吉林省 移动(全省通用)'
-  - '[VMess] 吉林省 移动(全省通用) 2'
-  - '[Trojan] 广东省 联通'
+  - '[VMess] 安徽省合肥市 移动'
   - '[VMess] 广东省湛江市 移动'
-  - '[VMess] 广东省湛江市 移动 2'
   - '[VMess] 🇨🇦 _CA_加拿大'
   - '[VMess] 🇨🇳 _TW_台湾->🇺🇸_US_美国'
+  - '[Trojan] 🇨🇳 上海市 上海电信科技发展有限公司(中山南路111号)'
+  - '[Trojan] 🇨🇳 广东省广州市 电信'
   - '[VMess] 🇨🇳 广东省广州市 移动'
-  - '[Trojan] 🇨🇳 江苏省 移动'
-  - '[Trojan] 🇨🇳 江苏省 移动 2'
+  - '[VMess] 🇨🇳 广东省广州市 移动 2'
+  - '[VMess] 🇨🇳 广东省广州市 移动 3'
+  - '[VMess] 🇨🇳 广东省广州市 移动 4'
   - '[VMess] 🇩🇪 _US_美国->🇩🇪_DE_德国'
+  - '[VMess] 🇩🇪 德国 V2CROSS.COM'
   - '[VMess] 🇬🇧 _US_美国->🇬🇧_GB_英国_1'
   - '[VMess] 🇬🇧 _US_美国->🇬🇧_GB_英国_2'
   - '[VMess] 🇮🇳 _US_美国->🇮🇳_IN_印度_1'
@@ -425,7 +450,7 @@ proxy-groups:
   - '[VMess] 🇺🇸 _US_美国_5'
   - '[VMess] 🇺🇸 美国 CloudFlare节点'
   - '[VMess] 🇺🇸 美国 CloudFlare节点 2'
-  - '[VMess] 🇺🇸 美国 CloudFlare节点 3'
+  - '[VMess] 🇺🇸 美国 华盛顿Cogent通信公司'
   type: select
 - name: 🎥 Netflix
   proxies:
@@ -435,16 +460,18 @@ proxy-groups:
   - 🇹🇼 台湾
   - 🇸🇬 新加坡
   - '[VMess] 吉林省 移动(全省通用)'
-  - '[VMess] 吉林省 移动(全省通用) 2'
-  - '[Trojan] 广东省 联通'
+  - '[VMess] 安徽省合肥市 移动'
   - '[VMess] 广东省湛江市 移动'
-  - '[VMess] 广东省湛江市 移动 2'
   - '[VMess] 🇨🇦 _CA_加拿大'
   - '[VMess] 🇨🇳 _TW_台湾->🇺🇸_US_美国'
+  - '[Trojan] 🇨🇳 上海市 上海电信科技发展有限公司(中山南路111号)'
+  - '[Trojan] 🇨🇳 广东省广州市 电信'
   - '[VMess] 🇨🇳 广东省广州市 移动'
-  - '[Trojan] 🇨🇳 江苏省 移动'
-  - '[Trojan] 🇨🇳 江苏省 移动 2'
+  - '[VMess] 🇨🇳 广东省广州市 移动 2'
+  - '[VMess] 🇨🇳 广东省广州市 移动 3'
+  - '[VMess] 🇨🇳 广东省广州市 移动 4'
   - '[VMess] 🇩🇪 _US_美国->🇩🇪_DE_德国'
+  - '[VMess] 🇩🇪 德国 V2CROSS.COM'
   - '[VMess] 🇬🇧 _US_美国->🇬🇧_GB_英国_1'
   - '[VMess] 🇬🇧 _US_美国->🇬🇧_GB_英国_2'
   - '[VMess] 🇮🇳 _US_美国->🇮🇳_IN_印度_1'
@@ -460,7 +487,7 @@ proxy-groups:
   - '[VMess] 🇺🇸 _US_美国_5'
   - '[VMess] 🇺🇸 美国 CloudFlare节点'
   - '[VMess] 🇺🇸 美国 CloudFlare节点 2'
-  - '[VMess] 🇺🇸 美国 CloudFlare节点 3'
+  - '[VMess] 🇺🇸 美国 华盛顿Cogent通信公司'
   type: select
 - name: 📹 Youtube
   proxies:
@@ -470,16 +497,18 @@ proxy-groups:
   - 🇹🇼 台湾
   - 🇸🇬 新加坡
   - '[VMess] 吉林省 移动(全省通用)'
-  - '[VMess] 吉林省 移动(全省通用) 2'
-  - '[Trojan] 广东省 联通'
+  - '[VMess] 安徽省合肥市 移动'
   - '[VMess] 广东省湛江市 移动'
-  - '[VMess] 广东省湛江市 移动 2'
   - '[VMess] 🇨🇦 _CA_加拿大'
   - '[VMess] 🇨🇳 _TW_台湾->🇺🇸_US_美国'
+  - '[Trojan] 🇨🇳 上海市 上海电信科技发展有限公司(中山南路111号)'
+  - '[Trojan] 🇨🇳 广东省广州市 电信'
   - '[VMess] 🇨🇳 广东省广州市 移动'
-  - '[Trojan] 🇨🇳 江苏省 移动'
-  - '[Trojan] 🇨🇳 江苏省 移动 2'
+  - '[VMess] 🇨🇳 广东省广州市 移动 2'
+  - '[VMess] 🇨🇳 广东省广州市 移动 3'
+  - '[VMess] 🇨🇳 广东省广州市 移动 4'
   - '[VMess] 🇩🇪 _US_美国->🇩🇪_DE_德国'
+  - '[VMess] 🇩🇪 德国 V2CROSS.COM'
   - '[VMess] 🇬🇧 _US_美国->🇬🇧_GB_英国_1'
   - '[VMess] 🇬🇧 _US_美国->🇬🇧_GB_英国_2'
   - '[VMess] 🇮🇳 _US_美国->🇮🇳_IN_印度_1'
@@ -495,7 +524,7 @@ proxy-groups:
   - '[VMess] 🇺🇸 _US_美国_5'
   - '[VMess] 🇺🇸 美国 CloudFlare节点'
   - '[VMess] 🇺🇸 美国 CloudFlare节点 2'
-  - '[VMess] 🇺🇸 美国 CloudFlare节点 3'
+  - '[VMess] 🇺🇸 美国 华盛顿Cogent通信公司'
   type: select
 - name: ▶️ Disney+
   proxies:
@@ -505,16 +534,18 @@ proxy-groups:
   - 🇹🇼 台湾
   - 🇸🇬 新加坡
   - '[VMess] 吉林省 移动(全省通用)'
-  - '[VMess] 吉林省 移动(全省通用) 2'
-  - '[Trojan] 广东省 联通'
+  - '[VMess] 安徽省合肥市 移动'
   - '[VMess] 广东省湛江市 移动'
-  - '[VMess] 广东省湛江市 移动 2'
   - '[VMess] 🇨🇦 _CA_加拿大'
   - '[VMess] 🇨🇳 _TW_台湾->🇺🇸_US_美国'
+  - '[Trojan] 🇨🇳 上海市 上海电信科技发展有限公司(中山南路111号)'
+  - '[Trojan] 🇨🇳 广东省广州市 电信'
   - '[VMess] 🇨🇳 广东省广州市 移动'
-  - '[Trojan] 🇨🇳 江苏省 移动'
-  - '[Trojan] 🇨🇳 江苏省 移动 2'
+  - '[VMess] 🇨🇳 广东省广州市 移动 2'
+  - '[VMess] 🇨🇳 广东省广州市 移动 3'
+  - '[VMess] 🇨🇳 广东省广州市 移动 4'
   - '[VMess] 🇩🇪 _US_美国->🇩🇪_DE_德国'
+  - '[VMess] 🇩🇪 德国 V2CROSS.COM'
   - '[VMess] 🇬🇧 _US_美国->🇬🇧_GB_英国_1'
   - '[VMess] 🇬🇧 _US_美国->🇬🇧_GB_英国_2'
   - '[VMess] 🇮🇳 _US_美国->🇮🇳_IN_印度_1'
@@ -530,7 +561,7 @@ proxy-groups:
   - '[VMess] 🇺🇸 _US_美国_5'
   - '[VMess] 🇺🇸 美国 CloudFlare节点'
   - '[VMess] 🇺🇸 美国 CloudFlare节点 2'
-  - '[VMess] 🇺🇸 美国 CloudFlare节点 3'
+  - '[VMess] 🇺🇸 美国 华盛顿Cogent通信公司'
   type: select
 - name: 🌍 国外媒体
   proxies:
@@ -541,16 +572,18 @@ proxy-groups:
   - 🇹🇼 台湾
   - 🇸🇬 新加坡
   - '[VMess] 吉林省 移动(全省通用)'
-  - '[VMess] 吉林省 移动(全省通用) 2'
-  - '[Trojan] 广东省 联通'
+  - '[VMess] 安徽省合肥市 移动'
   - '[VMess] 广东省湛江市 移动'
-  - '[VMess] 广东省湛江市 移动 2'
   - '[VMess] 🇨🇦 _CA_加拿大'
   - '[VMess] 🇨🇳 _TW_台湾->🇺🇸_US_美国'
+  - '[Trojan] 🇨🇳 上海市 上海电信科技发展有限公司(中山南路111号)'
+  - '[Trojan] 🇨🇳 广东省广州市 电信'
   - '[VMess] 🇨🇳 广东省广州市 移动'
-  - '[Trojan] 🇨🇳 江苏省 移动'
-  - '[Trojan] 🇨🇳 江苏省 移动 2'
+  - '[VMess] 🇨🇳 广东省广州市 移动 2'
+  - '[VMess] 🇨🇳 广东省广州市 移动 3'
+  - '[VMess] 🇨🇳 广东省广州市 移动 4'
   - '[VMess] 🇩🇪 _US_美国->🇩🇪_DE_德国'
+  - '[VMess] 🇩🇪 德国 V2CROSS.COM'
   - '[VMess] 🇬🇧 _US_美国->🇬🇧_GB_英国_1'
   - '[VMess] 🇬🇧 _US_美国->🇬🇧_GB_英国_2'
   - '[VMess] 🇮🇳 _US_美国->🇮🇳_IN_印度_1'
@@ -566,7 +599,7 @@ proxy-groups:
   - '[VMess] 🇺🇸 _US_美国_5'
   - '[VMess] 🇺🇸 美国 CloudFlare节点'
   - '[VMess] 🇺🇸 美国 CloudFlare节点 2'
-  - '[VMess] 🇺🇸 美国 CloudFlare节点 3'
+  - '[VMess] 🇺🇸 美国 华盛顿Cogent通信公司'
   type: select
 - name: 📲 Telegram
   proxies:
@@ -591,16 +624,18 @@ proxy-groups:
   - 🇹🇼 台湾
   - 🇸🇬 新加坡
   - '[VMess] 吉林省 移动(全省通用)'
-  - '[VMess] 吉林省 移动(全省通用) 2'
-  - '[Trojan] 广东省 联通'
+  - '[VMess] 安徽省合肥市 移动'
   - '[VMess] 广东省湛江市 移动'
-  - '[VMess] 广东省湛江市 移动 2'
   - '[VMess] 🇨🇦 _CA_加拿大'
   - '[VMess] 🇨🇳 _TW_台湾->🇺🇸_US_美国'
+  - '[Trojan] 🇨🇳 上海市 上海电信科技发展有限公司(中山南路111号)'
+  - '[Trojan] 🇨🇳 广东省广州市 电信'
   - '[VMess] 🇨🇳 广东省广州市 移动'
-  - '[Trojan] 🇨🇳 江苏省 移动'
-  - '[Trojan] 🇨🇳 江苏省 移动 2'
+  - '[VMess] 🇨🇳 广东省广州市 移动 2'
+  - '[VMess] 🇨🇳 广东省广州市 移动 3'
+  - '[VMess] 🇨🇳 广东省广州市 移动 4'
   - '[VMess] 🇩🇪 _US_美国->🇩🇪_DE_德国'
+  - '[VMess] 🇩🇪 德国 V2CROSS.COM'
   - '[VMess] 🇬🇧 _US_美国->🇬🇧_GB_英国_1'
   - '[VMess] 🇬🇧 _US_美国->🇬🇧_GB_英国_2'
   - '[VMess] 🇮🇳 _US_美国->🇮🇳_IN_印度_1'
@@ -616,7 +651,7 @@ proxy-groups:
   - '[VMess] 🇺🇸 _US_美国_5'
   - '[VMess] 🇺🇸 美国 CloudFlare节点'
   - '[VMess] 🇺🇸 美国 CloudFlare节点 2'
-  - '[VMess] 🇺🇸 美国 CloudFlare节点 3'
+  - '[VMess] 🇺🇸 美国 华盛顿Cogent通信公司'
   type: select
 - name: 🇭🇰 香港
   proxies:
@@ -645,7 +680,7 @@ proxy-groups:
   - '[VMess] 🇺🇸 _US_美国_5'
   - '[VMess] 🇺🇸 美国 CloudFlare节点'
   - '[VMess] 🇺🇸 美国 CloudFlare节点 2'
-  - '[VMess] 🇺🇸 美国 CloudFlare节点 3'
+  - '[VMess] 🇺🇸 美国 华盛顿Cogent通信公司'
   type: select
 - name: 🇹🇼 台湾
   proxies:
