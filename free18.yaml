@@ -4,298 +4,686 @@ log-level: info
 mode: Rule
 port: 7890
 proxies:
-- name: 电报群：https://t.me/vvkj11
+- alterId: '0'
+  cipher: auto
+  name: 电报群：https://t.me/vvkj11
   network: tcp
-  password: 1b4c16925f934c57b954a9f0f23dea33
-  port: 8842
-  server: 42.240.152.238
-  skip-cert-verify: true
-  sni: brwx.spvpv.com
-  type: trojan
-  udp: true
-- name: 每天更新，请加电报群防止失联
+  port: '50002'
+  server: 112.132.215.12
+  type: vmess
+  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
+- alterId: '64'
+  cipher: auto
+  name: 每天更新，请加电报群防止失联
   network: tcp
-  password: 2b1ed981-6547-4094-998b-06a3323d6f6c
-  port: 21102
-  server: 120.233.44.201
-  skip-cert-verify: true
-  sni: k28.tudou211.com
-  type: trojan
-  udp: true
-- name: 日期：06-13
+  port: '50002'
+  server: 120.210.205.59
+  type: vmess
+  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
+- name: 日期：06-14
   network: tcp
-  password: 2b1ed981-6547-4094-998b-06a3323d6f6c
-  port: 21102
-  server: 120.233.44.201
+  port: 14258
+  server: rahman2.rahmancloud.ir
   skip-cert-verify: true
-  sni: k28.tudou211.com
-  type: trojan
+  tls: false
+  type: vless
   udp: true
+  uuid: 4ffa8cda-4a6e-49b6-a676-cbe0c8e48627
 - alterId: '0'
   cipher: auto
   name: 免费VPN：https://tt.vg/gwaAy
   network: tcp
-  port: '49174'
-  server: 120.234.102.229
+  port: '28860'
+  server: 51.81.203.57
   type: vmess
-  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
-- alterId: '0'
-  cipher: auto
-  name: 🇨🇳_中国_1
+  uuid: 1784497d-03a1-40bb-bb8b-de4ffac7c59c
+- name: 🇩🇪_德国_1
   network: tcp
-  port: '52352'
-  server: 120.232.153.123
-  type: vmess
-  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
-- alterId: '0'
-  cipher: auto
-  name: 🇨🇳_中国_2
-  network: tcp
-  port: '41024'
-  server: 183.236.51.38
-  type: vmess
-  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
-- alterId: '0'
-  cipher: auto
-  name: 🇨🇳_中国_3
-  network: tcp
-  port: '31209'
-  server: 120.232.153.40
-  type: vmess
-  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
-- alterId: '0'
-  cipher: auto
-  name: 🇨🇳_中国_4
-  network: tcp
-  port: '41491'
-  server: 120.232.153.41
-  type: vmess
-  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
-- alterId: '0'
-  cipher: auto
-  name: 🇨🇳_中国_5
-  network: tcp
-  port: '30052'
-  server: 183.236.51.38
-  type: vmess
-  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
-- alterId: '0'
-  cipher: auto
-  name: 🇨🇳_中国_6
-  network: tcp
-  port: '39076'
-  server: 183.238.90.8
-  type: vmess
-  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
-- alterId: '0'
-  cipher: auto
-  name: 🇨🇳_中国_7
-  network: tcp
-  port: '59082'
-  server: 120.198.71.216
-  type: vmess
-  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
-- name: 🇨🇳_中国_8
-  network: tcp
-  password: 6aaaf4f4-be44-11ed-a8bf-f23c91cfbbc9
-  port: 15229
-  server: 83157169-sxr340-syuosn-1mffg.cu.plebai.net
+  port: 18013
+  server: 188.34.185.192
   skip-cert-verify: true
-  sni: 83157169-sxr340-syuosn-1mffg.cu.plebai.net
+  tls: false
+  type: vless
+  udp: true
+  uuid: e362a7d3-0018-4910-a885-ea27a79d00c3
+- alterId: '0'
+  cipher: auto
+  name: 🇳🇱_荷兰_1
+  network: tcp
+  port: '58819'
+  server: 194.5.193.95
+  type: vmess
+  uuid: b0bf81e1-0b18-4253-a278-d516f580240a
+- name: 🇨🇳_中国_1
+  network: tcp
+  password: 2b1ed981-6547-4094-998b-06a3323d6f6c
+  port: 21179
+  server: 120.233.44.201
+  skip-cert-verify: true
+  sni: k30.tudou211.com
   type: trojan
   udp: true
-- alterId: '0'
-  cipher: auto
+- flow: xtls-rprx-vision
+  name: 🇯🇵_日本_1
+  network: tcp
+  port: 443
+  server: pq.aws48.yydjc.top
+  servername: buylite.tv.apple.com
+  skip-cert-verify: true
+  tls: false
+  type: vless
+  udp: true
+  uuid: d7b87208-dcbc-4396-9e5a-d2c5b32f2b09
+- flow: xtls-rprx-vision
+  name: 🇯🇵_日本_2
+  network: tcp
+  port: 443
+  server: pq.aws49.yydjc.top
+  servername: buylite.tv.apple.com
+  skip-cert-verify: true
+  tls: false
+  type: vless
+  udp: true
+  uuid: d7b87208-dcbc-4396-9e5a-d2c5b32f2b09
+- flow: xtls-rprx-vision
+  name: 🇯🇵_日本_3
+  network: tcp
+  port: 443
+  server: pq.aws50.yydjc.top
+  servername: tv.apple.com
+  skip-cert-verify: true
+  tls: false
+  type: vless
+  udp: true
+  uuid: d7b87208-dcbc-4396-9e5a-d2c5b32f2b09
+- flow: xtls-rprx-vision
+  name: 🇯🇵_日本_4
+  network: tcp
+  port: 443
+  server: pq.aws51.yydjc.top
+  servername: buylite.tv.apple.com
+  skip-cert-verify: true
+  tls: false
+  type: vless
+  udp: true
+  uuid: d7b87208-dcbc-4396-9e5a-d2c5b32f2b09
+- flow: xtls-rprx-vision
+  name: 🇧🇪_比利时
+  network: tcp
+  port: 443
+  server: pq.aws52.yydjc.top
+  servername: tv.apple.com
+  skip-cert-verify: true
+  tls: false
+  type: vless
+  udp: true
+  uuid: d7b87208-dcbc-4396-9e5a-d2c5b32f2b09
+- flow: xtls-rprx-vision
+  name: 🇺🇸_美国_1
+  network: tcp
+  port: 443
+  server: pq.aws53.yydjc.top
+  servername: buylite.tv.apple.com
+  skip-cert-verify: true
+  tls: false
+  type: vless
+  udp: true
+  uuid: d7b87208-dcbc-4396-9e5a-d2c5b32f2b09
+- flow: xtls-rprx-vision
+  name: 🇯🇵_日本_5
+  network: tcp
+  port: 443
+  server: pq.aws54.yydjc.top
+  servername: download-porter.hoyoverse.com
+  skip-cert-verify: true
+  tls: false
+  type: vless
+  udp: true
+  uuid: d7b87208-dcbc-4396-9e5a-d2c5b32f2b09
+- flow: xtls-rprx-vision
+  name: 🇺🇸_美国_2
+  network: tcp
+  port: 443
+  server: pq.aws55.yydjc.top
+  servername: download-porter.hoyoverse.com
+  skip-cert-verify: true
+  tls: false
+  type: vless
+  udp: true
+  uuid: d7b87208-dcbc-4396-9e5a-d2c5b32f2b09
+- flow: xtls-rprx-vision
+  name: 🇯🇵_日本_6
+  network: tcp
+  port: 443
+  server: pq.aws56.yydjc.top
+  servername: iosapps.itunes.apple.com
+  skip-cert-verify: true
+  tls: false
+  type: vless
+  udp: true
+  uuid: d7b87208-dcbc-4396-9e5a-d2c5b32f2b09
+- flow: xtls-rprx-vision
+  name: 🇯🇵_日本_7
+  network: tcp
+  port: 443
+  server: pq.aws57.yydjc.top
+  servername: iosapps.itunes.apple.com
+  skip-cert-verify: true
+  tls: false
+  type: vless
+  udp: true
+  uuid: d7b87208-dcbc-4396-9e5a-d2c5b32f2b09
+- flow: xtls-rprx-vision
+  name: 🇺🇸_美国_3
+  network: tcp
+  port: 443
+  server: pq.aws58.yydjc.top
+  servername: iosapps.itunes.apple.com
+  skip-cert-verify: true
+  tls: false
+  type: vless
+  udp: true
+  uuid: d7b87208-dcbc-4396-9e5a-d2c5b32f2b09
+- flow: xtls-rprx-vision
+  name: 🇸🇬_新加坡_1
+  network: tcp
+  port: 443
+  server: pq.aws59.yydjc.top
+  servername: iosapps.itunes.apple.com
+  skip-cert-verify: true
+  tls: false
+  type: vless
+  udp: true
+  uuid: d7b87208-dcbc-4396-9e5a-d2c5b32f2b09
+- flow: xtls-rprx-vision
+  name: 🇸🇬_新加坡_2
+  network: tcp
+  port: 443
+  server: pq.aws60.yydjc.top
+  servername: iosapps.itunes.apple.com
+  skip-cert-verify: true
+  tls: false
+  type: vless
+  udp: true
+  uuid: d7b87208-dcbc-4396-9e5a-d2c5b32f2b09
+- flow: xtls-rprx-vision
+  name: 🇺🇸_美国_4
+  network: tcp
+  port: 443
+  server: pq.aws61.yydjc.top
+  servername: iosapps.itunes.apple.com
+  skip-cert-verify: true
+  tls: false
+  type: vless
+  udp: true
+  uuid: d7b87208-dcbc-4396-9e5a-d2c5b32f2b09
+- flow: xtls-rprx-vision
+  name: 🇸🇬_新加坡_3
+  network: tcp
+  port: 443
+  server: pq.aws62.yydjc.top
+  servername: iosapps.itunes.apple.com
+  skip-cert-verify: true
+  tls: false
+  type: vless
+  udp: true
+  uuid: d7b87208-dcbc-4396-9e5a-d2c5b32f2b09
+- flow: xtls-rprx-vision
+  name: 🇸🇬_新加坡_4
+  network: tcp
+  port: 443
+  server: pq.aws63.yydjc.top
+  servername: iosapps.itunes.apple.com
+  skip-cert-verify: true
+  tls: false
+  type: vless
+  udp: true
+  uuid: d7b87208-dcbc-4396-9e5a-d2c5b32f2b09
+- flow: xtls-rprx-vision
+  name: 🇸🇬_新加坡_5
+  network: tcp
+  port: 443
+  server: pq.aws64.yydjc.top
+  servername: iosapps.itunes.apple.com
+  skip-cert-verify: true
+  tls: false
+  type: vless
+  udp: true
+  uuid: d7b87208-dcbc-4396-9e5a-d2c5b32f2b09
+- flow: xtls-rprx-vision
+  name: 🇸🇬_新加坡_6
+  network: tcp
+  port: 443
+  server: pq.aws65.yydjc.top
+  servername: iosapps.itunes.apple.com
+  skip-cert-verify: true
+  tls: false
+  type: vless
+  udp: true
+  uuid: d7b87208-dcbc-4396-9e5a-d2c5b32f2b09
+- flow: xtls-rprx-vision
+  name: 🇺🇸_美国_5
+  network: tcp
+  port: 443
+  server: 131.186.22.238
+  servername: buylite.music.apple.com
+  skip-cert-verify: true
+  tls: false
+  type: vless
+  udp: true
+  uuid: d7b87208-dcbc-4396-9e5a-d2c5b32f2b09
+- flow: xtls-rprx-vision
+  name: 🇨🇳_中国_2
+  network: tcp
+  port: 443
+  server: pq.aws11.yydjc.top
+  servername: download-porter.hoyoverse.com
+  skip-cert-verify: true
+  tls: false
+  type: vless
+  udp: true
+  uuid: d7b87208-dcbc-4396-9e5a-d2c5b32f2b09
+- flow: xtls-rprx-vision
+  name: 🇨🇳_中国_3
+  network: tcp
+  port: 443
+  server: pq.aws12.yydjc.top
+  servername: download-porter.hoyoverse.com
+  skip-cert-verify: true
+  tls: false
+  type: vless
+  udp: true
+  uuid: d7b87208-dcbc-4396-9e5a-d2c5b32f2b09
+- flow: xtls-rprx-vision
+  name: 🇨🇳_中国_4
+  network: tcp
+  port: 443
+  server: pq.aws13.yydjc.top
+  servername: cdn-dynmedia-1.microsoft.com
+  skip-cert-verify: true
+  tls: false
+  type: vless
+  udp: true
+  uuid: d7b87208-dcbc-4396-9e5a-d2c5b32f2b09
+- flow: xtls-rprx-vision
+  name: 🇨🇳_中国_5
+  network: tcp
+  port: 443
+  server: pq.aws14.yydjc.top
+  servername: www.mi.com
+  skip-cert-verify: true
+  tls: false
+  type: vless
+  udp: true
+  uuid: d7b87208-dcbc-4396-9e5a-d2c5b32f2b09
+- flow: xtls-rprx-vision
+  name: 🇨🇳_中国_6
+  network: tcp
+  port: 443
+  server: pq.aws15.yydjc.top
+  servername: dyn.felissimo.co.jp
+  skip-cert-verify: true
+  tls: false
+  type: vless
+  udp: true
+  uuid: d7b87208-dcbc-4396-9e5a-d2c5b32f2b09
+- flow: xtls-rprx-vision
+  name: 🇨🇳_中国_7
+  network: tcp
+  port: 443
+  server: pq.hinet.tw1.yydjc.top
+  servername: download.yydjc.top
+  skip-cert-verify: true
+  tls: true
+  type: vless
+  udp: true
+  uuid: d7b87208-dcbc-4396-9e5a-d2c5b32f2b09
+- flow: xtls-rprx-vision
+  name: 🇨🇳_中国_8
+  network: tcp
+  port: 443
+  server: pq.hinet.tw2.yydjc.top
+  servername: download.yydjc.top
+  skip-cert-verify: true
+  tls: true
+  type: vless
+  udp: true
+  uuid: d7b87208-dcbc-4396-9e5a-d2c5b32f2b09
+- flow: xtls-rprx-vision
   name: 🇨🇳_中国_9
   network: tcp
-  port: '46159'
-  server: 120.198.71.216
-  type: vmess
-  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
-- alterId: '0'
-  cipher: auto
-  name: 🇨🇳_中国_10
+  port: 443
+  server: pq.hinet.tw3.yydjc.top
+  servername: download.yydjc.top
+  skip-cert-verify: true
+  tls: true
+  type: vless
+  udp: true
+  uuid: d7b87208-dcbc-4396-9e5a-d2c5b32f2b09
+- flow: xtls-rprx-vision
+  name: 🇺🇸_美国_6
   network: tcp
-  port: '49355'
-  server: 120.198.71.219
-  type: vmess
-  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
-- alterId: '0'
-  cipher: auto
-  name: 🇨🇳_中国_11
+  port: 443
+  server: 146.235.208.162
+  servername: dcpqjs.yydjc.top
+  skip-cert-verify: true
+  tls: true
+  type: vless
+  udp: true
+  uuid: d7b87208-dcbc-4396-9e5a-d2c5b32f2b09
+- flow: xtls-rprx-vision
+  name: 🇺🇸_美国_7
   network: tcp
-  port: '41766'
-  server: 183.238.90.8
-  type: vmess
-  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
-- alterId: '0'
-  cipher: auto
-  name: 🇨🇳_中国_12
+  port: 443
+  server: 146.235.228.34
+  servername: dcpqjs.yydjc.top
+  skip-cert-verify: true
+  tls: true
+  type: vless
+  udp: true
+  uuid: d7b87208-dcbc-4396-9e5a-d2c5b32f2b09
+- flow: xtls-rprx-vision
+  name: 🇺🇸_美国_8
   network: tcp
-  port: '41175'
-  server: 120.198.71.214
-  type: vmess
-  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
-- alterId: '0'
-  cipher: auto
-  name: 🇨🇳_中国_13
+  port: 443
+  server: 140.245.43.199
+  servername: tv.apple.com
+  skip-cert-verify: true
+  tls: false
+  type: vless
+  udp: true
+  uuid: d7b87208-dcbc-4396-9e5a-d2c5b32f2b09
+- flow: xtls-rprx-vision
+  name: 🇺🇸_美国_9
   network: tcp
-  port: '49554'
-  server: 183.236.51.38
-  type: vmess
-  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
-- alterId: '0'
-  cipher: auto
-  name: 🇨🇳_中国_14
+  port: 443
+  server: 140.245.58.56
+  servername: tv.apple.com
+  skip-cert-verify: true
+  tls: false
+  type: vless
+  udp: true
+  uuid: d7b87208-dcbc-4396-9e5a-d2c5b32f2b09
+- flow: xtls-rprx-vision
+  name: 🇬🇧_英国_1
   network: tcp
-  port: '36519'
-  server: 183.236.51.38
-  type: vmess
-  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
-- alterId: '0'
-  cipher: auto
-  name: 🇨🇳_中国_15
+  port: 443
+  server: 213.35.108.22
+  servername: buylite.music.apple.com
+  skip-cert-verify: true
+  tls: false
+  type: vless
+  udp: true
+  uuid: d7b87208-dcbc-4396-9e5a-d2c5b32f2b09
+- flow: xtls-rprx-vision
+  name: 🇧🇷_巴西_1
   network: tcp
-  port: '41302'
-  server: 183.236.51.38
-  type: vmess
-  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
-- alterId: '0'
-  cipher: auto
-  name: 🇨🇳_中国_16
+  port: 443
+  server: 168.138.165.109
+  servername: buylite.music.apple.com
+  skip-cert-verify: true
+  tls: false
+  type: vless
+  udp: true
+  uuid: d7b87208-dcbc-4396-9e5a-d2c5b32f2b09
+- flow: xtls-rprx-vision
+  name: 🇺🇸_美国_10
   network: tcp
-  port: '30915'
-  server: 120.198.71.219
-  type: vmess
-  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
-- alterId: '0'
-  cipher: auto
-  name: 🇨🇳_中国_17
+  port: 443
+  server: 152.70.99.180
+  servername: buylite.music.apple.com
+  skip-cert-verify: true
+  tls: false
+  type: vless
+  udp: true
+  uuid: d7b87208-dcbc-4396-9e5a-d2c5b32f2b09
+- name: 🇺🇸_美国_11
   network: tcp
-  port: '37805'
-  server: 120.232.153.63
-  type: vmess
-  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
-- alterId: '0'
-  cipher: auto
-  name: 🇨🇳_中国_18
+  password: c85761bc-5d74-4ae5-b525-0d32443182fa
+  port: 443
+  server: jp.mjt000.com
+  skip-cert-verify: true
+  sni: jp.mjt000.com
+  type: trojan
+  udp: true
+- name: 🇺🇸_美国_12
   network: tcp
-  port: '43292'
-  server: 120.232.153.40
-  type: vmess
-  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
-- alterId: '0'
-  cipher: auto
-  name: 🇨🇳_中国_19
+  password: c85761bc-5d74-4ae5-b525-0d32443182fa
+  port: 443
+  server: sg.mjt000.com
+  skip-cert-verify: true
+  sni: sg.mjt000.com
+  type: trojan
+  udp: true
+- name: 🇺🇸_美国_13
   network: tcp
-  port: '46920'
-  server: 183.238.90.8
-  type: vmess
-  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
-- alterId: '0'
-  cipher: auto
-  name: 🇨🇳_中国_20
-  network: tcp
-  port: '51095'
-  server: 120.198.71.219
-  type: vmess
-  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
-- name: 🇺🇸_美国_1
-  network: tcp
-  password: 70d38694-8b6e-4328-a3a4-e6f5503e8503
+  password: c85761bc-5d74-4ae5-b525-0d32443182fa
   port: 443
   server: kh.mjt000.com
   skip-cert-verify: true
   sni: kh.mjt000.com
   type: trojan
   udp: true
-- alterId: '0'
-  cipher: auto
-  name: 🇺🇸_美国_2
+- name: 🇺🇸_美国_14
   network: tcp
-  port: '56051'
-  server: 38.47.176.251
-  type: vmess
-  uuid: 2bca3569-0662-47f7-fdf8-421f30e71f44
-- alterId: '0'
-  cipher: auto
-  name: 🇺🇸_美国_3
+  password: c85761bc-5d74-4ae5-b525-0d32443182fa
+  port: 443
+  server: usla.mjt000.com
+  skip-cert-verify: true
+  sni: usla.mjt000.com
+  type: trojan
+  udp: true
+- name: 🇺🇸_美国_15
   network: tcp
-  port: '15002'
-  server: 15002.kuaiyin02.top
-  type: vmess
-  uuid: 9f513161-576b-3abc-9c98-06e52c3a24c6
-- name: 🇨🇳_中国_21
+  password: c85761bc-5d74-4ae5-b525-0d32443182fa
+  port: 443
+  server: waphk.mjt000.com
+  skip-cert-verify: true
+  sni: waphk.mjt000.com
+  type: trojan
+  udp: true
+- name: 🇺🇸_美国_16
+  network: tcp
+  password: c85761bc-5d74-4ae5-b525-0d32443182fa
+  port: 443
+  server: hinet.mjt000.com
+  skip-cert-verify: true
+  sni: hinet.mjt000.com
+  type: trojan
+  udp: true
+- name: 🇺🇸_美国_17
+  network: tcp
+  password: c85761bc-5d74-4ae5-b525-0d32443182fa
+  port: 443
+  server: vn.mjt000.com
+  skip-cert-verify: true
+  sni: vn.mjt000.com
+  type: trojan
+  udp: true
+- name: 🇺🇸_美国_18
+  network: tcp
+  password: c85761bc-5d74-4ae5-b525-0d32443182fa
+  port: 443
+  server: au.mjt000.com
+  skip-cert-verify: true
+  sni: au.mjt000.com
+  type: trojan
+  udp: true
+- name: 🇺🇸_美国_19
+  network: tcp
+  password: c85761bc-5d74-4ae5-b525-0d32443182fa
+  port: 443
+  server: tr.mjt000.com
+  skip-cert-verify: true
+  sni: tr.mjt000.com
+  type: trojan
+  udp: true
+- name: 🇺🇸_美国_20
+  network: tcp
+  password: c85761bc-5d74-4ae5-b525-0d32443182fa
+  port: 443
+  server: kp.mjt000.com
+  skip-cert-verify: true
+  sni: kp.mjt000.com
+  type: trojan
+  udp: true
+- name: 🇺🇸_美国_21
+  network: tcp
+  password: c85761bc-5d74-4ae5-b525-0d32443182fa
+  port: 443
+  server: it.mjt000.com
+  skip-cert-verify: true
+  sni: it.mjt000.com
+  type: trojan
+  udp: true
+- name: 🇺🇸_美国_22
+  network: tcp
+  password: c85761bc-5d74-4ae5-b525-0d32443182fa
+  port: 443
+  server: pt.mjt000.com
+  skip-cert-verify: true
+  sni: pt.mjt000.com
+  type: trojan
+  udp: true
+- name: 🇺🇸_美国_23
+  network: tcp
+  password: c85761bc-5d74-4ae5-b525-0d32443182fa
+  port: 443
+  server: ru.mjt000.com
+  skip-cert-verify: true
+  sni: ru.mjt000.com
+  type: trojan
+  udp: true
+- name: 🇺🇸_美国_24
+  network: tcp
+  password: c85761bc-5d74-4ae5-b525-0d32443182fa
+  port: 443
+  server: kz.mjt000.com
+  skip-cert-verify: true
+  sni: kz.mjt000.com
+  type: trojan
+  udp: true
+- name: 🇺🇸_美国_25
+  network: tcp
+  password: c85761bc-5d74-4ae5-b525-0d32443182fa
+  port: 443
+  server: ua.mjt000.com
+  skip-cert-verify: true
+  sni: ua.mjt000.com
+  type: trojan
+  udp: true
+- name: 🇺🇸_美国_26
+  network: tcp
+  password: c85761bc-5d74-4ae5-b525-0d32443182fa
+  port: 443
+  server: il.mjt000.com
+  skip-cert-verify: true
+  sni: il.mjt000.com
+  type: trojan
+  udp: true
+- name: 🇺🇸_美国_27
+  network: tcp
+  password: c85761bc-5d74-4ae5-b525-0d32443182fa
+  port: 443
+  server: uk.mjt000.com
+  skip-cert-verify: true
+  sni: uk.mjt000.com
+  type: trojan
+  udp: true
+- name: 🇺🇸_美国_28
+  network: tcp
+  password: c85761bc-5d74-4ae5-b525-0d32443182fa
+  port: 443
+  server: ni.mjt000.com
+  skip-cert-verify: true
+  sni: ni.mjt000.com
+  type: trojan
+  udp: true
+- name: 🇨🇳_中国_10
+  network: ws
+  port: 21698
+  server: 156.251.180.181
+  servername: edmz.ambercc.filegear-sg.me
+  skip-cert-verify: true
+  tls: true
+  type: vless
+  udp: true
+  uuid: ee6774c0-9b19-4ff1-8b30-2da4b71977e2
+  ws-opts:
+    headers:
+      host: edmz.ambercc.filegear-sg.me
+    path: /?ed=2560&proxyip=ts.hpc.tw
+- name: 🇯🇵_日本_8
+  network: ws
+  port: 12145
+  server: 202.84.53.85
+  servername: ss.bgm2024.dpdns.org
+  skip-cert-verify: true
+  tls: true
+  type: vless
+  udp: true
+  uuid: 55520747-311e-4015-83ce-be46e2060ce3
+  ws-opts:
+    headers:
+      host: ss.bgm2024.dpdns.org
+    path: /?ed=2560
+- name: 🇨🇳_中国_11
+  network: ws
+  port: 80
+  server: 8.210.92.24
+  servername: edmz.ambercc.filegear-sg.me
+  skip-cert-verify: true
+  tls: true
+  type: vless
+  udp: true
+  uuid: ee6774c0-9b19-4ff1-8b30-2da4b71977e2
+  ws-opts:
+    headers:
+      host: edmz.ambercc.filegear-sg.me
+    path: /?ed=2560&proxyip=ts.hpc.tw
+- name: 🇺🇸_美国_29
+  network: ws
+  port: 10443
+  server: 20.243.85.49
+  servername: edmz.ambercc.filegear-sg.me
+  skip-cert-verify: true
+  tls: true
+  type: vless
+  udp: true
+  uuid: ee6774c0-9b19-4ff1-8b30-2da4b71977e2
+  ws-opts:
+    headers:
+      host: edmz.ambercc.filegear-sg.me
+    path: /?ed=2560&proxyip=ts.hpc.tw
+- name: 🇺🇸_美国_30
+  network: ws
+  port: 443
+  server: 47.76.218.163
+  servername: edmc.ambercc.filegear-sg.me
+  skip-cert-verify: true
+  tls: true
+  type: vless
+  udp: true
+  uuid: ee6774c0-9b19-4ff1-8b30-2da4b71977e2
+  ws-opts:
+    headers:
+      host: edmc.ambercc.filegear-sg.me
+    path: /?ed=2560&proxyip=ts.hpc.tw
+- name: 🇨🇳_中国_12
   network: ws
   port: 443
   server: 103.44.255.81
-  servername: hz.ylks0033.dpdns.org
+  servername: ss.bgm2024.dpdns.org
   skip-cert-verify: true
   tls: true
   type: vless
   udp: true
-  uuid: 06e4425e-a8cb-4b63-929f-2105604ab0a9
+  uuid: 55520747-311e-4015-83ce-be46e2060ce3
   ws-opts:
     headers:
-      host: hz.ylks0033.dpdns.org
+      host: ss.bgm2024.dpdns.org
     path: /?ed=2560
-- name: 🇺🇸_美国_4
-  network: ws
-  port: 10443
-  server: 20.243.85.49
-  servername: edmx.aimercc.filegear-sg.me
-  skip-cert-verify: true
-  tls: true
-  type: vless
-  udp: true
-  uuid: ee6774c0-9b19-4ff1-8b30-2da4b71977e2
-  ws-opts:
-    headers:
-      host: edmx.aimercc.filegear-sg.me
-    path: /?ed=2560&proxyip=ts.hpc.tw
-- name: 🇺🇸_美国_5
-  network: ws
-  port: 10443
-  server: 20.243.85.49
-  servername: edmz.aimercc.filegear-sg.me
-  skip-cert-verify: true
-  tls: true
-  type: vless
-  udp: true
-  uuid: ee6774c0-9b19-4ff1-8b30-2da4b71977e2
-  ws-opts:
-    headers:
-      host: edmz.aimercc.filegear-sg.me
-    path: /?ed=2560&proxyip=ts.hpc.tw
-- name: 🇨🇳_中国_22
-  network: ws
-  port: 587
-  server: 8.210.213.159
-  servername: edmz.aimercc.filegear-sg.me
-  skip-cert-verify: true
-  tls: true
-  type: vless
-  udp: true
-  uuid: ee6774c0-9b19-4ff1-8b30-2da4b71977e2
-  ws-opts:
-    headers:
-      host: edmz.aimercc.filegear-sg.me
-    path: /?ed=2560&proxyip=ts.hpc.tw
-- name: 🇨🇳_中国_23
-  network: ws
-  port: 81
-  server: 210.61.97.241
-  servername: hz.ylks0033.dpdns.org
-  skip-cert-verify: true
-  tls: true
-  type: vless
-  udp: true
-  uuid: 06e4425e-a8cb-4b63-929f-2105604ab0a9
-  ws-opts:
-    headers:
-      host: hz.ylks0033.dpdns.org
-    path: /?ed=2560
-- name: 🇨🇳_中国_24
+- name: 🇨🇳_中国_13
   network: ws
   port: 81
   server: 210.61.97.241
@@ -308,40 +696,12 @@ proxies:
   ws-opts:
     headers:
       host: edmx.aimercc.filegear-sg.me
-    path: /?ed=2560&proxyip=ts.hpc.tw
-- name: 🇨🇳_中国_25
-  network: ws
-  port: 81
-  server: 210.61.97.241
-  servername: hz.ylks0033.dpdns.org
-  skip-cert-verify: true
-  tls: true
-  type: vless
-  udp: true
-  uuid: 06e4425e-a8cb-4b63-929f-2105604ab0a9
-  ws-opts:
-    headers:
-      host: hz.ylks0033.dpdns.org
-    path: /?ed=2560
-- name: 🇨🇳_中国_26
-  network: ws
-  port: 81
-  server: 210.61.97.241
-  servername: edmz.aimercc.filegear-sg.me
-  skip-cert-verify: true
-  tls: true
-  type: vless
-  udp: true
-  uuid: ee6774c0-9b19-4ff1-8b30-2da4b71977e2
-  ws-opts:
-    headers:
-      host: edmz.aimercc.filegear-sg.me
     path: /?ed=2560&proxyip=ts.hpc.tw
 - name: 🇰🇷_韩国_1
   network: ws
-  port: 12147
-  server: 220.118.236.239
-  servername: edmx.aimercc.filegear-sg.me
+  port: 50000
+  server: 125.208.102.111
+  servername: edmz.ambercc.filegear-sg.me
   skip-cert-verify: true
   tls: true
   type: vless
@@ -349,13 +709,13 @@ proxies:
   uuid: ee6774c0-9b19-4ff1-8b30-2da4b71977e2
   ws-opts:
     headers:
-      host: edmx.aimercc.filegear-sg.me
+      host: edmz.ambercc.filegear-sg.me
     path: /?ed=2560&proxyip=ts.hpc.tw
 - name: 🇰🇷_韩国_2
   network: ws
   port: 50000
-  server: 222.113.39.207
-  servername: edmx.aimercc.filegear-sg.me
+  server: 14.47.136.79
+  servername: edmc.ambercc.filegear-sg.me
   skip-cert-verify: true
   tls: true
   type: vless
@@ -363,41 +723,41 @@ proxies:
   uuid: ee6774c0-9b19-4ff1-8b30-2da4b71977e2
   ws-opts:
     headers:
-      host: edmx.aimercc.filegear-sg.me
+      host: edmc.ambercc.filegear-sg.me
     path: /?ed=2560&proxyip=ts.hpc.tw
 - name: 🇰🇷_韩国_3
   network: ws
-  port: 12147
-  server: 220.118.236.239
-  servername: edmz.aimercc.filegear-sg.me
+  port: 12340
+  server: 183.106.76.116
+  servername: ss.bgm2024.dpdns.org
   skip-cert-verify: true
   tls: true
   type: vless
   udp: true
-  uuid: ee6774c0-9b19-4ff1-8b30-2da4b71977e2
+  uuid: 55520747-311e-4015-83ce-be46e2060ce3
   ws-opts:
     headers:
-      host: edmz.aimercc.filegear-sg.me
-    path: /?ed=2560&proxyip=ts.hpc.tw
+      host: ss.bgm2024.dpdns.org
+    path: /?ed=2560
 - name: 🇰🇷_韩国_4
   network: ws
-  port: 11481
-  server: 119.197.201.29
-  servername: hz.ylks0033.dpdns.org
+  port: 50000
+  server: 221.164.142.10
+  servername: ss.bgm2024.dpdns.org
   skip-cert-verify: true
   tls: true
   type: vless
   udp: true
-  uuid: 06e4425e-a8cb-4b63-929f-2105604ab0a9
+  uuid: 55520747-311e-4015-83ce-be46e2060ce3
   ws-opts:
     headers:
-      host: hz.ylks0033.dpdns.org
+      host: ss.bgm2024.dpdns.org
     path: /?ed=2560
 - name: 🇰🇷_韩国_5
   network: ws
-  port: 12185
-  server: 220.71.199.115
-  servername: edmx.aimercc.filegear-sg.me
+  port: 10894
+  server: 210.100.138.35
+  servername: edmc.ambercc.filegear-sg.me
   skip-cert-verify: true
   tls: true
   type: vless
@@ -405,97 +765,41 @@ proxies:
   uuid: ee6774c0-9b19-4ff1-8b30-2da4b71977e2
   ws-opts:
     headers:
-      host: edmx.aimercc.filegear-sg.me
+      host: edmc.ambercc.filegear-sg.me
     path: /?ed=2560&proxyip=ts.hpc.tw
 - name: 🇰🇷_韩国_6
   network: ws
-  port: 12318
-  server: 59.25.82.79
-  servername: hz.ylks0033.dpdns.org
+  port: 50000
+  server: 14.53.224.175
+  servername: edmz.ambercc.filegear-sg.me
   skip-cert-verify: true
   tls: true
   type: vless
   udp: true
-  uuid: 06e4425e-a8cb-4b63-929f-2105604ab0a9
+  uuid: ee6774c0-9b19-4ff1-8b30-2da4b71977e2
   ws-opts:
     headers:
-      host: hz.ylks0033.dpdns.org
-    path: /?ed=2560
+      host: edmz.ambercc.filegear-sg.me
+    path: /?ed=2560&proxyip=ts.hpc.tw
 - name: 🇰🇷_韩国_7
   network: ws
-  port: 12318
-  server: 59.25.82.79
-  servername: hz.ylks0033.dpdns.org
+  port: 19222
+  server: 121.163.244.186
+  servername: ss.bgm2024.dpdns.org
   skip-cert-verify: true
   tls: true
   type: vless
   udp: true
-  uuid: 06e4425e-a8cb-4b63-929f-2105604ab0a9
+  uuid: 55520747-311e-4015-83ce-be46e2060ce3
   ws-opts:
     headers:
-      host: hz.ylks0033.dpdns.org
+      host: ss.bgm2024.dpdns.org
     path: /?ed=2560
 - name: 🇰🇷_韩国_8
   network: ws
-  port: 14401
-  server: 222.102.151.29
-  servername: edmz.aimercc.filegear-sg.me
-  skip-cert-verify: true
-  tls: true
-  type: vless
-  udp: true
-  uuid: ee6774c0-9b19-4ff1-8b30-2da4b71977e2
-  ws-opts:
-    headers:
-      host: edmz.aimercc.filegear-sg.me
-    path: /?ed=2560&proxyip=ts.hpc.tw
-- name: 🇰🇷_韩国_9
-  network: ws
-  port: 14401
-  server: 222.102.151.29
-  servername: edmx.aimercc.filegear-sg.me
-  skip-cert-verify: true
-  tls: true
-  type: vless
-  udp: true
-  uuid: ee6774c0-9b19-4ff1-8b30-2da4b71977e2
-  ws-opts:
-    headers:
-      host: edmx.aimercc.filegear-sg.me
-    path: /?ed=2560&proxyip=ts.hpc.tw
-- name: 🇰🇷_韩国_10
-  network: ws
-  port: 12185
-  server: 220.71.199.115
-  servername: edmz.aimercc.filegear-sg.me
-  skip-cert-verify: true
-  tls: true
-  type: vless
-  udp: true
-  uuid: ee6774c0-9b19-4ff1-8b30-2da4b71977e2
-  ws-opts:
-    headers:
-      host: edmz.aimercc.filegear-sg.me
-    path: /?ed=2560&proxyip=ts.hpc.tw
-- name: 🇰🇷_韩国_11
-  network: ws
-  port: 12318
-  server: 59.25.82.79
-  servername: hz.ylks0033.dpdns.org
-  skip-cert-verify: true
-  tls: true
-  type: vless
-  udp: true
-  uuid: 06e4425e-a8cb-4b63-929f-2105604ab0a9
-  ws-opts:
-    headers:
-      host: hz.ylks0033.dpdns.org
-    path: /?ed=2560
-- name: 🇰🇷_韩国_12
-  network: ws
   port: 50000
-  server: 222.113.39.207
-  servername: edmz.aimercc.filegear-sg.me
+  server: 121.139.174.91
+  servername: edmc.ambercc.filegear-sg.me
   skip-cert-verify: true
   tls: true
   type: vless
@@ -503,1847 +807,13 @@ proxies:
   uuid: ee6774c0-9b19-4ff1-8b30-2da4b71977e2
   ws-opts:
     headers:
-      host: edmz.aimercc.filegear-sg.me
-    path: /?ed=2560&proxyip=ts.hpc.tw
-- name: 🇺🇸_美国_6
-  network: ws
-  port: 443
-  server: 104.17.219.208
-  servername: hz.ylks0033.dpdns.org
-  skip-cert-verify: true
-  tls: true
-  type: vless
-  udp: true
-  uuid: 06e4425e-a8cb-4b63-929f-2105604ab0a9
-  ws-opts:
-    headers:
-      host: hz.ylks0033.dpdns.org
-    path: /?ed=2560
-- name: 🇺🇸_美国_7
-  network: ws
-  port: 443
-  server: 154.21.83.154
-  servername: edmx.aimercc.filegear-sg.me
-  skip-cert-verify: true
-  tls: true
-  type: vless
-  udp: true
-  uuid: ee6774c0-9b19-4ff1-8b30-2da4b71977e2
-  ws-opts:
-    headers:
-      host: edmx.aimercc.filegear-sg.me
-    path: /?ed=2560&proxyip=ts.hpc.tw
-- name: 🇺🇸_美国_8
-  network: ws
-  port: 443
-  server: 154.21.83.154
-  servername: edmz.aimercc.filegear-sg.me
-  skip-cert-verify: true
-  tls: true
-  type: vless
-  udp: true
-  uuid: ee6774c0-9b19-4ff1-8b30-2da4b71977e2
-  ws-opts:
-    headers:
-      host: edmz.aimercc.filegear-sg.me
-    path: /?ed=2560&proxyip=ts.hpc.tw
-- name: 🇺🇸_美国_9
-  network: ws
-  port: 443
-  server: 104.16.249.174
-  servername: hz.ylks0033.dpdns.org
-  skip-cert-verify: true
-  tls: true
-  type: vless
-  udp: true
-  uuid: 06e4425e-a8cb-4b63-929f-2105604ab0a9
-  ws-opts:
-    headers:
-      host: hz.ylks0033.dpdns.org
-    path: /?ed=2560
-- name: 🇺🇸_美国_10
-  network: ws
-  port: 443
-  server: 104.19.145.14
-  servername: hz.ylks0033.dpdns.org
-  skip-cert-verify: true
-  tls: true
-  type: vless
-  udp: true
-  uuid: 06e4425e-a8cb-4b63-929f-2105604ab0a9
-  ws-opts:
-    headers:
-      host: hz.ylks0033.dpdns.org
-    path: /?ed=2560
-- name: 🇺🇸_美国_11
-  network: ws
-  port: 16031
-  server: 152.70.101.24
-  servername: edmz.aimercc.filegear-sg.me
-  skip-cert-verify: true
-  tls: true
-  type: vless
-  udp: true
-  uuid: ee6774c0-9b19-4ff1-8b30-2da4b71977e2
-  ws-opts:
-    headers:
-      host: edmz.aimercc.filegear-sg.me
-    path: /?ed=2560&proxyip=ts.hpc.tw
-- name: 🇺🇸_美国_12
-  network: ws
-  port: 443
-  server: 104.17.219.208
-  servername: hz.ylks0033.dpdns.org
-  skip-cert-verify: true
-  tls: true
-  type: vless
-  udp: true
-  uuid: 06e4425e-a8cb-4b63-929f-2105604ab0a9
-  ws-opts:
-    headers:
-      host: hz.ylks0033.dpdns.org
-    path: /?ed=2560
-- name: 🇺🇸_美国_13
-  network: ws
-  port: 443
-  server: 104.18.93.7
-  servername: hz.ylks0033.dpdns.org
-  skip-cert-verify: true
-  tls: true
-  type: vless
-  udp: true
-  uuid: 06e4425e-a8cb-4b63-929f-2105604ab0a9
-  ws-opts:
-    headers:
-      host: hz.ylks0033.dpdns.org
-    path: /?ed=2560
-- name: 🇺🇸_美国_14
-  network: ws
-  port: 443
-  server: 104.19.150.163
-  servername: hz.ylks0033.dpdns.org
-  skip-cert-verify: true
-  tls: true
-  type: vless
-  udp: true
-  uuid: 06e4425e-a8cb-4b63-929f-2105604ab0a9
-  ws-opts:
-    headers:
-      host: hz.ylks0033.dpdns.org
-    path: /?ed=2560
-- name: 🇺🇸_美国_15
-  network: ws
-  port: 16031
-  server: 152.70.101.24
-  servername: edmx.aimercc.filegear-sg.me
-  skip-cert-verify: true
-  tls: true
-  type: vless
-  udp: true
-  uuid: ee6774c0-9b19-4ff1-8b30-2da4b71977e2
-  ws-opts:
-    headers:
-      host: edmx.aimercc.filegear-sg.me
-    path: /?ed=2560&proxyip=ts.hpc.tw
-- name: 🇺🇸_美国_16
-  network: ws
-  port: 443
-  server: 104.19.145.14
-  servername: hz.ylks0033.dpdns.org
-  skip-cert-verify: true
-  tls: true
-  type: vless
-  udp: true
-  uuid: 06e4425e-a8cb-4b63-929f-2105604ab0a9
-  ws-opts:
-    headers:
-      host: hz.ylks0033.dpdns.org
-    path: /?ed=2560
-- name: 🇧🇷_巴西_1
-  network: ws
-  port: 50003
-  server: 168.138.213.1
-  servername: edmx.aimercc.filegear-sg.me
-  skip-cert-verify: true
-  tls: true
-  type: vless
-  udp: true
-  uuid: ee6774c0-9b19-4ff1-8b30-2da4b71977e2
-  ws-opts:
-    headers:
-      host: edmx.aimercc.filegear-sg.me
-    path: /?ed=2560&proxyip=ts.hpc.tw
-- name: 🇷🇺_俄罗斯_1
-  network: ws
-  port: 443
-  server: 217.30.10.55
-  servername: edmx.aimercc.filegear-sg.me
-  skip-cert-verify: true
-  tls: true
-  type: vless
-  udp: true
-  uuid: ee6774c0-9b19-4ff1-8b30-2da4b71977e2
-  ws-opts:
-    headers:
-      host: edmx.aimercc.filegear-sg.me
-    path: /?ed=2560&proxyip=ts.hpc.tw
-- name: 🇺🇸_美国_17
-  network: ws
-  port: 443
-  server: 104.18.147.201
-  servername: hz.ylks0033.dpdns.org
-  skip-cert-verify: true
-  tls: true
-  type: vless
-  udp: true
-  uuid: 06e4425e-a8cb-4b63-929f-2105604ab0a9
-  ws-opts:
-    headers:
-      host: hz.ylks0033.dpdns.org
-    path: /?ed=2560
-- name: 🇧🇷_巴西_2
-  network: ws
-  port: 50003
-  server: 168.138.213.1
-  servername: edmz.aimercc.filegear-sg.me
-  skip-cert-verify: true
-  tls: true
-  type: vless
-  udp: true
-  uuid: ee6774c0-9b19-4ff1-8b30-2da4b71977e2
-  ws-opts:
-    headers:
-      host: edmz.aimercc.filegear-sg.me
-    path: /?ed=2560&proxyip=ts.hpc.tw
-- name: 🇺🇸_美国_18
-  network: ws
-  port: 443
-  server: www.okcupid.com
-  servername: hz.ylks0033.dpdns.org
-  skip-cert-verify: true
-  tls: true
-  type: vless
-  udp: true
-  uuid: 06e4425e-a8cb-4b63-929f-2105604ab0a9
-  ws-opts:
-    headers:
-      host: hz.ylks0033.dpdns.org
-    path: /?ed=2560
-- name: 🇺🇸_美国_19
-  network: ws
-  port: 443
-  server: 104.17.110.70
-  servername: hz.ylks0033.dpdns.org
-  skip-cert-verify: true
-  tls: true
-  type: vless
-  udp: true
-  uuid: 06e4425e-a8cb-4b63-929f-2105604ab0a9
-  ws-opts:
-    headers:
-      host: hz.ylks0033.dpdns.org
-    path: /?ed=2560
-- name: 🇺🇸_美国_20
-  network: ws
-  port: 443
-  server: 104.17.219.208
-  servername: hz.ylks0033.dpdns.org
-  skip-cert-verify: true
-  tls: true
-  type: vless
-  udp: true
-  uuid: 06e4425e-a8cb-4b63-929f-2105604ab0a9
-  ws-opts:
-    headers:
-      host: hz.ylks0033.dpdns.org
-    path: /?ed=2560
-- name: 🇨🇳_中国_27
-  network: ws
-  port: 2083
-  server: 154.218.15.250
-  servername: edmx.aimercc.filegear-sg.me
-  skip-cert-verify: true
-  tls: true
-  type: vless
-  udp: true
-  uuid: ee6774c0-9b19-4ff1-8b30-2da4b71977e2
-  ws-opts:
-    headers:
-      host: edmx.aimercc.filegear-sg.me
-    path: /?ed=2560&proxyip=ts.hpc.tw
-- name: 🇨🇳_中国_28
-  network: ws
-  port: 2083
-  server: 154.218.15.250
-  servername: edmz.aimercc.filegear-sg.me
-  skip-cert-verify: true
-  tls: true
-  type: vless
-  udp: true
-  uuid: ee6774c0-9b19-4ff1-8b30-2da4b71977e2
-  ws-opts:
-    headers:
-      host: edmz.aimercc.filegear-sg.me
-    path: /?ed=2560&proxyip=ts.hpc.tw
-- name: 🇺🇸_美国_21
-  network: ws
-  port: 443
-  server: 104.18.147.201
-  servername: hz.ylks0033.dpdns.org
-  skip-cert-verify: true
-  tls: true
-  type: vless
-  udp: true
-  uuid: 06e4425e-a8cb-4b63-929f-2105604ab0a9
-  ws-opts:
-    headers:
-      host: hz.ylks0033.dpdns.org
-    path: /?ed=2560
-- name: 🇺🇸_美国_22
-  network: ws
-  port: 443
-  server: bowen.ns.cloudflare.com
-  servername: hz.ylks0033.dpdns.org
-  skip-cert-verify: true
-  tls: true
-  type: vless
-  udp: true
-  uuid: 06e4425e-a8cb-4b63-929f-2105604ab0a9
-  ws-opts:
-    headers:
-      host: hz.ylks0033.dpdns.org
-    path: /?ed=2560
-- name: 🇺🇸_美国_23
-  network: ws
-  port: 443
-  server: theo.ns.cloudflare.com
-  servername: edmz.aimercc.filegear-sg.me
-  skip-cert-verify: true
-  tls: true
-  type: vless
-  udp: true
-  uuid: ee6774c0-9b19-4ff1-8b30-2da4b71977e2
-  ws-opts:
-    headers:
-      host: edmz.aimercc.filegear-sg.me
-    path: /?ed=2560&proxyip=ts.hpc.tw
-- name: 🇨🇳_中国_29
-  network: ws
-  port: 2083
-  server: 27.50.49.251
-  servername: edmz.aimercc.filegear-sg.me
-  skip-cert-verify: true
-  tls: true
-  type: vless
-  udp: true
-  uuid: ee6774c0-9b19-4ff1-8b30-2da4b71977e2
-  ws-opts:
-    headers:
-      host: edmz.aimercc.filegear-sg.me
-    path: /?ed=2560&proxyip=ts.hpc.tw
-- name: 🇺🇸_美国_24
-  network: ws
-  port: 443
-  server: www.whatismyip.com
-  servername: hz.ylks0033.dpdns.org
-  skip-cert-verify: true
-  tls: true
-  type: vless
-  udp: true
-  uuid: 06e4425e-a8cb-4b63-929f-2105604ab0a9
-  ws-opts:
-    headers:
-      host: hz.ylks0033.dpdns.org
-    path: /?ed=2560
-- name: 🇿🇦_南非
-  network: ws
-  port: 443
-  server: 160.123.255.163
-  servername: hz.ylks0033.dpdns.org
-  skip-cert-verify: true
-  tls: true
-  type: vless
-  udp: true
-  uuid: 06e4425e-a8cb-4b63-929f-2105604ab0a9
-  ws-opts:
-    headers:
-      host: hz.ylks0033.dpdns.org
-    path: /?ed=2560
-- name: 🇨🇳_中国_30
-  network: ws
-  port: 2083
-  server: 27.50.49.251
-  servername: edmx.aimercc.filegear-sg.me
-  skip-cert-verify: true
-  tls: true
-  type: vless
-  udp: true
-  uuid: ee6774c0-9b19-4ff1-8b30-2da4b71977e2
-  ws-opts:
-    headers:
-      host: edmx.aimercc.filegear-sg.me
-    path: /?ed=2560&proxyip=ts.hpc.tw
-- name: 🇷🇺_俄罗斯_2
-  network: ws
-  port: 8443
-  server: 92.243.74.3
-  servername: edmz.aimercc.filegear-sg.me
-  skip-cert-verify: true
-  tls: true
-  type: vless
-  udp: true
-  uuid: ee6774c0-9b19-4ff1-8b30-2da4b71977e2
-  ws-opts:
-    headers:
-      host: edmz.aimercc.filegear-sg.me
-    path: /?ed=2560&proxyip=ts.hpc.tw
-- name: 🇺🇸_美国_25
-  network: ws
-  port: 443
-  server: 104.18.80.243
-  servername: hz.ylks0033.dpdns.org
-  skip-cert-verify: true
-  tls: true
-  type: vless
-  udp: true
-  uuid: 06e4425e-a8cb-4b63-929f-2105604ab0a9
-  ws-opts:
-    headers:
-      host: hz.ylks0033.dpdns.org
-    path: /?ed=2560
-- name: 🇺🇸_美国_26
-  network: ws
-  port: 443
-  server: 162.159.153.42
-  servername: hz.ylks0033.dpdns.org
-  skip-cert-verify: true
-  tls: true
-  type: vless
-  udp: true
-  uuid: 06e4425e-a8cb-4b63-929f-2105604ab0a9
-  ws-opts:
-    headers:
-      host: hz.ylks0033.dpdns.org
-    path: /?ed=2560
-- name: 🇺🇸_美国_27
-  network: ws
-  port: 443
-  server: www.ipget.net
-  servername: hz.ylks0033.dpdns.org
-  skip-cert-verify: true
-  tls: true
-  type: vless
-  udp: true
-  uuid: 06e4425e-a8cb-4b63-929f-2105604ab0a9
-  ws-opts:
-    headers:
-      host: hz.ylks0033.dpdns.org
-    path: /?ed=2560
-- name: 🇺🇸_美国_28
-  network: ws
-  port: 443
-  server: benedict.ns.cloudflare.com
-  servername: hz.ylks0033.dpdns.org
-  skip-cert-verify: true
-  tls: true
-  type: vless
-  udp: true
-  uuid: 06e4425e-a8cb-4b63-929f-2105604ab0a9
-  ws-opts:
-    headers:
-      host: hz.ylks0033.dpdns.org
-    path: /?ed=2560
-- name: 🇺🇸_美国_29
-  network: ws
-  port: 443
-  server: www.digitalocean.com
-  servername: hz.ylks0033.dpdns.org
-  skip-cert-verify: true
-  tls: true
-  type: vless
-  udp: true
-  uuid: 06e4425e-a8cb-4b63-929f-2105604ab0a9
-  ws-opts:
-    headers:
-      host: hz.ylks0033.dpdns.org
-    path: /?ed=2560
-- name: 🇺🇸_美国_30
-  network: ws
-  port: 2053
-  server: 150.230.146.170
-  servername: hz.ylks0033.dpdns.org
-  skip-cert-verify: true
-  tls: true
-  type: vless
-  udp: true
-  uuid: 06e4425e-a8cb-4b63-929f-2105604ab0a9
-  ws-opts:
-    headers:
-      host: hz.ylks0033.dpdns.org
-    path: /?ed=2560
-- name: 🇺🇸_美国_31
-  network: ws
-  port: 443
-  server: moura.ns.cloudflare.com
-  servername: hz.ylks0033.dpdns.org
-  skip-cert-verify: true
-  tls: true
-  type: vless
-  udp: true
-  uuid: 06e4425e-a8cb-4b63-929f-2105604ab0a9
-  ws-opts:
-    headers:
-      host: hz.ylks0033.dpdns.org
-    path: /?ed=2560
-- name: 🇺🇸_美国_32
-  network: ws
-  port: 443
-  server: dylan.ns.cloudflare.com
-  servername: hz.ylks0033.dpdns.org
-  skip-cert-verify: true
-  tls: true
-  type: vless
-  udp: true
-  uuid: 06e4425e-a8cb-4b63-929f-2105604ab0a9
-  ws-opts:
-    headers:
-      host: hz.ylks0033.dpdns.org
-    path: /?ed=2560
-- name: 🇺🇸_美国_33
-  network: ws
-  port: 443
-  server: thaddeus.ns.cloudflare.com
-  servername: edmz.aimercc.filegear-sg.me
-  skip-cert-verify: true
-  tls: true
-  type: vless
-  udp: true
-  uuid: ee6774c0-9b19-4ff1-8b30-2da4b71977e2
-  ws-opts:
-    headers:
-      host: edmz.aimercc.filegear-sg.me
-    path: /?ed=2560&proxyip=ts.hpc.tw
-- name: 🇺🇸_美国_34
-  network: ws
-  port: 443
-  server: damien.ns.cloudflare.com
-  servername: edmz.aimercc.filegear-sg.me
-  skip-cert-verify: true
-  tls: true
-  type: vless
-  udp: true
-  uuid: ee6774c0-9b19-4ff1-8b30-2da4b71977e2
-  ws-opts:
-    headers:
-      host: edmz.aimercc.filegear-sg.me
-    path: /?ed=2560&proxyip=ts.hpc.tw
-- name: 🇺🇸_美国_35
-  network: ws
-  port: 443
-  server: 162.159.133.85
-  servername: hz.ylks0033.dpdns.org
-  skip-cert-verify: true
-  tls: true
-  type: vless
-  udp: true
-  uuid: 06e4425e-a8cb-4b63-929f-2105604ab0a9
-  ws-opts:
-    headers:
-      host: hz.ylks0033.dpdns.org
-    path: /?ed=2560
-- name: 🇺🇸_美国_36
-  network: ws
-  port: 443
-  server: trevor.ns.cloudflare.com
-  servername: hz.ylks0033.dpdns.org
-  skip-cert-verify: true
-  tls: true
-  type: vless
-  udp: true
-  uuid: 06e4425e-a8cb-4b63-929f-2105604ab0a9
-  ws-opts:
-    headers:
-      host: hz.ylks0033.dpdns.org
-    path: /?ed=2560
-- name: 🇺🇸_美国_37
-  network: ws
-  port: 443
-  server: whatismyipaddress.com
-  servername: hz.ylks0033.dpdns.org
-  skip-cert-verify: true
-  tls: true
-  type: vless
-  udp: true
-  uuid: 06e4425e-a8cb-4b63-929f-2105604ab0a9
-  ws-opts:
-    headers:
-      host: hz.ylks0033.dpdns.org
-    path: /?ed=2560
-- name: 🇺🇸_美国_38
-  network: ws
-  port: 443
-  server: 104.17.71.31
-  servername: hz.ylks0033.dpdns.org
-  skip-cert-verify: true
-  tls: true
-  type: vless
-  udp: true
-  uuid: 06e4425e-a8cb-4b63-929f-2105604ab0a9
-  ws-opts:
-    headers:
-      host: hz.ylks0033.dpdns.org
-    path: /?ed=2560
-- name: 🇺🇸_美国_39
-  network: ws
-  port: 443
-  server: 104.19.150.28
-  servername: hz.ylks0033.dpdns.org
-  skip-cert-verify: true
-  tls: true
-  type: vless
-  udp: true
-  uuid: 06e4425e-a8cb-4b63-929f-2105604ab0a9
-  ws-opts:
-    headers:
-      host: hz.ylks0033.dpdns.org
-    path: /?ed=2560
-- name: 🇺🇸_美国_40
-  network: ws
-  port: 443
-  server: 69.84.182.12
-  servername: hz.ylks0033.dpdns.org
-  skip-cert-verify: true
-  tls: true
-  type: vless
-  udp: true
-  uuid: 06e4425e-a8cb-4b63-929f-2105604ab0a9
-  ws-opts:
-    headers:
-      host: hz.ylks0033.dpdns.org
-    path: /?ed=2560
-- name: 🇺🇸_美国_41
-  network: ws
-  port: 443
-  server: 162.159.153.217
-  servername: hz.ylks0033.dpdns.org
-  skip-cert-verify: true
-  tls: true
-  type: vless
-  udp: true
-  uuid: 06e4425e-a8cb-4b63-929f-2105604ab0a9
-  ws-opts:
-    headers:
-      host: hz.ylks0033.dpdns.org
-    path: /?ed=2560
-- name: 🇺🇸_美国_42
-  network: ws
-  port: 443
-  server: 160.79.105.223
-  servername: hz.ylks0033.dpdns.org
-  skip-cert-verify: true
-  tls: true
-  type: vless
-  udp: true
-  uuid: 06e4425e-a8cb-4b63-929f-2105604ab0a9
-  ws-opts:
-    headers:
-      host: hz.ylks0033.dpdns.org
-    path: /?ed=2560
-- name: 🇺🇸_美国_43
-  network: ws
-  port: 443
-  server: www.pcmag.com
-  servername: hz.ylks0033.dpdns.org
-  skip-cert-verify: true
-  tls: true
-  type: vless
-  udp: true
-  uuid: 06e4425e-a8cb-4b63-929f-2105604ab0a9
-  ws-opts:
-    headers:
-      host: hz.ylks0033.dpdns.org
-    path: /?ed=2560
-- name: 🇺🇸_美国_44
-  network: ws
-  port: 2083
-  server: 108.165.152.202
-  servername: edmz.aimercc.filegear-sg.me
-  skip-cert-verify: true
-  tls: true
-  type: vless
-  udp: true
-  uuid: ee6774c0-9b19-4ff1-8b30-2da4b71977e2
-  ws-opts:
-    headers:
-      host: edmz.aimercc.filegear-sg.me
-    path: /?ed=2560&proxyip=ts.hpc.tw
-- name: 🇺🇸_美国_45
-  network: ws
-  port: 443
-  server: sage.ns.cloudflare.com
-  servername: edmz.aimercc.filegear-sg.me
-  skip-cert-verify: true
-  tls: true
-  type: vless
-  udp: true
-  uuid: ee6774c0-9b19-4ff1-8b30-2da4b71977e2
-  ws-opts:
-    headers:
-      host: edmz.aimercc.filegear-sg.me
-    path: /?ed=2560&proxyip=ts.hpc.tw
-- name: 🇺🇸_美国_46
-  network: ws
-  port: 443
-  server: lewis.ns.cloudflare.com
-  servername: hz.ylks0033.dpdns.org
-  skip-cert-verify: true
-  tls: true
-  type: vless
-  udp: true
-  uuid: 06e4425e-a8cb-4b63-929f-2105604ab0a9
-  ws-opts:
-    headers:
-      host: hz.ylks0033.dpdns.org
-    path: /?ed=2560
-- name: 🇺🇸_美国_47
-  network: ws
-  port: 443
-  server: 135.84.76.143
-  servername: hz.ylks0033.dpdns.org
-  skip-cert-verify: true
-  tls: true
-  type: vless
-  udp: true
-  uuid: 06e4425e-a8cb-4b63-929f-2105604ab0a9
-  ws-opts:
-    headers:
-      host: hz.ylks0033.dpdns.org
-    path: /?ed=2560
-- name: 🇺🇸_美国_48
-  network: ws
-  port: 443
-  server: 160.79.105.219
-  servername: hz.ylks0033.dpdns.org
-  skip-cert-verify: true
-  tls: true
-  type: vless
-  udp: true
-  uuid: 06e4425e-a8cb-4b63-929f-2105604ab0a9
-  ws-opts:
-    headers:
-      host: hz.ylks0033.dpdns.org
-    path: /?ed=2560
-- name: 🇺🇸_美国_49
-  network: ws
-  port: 443
-  server: arvind.ns.cloudflare.com
-  servername: edmz.aimercc.filegear-sg.me
-  skip-cert-verify: true
-  tls: true
-  type: vless
-  udp: true
-  uuid: ee6774c0-9b19-4ff1-8b30-2da4b71977e2
-  ws-opts:
-    headers:
-      host: edmz.aimercc.filegear-sg.me
-    path: /?ed=2560&proxyip=ts.hpc.tw
-- name: 🇯🇵_日本_1
-  network: ws
-  port: 2083
-  server: 103.116.7.103
-  servername: edmz.aimercc.filegear-sg.me
-  skip-cert-verify: true
-  tls: true
-  type: vless
-  udp: true
-  uuid: ee6774c0-9b19-4ff1-8b30-2da4b71977e2
-  ws-opts:
-    headers:
-      host: edmz.aimercc.filegear-sg.me
-    path: /?ed=2560&proxyip=ts.hpc.tw
-- name: 🇷🇺_俄罗斯_3
-  network: ws
-  port: 8443
-  server: 92.243.74.3
-  servername: edmx.aimercc.filegear-sg.me
-  skip-cert-verify: true
-  tls: true
-  type: vless
-  udp: true
-  uuid: ee6774c0-9b19-4ff1-8b30-2da4b71977e2
-  ws-opts:
-    headers:
-      host: edmx.aimercc.filegear-sg.me
-    path: /?ed=2560&proxyip=ts.hpc.tw
-- name: 🇨🇳_中国_31
-  network: ws
-  port: 443
-  server: 27.50.48.21
-  servername: edmx.aimercc.filegear-sg.me
-  skip-cert-verify: true
-  tls: true
-  type: vless
-  udp: true
-  uuid: ee6774c0-9b19-4ff1-8b30-2da4b71977e2
-  ws-opts:
-    headers:
-      host: edmx.aimercc.filegear-sg.me
-    path: /?ed=2560&proxyip=ts.hpc.tw
-- name: 🇺🇸_美国_50
-  network: ws
-  port: 443
-  server: rustam.ns.cloudflare.com
-  servername: hz.ylks0033.dpdns.org
-  skip-cert-verify: true
-  tls: true
-  type: vless
-  udp: true
-  uuid: 06e4425e-a8cb-4b63-929f-2105604ab0a9
-  ws-opts:
-    headers:
-      host: hz.ylks0033.dpdns.org
-    path: /?ed=2560
-- name: 🇺🇸_美国_51
-  network: ws
-  port: 443
-  server: otto.ns.cloudflare.com
-  servername: hz.ylks0033.dpdns.org
-  skip-cert-verify: true
-  tls: true
-  type: vless
-  udp: true
-  uuid: 06e4425e-a8cb-4b63-929f-2105604ab0a9
-  ws-opts:
-    headers:
-      host: hz.ylks0033.dpdns.org
-    path: /?ed=2560
-- name: 🇺🇸_美国_52
-  network: ws
-  port: 443
-  server: decker.ns.cloudflare.com
-  servername: hz.ylks0033.dpdns.org
-  skip-cert-verify: true
-  tls: true
-  type: vless
-  udp: true
-  uuid: 06e4425e-a8cb-4b63-929f-2105604ab0a9
-  ws-opts:
-    headers:
-      host: hz.ylks0033.dpdns.org
-    path: /?ed=2560
-- name: 🇨🇳_中国_32
-  network: ws
-  port: 443
-  server: 27.50.49.208
-  servername: edmx.aimercc.filegear-sg.me
-  skip-cert-verify: true
-  tls: true
-  type: vless
-  udp: true
-  uuid: ee6774c0-9b19-4ff1-8b30-2da4b71977e2
-  ws-opts:
-    headers:
-      host: edmx.aimercc.filegear-sg.me
-    path: /?ed=2560&proxyip=ts.hpc.tw
-- name: 🇨🇳_中国_33
-  network: ws
-  port: 443
-  server: 27.50.48.21
-  servername: edmz.aimercc.filegear-sg.me
-  skip-cert-verify: true
-  tls: true
-  type: vless
-  udp: true
-  uuid: ee6774c0-9b19-4ff1-8b30-2da4b71977e2
-  ws-opts:
-    headers:
-      host: edmz.aimercc.filegear-sg.me
-    path: /?ed=2560&proxyip=ts.hpc.tw
-- name: 🇺🇸_美国_53
-  network: ws
-  port: 443
-  server: julio.ns.cloudflare.com
-  servername: hz.ylks0033.dpdns.org
-  skip-cert-verify: true
-  tls: true
-  type: vless
-  udp: true
-  uuid: 06e4425e-a8cb-4b63-929f-2105604ab0a9
-  ws-opts:
-    headers:
-      host: hz.ylks0033.dpdns.org
-    path: /?ed=2560
-- name: 🇺🇸_美国_54
-  network: ws
-  port: 2053
-  server: 108.165.152.67
-  servername: edmz.aimercc.filegear-sg.me
-  skip-cert-verify: true
-  tls: true
-  type: vless
-  udp: true
-  uuid: ee6774c0-9b19-4ff1-8b30-2da4b71977e2
-  ws-opts:
-    headers:
-      host: edmz.aimercc.filegear-sg.me
-    path: /?ed=2560&proxyip=ts.hpc.tw
-- name: 🇺🇸_美国_55
-  network: ws
-  port: 443
-  server: wilson.ns.cloudflare.com
-  servername: hz.ylks0033.dpdns.org
-  skip-cert-verify: true
-  tls: true
-  type: vless
-  udp: true
-  uuid: 06e4425e-a8cb-4b63-929f-2105604ab0a9
-  ws-opts:
-    headers:
-      host: hz.ylks0033.dpdns.org
-    path: /?ed=2560
-- name: 🇺🇸_美国_56
-  network: ws
-  port: 443
-  server: time.is
-  servername: hz.ylks0033.dpdns.org
-  skip-cert-verify: true
-  tls: true
-  type: vless
-  udp: true
-  uuid: 06e4425e-a8cb-4b63-929f-2105604ab0a9
-  ws-opts:
-    headers:
-      host: hz.ylks0033.dpdns.org
-    path: /?ed=2560
-- name: 🇺🇸_美国_57
-  network: ws
-  port: 443
-  server: 69.84.182.41
-  servername: hz.ylks0033.dpdns.org
-  skip-cert-verify: true
-  tls: true
-  type: vless
-  udp: true
-  uuid: 06e4425e-a8cb-4b63-929f-2105604ab0a9
-  ws-opts:
-    headers:
-      host: hz.ylks0033.dpdns.org
-    path: /?ed=2560
-- name: 🇺🇸_美国_58
-  network: ws
-  port: 443
-  server: 160.79.104.6
-  servername: hz.ylks0033.dpdns.org
-  skip-cert-verify: true
-  tls: true
-  type: vless
-  udp: true
-  uuid: 06e4425e-a8cb-4b63-929f-2105604ab0a9
-  ws-opts:
-    headers:
-      host: hz.ylks0033.dpdns.org
-    path: /?ed=2560
-- name: 🇺🇸_美国_59
-  network: ws
-  port: 443
-  server: nikon.ns.cloudflare.com
-  servername: hz.ylks0033.dpdns.org
-  skip-cert-verify: true
-  tls: true
-  type: vless
-  udp: true
-  uuid: 06e4425e-a8cb-4b63-929f-2105604ab0a9
-  ws-opts:
-    headers:
-      host: hz.ylks0033.dpdns.org
-    path: /?ed=2560
-- name: 🇺🇸_美国_60
-  network: ws
-  port: 443
-  server: 69.84.182.53
-  servername: hz.ylks0033.dpdns.org
-  skip-cert-verify: true
-  tls: true
-  type: vless
-  udp: true
-  uuid: 06e4425e-a8cb-4b63-929f-2105604ab0a9
-  ws-opts:
-    headers:
-      host: hz.ylks0033.dpdns.org
-    path: /?ed=2560
-- name: 🇺🇸_美国_61
-  network: ws
-  port: 443
-  server: craig.ns.cloudflare.com
-  servername: hz.ylks0033.dpdns.org
-  skip-cert-verify: true
-  tls: true
-  type: vless
-  udp: true
-  uuid: 06e4425e-a8cb-4b63-929f-2105604ab0a9
-  ws-opts:
-    headers:
-      host: hz.ylks0033.dpdns.org
-    path: /?ed=2560
-- name: 🇯🇵_日本_2
-  network: ws
-  port: 2083
-  server: 103.116.7.103
-  servername: edmx.aimercc.filegear-sg.me
-  skip-cert-verify: true
-  tls: true
-  type: vless
-  udp: true
-  uuid: ee6774c0-9b19-4ff1-8b30-2da4b71977e2
-  ws-opts:
-    headers:
-      host: edmx.aimercc.filegear-sg.me
-    path: /?ed=2560&proxyip=ts.hpc.tw
-- name: 🏳️_未知_1
-  network: ws
-  port: 2087
-  server: 209.94.90.87
-  servername: edmz.aimercc.filegear-sg.me
-  skip-cert-verify: true
-  tls: true
-  type: vless
-  udp: true
-  uuid: ee6774c0-9b19-4ff1-8b30-2da4b71977e2
-  ws-opts:
-    headers:
-      host: edmz.aimercc.filegear-sg.me
-    path: /?ed=2560&proxyip=ts.hpc.tw
-- name: 🇺🇸_美国_62
-  network: ws
-  port: 443
-  server: ip.sb
-  servername: hz.ylks0033.dpdns.org
-  skip-cert-verify: true
-  tls: true
-  type: vless
-  udp: true
-  uuid: 06e4425e-a8cb-4b63-929f-2105604ab0a9
-  ws-opts:
-    headers:
-      host: hz.ylks0033.dpdns.org
-    path: /?ed=2560
-- name: 🇺🇸_美国_63
-  network: ws
-  port: 443
-  server: 192.0.54.24
-  servername: hz.ylks0033.dpdns.org
-  skip-cert-verify: true
-  tls: true
-  type: vless
-  udp: true
-  uuid: 06e4425e-a8cb-4b63-929f-2105604ab0a9
-  ws-opts:
-    headers:
-      host: hz.ylks0033.dpdns.org
-    path: /?ed=2560
-- name: 🇺🇸_美国_64
-  network: ws
-  port: 443
-  server: 162.159.153.217
-  servername: hz.ylks0033.dpdns.org
-  skip-cert-verify: true
-  tls: true
-  type: vless
-  udp: true
-  uuid: 06e4425e-a8cb-4b63-929f-2105604ab0a9
-  ws-opts:
-    headers:
-      host: hz.ylks0033.dpdns.org
-    path: /?ed=2560
-- name: 🇩🇪_德国_1
-  network: ws
-  port: 443
-  server: 185.16.110.181
-  servername: hz.ylks0033.dpdns.org
-  skip-cert-verify: true
-  tls: true
-  type: vless
-  udp: true
-  uuid: 06e4425e-a8cb-4b63-929f-2105604ab0a9
-  ws-opts:
-    headers:
-      host: hz.ylks0033.dpdns.org
-    path: /?ed=2560
-- name: 🇺🇸_美国_65
-  network: ws
-  port: 443
-  server: iplocation.io
-  servername: hz.ylks0033.dpdns.org
-  skip-cert-verify: true
-  tls: true
-  type: vless
-  udp: true
-  uuid: 06e4425e-a8cb-4b63-929f-2105604ab0a9
-  ws-opts:
-    headers:
-      host: hz.ylks0033.dpdns.org
-    path: /?ed=2560
-- name: 🇺🇸_美国_66
-  network: ws
-  port: 443
-  server: ip.gs
-  servername: hz.ylks0033.dpdns.org
-  skip-cert-verify: true
-  tls: true
-  type: vless
-  udp: true
-  uuid: 06e4425e-a8cb-4b63-929f-2105604ab0a9
-  ws-opts:
-    headers:
-      host: hz.ylks0033.dpdns.org
-    path: /?ed=2560
-- name: 🇺🇸_美国_67
-  network: ws
-  port: 2053
-  server: 108.165.152.67
-  servername: edmx.aimercc.filegear-sg.me
-  skip-cert-verify: true
-  tls: true
-  type: vless
-  udp: true
-  uuid: ee6774c0-9b19-4ff1-8b30-2da4b71977e2
-  ws-opts:
-    headers:
-      host: edmx.aimercc.filegear-sg.me
-    path: /?ed=2560&proxyip=ts.hpc.tw
-- name: 🇺🇸_美国_68
-  network: ws
-  port: 443
-  server: ignacio.ns.cloudflare.com
-  servername: edmz.aimercc.filegear-sg.me
-  skip-cert-verify: true
-  tls: true
-  type: vless
-  udp: true
-  uuid: ee6774c0-9b19-4ff1-8b30-2da4b71977e2
-  ws-opts:
-    headers:
-      host: edmz.aimercc.filegear-sg.me
-    path: /?ed=2560&proxyip=ts.hpc.tw
-- name: 🇺🇸_美国_69
-  network: ws
-  port: 443
-  server: lynn.ns.cloudflare.com
-  servername: edmz.aimercc.filegear-sg.me
-  skip-cert-verify: true
-  tls: true
-  type: vless
-  udp: true
-  uuid: ee6774c0-9b19-4ff1-8b30-2da4b71977e2
-  ws-opts:
-    headers:
-      host: edmz.aimercc.filegear-sg.me
-    path: /?ed=2560&proxyip=ts.hpc.tw
-- name: 🇺🇦_乌克兰
-  network: ws
-  port: 443
-  server: 45.67.215.58
-  servername: hz.ylks0033.dpdns.org
-  skip-cert-verify: true
-  tls: true
-  type: vless
-  udp: true
-  uuid: 06e4425e-a8cb-4b63-929f-2105604ab0a9
-  ws-opts:
-    headers:
-      host: hz.ylks0033.dpdns.org
-    path: /?ed=2560
-- name: 🇺🇸_美国_70
-  network: ws
-  port: 2053
-  server: 162.159.129.11
-  servername: hz.ylks0033.dpdns.org
-  skip-cert-verify: true
-  tls: true
-  type: vless
-  udp: true
-  uuid: 06e4425e-a8cb-4b63-929f-2105604ab0a9
-  ws-opts:
-    headers:
-      host: hz.ylks0033.dpdns.org
-    path: /?ed=2560
-- name: 🇺🇸_美国_71
-  network: ws
-  port: 443
-  server: www.hugedomains.com
-  servername: hz.ylks0033.dpdns.org
-  skip-cert-verify: true
-  tls: true
-  type: vless
-  udp: true
-  uuid: 06e4425e-a8cb-4b63-929f-2105604ab0a9
-  ws-opts:
-    headers:
-      host: hz.ylks0033.dpdns.org
-    path: /?ed=2560
-- name: 🇺🇸_美国_72
-  network: ws
-  port: 23234
-  server: 107.174.228.38
-  servername: hz.ylks0033.dpdns.org
-  skip-cert-verify: true
-  tls: true
-  type: vless
-  udp: true
-  uuid: 06e4425e-a8cb-4b63-929f-2105604ab0a9
-  ws-opts:
-    headers:
-      host: hz.ylks0033.dpdns.org
-    path: /?ed=2560
-- name: 🇨🇳_中国_34
-  network: ws
-  port: 443
-  server: 27.50.49.136
-  servername: edmz.aimercc.filegear-sg.me
-  skip-cert-verify: true
-  tls: true
-  type: vless
-  udp: true
-  uuid: ee6774c0-9b19-4ff1-8b30-2da4b71977e2
-  ws-opts:
-    headers:
-      host: edmz.aimercc.filegear-sg.me
-    path: /?ed=2560&proxyip=ts.hpc.tw
-- name: 🇳🇱_荷兰
-  network: ws
-  port: 443
-  server: 130.162.130.105
-  servername: hz.ylks0033.dpdns.org
-  skip-cert-verify: true
-  tls: true
-  type: vless
-  udp: true
-  uuid: 06e4425e-a8cb-4b63-929f-2105604ab0a9
-  ws-opts:
-    headers:
-      host: hz.ylks0033.dpdns.org
-    path: /?ed=2560
-- name: 🇺🇸_美国_73
-  network: ws
-  port: 443
-  server: 162.159.153.42
-  servername: hz.ylks0033.dpdns.org
-  skip-cert-verify: true
-  tls: true
-  type: vless
-  udp: true
-  uuid: 06e4425e-a8cb-4b63-929f-2105604ab0a9
-  ws-opts:
-    headers:
-      host: hz.ylks0033.dpdns.org
-    path: /?ed=2560
-- name: 🇺🇸_美国_74
-  network: ws
-  port: 443
-  server: join.my.telegram.channel.cmliussss.to.unlock.more.premium.nodes.cf.090227.xyz
-  servername: hz.ylks0033.dpdns.org
-  skip-cert-verify: true
-  tls: true
-  type: vless
-  udp: true
-  uuid: 06e4425e-a8cb-4b63-929f-2105604ab0a9
-  ws-opts:
-    headers:
-      host: hz.ylks0033.dpdns.org
-    path: /?ed=2560
-- name: 🇺🇸_美国_75
-  network: ws
-  port: 443
-  server: braden.ns.cloudflare.com
-  servername: hz.ylks0033.dpdns.org
-  skip-cert-verify: true
-  tls: true
-  type: vless
-  udp: true
-  uuid: 06e4425e-a8cb-4b63-929f-2105604ab0a9
-  ws-opts:
-    headers:
-      host: hz.ylks0033.dpdns.org
-    path: /?ed=2560
-- name: 🇩🇪_德国_2
-  network: ws
-  port: 443
-  server: 185.16.110.200
-  servername: hz.ylks0033.dpdns.org
-  skip-cert-verify: true
-  tls: true
-  type: vless
-  udp: true
-  uuid: 06e4425e-a8cb-4b63-929f-2105604ab0a9
-  ws-opts:
-    headers:
-      host: hz.ylks0033.dpdns.org
-    path: /?ed=2560
-- name: 🇨🇳_中国_35
-  network: ws
-  port: 443
-  server: 47.57.233.126
-  servername: hz.ylks0033.dpdns.org
-  skip-cert-verify: true
-  tls: true
-  type: vless
-  udp: true
-  uuid: 06e4425e-a8cb-4b63-929f-2105604ab0a9
-  ws-opts:
-    headers:
-      host: hz.ylks0033.dpdns.org
-    path: /?ed=2560
-- name: 🏳️_未知_2
-  network: ws
-  port: 2087
-  server: 209.94.90.87
-  servername: edmx.aimercc.filegear-sg.me
-  skip-cert-verify: true
-  tls: true
-  type: vless
-  udp: true
-  uuid: ee6774c0-9b19-4ff1-8b30-2da4b71977e2
-  ws-opts:
-    headers:
-      host: edmx.aimercc.filegear-sg.me
-    path: /?ed=2560&proxyip=ts.hpc.tw
-- name: 🇺🇸_美国_76
-  network: ws
-  port: 443
-  server: kip.ns.cloudflare.com
-  servername: edmz.aimercc.filegear-sg.me
-  skip-cert-verify: true
-  tls: true
-  type: vless
-  udp: true
-  uuid: ee6774c0-9b19-4ff1-8b30-2da4b71977e2
-  ws-opts:
-    headers:
-      host: edmz.aimercc.filegear-sg.me
-    path: /?ed=2560&proxyip=ts.hpc.tw
-- name: 🇨🇳_中国_36
-  network: ws
-  port: 443
-  server: 27.50.49.208
-  servername: edmz.aimercc.filegear-sg.me
-  skip-cert-verify: true
-  tls: true
-  type: vless
-  udp: true
-  uuid: ee6774c0-9b19-4ff1-8b30-2da4b71977e2
-  ws-opts:
-    headers:
-      host: edmz.aimercc.filegear-sg.me
-    path: /?ed=2560&proxyip=ts.hpc.tw
-- name: 🇺🇸_美国_77
-  network: ws
-  port: 443
-  server: kyree.ns.cloudflare.com
-  servername: hz.ylks0033.dpdns.org
-  skip-cert-verify: true
-  tls: true
-  type: vless
-  udp: true
-  uuid: 06e4425e-a8cb-4b63-929f-2105604ab0a9
-  ws-opts:
-    headers:
-      host: hz.ylks0033.dpdns.org
-    path: /?ed=2560
-- name: 🇺🇸_美国_78
-  network: ws
-  port: 443
-  server: 162.159.153.209
-  servername: hz.ylks0033.dpdns.org
-  skip-cert-verify: true
-  tls: true
-  type: vless
-  udp: true
-  uuid: 06e4425e-a8cb-4b63-929f-2105604ab0a9
-  ws-opts:
-    headers:
-      host: hz.ylks0033.dpdns.org
-    path: /?ed=2560
-- name: 🇺🇸_美国_79
-  network: ws
-  port: 2083
-  server: 108.165.152.202
-  servername: edmx.aimercc.filegear-sg.me
-  skip-cert-verify: true
-  tls: true
-  type: vless
-  udp: true
-  uuid: ee6774c0-9b19-4ff1-8b30-2da4b71977e2
-  ws-opts:
-    headers:
-      host: edmx.aimercc.filegear-sg.me
-    path: /?ed=2560&proxyip=ts.hpc.tw
-- name: 🇺🇸_美国_80
-  network: ws
-  port: 443
-  server: join.my.telegram.channel.cmliussss.to.unlock.more.premium.nodes.cf.090227.xyz
-  servername: hz.ylks0033.dpdns.org
-  skip-cert-verify: true
-  tls: true
-  type: vless
-  udp: true
-  uuid: 06e4425e-a8cb-4b63-929f-2105604ab0a9
-  ws-opts:
-    headers:
-      host: hz.ylks0033.dpdns.org
-    path: /?ed=2560
-- name: 🇺🇸_美国_81
-  network: ws
-  port: 443
-  server: toy-people.com
-  servername: hz.ylks0033.dpdns.org
-  skip-cert-verify: true
-  tls: true
-  type: vless
-  udp: true
-  uuid: 06e4425e-a8cb-4b63-929f-2105604ab0a9
-  ws-opts:
-    headers:
-      host: hz.ylks0033.dpdns.org
-    path: /?ed=2560
-- name: 🇺🇸_美国_82
-  network: ws
-  port: 443
-  server: www.ddwhm.com
-  servername: hz.ylks0033.dpdns.org
-  skip-cert-verify: true
-  tls: true
-  type: vless
-  udp: true
-  uuid: 06e4425e-a8cb-4b63-929f-2105604ab0a9
-  ws-opts:
-    headers:
-      host: hz.ylks0033.dpdns.org
-    path: /?ed=2560
-- name: 🇺🇸_美国_83
-  network: ws
-  port: 443
-  server: pranab.ns.cloudflare.com
-  servername: edmz.aimercc.filegear-sg.me
-  skip-cert-verify: true
-  tls: true
-  type: vless
-  udp: true
-  uuid: ee6774c0-9b19-4ff1-8b30-2da4b71977e2
-  ws-opts:
-    headers:
-      host: edmz.aimercc.filegear-sg.me
-    path: /?ed=2560&proxyip=ts.hpc.tw
-- name: 🇷🇺_俄罗斯_4
-  network: ws
-  port: 443
-  server: 217.30.10.55
-  servername: edmz.aimercc.filegear-sg.me
-  skip-cert-verify: true
-  tls: true
-  type: vless
-  udp: true
-  uuid: ee6774c0-9b19-4ff1-8b30-2da4b71977e2
-  ws-opts:
-    headers:
-      host: edmz.aimercc.filegear-sg.me
-    path: /?ed=2560&proxyip=ts.hpc.tw
-- name: 🇺🇸_美国_84
-  network: ws
-  port: 443
-  server: comicabc.com
-  servername: hz.ylks0033.dpdns.org
-  skip-cert-verify: true
-  tls: true
-  type: vless
-  udp: true
-  uuid: 06e4425e-a8cb-4b63-929f-2105604ab0a9
-  ws-opts:
-    headers:
-      host: hz.ylks0033.dpdns.org
-    path: /?ed=2560
-- name: 🇺🇸_美国_85
-  network: ws
-  port: 443
-  server: join.my.telegram.channel.cmliussss.to.unlock.more.premium.nodes.cf.090227.xyz
-  servername: hz.ylks0033.dpdns.org
-  skip-cert-verify: true
-  tls: true
-  type: vless
-  udp: true
-  uuid: 06e4425e-a8cb-4b63-929f-2105604ab0a9
-  ws-opts:
-    headers:
-      host: hz.ylks0033.dpdns.org
-    path: /?ed=2560
-- name: 🇺🇸_美国_86
-  network: ws
-  port: 443
-  server: time.is
-  servername: hz.ylks0033.dpdns.org
-  skip-cert-verify: true
-  tls: true
-  type: vless
-  udp: true
-  uuid: 06e4425e-a8cb-4b63-929f-2105604ab0a9
-  ws-opts:
-    headers:
-      host: hz.ylks0033.dpdns.org
-    path: /?ed=2560
-- name: 🇺🇸_美国_87
-  network: ws
-  port: 443
-  server: 162.159.152.69
-  servername: hz.ylks0033.dpdns.org
-  skip-cert-verify: true
-  tls: true
-  type: vless
-  udp: true
-  uuid: 06e4425e-a8cb-4b63-929f-2105604ab0a9
-  ws-opts:
-    headers:
-      host: hz.ylks0033.dpdns.org
-    path: /?ed=2560
-- name: 🇺🇸_美国_88
-  network: ws
-  port: 443
-  server: icook.hk
-  servername: hz.ylks0033.dpdns.org
-  skip-cert-verify: true
-  tls: true
-  type: vless
-  udp: true
-  uuid: 06e4425e-a8cb-4b63-929f-2105604ab0a9
-  ws-opts:
-    headers:
-      host: hz.ylks0033.dpdns.org
-    path: /?ed=2560
-- name: 🇺🇸_美国_89
-  network: ws
-  port: 443
-  server: cris.ns.cloudflare.com
-  servername: hz.ylks0033.dpdns.org
-  skip-cert-verify: true
-  tls: true
-  type: vless
-  udp: true
-  uuid: 06e4425e-a8cb-4b63-929f-2105604ab0a9
-  ws-opts:
-    headers:
-      host: hz.ylks0033.dpdns.org
-    path: /?ed=2560
-- name: 🇨🇳_中国_37
-  network: ws
-  port: 443
-  server: 27.50.49.136
-  servername: edmx.aimercc.filegear-sg.me
-  skip-cert-verify: true
-  tls: true
-  type: vless
-  udp: true
-  uuid: ee6774c0-9b19-4ff1-8b30-2da4b71977e2
-  ws-opts:
-    headers:
-      host: edmx.aimercc.filegear-sg.me
-    path: /?ed=2560&proxyip=ts.hpc.tw
-- name: 🇺🇸_美国_90
-  network: ws
-  port: 443
-  server: www.iakeys.com
-  servername: hz.ylks0033.dpdns.org
-  skip-cert-verify: true
-  tls: true
-  type: vless
-  udp: true
-  uuid: 06e4425e-a8cb-4b63-929f-2105604ab0a9
-  ws-opts:
-    headers:
-      host: hz.ylks0033.dpdns.org
-    path: /?ed=2560
-- name: 🇺🇸_美国_91
-  network: ws
-  port: 443
-  server: uriah.ns.cloudflare.com
-  servername: hz.ylks0033.dpdns.org
-  skip-cert-verify: true
-  tls: true
-  type: vless
-  udp: true
-  uuid: 06e4425e-a8cb-4b63-929f-2105604ab0a9
-  ws-opts:
-    headers:
-      host: hz.ylks0033.dpdns.org
-    path: /?ed=2560
-- name: 🇺🇸_美国_92
-  network: ws
-  port: 443
-  server: join.my.telegram.channel.cmliussss.to.unlock.more.premium.nodes.cf.090227.xyz
-  servername: hz.ylks0033.dpdns.org
-  skip-cert-verify: true
-  tls: true
-  type: vless
-  udp: true
-  uuid: 06e4425e-a8cb-4b63-929f-2105604ab0a9
-  ws-opts:
-    headers:
-      host: hz.ylks0033.dpdns.org
-    path: /?ed=2560
-- name: 🇺🇸_美国_93
-  network: ws
-  port: 443
-  server: icook.tw
-  servername: hz.ylks0033.dpdns.org
-  skip-cert-verify: true
-  tls: true
-  type: vless
-  udp: true
-  uuid: 06e4425e-a8cb-4b63-929f-2105604ab0a9
-  ws-opts:
-    headers:
-      host: hz.ylks0033.dpdns.org
-    path: /?ed=2560
-- name: 🇺🇸_美国_94
-  network: ws
-  port: 443
-  server: 104.17.100.185
-  servername: hz.ylks0033.dpdns.org
-  skip-cert-verify: true
-  tls: true
-  type: vless
-  udp: true
-  uuid: 06e4425e-a8cb-4b63-929f-2105604ab0a9
-  ws-opts:
-    headers:
-      host: hz.ylks0033.dpdns.org
-    path: /?ed=2560
-- name: 🇺🇸_美国_95
-  network: ws
-  port: 443
-  server: duke.ns.cloudflare.com
-  servername: edmz.aimercc.filegear-sg.me
-  skip-cert-verify: true
-  tls: true
-  type: vless
-  udp: true
-  uuid: ee6774c0-9b19-4ff1-8b30-2da4b71977e2
-  ws-opts:
-    headers:
-      host: edmz.aimercc.filegear-sg.me
-    path: /?ed=2560&proxyip=ts.hpc.tw
-- name: 🇺🇸_美国_96
-  network: ws
-  port: 443
-  server: 160.79.104.175
-  servername: hz.ylks0033.dpdns.org
-  skip-cert-verify: true
-  tls: true
-  type: vless
-  udp: true
-  uuid: 06e4425e-a8cb-4b63-929f-2105604ab0a9
-  ws-opts:
-    headers:
-      host: hz.ylks0033.dpdns.org
-    path: /?ed=2560
-- name: 🇬🇧_英国
-  network: ws
-  port: 8080
-  server: 82.163.16.69
-  servername: edmz.aimercc.filegear-sg.me
-  skip-cert-verify: true
-  tls: true
-  type: vless
-  udp: true
-  uuid: ee6774c0-9b19-4ff1-8b30-2da4b71977e2
-  ws-opts:
-    headers:
-      host: edmz.aimercc.filegear-sg.me
-    path: /?ed=2560&proxyip=ts.hpc.tw
-- name: 🇺🇸_美国_97
-  network: ws
-  port: 443
-  server: huxley.ns.cloudflare.com
-  servername: hz.ylks0033.dpdns.org
-  skip-cert-verify: true
-  tls: true
-  type: vless
-  udp: true
-  uuid: 06e4425e-a8cb-4b63-929f-2105604ab0a9
-  ws-opts:
-    headers:
-      host: hz.ylks0033.dpdns.org
-    path: /?ed=2560
-- name: 🇺🇸_美国_98
-  network: ws
-  port: 443
-  server: sullivan.ns.cloudflare.com
-  servername: hz.ylks0033.dpdns.org
-  skip-cert-verify: true
-  tls: true
-  type: vless
-  udp: true
-  uuid: 06e4425e-a8cb-4b63-929f-2105604ab0a9
-  ws-opts:
-    headers:
-      host: hz.ylks0033.dpdns.org
-    path: /?ed=2560
-- name: 🇺🇸_美国_99
-  network: ws
-  port: 443
-  server: abdullah.ns.cloudflare.com
-  servername: hz.ylks0033.dpdns.org
-  skip-cert-verify: true
-  tls: true
-  type: vless
-  udp: true
-  uuid: 06e4425e-a8cb-4b63-929f-2105604ab0a9
-  ws-opts:
-    headers:
-      host: hz.ylks0033.dpdns.org
-    path: /?ed=2560
-- name: 🇺🇸_美国_100
-  network: ws
-  port: 443
-  server: ipinfo.in
-  servername: hz.ylks0033.dpdns.org
-  skip-cert-verify: true
-  tls: true
-  type: vless
-  udp: true
-  uuid: 06e4425e-a8cb-4b63-929f-2105604ab0a9
-  ws-opts:
-    headers:
-      host: hz.ylks0033.dpdns.org
-    path: /?ed=2560
-- name: 🇺🇸_美国_101
-  network: ws
-  port: 34237
-  server: 131.186.22.39
-  servername: edmz.aimercc.filegear-sg.me
-  skip-cert-verify: true
-  tls: true
-  type: vless
-  udp: true
-  uuid: ee6774c0-9b19-4ff1-8b30-2da4b71977e2
-  ws-opts:
-    headers:
-      host: edmz.aimercc.filegear-sg.me
-    path: /?ed=2560&proxyip=ts.hpc.tw
-- name: 🇺🇸_美国_102
-  network: ws
-  port: 443
-  server: 104.18.147.201
-  servername: hz.ylks0033.dpdns.org
-  skip-cert-verify: true
-  tls: true
-  type: vless
-  udp: true
-  uuid: 06e4425e-a8cb-4b63-929f-2105604ab0a9
-  ws-opts:
-    headers:
-      host: hz.ylks0033.dpdns.org
-    path: /?ed=2560
-- name: 🇺🇸_美国_103
-  network: ws
-  port: 443
-  server: dnschecker.org
-  servername: hz.ylks0033.dpdns.org
-  skip-cert-verify: true
-  tls: true
-  type: vless
-  udp: true
-  uuid: 06e4425e-a8cb-4b63-929f-2105604ab0a9
-  ws-opts:
-    headers:
-      host: hz.ylks0033.dpdns.org
-    path: /?ed=2560
-- name: 🇺🇸_美国_104
-  network: ws
-  port: 23234
-  server: 107.174.228.38
-  servername: hz.ylks0033.dpdns.org
-  skip-cert-verify: true
-  tls: true
-  type: vless
-  udp: true
-  uuid: 06e4425e-a8cb-4b63-929f-2105604ab0a9
-  ws-opts:
-    headers:
-      host: hz.ylks0033.dpdns.org
-    path: /?ed=2560
-- name: 🇺🇸_美国_105
-  network: ws
-  port: 34237
-  server: 131.186.22.39
-  servername: edmx.aimercc.filegear-sg.me
-  skip-cert-verify: true
-  tls: true
-  type: vless
-  udp: true
-  uuid: ee6774c0-9b19-4ff1-8b30-2da4b71977e2
-  ws-opts:
-    headers:
-      host: edmx.aimercc.filegear-sg.me
-    path: /?ed=2560&proxyip=ts.hpc.tw
-- name: 🇺🇸_美国_106
-  network: ws
-  port: 443
-  server: steamdb.info
-  servername: hz.ylks0033.dpdns.org
-  skip-cert-verify: true
-  tls: true
-  type: vless
-  udp: true
-  uuid: 06e4425e-a8cb-4b63-929f-2105604ab0a9
-  ws-opts:
-    headers:
-      host: hz.ylks0033.dpdns.org
-    path: /?ed=2560
-- name: 🇺🇸_美国_107
-  network: ws
-  port: 443
-  server: 192.0.54.134
-  servername: hz.ylks0033.dpdns.org
-  skip-cert-verify: true
-  tls: true
-  type: vless
-  udp: true
-  uuid: 06e4425e-a8cb-4b63-929f-2105604ab0a9
-  ws-opts:
-    headers:
-      host: hz.ylks0033.dpdns.org
-    path: /?ed=2560
-- name: 🇺🇸_美国_108
-  network: ws
-  port: 443
-  server: ashton.ns.cloudflare.com
-  servername: hz.ylks0033.dpdns.org
-  skip-cert-verify: true
-  tls: true
-  type: vless
-  udp: true
-  uuid: 06e4425e-a8cb-4b63-929f-2105604ab0a9
-  ws-opts:
-    headers:
-      host: hz.ylks0033.dpdns.org
-    path: /?ed=2560
-- name: 🇨🇳_中国_38
-  network: ws
-  port: 8443
-  server: 156.255.90.175
-  servername: edmx.aimercc.filegear-sg.me
-  skip-cert-verify: true
-  tls: true
-  type: vless
-  udp: true
-  uuid: ee6774c0-9b19-4ff1-8b30-2da4b71977e2
-  ws-opts:
-    headers:
-      host: edmx.aimercc.filegear-sg.me
+      host: edmc.ambercc.filegear-sg.me
     path: /?ed=2560&proxyip=ts.hpc.tw
 - name: 🇦🇺_澳大利亚_1
   network: ws
   port: 1935
   server: 43.154.34.74
-  servername: edmz.aimercc.filegear-sg.me
+  servername: edmx.aimercc.filegear-sg.me
   skip-cert-verify: true
   tls: true
   type: vless
@@ -2351,200 +821,1951 @@ proxies:
   uuid: ee6774c0-9b19-4ff1-8b30-2da4b71977e2
   ws-opts:
     headers:
-      host: edmz.aimercc.filegear-sg.me
+      host: edmx.aimercc.filegear-sg.me
     path: /?ed=2560&proxyip=ts.hpc.tw
-- name: 🇺🇸_美国_109
+- name: 🇺🇸_美国_31
+  network: ws
+  port: 34237
+  server: 131.186.22.39
+  servername: edmx.aimercc.filegear-sg.me
+  skip-cert-verify: true
+  tls: true
+  type: vless
+  udp: true
+  uuid: ee6774c0-9b19-4ff1-8b30-2da4b71977e2
+  ws-opts:
+    headers:
+      host: edmx.aimercc.filegear-sg.me
+    path: /?ed=2560&proxyip=ts.hpc.tw
+- name: 🇸🇪_瑞典
   network: ws
   port: 443
-  server: 160.79.104.117
-  servername: hz.ylks0033.dpdns.org
+  server: 141.147.188.120
+  servername: ss.bgm2024.dpdns.org
   skip-cert-verify: true
   tls: true
   type: vless
   udp: true
-  uuid: 06e4425e-a8cb-4b63-929f-2105604ab0a9
+  uuid: 55520747-311e-4015-83ce-be46e2060ce3
   ws-opts:
     headers:
-      host: hz.ylks0033.dpdns.org
+      host: ss.bgm2024.dpdns.org
     path: /?ed=2560
-- name: 🇺🇸_美国_110
+- name: 🇨🇳_中国_14
   network: ws
-  port: 23234
-  server: 107.174.228.38
-  servername: hz.ylks0033.dpdns.org
+  port: 8420
+  server: 62.60.247.115
+  servername: ss.bgm2024.dpdns.org
   skip-cert-verify: true
   tls: true
   type: vless
   udp: true
-  uuid: 06e4425e-a8cb-4b63-929f-2105604ab0a9
+  uuid: 55520747-311e-4015-83ce-be46e2060ce3
   ws-opts:
     headers:
-      host: hz.ylks0033.dpdns.org
+      host: ss.bgm2024.dpdns.org
+    path: /?ed=2560
+- name: 🇺🇸_美国_32
+  network: ws
+  port: 443
+  server: 152.67.251.232
+  servername: ss.bgm2024.dpdns.org
+  skip-cert-verify: true
+  tls: true
+  type: vless
+  udp: true
+  uuid: 55520747-311e-4015-83ce-be46e2060ce3
+  ws-opts:
+    headers:
+      host: ss.bgm2024.dpdns.org
+    path: /?ed=2560
+- name: 🇨🇳_中国_15
+  network: ws
+  port: 587
+  server: 62.60.239.236
+  servername: ss.bgm2024.dpdns.org
+  skip-cert-verify: true
+  tls: true
+  type: vless
+  udp: true
+  uuid: 55520747-311e-4015-83ce-be46e2060ce3
+  ws-opts:
+    headers:
+      host: ss.bgm2024.dpdns.org
+    path: /?ed=2560
+- name: 🇺🇸_美国_33
+  network: ws
+  port: 443
+  server: 63.141.128.218
+  servername: ss.bgm2024.dpdns.org
+  skip-cert-verify: true
+  tls: true
+  type: vless
+  udp: true
+  uuid: 55520747-311e-4015-83ce-be46e2060ce3
+  ws-opts:
+    headers:
+      host: ss.bgm2024.dpdns.org
+    path: /?ed=2560
+- name: 🇺🇸_美国_34
+  network: ws
+  port: 443
+  server: 162.159.153.239
+  servername: ss.bgm2024.dpdns.org
+  skip-cert-verify: true
+  tls: true
+  type: vless
+  udp: true
+  uuid: 55520747-311e-4015-83ce-be46e2060ce3
+  ws-opts:
+    headers:
+      host: ss.bgm2024.dpdns.org
+    path: /?ed=2560
+- name: 🇳🇱_荷兰_2
+  network: ws
+  port: 443
+  server: 185.133.35.22
+  servername: ss.bgm2024.dpdns.org
+  skip-cert-verify: true
+  tls: true
+  type: vless
+  udp: true
+  uuid: 55520747-311e-4015-83ce-be46e2060ce3
+  ws-opts:
+    headers:
+      host: ss.bgm2024.dpdns.org
+    path: /?ed=2560
+- name: 🇺🇸_美国_35
+  network: ws
+  port: 443
+  server: 131.186.17.132
+  servername: ss.bgm2024.dpdns.org
+  skip-cert-verify: true
+  tls: true
+  type: vless
+  udp: true
+  uuid: 55520747-311e-4015-83ce-be46e2060ce3
+  ws-opts:
+    headers:
+      host: ss.bgm2024.dpdns.org
+    path: /?ed=2560
+- name: 🇺🇸_美国_36
+  network: ws
+  port: 443
+  server: 63.141.128.140
+  servername: ss.bgm2024.dpdns.org
+  skip-cert-verify: true
+  tls: true
+  type: vless
+  udp: true
+  uuid: 55520747-311e-4015-83ce-be46e2060ce3
+  ws-opts:
+    headers:
+      host: ss.bgm2024.dpdns.org
+    path: /?ed=2560
+- name: 🇦🇹_奥地利_1
+  network: ws
+  port: 443
+  server: 212.183.88.16
+  servername: ss.bgm2024.dpdns.org
+  skip-cert-verify: true
+  tls: true
+  type: vless
+  udp: true
+  uuid: 55520747-311e-4015-83ce-be46e2060ce3
+  ws-opts:
+    headers:
+      host: ss.bgm2024.dpdns.org
+    path: /?ed=2560
+- name: 🇦🇹_奥地利_2
+  network: ws
+  port: 443
+  server: 212.183.88.193
+  servername: ss.bgm2024.dpdns.org
+  skip-cert-verify: true
+  tls: true
+  type: vless
+  udp: true
+  uuid: 55520747-311e-4015-83ce-be46e2060ce3
+  ws-opts:
+    headers:
+      host: ss.bgm2024.dpdns.org
+    path: /ss.vs2024.us.kg
+- name: 🇺🇸_美国_37
+  network: ws
+  port: 443
+  server: 63.141.128.209
+  servername: ss.bgm2024.dpdns.org
+  skip-cert-verify: true
+  tls: true
+  type: vless
+  udp: true
+  uuid: 55520747-311e-4015-83ce-be46e2060ce3
+  ws-opts:
+    headers:
+      host: ss.bgm2024.dpdns.org
+    path: /ss.vs2024.us.kg
+- name: 🇬🇧_英国_2
+  network: ws
+  port: 443
+  server: 217.163.76.97
+  servername: ss.bgm2024.dpdns.org
+  skip-cert-verify: true
+  tls: true
+  type: vless
+  udp: true
+  uuid: 55520747-311e-4015-83ce-be46e2060ce3
+  ws-opts:
+    headers:
+      host: ss.bgm2024.dpdns.org
+    path: /?ed=2560
+- name: 🇺🇸_美国_38
+  network: ws
+  port: 443
+  server: 162.159.153.170
+  servername: ss.bgm2024.dpdns.org
+  skip-cert-verify: true
+  tls: true
+  type: vless
+  udp: true
+  uuid: 55520747-311e-4015-83ce-be46e2060ce3
+  ws-opts:
+    headers:
+      host: ss.bgm2024.dpdns.org
+    path: /?ed=2560
+- name: 🇺🇸_美国_39
+  network: ws
+  port: 443
+  server: 162.159.153.216
+  servername: ss.bgm2024.dpdns.org
+  skip-cert-verify: true
+  tls: true
+  type: vless
+  udp: true
+  uuid: 55520747-311e-4015-83ce-be46e2060ce3
+  ws-opts:
+    headers:
+      host: ss.bgm2024.dpdns.org
+    path: /?ed=2560
+- name: 🇺🇸_美国_40
+  network: ws
+  port: 443
+  server: 160.79.104.115
+  servername: ss.bgm2024.dpdns.org
+  skip-cert-verify: true
+  tls: true
+  type: vless
+  udp: true
+  uuid: 55520747-311e-4015-83ce-be46e2060ce3
+  ws-opts:
+    headers:
+      host: ss.bgm2024.dpdns.org
+    path: /?ed=2560
+- name: 🇨🇷_哥斯达黎加
+  network: ws
+  port: 443
+  server: 190.93.247.160
+  servername: ss.bgm2024.dpdns.org
+  skip-cert-verify: true
+  tls: true
+  type: vless
+  udp: true
+  uuid: 55520747-311e-4015-83ce-be46e2060ce3
+  ws-opts:
+    headers:
+      host: ss.bgm2024.dpdns.org
+    path: /?ed=2560
+- name: 🇺🇸_美国_41
+  network: ws
+  port: 443
+  server: 162.159.153.144
+  servername: ss.bgm2024.dpdns.org
+  skip-cert-verify: true
+  tls: true
+  type: vless
+  udp: true
+  uuid: 55520747-311e-4015-83ce-be46e2060ce3
+  ws-opts:
+    headers:
+      host: ss.bgm2024.dpdns.org
+    path: /?ed=2560
+- name: 🇺🇸_美国_42
+  network: ws
+  port: 443
+  server: 63.141.128.3
+  servername: ss.bgm2024.dpdns.org
+  skip-cert-verify: true
+  tls: true
+  type: vless
+  udp: true
+  uuid: 55520747-311e-4015-83ce-be46e2060ce3
+  ws-opts:
+    headers:
+      host: ss.bgm2024.dpdns.org
+    path: /?ed=2560
+- name: 🇺🇸_美国_43
+  network: ws
+  port: 443
+  server: 63.141.128.102
+  servername: ss.bgm2024.dpdns.org
+  skip-cert-verify: true
+  tls: true
+  type: vless
+  udp: true
+  uuid: 55520747-311e-4015-83ce-be46e2060ce3
+  ws-opts:
+    headers:
+      host: ss.bgm2024.dpdns.org
+    path: /?ed=2560
+- name: 🇦🇹_奥地利_3
+  network: ws
+  port: 443
+  server: 212.183.88.94
+  servername: ss.bgm2024.dpdns.org
+  skip-cert-verify: true
+  tls: true
+  type: vless
+  udp: true
+  uuid: 55520747-311e-4015-83ce-be46e2060ce3
+  ws-opts:
+    headers:
+      host: ss.bgm2024.dpdns.org
+    path: /?ed=2560
+- name: 🇺🇦_乌克兰_1
+  network: ws
+  port: 443
+  server: 45.67.215.117
+  servername: ss.bgm2024.dpdns.org
+  skip-cert-verify: true
+  tls: true
+  type: vless
+  udp: true
+  uuid: 55520747-311e-4015-83ce-be46e2060ce3
+  ws-opts:
+    headers:
+      host: ss.bgm2024.dpdns.org
+    path: /ss.vs2024.us.kg
+- name: 🇺🇸_美国_44
+  network: ws
+  port: 443
+  server: 160.79.105.118
+  servername: ss.bgm2024.dpdns.org
+  skip-cert-verify: true
+  tls: true
+  type: vless
+  udp: true
+  uuid: 55520747-311e-4015-83ce-be46e2060ce3
+  ws-opts:
+    headers:
+      host: ss.bgm2024.dpdns.org
+    path: /?ed=2560
+- name: 🇺🇸_美国_45
+  network: ws
+  port: 443
+  server: damien.ns.cloudflare.com
+  servername: edmz.ambercc.filegear-sg.me
+  skip-cert-verify: true
+  tls: true
+  type: vless
+  udp: true
+  uuid: ee6774c0-9b19-4ff1-8b30-2da4b71977e2
+  ws-opts:
+    headers:
+      host: edmz.ambercc.filegear-sg.me
+    path: /?ed=2560&proxyip=ts.hpc.tw
+- name: 🇿🇦_南非
+  network: ws
+  port: 443
+  server: 160.123.255.155
+  servername: ss.bgm2024.dpdns.org
+  skip-cert-verify: true
+  tls: true
+  type: vless
+  udp: true
+  uuid: 55520747-311e-4015-83ce-be46e2060ce3
+  ws-opts:
+    headers:
+      host: ss.bgm2024.dpdns.org
+    path: /?ed=2560
+- name: 🇺🇸_美国_46
+  network: ws
+  port: 443
+  server: 69.84.182.89
+  servername: ss.bgm2024.dpdns.org
+  skip-cert-verify: true
+  tls: true
+  type: vless
+  udp: true
+  uuid: 55520747-311e-4015-83ce-be46e2060ce3
+  ws-opts:
+    headers:
+      host: ss.bgm2024.dpdns.org
+    path: /?ed=2560
+- name: 🇩🇪_德国_2
+  network: ws
+  port: 443
+  server: 130.61.124.127
+  servername: ss.bgm2024.dpdns.org
+  skip-cert-verify: true
+  tls: true
+  type: vless
+  udp: true
+  uuid: 55520747-311e-4015-83ce-be46e2060ce3
+  ws-opts:
+    headers:
+      host: ss.bgm2024.dpdns.org
+    path: /?ed=2560
+- name: 🇨🇳_中国_16
+  network: ws
+  port: 80
+  server: 152.32.226.221
+  servername: edmc.ambercc.filegear-sg.me
+  skip-cert-verify: true
+  tls: true
+  type: vless
+  udp: true
+  uuid: ee6774c0-9b19-4ff1-8b30-2da4b71977e2
+  ws-opts:
+    headers:
+      host: edmc.ambercc.filegear-sg.me
+    path: /?ed=2560&proxyip=ts.hpc.tw
+- name: 🇬🇧_英国_3
+  network: ws
+  port: 443
+  server: 217.163.76.201
+  servername: ss.bgm2024.dpdns.org
+  skip-cert-verify: true
+  tls: true
+  type: vless
+  udp: true
+  uuid: 55520747-311e-4015-83ce-be46e2060ce3
+  ws-opts:
+    headers:
+      host: ss.bgm2024.dpdns.org
+    path: /?ed=2560
+- name: 🇬🇧_英国_4
+  network: ws
+  port: 443
+  server: 217.163.76.84
+  servername: ss.bgm2024.dpdns.org
+  skip-cert-verify: true
+  tls: true
+  type: vless
+  udp: true
+  uuid: 55520747-311e-4015-83ce-be46e2060ce3
+  ws-opts:
+    headers:
+      host: ss.bgm2024.dpdns.org
+    path: /?ed=2560
+- name: 🇦🇹_奥地利_4
+  network: ws
+  port: 443
+  server: 212.183.88.70
+  servername: ss.bgm2024.dpdns.org
+  skip-cert-verify: true
+  tls: true
+  type: vless
+  udp: true
+  uuid: 55520747-311e-4015-83ce-be46e2060ce3
+  ws-opts:
+    headers:
+      host: ss.bgm2024.dpdns.org
+    path: /?ed=2560
+- name: 🇯🇵_日本_9
+  network: ws
+  port: 2083
+  server: 103.116.7.103
+  servername: edmx.aimercc.filegear-sg.me
+  skip-cert-verify: true
+  tls: true
+  type: vless
+  udp: true
+  uuid: ee6774c0-9b19-4ff1-8b30-2da4b71977e2
+  ws-opts:
+    headers:
+      host: edmx.aimercc.filegear-sg.me
+    path: /?ed=2560&proxyip=ts.hpc.tw
+- name: 🇺🇸_美国_47
+  network: ws
+  port: 443
+  server: 104.16.242.72
+  servername: ss.bgm2024.dpdns.org
+  skip-cert-verify: true
+  tls: true
+  type: vless
+  udp: true
+  uuid: 55520747-311e-4015-83ce-be46e2060ce3
+  ws-opts:
+    headers:
+      host: ss.bgm2024.dpdns.org
+    path: /?ed=2560
+- name: 🇺🇸_美国_48
+  network: ws
+  port: 443
+  server: 135.84.76.110
+  servername: ss.bgm2024.dpdns.org
+  skip-cert-verify: true
+  tls: true
+  type: vless
+  udp: true
+  uuid: 55520747-311e-4015-83ce-be46e2060ce3
+  ws-opts:
+    headers:
+      host: ss.bgm2024.dpdns.org
+    path: /?ed=2560
+- name: 🇺🇸_美国_49
+  network: ws
+  port: 443
+  server: 162.159.152.11
+  servername: ss.bgm2024.dpdns.org
+  skip-cert-verify: true
+  tls: true
+  type: vless
+  udp: true
+  uuid: 55520747-311e-4015-83ce-be46e2060ce3
+  ws-opts:
+    headers:
+      host: ss.bgm2024.dpdns.org
+    path: /?ed=2560
+- name: 🇺🇸_美国_50
+  network: ws
+  port: 443
+  server: duke.ns.cloudflare.com
+  servername: edmz.ambercc.filegear-sg.me
+  skip-cert-verify: true
+  tls: true
+  type: vless
+  udp: true
+  uuid: ee6774c0-9b19-4ff1-8b30-2da4b71977e2
+  ws-opts:
+    headers:
+      host: edmz.ambercc.filegear-sg.me
+    path: /?ed=2560&proxyip=ts.hpc.tw
+- name: 🇷🇺_俄罗斯
+  network: ws
+  port: 443
+  server: 217.30.10.55
+  servername: edmc.ambercc.filegear-sg.me
+  skip-cert-verify: true
+  tls: true
+  type: vless
+  udp: true
+  uuid: ee6774c0-9b19-4ff1-8b30-2da4b71977e2
+  ws-opts:
+    headers:
+      host: edmc.ambercc.filegear-sg.me
+    path: /?ed=2560&proxyip=ts.hpc.tw
+- name: 🇺🇸_美国_51
+  network: ws
+  port: 443
+  server: 199.34.228.187
+  servername: edmz.ambercc.filegear-sg.me
+  skip-cert-verify: true
+  tls: true
+  type: vless
+  udp: true
+  uuid: ee6774c0-9b19-4ff1-8b30-2da4b71977e2
+  ws-opts:
+    headers:
+      host: edmz.ambercc.filegear-sg.me
+    path: /?ed=2560&proxyip=ts.hpc.tw
+- name: 🇩🇪_德国_3
+  network: ws
+  port: 443
+  server: 185.16.110.249
+  servername: ss.bgm2024.dpdns.org
+  skip-cert-verify: true
+  tls: true
+  type: vless
+  udp: true
+  uuid: 55520747-311e-4015-83ce-be46e2060ce3
+  ws-opts:
+    headers:
+      host: ss.bgm2024.dpdns.org
+    path: /?ed=2560
+- name: 🇺🇸_美国_52
+  network: ws
+  port: 443
+  server: 160.79.104.11
+  servername: ss.bgm2024.dpdns.org
+  skip-cert-verify: true
+  tls: true
+  type: vless
+  udp: true
+  uuid: 55520747-311e-4015-83ce-be46e2060ce3
+  ws-opts:
+    headers:
+      host: ss.bgm2024.dpdns.org
+    path: /?ed=2560
+- name: 🇺🇸_美国_53
+  network: ws
+  port: 443
+  server: 162.159.152.155
+  servername: ss.bgm2024.dpdns.org
+  skip-cert-verify: true
+  tls: true
+  type: vless
+  udp: true
+  uuid: 55520747-311e-4015-83ce-be46e2060ce3
+  ws-opts:
+    headers:
+      host: ss.bgm2024.dpdns.org
+    path: /?ed=2560
+- name: 🇺🇦_乌克兰_2
+  network: ws
+  port: 443
+  server: 45.67.215.209
+  servername: ss.bgm2024.dpdns.org
+  skip-cert-verify: true
+  tls: true
+  type: vless
+  udp: true
+  uuid: 55520747-311e-4015-83ce-be46e2060ce3
+  ws-opts:
+    headers:
+      host: ss.bgm2024.dpdns.org
+    path: /?ed=2560
+- name: 🇺🇸_美国_54
+  network: ws
+  port: 443
+  server: theo.ns.cloudflare.com
+  servername: edmz.ambercc.filegear-sg.me
+  skip-cert-verify: true
+  tls: true
+  type: vless
+  udp: true
+  uuid: ee6774c0-9b19-4ff1-8b30-2da4b71977e2
+  ws-opts:
+    headers:
+      host: edmz.ambercc.filegear-sg.me
+    path: /?ed=2560&proxyip=ts.hpc.tw
+- name: 🇺🇸_美国_55
+  network: ws
+  port: 443
+  server: lynn.ns.cloudflare.com
+  servername: edmc.ambercc.filegear-sg.me
+  skip-cert-verify: true
+  tls: true
+  type: vless
+  udp: true
+  uuid: ee6774c0-9b19-4ff1-8b30-2da4b71977e2
+  ws-opts:
+    headers:
+      host: edmc.ambercc.filegear-sg.me
+    path: /?ed=2560&proxyip=ts.hpc.tw
+- name: 🇨🇳_中国_17
+  network: ws
+  port: 2096
+  server: 27.50.49.41
+  servername: edmc.ambercc.filegear-sg.me
+  skip-cert-verify: true
+  tls: true
+  type: vless
+  udp: true
+  uuid: ee6774c0-9b19-4ff1-8b30-2da4b71977e2
+  ws-opts:
+    headers:
+      host: edmc.ambercc.filegear-sg.me
+    path: /?ed=2560&proxyip=ts.hpc.tw
+- name: 🇺🇸_美国_56
+  network: ws
+  port: 443
+  server: 63.141.128.88
+  servername: ss.bgm2024.dpdns.org
+  skip-cert-verify: true
+  tls: true
+  type: vless
+  udp: true
+  uuid: 55520747-311e-4015-83ce-be46e2060ce3
+  ws-opts:
+    headers:
+      host: ss.bgm2024.dpdns.org
+    path: /?ed=2560
+- name: 🇺🇸_美国_57
+  network: ws
+  port: 443
+  server: 160.79.104.79
+  servername: ss.bgm2024.dpdns.org
+  skip-cert-verify: true
+  tls: true
+  type: vless
+  udp: true
+  uuid: 55520747-311e-4015-83ce-be46e2060ce3
+  ws-opts:
+    headers:
+      host: ss.bgm2024.dpdns.org
+    path: /?ed=2560
+- name: 🇺🇸_美国_58
+  network: ws
+  port: 443
+  server: 63.141.128.163
+  servername: ss.bgm2024.dpdns.org
+  skip-cert-verify: true
+  tls: true
+  type: vless
+  udp: true
+  uuid: 55520747-311e-4015-83ce-be46e2060ce3
+  ws-opts:
+    headers:
+      host: ss.bgm2024.dpdns.org
+    path: /ss.vs2024.us.kg
+- name: 🇺🇦_乌克兰_3
+  network: ws
+  port: 443
+  server: 45.67.215.92
+  servername: ss.bgm2024.dpdns.org
+  skip-cert-verify: true
+  tls: true
+  type: vless
+  udp: true
+  uuid: 55520747-311e-4015-83ce-be46e2060ce3
+  ws-opts:
+    headers:
+      host: ss.bgm2024.dpdns.org
+    path: /?ed=2560
+- name: 🇺🇸_美国_59
+  network: ws
+  port: 443
+  server: 130.250.137.73
+  servername: ss.bgm2024.dpdns.org
+  skip-cert-verify: true
+  tls: true
+  type: vless
+  udp: true
+  uuid: 55520747-311e-4015-83ce-be46e2060ce3
+  ws-opts:
+    headers:
+      host: ss.bgm2024.dpdns.org
+    path: /?ed=2560
+- name: 🇺🇸_美国_60
+  network: ws
+  port: 443
+  server: 160.79.105.89
+  servername: ss.bgm2024.dpdns.org
+  skip-cert-verify: true
+  tls: true
+  type: vless
+  udp: true
+  uuid: 55520747-311e-4015-83ce-be46e2060ce3
+  ws-opts:
+    headers:
+      host: ss.bgm2024.dpdns.org
+    path: /?ed=2560
+- name: 🇺🇸_美国_61
+  network: ws
+  port: 443
+  server: ignacio.ns.cloudflare.com
+  servername: edmz.ambercc.filegear-sg.me
+  skip-cert-verify: true
+  tls: true
+  type: vless
+  udp: true
+  uuid: ee6774c0-9b19-4ff1-8b30-2da4b71977e2
+  ws-opts:
+    headers:
+      host: edmz.ambercc.filegear-sg.me
+    path: /?ed=2560&proxyip=ts.hpc.tw
+- name: 🇺🇸_美国_62
+  network: ws
+  port: 443
+  server: 162.159.153.184
+  servername: ss.bgm2024.dpdns.org
+  skip-cert-verify: true
+  tls: true
+  type: vless
+  udp: true
+  uuid: 55520747-311e-4015-83ce-be46e2060ce3
+  ws-opts:
+    headers:
+      host: ss.bgm2024.dpdns.org
+    path: /?ed=2560
+- name: 🇳🇱_荷兰_3
+  network: ws
+  port: 443
+  server: 185.133.35.45
+  servername: ss.bgm2024.dpdns.org
+  skip-cert-verify: true
+  tls: true
+  type: vless
+  udp: true
+  uuid: 55520747-311e-4015-83ce-be46e2060ce3
+  ws-opts:
+    headers:
+      host: ss.bgm2024.dpdns.org
+    path: /?ed=2560
+- name: 🇺🇸_美国_63
+  network: ws
+  port: 443
+  server: 192.0.54.42
+  servername: ss.bgm2024.dpdns.org
+  skip-cert-verify: true
+  tls: true
+  type: vless
+  udp: true
+  uuid: 55520747-311e-4015-83ce-be46e2060ce3
+  ws-opts:
+    headers:
+      host: ss.bgm2024.dpdns.org
+    path: /?ed=2560
+- name: 🇺🇸_美国_64
+  network: ws
+  port: 443
+  server: 63.141.128.193
+  servername: ss.bgm2024.dpdns.org
+  skip-cert-verify: true
+  tls: true
+  type: vless
+  udp: true
+  uuid: 55520747-311e-4015-83ce-be46e2060ce3
+  ws-opts:
+    headers:
+      host: ss.bgm2024.dpdns.org
+    path: /ss.vs2024.us.kg
+- name: 🇺🇸_美国_65
+  network: ws
+  port: 443
+  server: 104.24.170.151
+  servername: ss.bgm2024.dpdns.org
+  skip-cert-verify: true
+  tls: true
+  type: vless
+  udp: true
+  uuid: 55520747-311e-4015-83ce-be46e2060ce3
+  ws-opts:
+    headers:
+      host: ss.bgm2024.dpdns.org
+    path: /?ed=2560
+- name: 🇺🇸_美国_66
+  network: ws
+  port: 443
+  server: 160.79.105.45
+  servername: ss.bgm2024.dpdns.org
+  skip-cert-verify: true
+  tls: true
+  type: vless
+  udp: true
+  uuid: 55520747-311e-4015-83ce-be46e2060ce3
+  ws-opts:
+    headers:
+      host: ss.bgm2024.dpdns.org
+    path: /?ed=2560
+- name: 🇺🇸_美国_67
+  network: ws
+  port: 443
+  server: kip.ns.cloudflare.com
+  servername: edmz.ambercc.filegear-sg.me
+  skip-cert-verify: true
+  tls: true
+  type: vless
+  udp: true
+  uuid: ee6774c0-9b19-4ff1-8b30-2da4b71977e2
+  ws-opts:
+    headers:
+      host: edmz.ambercc.filegear-sg.me
+    path: /?ed=2560&proxyip=ts.hpc.tw
+- name: 🇺🇸_美国_68
+  network: ws
+  port: 2087
+  server: 108.165.152.18
+  servername: edmz.ambercc.filegear-sg.me
+  skip-cert-verify: true
+  tls: true
+  type: vless
+  udp: true
+  uuid: ee6774c0-9b19-4ff1-8b30-2da4b71977e2
+  ws-opts:
+    headers:
+      host: edmz.ambercc.filegear-sg.me
+    path: /?ed=2560&proxyip=ts.hpc.tw
+- name: 🇺🇸_美国_69
+  network: ws
+  port: 443
+  server: 162.159.153.194
+  servername: ss.bgm2024.dpdns.org
+  skip-cert-verify: true
+  tls: true
+  type: vless
+  udp: true
+  uuid: 55520747-311e-4015-83ce-be46e2060ce3
+  ws-opts:
+    headers:
+      host: ss.bgm2024.dpdns.org
+    path: /?ed=2560
+- name: 🇺🇸_美国_70
+  network: ws
+  port: 81
+  server: 195.123.240.40
+  servername: ss.bgm2024.dpdns.org
+  skip-cert-verify: true
+  tls: true
+  type: vless
+  udp: true
+  uuid: 55520747-311e-4015-83ce-be46e2060ce3
+  ws-opts:
+    headers:
+      host: ss.bgm2024.dpdns.org
+    path: /?ed=2560
+- name: 🇨🇳_中国_18
+  network: ws
+  port: 2083
+  server: 27.50.48.186
+  servername: edmz.ambercc.filegear-sg.me
+  skip-cert-verify: true
+  tls: true
+  type: vless
+  udp: true
+  uuid: ee6774c0-9b19-4ff1-8b30-2da4b71977e2
+  ws-opts:
+    headers:
+      host: edmz.ambercc.filegear-sg.me
+    path: /?ed=2560&proxyip=ts.hpc.tw
+- name: 🇺🇸_美国_71
+  network: ws
+  port: 443
+  server: 216.24.57.59
+  servername: ss.bgm2024.dpdns.org
+  skip-cert-verify: true
+  tls: true
+  type: vless
+  udp: true
+  uuid: 55520747-311e-4015-83ce-be46e2060ce3
+  ws-opts:
+    headers:
+      host: ss.bgm2024.dpdns.org
+    path: /?ed=2560
+- name: 🇺🇸_美国_72
+  network: ws
+  port: 443
+  server: 160.79.105.76
+  servername: ss.bgm2024.dpdns.org
+  skip-cert-verify: true
+  tls: true
+  type: vless
+  udp: true
+  uuid: 55520747-311e-4015-83ce-be46e2060ce3
+  ws-opts:
+    headers:
+      host: ss.bgm2024.dpdns.org
+    path: /?ed=2560
+- name: 🇺🇸_美国_73
+  network: ws
+  port: 443
+  server: pranab.ns.cloudflare.com
+  servername: edmz.ambercc.filegear-sg.me
+  skip-cert-verify: true
+  tls: true
+  type: vless
+  udp: true
+  uuid: ee6774c0-9b19-4ff1-8b30-2da4b71977e2
+  ws-opts:
+    headers:
+      host: edmz.ambercc.filegear-sg.me
+    path: /?ed=2560&proxyip=ts.hpc.tw
+- name: 🇯🇵_日本_10
+  network: ws
+  port: 2087
+  server: 103.116.7.100
+  servername: edmc.ambercc.filegear-sg.me
+  skip-cert-verify: true
+  tls: true
+  type: vless
+  udp: true
+  uuid: ee6774c0-9b19-4ff1-8b30-2da4b71977e2
+  ws-opts:
+    headers:
+      host: edmc.ambercc.filegear-sg.me
+    path: /?ed=2560&proxyip=ts.hpc.tw
+- name: 🇺🇸_美国_74
+  network: ws
+  port: 443
+  server: 104.17.223.37
+  servername: ss.bgm2024.dpdns.org
+  skip-cert-verify: true
+  tls: true
+  type: vless
+  udp: true
+  uuid: 55520747-311e-4015-83ce-be46e2060ce3
+  ws-opts:
+    headers:
+      host: ss.bgm2024.dpdns.org
+    path: /?ed=2560
+- name: 🇺🇸_美国_75
+  network: ws
+  port: 443
+  server: 160.79.105.78
+  servername: ss.bgm2024.dpdns.org
+  skip-cert-verify: true
+  tls: true
+  type: vless
+  udp: true
+  uuid: 55520747-311e-4015-83ce-be46e2060ce3
+  ws-opts:
+    headers:
+      host: ss.bgm2024.dpdns.org
+    path: /?ed=2560
+- name: 🇦🇹_奥地利_5
+  network: ws
+  port: 443
+  server: 212.183.88.136
+  servername: ss.bgm2024.dpdns.org
+  skip-cert-verify: true
+  tls: true
+  type: vless
+  udp: true
+  uuid: 55520747-311e-4015-83ce-be46e2060ce3
+  ws-opts:
+    headers:
+      host: ss.bgm2024.dpdns.org
+    path: /?ed=2560
+- name: 🇺🇸_美国_76
+  network: ws
+  port: 443
+  server: 162.159.152.81
+  servername: ss.bgm2024.dpdns.org
+  skip-cert-verify: true
+  tls: true
+  type: vless
+  udp: true
+  uuid: 55520747-311e-4015-83ce-be46e2060ce3
+  ws-opts:
+    headers:
+      host: ss.bgm2024.dpdns.org
+    path: /?ed=2560
+- name: 🇺🇸_美国_77
+  network: ws
+  port: 443
+  server: sage.ns.cloudflare.com
+  servername: edmz.ambercc.filegear-sg.me
+  skip-cert-verify: true
+  tls: true
+  type: vless
+  udp: true
+  uuid: ee6774c0-9b19-4ff1-8b30-2da4b71977e2
+  ws-opts:
+    headers:
+      host: edmz.ambercc.filegear-sg.me
+    path: /?ed=2560&proxyip=ts.hpc.tw
+- name: 🇺🇸_美国_78
+  network: ws
+  port: 443
+  server: 160.79.104.102
+  servername: ss.bgm2024.dpdns.org
+  skip-cert-verify: true
+  tls: true
+  type: vless
+  udp: true
+  uuid: 55520747-311e-4015-83ce-be46e2060ce3
+  ws-opts:
+    headers:
+      host: ss.bgm2024.dpdns.org
+    path: /?ed=2560
+- name: 🇺🇸_美国_79
+  network: ws
+  port: 443
+  server: 162.159.153.212
+  servername: ss.bgm2024.dpdns.org
+  skip-cert-verify: true
+  tls: true
+  type: vless
+  udp: true
+  uuid: 55520747-311e-4015-83ce-be46e2060ce3
+  ws-opts:
+    headers:
+      host: ss.bgm2024.dpdns.org
+    path: /?ed=2560
+- name: 🇺🇸_美国_80
+  network: ws
+  port: 443
+  server: 192.200.160.14
+  servername: ss.bgm2024.dpdns.org
+  skip-cert-verify: true
+  tls: true
+  type: vless
+  udp: true
+  uuid: 55520747-311e-4015-83ce-be46e2060ce3
+  ws-opts:
+    headers:
+      host: ss.bgm2024.dpdns.org
+    path: /?ed=2560
+- name: 🇺🇸_美国_81
+  network: ws
+  port: 8443
+  server: 108.165.152.65
+  servername: edmz.ambercc.filegear-sg.me
+  skip-cert-verify: true
+  tls: true
+  type: vless
+  udp: true
+  uuid: ee6774c0-9b19-4ff1-8b30-2da4b71977e2
+  ws-opts:
+    headers:
+      host: edmz.ambercc.filegear-sg.me
+    path: /?ed=2560&proxyip=ts.hpc.tw
+- name: 🇳🇱_荷兰_4
+  network: ws
+  port: 443
+  server: 185.133.35.183
+  servername: ss.bgm2024.dpdns.org
+  skip-cert-verify: true
+  tls: true
+  type: vless
+  udp: true
+  uuid: 55520747-311e-4015-83ce-be46e2060ce3
+  ws-opts:
+    headers:
+      host: ss.bgm2024.dpdns.org
+    path: /?ed=2560
+- name: 🇨🇳_中国_19
+  network: ws
+  port: 2083
+  server: 27.50.49.47
+  servername: edmz.ambercc.filegear-sg.me
+  skip-cert-verify: true
+  tls: true
+  type: vless
+  udp: true
+  uuid: ee6774c0-9b19-4ff1-8b30-2da4b71977e2
+  ws-opts:
+    headers:
+      host: edmz.ambercc.filegear-sg.me
+    path: /?ed=2560&proxyip=ts.hpc.tw
+- name: 🇺🇸_美国_82
+  network: ws
+  port: 443
+  server: thaddeus.ns.cloudflare.com
+  servername: edmc.ambercc.filegear-sg.me
+  skip-cert-verify: true
+  tls: true
+  type: vless
+  udp: true
+  uuid: ee6774c0-9b19-4ff1-8b30-2da4b71977e2
+  ws-opts:
+    headers:
+      host: edmc.ambercc.filegear-sg.me
+    path: /?ed=2560&proxyip=ts.hpc.tw
+- name: 🇨🇳_中国_20
+  network: ws
+  port: 2096
+  server: 27.50.49.156
+  servername: edmc.ambercc.filegear-sg.me
+  skip-cert-verify: true
+  tls: true
+  type: vless
+  udp: true
+  uuid: ee6774c0-9b19-4ff1-8b30-2da4b71977e2
+  ws-opts:
+    headers:
+      host: edmc.ambercc.filegear-sg.me
+    path: /?ed=2560&proxyip=ts.hpc.tw
+- name: 🇺🇸_美国_83
+  network: ws
+  port: 443
+  server: arvind.ns.cloudflare.com
+  servername: edmz.ambercc.filegear-sg.me
+  skip-cert-verify: true
+  tls: true
+  type: vless
+  udp: true
+  uuid: ee6774c0-9b19-4ff1-8b30-2da4b71977e2
+  ws-opts:
+    headers:
+      host: edmz.ambercc.filegear-sg.me
+    path: /?ed=2560&proxyip=ts.hpc.tw
+- name: 🇺🇸_美国_84
+  network: ws
+  port: 2083
+  server: 66.81.247.88
+  servername: edmz.ambercc.filegear-sg.me
+  skip-cert-verify: true
+  tls: true
+  type: vless
+  udp: true
+  uuid: ee6774c0-9b19-4ff1-8b30-2da4b71977e2
+  ws-opts:
+    headers:
+      host: edmz.ambercc.filegear-sg.me
+    path: /?ed=2560&proxyip=ts.hpc.tw
+- name: 🇨🇭_瑞士_1
+  network: ws
+  port: 443
+  server: 140.238.212.95
+  servername: ss.bgm2024.dpdns.org
+  skip-cert-verify: true
+  tls: true
+  type: vless
+  udp: true
+  uuid: 55520747-311e-4015-83ce-be46e2060ce3
+  ws-opts:
+    headers:
+      host: ss.bgm2024.dpdns.org
+    path: /?ed=2560
+- name: 🇨🇭_瑞士_2
+  network: ws
+  port: 443
+  server: 64.110.104.30
+  servername: ss.bgm2024.dpdns.org
+  skip-cert-verify: true
+  tls: true
+  type: vless
+  udp: true
+  uuid: 55520747-311e-4015-83ce-be46e2060ce3
+  ws-opts:
+    headers:
+      host: ss.bgm2024.dpdns.org
+    path: /?ed=2560
+- name: 🇬🇧_英国_5
+  network: ws
+  port: 26803
+  server: 82.163.16.229
+  servername: edmc.ambercc.filegear-sg.me
+  skip-cert-verify: true
+  tls: true
+  type: vless
+  udp: true
+  uuid: ee6774c0-9b19-4ff1-8b30-2da4b71977e2
+  ws-opts:
+    headers:
+      host: edmc.ambercc.filegear-sg.me
+    path: /?ed=2560&proxyip=ts.hpc.tw
+- name: 🇺🇸_美国_85
+  network: ws
+  port: 443
+  server: 104.24.210.72
+  servername: ss.bgm2024.dpdns.org
+  skip-cert-verify: true
+  tls: true
+  type: vless
+  udp: true
+  uuid: 55520747-311e-4015-83ce-be46e2060ce3
+  ws-opts:
+    headers:
+      host: ss.bgm2024.dpdns.org
+    path: /?ed=2560
+- name: 🇺🇸_美国_86
+  network: ws
+  port: 443
+  server: 104.19.144.212
+  servername: ss.bgm2024.dpdns.org
+  skip-cert-verify: true
+  tls: true
+  type: vless
+  udp: true
+  uuid: 55520747-311e-4015-83ce-be46e2060ce3
+  ws-opts:
+    headers:
+      host: ss.bgm2024.dpdns.org
+    path: /?ed=2560
+- name: 🇺🇸_美国_87
+  network: ws
+  port: 443
+  server: 104.16.132.56
+  servername: ss.bgm2024.dpdns.org
+  skip-cert-verify: true
+  tls: true
+  type: vless
+  udp: true
+  uuid: 55520747-311e-4015-83ce-be46e2060ce3
+  ws-opts:
+    headers:
+      host: ss.bgm2024.dpdns.org
+    path: /?ed=2560
+- name: 🇩🇪_德国_4
+  network: ws
+  port: 8443
+  server: 47.254.171.15
+  servername: ss.bgm2024.dpdns.org
+  skip-cert-verify: true
+  tls: true
+  type: vless
+  udp: true
+  uuid: 55520747-311e-4015-83ce-be46e2060ce3
+  ws-opts:
+    headers:
+      host: ss.bgm2024.dpdns.org
+    path: /?ed=2560
+- name: 🇺🇸_美国_88
+  network: ws
+  port: 443
+  server: 104.16.246.132
+  servername: ss.bgm2024.dpdns.org
+  skip-cert-verify: true
+  tls: true
+  type: vless
+  udp: true
+  uuid: 55520747-311e-4015-83ce-be46e2060ce3
+  ws-opts:
+    headers:
+      host: ss.bgm2024.dpdns.org
     path: /?ed=2560
 - name: 🇦🇺_澳大利亚_2
   network: ws
-  port: 1935
-  server: 43.154.34.74
-  servername: edmx.aimercc.filegear-sg.me
+  port: 30002
+  server: 43.135.44.101
+  servername: ss.bgm2024.dpdns.org
   skip-cert-verify: true
   tls: true
   type: vless
   udp: true
-  uuid: ee6774c0-9b19-4ff1-8b30-2da4b71977e2
+  uuid: 55520747-311e-4015-83ce-be46e2060ce3
   ws-opts:
     headers:
-      host: edmx.aimercc.filegear-sg.me
-    path: /?ed=2560&proxyip=ts.hpc.tw
-- name: 🇺🇸_美国_111
+      host: ss.bgm2024.dpdns.org
+    path: /?ed=2560
+- name: 🇨🇭_瑞士_3
   network: ws
   port: 443
-  server: 129.213.130.70
-  servername: hz.ylks0033.dpdns.org
+  server: 141.148.187.195
+  servername: ss.bgm2024.dpdns.org
   skip-cert-verify: true
   tls: true
   type: vless
   udp: true
-  uuid: 06e4425e-a8cb-4b63-929f-2105604ab0a9
+  uuid: 55520747-311e-4015-83ce-be46e2060ce3
   ws-opts:
     headers:
-      host: hz.ylks0033.dpdns.org
+      host: ss.bgm2024.dpdns.org
     path: /?ed=2560
-- name: 🇨🇳_中国_39
-  network: ws
-  port: 587
-  server: 8.210.213.159
-  servername: edmx.aimercc.filegear-sg.me
-  skip-cert-verify: true
-  tls: true
-  type: vless
-  udp: true
-  uuid: ee6774c0-9b19-4ff1-8b30-2da4b71977e2
-  ws-opts:
-    headers:
-      host: edmx.aimercc.filegear-sg.me
-    path: /?ed=2560&proxyip=ts.hpc.tw
-- name: 🇫🇷_法国_1
-  network: ws
-  port: 8080
-  server: 141.11.77.248
-  servername: edmx.aimercc.filegear-sg.me
-  skip-cert-verify: true
-  tls: true
-  type: vless
-  udp: true
-  uuid: ee6774c0-9b19-4ff1-8b30-2da4b71977e2
-  ws-opts:
-    headers:
-      host: edmx.aimercc.filegear-sg.me
-    path: /?ed=2560&proxyip=ts.hpc.tw
-- name: 🇦🇺_澳大利亚_3
+- name: 🇯🇵_日本_11
   network: ws
   port: 443
-  server: 152.67.125.174
-  servername: hz.ylks0033.dpdns.org
+  server: 168.138.46.67
+  servername: ss.bgm2024.dpdns.org
   skip-cert-verify: true
   tls: true
   type: vless
   udp: true
-  uuid: 06e4425e-a8cb-4b63-929f-2105604ab0a9
+  uuid: 55520747-311e-4015-83ce-be46e2060ce3
   ws-opts:
     headers:
-      host: hz.ylks0033.dpdns.org
+      host: ss.bgm2024.dpdns.org
     path: /?ed=2560
-- name: 🇨🇳_中国_40
-  network: ws
-  port: 8443
-  server: 156.255.90.175
-  servername: edmz.aimercc.filegear-sg.me
-  skip-cert-verify: true
-  tls: true
-  type: vless
-  udp: true
-  uuid: ee6774c0-9b19-4ff1-8b30-2da4b71977e2
-  ws-opts:
-    headers:
-      host: edmz.aimercc.filegear-sg.me
-    path: /?ed=2560&proxyip=ts.hpc.tw
-- name: 🇫🇷_法国_2
-  network: ws
-  port: 8080
-  server: 141.11.77.248
-  servername: edmz.aimercc.filegear-sg.me
-  skip-cert-verify: true
-  tls: true
-  type: vless
-  udp: true
-  uuid: ee6774c0-9b19-4ff1-8b30-2da4b71977e2
-  ws-opts:
-    headers:
-      host: edmz.aimercc.filegear-sg.me
-    path: /?ed=2560&proxyip=ts.hpc.tw
-- name: 🇺🇸_美国_112
+- name: 🇺🇸_美国_89
   network: ws
   port: 443
-  server: 172.67.79.211
-  servername: hz.ylks0033.dpdns.org
+  server: 104.17.104.243
+  servername: ss.bgm2024.dpdns.org
   skip-cert-verify: true
   tls: true
   type: vless
   udp: true
-  uuid: 06e4425e-a8cb-4b63-929f-2105604ab0a9
+  uuid: 55520747-311e-4015-83ce-be46e2060ce3
   ws-opts:
     headers:
-      host: hz.ylks0033.dpdns.org
+      host: ss.bgm2024.dpdns.org
     path: /?ed=2560
-- name: 🇺🇸_美国_113
+- name: 🇺🇸_美国_90
   network: ws
-  port: 2052
-  server: 172.67.148.211
-  servername: wWw.SpeedtesT.net.xn--hibye-hg1hw1ovzaf50bop5bc33awx0ajxfqk4giqq.store.
+  port: 443
+  server: 129.213.136.180
+  servername: ss.bgm2024.dpdns.org
   skip-cert-verify: true
   tls: true
   type: vless
   udp: true
-  uuid: 3e5c6939-aed2-48d5-9b9c-91c2ed967428
+  uuid: 55520747-311e-4015-83ce-be46e2060ce3
   ws-opts:
     headers:
-      host: wWw.SpeedtesT.net.xn--hibye-hg1hw1ovzaf50bop5bc33awx0ajxfqk4giqq.store.
-    path: '@maznet--@maznet--@maznet--@maznet--@maznet--@maznet--@maznet--@maznet--@maznet--@maznet?ed=2048'
-- name: 🇺🇸_美国_114
+      host: ss.bgm2024.dpdns.org
+    path: /?ed=2560
+- name: 🇺🇸_美国_91
   network: ws
-  port: 80
-  server: 172.67.172.198
-  servername: uioijsjvuabcujwecwe.abletodothingsorg.com
+  port: 443
+  server: 104.18.86.131
+  servername: ss.bgm2024.dpdns.org
   skip-cert-verify: true
   tls: true
   type: vless
   udp: true
-  uuid: 57413029-5035-4de8-8681-e74d00d7ee72
+  uuid: 55520747-311e-4015-83ce-be46e2060ce3
   ws-opts:
     headers:
-      host: uioijsjvuabcujwecwe.abletodothingsorg.com
+      host: ss.bgm2024.dpdns.org
+    path: /?ed=2560
+- name: 🇺🇸_美国_92
+  network: ws
+  port: 443
+  server: 104.16.253.83
+  servername: ss.bgm2024.dpdns.org
+  skip-cert-verify: true
+  tls: true
+  type: vless
+  udp: true
+  uuid: 55520747-311e-4015-83ce-be46e2060ce3
+  ws-opts:
+    headers:
+      host: ss.bgm2024.dpdns.org
+    path: /?ed=2560
+- name: 🇺🇸_美国_93
+  network: ws
+  port: 443
+  server: 104.16.120.49
+  servername: ss.bgm2024.dpdns.org
+  skip-cert-verify: true
+  tls: true
+  type: vless
+  udp: true
+  uuid: 55520747-311e-4015-83ce-be46e2060ce3
+  ws-opts:
+    headers:
+      host: ss.bgm2024.dpdns.org
+    path: /?ed=2560
+- name: 🇺🇸_美国_94
+  network: ws
+  port: 443
+  server: 104.17.102.95
+  servername: ss.bgm2024.dpdns.org
+  skip-cert-verify: true
+  tls: true
+  type: vless
+  udp: true
+  uuid: 55520747-311e-4015-83ce-be46e2060ce3
+  ws-opts:
+    headers:
+      host: ss.bgm2024.dpdns.org
+    path: /?ed=2560
+- name: 🇺🇸_美国_95
+  network: ws
+  port: 443
+  server: 104.17.210.171
+  servername: ss.bgm2024.dpdns.org
+  skip-cert-verify: true
+  tls: true
+  type: vless
+  udp: true
+  uuid: 55520747-311e-4015-83ce-be46e2060ce3
+  ws-opts:
+    headers:
+      host: ss.bgm2024.dpdns.org
+    path: /?ed=2560
+- name: 🇺🇸_美国_96
+  network: ws
+  port: 443
+  server: 104.18.94.238
+  servername: ss.bgm2024.dpdns.org
+  skip-cert-verify: true
+  tls: true
+  type: vless
+  udp: true
+  uuid: 55520747-311e-4015-83ce-be46e2060ce3
+  ws-opts:
+    headers:
+      host: ss.bgm2024.dpdns.org
+    path: /?ed=2560
+- name: 🇺🇸_美国_97
+  network: ws
+  port: 443
+  server: join.my.telegram.channel.cmliussss.to.unlock.more.premium.nodes.cf.090227.xyz
+  servername: ss.bgm2024.dpdns.org
+  skip-cert-verify: true
+  tls: true
+  type: vless
+  udp: true
+  uuid: 55520747-311e-4015-83ce-be46e2060ce3
+  ws-opts:
+    headers:
+      host: ss.bgm2024.dpdns.org
+    path: /?ed=2560
+- name: 🇳🇱_荷兰_5
+  network: ws
+  port: 18102
+  server: 45.143.235.111
+  servername: edmz.ambercc.filegear-sg.me
+  skip-cert-verify: true
+  tls: true
+  type: vless
+  udp: true
+  uuid: ee6774c0-9b19-4ff1-8b30-2da4b71977e2
+  ws-opts:
+    headers:
+      host: edmz.ambercc.filegear-sg.me
+    path: /?ed=2560&proxyip=ts.hpc.tw
+- name: 🇬🇧_英国_6
+  network: ws
+  port: 443
+  server: 144.24.73.232
+  servername: ss.bgm2024.dpdns.org
+  skip-cert-verify: true
+  tls: true
+  type: vless
+  udp: true
+  uuid: 55520747-311e-4015-83ce-be46e2060ce3
+  ws-opts:
+    headers:
+      host: ss.bgm2024.dpdns.org
+    path: /?ed=2560
+- name: 🇧🇷_巴西_2
+  network: ws
+  port: 443
+  server: 188.114.98.9
+  servername: ss.bgm2024.dpdns.org
+  skip-cert-verify: true
+  tls: true
+  type: vless
+  udp: true
+  uuid: 55520747-311e-4015-83ce-be46e2060ce3
+  ws-opts:
+    headers:
+      host: ss.bgm2024.dpdns.org
+    path: /?ed=2560
+- name: 🇺🇸_美国_98
+  network: ws
+  port: 443
+  server: 47.79.92.16
+  servername: edmc.ambercc.filegear-sg.me
+  skip-cert-verify: true
+  tls: true
+  type: vless
+  udp: true
+  uuid: ee6774c0-9b19-4ff1-8b30-2da4b71977e2
+  ws-opts:
+    headers:
+      host: edmc.ambercc.filegear-sg.me
+    path: /?ed=2560&proxyip=ts.hpc.tw
+- name: 🇺🇸_美国_99
+  network: ws
+  port: 443
+  server: 192.9.180.162
+  servername: ss.bgm2024.dpdns.org
+  skip-cert-verify: true
+  tls: true
+  type: vless
+  udp: true
+  uuid: 55520747-311e-4015-83ce-be46e2060ce3
+  ws-opts:
+    headers:
+      host: ss.bgm2024.dpdns.org
+    path: /?ed=2560
+- name: 🇨🇳_中国_21
+  network: ws
+  port: 54321
+  server: 59.149.204.218
+  servername: ss.bgm2024.dpdns.org
+  skip-cert-verify: true
+  tls: true
+  type: vless
+  udp: true
+  uuid: 55520747-311e-4015-83ce-be46e2060ce3
+  ws-opts:
+    headers:
+      host: ss.bgm2024.dpdns.org
+    path: /?ed=2560
+- name: 🇨🇳_中国_22
+  network: ws
+  port: 443
+  server: 8.220.134.136
+  servername: ss.bgm2024.dpdns.org
+  skip-cert-verify: true
+  tls: true
+  type: vless
+  udp: true
+  uuid: 55520747-311e-4015-83ce-be46e2060ce3
+  ws-opts:
+    headers:
+      host: ss.bgm2024.dpdns.org
+    path: /?ed=2560
+- name: 🇯🇵_日本_12
+  network: ws
+  port: 12333
+  server: 121.80.244.179
+  servername: edmz.ambercc.filegear-sg.me
+  skip-cert-verify: true
+  tls: true
+  type: vless
+  udp: true
+  uuid: ee6774c0-9b19-4ff1-8b30-2da4b71977e2
+  ws-opts:
+    headers:
+      host: edmz.ambercc.filegear-sg.me
+    path: /?ed=2560&proxyip=ts.hpc.tw
+- name: 🇯🇵_日本_13
+  network: ws
+  port: 11084
+  server: 121.80.244.179
+  servername: ss.bgm2024.dpdns.org
+  skip-cert-verify: true
+  tls: true
+  type: vless
+  udp: true
+  uuid: 55520747-311e-4015-83ce-be46e2060ce3
+  ws-opts:
+    headers:
+      host: ss.bgm2024.dpdns.org
+    path: /?ed=2560
+- alterId: '2'
+  cipher: auto
+  name: 🇨🇳_中国_23
+  network: ws
+  port: '30825'
+  server: v25.heduian.link
+  type: vmess
+  uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
+  ws-opts:
+    headers:
+      host: v25.heduian.link
+    path: /oooo
+- name: 🇮🇷_伊朗
+  network: ws
+  port: 22629
+  server: 85.9.97.224
+  skip-cert-verify: true
+  tls: true
+  type: vless
+  udp: true
+  uuid: 7ef6c6ed-5548-4a4c-b54b-a18223f53b7f
+  ws-opts:
     path: /
 - alterId: '0'
   cipher: auto
-  name: 🇨🇳_中国_41
+  name: 🇨🇳_中国_24
   network: ws
   port: '46022'
   server: 112.29.213.228
   type: vmess
   uuid: 4c5a8a75-7d65-40a9-8c3b-a67abae08534
   ws-opts:
-    headers:
-      host: 112.29.213.228
     path: /zh-cn
+- name: 🇺🇸_美国_100
+  network: ws
+  port: 443
+  server: 104.18.20.20
+  servername: us7.globals-download.com
+  skip-cert-verify: true
+  tls: true
+  type: vless
+  udp: true
+  uuid: d7b87208-dcbc-4396-9e5a-d2c5b32f2b09
+  ws-opts:
+    headers:
+      host: us7.globals-download.com
+    path: /pq/us7
+- name: 🇺🇸_美国_101
+  network: ws
+  port: 443
+  server: 104.27.125.158
+  servername: jp1.xn--ghqu5fm27b67w.com
+  skip-cert-verify: true
+  tls: true
+  type: vless
+  udp: true
+  uuid: d7b87208-dcbc-4396-9e5a-d2c5b32f2b09
+  ws-opts:
+    headers:
+      host: jp1.xn--ghqu5fm27b67w.com
+    path: /pq/jp1
+- name: 🇺🇸_美国_102
+  network: ws
+  port: 443
+  server: 104.18.20.69
+  servername: us5s.pqvip.top
+  skip-cert-verify: true
+  tls: true
+  type: vless
+  udp: true
+  uuid: d7b87208-dcbc-4396-9e5a-d2c5b32f2b09
+  ws-opts:
+    headers:
+      host: us5s.pqvip.top
+    path: /pq/us5
+- alterId: '0'
+  cipher: auto
+  name: 🇨🇳_中国_25
+  network: ws
+  port: '16617'
+  server: yes.mojcn.com
+  type: vmess
+  uuid: c85761bc-5d74-4ae5-b525-0d32443182fa
+  ws-opts:
+    headers:
+      host: a68ff6d2f0739ee7f808ed3fd9d21eab.mobgslb.tbcache.com
+    path: /
+- alterId: '0'
+  cipher: auto
+  name: 🇨🇳_中国_26
+  network: ws
+  port: '16617'
+  server: m.cnmjin.net
+  type: vmess
+  uuid: c85761bc-5d74-4ae5-b525-0d32443182fa
+  ws-opts:
+    headers:
+      host: a68ff6d2f0739ee7f808ed3fd9d21eab.mobgslb.tbcache.com
+    path: /
+- alterId: '0'
+  cipher: auto
+  name: 🇨🇳_中国_27
+  network: ws
+  port: '16617'
+  server: t.cnmjcn.cyou
+  type: vmess
+  uuid: c85761bc-5d74-4ae5-b525-0d32443182fa
+  ws-opts:
+    headers:
+      host: a68ff6d2f0739ee7f808ed3fd9d21eab.mobgslb.tbcache.com
+    path: /
+- alterId: '0'
+  cipher: auto
+  name: 🇨🇳_中国_28
+  network: ws
+  port: '16618'
+  server: yes.mojcn.com
+  type: vmess
+  uuid: c85761bc-5d74-4ae5-b525-0d32443182fa
+  ws-opts:
+    headers:
+      host: a68ff6d2f0739ee7f808ed3fd9d21eab.mobgslb.tbcache.com
+    path: /
+- alterId: '0'
+  cipher: auto
+  name: 🇨🇳_中国_29
+  network: ws
+  port: '16618'
+  server: m.cnmjin.net
+  type: vmess
+  uuid: c85761bc-5d74-4ae5-b525-0d32443182fa
+  ws-opts:
+    headers:
+      host: a68ff6d2f0739ee7f808ed3fd9d21eab.mobgslb.tbcache.com
+    path: /
+- alterId: '0'
+  cipher: auto
+  name: 🇨🇳_中国_30
+  network: ws
+  port: '16618'
+  server: t.cnmjcn.cyou
+  type: vmess
+  uuid: c85761bc-5d74-4ae5-b525-0d32443182fa
+  ws-opts:
+    headers:
+      host: a68ff6d2f0739ee7f808ed3fd9d21eab.mobgslb.tbcache.com
+    path: /
+- alterId: '0'
+  cipher: auto
+  name: 🇨🇳_中国_31
+  network: ws
+  port: '16632'
+  server: yes.mojcn.com
+  type: vmess
+  uuid: c85761bc-5d74-4ae5-b525-0d32443182fa
+  ws-opts:
+    headers:
+      host: a68ff6d2f0739ee7f808ed3fd9d21eab.mobgslb.tbcache.com
+    path: /
+- alterId: '0'
+  cipher: auto
+  name: 🇨🇳_中国_32
+  network: ws
+  port: '16632'
+  server: m.cnmjin.net
+  type: vmess
+  uuid: c85761bc-5d74-4ae5-b525-0d32443182fa
+  ws-opts:
+    headers:
+      host: a68ff6d2f0739ee7f808ed3fd9d21eab.mobgslb.tbcache.com
+    path: /
+- alterId: '0'
+  cipher: auto
+  name: 🇨🇳_中国_33
+  network: ws
+  port: '16622'
+  server: yes.mojcn.com
+  type: vmess
+  uuid: c85761bc-5d74-4ae5-b525-0d32443182fa
+  ws-opts:
+    headers:
+      host: a68ff6d2f0739ee7f808ed3fd9d21eab.mobgslb.tbcache.com
+    path: /
+- alterId: '0'
+  cipher: auto
+  name: 🇨🇳_中国_34
+  network: ws
+  port: '16622'
+  server: m.cnmjin.net
+  type: vmess
+  uuid: c85761bc-5d74-4ae5-b525-0d32443182fa
+  ws-opts:
+    headers:
+      host: a68ff6d2f0739ee7f808ed3fd9d21eab.mobgslb.tbcache.com
+    path: /
+- alterId: '0'
+  cipher: auto
+  name: 🇨🇳_中国_35
+  network: ws
+  port: '16626'
+  server: yes.mojcn.com
+  type: vmess
+  uuid: c85761bc-5d74-4ae5-b525-0d32443182fa
+  ws-opts:
+    headers:
+      host: a68ff6d2f0739ee7f808ed3fd9d21eab.mobgslb.tbcache.com
+    path: /
+- alterId: '0'
+  cipher: auto
+  name: 🇨🇳_中国_36
+  network: ws
+  port: '16616'
+  server: yes.mojcn.com
+  type: vmess
+  uuid: c85761bc-5d74-4ae5-b525-0d32443182fa
+  ws-opts:
+    headers:
+      host: a68ff6d2f0739ee7f808ed3fd9d21eab.mobgslb.tbcache.com
+    path: /
+- alterId: '0'
+  cipher: auto
+  name: 🇨🇳_中国_37
+  network: ws
+  port: '16616'
+  server: m.cnmjin.net
+  type: vmess
+  uuid: c85761bc-5d74-4ae5-b525-0d32443182fa
+  ws-opts:
+    headers:
+      host: a68ff6d2f0739ee7f808ed3fd9d21eab.mobgslb.tbcache.com
+    path: /
+- alterId: '0'
+  cipher: auto
+  name: 🇨🇳_中国_38
+  network: ws
+  port: '16616'
+  server: t.cnmjcn.cyou
+  type: vmess
+  uuid: c85761bc-5d74-4ae5-b525-0d32443182fa
+  ws-opts:
+    headers:
+      host: a68ff6d2f0739ee7f808ed3fd9d21eab.mobgslb.tbcache.com
+    path: /
+- alterId: '0'
+  cipher: auto
+  name: 🇨🇳_中国_39
+  network: ws
+  port: '16648'
+  server: yes.mojcn.com
+  type: vmess
+  uuid: c85761bc-5d74-4ae5-b525-0d32443182fa
+  ws-opts:
+    headers:
+      host: a68ff6d2f0739ee7f808ed3fd9d21eab.mobgslb.tbcache.com
+    path: /
+- alterId: '0'
+  cipher: auto
+  name: 🇨🇳_中国_40
+  network: ws
+  port: '16648'
+  server: m.cnmjin.net
+  type: vmess
+  uuid: c85761bc-5d74-4ae5-b525-0d32443182fa
+  ws-opts:
+    headers:
+      host: a68ff6d2f0739ee7f808ed3fd9d21eab.mobgslb.tbcache.com
+    path: /
+- alterId: '0'
+  cipher: auto
+  name: 🇨🇳_中国_41
+  network: ws
+  port: '16648'
+  server: t.cnmjcn.cyou
+  type: vmess
+  uuid: c85761bc-5d74-4ae5-b525-0d32443182fa
+  ws-opts:
+    headers:
+      host: a68ff6d2f0739ee7f808ed3fd9d21eab.mobgslb.tbcache.com
+    path: /
 - alterId: '0'
   cipher: auto
   name: 🇨🇳_中国_42
   network: ws
-  port: '46015'
-  server: 112.29.213.228
+  port: '16641'
+  server: yes.mojcn.com
   type: vmess
-  uuid: 4c5a8a75-7d65-40a9-8c3b-a67abae08534
+  uuid: c85761bc-5d74-4ae5-b525-0d32443182fa
   ws-opts:
     headers:
-      host: 112.29.213.228
-    path: /zh-cn
+      host: a68ff6d2f0739ee7f808ed3fd9d21eab.mobgslb.tbcache.com
+    path: /
+- alterId: '0'
+  cipher: auto
+  name: 🇨🇳_中国_43
+  network: ws
+  port: '16641'
+  server: m.cnmjcn.com
+  type: vmess
+  uuid: c85761bc-5d74-4ae5-b525-0d32443182fa
+  ws-opts:
+    headers:
+      host: a68ff6d2f0739ee7f808ed3fd9d21eab.mobgslb.tbcache.com
+    path: /
+- alterId: '0'
+  cipher: auto
+  name: 🇨🇳_中国_44
+  network: ws
+  port: '16641'
+  server: t.cnmjcn.cyou
+  type: vmess
+  uuid: c85761bc-5d74-4ae5-b525-0d32443182fa
+  ws-opts:
+    headers:
+      host: a68ff6d2f0739ee7f808ed3fd9d21eab.mobgslb.tbcache.com
+    path: /
+- alterId: '0'
+  cipher: auto
+  name: 🇨🇳_中国_45
+  network: ws
+  port: '16644'
+  server: yes.mojcn.com
+  type: vmess
+  uuid: c85761bc-5d74-4ae5-b525-0d32443182fa
+  ws-opts:
+    headers:
+      host: a68ff6d2f0739ee7f808ed3fd9d21eab.mobgslb.tbcache.com
+    path: /
+- alterId: '0'
+  cipher: auto
+  name: 🇨🇳_中国_46
+  network: ws
+  port: '16644'
+  server: m.cnmjcn.com
+  type: vmess
+  uuid: c85761bc-5d74-4ae5-b525-0d32443182fa
+  ws-opts:
+    headers:
+      host: a68ff6d2f0739ee7f808ed3fd9d21eab.mobgslb.tbcache.com
+    path: /
+- alterId: '0'
+  cipher: auto
+  name: 🇨🇳_中国_47
+  network: ws
+  port: '16645'
+  server: yes.mojcn.com
+  type: vmess
+  uuid: c85761bc-5d74-4ae5-b525-0d32443182fa
+  ws-opts:
+    headers:
+      host: a68ff6d2f0739ee7f808ed3fd9d21eab.mobgslb.tbcache.com
+    path: /
+- alterId: '0'
+  cipher: auto
+  name: 🇨🇳_中国_48
+  network: ws
+  port: '16645'
+  server: m.cnmjin.net
+  type: vmess
+  uuid: c85761bc-5d74-4ae5-b525-0d32443182fa
+  ws-opts:
+    headers:
+      host: a68ff6d2f0739ee7f808ed3fd9d21eab.mobgslb.tbcache.com
+    path: /
+- alterId: '0'
+  cipher: auto
+  name: 🇨🇳_中国_49
+  network: ws
+  port: '16645'
+  server: t.cnmjcn.cyou
+  type: vmess
+  uuid: c85761bc-5d74-4ae5-b525-0d32443182fa
+  ws-opts:
+    headers:
+      host: a68ff6d2f0739ee7f808ed3fd9d21eab.mobgslb.tbcache.com
+    path: /
 proxy-groups:
 - name: 🚀 节点选择
   proxies:
@@ -2552,9 +2773,30 @@ proxy-groups:
   - DIRECT
   - 电报群：https://t.me/vvkj11
   - 每天更新，请加电报群防止失联
-  - 日期：06-13
+  - 日期：06-14
   - 免费VPN：https://tt.vg/gwaAy
+  - 🇩🇪_德国_1
+  - 🇳🇱_荷兰_1
   - 🇨🇳_中国_1
+  - 🇯🇵_日本_1
+  - 🇯🇵_日本_2
+  - 🇯🇵_日本_3
+  - 🇯🇵_日本_4
+  - 🇧🇪_比利时
+  - 🇺🇸_美国_1
+  - 🇯🇵_日本_5
+  - 🇺🇸_美国_2
+  - 🇯🇵_日本_6
+  - 🇯🇵_日本_7
+  - 🇺🇸_美国_3
+  - 🇸🇬_新加坡_1
+  - 🇸🇬_新加坡_2
+  - 🇺🇸_美国_4
+  - 🇸🇬_新加坡_3
+  - 🇸🇬_新加坡_4
+  - 🇸🇬_新加坡_5
+  - 🇸🇬_新加坡_6
+  - 🇺🇸_美国_5
   - 🇨🇳_中国_2
   - 🇨🇳_中国_3
   - 🇨🇳_中国_4
@@ -2563,28 +2805,38 @@ proxy-groups:
   - 🇨🇳_中国_7
   - 🇨🇳_中国_8
   - 🇨🇳_中国_9
+  - 🇺🇸_美国_6
+  - 🇺🇸_美国_7
+  - 🇺🇸_美国_8
+  - 🇺🇸_美国_9
+  - 🇬🇧_英国_1
+  - 🇧🇷_巴西_1
+  - 🇺🇸_美国_10
+  - 🇺🇸_美国_11
+  - 🇺🇸_美国_12
+  - 🇺🇸_美国_13
+  - 🇺🇸_美国_14
+  - 🇺🇸_美国_15
+  - 🇺🇸_美国_16
+  - 🇺🇸_美国_17
+  - 🇺🇸_美国_18
+  - 🇺🇸_美国_19
+  - 🇺🇸_美国_20
+  - 🇺🇸_美国_21
+  - 🇺🇸_美国_22
+  - 🇺🇸_美国_23
+  - 🇺🇸_美国_24
+  - 🇺🇸_美国_25
+  - 🇺🇸_美国_26
+  - 🇺🇸_美国_27
+  - 🇺🇸_美国_28
   - 🇨🇳_中国_10
+  - 🇯🇵_日本_8
   - 🇨🇳_中国_11
+  - 🇺🇸_美国_29
+  - 🇺🇸_美国_30
   - 🇨🇳_中国_12
   - 🇨🇳_中国_13
-  - 🇨🇳_中国_14
-  - 🇨🇳_中国_15
-  - 🇨🇳_中国_16
-  - 🇨🇳_中国_17
-  - 🇨🇳_中国_18
-  - 🇨🇳_中国_19
-  - 🇨🇳_中国_20
-  - 🇺🇸_美国_1
-  - 🇺🇸_美国_2
-  - 🇺🇸_美国_3
-  - 🇨🇳_中国_21
-  - 🇺🇸_美国_4
-  - 🇺🇸_美国_5
-  - 🇨🇳_中国_22
-  - 🇨🇳_中国_23
-  - 🇨🇳_中国_24
-  - 🇨🇳_中国_25
-  - 🇨🇳_中国_26
   - 🇰🇷_韩国_1
   - 🇰🇷_韩国_2
   - 🇰🇷_韩国_3
@@ -2593,120 +2845,102 @@ proxy-groups:
   - 🇰🇷_韩国_6
   - 🇰🇷_韩国_7
   - 🇰🇷_韩国_8
-  - 🇰🇷_韩国_9
-  - 🇰🇷_韩国_10
-  - 🇰🇷_韩国_11
-  - 🇰🇷_韩国_12
-  - 🇺🇸_美国_6
-  - 🇺🇸_美国_7
-  - 🇺🇸_美国_8
-  - 🇺🇸_美国_9
-  - 🇺🇸_美国_10
-  - 🇺🇸_美国_11
-  - 🇺🇸_美国_12
-  - 🇺🇸_美国_13
-  - 🇺🇸_美国_14
-  - 🇺🇸_美国_15
-  - 🇺🇸_美国_16
-  - 🇧🇷_巴西_1
-  - 🇷🇺_俄罗斯_1
-  - 🇺🇸_美国_17
-  - 🇧🇷_巴西_2
-  - 🇺🇸_美国_18
-  - 🇺🇸_美国_19
-  - 🇺🇸_美国_20
-  - 🇨🇳_中国_27
-  - 🇨🇳_中国_28
-  - 🇺🇸_美国_21
-  - 🇺🇸_美国_22
-  - 🇺🇸_美国_23
-  - 🇨🇳_中国_29
-  - 🇺🇸_美国_24
-  - 🇿🇦_南非
-  - 🇨🇳_中国_30
-  - 🇷🇺_俄罗斯_2
-  - 🇺🇸_美国_25
-  - 🇺🇸_美国_26
-  - 🇺🇸_美国_27
-  - 🇺🇸_美国_28
-  - 🇺🇸_美国_29
-  - 🇺🇸_美国_30
+  - 🇦🇺_澳大利亚_1
   - 🇺🇸_美国_31
+  - 🇸🇪_瑞典
+  - 🇨🇳_中国_14
   - 🇺🇸_美国_32
+  - 🇨🇳_中国_15
   - 🇺🇸_美国_33
   - 🇺🇸_美国_34
+  - 🇳🇱_荷兰_2
   - 🇺🇸_美国_35
   - 🇺🇸_美国_36
+  - 🇦🇹_奥地利_1
+  - 🇦🇹_奥地利_2
   - 🇺🇸_美国_37
+  - 🇬🇧_英国_2
   - 🇺🇸_美国_38
   - 🇺🇸_美国_39
   - 🇺🇸_美国_40
+  - 🇨🇷_哥斯达黎加
   - 🇺🇸_美国_41
   - 🇺🇸_美国_42
   - 🇺🇸_美国_43
+  - 🇦🇹_奥地利_3
+  - 🇺🇦_乌克兰_1
   - 🇺🇸_美国_44
   - 🇺🇸_美国_45
+  - 🇿🇦_南非
   - 🇺🇸_美国_46
+  - 🇩🇪_德国_2
+  - 🇨🇳_中国_16
+  - 🇬🇧_英国_3
+  - 🇬🇧_英国_4
+  - 🇦🇹_奥地利_4
+  - 🇯🇵_日本_9
   - 🇺🇸_美国_47
   - 🇺🇸_美国_48
   - 🇺🇸_美国_49
-  - 🇯🇵_日本_1
-  - 🇷🇺_俄罗斯_3
-  - 🇨🇳_中国_31
   - 🇺🇸_美国_50
+  - 🇷🇺_俄罗斯
   - 🇺🇸_美国_51
+  - 🇩🇪_德国_3
   - 🇺🇸_美国_52
-  - 🇨🇳_中国_32
-  - 🇨🇳_中国_33
   - 🇺🇸_美国_53
+  - 🇺🇦_乌克兰_2
   - 🇺🇸_美国_54
   - 🇺🇸_美国_55
+  - 🇨🇳_中国_17
   - 🇺🇸_美国_56
   - 🇺🇸_美国_57
   - 🇺🇸_美国_58
+  - 🇺🇦_乌克兰_3
   - 🇺🇸_美国_59
   - 🇺🇸_美国_60
   - 🇺🇸_美国_61
-  - 🇯🇵_日本_2
-  - 🏳️_未知_1
   - 🇺🇸_美国_62
+  - 🇳🇱_荷兰_3
   - 🇺🇸_美国_63
   - 🇺🇸_美国_64
-  - 🇩🇪_德国_1
   - 🇺🇸_美国_65
   - 🇺🇸_美国_66
   - 🇺🇸_美国_67
   - 🇺🇸_美国_68
   - 🇺🇸_美国_69
-  - 🇺🇦_乌克兰
   - 🇺🇸_美国_70
+  - 🇨🇳_中国_18
   - 🇺🇸_美国_71
   - 🇺🇸_美国_72
-  - 🇨🇳_中国_34
-  - 🇳🇱_荷兰
   - 🇺🇸_美国_73
+  - 🇯🇵_日本_10
   - 🇺🇸_美国_74
   - 🇺🇸_美国_75
-  - 🇩🇪_德国_2
-  - 🇨🇳_中国_35
-  - 🏳️_未知_2
+  - 🇦🇹_奥地利_5
   - 🇺🇸_美国_76
-  - 🇨🇳_中国_36
   - 🇺🇸_美国_77
   - 🇺🇸_美国_78
   - 🇺🇸_美国_79
   - 🇺🇸_美国_80
   - 🇺🇸_美国_81
+  - 🇳🇱_荷兰_4
+  - 🇨🇳_中国_19
   - 🇺🇸_美国_82
+  - 🇨🇳_中国_20
   - 🇺🇸_美国_83
-  - 🇷🇺_俄罗斯_4
   - 🇺🇸_美国_84
+  - 🇨🇭_瑞士_1
+  - 🇨🇭_瑞士_2
+  - 🇬🇧_英国_5
   - 🇺🇸_美国_85
   - 🇺🇸_美国_86
   - 🇺🇸_美国_87
+  - 🇩🇪_德国_4
   - 🇺🇸_美国_88
+  - 🇦🇺_澳大利亚_2
+  - 🇨🇭_瑞士_3
+  - 🇯🇵_日本_11
   - 🇺🇸_美国_89
-  - 🇨🇳_中国_37
   - 🇺🇸_美国_90
   - 🇺🇸_美国_91
   - 🇺🇸_美国_92
@@ -2714,44 +2948,77 @@ proxy-groups:
   - 🇺🇸_美国_94
   - 🇺🇸_美国_95
   - 🇺🇸_美国_96
-  - 🇬🇧_英国
   - 🇺🇸_美国_97
+  - 🇳🇱_荷兰_5
+  - 🇬🇧_英国_6
+  - 🇧🇷_巴西_2
   - 🇺🇸_美国_98
   - 🇺🇸_美国_99
+  - 🇨🇳_中国_21
+  - 🇨🇳_中国_22
+  - 🇯🇵_日本_12
+  - 🇯🇵_日本_13
+  - 🇨🇳_中国_23
+  - 🇮🇷_伊朗
+  - 🇨🇳_中国_24
   - 🇺🇸_美国_100
   - 🇺🇸_美国_101
   - 🇺🇸_美国_102
-  - 🇺🇸_美国_103
-  - 🇺🇸_美国_104
-  - 🇺🇸_美国_105
-  - 🇺🇸_美国_106
-  - 🇺🇸_美国_107
-  - 🇺🇸_美国_108
+  - 🇨🇳_中国_25
+  - 🇨🇳_中国_26
+  - 🇨🇳_中国_27
+  - 🇨🇳_中国_28
+  - 🇨🇳_中国_29
+  - 🇨🇳_中国_30
+  - 🇨🇳_中国_31
+  - 🇨🇳_中国_32
+  - 🇨🇳_中国_33
+  - 🇨🇳_中国_34
+  - 🇨🇳_中国_35
+  - 🇨🇳_中国_36
+  - 🇨🇳_中国_37
   - 🇨🇳_中国_38
-  - 🇦🇺_澳大利亚_1
-  - 🇺🇸_美国_109
-  - 🇺🇸_美国_110
-  - 🇦🇺_澳大利亚_2
-  - 🇺🇸_美国_111
   - 🇨🇳_中国_39
-  - 🇫🇷_法国_1
-  - 🇦🇺_澳大利亚_3
   - 🇨🇳_中国_40
-  - 🇫🇷_法国_2
-  - 🇺🇸_美国_112
-  - 🇺🇸_美国_113
-  - 🇺🇸_美国_114
   - 🇨🇳_中国_41
   - 🇨🇳_中国_42
+  - 🇨🇳_中国_43
+  - 🇨🇳_中国_44
+  - 🇨🇳_中国_45
+  - 🇨🇳_中国_46
+  - 🇨🇳_中国_47
+  - 🇨🇳_中国_48
+  - 🇨🇳_中国_49
   type: select
 - interval: 300
   name: ♻️ 自动选择
   proxies:
   - 电报群：https://t.me/vvkj11
   - 每天更新，请加电报群防止失联
-  - 日期：06-13
+  - 日期：06-14
   - 免费VPN：https://tt.vg/gwaAy
+  - 🇩🇪_德国_1
+  - 🇳🇱_荷兰_1
   - 🇨🇳_中国_1
+  - 🇯🇵_日本_1
+  - 🇯🇵_日本_2
+  - 🇯🇵_日本_3
+  - 🇯🇵_日本_4
+  - 🇧🇪_比利时
+  - 🇺🇸_美国_1
+  - 🇯🇵_日本_5
+  - 🇺🇸_美国_2
+  - 🇯🇵_日本_6
+  - 🇯🇵_日本_7
+  - 🇺🇸_美国_3
+  - 🇸🇬_新加坡_1
+  - 🇸🇬_新加坡_2
+  - 🇺🇸_美国_4
+  - 🇸🇬_新加坡_3
+  - 🇸🇬_新加坡_4
+  - 🇸🇬_新加坡_5
+  - 🇸🇬_新加坡_6
+  - 🇺🇸_美国_5
   - 🇨🇳_中国_2
   - 🇨🇳_中国_3
   - 🇨🇳_中国_4
@@ -2760,28 +3027,38 @@ proxy-groups:
   - 🇨🇳_中国_7
   - 🇨🇳_中国_8
   - 🇨🇳_中国_9
+  - 🇺🇸_美国_6
+  - 🇺🇸_美国_7
+  - 🇺🇸_美国_8
+  - 🇺🇸_美国_9
+  - 🇬🇧_英国_1
+  - 🇧🇷_巴西_1
+  - 🇺🇸_美国_10
+  - 🇺🇸_美国_11
+  - 🇺🇸_美国_12
+  - 🇺🇸_美国_13
+  - 🇺🇸_美国_14
+  - 🇺🇸_美国_15
+  - 🇺🇸_美国_16
+  - 🇺🇸_美国_17
+  - 🇺🇸_美国_18
+  - 🇺🇸_美国_19
+  - 🇺🇸_美国_20
+  - 🇺🇸_美国_21
+  - 🇺🇸_美国_22
+  - 🇺🇸_美国_23
+  - 🇺🇸_美国_24
+  - 🇺🇸_美国_25
+  - 🇺🇸_美国_26
+  - 🇺🇸_美国_27
+  - 🇺🇸_美国_28
   - 🇨🇳_中国_10
+  - 🇯🇵_日本_8
   - 🇨🇳_中国_11
+  - 🇺🇸_美国_29
+  - 🇺🇸_美国_30
   - 🇨🇳_中国_12
   - 🇨🇳_中国_13
-  - 🇨🇳_中国_14
-  - 🇨🇳_中国_15
-  - 🇨🇳_中国_16
-  - 🇨🇳_中国_17
-  - 🇨🇳_中国_18
-  - 🇨🇳_中国_19
-  - 🇨🇳_中国_20
-  - 🇺🇸_美国_1
-  - 🇺🇸_美国_2
-  - 🇺🇸_美国_3
-  - 🇨🇳_中国_21
-  - 🇺🇸_美国_4
-  - 🇺🇸_美国_5
-  - 🇨🇳_中国_22
-  - 🇨🇳_中国_23
-  - 🇨🇳_中国_24
-  - 🇨🇳_中国_25
-  - 🇨🇳_中国_26
   - 🇰🇷_韩国_1
   - 🇰🇷_韩国_2
   - 🇰🇷_韩国_3
@@ -2790,120 +3067,102 @@ proxy-groups:
   - 🇰🇷_韩国_6
   - 🇰🇷_韩国_7
   - 🇰🇷_韩国_8
-  - 🇰🇷_韩国_9
-  - 🇰🇷_韩国_10
-  - 🇰🇷_韩国_11
-  - 🇰🇷_韩国_12
-  - 🇺🇸_美国_6
-  - 🇺🇸_美国_7
-  - 🇺🇸_美国_8
-  - 🇺🇸_美国_9
-  - 🇺🇸_美国_10
-  - 🇺🇸_美国_11
-  - 🇺🇸_美国_12
-  - 🇺🇸_美国_13
-  - 🇺🇸_美国_14
-  - 🇺🇸_美国_15
-  - 🇺🇸_美国_16
-  - 🇧🇷_巴西_1
-  - 🇷🇺_俄罗斯_1
-  - 🇺🇸_美国_17
-  - 🇧🇷_巴西_2
-  - 🇺🇸_美国_18
-  - 🇺🇸_美国_19
-  - 🇺🇸_美国_20
-  - 🇨🇳_中国_27
-  - 🇨🇳_中国_28
-  - 🇺🇸_美国_21
-  - 🇺🇸_美国_22
-  - 🇺🇸_美国_23
-  - 🇨🇳_中国_29
-  - 🇺🇸_美国_24
-  - 🇿🇦_南非
-  - 🇨🇳_中国_30
-  - 🇷🇺_俄罗斯_2
-  - 🇺🇸_美国_25
-  - 🇺🇸_美国_26
-  - 🇺🇸_美国_27
-  - 🇺🇸_美国_28
-  - 🇺🇸_美国_29
-  - 🇺🇸_美国_30
+  - 🇦🇺_澳大利亚_1
   - 🇺🇸_美国_31
+  - 🇸🇪_瑞典
+  - 🇨🇳_中国_14
   - 🇺🇸_美国_32
+  - 🇨🇳_中国_15
   - 🇺🇸_美国_33
   - 🇺🇸_美国_34
+  - 🇳🇱_荷兰_2
   - 🇺🇸_美国_35
   - 🇺🇸_美国_36
+  - 🇦🇹_奥地利_1
+  - 🇦🇹_奥地利_2
   - 🇺🇸_美国_37
+  - 🇬🇧_英国_2
   - 🇺🇸_美国_38
   - 🇺🇸_美国_39
   - 🇺🇸_美国_40
+  - 🇨🇷_哥斯达黎加
   - 🇺🇸_美国_41
   - 🇺🇸_美国_42
   - 🇺🇸_美国_43
+  - 🇦🇹_奥地利_3
+  - 🇺🇦_乌克兰_1
   - 🇺🇸_美国_44
   - 🇺🇸_美国_45
+  - 🇿🇦_南非
   - 🇺🇸_美国_46
+  - 🇩🇪_德国_2
+  - 🇨🇳_中国_16
+  - 🇬🇧_英国_3
+  - 🇬🇧_英国_4
+  - 🇦🇹_奥地利_4
+  - 🇯🇵_日本_9
   - 🇺🇸_美国_47
   - 🇺🇸_美国_48
   - 🇺🇸_美国_49
-  - 🇯🇵_日本_1
-  - 🇷🇺_俄罗斯_3
-  - 🇨🇳_中国_31
   - 🇺🇸_美国_50
+  - 🇷🇺_俄罗斯
   - 🇺🇸_美国_51
+  - 🇩🇪_德国_3
   - 🇺🇸_美国_52
-  - 🇨🇳_中国_32
-  - 🇨🇳_中国_33
   - 🇺🇸_美国_53
+  - 🇺🇦_乌克兰_2
   - 🇺🇸_美国_54
   - 🇺🇸_美国_55
+  - 🇨🇳_中国_17
   - 🇺🇸_美国_56
   - 🇺🇸_美国_57
   - 🇺🇸_美国_58
+  - 🇺🇦_乌克兰_3
   - 🇺🇸_美国_59
   - 🇺🇸_美国_60
   - 🇺🇸_美国_61
-  - 🇯🇵_日本_2
-  - 🏳️_未知_1
   - 🇺🇸_美国_62
+  - 🇳🇱_荷兰_3
   - 🇺🇸_美国_63
   - 🇺🇸_美国_64
-  - 🇩🇪_德国_1
   - 🇺🇸_美国_65
   - 🇺🇸_美国_66
   - 🇺🇸_美国_67
   - 🇺🇸_美国_68
   - 🇺🇸_美国_69
-  - 🇺🇦_乌克兰
   - 🇺🇸_美国_70
+  - 🇨🇳_中国_18
   - 🇺🇸_美国_71
   - 🇺🇸_美国_72
-  - 🇨🇳_中国_34
-  - 🇳🇱_荷兰
   - 🇺🇸_美国_73
+  - 🇯🇵_日本_10
   - 🇺🇸_美国_74
   - 🇺🇸_美国_75
-  - 🇩🇪_德国_2
-  - 🇨🇳_中国_35
-  - 🏳️_未知_2
+  - 🇦🇹_奥地利_5
   - 🇺🇸_美国_76
-  - 🇨🇳_中国_36
   - 🇺🇸_美国_77
   - 🇺🇸_美国_78
   - 🇺🇸_美国_79
   - 🇺🇸_美国_80
   - 🇺🇸_美国_81
+  - 🇳🇱_荷兰_4
+  - 🇨🇳_中国_19
   - 🇺🇸_美国_82
+  - 🇨🇳_中国_20
   - 🇺🇸_美国_83
-  - 🇷🇺_俄罗斯_4
   - 🇺🇸_美国_84
+  - 🇨🇭_瑞士_1
+  - 🇨🇭_瑞士_2
+  - 🇬🇧_英国_5
   - 🇺🇸_美国_85
   - 🇺🇸_美国_86
   - 🇺🇸_美国_87
+  - 🇩🇪_德国_4
   - 🇺🇸_美国_88
+  - 🇦🇺_澳大利亚_2
+  - 🇨🇭_瑞士_3
+  - 🇯🇵_日本_11
   - 🇺🇸_美国_89
-  - 🇨🇳_中国_37
   - 🇺🇸_美国_90
   - 🇺🇸_美国_91
   - 🇺🇸_美国_92
@@ -2911,35 +3170,47 @@ proxy-groups:
   - 🇺🇸_美国_94
   - 🇺🇸_美国_95
   - 🇺🇸_美国_96
-  - 🇬🇧_英国
   - 🇺🇸_美国_97
+  - 🇳🇱_荷兰_5
+  - 🇬🇧_英国_6
+  - 🇧🇷_巴西_2
   - 🇺🇸_美国_98
   - 🇺🇸_美国_99
+  - 🇨🇳_中国_21
+  - 🇨🇳_中国_22
+  - 🇯🇵_日本_12
+  - 🇯🇵_日本_13
+  - 🇨🇳_中国_23
+  - 🇮🇷_伊朗
+  - 🇨🇳_中国_24
   - 🇺🇸_美国_100
   - 🇺🇸_美国_101
   - 🇺🇸_美国_102
-  - 🇺🇸_美国_103
-  - 🇺🇸_美国_104
-  - 🇺🇸_美国_105
-  - 🇺🇸_美国_106
-  - 🇺🇸_美国_107
-  - 🇺🇸_美国_108
+  - 🇨🇳_中国_25
+  - 🇨🇳_中国_26
+  - 🇨🇳_中国_27
+  - 🇨🇳_中国_28
+  - 🇨🇳_中国_29
+  - 🇨🇳_中国_30
+  - 🇨🇳_中国_31
+  - 🇨🇳_中国_32
+  - 🇨🇳_中国_33
+  - 🇨🇳_中国_34
+  - 🇨🇳_中国_35
+  - 🇨🇳_中国_36
+  - 🇨🇳_中国_37
   - 🇨🇳_中国_38
-  - 🇦🇺_澳大利亚_1
-  - 🇺🇸_美国_109
-  - 🇺🇸_美国_110
-  - 🇦🇺_澳大利亚_2
-  - 🇺🇸_美国_111
   - 🇨🇳_中国_39
-  - 🇫🇷_法国_1
-  - 🇦🇺_澳大利亚_3
   - 🇨🇳_中国_40
-  - 🇫🇷_法国_2
-  - 🇺🇸_美国_112
-  - 🇺🇸_美国_113
-  - 🇺🇸_美国_114
   - 🇨🇳_中国_41
   - 🇨🇳_中国_42
+  - 🇨🇳_中国_43
+  - 🇨🇳_中国_44
+  - 🇨🇳_中国_45
+  - 🇨🇳_中国_46
+  - 🇨🇳_中国_47
+  - 🇨🇳_中国_48
+  - 🇨🇳_中国_49
   tolerance: 50
   type: url-test
   url: http://www.gstatic.com/generate_204
@@ -2950,9 +3221,30 @@ proxy-groups:
   - 🎯 全球直连
   - 电报群：https://t.me/vvkj11
   - 每天更新，请加电报群防止失联
-  - 日期：06-13
+  - 日期：06-14
   - 免费VPN：https://tt.vg/gwaAy
+  - 🇩🇪_德国_1
+  - 🇳🇱_荷兰_1
   - 🇨🇳_中国_1
+  - 🇯🇵_日本_1
+  - 🇯🇵_日本_2
+  - 🇯🇵_日本_3
+  - 🇯🇵_日本_4
+  - 🇧🇪_比利时
+  - 🇺🇸_美国_1
+  - 🇯🇵_日本_5
+  - 🇺🇸_美国_2
+  - 🇯🇵_日本_6
+  - 🇯🇵_日本_7
+  - 🇺🇸_美国_3
+  - 🇸🇬_新加坡_1
+  - 🇸🇬_新加坡_2
+  - 🇺🇸_美国_4
+  - 🇸🇬_新加坡_3
+  - 🇸🇬_新加坡_4
+  - 🇸🇬_新加坡_5
+  - 🇸🇬_新加坡_6
+  - 🇺🇸_美国_5
   - 🇨🇳_中国_2
   - 🇨🇳_中国_3
   - 🇨🇳_中国_4
@@ -2961,28 +3253,38 @@ proxy-groups:
   - 🇨🇳_中国_7
   - 🇨🇳_中国_8
   - 🇨🇳_中国_9
+  - 🇺🇸_美国_6
+  - 🇺🇸_美国_7
+  - 🇺🇸_美国_8
+  - 🇺🇸_美国_9
+  - 🇬🇧_英国_1
+  - 🇧🇷_巴西_1
+  - 🇺🇸_美国_10
+  - 🇺🇸_美国_11
+  - 🇺🇸_美国_12
+  - 🇺🇸_美国_13
+  - 🇺🇸_美国_14
+  - 🇺🇸_美国_15
+  - 🇺🇸_美国_16
+  - 🇺🇸_美国_17
+  - 🇺🇸_美国_18
+  - 🇺🇸_美国_19
+  - 🇺🇸_美国_20
+  - 🇺🇸_美国_21
+  - 🇺🇸_美国_22
+  - 🇺🇸_美国_23
+  - 🇺🇸_美国_24
+  - 🇺🇸_美国_25
+  - 🇺🇸_美国_26
+  - 🇺🇸_美国_27
+  - 🇺🇸_美国_28
   - 🇨🇳_中国_10
+  - 🇯🇵_日本_8
   - 🇨🇳_中国_11
+  - 🇺🇸_美国_29
+  - 🇺🇸_美国_30
   - 🇨🇳_中国_12
   - 🇨🇳_中国_13
-  - 🇨🇳_中国_14
-  - 🇨🇳_中国_15
-  - 🇨🇳_中国_16
-  - 🇨🇳_中国_17
-  - 🇨🇳_中国_18
-  - 🇨🇳_中国_19
-  - 🇨🇳_中国_20
-  - 🇺🇸_美国_1
-  - 🇺🇸_美国_2
-  - 🇺🇸_美国_3
-  - 🇨🇳_中国_21
-  - 🇺🇸_美国_4
-  - 🇺🇸_美国_5
-  - 🇨🇳_中国_22
-  - 🇨🇳_中国_23
-  - 🇨🇳_中国_24
-  - 🇨🇳_中国_25
-  - 🇨🇳_中国_26
   - 🇰🇷_韩国_1
   - 🇰🇷_韩国_2
   - 🇰🇷_韩国_3
@@ -2991,120 +3293,102 @@ proxy-groups:
   - 🇰🇷_韩国_6
   - 🇰🇷_韩国_7
   - 🇰🇷_韩国_8
-  - 🇰🇷_韩国_9
-  - 🇰🇷_韩国_10
-  - 🇰🇷_韩国_11
-  - 🇰🇷_韩国_12
-  - 🇺🇸_美国_6
-  - 🇺🇸_美国_7
-  - 🇺🇸_美国_8
-  - 🇺🇸_美国_9
-  - 🇺🇸_美国_10
-  - 🇺🇸_美国_11
-  - 🇺🇸_美国_12
-  - 🇺🇸_美国_13
-  - 🇺🇸_美国_14
-  - 🇺🇸_美国_15
-  - 🇺🇸_美国_16
-  - 🇧🇷_巴西_1
-  - 🇷🇺_俄罗斯_1
-  - 🇺🇸_美国_17
-  - 🇧🇷_巴西_2
-  - 🇺🇸_美国_18
-  - 🇺🇸_美国_19
-  - 🇺🇸_美国_20
-  - 🇨🇳_中国_27
-  - 🇨🇳_中国_28
-  - 🇺🇸_美国_21
-  - 🇺🇸_美国_22
-  - 🇺🇸_美国_23
-  - 🇨🇳_中国_29
-  - 🇺🇸_美国_24
-  - 🇿🇦_南非
-  - 🇨🇳_中国_30
-  - 🇷🇺_俄罗斯_2
-  - 🇺🇸_美国_25
-  - 🇺🇸_美国_26
-  - 🇺🇸_美国_27
-  - 🇺🇸_美国_28
-  - 🇺🇸_美国_29
-  - 🇺🇸_美国_30
+  - 🇦🇺_澳大利亚_1
   - 🇺🇸_美国_31
+  - 🇸🇪_瑞典
+  - 🇨🇳_中国_14
   - 🇺🇸_美国_32
+  - 🇨🇳_中国_15
   - 🇺🇸_美国_33
   - 🇺🇸_美国_34
+  - 🇳🇱_荷兰_2
   - 🇺🇸_美国_35
   - 🇺🇸_美国_36
+  - 🇦🇹_奥地利_1
+  - 🇦🇹_奥地利_2
   - 🇺🇸_美国_37
+  - 🇬🇧_英国_2
   - 🇺🇸_美国_38
   - 🇺🇸_美国_39
   - 🇺🇸_美国_40
+  - 🇨🇷_哥斯达黎加
   - 🇺🇸_美国_41
   - 🇺🇸_美国_42
   - 🇺🇸_美国_43
+  - 🇦🇹_奥地利_3
+  - 🇺🇦_乌克兰_1
   - 🇺🇸_美国_44
   - 🇺🇸_美国_45
+  - 🇿🇦_南非
   - 🇺🇸_美国_46
+  - 🇩🇪_德国_2
+  - 🇨🇳_中国_16
+  - 🇬🇧_英国_3
+  - 🇬🇧_英国_4
+  - 🇦🇹_奥地利_4
+  - 🇯🇵_日本_9
   - 🇺🇸_美国_47
   - 🇺🇸_美国_48
   - 🇺🇸_美国_49
-  - 🇯🇵_日本_1
-  - 🇷🇺_俄罗斯_3
-  - 🇨🇳_中国_31
   - 🇺🇸_美国_50
+  - 🇷🇺_俄罗斯
   - 🇺🇸_美国_51
+  - 🇩🇪_德国_3
   - 🇺🇸_美国_52
-  - 🇨🇳_中国_32
-  - 🇨🇳_中国_33
   - 🇺🇸_美国_53
+  - 🇺🇦_乌克兰_2
   - 🇺🇸_美国_54
   - 🇺🇸_美国_55
+  - 🇨🇳_中国_17
   - 🇺🇸_美国_56
   - 🇺🇸_美国_57
   - 🇺🇸_美国_58
+  - 🇺🇦_乌克兰_3
   - 🇺🇸_美国_59
   - 🇺🇸_美国_60
   - 🇺🇸_美国_61
-  - 🇯🇵_日本_2
-  - 🏳️_未知_1
   - 🇺🇸_美国_62
+  - 🇳🇱_荷兰_3
   - 🇺🇸_美国_63
   - 🇺🇸_美国_64
-  - 🇩🇪_德国_1
   - 🇺🇸_美国_65
   - 🇺🇸_美国_66
   - 🇺🇸_美国_67
   - 🇺🇸_美国_68
   - 🇺🇸_美国_69
-  - 🇺🇦_乌克兰
   - 🇺🇸_美国_70
+  - 🇨🇳_中国_18
   - 🇺🇸_美国_71
   - 🇺🇸_美国_72
-  - 🇨🇳_中国_34
-  - 🇳🇱_荷兰
   - 🇺🇸_美国_73
+  - 🇯🇵_日本_10
   - 🇺🇸_美国_74
   - 🇺🇸_美国_75
-  - 🇩🇪_德国_2
-  - 🇨🇳_中国_35
-  - 🏳️_未知_2
+  - 🇦🇹_奥地利_5
   - 🇺🇸_美国_76
-  - 🇨🇳_中国_36
   - 🇺🇸_美国_77
   - 🇺🇸_美国_78
   - 🇺🇸_美国_79
   - 🇺🇸_美国_80
   - 🇺🇸_美国_81
+  - 🇳🇱_荷兰_4
+  - 🇨🇳_中国_19
   - 🇺🇸_美国_82
+  - 🇨🇳_中国_20
   - 🇺🇸_美国_83
-  - 🇷🇺_俄罗斯_4
   - 🇺🇸_美国_84
+  - 🇨🇭_瑞士_1
+  - 🇨🇭_瑞士_2
+  - 🇬🇧_英国_5
   - 🇺🇸_美国_85
   - 🇺🇸_美国_86
   - 🇺🇸_美国_87
+  - 🇩🇪_德国_4
   - 🇺🇸_美国_88
+  - 🇦🇺_澳大利亚_2
+  - 🇨🇭_瑞士_3
+  - 🇯🇵_日本_11
   - 🇺🇸_美国_89
-  - 🇨🇳_中国_37
   - 🇺🇸_美国_90
   - 🇺🇸_美国_91
   - 🇺🇸_美国_92
@@ -3112,35 +3396,47 @@ proxy-groups:
   - 🇺🇸_美国_94
   - 🇺🇸_美国_95
   - 🇺🇸_美国_96
-  - 🇬🇧_英国
   - 🇺🇸_美国_97
+  - 🇳🇱_荷兰_5
+  - 🇬🇧_英国_6
+  - 🇧🇷_巴西_2
   - 🇺🇸_美国_98
   - 🇺🇸_美国_99
+  - 🇨🇳_中国_21
+  - 🇨🇳_中国_22
+  - 🇯🇵_日本_12
+  - 🇯🇵_日本_13
+  - 🇨🇳_中国_23
+  - 🇮🇷_伊朗
+  - 🇨🇳_中国_24
   - 🇺🇸_美国_100
   - 🇺🇸_美国_101
   - 🇺🇸_美国_102
-  - 🇺🇸_美国_103
-  - 🇺🇸_美国_104
-  - 🇺🇸_美国_105
-  - 🇺🇸_美国_106
-  - 🇺🇸_美国_107
-  - 🇺🇸_美国_108
+  - 🇨🇳_中国_25
+  - 🇨🇳_中国_26
+  - 🇨🇳_中国_27
+  - 🇨🇳_中国_28
+  - 🇨🇳_中国_29
+  - 🇨🇳_中国_30
+  - 🇨🇳_中国_31
+  - 🇨🇳_中国_32
+  - 🇨🇳_中国_33
+  - 🇨🇳_中国_34
+  - 🇨🇳_中国_35
+  - 🇨🇳_中国_36
+  - 🇨🇳_中国_37
   - 🇨🇳_中国_38
-  - 🇦🇺_澳大利亚_1
-  - 🇺🇸_美国_109
-  - 🇺🇸_美国_110
-  - 🇦🇺_澳大利亚_2
-  - 🇺🇸_美国_111
   - 🇨🇳_中国_39
-  - 🇫🇷_法国_1
-  - 🇦🇺_澳大利亚_3
   - 🇨🇳_中国_40
-  - 🇫🇷_法国_2
-  - 🇺🇸_美国_112
-  - 🇺🇸_美国_113
-  - 🇺🇸_美国_114
   - 🇨🇳_中国_41
   - 🇨🇳_中国_42
+  - 🇨🇳_中国_43
+  - 🇨🇳_中国_44
+  - 🇨🇳_中国_45
+  - 🇨🇳_中国_46
+  - 🇨🇳_中国_47
+  - 🇨🇳_中国_48
+  - 🇨🇳_中国_49
   type: select
 - name: 📲 电报信息
   proxies:
@@ -3148,9 +3444,30 @@ proxy-groups:
   - 🎯 全球直连
   - 电报群：https://t.me/vvkj11
   - 每天更新，请加电报群防止失联
-  - 日期：06-13
+  - 日期：06-14
   - 免费VPN：https://tt.vg/gwaAy
+  - 🇩🇪_德国_1
+  - 🇳🇱_荷兰_1
   - 🇨🇳_中国_1
+  - 🇯🇵_日本_1
+  - 🇯🇵_日本_2
+  - 🇯🇵_日本_3
+  - 🇯🇵_日本_4
+  - 🇧🇪_比利时
+  - 🇺🇸_美国_1
+  - 🇯🇵_日本_5
+  - 🇺🇸_美国_2
+  - 🇯🇵_日本_6
+  - 🇯🇵_日本_7
+  - 🇺🇸_美国_3
+  - 🇸🇬_新加坡_1
+  - 🇸🇬_新加坡_2
+  - 🇺🇸_美国_4
+  - 🇸🇬_新加坡_3
+  - 🇸🇬_新加坡_4
+  - 🇸🇬_新加坡_5
+  - 🇸🇬_新加坡_6
+  - 🇺🇸_美国_5
   - 🇨🇳_中国_2
   - 🇨🇳_中国_3
   - 🇨🇳_中国_4
@@ -3159,28 +3476,38 @@ proxy-groups:
   - 🇨🇳_中国_7
   - 🇨🇳_中国_8
   - 🇨🇳_中国_9
+  - 🇺🇸_美国_6
+  - 🇺🇸_美国_7
+  - 🇺🇸_美国_8
+  - 🇺🇸_美国_9
+  - 🇬🇧_英国_1
+  - 🇧🇷_巴西_1
+  - 🇺🇸_美国_10
+  - 🇺🇸_美国_11
+  - 🇺🇸_美国_12
+  - 🇺🇸_美国_13
+  - 🇺🇸_美国_14
+  - 🇺🇸_美国_15
+  - 🇺🇸_美国_16
+  - 🇺🇸_美国_17
+  - 🇺🇸_美国_18
+  - 🇺🇸_美国_19
+  - 🇺🇸_美国_20
+  - 🇺🇸_美国_21
+  - 🇺🇸_美国_22
+  - 🇺🇸_美国_23
+  - 🇺🇸_美国_24
+  - 🇺🇸_美国_25
+  - 🇺🇸_美国_26
+  - 🇺🇸_美国_27
+  - 🇺🇸_美国_28
   - 🇨🇳_中国_10
+  - 🇯🇵_日本_8
   - 🇨🇳_中国_11
+  - 🇺🇸_美国_29
+  - 🇺🇸_美国_30
   - 🇨🇳_中国_12
   - 🇨🇳_中国_13
-  - 🇨🇳_中国_14
-  - 🇨🇳_中国_15
-  - 🇨🇳_中国_16
-  - 🇨🇳_中国_17
-  - 🇨🇳_中国_18
-  - 🇨🇳_中国_19
-  - 🇨🇳_中国_20
-  - 🇺🇸_美国_1
-  - 🇺🇸_美国_2
-  - 🇺🇸_美国_3
-  - 🇨🇳_中国_21
-  - 🇺🇸_美国_4
-  - 🇺🇸_美国_5
-  - 🇨🇳_中国_22
-  - 🇨🇳_中国_23
-  - 🇨🇳_中国_24
-  - 🇨🇳_中国_25
-  - 🇨🇳_中国_26
   - 🇰🇷_韩国_1
   - 🇰🇷_韩国_2
   - 🇰🇷_韩国_3
@@ -3189,120 +3516,102 @@ proxy-groups:
   - 🇰🇷_韩国_6
   - 🇰🇷_韩国_7
   - 🇰🇷_韩国_8
-  - 🇰🇷_韩国_9
-  - 🇰🇷_韩国_10
-  - 🇰🇷_韩国_11
-  - 🇰🇷_韩国_12
-  - 🇺🇸_美国_6
-  - 🇺🇸_美国_7
-  - 🇺🇸_美国_8
-  - 🇺🇸_美国_9
-  - 🇺🇸_美国_10
-  - 🇺🇸_美国_11
-  - 🇺🇸_美国_12
-  - 🇺🇸_美国_13
-  - 🇺🇸_美国_14
-  - 🇺🇸_美国_15
-  - 🇺🇸_美国_16
-  - 🇧🇷_巴西_1
-  - 🇷🇺_俄罗斯_1
-  - 🇺🇸_美国_17
-  - 🇧🇷_巴西_2
-  - 🇺🇸_美国_18
-  - 🇺🇸_美国_19
-  - 🇺🇸_美国_20
-  - 🇨🇳_中国_27
-  - 🇨🇳_中国_28
-  - 🇺🇸_美国_21
-  - 🇺🇸_美国_22
-  - 🇺🇸_美国_23
-  - 🇨🇳_中国_29
-  - 🇺🇸_美国_24
-  - 🇿🇦_南非
-  - 🇨🇳_中国_30
-  - 🇷🇺_俄罗斯_2
-  - 🇺🇸_美国_25
-  - 🇺🇸_美国_26
-  - 🇺🇸_美国_27
-  - 🇺🇸_美国_28
-  - 🇺🇸_美国_29
-  - 🇺🇸_美国_30
+  - 🇦🇺_澳大利亚_1
   - 🇺🇸_美国_31
+  - 🇸🇪_瑞典
+  - 🇨🇳_中国_14
   - 🇺🇸_美国_32
+  - 🇨🇳_中国_15
   - 🇺🇸_美国_33
   - 🇺🇸_美国_34
+  - 🇳🇱_荷兰_2
   - 🇺🇸_美国_35
   - 🇺🇸_美国_36
+  - 🇦🇹_奥地利_1
+  - 🇦🇹_奥地利_2
   - 🇺🇸_美国_37
+  - 🇬🇧_英国_2
   - 🇺🇸_美国_38
   - 🇺🇸_美国_39
   - 🇺🇸_美国_40
+  - 🇨🇷_哥斯达黎加
   - 🇺🇸_美国_41
   - 🇺🇸_美国_42
   - 🇺🇸_美国_43
+  - 🇦🇹_奥地利_3
+  - 🇺🇦_乌克兰_1
   - 🇺🇸_美国_44
   - 🇺🇸_美国_45
+  - 🇿🇦_南非
   - 🇺🇸_美国_46
+  - 🇩🇪_德国_2
+  - 🇨🇳_中国_16
+  - 🇬🇧_英国_3
+  - 🇬🇧_英国_4
+  - 🇦🇹_奥地利_4
+  - 🇯🇵_日本_9
   - 🇺🇸_美国_47
   - 🇺🇸_美国_48
   - 🇺🇸_美国_49
-  - 🇯🇵_日本_1
-  - 🇷🇺_俄罗斯_3
-  - 🇨🇳_中国_31
   - 🇺🇸_美国_50
+  - 🇷🇺_俄罗斯
   - 🇺🇸_美国_51
+  - 🇩🇪_德国_3
   - 🇺🇸_美国_52
-  - 🇨🇳_中国_32
-  - 🇨🇳_中国_33
   - 🇺🇸_美国_53
+  - 🇺🇦_乌克兰_2
   - 🇺🇸_美国_54
   - 🇺🇸_美国_55
+  - 🇨🇳_中国_17
   - 🇺🇸_美国_56
   - 🇺🇸_美国_57
   - 🇺🇸_美国_58
+  - 🇺🇦_乌克兰_3
   - 🇺🇸_美国_59
   - 🇺🇸_美国_60
   - 🇺🇸_美国_61
-  - 🇯🇵_日本_2
-  - 🏳️_未知_1
   - 🇺🇸_美国_62
+  - 🇳🇱_荷兰_3
   - 🇺🇸_美国_63
   - 🇺🇸_美国_64
-  - 🇩🇪_德国_1
   - 🇺🇸_美国_65
   - 🇺🇸_美国_66
   - 🇺🇸_美国_67
   - 🇺🇸_美国_68
   - 🇺🇸_美国_69
-  - 🇺🇦_乌克兰
   - 🇺🇸_美国_70
+  - 🇨🇳_中国_18
   - 🇺🇸_美国_71
   - 🇺🇸_美国_72
-  - 🇨🇳_中国_34
-  - 🇳🇱_荷兰
   - 🇺🇸_美国_73
+  - 🇯🇵_日本_10
   - 🇺🇸_美国_74
   - 🇺🇸_美国_75
-  - 🇩🇪_德国_2
-  - 🇨🇳_中国_35
-  - 🏳️_未知_2
+  - 🇦🇹_奥地利_5
   - 🇺🇸_美国_76
-  - 🇨🇳_中国_36
   - 🇺🇸_美国_77
   - 🇺🇸_美国_78
   - 🇺🇸_美国_79
   - 🇺🇸_美国_80
   - 🇺🇸_美国_81
+  - 🇳🇱_荷兰_4
+  - 🇨🇳_中国_19
   - 🇺🇸_美国_82
+  - 🇨🇳_中国_20
   - 🇺🇸_美国_83
-  - 🇷🇺_俄罗斯_4
   - 🇺🇸_美国_84
+  - 🇨🇭_瑞士_1
+  - 🇨🇭_瑞士_2
+  - 🇬🇧_英国_5
   - 🇺🇸_美国_85
   - 🇺🇸_美国_86
   - 🇺🇸_美国_87
+  - 🇩🇪_德国_4
   - 🇺🇸_美国_88
+  - 🇦🇺_澳大利亚_2
+  - 🇨🇭_瑞士_3
+  - 🇯🇵_日本_11
   - 🇺🇸_美国_89
-  - 🇨🇳_中国_37
   - 🇺🇸_美国_90
   - 🇺🇸_美国_91
   - 🇺🇸_美国_92
@@ -3310,35 +3619,47 @@ proxy-groups:
   - 🇺🇸_美国_94
   - 🇺🇸_美国_95
   - 🇺🇸_美国_96
-  - 🇬🇧_英国
   - 🇺🇸_美国_97
+  - 🇳🇱_荷兰_5
+  - 🇬🇧_英国_6
+  - 🇧🇷_巴西_2
   - 🇺🇸_美国_98
   - 🇺🇸_美国_99
+  - 🇨🇳_中国_21
+  - 🇨🇳_中国_22
+  - 🇯🇵_日本_12
+  - 🇯🇵_日本_13
+  - 🇨🇳_中国_23
+  - 🇮🇷_伊朗
+  - 🇨🇳_中国_24
   - 🇺🇸_美国_100
   - 🇺🇸_美国_101
   - 🇺🇸_美国_102
-  - 🇺🇸_美国_103
-  - 🇺🇸_美国_104
-  - 🇺🇸_美国_105
-  - 🇺🇸_美国_106
-  - 🇺🇸_美国_107
-  - 🇺🇸_美国_108
+  - 🇨🇳_中国_25
+  - 🇨🇳_中国_26
+  - 🇨🇳_中国_27
+  - 🇨🇳_中国_28
+  - 🇨🇳_中国_29
+  - 🇨🇳_中国_30
+  - 🇨🇳_中国_31
+  - 🇨🇳_中国_32
+  - 🇨🇳_中国_33
+  - 🇨🇳_中国_34
+  - 🇨🇳_中国_35
+  - 🇨🇳_中国_36
+  - 🇨🇳_中国_37
   - 🇨🇳_中国_38
-  - 🇦🇺_澳大利亚_1
-  - 🇺🇸_美国_109
-  - 🇺🇸_美国_110
-  - 🇦🇺_澳大利亚_2
-  - 🇺🇸_美国_111
   - 🇨🇳_中国_39
-  - 🇫🇷_法国_1
-  - 🇦🇺_澳大利亚_3
   - 🇨🇳_中国_40
-  - 🇫🇷_法国_2
-  - 🇺🇸_美国_112
-  - 🇺🇸_美国_113
-  - 🇺🇸_美国_114
   - 🇨🇳_中国_41
   - 🇨🇳_中国_42
+  - 🇨🇳_中国_43
+  - 🇨🇳_中国_44
+  - 🇨🇳_中国_45
+  - 🇨🇳_中国_46
+  - 🇨🇳_中国_47
+  - 🇨🇳_中国_48
+  - 🇨🇳_中国_49
   type: select
 - name: Ⓜ️ 微软服务
   proxies:
@@ -3346,9 +3667,30 @@ proxy-groups:
   - 🚀 节点选择
   - 电报群：https://t.me/vvkj11
   - 每天更新，请加电报群防止失联
-  - 日期：06-13
+  - 日期：06-14
   - 免费VPN：https://tt.vg/gwaAy
+  - 🇩🇪_德国_1
+  - 🇳🇱_荷兰_1
   - 🇨🇳_中国_1
+  - 🇯🇵_日本_1
+  - 🇯🇵_日本_2
+  - 🇯🇵_日本_3
+  - 🇯🇵_日本_4
+  - 🇧🇪_比利时
+  - 🇺🇸_美国_1
+  - 🇯🇵_日本_5
+  - 🇺🇸_美国_2
+  - 🇯🇵_日本_6
+  - 🇯🇵_日本_7
+  - 🇺🇸_美国_3
+  - 🇸🇬_新加坡_1
+  - 🇸🇬_新加坡_2
+  - 🇺🇸_美国_4
+  - 🇸🇬_新加坡_3
+  - 🇸🇬_新加坡_4
+  - 🇸🇬_新加坡_5
+  - 🇸🇬_新加坡_6
+  - 🇺🇸_美国_5
   - 🇨🇳_中国_2
   - 🇨🇳_中国_3
   - 🇨🇳_中国_4
@@ -3357,28 +3699,38 @@ proxy-groups:
   - 🇨🇳_中国_7
   - 🇨🇳_中国_8
   - 🇨🇳_中国_9
+  - 🇺🇸_美国_6
+  - 🇺🇸_美国_7
+  - 🇺🇸_美国_8
+  - 🇺🇸_美国_9
+  - 🇬🇧_英国_1
+  - 🇧🇷_巴西_1
+  - 🇺🇸_美国_10
+  - 🇺🇸_美国_11
+  - 🇺🇸_美国_12
+  - 🇺🇸_美国_13
+  - 🇺🇸_美国_14
+  - 🇺🇸_美国_15
+  - 🇺🇸_美国_16
+  - 🇺🇸_美国_17
+  - 🇺🇸_美国_18
+  - 🇺🇸_美国_19
+  - 🇺🇸_美国_20
+  - 🇺🇸_美国_21
+  - 🇺🇸_美国_22
+  - 🇺🇸_美国_23
+  - 🇺🇸_美国_24
+  - 🇺🇸_美国_25
+  - 🇺🇸_美国_26
+  - 🇺🇸_美国_27
+  - 🇺🇸_美国_28
   - 🇨🇳_中国_10
+  - 🇯🇵_日本_8
   - 🇨🇳_中国_11
+  - 🇺🇸_美国_29
+  - 🇺🇸_美国_30
   - 🇨🇳_中国_12
   - 🇨🇳_中国_13
-  - 🇨🇳_中国_14
-  - 🇨🇳_中国_15
-  - 🇨🇳_中国_16
-  - 🇨🇳_中国_17
-  - 🇨🇳_中国_18
-  - 🇨🇳_中国_19
-  - 🇨🇳_中国_20
-  - 🇺🇸_美国_1
-  - 🇺🇸_美国_2
-  - 🇺🇸_美国_3
-  - 🇨🇳_中国_21
-  - 🇺🇸_美国_4
-  - 🇺🇸_美国_5
-  - 🇨🇳_中国_22
-  - 🇨🇳_中国_23
-  - 🇨🇳_中国_24
-  - 🇨🇳_中国_25
-  - 🇨🇳_中国_26
   - 🇰🇷_韩国_1
   - 🇰🇷_韩国_2
   - 🇰🇷_韩国_3
@@ -3387,120 +3739,102 @@ proxy-groups:
   - 🇰🇷_韩国_6
   - 🇰🇷_韩国_7
   - 🇰🇷_韩国_8
-  - 🇰🇷_韩国_9
-  - 🇰🇷_韩国_10
-  - 🇰🇷_韩国_11
-  - 🇰🇷_韩国_12
-  - 🇺🇸_美国_6
-  - 🇺🇸_美国_7
-  - 🇺🇸_美国_8
-  - 🇺🇸_美国_9
-  - 🇺🇸_美国_10
-  - 🇺🇸_美国_11
-  - 🇺🇸_美国_12
-  - 🇺🇸_美国_13
-  - 🇺🇸_美国_14
-  - 🇺🇸_美国_15
-  - 🇺🇸_美国_16
-  - 🇧🇷_巴西_1
-  - 🇷🇺_俄罗斯_1
-  - 🇺🇸_美国_17
-  - 🇧🇷_巴西_2
-  - 🇺🇸_美国_18
-  - 🇺🇸_美国_19
-  - 🇺🇸_美国_20
-  - 🇨🇳_中国_27
-  - 🇨🇳_中国_28
-  - 🇺🇸_美国_21
-  - 🇺🇸_美国_22
-  - 🇺🇸_美国_23
-  - 🇨🇳_中国_29
-  - 🇺🇸_美国_24
-  - 🇿🇦_南非
-  - 🇨🇳_中国_30
-  - 🇷🇺_俄罗斯_2
-  - 🇺🇸_美国_25
-  - 🇺🇸_美国_26
-  - 🇺🇸_美国_27
-  - 🇺🇸_美国_28
-  - 🇺🇸_美国_29
-  - 🇺🇸_美国_30
+  - 🇦🇺_澳大利亚_1
   - 🇺🇸_美国_31
+  - 🇸🇪_瑞典
+  - 🇨🇳_中国_14
   - 🇺🇸_美国_32
+  - 🇨🇳_中国_15
   - 🇺🇸_美国_33
   - 🇺🇸_美国_34
+  - 🇳🇱_荷兰_2
   - 🇺🇸_美国_35
   - 🇺🇸_美国_36
+  - 🇦🇹_奥地利_1
+  - 🇦🇹_奥地利_2
   - 🇺🇸_美国_37
+  - 🇬🇧_英国_2
   - 🇺🇸_美国_38
   - 🇺🇸_美国_39
   - 🇺🇸_美国_40
+  - 🇨🇷_哥斯达黎加
   - 🇺🇸_美国_41
   - 🇺🇸_美国_42
   - 🇺🇸_美国_43
+  - 🇦🇹_奥地利_3
+  - 🇺🇦_乌克兰_1
   - 🇺🇸_美国_44
   - 🇺🇸_美国_45
+  - 🇿🇦_南非
   - 🇺🇸_美国_46
+  - 🇩🇪_德国_2
+  - 🇨🇳_中国_16
+  - 🇬🇧_英国_3
+  - 🇬🇧_英国_4
+  - 🇦🇹_奥地利_4
+  - 🇯🇵_日本_9
   - 🇺🇸_美国_47
   - 🇺🇸_美国_48
   - 🇺🇸_美国_49
-  - 🇯🇵_日本_1
-  - 🇷🇺_俄罗斯_3
-  - 🇨🇳_中国_31
   - 🇺🇸_美国_50
+  - 🇷🇺_俄罗斯
   - 🇺🇸_美国_51
+  - 🇩🇪_德国_3
   - 🇺🇸_美国_52
-  - 🇨🇳_中国_32
-  - 🇨🇳_中国_33
   - 🇺🇸_美国_53
+  - 🇺🇦_乌克兰_2
   - 🇺🇸_美国_54
   - 🇺🇸_美国_55
+  - 🇨🇳_中国_17
   - 🇺🇸_美国_56
   - 🇺🇸_美国_57
   - 🇺🇸_美国_58
+  - 🇺🇦_乌克兰_3
   - 🇺🇸_美国_59
   - 🇺🇸_美国_60
   - 🇺🇸_美国_61
-  - 🇯🇵_日本_2
-  - 🏳️_未知_1
   - 🇺🇸_美国_62
+  - 🇳🇱_荷兰_3
   - 🇺🇸_美国_63
   - 🇺🇸_美国_64
-  - 🇩🇪_德国_1
   - 🇺🇸_美国_65
   - 🇺🇸_美国_66
   - 🇺🇸_美国_67
   - 🇺🇸_美国_68
   - 🇺🇸_美国_69
-  - 🇺🇦_乌克兰
   - 🇺🇸_美国_70
+  - 🇨🇳_中国_18
   - 🇺🇸_美国_71
   - 🇺🇸_美国_72
-  - 🇨🇳_中国_34
-  - 🇳🇱_荷兰
   - 🇺🇸_美国_73
+  - 🇯🇵_日本_10
   - 🇺🇸_美国_74
   - 🇺🇸_美国_75
-  - 🇩🇪_德国_2
-  - 🇨🇳_中国_35
-  - 🏳️_未知_2
+  - 🇦🇹_奥地利_5
   - 🇺🇸_美国_76
-  - 🇨🇳_中国_36
   - 🇺🇸_美国_77
   - 🇺🇸_美国_78
   - 🇺🇸_美国_79
   - 🇺🇸_美国_80
   - 🇺🇸_美国_81
+  - 🇳🇱_荷兰_4
+  - 🇨🇳_中国_19
   - 🇺🇸_美国_82
+  - 🇨🇳_中国_20
   - 🇺🇸_美国_83
-  - 🇷🇺_俄罗斯_4
   - 🇺🇸_美国_84
+  - 🇨🇭_瑞士_1
+  - 🇨🇭_瑞士_2
+  - 🇬🇧_英国_5
   - 🇺🇸_美国_85
   - 🇺🇸_美国_86
   - 🇺🇸_美国_87
+  - 🇩🇪_德国_4
   - 🇺🇸_美国_88
+  - 🇦🇺_澳大利亚_2
+  - 🇨🇭_瑞士_3
+  - 🇯🇵_日本_11
   - 🇺🇸_美国_89
-  - 🇨🇳_中国_37
   - 🇺🇸_美国_90
   - 🇺🇸_美国_91
   - 🇺🇸_美国_92
@@ -3508,35 +3842,47 @@ proxy-groups:
   - 🇺🇸_美国_94
   - 🇺🇸_美国_95
   - 🇺🇸_美国_96
-  - 🇬🇧_英国
   - 🇺🇸_美国_97
+  - 🇳🇱_荷兰_5
+  - 🇬🇧_英国_6
+  - 🇧🇷_巴西_2
   - 🇺🇸_美国_98
   - 🇺🇸_美国_99
+  - 🇨🇳_中国_21
+  - 🇨🇳_中国_22
+  - 🇯🇵_日本_12
+  - 🇯🇵_日本_13
+  - 🇨🇳_中国_23
+  - 🇮🇷_伊朗
+  - 🇨🇳_中国_24
   - 🇺🇸_美国_100
   - 🇺🇸_美国_101
   - 🇺🇸_美国_102
-  - 🇺🇸_美国_103
-  - 🇺🇸_美国_104
-  - 🇺🇸_美国_105
-  - 🇺🇸_美国_106
-  - 🇺🇸_美国_107
-  - 🇺🇸_美国_108
+  - 🇨🇳_中国_25
+  - 🇨🇳_中国_26
+  - 🇨🇳_中国_27
+  - 🇨🇳_中国_28
+  - 🇨🇳_中国_29
+  - 🇨🇳_中国_30
+  - 🇨🇳_中国_31
+  - 🇨🇳_中国_32
+  - 🇨🇳_中国_33
+  - 🇨🇳_中国_34
+  - 🇨🇳_中国_35
+  - 🇨🇳_中国_36
+  - 🇨🇳_中国_37
   - 🇨🇳_中国_38
-  - 🇦🇺_澳大利亚_1
-  - 🇺🇸_美国_109
-  - 🇺🇸_美国_110
-  - 🇦🇺_澳大利亚_2
-  - 🇺🇸_美国_111
   - 🇨🇳_中国_39
-  - 🇫🇷_法国_1
-  - 🇦🇺_澳大利亚_3
   - 🇨🇳_中国_40
-  - 🇫🇷_法国_2
-  - 🇺🇸_美国_112
-  - 🇺🇸_美国_113
-  - 🇺🇸_美国_114
   - 🇨🇳_中国_41
   - 🇨🇳_中国_42
+  - 🇨🇳_中国_43
+  - 🇨🇳_中国_44
+  - 🇨🇳_中国_45
+  - 🇨🇳_中国_46
+  - 🇨🇳_中国_47
+  - 🇨🇳_中国_48
+  - 🇨🇳_中国_49
   type: select
 - name: 🍎 苹果服务
   proxies:
@@ -3544,9 +3890,30 @@ proxy-groups:
   - 🎯 全球直连
   - 电报群：https://t.me/vvkj11
   - 每天更新，请加电报群防止失联
-  - 日期：06-13
+  - 日期：06-14
   - 免费VPN：https://tt.vg/gwaAy
+  - 🇩🇪_德国_1
+  - 🇳🇱_荷兰_1
   - 🇨🇳_中国_1
+  - 🇯🇵_日本_1
+  - 🇯🇵_日本_2
+  - 🇯🇵_日本_3
+  - 🇯🇵_日本_4
+  - 🇧🇪_比利时
+  - 🇺🇸_美国_1
+  - 🇯🇵_日本_5
+  - 🇺🇸_美国_2
+  - 🇯🇵_日本_6
+  - 🇯🇵_日本_7
+  - 🇺🇸_美国_3
+  - 🇸🇬_新加坡_1
+  - 🇸🇬_新加坡_2
+  - 🇺🇸_美国_4
+  - 🇸🇬_新加坡_3
+  - 🇸🇬_新加坡_4
+  - 🇸🇬_新加坡_5
+  - 🇸🇬_新加坡_6
+  - 🇺🇸_美国_5
   - 🇨🇳_中国_2
   - 🇨🇳_中国_3
   - 🇨🇳_中国_4
@@ -3555,28 +3922,38 @@ proxy-groups:
   - 🇨🇳_中国_7
   - 🇨🇳_中国_8
   - 🇨🇳_中国_9
+  - 🇺🇸_美国_6
+  - 🇺🇸_美国_7
+  - 🇺🇸_美国_8
+  - 🇺🇸_美国_9
+  - 🇬🇧_英国_1
+  - 🇧🇷_巴西_1
+  - 🇺🇸_美国_10
+  - 🇺🇸_美国_11
+  - 🇺🇸_美国_12
+  - 🇺🇸_美国_13
+  - 🇺🇸_美国_14
+  - 🇺🇸_美国_15
+  - 🇺🇸_美国_16
+  - 🇺🇸_美国_17
+  - 🇺🇸_美国_18
+  - 🇺🇸_美国_19
+  - 🇺🇸_美国_20
+  - 🇺🇸_美国_21
+  - 🇺🇸_美国_22
+  - 🇺🇸_美国_23
+  - 🇺🇸_美国_24
+  - 🇺🇸_美国_25
+  - 🇺🇸_美国_26
+  - 🇺🇸_美国_27
+  - 🇺🇸_美国_28
   - 🇨🇳_中国_10
+  - 🇯🇵_日本_8
   - 🇨🇳_中国_11
+  - 🇺🇸_美国_29
+  - 🇺🇸_美国_30
   - 🇨🇳_中国_12
   - 🇨🇳_中国_13
-  - 🇨🇳_中国_14
-  - 🇨🇳_中国_15
-  - 🇨🇳_中国_16
-  - 🇨🇳_中国_17
-  - 🇨🇳_中国_18
-  - 🇨🇳_中国_19
-  - 🇨🇳_中国_20
-  - 🇺🇸_美国_1
-  - 🇺🇸_美国_2
-  - 🇺🇸_美国_3
-  - 🇨🇳_中国_21
-  - 🇺🇸_美国_4
-  - 🇺🇸_美国_5
-  - 🇨🇳_中国_22
-  - 🇨🇳_中国_23
-  - 🇨🇳_中国_24
-  - 🇨🇳_中国_25
-  - 🇨🇳_中国_26
   - 🇰🇷_韩国_1
   - 🇰🇷_韩国_2
   - 🇰🇷_韩国_3
@@ -3585,120 +3962,102 @@ proxy-groups:
   - 🇰🇷_韩国_6
   - 🇰🇷_韩国_7
   - 🇰🇷_韩国_8
-  - 🇰🇷_韩国_9
-  - 🇰🇷_韩国_10
-  - 🇰🇷_韩国_11
-  - 🇰🇷_韩国_12
-  - 🇺🇸_美国_6
-  - 🇺🇸_美国_7
-  - 🇺🇸_美国_8
-  - 🇺🇸_美国_9
-  - 🇺🇸_美国_10
-  - 🇺🇸_美国_11
-  - 🇺🇸_美国_12
-  - 🇺🇸_美国_13
-  - 🇺🇸_美国_14
-  - 🇺🇸_美国_15
-  - 🇺🇸_美国_16
-  - 🇧🇷_巴西_1
-  - 🇷🇺_俄罗斯_1
-  - 🇺🇸_美国_17
-  - 🇧🇷_巴西_2
-  - 🇺🇸_美国_18
-  - 🇺🇸_美国_19
-  - 🇺🇸_美国_20
-  - 🇨🇳_中国_27
-  - 🇨🇳_中国_28
-  - 🇺🇸_美国_21
-  - 🇺🇸_美国_22
-  - 🇺🇸_美国_23
-  - 🇨🇳_中国_29
-  - 🇺🇸_美国_24
-  - 🇿🇦_南非
-  - 🇨🇳_中国_30
-  - 🇷🇺_俄罗斯_2
-  - 🇺🇸_美国_25
-  - 🇺🇸_美国_26
-  - 🇺🇸_美国_27
-  - 🇺🇸_美国_28
-  - 🇺🇸_美国_29
-  - 🇺🇸_美国_30
+  - 🇦🇺_澳大利亚_1
   - 🇺🇸_美国_31
+  - 🇸🇪_瑞典
+  - 🇨🇳_中国_14
   - 🇺🇸_美国_32
+  - 🇨🇳_中国_15
   - 🇺🇸_美国_33
   - 🇺🇸_美国_34
+  - 🇳🇱_荷兰_2
   - 🇺🇸_美国_35
   - 🇺🇸_美国_36
+  - 🇦🇹_奥地利_1
+  - 🇦🇹_奥地利_2
   - 🇺🇸_美国_37
+  - 🇬🇧_英国_2
   - 🇺🇸_美国_38
   - 🇺🇸_美国_39
   - 🇺🇸_美国_40
+  - 🇨🇷_哥斯达黎加
   - 🇺🇸_美国_41
   - 🇺🇸_美国_42
   - 🇺🇸_美国_43
+  - 🇦🇹_奥地利_3
+  - 🇺🇦_乌克兰_1
   - 🇺🇸_美国_44
   - 🇺🇸_美国_45
+  - 🇿🇦_南非
   - 🇺🇸_美国_46
+  - 🇩🇪_德国_2
+  - 🇨🇳_中国_16
+  - 🇬🇧_英国_3
+  - 🇬🇧_英国_4
+  - 🇦🇹_奥地利_4
+  - 🇯🇵_日本_9
   - 🇺🇸_美国_47
   - 🇺🇸_美国_48
   - 🇺🇸_美国_49
-  - 🇯🇵_日本_1
-  - 🇷🇺_俄罗斯_3
-  - 🇨🇳_中国_31
   - 🇺🇸_美国_50
+  - 🇷🇺_俄罗斯
   - 🇺🇸_美国_51
+  - 🇩🇪_德国_3
   - 🇺🇸_美国_52
-  - 🇨🇳_中国_32
-  - 🇨🇳_中国_33
   - 🇺🇸_美国_53
+  - 🇺🇦_乌克兰_2
   - 🇺🇸_美国_54
   - 🇺🇸_美国_55
+  - 🇨🇳_中国_17
   - 🇺🇸_美国_56
   - 🇺🇸_美国_57
   - 🇺🇸_美国_58
+  - 🇺🇦_乌克兰_3
   - 🇺🇸_美国_59
   - 🇺🇸_美国_60
   - 🇺🇸_美国_61
-  - 🇯🇵_日本_2
-  - 🏳️_未知_1
   - 🇺🇸_美国_62
+  - 🇳🇱_荷兰_3
   - 🇺🇸_美国_63
   - 🇺🇸_美国_64
-  - 🇩🇪_德国_1
   - 🇺🇸_美国_65
   - 🇺🇸_美国_66
   - 🇺🇸_美国_67
   - 🇺🇸_美国_68
   - 🇺🇸_美国_69
-  - 🇺🇦_乌克兰
   - 🇺🇸_美国_70
+  - 🇨🇳_中国_18
   - 🇺🇸_美国_71
   - 🇺🇸_美国_72
-  - 🇨🇳_中国_34
-  - 🇳🇱_荷兰
   - 🇺🇸_美国_73
+  - 🇯🇵_日本_10
   - 🇺🇸_美国_74
   - 🇺🇸_美国_75
-  - 🇩🇪_德国_2
-  - 🇨🇳_中国_35
-  - 🏳️_未知_2
+  - 🇦🇹_奥地利_5
   - 🇺🇸_美国_76
-  - 🇨🇳_中国_36
   - 🇺🇸_美国_77
   - 🇺🇸_美国_78
   - 🇺🇸_美国_79
   - 🇺🇸_美国_80
   - 🇺🇸_美国_81
+  - 🇳🇱_荷兰_4
+  - 🇨🇳_中国_19
   - 🇺🇸_美国_82
+  - 🇨🇳_中国_20
   - 🇺🇸_美国_83
-  - 🇷🇺_俄罗斯_4
   - 🇺🇸_美国_84
+  - 🇨🇭_瑞士_1
+  - 🇨🇭_瑞士_2
+  - 🇬🇧_英国_5
   - 🇺🇸_美国_85
   - 🇺🇸_美国_86
   - 🇺🇸_美国_87
+  - 🇩🇪_德国_4
   - 🇺🇸_美国_88
+  - 🇦🇺_澳大利亚_2
+  - 🇨🇭_瑞士_3
+  - 🇯🇵_日本_11
   - 🇺🇸_美国_89
-  - 🇨🇳_中国_37
   - 🇺🇸_美国_90
   - 🇺🇸_美国_91
   - 🇺🇸_美国_92
@@ -3706,35 +4065,47 @@ proxy-groups:
   - 🇺🇸_美国_94
   - 🇺🇸_美国_95
   - 🇺🇸_美国_96
-  - 🇬🇧_英国
   - 🇺🇸_美国_97
+  - 🇳🇱_荷兰_5
+  - 🇬🇧_英国_6
+  - 🇧🇷_巴西_2
   - 🇺🇸_美国_98
   - 🇺🇸_美国_99
+  - 🇨🇳_中国_21
+  - 🇨🇳_中国_22
+  - 🇯🇵_日本_12
+  - 🇯🇵_日本_13
+  - 🇨🇳_中国_23
+  - 🇮🇷_伊朗
+  - 🇨🇳_中国_24
   - 🇺🇸_美国_100
   - 🇺🇸_美国_101
   - 🇺🇸_美国_102
-  - 🇺🇸_美国_103
-  - 🇺🇸_美国_104
-  - 🇺🇸_美国_105
-  - 🇺🇸_美国_106
-  - 🇺🇸_美国_107
-  - 🇺🇸_美国_108
+  - 🇨🇳_中国_25
+  - 🇨🇳_中国_26
+  - 🇨🇳_中国_27
+  - 🇨🇳_中国_28
+  - 🇨🇳_中国_29
+  - 🇨🇳_中国_30
+  - 🇨🇳_中国_31
+  - 🇨🇳_中国_32
+  - 🇨🇳_中国_33
+  - 🇨🇳_中国_34
+  - 🇨🇳_中国_35
+  - 🇨🇳_中国_36
+  - 🇨🇳_中国_37
   - 🇨🇳_中国_38
-  - 🇦🇺_澳大利亚_1
-  - 🇺🇸_美国_109
-  - 🇺🇸_美国_110
-  - 🇦🇺_澳大利亚_2
-  - 🇺🇸_美国_111
   - 🇨🇳_中国_39
-  - 🇫🇷_法国_1
-  - 🇦🇺_澳大利亚_3
   - 🇨🇳_中国_40
-  - 🇫🇷_法国_2
-  - 🇺🇸_美国_112
-  - 🇺🇸_美国_113
-  - 🇺🇸_美国_114
   - 🇨🇳_中国_41
   - 🇨🇳_中国_42
+  - 🇨🇳_中国_43
+  - 🇨🇳_中国_44
+  - 🇨🇳_中国_45
+  - 🇨🇳_中国_46
+  - 🇨🇳_中国_47
+  - 🇨🇳_中国_48
+  - 🇨🇳_中国_49
   type: select
 - name: 🎯 全球直连
   proxies:
@@ -3759,9 +4130,30 @@ proxy-groups:
   - ♻️ 自动选择
   - 电报群：https://t.me/vvkj11
   - 每天更新，请加电报群防止失联
-  - 日期：06-13
+  - 日期：06-14
   - 免费VPN：https://tt.vg/gwaAy
+  - 🇩🇪_德国_1
+  - 🇳🇱_荷兰_1
   - 🇨🇳_中国_1
+  - 🇯🇵_日本_1
+  - 🇯🇵_日本_2
+  - 🇯🇵_日本_3
+  - 🇯🇵_日本_4
+  - 🇧🇪_比利时
+  - 🇺🇸_美国_1
+  - 🇯🇵_日本_5
+  - 🇺🇸_美国_2
+  - 🇯🇵_日本_6
+  - 🇯🇵_日本_7
+  - 🇺🇸_美国_3
+  - 🇸🇬_新加坡_1
+  - 🇸🇬_新加坡_2
+  - 🇺🇸_美国_4
+  - 🇸🇬_新加坡_3
+  - 🇸🇬_新加坡_4
+  - 🇸🇬_新加坡_5
+  - 🇸🇬_新加坡_6
+  - 🇺🇸_美国_5
   - 🇨🇳_中国_2
   - 🇨🇳_中国_3
   - 🇨🇳_中国_4
@@ -3770,28 +4162,38 @@ proxy-groups:
   - 🇨🇳_中国_7
   - 🇨🇳_中国_8
   - 🇨🇳_中国_9
+  - 🇺🇸_美国_6
+  - 🇺🇸_美国_7
+  - 🇺🇸_美国_8
+  - 🇺🇸_美国_9
+  - 🇬🇧_英国_1
+  - 🇧🇷_巴西_1
+  - 🇺🇸_美国_10
+  - 🇺🇸_美国_11
+  - 🇺🇸_美国_12
+  - 🇺🇸_美国_13
+  - 🇺🇸_美国_14
+  - 🇺🇸_美国_15
+  - 🇺🇸_美国_16
+  - 🇺🇸_美国_17
+  - 🇺🇸_美国_18
+  - 🇺🇸_美国_19
+  - 🇺🇸_美国_20
+  - 🇺🇸_美国_21
+  - 🇺🇸_美国_22
+  - 🇺🇸_美国_23
+  - 🇺🇸_美国_24
+  - 🇺🇸_美国_25
+  - 🇺🇸_美国_26
+  - 🇺🇸_美国_27
+  - 🇺🇸_美国_28
   - 🇨🇳_中国_10
+  - 🇯🇵_日本_8
   - 🇨🇳_中国_11
+  - 🇺🇸_美国_29
+  - 🇺🇸_美国_30
   - 🇨🇳_中国_12
   - 🇨🇳_中国_13
-  - 🇨🇳_中国_14
-  - 🇨🇳_中国_15
-  - 🇨🇳_中国_16
-  - 🇨🇳_中国_17
-  - 🇨🇳_中国_18
-  - 🇨🇳_中国_19
-  - 🇨🇳_中国_20
-  - 🇺🇸_美国_1
-  - 🇺🇸_美国_2
-  - 🇺🇸_美国_3
-  - 🇨🇳_中国_21
-  - 🇺🇸_美国_4
-  - 🇺🇸_美国_5
-  - 🇨🇳_中国_22
-  - 🇨🇳_中国_23
-  - 🇨🇳_中国_24
-  - 🇨🇳_中国_25
-  - 🇨🇳_中国_26
   - 🇰🇷_韩国_1
   - 🇰🇷_韩国_2
   - 🇰🇷_韩国_3
@@ -3800,120 +4202,102 @@ proxy-groups:
   - 🇰🇷_韩国_6
   - 🇰🇷_韩国_7
   - 🇰🇷_韩国_8
-  - 🇰🇷_韩国_9
-  - 🇰🇷_韩国_10
-  - 🇰🇷_韩国_11
-  - 🇰🇷_韩国_12
-  - 🇺🇸_美国_6
-  - 🇺🇸_美国_7
-  - 🇺🇸_美国_8
-  - 🇺🇸_美国_9
-  - 🇺🇸_美国_10
-  - 🇺🇸_美国_11
-  - 🇺🇸_美国_12
-  - 🇺🇸_美国_13
-  - 🇺🇸_美国_14
-  - 🇺🇸_美国_15
-  - 🇺🇸_美国_16
-  - 🇧🇷_巴西_1
-  - 🇷🇺_俄罗斯_1
-  - 🇺🇸_美国_17
-  - 🇧🇷_巴西_2
-  - 🇺🇸_美国_18
-  - 🇺🇸_美国_19
-  - 🇺🇸_美国_20
-  - 🇨🇳_中国_27
-  - 🇨🇳_中国_28
-  - 🇺🇸_美国_21
-  - 🇺🇸_美国_22
-  - 🇺🇸_美国_23
-  - 🇨🇳_中国_29
-  - 🇺🇸_美国_24
-  - 🇿🇦_南非
-  - 🇨🇳_中国_30
-  - 🇷🇺_俄罗斯_2
-  - 🇺🇸_美国_25
-  - 🇺🇸_美国_26
-  - 🇺🇸_美国_27
-  - 🇺🇸_美国_28
-  - 🇺🇸_美国_29
-  - 🇺🇸_美国_30
+  - 🇦🇺_澳大利亚_1
   - 🇺🇸_美国_31
+  - 🇸🇪_瑞典
+  - 🇨🇳_中国_14
   - 🇺🇸_美国_32
+  - 🇨🇳_中国_15
   - 🇺🇸_美国_33
   - 🇺🇸_美国_34
+  - 🇳🇱_荷兰_2
   - 🇺🇸_美国_35
   - 🇺🇸_美国_36
+  - 🇦🇹_奥地利_1
+  - 🇦🇹_奥地利_2
   - 🇺🇸_美国_37
+  - 🇬🇧_英国_2
   - 🇺🇸_美国_38
   - 🇺🇸_美国_39
   - 🇺🇸_美国_40
+  - 🇨🇷_哥斯达黎加
   - 🇺🇸_美国_41
   - 🇺🇸_美国_42
   - 🇺🇸_美国_43
+  - 🇦🇹_奥地利_3
+  - 🇺🇦_乌克兰_1
   - 🇺🇸_美国_44
   - 🇺🇸_美国_45
+  - 🇿🇦_南非
   - 🇺🇸_美国_46
+  - 🇩🇪_德国_2
+  - 🇨🇳_中国_16
+  - 🇬🇧_英国_3
+  - 🇬🇧_英国_4
+  - 🇦🇹_奥地利_4
+  - 🇯🇵_日本_9
   - 🇺🇸_美国_47
   - 🇺🇸_美国_48
   - 🇺🇸_美国_49
-  - 🇯🇵_日本_1
-  - 🇷🇺_俄罗斯_3
-  - 🇨🇳_中国_31
   - 🇺🇸_美国_50
+  - 🇷🇺_俄罗斯
   - 🇺🇸_美国_51
+  - 🇩🇪_德国_3
   - 🇺🇸_美国_52
-  - 🇨🇳_中国_32
-  - 🇨🇳_中国_33
   - 🇺🇸_美国_53
+  - 🇺🇦_乌克兰_2
   - 🇺🇸_美国_54
   - 🇺🇸_美国_55
+  - 🇨🇳_中国_17
   - 🇺🇸_美国_56
   - 🇺🇸_美国_57
   - 🇺🇸_美国_58
+  - 🇺🇦_乌克兰_3
   - 🇺🇸_美国_59
   - 🇺🇸_美国_60
   - 🇺🇸_美国_61
-  - 🇯🇵_日本_2
-  - 🏳️_未知_1
   - 🇺🇸_美国_62
+  - 🇳🇱_荷兰_3
   - 🇺🇸_美国_63
   - 🇺🇸_美国_64
-  - 🇩🇪_德国_1
   - 🇺🇸_美国_65
   - 🇺🇸_美国_66
   - 🇺🇸_美国_67
   - 🇺🇸_美国_68
   - 🇺🇸_美国_69
-  - 🇺🇦_乌克兰
   - 🇺🇸_美国_70
+  - 🇨🇳_中国_18
   - 🇺🇸_美国_71
   - 🇺🇸_美国_72
-  - 🇨🇳_中国_34
-  - 🇳🇱_荷兰
   - 🇺🇸_美国_73
+  - 🇯🇵_日本_10
   - 🇺🇸_美国_74
   - 🇺🇸_美国_75
-  - 🇩🇪_德国_2
-  - 🇨🇳_中国_35
-  - 🏳️_未知_2
+  - 🇦🇹_奥地利_5
   - 🇺🇸_美国_76
-  - 🇨🇳_中国_36
   - 🇺🇸_美国_77
   - 🇺🇸_美国_78
   - 🇺🇸_美国_79
   - 🇺🇸_美国_80
   - 🇺🇸_美国_81
+  - 🇳🇱_荷兰_4
+  - 🇨🇳_中国_19
   - 🇺🇸_美国_82
+  - 🇨🇳_中国_20
   - 🇺🇸_美国_83
-  - 🇷🇺_俄罗斯_4
   - 🇺🇸_美国_84
+  - 🇨🇭_瑞士_1
+  - 🇨🇭_瑞士_2
+  - 🇬🇧_英国_5
   - 🇺🇸_美国_85
   - 🇺🇸_美国_86
   - 🇺🇸_美国_87
+  - 🇩🇪_德国_4
   - 🇺🇸_美国_88
+  - 🇦🇺_澳大利亚_2
+  - 🇨🇭_瑞士_3
+  - 🇯🇵_日本_11
   - 🇺🇸_美国_89
-  - 🇨🇳_中国_37
   - 🇺🇸_美国_90
   - 🇺🇸_美国_91
   - 🇺🇸_美国_92
@@ -3921,35 +4305,47 @@ proxy-groups:
   - 🇺🇸_美国_94
   - 🇺🇸_美国_95
   - 🇺🇸_美国_96
-  - 🇬🇧_英国
   - 🇺🇸_美国_97
+  - 🇳🇱_荷兰_5
+  - 🇬🇧_英国_6
+  - 🇧🇷_巴西_2
   - 🇺🇸_美国_98
   - 🇺🇸_美国_99
+  - 🇨🇳_中国_21
+  - 🇨🇳_中国_22
+  - 🇯🇵_日本_12
+  - 🇯🇵_日本_13
+  - 🇨🇳_中国_23
+  - 🇮🇷_伊朗
+  - 🇨🇳_中国_24
   - 🇺🇸_美国_100
   - 🇺🇸_美国_101
   - 🇺🇸_美国_102
-  - 🇺🇸_美国_103
-  - 🇺🇸_美国_104
-  - 🇺🇸_美国_105
-  - 🇺🇸_美国_106
-  - 🇺🇸_美国_107
-  - 🇺🇸_美国_108
+  - 🇨🇳_中国_25
+  - 🇨🇳_中国_26
+  - 🇨🇳_中国_27
+  - 🇨🇳_中国_28
+  - 🇨🇳_中国_29
+  - 🇨🇳_中国_30
+  - 🇨🇳_中国_31
+  - 🇨🇳_中国_32
+  - 🇨🇳_中国_33
+  - 🇨🇳_中国_34
+  - 🇨🇳_中国_35
+  - 🇨🇳_中国_36
+  - 🇨🇳_中国_37
   - 🇨🇳_中国_38
-  - 🇦🇺_澳大利亚_1
-  - 🇺🇸_美国_109
-  - 🇺🇸_美国_110
-  - 🇦🇺_澳大利亚_2
-  - 🇺🇸_美国_111
   - 🇨🇳_中国_39
-  - 🇫🇷_法国_1
-  - 🇦🇺_澳大利亚_3
   - 🇨🇳_中国_40
-  - 🇫🇷_法国_2
-  - 🇺🇸_美国_112
-  - 🇺🇸_美国_113
-  - 🇺🇸_美国_114
   - 🇨🇳_中国_41
   - 🇨🇳_中国_42
+  - 🇨🇳_中国_43
+  - 🇨🇳_中国_44
+  - 🇨🇳_中国_45
+  - 🇨🇳_中国_46
+  - 🇨🇳_中国_47
+  - 🇨🇳_中国_48
+  - 🇨🇳_中国_49
   type: select
 rules:
 - DOMAIN-SUFFIX,acl4.ssr,🎯 全球直连
