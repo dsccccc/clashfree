@@ -195,20 +195,20 @@ proxies:
   sni: 4560c642-swin40-tjuq6l-wf62.cu.plebai.net
   type: trojan
   udp: true
-- name: 🇭🇰 13,14|香港4|@ripaojiedian
-  password: 85f133142f04dbf6547da33895cfabb3
-  port: 39001
-  server: 113.99.140.184
-  skip-cert-verify: false
-  sni: www.yrtok.com
-  type: trojan
-  udp: true
 - name: 🇭🇰 13,14|香港3|@ripaojiedian
   password: 85f133142f04dbf6547da33895cfabb3
   port: 39001
   server: 120.233.128.68
   skip-cert-verify: false
   sni: 120.233.128.68
+  type: trojan
+  udp: true
+- name: 🇭🇰 13,14|香港4|@ripaojiedian
+  password: 85f133142f04dbf6547da33895cfabb3
+  port: 39001
+  server: 113.99.140.184
+  skip-cert-verify: false
+  sni: www.yrtok.com
   type: trojan
   udp: true
 - alterId: 64
@@ -221,21 +221,16 @@ proxies:
   type: vmess
   udp: true
   uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
-- alterId: 2
+- alterId: 0
   cipher: auto
-  name: 🇭🇰 13,14|香港6|@ripaojiedian
-  network: ws
-  port: 30809
-  server: v9.heduian.link
+  name: 🇭🇰 13|🇭🇰 香港6|@ripaojiedian
+  port: 20452
+  server: 20.2.80.240
   skip-cert-verify: false
   tls: false
   type: vmess
   udp: true
-  uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
-  ws-opts:
-    headers:
-      Host: baidu.com
-    path: /oooo
+  uuid: 52aba3eb-0a6f-4c2f-29c6-d4b18a1d7c3e
 - alterId: 0
   cipher: auto
   name: 🇭🇰 13|🇭🇰 香港7|@ripaojiedian
@@ -246,16 +241,14 @@ proxies:
   type: vmess
   udp: true
   uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
-- alterId: 0
-  cipher: auto
-  name: 🇯🇵 13|🇯🇵 日本3|@ripaojiedian
-  port: 20452
-  server: 140.227.28.92
+- name: 🇯🇵 13,14|日本3|@ripaojiedian
+  password: 85f133142f04dbf6547da33895cfabb3
+  port: 39001
+  server: 203.156.253.11
   skip-cert-verify: false
-  tls: false
-  type: vmess
+  sni: www.yrtok.com
+  type: trojan
   udp: true
-  uuid: 52aba3eb-0a6f-4c2f-29c6-d4b18a1d7c3e
 - alterId: 0
   cipher: auto
   name: 🇯🇵 13|🇯🇵 日本4|@ripaojiedian
@@ -266,14 +259,6 @@ proxies:
   type: vmess
   udp: true
   uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
-- name: 🇯🇵 13,14|日本5|@ripaojiedian
-  password: 85f133142f04dbf6547da33895cfabb3
-  port: 39001
-  server: 203.156.253.11
-  skip-cert-verify: false
-  sni: www.yrtok.com
-  type: trojan
-  udp: true
 - alterId: 0
   cipher: auto
   name: 🇰🇷 13|🇰🇷 韩国|@ripaojiedian
@@ -284,52 +269,6 @@ proxies:
   type: vmess
   udp: true
   uuid: 7ccbb147-38b8-4d7c-9201-2ad4ae8b8761
-- alterId: 2
-  cipher: auto
-  name: 🇸🇬 13,14|新加坡|@ripaojiedian
-  network: ws
-  port: 30812
-  server: v12.heduian.link
-  skip-cert-verify: false
-  tls: false
-  type: vmess
-  udp: true
-  uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
-  ws-opts:
-    headers:
-      Host: ocbc.com
-    path: /oooo
-- alterId: 0
-  cipher: auto
-  name: 🇸🇬 13,14|新加坡2|@ripaojiedian
-  network: ws
-  port: 443
-  server: 5.10.245.69
-  servername: dcs.atlen.dpdns.org
-  skip-cert-verify: false
-  tls: true
-  type: vmess
-  udp: true
-  uuid: 5096073d-535a-4885-960d-e78d5cb0a83b
-  ws-opts:
-    headers:
-      Host: dcs.atlen.dpdns.org
-    path: /wyk
-- alterId: 2
-  cipher: auto
-  name: 🇸🇬 13,14|新加坡4|@ripaojiedian
-  network: ws
-  port: 30839
-  server: v39.heduian.link
-  skip-cert-verify: false
-  tls: false
-  type: vmess
-  udp: true
-  uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
-  ws-opts:
-    headers:
-      Host: baidu.com
-    path: /oooo
 - alterId: 2
   cipher: auto
   name: 🇺🇸 13,14|美国|@ripaojiedian
@@ -345,37 +284,14 @@ proxies:
     headers:
       Host: baidu.com
     path: /oooo
-- alterId: 2
-  cipher: auto
-  name: 🇺🇸 13,14|美国3|@ripaojiedian
-  network: ws
-  port: 30824
-  server: v24.heduian.link
+- name: 🇺🇸 13|🇺🇸 美国3|@ripaojiedian
+  password: d18bcaf4-1323-11ec-a0fc-f23c913c8d2b
+  port: 15229
+  server: 35eb0e91-sy0cg0-t7fz1r-8rja.cu.plebai.net
   skip-cert-verify: false
-  tls: false
-  type: vmess
+  sni: 35eb0e91-sy0cg0-t7fz1r-8rja.cu.plebai.net
+  type: trojan
   udp: true
-  uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
-  ws-opts:
-    headers:
-      Host: v24.heduian.link
-    path: /oooo
-- alterId: 0
-  cipher: auto
-  name: 🇺🇸 13,14|美国4|@ripaojiedian
-  network: ws
-  port: 8443
-  server: 104.18.43.21
-  servername: mailman-backing-facilitate-cents.trycloudflare.com
-  skip-cert-verify: false
-  tls: true
-  type: vmess
-  udp: true
-  uuid: b3b28da5-a27d-4d33-ee13-dcdf5c7fc45b
-  ws-opts:
-    headers:
-      Host: mailman-backing-facilitate-cents.trycloudflare.com
-    path: /
 - alterId: 64
   cipher: auto
   name: 🇸🇬 14|新加坡3|@ripaojiedian
@@ -388,6 +304,16 @@ proxies:
   uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
 - alterId: 0
   cipher: auto
+  name: 🇭🇰 14|香港6|@ripaojiedian
+  port: 20452
+  server: 20.2.80.240
+  skip-cert-verify: false
+  tls: false
+  type: vmess
+  udp: true
+  uuid: 52aba3eb-0a6f-4c2f-29c6-d4b18a1d7c3e
+- alterId: 0
+  cipher: auto
   name: 🇭🇰 14|香港7|@ripaojiedian
   port: 46159
   server: 120.198.71.216
@@ -396,16 +322,6 @@ proxies:
   type: vmess
   udp: true
   uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
-- alterId: 0
-  cipher: auto
-  name: 🇯🇵 14|日本3|@ripaojiedian
-  port: 20452
-  server: 140.227.28.92
-  skip-cert-verify: false
-  tls: false
-  type: vmess
-  udp: true
-  uuid: 52aba3eb-0a6f-4c2f-29c6-d4b18a1d7c3e
 - alterId: 0
   cipher: auto
   name: 🇯🇵 14|日本4|@ripaojiedian
@@ -426,6 +342,13 @@ proxies:
   type: vmess
   udp: true
   uuid: 7ccbb147-38b8-4d7c-9201-2ad4ae8b8761
+- name: 🇺🇸 14|美国3|@ripaojiedian
+  password: d18bcaf4-1323-11ec-a0fc-f23c913c8d2b
+  port: 15229
+  server: 35eb0e91-sy0cg0-t7fz1r-8rja.cu.plebai.net
+  skip-cert-verify: false
+  type: trojan
+  udp: true
 - name: 15|CN_speednode_0026
   password: FpQhGpIr
   port: 38632
@@ -484,26 +407,22 @@ proxy-groups:
   - 2|🇭🇰1 |  1.8MB/s|15%|Disney|Yout...
   - 2|🇺🇸63 |  2.1MB/s|46%|Openai|Gem...
   - 2|🇺🇸64 |  1.3MB/s|46%|Openai|Gem...
-  - 🇭🇰 13,14|香港4|@ripaojiedian
   - 🇭🇰 13,14|香港3|@ripaojiedian
+  - 🇭🇰 13,14|香港4|@ripaojiedian
   - 🇸🇬 13|🇸🇬 新加坡3|@ripaojiedian
-  - 🇭🇰 13,14|香港6|@ripaojiedian
+  - 🇭🇰 13|🇭🇰 香港6|@ripaojiedian
   - 🇭🇰 13|🇭🇰 香港7|@ripaojiedian
-  - 🇯🇵 13|🇯🇵 日本3|@ripaojiedian
+  - 🇯🇵 13,14|日本3|@ripaojiedian
   - 🇯🇵 13|🇯🇵 日本4|@ripaojiedian
-  - 🇯🇵 13,14|日本5|@ripaojiedian
   - 🇰🇷 13|🇰🇷 韩国|@ripaojiedian
-  - 🇸🇬 13,14|新加坡|@ripaojiedian
-  - 🇸🇬 13,14|新加坡2|@ripaojiedian
-  - 🇸🇬 13,14|新加坡4|@ripaojiedian
   - 🇺🇸 13,14|美国|@ripaojiedian
-  - 🇺🇸 13,14|美国3|@ripaojiedian
-  - 🇺🇸 13,14|美国4|@ripaojiedian
+  - 🇺🇸 13|🇺🇸 美国3|@ripaojiedian
   - 🇸🇬 14|新加坡3|@ripaojiedian
+  - 🇭🇰 14|香港6|@ripaojiedian
   - 🇭🇰 14|香港7|@ripaojiedian
-  - 🇯🇵 14|日本3|@ripaojiedian
   - 🇯🇵 14|日本4|@ripaojiedian
   - 🇰🇷 14|韩国|@ripaojiedian
+  - 🇺🇸 14|美国3|@ripaojiedian
   - 15|CN_speednode_0026
   - 15|CN_speednode_0027
   - 15|CN_speednode_0028
@@ -523,26 +442,22 @@ proxy-groups:
   - 2|🇭🇰1 |  1.8MB/s|15%|Disney|Yout...
   - 2|🇺🇸63 |  2.1MB/s|46%|Openai|Gem...
   - 2|🇺🇸64 |  1.3MB/s|46%|Openai|Gem...
-  - 🇭🇰 13,14|香港4|@ripaojiedian
   - 🇭🇰 13,14|香港3|@ripaojiedian
+  - 🇭🇰 13,14|香港4|@ripaojiedian
   - 🇸🇬 13|🇸🇬 新加坡3|@ripaojiedian
-  - 🇭🇰 13,14|香港6|@ripaojiedian
+  - 🇭🇰 13|🇭🇰 香港6|@ripaojiedian
   - 🇭🇰 13|🇭🇰 香港7|@ripaojiedian
-  - 🇯🇵 13|🇯🇵 日本3|@ripaojiedian
+  - 🇯🇵 13,14|日本3|@ripaojiedian
   - 🇯🇵 13|🇯🇵 日本4|@ripaojiedian
-  - 🇯🇵 13,14|日本5|@ripaojiedian
   - 🇰🇷 13|🇰🇷 韩国|@ripaojiedian
-  - 🇸🇬 13,14|新加坡|@ripaojiedian
-  - 🇸🇬 13,14|新加坡2|@ripaojiedian
-  - 🇸🇬 13,14|新加坡4|@ripaojiedian
   - 🇺🇸 13,14|美国|@ripaojiedian
-  - 🇺🇸 13,14|美国3|@ripaojiedian
-  - 🇺🇸 13,14|美国4|@ripaojiedian
+  - 🇺🇸 13|🇺🇸 美国3|@ripaojiedian
   - 🇸🇬 14|新加坡3|@ripaojiedian
+  - 🇭🇰 14|香港6|@ripaojiedian
   - 🇭🇰 14|香港7|@ripaojiedian
-  - 🇯🇵 14|日本3|@ripaojiedian
   - 🇯🇵 14|日本4|@ripaojiedian
   - 🇰🇷 14|韩国|@ripaojiedian
+  - 🇺🇸 14|美国3|@ripaojiedian
   - 15|CN_speednode_0026
   - 15|CN_speednode_0027
   - 15|CN_speednode_0028
@@ -565,26 +480,22 @@ proxy-groups:
   - 2|🇭🇰1 |  1.8MB/s|15%|Disney|Yout...
   - 2|🇺🇸63 |  2.1MB/s|46%|Openai|Gem...
   - 2|🇺🇸64 |  1.3MB/s|46%|Openai|Gem...
-  - 🇭🇰 13,14|香港4|@ripaojiedian
   - 🇭🇰 13,14|香港3|@ripaojiedian
+  - 🇭🇰 13,14|香港4|@ripaojiedian
   - 🇸🇬 13|🇸🇬 新加坡3|@ripaojiedian
-  - 🇭🇰 13,14|香港6|@ripaojiedian
+  - 🇭🇰 13|🇭🇰 香港6|@ripaojiedian
   - 🇭🇰 13|🇭🇰 香港7|@ripaojiedian
-  - 🇯🇵 13|🇯🇵 日本3|@ripaojiedian
+  - 🇯🇵 13,14|日本3|@ripaojiedian
   - 🇯🇵 13|🇯🇵 日本4|@ripaojiedian
-  - 🇯🇵 13,14|日本5|@ripaojiedian
   - 🇰🇷 13|🇰🇷 韩国|@ripaojiedian
-  - 🇸🇬 13,14|新加坡|@ripaojiedian
-  - 🇸🇬 13,14|新加坡2|@ripaojiedian
-  - 🇸🇬 13,14|新加坡4|@ripaojiedian
   - 🇺🇸 13,14|美国|@ripaojiedian
-  - 🇺🇸 13,14|美国3|@ripaojiedian
-  - 🇺🇸 13,14|美国4|@ripaojiedian
+  - 🇺🇸 13|🇺🇸 美国3|@ripaojiedian
   - 🇸🇬 14|新加坡3|@ripaojiedian
+  - 🇭🇰 14|香港6|@ripaojiedian
   - 🇭🇰 14|香港7|@ripaojiedian
-  - 🇯🇵 14|日本3|@ripaojiedian
   - 🇯🇵 14|日本4|@ripaojiedian
   - 🇰🇷 14|韩国|@ripaojiedian
+  - 🇺🇸 14|美国3|@ripaojiedian
   - 15|CN_speednode_0026
   - 15|CN_speednode_0027
   - 15|CN_speednode_0028
@@ -618,26 +529,22 @@ proxy-groups:
   - 2|🇭🇰1 |  1.8MB/s|15%|Disney|Yout...
   - 2|🇺🇸63 |  2.1MB/s|46%|Openai|Gem...
   - 2|🇺🇸64 |  1.3MB/s|46%|Openai|Gem...
-  - 🇭🇰 13,14|香港4|@ripaojiedian
   - 🇭🇰 13,14|香港3|@ripaojiedian
+  - 🇭🇰 13,14|香港4|@ripaojiedian
   - 🇸🇬 13|🇸🇬 新加坡3|@ripaojiedian
-  - 🇭🇰 13,14|香港6|@ripaojiedian
+  - 🇭🇰 13|🇭🇰 香港6|@ripaojiedian
   - 🇭🇰 13|🇭🇰 香港7|@ripaojiedian
-  - 🇯🇵 13|🇯🇵 日本3|@ripaojiedian
+  - 🇯🇵 13,14|日本3|@ripaojiedian
   - 🇯🇵 13|🇯🇵 日本4|@ripaojiedian
-  - 🇯🇵 13,14|日本5|@ripaojiedian
   - 🇰🇷 13|🇰🇷 韩国|@ripaojiedian
-  - 🇸🇬 13,14|新加坡|@ripaojiedian
-  - 🇸🇬 13,14|新加坡2|@ripaojiedian
-  - 🇸🇬 13,14|新加坡4|@ripaojiedian
   - 🇺🇸 13,14|美国|@ripaojiedian
-  - 🇺🇸 13,14|美国3|@ripaojiedian
-  - 🇺🇸 13,14|美国4|@ripaojiedian
+  - 🇺🇸 13|🇺🇸 美国3|@ripaojiedian
   - 🇸🇬 14|新加坡3|@ripaojiedian
+  - 🇭🇰 14|香港6|@ripaojiedian
   - 🇭🇰 14|香港7|@ripaojiedian
-  - 🇯🇵 14|日本3|@ripaojiedian
   - 🇯🇵 14|日本4|@ripaojiedian
   - 🇰🇷 14|韩国|@ripaojiedian
+  - 🇺🇸 14|美国3|@ripaojiedian
   - 15|CN_speednode_0026
   - 15|CN_speednode_0027
   - 15|CN_speednode_0028
@@ -648,10 +555,11 @@ proxy-groups:
 - name: 🌏 国内媒体
   proxies:
   - 🎯 全球直连
-  - 🇭🇰 13,14|香港4|@ripaojiedian
   - 🇭🇰 13,14|香港3|@ripaojiedian
-  - 🇭🇰 13,14|香港6|@ripaojiedian
+  - 🇭🇰 13,14|香港4|@ripaojiedian
+  - 🇭🇰 13|🇭🇰 香港6|@ripaojiedian
   - 🇭🇰 13|🇭🇰 香港7|@ripaojiedian
+  - 🇭🇰 14|香港6|@ripaojiedian
   - 🇭🇰 14|香港7|@ripaojiedian
   - 🔰 节点选择
   type: select
@@ -668,26 +576,22 @@ proxy-groups:
   - 2|🇭🇰1 |  1.8MB/s|15%|Disney|Yout...
   - 2|🇺🇸63 |  2.1MB/s|46%|Openai|Gem...
   - 2|🇺🇸64 |  1.3MB/s|46%|Openai|Gem...
-  - 🇭🇰 13,14|香港4|@ripaojiedian
   - 🇭🇰 13,14|香港3|@ripaojiedian
+  - 🇭🇰 13,14|香港4|@ripaojiedian
   - 🇸🇬 13|🇸🇬 新加坡3|@ripaojiedian
-  - 🇭🇰 13,14|香港6|@ripaojiedian
+  - 🇭🇰 13|🇭🇰 香港6|@ripaojiedian
   - 🇭🇰 13|🇭🇰 香港7|@ripaojiedian
-  - 🇯🇵 13|🇯🇵 日本3|@ripaojiedian
+  - 🇯🇵 13,14|日本3|@ripaojiedian
   - 🇯🇵 13|🇯🇵 日本4|@ripaojiedian
-  - 🇯🇵 13,14|日本5|@ripaojiedian
   - 🇰🇷 13|🇰🇷 韩国|@ripaojiedian
-  - 🇸🇬 13,14|新加坡|@ripaojiedian
-  - 🇸🇬 13,14|新加坡2|@ripaojiedian
-  - 🇸🇬 13,14|新加坡4|@ripaojiedian
   - 🇺🇸 13,14|美国|@ripaojiedian
-  - 🇺🇸 13,14|美国3|@ripaojiedian
-  - 🇺🇸 13,14|美国4|@ripaojiedian
+  - 🇺🇸 13|🇺🇸 美国3|@ripaojiedian
   - 🇸🇬 14|新加坡3|@ripaojiedian
+  - 🇭🇰 14|香港6|@ripaojiedian
   - 🇭🇰 14|香港7|@ripaojiedian
-  - 🇯🇵 14|日本3|@ripaojiedian
   - 🇯🇵 14|日本4|@ripaojiedian
   - 🇰🇷 14|韩国|@ripaojiedian
+  - 🇺🇸 14|美国3|@ripaojiedian
   - 15|CN_speednode_0026
   - 15|CN_speednode_0027
   - 15|CN_speednode_0028
@@ -708,26 +612,22 @@ proxy-groups:
   - 2|🇭🇰1 |  1.8MB/s|15%|Disney|Yout...
   - 2|🇺🇸63 |  2.1MB/s|46%|Openai|Gem...
   - 2|🇺🇸64 |  1.3MB/s|46%|Openai|Gem...
-  - 🇭🇰 13,14|香港4|@ripaojiedian
   - 🇭🇰 13,14|香港3|@ripaojiedian
+  - 🇭🇰 13,14|香港4|@ripaojiedian
   - 🇸🇬 13|🇸🇬 新加坡3|@ripaojiedian
-  - 🇭🇰 13,14|香港6|@ripaojiedian
+  - 🇭🇰 13|🇭🇰 香港6|@ripaojiedian
   - 🇭🇰 13|🇭🇰 香港7|@ripaojiedian
-  - 🇯🇵 13|🇯🇵 日本3|@ripaojiedian
+  - 🇯🇵 13,14|日本3|@ripaojiedian
   - 🇯🇵 13|🇯🇵 日本4|@ripaojiedian
-  - 🇯🇵 13,14|日本5|@ripaojiedian
   - 🇰🇷 13|🇰🇷 韩国|@ripaojiedian
-  - 🇸🇬 13,14|新加坡|@ripaojiedian
-  - 🇸🇬 13,14|新加坡2|@ripaojiedian
-  - 🇸🇬 13,14|新加坡4|@ripaojiedian
   - 🇺🇸 13,14|美国|@ripaojiedian
-  - 🇺🇸 13,14|美国3|@ripaojiedian
-  - 🇺🇸 13,14|美国4|@ripaojiedian
+  - 🇺🇸 13|🇺🇸 美国3|@ripaojiedian
   - 🇸🇬 14|新加坡3|@ripaojiedian
+  - 🇭🇰 14|香港6|@ripaojiedian
   - 🇭🇰 14|香港7|@ripaojiedian
-  - 🇯🇵 14|日本3|@ripaojiedian
   - 🇯🇵 14|日本4|@ripaojiedian
   - 🇰🇷 14|韩国|@ripaojiedian
+  - 🇺🇸 14|美国3|@ripaojiedian
   - 15|CN_speednode_0026
   - 15|CN_speednode_0027
   - 15|CN_speednode_0028
@@ -749,26 +649,22 @@ proxy-groups:
   - 2|🇭🇰1 |  1.8MB/s|15%|Disney|Yout...
   - 2|🇺🇸63 |  2.1MB/s|46%|Openai|Gem...
   - 2|🇺🇸64 |  1.3MB/s|46%|Openai|Gem...
-  - 🇭🇰 13,14|香港4|@ripaojiedian
   - 🇭🇰 13,14|香港3|@ripaojiedian
+  - 🇭🇰 13,14|香港4|@ripaojiedian
   - 🇸🇬 13|🇸🇬 新加坡3|@ripaojiedian
-  - 🇭🇰 13,14|香港6|@ripaojiedian
+  - 🇭🇰 13|🇭🇰 香港6|@ripaojiedian
   - 🇭🇰 13|🇭🇰 香港7|@ripaojiedian
-  - 🇯🇵 13|🇯🇵 日本3|@ripaojiedian
+  - 🇯🇵 13,14|日本3|@ripaojiedian
   - 🇯🇵 13|🇯🇵 日本4|@ripaojiedian
-  - 🇯🇵 13,14|日本5|@ripaojiedian
   - 🇰🇷 13|🇰🇷 韩国|@ripaojiedian
-  - 🇸🇬 13,14|新加坡|@ripaojiedian
-  - 🇸🇬 13,14|新加坡2|@ripaojiedian
-  - 🇸🇬 13,14|新加坡4|@ripaojiedian
   - 🇺🇸 13,14|美国|@ripaojiedian
-  - 🇺🇸 13,14|美国3|@ripaojiedian
-  - 🇺🇸 13,14|美国4|@ripaojiedian
+  - 🇺🇸 13|🇺🇸 美国3|@ripaojiedian
   - 🇸🇬 14|新加坡3|@ripaojiedian
+  - 🇭🇰 14|香港6|@ripaojiedian
   - 🇭🇰 14|香港7|@ripaojiedian
-  - 🇯🇵 14|日本3|@ripaojiedian
   - 🇯🇵 14|日本4|@ripaojiedian
   - 🇰🇷 14|韩国|@ripaojiedian
+  - 🇺🇸 14|美国3|@ripaojiedian
   - 15|CN_speednode_0026
   - 15|CN_speednode_0027
   - 15|CN_speednode_0028
@@ -799,26 +695,22 @@ proxy-groups:
   - 2|🇭🇰1 |  1.8MB/s|15%|Disney|Yout...
   - 2|🇺🇸63 |  2.1MB/s|46%|Openai|Gem...
   - 2|🇺🇸64 |  1.3MB/s|46%|Openai|Gem...
-  - 🇭🇰 13,14|香港4|@ripaojiedian
   - 🇭🇰 13,14|香港3|@ripaojiedian
+  - 🇭🇰 13,14|香港4|@ripaojiedian
   - 🇸🇬 13|🇸🇬 新加坡3|@ripaojiedian
-  - 🇭🇰 13,14|香港6|@ripaojiedian
+  - 🇭🇰 13|🇭🇰 香港6|@ripaojiedian
   - 🇭🇰 13|🇭🇰 香港7|@ripaojiedian
-  - 🇯🇵 13|🇯🇵 日本3|@ripaojiedian
+  - 🇯🇵 13,14|日本3|@ripaojiedian
   - 🇯🇵 13|🇯🇵 日本4|@ripaojiedian
-  - 🇯🇵 13,14|日本5|@ripaojiedian
   - 🇰🇷 13|🇰🇷 韩国|@ripaojiedian
-  - 🇸🇬 13,14|新加坡|@ripaojiedian
-  - 🇸🇬 13,14|新加坡2|@ripaojiedian
-  - 🇸🇬 13,14|新加坡4|@ripaojiedian
   - 🇺🇸 13,14|美国|@ripaojiedian
-  - 🇺🇸 13,14|美国3|@ripaojiedian
-  - 🇺🇸 13,14|美国4|@ripaojiedian
+  - 🇺🇸 13|🇺🇸 美国3|@ripaojiedian
   - 🇸🇬 14|新加坡3|@ripaojiedian
+  - 🇭🇰 14|香港6|@ripaojiedian
   - 🇭🇰 14|香港7|@ripaojiedian
-  - 🇯🇵 14|日本3|@ripaojiedian
   - 🇯🇵 14|日本4|@ripaojiedian
   - 🇰🇷 14|韩国|@ripaojiedian
+  - 🇺🇸 14|美国3|@ripaojiedian
   - 15|CN_speednode_0026
   - 15|CN_speednode_0027
   - 15|CN_speednode_0028
