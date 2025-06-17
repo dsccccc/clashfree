@@ -8,63 +8,42 @@ log-level: info
 mixed-port: 7890
 mode: rule
 proxies:
-- alterId: 2
-  cipher: auto
-  name: '[VMess] 吉林省 移动(全省通用)'
-  network: ws
-  port: 30809
-  server: v9.heduian.link
-  skip-cert-verify: true
-  tfo: false
-  tls: false
-  type: vmess
-  udp: true
-  uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
-  ws-opts:
-    headers:
-      Host: baidu.com
-    path: /oooo
-- alterId: 2
-  cipher: auto
-  name: '[VMess] 吉林省 移动(全省通用) 2'
-  network: ws
-  port: 30829
-  server: v29.heduian.link
-  skip-cert-verify: true
-  tfo: false
-  tls: false
-  type: vmess
-  udp: true
-  uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
-  ws-opts:
-    headers:
-      Host: ocbc.com
-    path: /oooo
 - name: '[Trojan] 广东省 移动'
-  password: 2b1ed981-6547-4094-998b-06a3323d6f6c
-  port: 21179
-  server: 120.233.44.201
+  password: 85f133142f04dbf6547da33895cfabb3
+  port: 39001
+  server: 120.233.128.68
   skip-cert-verify: true
-  sni: k30.tudou211.com
+  sni: 120.233.128.68
   tfo: false
   type: trojan
   udp: true
 - alterId: 0
   cipher: auto
-  name: '[VMess] 广东省湛江市 移动'
-  port: 46159
-  server: 120.198.71.216
+  name: '[VMess] 广东省中山市 移动'
+  port: 39076
+  server: 183.238.90.8
   skip-cert-verify: true
   tfo: false
   tls: false
   type: vmess
   udp: true
   uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
-- alterId: 64
+- alterId: 0
+  cipher: auto
+  name: '[VMess] 广东省湛江市 移动'
+  port: 51095
+  server: 120.198.71.219
+  skip-cert-verify: true
+  tfo: false
+  tls: false
+  type: vmess
+  udp: true
+  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
+- alterId: 0
   cipher: auto
   name: '[VMess] 广东省湛江市 移动 2'
-  port: 59082
-  server: 120.198.71.216
+  port: 49355
+  server: 120.198.71.219
   skip-cert-verify: true
   tfo: false
   tls: false
@@ -99,26 +78,6 @@ proxies:
   uuid: efcb7d7c-c582-46f5-eeff-0e553342528d
   ws-opts:
     path: /tg@hkaa0
-- name: '[Trojan] 🇨🇳 上海市 上海电信科技发展有限公司(中山南路111号)'
-  password: 85f133142f04dbf6547da33895cfabb3
-  port: 39001
-  server: 203.156.253.11
-  skip-cert-verify: true
-  sni: www.yrtok.com
-  tfo: false
-  type: trojan
-  udp: true
-- alterId: 0
-  cipher: auto
-  name: '[VMess] 🇨🇳 上海市徐汇区 联通漕河泾数据中心'
-  port: 45258
-  server: lt.fxlcn.com
-  skip-cert-verify: true
-  tfo: false
-  tls: false
-  type: vmess
-  udp: true
-  uuid: 469e0b31-30c3-4dab-800d-711232634ce1
 - name: '[Trojan] 🇨🇳 广东省广州市 UCloud'
   password: 1b4c16925f934c57b954a9f0f23dea33
   port: 8842
@@ -131,8 +90,19 @@ proxies:
 - alterId: 0
   cipher: auto
   name: '[VMess] 🇨🇳 广东省广州市 移动'
-  port: 41302
+  port: 36519
   server: 183.236.51.38
+  skip-cert-verify: true
+  tfo: false
+  tls: false
+  type: vmess
+  udp: true
+  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
+- alterId: 0
+  cipher: auto
+  name: '[VMess] 🇨🇳 广东省广州市 移动 2'
+  port: 52352
+  server: 120.232.153.123
   skip-cert-verify: true
   tfo: false
   tls: false
@@ -145,6 +115,14 @@ proxies:
   server: 113.99.140.184
   skip-cert-verify: true
   sni: www.yrtok.com
+  tfo: false
+  type: trojan
+  udp: true
+- name: '[Trojan] 🇨🇳 江苏省盐城市 创凡云'
+  password: HrTsLJvh
+  port: 43196
+  server: 223.111.144.12
+  skip-cert-verify: true
   tfo: false
   type: trojan
   udp: true
@@ -272,6 +250,20 @@ proxies:
     path: /path/1696251522438
 - alterId: 0
   cipher: auto
+  name: '[VMess] 🇷🇺 俄罗斯 莫斯科JustHost'
+  network: ws
+  port: 20062
+  server: 45.147.201.231
+  skip-cert-verify: true
+  tfo: false
+  tls: false
+  type: vmess
+  udp: true
+  uuid: e1dca130-d74e-47fa-82d6-4c3773e6f813
+  ws-opts:
+    path: /
+- alterId: 0
+  cipher: auto
   name: '[VMess] 🇸🇦 _US_美国->🇸🇦_SA_沙特阿拉伯'
   network: ws
   port: 80
@@ -360,38 +352,15 @@ proxies:
   uuid: c458695d-6908-45c3-9512-e0c46418454c
   ws-opts:
     path: /
-- alterId: 0
-  cipher: auto
-  name: '[VMess] 🇺🇸 美国 CloudFlare节点'
-  network: ws
-  port: 2096
-  server: de01.sh-cloudflare.sbs
+- name: '[Trojan] 🇺🇸 美国 Amazon数据中心'
+  password: telegram-id-directvpn
+  port: 22223
+  server: 13.36.8.60
   skip-cert-verify: true
+  sni: trojan.burgerip.co.uk
   tfo: false
-  tls: true
-  type: vmess
+  type: trojan
   udp: true
-  uuid: bc2a0c83-11f2-4acf-b13a-a9b4830f495c
-  ws-opts:
-    headers:
-      Host: de01.sh-cloudflare.sbs
-    path: /
-- alterId: 0
-  cipher: auto
-  name: '[VMess] 🇺🇸 美国 CloudFlare节点 2'
-  network: ws
-  port: 8880
-  server: 104.17.25.173
-  skip-cert-verify: true
-  tfo: false
-  tls: false
-  type: vmess
-  udp: true
-  uuid: e7e26f7b-c4d8-3856-9c9a-dbb98f97fd6b
-  ws-opts:
-    headers:
-      Host: 100-235-132-47.s5.db-link02.top
-    path: /dabai.in104.25.200.4
 proxy-groups:
 - name: 🚀 全球互联
   proxies:
@@ -404,18 +373,17 @@ proxy-groups:
   - 🇺🇲 美国
   - 🇹🇼 台湾
   - 🇸🇬 新加坡
-  - '[VMess] 吉林省 移动(全省通用)'
-  - '[VMess] 吉林省 移动(全省通用) 2'
   - '[Trojan] 广东省 移动'
+  - '[VMess] 广东省中山市 移动'
   - '[VMess] 广东省湛江市 移动'
   - '[VMess] 广东省湛江市 移动 2'
   - '[VMess] 🇨🇦 _CA_加拿大'
   - '[VMess] 🇨🇳 _TW_台湾->🇺🇸_US_美国'
-  - '[Trojan] 🇨🇳 上海市 上海电信科技发展有限公司(中山南路111号)'
-  - '[VMess] 🇨🇳 上海市徐汇区 联通漕河泾数据中心'
   - '[Trojan] 🇨🇳 广东省广州市 UCloud'
   - '[VMess] 🇨🇳 广东省广州市 移动'
+  - '[VMess] 🇨🇳 广东省广州市 移动 2'
   - '[Trojan] 🇨🇳 广东省广州市 腾讯云'
+  - '[Trojan] 🇨🇳 江苏省盐城市 创凡云'
   - '[VMess] 🇩🇪 _US_美国->🇩🇪_DE_德国'
   - '[VMess] 🇬🇧 _US_美国->🇬🇧_GB_英国_1'
   - '[VMess] 🇬🇧 _US_美国->🇬🇧_GB_英国_2'
@@ -424,14 +392,14 @@ proxy-groups:
   - '[VMess] 🇮🇳 _US_美国->🇮🇳_IN_印度_3'
   - '[VMess] 🇮🇳 _US_美国->🇮🇳_IN_印度_4'
   - '[VMess] 🇳🇱 _US_美国->🇳🇱_NL_荷兰'
+  - '[VMess] 🇷🇺 俄罗斯 莫斯科JustHost'
   - '[VMess] 🇸🇦 _US_美国->🇸🇦_SA_沙特阿拉伯'
   - '[VMess] 🇺🇸 _US_美国_1'
   - '[VMess] 🇺🇸 _US_美国_2'
   - '[VMess] 🇺🇸 _US_美国_3'
   - '[VMess] 🇺🇸 _US_美国_4'
   - '[VMess] 🇺🇸 _US_美国_5'
-  - '[VMess] 🇺🇸 美国 CloudFlare节点'
-  - '[VMess] 🇺🇸 美国 CloudFlare节点 2'
+  - '[Trojan] 🇺🇸 美国 Amazon数据中心'
   type: select
 - name: 🎥 Netflix
   proxies:
@@ -440,18 +408,17 @@ proxy-groups:
   - 🇺🇲 美国
   - 🇹🇼 台湾
   - 🇸🇬 新加坡
-  - '[VMess] 吉林省 移动(全省通用)'
-  - '[VMess] 吉林省 移动(全省通用) 2'
   - '[Trojan] 广东省 移动'
+  - '[VMess] 广东省中山市 移动'
   - '[VMess] 广东省湛江市 移动'
   - '[VMess] 广东省湛江市 移动 2'
   - '[VMess] 🇨🇦 _CA_加拿大'
   - '[VMess] 🇨🇳 _TW_台湾->🇺🇸_US_美国'
-  - '[Trojan] 🇨🇳 上海市 上海电信科技发展有限公司(中山南路111号)'
-  - '[VMess] 🇨🇳 上海市徐汇区 联通漕河泾数据中心'
   - '[Trojan] 🇨🇳 广东省广州市 UCloud'
   - '[VMess] 🇨🇳 广东省广州市 移动'
+  - '[VMess] 🇨🇳 广东省广州市 移动 2'
   - '[Trojan] 🇨🇳 广东省广州市 腾讯云'
+  - '[Trojan] 🇨🇳 江苏省盐城市 创凡云'
   - '[VMess] 🇩🇪 _US_美国->🇩🇪_DE_德国'
   - '[VMess] 🇬🇧 _US_美国->🇬🇧_GB_英国_1'
   - '[VMess] 🇬🇧 _US_美国->🇬🇧_GB_英国_2'
@@ -460,14 +427,14 @@ proxy-groups:
   - '[VMess] 🇮🇳 _US_美国->🇮🇳_IN_印度_3'
   - '[VMess] 🇮🇳 _US_美国->🇮🇳_IN_印度_4'
   - '[VMess] 🇳🇱 _US_美国->🇳🇱_NL_荷兰'
+  - '[VMess] 🇷🇺 俄罗斯 莫斯科JustHost'
   - '[VMess] 🇸🇦 _US_美国->🇸🇦_SA_沙特阿拉伯'
   - '[VMess] 🇺🇸 _US_美国_1'
   - '[VMess] 🇺🇸 _US_美国_2'
   - '[VMess] 🇺🇸 _US_美国_3'
   - '[VMess] 🇺🇸 _US_美国_4'
   - '[VMess] 🇺🇸 _US_美国_5'
-  - '[VMess] 🇺🇸 美国 CloudFlare节点'
-  - '[VMess] 🇺🇸 美国 CloudFlare节点 2'
+  - '[Trojan] 🇺🇸 美国 Amazon数据中心'
   type: select
 - name: 📹 Youtube
   proxies:
@@ -476,18 +443,17 @@ proxy-groups:
   - 🇺🇲 美国
   - 🇹🇼 台湾
   - 🇸🇬 新加坡
-  - '[VMess] 吉林省 移动(全省通用)'
-  - '[VMess] 吉林省 移动(全省通用) 2'
   - '[Trojan] 广东省 移动'
+  - '[VMess] 广东省中山市 移动'
   - '[VMess] 广东省湛江市 移动'
   - '[VMess] 广东省湛江市 移动 2'
   - '[VMess] 🇨🇦 _CA_加拿大'
   - '[VMess] 🇨🇳 _TW_台湾->🇺🇸_US_美国'
-  - '[Trojan] 🇨🇳 上海市 上海电信科技发展有限公司(中山南路111号)'
-  - '[VMess] 🇨🇳 上海市徐汇区 联通漕河泾数据中心'
   - '[Trojan] 🇨🇳 广东省广州市 UCloud'
   - '[VMess] 🇨🇳 广东省广州市 移动'
+  - '[VMess] 🇨🇳 广东省广州市 移动 2'
   - '[Trojan] 🇨🇳 广东省广州市 腾讯云'
+  - '[Trojan] 🇨🇳 江苏省盐城市 创凡云'
   - '[VMess] 🇩🇪 _US_美国->🇩🇪_DE_德国'
   - '[VMess] 🇬🇧 _US_美国->🇬🇧_GB_英国_1'
   - '[VMess] 🇬🇧 _US_美国->🇬🇧_GB_英国_2'
@@ -496,14 +462,14 @@ proxy-groups:
   - '[VMess] 🇮🇳 _US_美国->🇮🇳_IN_印度_3'
   - '[VMess] 🇮🇳 _US_美国->🇮🇳_IN_印度_4'
   - '[VMess] 🇳🇱 _US_美国->🇳🇱_NL_荷兰'
+  - '[VMess] 🇷🇺 俄罗斯 莫斯科JustHost'
   - '[VMess] 🇸🇦 _US_美国->🇸🇦_SA_沙特阿拉伯'
   - '[VMess] 🇺🇸 _US_美国_1'
   - '[VMess] 🇺🇸 _US_美国_2'
   - '[VMess] 🇺🇸 _US_美国_3'
   - '[VMess] 🇺🇸 _US_美国_4'
   - '[VMess] 🇺🇸 _US_美国_5'
-  - '[VMess] 🇺🇸 美国 CloudFlare节点'
-  - '[VMess] 🇺🇸 美国 CloudFlare节点 2'
+  - '[Trojan] 🇺🇸 美国 Amazon数据中心'
   type: select
 - name: ▶️ Disney+
   proxies:
@@ -512,18 +478,17 @@ proxy-groups:
   - 🇺🇲 美国
   - 🇹🇼 台湾
   - 🇸🇬 新加坡
-  - '[VMess] 吉林省 移动(全省通用)'
-  - '[VMess] 吉林省 移动(全省通用) 2'
   - '[Trojan] 广东省 移动'
+  - '[VMess] 广东省中山市 移动'
   - '[VMess] 广东省湛江市 移动'
   - '[VMess] 广东省湛江市 移动 2'
   - '[VMess] 🇨🇦 _CA_加拿大'
   - '[VMess] 🇨🇳 _TW_台湾->🇺🇸_US_美国'
-  - '[Trojan] 🇨🇳 上海市 上海电信科技发展有限公司(中山南路111号)'
-  - '[VMess] 🇨🇳 上海市徐汇区 联通漕河泾数据中心'
   - '[Trojan] 🇨🇳 广东省广州市 UCloud'
   - '[VMess] 🇨🇳 广东省广州市 移动'
+  - '[VMess] 🇨🇳 广东省广州市 移动 2'
   - '[Trojan] 🇨🇳 广东省广州市 腾讯云'
+  - '[Trojan] 🇨🇳 江苏省盐城市 创凡云'
   - '[VMess] 🇩🇪 _US_美国->🇩🇪_DE_德国'
   - '[VMess] 🇬🇧 _US_美国->🇬🇧_GB_英国_1'
   - '[VMess] 🇬🇧 _US_美国->🇬🇧_GB_英国_2'
@@ -532,14 +497,14 @@ proxy-groups:
   - '[VMess] 🇮🇳 _US_美国->🇮🇳_IN_印度_3'
   - '[VMess] 🇮🇳 _US_美国->🇮🇳_IN_印度_4'
   - '[VMess] 🇳🇱 _US_美国->🇳🇱_NL_荷兰'
+  - '[VMess] 🇷🇺 俄罗斯 莫斯科JustHost'
   - '[VMess] 🇸🇦 _US_美国->🇸🇦_SA_沙特阿拉伯'
   - '[VMess] 🇺🇸 _US_美国_1'
   - '[VMess] 🇺🇸 _US_美国_2'
   - '[VMess] 🇺🇸 _US_美国_3'
   - '[VMess] 🇺🇸 _US_美国_4'
   - '[VMess] 🇺🇸 _US_美国_5'
-  - '[VMess] 🇺🇸 美国 CloudFlare节点'
-  - '[VMess] 🇺🇸 美国 CloudFlare节点 2'
+  - '[Trojan] 🇺🇸 美国 Amazon数据中心'
   type: select
 - name: 🌍 国外媒体
   proxies:
@@ -549,18 +514,17 @@ proxy-groups:
   - 🇺🇲 美国
   - 🇹🇼 台湾
   - 🇸🇬 新加坡
-  - '[VMess] 吉林省 移动(全省通用)'
-  - '[VMess] 吉林省 移动(全省通用) 2'
   - '[Trojan] 广东省 移动'
+  - '[VMess] 广东省中山市 移动'
   - '[VMess] 广东省湛江市 移动'
   - '[VMess] 广东省湛江市 移动 2'
   - '[VMess] 🇨🇦 _CA_加拿大'
   - '[VMess] 🇨🇳 _TW_台湾->🇺🇸_US_美国'
-  - '[Trojan] 🇨🇳 上海市 上海电信科技发展有限公司(中山南路111号)'
-  - '[VMess] 🇨🇳 上海市徐汇区 联通漕河泾数据中心'
   - '[Trojan] 🇨🇳 广东省广州市 UCloud'
   - '[VMess] 🇨🇳 广东省广州市 移动'
+  - '[VMess] 🇨🇳 广东省广州市 移动 2'
   - '[Trojan] 🇨🇳 广东省广州市 腾讯云'
+  - '[Trojan] 🇨🇳 江苏省盐城市 创凡云'
   - '[VMess] 🇩🇪 _US_美国->🇩🇪_DE_德国'
   - '[VMess] 🇬🇧 _US_美国->🇬🇧_GB_英国_1'
   - '[VMess] 🇬🇧 _US_美国->🇬🇧_GB_英国_2'
@@ -569,14 +533,14 @@ proxy-groups:
   - '[VMess] 🇮🇳 _US_美国->🇮🇳_IN_印度_3'
   - '[VMess] 🇮🇳 _US_美国->🇮🇳_IN_印度_4'
   - '[VMess] 🇳🇱 _US_美国->🇳🇱_NL_荷兰'
+  - '[VMess] 🇷🇺 俄罗斯 莫斯科JustHost'
   - '[VMess] 🇸🇦 _US_美国->🇸🇦_SA_沙特阿拉伯'
   - '[VMess] 🇺🇸 _US_美国_1'
   - '[VMess] 🇺🇸 _US_美国_2'
   - '[VMess] 🇺🇸 _US_美国_3'
   - '[VMess] 🇺🇸 _US_美国_4'
   - '[VMess] 🇺🇸 _US_美国_5'
-  - '[VMess] 🇺🇸 美国 CloudFlare节点'
-  - '[VMess] 🇺🇸 美国 CloudFlare节点 2'
+  - '[Trojan] 🇺🇸 美国 Amazon数据中心'
   type: select
 - name: 📲 Telegram
   proxies:
@@ -600,18 +564,17 @@ proxy-groups:
   - 🇺🇲 美国
   - 🇹🇼 台湾
   - 🇸🇬 新加坡
-  - '[VMess] 吉林省 移动(全省通用)'
-  - '[VMess] 吉林省 移动(全省通用) 2'
   - '[Trojan] 广东省 移动'
+  - '[VMess] 广东省中山市 移动'
   - '[VMess] 广东省湛江市 移动'
   - '[VMess] 广东省湛江市 移动 2'
   - '[VMess] 🇨🇦 _CA_加拿大'
   - '[VMess] 🇨🇳 _TW_台湾->🇺🇸_US_美国'
-  - '[Trojan] 🇨🇳 上海市 上海电信科技发展有限公司(中山南路111号)'
-  - '[VMess] 🇨🇳 上海市徐汇区 联通漕河泾数据中心'
   - '[Trojan] 🇨🇳 广东省广州市 UCloud'
   - '[VMess] 🇨🇳 广东省广州市 移动'
+  - '[VMess] 🇨🇳 广东省广州市 移动 2'
   - '[Trojan] 🇨🇳 广东省广州市 腾讯云'
+  - '[Trojan] 🇨🇳 江苏省盐城市 创凡云'
   - '[VMess] 🇩🇪 _US_美国->🇩🇪_DE_德国'
   - '[VMess] 🇬🇧 _US_美国->🇬🇧_GB_英国_1'
   - '[VMess] 🇬🇧 _US_美国->🇬🇧_GB_英国_2'
@@ -620,14 +583,14 @@ proxy-groups:
   - '[VMess] 🇮🇳 _US_美国->🇮🇳_IN_印度_3'
   - '[VMess] 🇮🇳 _US_美国->🇮🇳_IN_印度_4'
   - '[VMess] 🇳🇱 _US_美国->🇳🇱_NL_荷兰'
+  - '[VMess] 🇷🇺 俄罗斯 莫斯科JustHost'
   - '[VMess] 🇸🇦 _US_美国->🇸🇦_SA_沙特阿拉伯'
   - '[VMess] 🇺🇸 _US_美国_1'
   - '[VMess] 🇺🇸 _US_美国_2'
   - '[VMess] 🇺🇸 _US_美国_3'
   - '[VMess] 🇺🇸 _US_美国_4'
   - '[VMess] 🇺🇸 _US_美国_5'
-  - '[VMess] 🇺🇸 美国 CloudFlare节点'
-  - '[VMess] 🇺🇸 美国 CloudFlare节点 2'
+  - '[Trojan] 🇺🇸 美国 Amazon数据中心'
   type: select
 - name: 🇭🇰 香港
   proxies:
@@ -654,8 +617,7 @@ proxy-groups:
   - '[VMess] 🇺🇸 _US_美国_3'
   - '[VMess] 🇺🇸 _US_美国_4'
   - '[VMess] 🇺🇸 _US_美国_5'
-  - '[VMess] 🇺🇸 美国 CloudFlare节点'
-  - '[VMess] 🇺🇸 美国 CloudFlare节点 2'
+  - '[Trojan] 🇺🇸 美国 Amazon数据中心'
   type: select
 - name: 🇹🇼 台湾
   proxies:
