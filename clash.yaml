@@ -289,6 +289,13 @@ proxies:
   sni: baidu.com
   type: trojan
   udp: true
+- name: 🇸🇬 新加坡5|@ripaojiedian
+  password: a0f7a422-7867-469c-946b-190d8fbc2a5d
+  port: 1531
+  server: 103.248.229.29
+  skip-cert-verify: false
+  type: trojan
+  udp: true
 - name: 🇺🇸 美国3|@ripaojiedian
   password: d0d08cddacc3190ea81b1b792e1b5fde
   port: 30534
@@ -305,7 +312,33 @@ proxies:
   sni: www.baidu.com
   type: trojan
   udp: true
-- name: ES_speednode_0048
+- name: AM_speednode_0001
+  network: ws
+  password: Aimer
+  port: 2083
+  server: 188.164.159.214
+  skip-cert-verify: false
+  sni: epmk.ambercc.filegear-sg.me
+  type: trojan
+  udp: true
+  ws-opts:
+    headers:
+      Host: epmk.ambercc.filegear-sg.me
+    path: /
+- name: AM_speednode_0002
+  network: ws
+  password: Aimer
+  port: 2083
+  server: 188.164.159.234
+  skip-cert-verify: false
+  sni: epml.ambercc.filegear-sg.me
+  type: trojan
+  udp: true
+  ws-opts:
+    headers:
+      Host: epml.ambercc.filegear-sg.me
+    path: /
+- name: ES_speednode_0024
   network: ws
   password: trojan
   port: 8443
@@ -317,6 +350,45 @@ proxies:
   ws-opts:
     headers:
       Host: store.timimi.dpdns.org
+    path: /
+- name: KZ_speednode_0112
+  network: ws
+  password: Aimer
+  port: 443
+  server: 31.43.179.27
+  skip-cert-verify: false
+  sni: epmk.ambercc.filegear-sg.me
+  type: trojan
+  udp: true
+  ws-opts:
+    headers:
+      Host: epmk.ambercc.filegear-sg.me
+    path: /
+- name: RU_speednode_0149
+  network: ws
+  password: Aimer
+  port: 8443
+  server: 46.254.93.243
+  skip-cert-verify: false
+  sni: epmk.ambercc.filegear-sg.me
+  type: trojan
+  udp: true
+  ws-opts:
+    headers:
+      Host: epmk.ambercc.filegear-sg.me
+    path: /
+- name: US_speednode_0197
+  network: ws
+  password: Aimer
+  port: 2053
+  server: 199.34.228.50
+  skip-cert-verify: false
+  sni: epml.ambercc.filegear-sg.me
+  type: trojan
+  udp: true
+  ws-opts:
+    headers:
+      Host: epml.ambercc.filegear-sg.me
     path: /
 proxy-groups:
 - name: 🔰 节点选择
@@ -342,9 +414,15 @@ proxy-groups:
   - 🇸🇬 新加坡|@ripaojiedian
   - 🇸🇬 新加坡2|@ripaojiedian
   - 🇸🇬 新加坡4|@ripaojiedian
+  - 🇸🇬 新加坡5|@ripaojiedian
   - 🇺🇸 美国3|@ripaojiedian
   - 🇺🇸 美国4|@ripaojiedian
-  - ES_speednode_0048
+  - AM_speednode_0001
+  - AM_speednode_0002
+  - ES_speednode_0024
+  - KZ_speednode_0112
+  - RU_speednode_0149
+  - US_speednode_0197
   type: select
 - interval: 300
   name: ♻️ 自动选择
@@ -368,9 +446,15 @@ proxy-groups:
   - 🇸🇬 新加坡|@ripaojiedian
   - 🇸🇬 新加坡2|@ripaojiedian
   - 🇸🇬 新加坡4|@ripaojiedian
+  - 🇸🇬 新加坡5|@ripaojiedian
   - 🇺🇸 美国3|@ripaojiedian
   - 🇺🇸 美国4|@ripaojiedian
-  - ES_speednode_0048
+  - AM_speednode_0001
+  - AM_speednode_0002
+  - ES_speednode_0024
+  - KZ_speednode_0112
+  - RU_speednode_0149
+  - US_speednode_0197
   type: url-test
   url: http://www.gstatic.com/generate_204
 - name: 🎥 NETFLIX
@@ -397,9 +481,15 @@ proxy-groups:
   - 🇸🇬 新加坡|@ripaojiedian
   - 🇸🇬 新加坡2|@ripaojiedian
   - 🇸🇬 新加坡4|@ripaojiedian
+  - 🇸🇬 新加坡5|@ripaojiedian
   - 🇺🇸 美国3|@ripaojiedian
   - 🇺🇸 美国4|@ripaojiedian
-  - ES_speednode_0048
+  - AM_speednode_0001
+  - AM_speednode_0002
+  - ES_speednode_0024
+  - KZ_speednode_0112
+  - RU_speednode_0149
+  - US_speednode_0197
   type: select
 - name: ⛔️ 广告拦截
   proxies:
@@ -437,9 +527,15 @@ proxy-groups:
   - 🇸🇬 新加坡|@ripaojiedian
   - 🇸🇬 新加坡2|@ripaojiedian
   - 🇸🇬 新加坡4|@ripaojiedian
+  - 🇸🇬 新加坡5|@ripaojiedian
   - 🇺🇸 美国3|@ripaojiedian
   - 🇺🇸 美国4|@ripaojiedian
-  - ES_speednode_0048
+  - AM_speednode_0001
+  - AM_speednode_0002
+  - ES_speednode_0024
+  - KZ_speednode_0112
+  - RU_speednode_0149
+  - US_speednode_0197
   type: select
 - name: 🌏 国内媒体
   proxies:
@@ -471,9 +567,15 @@ proxy-groups:
   - 🇸🇬 新加坡|@ripaojiedian
   - 🇸🇬 新加坡2|@ripaojiedian
   - 🇸🇬 新加坡4|@ripaojiedian
+  - 🇸🇬 新加坡5|@ripaojiedian
   - 🇺🇸 美国3|@ripaojiedian
   - 🇺🇸 美国4|@ripaojiedian
-  - ES_speednode_0048
+  - AM_speednode_0001
+  - AM_speednode_0002
+  - ES_speednode_0024
+  - KZ_speednode_0112
+  - RU_speednode_0149
+  - US_speednode_0197
   type: select
 - name: 📲 电报信息
   proxies:
@@ -498,9 +600,15 @@ proxy-groups:
   - 🇸🇬 新加坡|@ripaojiedian
   - 🇸🇬 新加坡2|@ripaojiedian
   - 🇸🇬 新加坡4|@ripaojiedian
+  - 🇸🇬 新加坡5|@ripaojiedian
   - 🇺🇸 美国3|@ripaojiedian
   - 🇺🇸 美国4|@ripaojiedian
-  - ES_speednode_0048
+  - AM_speednode_0001
+  - AM_speednode_0002
+  - ES_speednode_0024
+  - KZ_speednode_0112
+  - RU_speednode_0149
+  - US_speednode_0197
   type: select
 - name: 🍎 苹果服务
   proxies:
@@ -526,9 +634,15 @@ proxy-groups:
   - 🇸🇬 新加坡|@ripaojiedian
   - 🇸🇬 新加坡2|@ripaojiedian
   - 🇸🇬 新加坡4|@ripaojiedian
+  - 🇸🇬 新加坡5|@ripaojiedian
   - 🇺🇸 美国3|@ripaojiedian
   - 🇺🇸 美国4|@ripaojiedian
-  - ES_speednode_0048
+  - AM_speednode_0001
+  - AM_speednode_0002
+  - ES_speednode_0024
+  - KZ_speednode_0112
+  - RU_speednode_0149
+  - US_speednode_0197
   type: select
 - name: 🎯 全球直连
   proxies:
@@ -563,9 +677,15 @@ proxy-groups:
   - 🇸🇬 新加坡|@ripaojiedian
   - 🇸🇬 新加坡2|@ripaojiedian
   - 🇸🇬 新加坡4|@ripaojiedian
+  - 🇸🇬 新加坡5|@ripaojiedian
   - 🇺🇸 美国3|@ripaojiedian
   - 🇺🇸 美国4|@ripaojiedian
-  - ES_speednode_0048
+  - AM_speednode_0001
+  - AM_speednode_0002
+  - ES_speednode_0024
+  - KZ_speednode_0112
+  - RU_speednode_0149
+  - US_speednode_0197
   type: select
 rules:
 - DOMAIN-SUFFIX,local,🎯 全球直连
