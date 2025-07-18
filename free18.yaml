@@ -5,619 +5,164 @@ mode: Rule
 port: 7890
 proxies:
 - name: 电报群：https://t.me/vvkj11
-  network: tcp
-  password: 06e4425e-a8cb-4b63-929f-2105604ab0a9
+  network: ws
   port: 443
-  server: whatismyipaddress.com
+  server: www.ipchicken.com
+  servername: cx.ylks0033.dpdns.org
   skip-cert-verify: true
-  sni: cc.ylka.dpdns.org
-  type: trojan
+  tls: true
+  type: vless
   udp: true
+  uuid: 06e4425e-a8cb-4b63-929f-2105604ab0a9
+  ws-opts:
+    headers:
+      host: cx.ylks0033.dpdns.org
+    path: /?ed=2560
 - name: 每天更新，请加电报群防止失联
-  network: tcp
-  password: 2d46956c-f6f4-4e17-9599-76e8b49e0d2e
+  network: ws
   port: 443
-  server: zoomgov.vipren.biz.id
+  server: 172.67.79.211
+  servername: mc.ylks0033.dpdns.org
   skip-cert-verify: true
-  sni: zoomgov.vipren.biz.id
-  type: trojan
+  tls: true
+  type: vless
   udp: true
-- name: 日期：07-16
-  network: tcp
-  password: 06e4425e-a8cb-4b63-929f-2105604ab0a9
+  uuid: 06e4425e-a8cb-4b63-929f-2105604ab0a9
+  ws-opts:
+    headers:
+      host: mc.ylks0033.dpdns.org
+    path: /?ed=2560
+- name: 日期：07-18
+  network: ws
   port: 443
-  server: ip.sb
+  server: www.ipchicken.com
+  servername: mc.ylks0033.dpdns.org
   skip-cert-verify: true
-  sni: ss.ylka.dpdns.org
-  type: trojan
+  tls: true
+  type: vless
   udp: true
+  uuid: 06e4425e-a8cb-4b63-929f-2105604ab0a9
+  ws-opts:
+    headers:
+      host: mc.ylks0033.dpdns.org
+    path: /?ed=2560
 - name: 免费VPN：https://tt.vg/gwaAy
-  network: tcp
-  password: d0d08cddacc3190ea81b1b792e1b5fde
-  port: 13855
-  server: 36.151.251.48
+  network: ws
+  port: 81
+  server: 210.61.97.241
+  servername: mc.ylks0033.dpdns.org
   skip-cert-verify: true
-  sni: www.baidu.com
-  type: trojan
+  tls: true
+  type: vless
   udp: true
-- name: 🇨🇳_中国_1
-  network: tcp
-  password: d0d08cddacc3190ea81b1b792e1b5fde
-  port: 13855
-  server: 36.151.251.48
-  skip-cert-verify: true
-  sni: www.baidu.com
-  type: trojan
-  udp: true
-- name: 🇨🇳_中国_2
-  network: tcp
-  password: d0d08cddacc3190ea81b1b792e1b5fde
-  port: 13855
-  server: 36.151.251.48
-  skip-cert-verify: true
-  sni: www.baidu.com
-  type: trojan
-  udp: true
-- name: 🇧🇪_比利时
-  network: tcp
-  password: 7367d04e-4c59-4dff-a50e-12e730a09891
-  port: 26193
-  server: 155.117.228.70
-  skip-cert-verify: true
-  sni: 155.117.228.70
-  type: trojan
-  udp: true
+  uuid: 06e4425e-a8cb-4b63-929f-2105604ab0a9
+  ws-opts:
+    headers:
+      host: mc.ylks0033.dpdns.org
+    path: /?ed=2560
 - name: 🇺🇸_美国_1
   network: ws
-  port: 8880
-  server: 216.24.57.20
-  servername: us.laoyoutiao.link
+  port: 443
+  server: 104.18.83.92
+  servername: mc.ylks0033.dpdns.org
   skip-cert-verify: true
   tls: true
   type: vless
   udp: true
-  uuid: fab7bf9c-ddb9-4563-8a04-fb01ce6c0fbf
+  uuid: 06e4425e-a8cb-4b63-929f-2105604ab0a9
   ws-opts:
     headers:
-      host: us.laoyoutiao.link
-    path: /telegram@wangcai2/?ed
+      host: mc.ylks0033.dpdns.org
+    path: /?ed=2560
 - name: 🇺🇸_美国_2
   network: ws
-  port: 8880
-  server: 199.34.229.177
-  servername: Telegram-channel-WangCai2
+  port: 443
+  server: 104.16.249.115
+  servername: cx.ylks0033.dpdns.org
   skip-cert-verify: true
   tls: true
   type: vless
   udp: true
-  uuid: 583ceab3-4022-4553-9158-9bedc625ad4e
+  uuid: 06e4425e-a8cb-4b63-929f-2105604ab0a9
   ws-opts:
     headers:
-      host: Telegram-channel-WangCai2
-    path: /telegram
-- name: 🇯🇵_日本_1
-  network: ws
-  port: 8880
-  server: 91.193.58.68
-  servername: kjgx.laoyoutiao.link
-  skip-cert-verify: true
-  tls: true
-  type: vless
-  udp: true
-  uuid: fab7bf9c-ddb9-4563-8a04-fb01ce6c0fbf
-  ws-opts:
-    headers:
-      host: kjgx.laoyoutiao.link
-    path: telegram @wangcai2 /?ed=2560
-- name: 🇯🇵_日本_2
-  network: ws
-  port: 8880
-  server: 91.193.58.35
-  servername: Telegram-channel-WangCai2
-  skip-cert-verify: true
-  tls: true
-  type: vless
-  udp: true
-  uuid: fab7bf9c-ddb9-4563-8a04-fb01ce6c0fbf
-  ws-opts:
-    headers:
-      host: Telegram-channel-WangCai2
-    path: /
-- name: 🇩🇪_德国_1
-  network: ws
-  port: 8880
-  server: 185.16.110.168
-  servername: kjgx.laoyoutiao.link
-  skip-cert-verify: true
-  tls: true
-  type: vless
-  udp: true
-  uuid: fab7bf9c-ddb9-4563-8a04-fb01ce6c0fbf
-  ws-opts:
-    headers:
-      host: kjgx.laoyoutiao.link
-    path: telegram @wangcai2 /?ed=2560
-- name: 🇯🇵_日本_3
-  network: ws
-  port: 8880
-  server: 91.193.58.185
-  servername: kjgx.laoyoutiao.link
-  skip-cert-verify: true
-  tls: true
-  type: vless
-  udp: true
-  uuid: fab7bf9c-ddb9-4563-8a04-fb01ce6c0fbf
-  ws-opts:
-    headers:
-      host: kjgx.laoyoutiao.link
-    path: freecodes蘇小檸 | 華東電訊 | 解鎖netflix
-- name: 🇯🇵_日本_4
-  network: ws
-  port: 8880
-  server: 91.193.58.38
-  servername: kjgx.laoyoutiao.link
-  skip-cert-verify: true
-  tls: true
-  type: vless
-  udp: true
-  uuid: fab7bf9c-ddb9-4563-8a04-fb01ce6c0fbf
-  ws-opts:
-    headers:
-      host: kjgx.laoyoutiao.link
-    path: telegram @wangcai2 /?ed=2560
-- name: 🇯🇵_日本_5
-  network: ws
-  port: 8880
-  server: 91.193.58.90
-  servername: Telegram-channel-WangCai2
-  skip-cert-verify: true
-  tls: true
-  type: vless
-  udp: true
-  uuid: fab7bf9c-ddb9-4563-8a04-fb01ce6c0fbf
-  ws-opts:
-    headers:
-      host: Telegram-channel-WangCai2
-    path: /
-- name: 🇯🇵_日本_6
-  network: ws
-  port: 8880
-  server: 91.193.58.132
-  servername: Telegram-channel-WangCai2
-  skip-cert-verify: true
-  tls: true
-  type: vless
-  udp: true
-  uuid: fab7bf9c-ddb9-4563-8a04-fb01ce6c0fbf
-  ws-opts:
-    headers:
-      host: Telegram-channel-WangCai2
-    path: /
-- name: 🇯🇵_日本_7
-  network: ws
-  port: 8880
-  server: 91.193.58.234
-  servername: Telegram-channel-WangCai2
-  skip-cert-verify: true
-  tls: true
-  type: vless
-  udp: true
-  uuid: fab7bf9c-ddb9-4563-8a04-fb01ce6c0fbf
-  ws-opts:
-    headers:
-      host: Telegram-channel-WangCai2
-    path: /
-- name: 🇯🇵_日本_8
-  network: ws
-  port: 8880
-  server: 91.193.58.240
-  servername: kjgx.laoyoutiao.link
-  skip-cert-verify: true
-  tls: true
-  type: vless
-  udp: true
-  uuid: fab7bf9c-ddb9-4563-8a04-fb01ce6c0fbf
-  ws-opts:
-    headers:
-      host: kjgx.laoyoutiao.link
-    path: telegram@wangcai2/?ed=2560
-- name: 🇯🇵_日本_9
-  network: ws
-  port: 8880
-  server: 91.193.58.223
-  servername: kjgx.laoyoutiao.link
-  skip-cert-verify: true
-  tls: true
-  type: vless
-  udp: true
-  uuid: fab7bf9c-ddb9-4563-8a04-fb01ce6c0fbf
-  ws-opts:
-    headers:
-      host: kjgx.laoyoutiao.link
-    path: telegram @wangcai2 /?ed=2560
-- name: 🇯🇵_日本_10
-  network: ws
-  port: 8880
-  server: 91.193.58.124
-  servername: kjgx.laoyoutiao.link
-  skip-cert-verify: true
-  tls: true
-  type: vless
-  udp: true
-  uuid: fab7bf9c-ddb9-4563-8a04-fb01ce6c0fbf
-  ws-opts:
-    headers:
-      host: kjgx.laoyoutiao.link
-    path: telegram @wangcai2 /?ed=2560
-- name: 🇯🇵_日本_11
-  network: ws
-  port: 8880
-  server: 91.193.58.253
-  servername: kjgx.laoyoutiao.link
-  skip-cert-verify: true
-  tls: true
-  type: vless
-  udp: true
-  uuid: fab7bf9c-ddb9-4563-8a04-fb01ce6c0fbf
-  ws-opts:
-    headers:
-      host: kjgx.laoyoutiao.link
-    path: telegram @wangcai2 /?ed=2560
+      host: cx.ylks0033.dpdns.org
+    path: /?ed=2560
 - name: 🇺🇸_美国_3
   network: ws
-  port: 8880
-  server: 135.84.74.177
-  servername: ip.langmanshanxi.top
+  port: 443
+  server: 104.19.144.212
+  servername: mc.ylks0033.dpdns.org
   skip-cert-verify: true
   tls: true
   type: vless
   udp: true
-  uuid: 583ceab3-4022-4553-9158-9bedc625ad4e
+  uuid: 06e4425e-a8cb-4b63-929f-2105604ab0a9
   ws-opts:
     headers:
-      host: ip.langmanshanxi.top
-    path: freecodes蘇小檸 | 華東電訊 | 解鎖netflix
-- name: 🇯🇵_日本_12
-  network: ws
-  port: 8880
-  server: 91.193.58.187
-  servername: kjgx.laoyoutiao.link
-  skip-cert-verify: true
-  tls: true
-  type: vless
-  udp: true
-  uuid: fab7bf9c-ddb9-4563-8a04-fb01ce6c0fbf
-  ws-opts:
-    headers:
-      host: kjgx.laoyoutiao.link
-    path: telegram @wangcai2 /?ed=2560
-- name: 🇯🇵_日本_13
-  network: ws
-  port: 8880
-  server: 91.193.58.60
-  servername: kjgx.laoyoutiao.link
-  skip-cert-verify: true
-  tls: true
-  type: vless
-  udp: true
-  uuid: fab7bf9c-ddb9-4563-8a04-fb01ce6c0fbf
-  ws-opts:
-    headers:
-      host: kjgx.laoyoutiao.link
-    path: telegram @wangcai2 /?ed=2560
-- name: 🇯🇵_日本_14
-  network: ws
-  port: 8880
-  server: 91.193.58.7
-  servername: kjgx.laoyoutiao.link
-  skip-cert-verify: true
-  tls: true
-  type: vless
-  udp: true
-  uuid: fab7bf9c-ddb9-4563-8a04-fb01ce6c0fbf
-  ws-opts:
-    headers:
-      host: kjgx.laoyoutiao.link
-    path: telegram @wangcai2 /?ed=2560
-- name: 🇱🇹_立陶宛_1
-  network: ws
-  port: 8880
-  server: 88.216.69.177
-  servername: ip.langmanshanxi.top
-  skip-cert-verify: true
-  tls: true
-  type: vless
-  udp: true
-  uuid: 583ceab3-4022-4553-9158-9bedc625ad4e
-  ws-opts:
-    headers:
-      host: ip.langmanshanxi.top
-    path: /telegram @wangcai2 /?ed=2560
-- name: 🇯🇵_日本_15
-  network: ws
-  port: 8880
-  server: 91.193.58.238
-  servername: Telegram-channel-WangCai2
-  skip-cert-verify: true
-  tls: true
-  type: vless
-  udp: true
-  uuid: fab7bf9c-ddb9-4563-8a04-fb01ce6c0fbf
-  ws-opts:
-    headers:
-      host: Telegram-channel-WangCai2
-    path: /
-- name: 🇯🇵_日本_16
-  network: ws
-  port: 8880
-  server: 91.193.58.228
-  servername: kjgx.laoyoutiao.link
-  skip-cert-verify: true
-  tls: true
-  type: vless
-  udp: true
-  uuid: fab7bf9c-ddb9-4563-8a04-fb01ce6c0fbf
-  ws-opts:
-    headers:
-      host: kjgx.laoyoutiao.link
-    path: telegram @wangcai2 /?ed=2560
-- name: 🇯🇵_日本_17
-  network: ws
-  port: 8880
-  server: 91.193.58.85
-  servername: kjgx.laoyoutiao.link
-  skip-cert-verify: true
-  tls: true
-  type: vless
-  udp: true
-  uuid: fab7bf9c-ddb9-4563-8a04-fb01ce6c0fbf
-  ws-opts:
-    headers:
-      host: kjgx.laoyoutiao.link
-    path: telegram@wangcai2/?ed=2560
-- name: 🇯🇵_日本_18
-  network: ws
-  port: 8880
-  server: 91.193.58.246
-  servername: kjgx.laoyoutiao.link
-  skip-cert-verify: true
-  tls: true
-  type: vless
-  udp: true
-  uuid: fab7bf9c-ddb9-4563-8a04-fb01ce6c0fbf
-  ws-opts:
-    headers:
-      host: kjgx.laoyoutiao.link
-    path: telegram@wangcai2/?ed=2560
-- name: 🇯🇵_日本_19
-  network: ws
-  port: 8880
-  server: 91.193.58.171
-  servername: kjgx.laoyoutiao.link
-  skip-cert-verify: true
-  tls: true
-  type: vless
-  udp: true
-  uuid: fab7bf9c-ddb9-4563-8a04-fb01ce6c0fbf
-  ws-opts:
-    headers:
-      host: kjgx.laoyoutiao.link
-    path: telegram @wangcai2 /?ed=2560
-- name: 🇯🇵_日本_20
-  network: ws
-  port: 8880
-  server: 91.193.58.77
-  servername: Telegram-channel-WangCai2
-  skip-cert-verify: true
-  tls: true
-  type: vless
-  udp: true
-  uuid: fab7bf9c-ddb9-4563-8a04-fb01ce6c0fbf
-  ws-opts:
-    headers:
-      host: Telegram-channel-WangCai2
-    path: /telegram @wangcai2 /?ed=2560
-- name: 🇯🇵_日本_21
-  network: ws
-  port: 8880
-  server: 91.193.58.208
-  servername: Telegram-channel-WangCai2
-  skip-cert-verify: true
-  tls: true
-  type: vless
-  udp: true
-  uuid: fab7bf9c-ddb9-4563-8a04-fb01ce6c0fbf
-  ws-opts:
-    headers:
-      host: Telegram-channel-WangCai2
-    path: /
-- name: 🇯🇵_日本_22
-  network: ws
-  port: 8880
-  server: 91.193.58.0
-  servername: kjgx.laoyoutiao.link
-  skip-cert-verify: true
-  tls: true
-  type: vless
-  udp: true
-  uuid: fab7bf9c-ddb9-4563-8a04-fb01ce6c0fbf
-  ws-opts:
-    headers:
-      host: kjgx.laoyoutiao.link
-    path: telegram @wangcai2 /?ed=2560
+      host: mc.ylks0033.dpdns.org
+    path: /?ed=2560
 - name: 🇺🇸_美国_4
   network: ws
-  port: 8880
-  server: 184.174.80.213
-  servername: jp.laoyoutiao.link
+  port: 443
+  server: 104.17.68.85
+  servername: cx.ylks0033.dpdns.org
   skip-cert-verify: true
   tls: true
   type: vless
   udp: true
-  uuid: fab7bf9c-ddb9-4563-8a04-fb01ce6c0fbf
+  uuid: 06e4425e-a8cb-4b63-929f-2105604ab0a9
   ws-opts:
     headers:
-      host: jp.laoyoutiao.link
-    path: /
-- name: 🇷🇺_俄罗斯_1
-  network: ws
-  port: 8880
-  server: 92.243.75.168
-  servername: kjgx.laoyoutiao.link
-  skip-cert-verify: true
-  tls: true
-  type: vless
-  udp: true
-  uuid: fab7bf9c-ddb9-4563-8a04-fb01ce6c0fbf
-  ws-opts:
-    headers:
-      host: kjgx.laoyoutiao.link
-    path: freecodes蘇小檸 | 華東電訊 | 解鎖netflix
-- name: 🇯🇵_日本_23
-  network: ws
-  port: 8880
-  server: 91.193.58.99
-  servername: Telegram-channel-WangCai2
-  skip-cert-verify: true
-  tls: true
-  type: vless
-  udp: true
-  uuid: fab7bf9c-ddb9-4563-8a04-fb01ce6c0fbf
-  ws-opts:
-    headers:
-      host: Telegram-channel-WangCai2
-    path: /
+      host: cx.ylks0033.dpdns.org
+    path: /?ed=2560
 - name: 🇺🇸_美国_5
   network: ws
-  port: 8880
-  server: 192.0.54.177
-  servername: Telegram-channel-WangCai2
+  port: 443
+  server: 104.16.246.188
+  servername: cx.ylks0033.dpdns.org
   skip-cert-verify: true
   tls: true
   type: vless
   udp: true
-  uuid: 583ceab3-4022-4553-9158-9bedc625ad4e
+  uuid: 06e4425e-a8cb-4b63-929f-2105604ab0a9
   ws-opts:
     headers:
-      host: Telegram-channel-WangCai2
-    path: /telegram @wangcai2
-- name: 🇰🇷_韩国_1
-  network: ws
-  port: 12344
-  server: 119.75.99.140
-  servername: jp.laoyoutiao.link
-  skip-cert-verify: true
-  tls: true
-  type: vless
-  udp: true
-  uuid: fab7bf9c-ddb9-4563-8a04-fb01ce6c0fbf
-  ws-opts:
-    headers:
-      host: jp.laoyoutiao.link
-    path: telegram @wangcai2 /?ed=2560
-- name: 🇷🇺_俄罗斯_2
-  network: ws
-  port: 8880
-  server: 46.254.92.254
-  servername: Telegram-channel-WangCai2
-  skip-cert-verify: true
-  tls: true
-  type: vless
-  udp: true
-  uuid: 34c01e61-f4f3-4afb-a83b-406caf8caa33
-  ws-opts:
-    headers:
-      host: Telegram-channel-WangCai2
-    path: /
-- name: 🇷🇺_俄罗斯_3
-  network: ws
-  port: 8880
-  server: 94.247.142.177
-  servername: ip.langmanshanxi.top
-  skip-cert-verify: true
-  tls: true
-  type: vless
-  udp: true
-  uuid: 583ceab3-4022-4553-9158-9bedc625ad4e
-  ws-opts:
-    headers:
-      host: ip.langmanshanxi.top
-    path: /telegram @wangcai2 /?ed=2560
-- name: 🇱🇹_立陶宛_2
-  network: ws
-  port: 8880
-  server: 89.116.46.168
-  servername: kjgx.laoyoutiao.link
-  skip-cert-verify: true
-  tls: true
-  type: vless
-  udp: true
-  uuid: fab7bf9c-ddb9-4563-8a04-fb01ce6c0fbf
-  ws-opts:
-    headers:
-      host: kjgx.laoyoutiao.link
-    path: telegram@wangcai2/?ed=2560
+      host: cx.ylks0033.dpdns.org
+    path: /?ed=2560
 - name: 🇺🇸_美国_6
   network: ws
-  port: 8880
-  server: 170.114.46.168
-  servername: kjgx.laoyoutiao.link
+  port: 2083
+  server: 104.16.134.27
+  servername: cx.ylks0033.dpdns.org
   skip-cert-verify: true
   tls: true
   type: vless
   udp: true
-  uuid: fab7bf9c-ddb9-4563-8a04-fb01ce6c0fbf
+  uuid: 06e4425e-a8cb-4b63-929f-2105604ab0a9
   ws-opts:
     headers:
-      host: kjgx.laoyoutiao.link
-    path: telegram @wangcai2 /?ed=2560
-- name: 🇱🇹_立陶宛_3
-  network: ws
-  port: 8880
-  server: 185.148.107.177
-  servername: ip.langmanshanxi.top
-  skip-cert-verify: true
-  tls: true
-  type: vless
-  udp: true
-  uuid: 583ceab3-4022-4553-9158-9bedc625ad4e
-  ws-opts:
-    headers:
-      host: ip.langmanshanxi.top
-    path: /telegram
-- name: 🇯🇵_日本_24
-  network: ws
-  port: 8880
-  server: 91.193.58.44
-  servername: kjgx.laoyoutiao.link
-  skip-cert-verify: true
-  tls: true
-  type: vless
-  udp: true
-  uuid: fab7bf9c-ddb9-4563-8a04-fb01ce6c0fbf
-  ws-opts:
-    headers:
-      host: kjgx.laoyoutiao.link
-    path: freecodes蘇小檸 | 華東電訊 | 解鎖netflix
+      host: cx.ylks0033.dpdns.org
+    path: /?ed=2560
 - name: 🇺🇸_美国_7
   network: ws
-  port: 8880
-  server: 199.181.197.168
-  servername: kjgx.laoyoutiao.link
+  port: 443
+  server: 104.17.100.185
+  servername: cx.ylks0033.dpdns.org
   skip-cert-verify: true
   tls: true
   type: vless
   udp: true
-  uuid: fab7bf9c-ddb9-4563-8a04-fb01ce6c0fbf
+  uuid: 06e4425e-a8cb-4b63-929f-2105604ab0a9
   ws-opts:
     headers:
-      host: kjgx.laoyoutiao.link
-    path: telegram @wangcai2 /?ed=2560
+      host: cx.ylks0033.dpdns.org
+    path: /?ed=2560
 - name: 🇺🇸_美国_8
   network: ws
   port: 443
-  server: dylan.ns.cloudflare.com
-  servername: li.ylks0033.dpdns.org
+  server: 104.19.150.28
+  servername: cx.ylks0033.dpdns.org
   skip-cert-verify: true
   tls: true
   type: vless
@@ -625,55 +170,13 @@ proxies:
   uuid: 06e4425e-a8cb-4b63-929f-2105604ab0a9
   ws-opts:
     headers:
-      host: li.ylks0033.dpdns.org
+      host: cx.ylks0033.dpdns.org
     path: /?ed=2560
-- name: 🇳🇱_荷兰_1
-  network: ws
-  port: 8880
-  server: 188.164.248.213
-  servername: jp.laoyoutiao.link
-  skip-cert-verify: true
-  tls: true
-  type: vless
-  udp: true
-  uuid: fab7bf9c-ddb9-4563-8a04-fb01ce6c0fbf
-  ws-opts:
-    headers:
-      host: jp.laoyoutiao.link
-    path: /
-- name: 🇬🇧_英国_1
-  network: ws
-  port: 8880
-  server: 25.129.199.168
-  servername: kjgx.laoyoutiao.link
-  skip-cert-verify: true
-  tls: true
-  type: vless
-  udp: true
-  uuid: fab7bf9c-ddb9-4563-8a04-fb01ce6c0fbf
-  ws-opts:
-    headers:
-      host: kjgx.laoyoutiao.link
-    path: freecodes蘇小檸 | 華東電訊 | 解鎖netflix
-- name: 🇷🇺_俄罗斯_4
-  network: ws
-  port: 8880
-  server: 46.254.92.186
-  servername: Telegram-channel-WangCai2
-  skip-cert-verify: true
-  tls: true
-  type: vless
-  udp: true
-  uuid: 583ceab3-4022-4553-9158-9bedc625ad4e
-  ws-opts:
-    headers:
-      host: Telegram-channel-WangCai2
-    path: /
 - name: 🇺🇸_美国_9
   network: ws
   port: 443
-  server: www.digitalocean.com
-  servername: li.ylks0033.dpdns.org
+  server: 104.17.104.243
+  servername: mc.ylks0033.dpdns.org
   skip-cert-verify: true
   tls: true
   type: vless
@@ -681,13 +184,13 @@ proxies:
   uuid: 06e4425e-a8cb-4b63-929f-2105604ab0a9
   ws-opts:
     headers:
-      host: li.ylks0033.dpdns.org
+      host: mc.ylks0033.dpdns.org
     path: /?ed=2560
 - name: 🇺🇸_美国_10
   network: ws
   port: 443
-  server: whatismyipaddress.com
-  servername: cc.ylka.dpdns.org
+  server: 104.16.253.83
+  servername: cx.ylks0033.dpdns.org
   skip-cert-verify: true
   tls: true
   type: vless
@@ -695,321 +198,97 @@ proxies:
   uuid: 06e4425e-a8cb-4b63-929f-2105604ab0a9
   ws-opts:
     headers:
-      host: cc.ylka.dpdns.org
-    path: /?ed=2560&prot_type=vless
-- name: 🇯🇵_日本_25
-  network: ws
-  port: 8880
-  server: 91.193.58.139
-  servername: kjgx.laoyoutiao.link
-  skip-cert-verify: true
-  tls: true
-  type: vless
-  udp: true
-  uuid: fab7bf9c-ddb9-4563-8a04-fb01ce6c0fbf
-  ws-opts:
-    headers:
-      host: kjgx.laoyoutiao.link
-    path: telegram @wangcai2 /?ed=2560
-- name: 🇳🇱_荷兰_2
-  network: ws
-  port: 8880
-  server: 45.159.216.254
-  servername: Telegram-channel-WangCai2
-  skip-cert-verify: true
-  tls: true
-  type: vless
-  udp: true
-  uuid: 34c01e61-f4f3-4afb-a83b-406caf8caa33
-  ws-opts:
-    headers:
-      host: Telegram-channel-WangCai2
-    path: /
-- name: 🇷🇺_俄罗斯_5
-  network: ws
-  port: 8880
-  server: 185.59.218.177
-  servername: ip.langmanshanxi.top
-  skip-cert-verify: true
-  tls: true
-  type: vless
-  udp: true
-  uuid: 583ceab3-4022-4553-9158-9bedc625ad4e
-  ws-opts:
-    headers:
-      host: ip.langmanshanxi.top
-    path: /telegram @wangcai2 /?ed
-- name: 🇫🇷_法国_1
-  network: ws
-  port: 8880
-  server: 94.140.0.186
-  servername: Telegram-channel-WangCai2
-  skip-cert-verify: true
-  tls: true
-  type: vless
-  udp: true
-  uuid: 583ceab3-4022-4553-9158-9bedc625ad4e
-  ws-opts:
-    headers:
-      host: Telegram-channel-WangCai2
-    path: /
+      host: cx.ylks0033.dpdns.org
+    path: /?ed=2560
 - name: 🇺🇸_美国_11
   network: ws
-  port: 8880
-  server: 170.114.46.254
-  servername: Telegram-channel-WangCai2
+  port: 443
+  server: 104.16.242.72
+  servername: mc.ylks0033.dpdns.org
   skip-cert-verify: true
   tls: true
   type: vless
   udp: true
-  uuid: 34c01e61-f4f3-4afb-a83b-406caf8caa33
+  uuid: 06e4425e-a8cb-4b63-929f-2105604ab0a9
   ws-opts:
     headers:
-      host: Telegram-channel-WangCai2
-    path: /
-- name: 🇮🇳_印度
-  network: ws
-  port: 8880
-  server: 14.102.229.177
-  servername: Telegram-channel-WangCai2
-  skip-cert-verify: true
-  tls: true
-  type: vless
-  udp: true
-  uuid: 583ceab3-4022-4553-9158-9bedc625ad4e
-  ws-opts:
-    headers:
-      host: Telegram-channel-WangCai2
-    path: /
-- name: 🇷🇺_俄罗斯_6
-  network: ws
-  port: 8880
-  server: 92.243.74.177
-  servername: Telegram-channel-WangCai2
-  skip-cert-verify: true
-  tls: true
-  type: vless
-  udp: true
-  uuid: 583ceab3-4022-4553-9158-9bedc625ad4e
-  ws-opts:
-    headers:
-      host: Telegram-channel-WangCai2
-    path: /telegram
-- name: 🇺🇦_乌克兰_1
-  network: ws
-  port: 8880
-  server: 91.124.127.177
-  servername: ip.langmanshanxi.top
-  skip-cert-verify: true
-  tls: true
-  type: vless
-  udp: true
-  uuid: 583ceab3-4022-4553-9158-9bedc625ad4e
-  ws-opts:
-    headers:
-      host: ip.langmanshanxi.top
-    path: /telegram @wangcai2 /?ed
-- name: 🇪🇸_西班牙_1
-  network: ws
-  port: 8880
-  server: 185.251.82.177
-  servername: Telegram-channel-WangCai2
-  skip-cert-verify: true
-  tls: true
-  type: vless
-  udp: true
-  uuid: 583ceab3-4022-4553-9158-9bedc625ad4e
-  ws-opts:
-    headers:
-      host: Telegram-channel-WangCai2
-    path: /telegram @wangcai2 /?ed=2560
+      host: mc.ylks0033.dpdns.org
+    path: /?ed=2560
 - name: 🇺🇸_美国_12
   network: ws
-  port: 8880
-  server: 167.68.4.177
-  servername: ip.langmanshanxi.top
+  port: 443
+  server: 104.17.71.31
+  servername: mc.ylks0033.dpdns.org
   skip-cert-verify: true
   tls: true
   type: vless
   udp: true
-  uuid: 583ceab3-4022-4553-9158-9bedc625ad4e
+  uuid: 06e4425e-a8cb-4b63-929f-2105604ab0a9
   ws-opts:
     headers:
-      host: ip.langmanshanxi.top
-    path: /telegram @wangcai2 /?ed
-- name: 🇱🇹_立陶宛_4
-  network: ws
-  port: 8880
-  server: 89.116.180.177
-  servername: Telegram-channel-WangCai2
-  skip-cert-verify: true
-  tls: true
-  type: vless
-  udp: true
-  uuid: 583ceab3-4022-4553-9158-9bedc625ad4e
-  ws-opts:
-    headers:
-      host: Telegram-channel-WangCai2
-    path: /telegram @wangcai2 /?ed=2560
-- name: 🏳️_未知_1
-  network: ws
-  port: 8880
-  server: 103.169.142.177
-  servername: Telegram-channel-WangCai2
-  skip-cert-verify: true
-  tls: true
-  type: vless
-  udp: true
-  uuid: 583ceab3-4022-4553-9158-9bedc625ad4e
-  ws-opts:
-    headers:
-      host: Telegram-channel-WangCai2
-    path: /
-- name: 🇷🇺_俄罗斯_7
-  network: ws
-  port: 8880
-  server: 185.221.160.168
-  servername: kjgx.laoyoutiao.link
-  skip-cert-verify: true
-  tls: true
-  type: vless
-  udp: true
-  uuid: fab7bf9c-ddb9-4563-8a04-fb01ce6c0fbf
-  ws-opts:
-    headers:
-      host: kjgx.laoyoutiao.link
-    path: telegram @wangcai2 /?ed=2560
+      host: mc.ylks0033.dpdns.org
+    path: /?ed=2560
 - name: 🇺🇸_美国_13
   network: ws
   port: 443
-  server: freevpn.xhamster.biz.id
-  servername: freevpn.xhamster.biz.id
+  server: 104.19.148.108
+  servername: cx.ylks0033.dpdns.org
   skip-cert-verify: true
   tls: true
   type: vless
   udp: true
-  uuid: aaaaaaa1-bbbb-4ccc-accc-eeeeeeeeeee1
+  uuid: 06e4425e-a8cb-4b63-929f-2105604ab0a9
   ws-opts:
     headers:
-      host: freevpn.xhamster.biz.id
-    path: /free-cf-proxy-au16
-- name: 🇪🇸_西班牙_2
-  network: ws
-  port: 8880
-  server: 185.238.228.177
-  servername: ip.langmanshanxi.top
-  skip-cert-verify: true
-  tls: true
-  type: vless
-  udp: true
-  uuid: 583ceab3-4022-4553-9158-9bedc625ad4e
-  ws-opts:
-    headers:
-      host: ip.langmanshanxi.top
-    path: /telegram@wangcai2/?ed
-- name: 🇱🇺_卢森堡
-  network: ws
-  port: 8880
-  server: 188.42.88.168
-  servername: kjgx.laoyoutiao.link
-  skip-cert-verify: true
-  tls: true
-  type: vless
-  udp: true
-  uuid: fab7bf9c-ddb9-4563-8a04-fb01ce6c0fbf
-  ws-opts:
-    headers:
-      host: kjgx.laoyoutiao.link
-    path: telegram @wangcai2 /?ed=2560
+      host: cx.ylks0033.dpdns.org
+    path: /?ed=2560
 - name: 🇺🇸_美国_14
   network: ws
-  port: 80
-  server: zoomgov.vipren.biz.id
-  servername: zoomgov.vipren.biz.id
+  port: 443
+  server: www.glassdoor.com
+  servername: cx.ylks0033.dpdns.org
   skip-cert-verify: true
   tls: true
   type: vless
   udp: true
-  uuid: 00177cb8-d636-4fcc-8d0a-97edbdeb8e15
+  uuid: 06e4425e-a8cb-4b63-929f-2105604ab0a9
   ws-opts:
     headers:
-      host: zoomgov.vipren.biz.id
-    path: /138.2.95.61=1111
+      host: cx.ylks0033.dpdns.org
+    path: /?ed=2560
 - name: 🇺🇸_美国_15
   network: ws
-  port: 8880
-  server: 199.181.197.213
-  servername: jp.laoyoutiao.link
+  port: 443
+  server: 104.17.215.102
+  servername: cx.ylks0033.dpdns.org
   skip-cert-verify: true
   tls: true
   type: vless
   udp: true
-  uuid: fab7bf9c-ddb9-4563-8a04-fb01ce6c0fbf
+  uuid: 06e4425e-a8cb-4b63-929f-2105604ab0a9
   ws-opts:
     headers:
-      host: jp.laoyoutiao.link
-    path: /
-- name: 🇨🇦_加拿大
-  network: ws
-  port: 8880
-  server: 205.233.181.168
-  servername: kjgx.laoyoutiao.link
-  skip-cert-verify: true
-  tls: true
-  type: vless
-  udp: true
-  uuid: fab7bf9c-ddb9-4563-8a04-fb01ce6c0fbf
-  ws-opts:
-    headers:
-      host: kjgx.laoyoutiao.link
-    path: telegram@wangcai2/?ed=2560
-- name: 🇫🇷_法国_2
-  network: ws
-  port: 8880
-  server: 45.80.110.177
-  servername: ip.langmanshanxi.top
-  skip-cert-verify: true
-  tls: true
-  type: vless
-  udp: true
-  uuid: 583ceab3-4022-4553-9158-9bedc625ad4e
-  ws-opts:
-    headers:
-      host: ip.langmanshanxi.top
-    path: /telegram @wangcai2 /?ed=2560
-- name: 🇳🇱_荷兰_3
-  network: ws
-  port: 8880
-  server: 45.159.217.177
-  servername: Telegram-channel-WangCai2
-  skip-cert-verify: true
-  tls: true
-  type: vless
-  udp: true
-  uuid: 583ceab3-4022-4553-9158-9bedc625ad4e
-  ws-opts:
-    headers:
-      host: Telegram-channel-WangCai2
-    path: /
+      host: cx.ylks0033.dpdns.org
+    path: /?ed=2560
 - name: 🇺🇸_美国_16
   network: ws
   port: 443
-  server: web.turah.my.id
-  servername: web.turah.my.id
+  server: 104.19.144.212
+  servername: cx.ylks0033.dpdns.org
   skip-cert-verify: true
   tls: true
   type: vless
   udp: true
-  uuid: aaaaaaa1-bbbb-4ccc-accc-eeeeeeeeeee1
+  uuid: 06e4425e-a8cb-4b63-929f-2105604ab0a9
   ws-opts:
     headers:
-      host: web.turah.my.id
-    path: /free-cf-proxy-au22
+      host: cx.ylks0033.dpdns.org
+    path: /?ed=2560
 - name: 🇺🇸_美国_17
   network: ws
   port: 443
-  server: wilson.ns.cloudflare.com
-  servername: ls.ylks0033.dpdns.org
+  server: 198.41.208.23
+  servername: mc.ylks0033.dpdns.org
   skip-cert-verify: true
   tls: true
   type: vless
@@ -1017,475 +296,97 @@ proxies:
   uuid: 06e4425e-a8cb-4b63-929f-2105604ab0a9
   ws-opts:
     headers:
-      host: ls.ylks0033.dpdns.org
+      host: mc.ylks0033.dpdns.org
     path: /?ed=2560
-- name: 🇱🇹_立陶宛_5
+- name: 🇨🇳_中国_1
   network: ws
-  port: 8880
-  server: 89.116.250.168
-  servername: kjgx.laoyoutiao.link
+  port: 81
+  server: 210.61.97.241
+  servername: cx.ylks0033.dpdns.org
   skip-cert-verify: true
   tls: true
   type: vless
   udp: true
-  uuid: fab7bf9c-ddb9-4563-8a04-fb01ce6c0fbf
+  uuid: 06e4425e-a8cb-4b63-929f-2105604ab0a9
   ws-opts:
     headers:
-      host: kjgx.laoyoutiao.link
-    path: telegram@wangcai2/?ed=2560
-- name: 🇿🇦_南非
-  network: ws
-  port: 8880
-  server: 102.177.176.177
-  servername: Telegram-channel-WangCai2
-  skip-cert-verify: true
-  tls: true
-  type: vless
-  udp: true
-  uuid: 583ceab3-4022-4553-9158-9bedc625ad4e
-  ws-opts:
-    headers:
-      host: Telegram-channel-WangCai2
-    path: /telegram@wangcai2/?ed=2560
-- name: 🏳️_未知_2
-  network: ws
-  port: 8880
-  server: 209.94.90.186
-  servername: Telegram-channel-WangCai2
-  skip-cert-verify: true
-  tls: true
-  type: vless
-  udp: true
-  uuid: 583ceab3-4022-4553-9158-9bedc625ad4e
-  ws-opts:
-    headers:
-      host: Telegram-channel-WangCai2
-    path: /
-- name: 🇯🇵_日本_26
-  network: ws
-  port: 8880
-  server: 91.193.58.255
-  servername: kjgx.laoyoutiao.link
-  skip-cert-verify: true
-  tls: true
-  type: vless
-  udp: true
-  uuid: fab7bf9c-ddb9-4563-8a04-fb01ce6c0fbf
-  ws-opts:
-    headers:
-      host: kjgx.laoyoutiao.link
-    path: telegram@wangcai2/?ed=2560
-- name: 🇯🇵_日本_27
-  network: ws
-  port: 8880
-  server: 91.193.58.45
-  servername: kjgx.laoyoutiao.link
-  skip-cert-verify: true
-  tls: true
-  type: vless
-  udp: true
-  uuid: fab7bf9c-ddb9-4563-8a04-fb01ce6c0fbf
-  ws-opts:
-    headers:
-      host: kjgx.laoyoutiao.link
-    path: telegram @wangcai2 /?ed=2560
-- name: 🇯🇵_日本_28
-  network: ws
-  port: 8880
-  server: 91.193.58.189
-  servername: kjgx.laoyoutiao.link
-  skip-cert-verify: true
-  tls: true
-  type: vless
-  udp: true
-  uuid: fab7bf9c-ddb9-4563-8a04-fb01ce6c0fbf
-  ws-opts:
-    headers:
-      host: kjgx.laoyoutiao.link
-    path: freecodes蘇小檸|華東電訊|解鎖netflix
+      host: cx.ylks0033.dpdns.org
+    path: /?ed=2560
 - name: 🇺🇸_美国_18
   network: ws
   port: 443
-  server: 45.207.218.84
-  servername: jp.laoyoutiao.link
+  server: 104.16.246.132
+  servername: mc.ylks0033.dpdns.org
   skip-cert-verify: true
   tls: true
   type: vless
   udp: true
-  uuid: fab7bf9c-ddb9-4563-8a04-fb01ce6c0fbf
+  uuid: 06e4425e-a8cb-4b63-929f-2105604ab0a9
   ws-opts:
     headers:
-      host: jp.laoyoutiao.link
-    path: telegram @wangcai2 /?ed=2560
-- name: 🇰🇷_韩国_2
-  network: ws
-  port: 10018
-  server: 59.25.246.161
-  servername: jp.laoyoutiao.link
-  skip-cert-verify: true
-  tls: true
-  type: vless
-  udp: true
-  uuid: fab7bf9c-ddb9-4563-8a04-fb01ce6c0fbf
-  ws-opts:
-    headers:
-      host: jp.laoyoutiao.link
-    path: telegram @wangcai2 /?ed=2560
-- name: 🇯🇵_日本_29
-  network: ws
-  port: 8880
-  server: 91.193.58.128
-  servername: kjgx.laoyoutiao.link
-  skip-cert-verify: true
-  tls: true
-  type: vless
-  udp: true
-  uuid: fab7bf9c-ddb9-4563-8a04-fb01ce6c0fbf
-  ws-opts:
-    headers:
-      host: kjgx.laoyoutiao.link
-    path: telegram @wangcai2 /?ed=2560
-- name: 🇯🇵_日本_30
-  network: ws
-  port: 8880
-  server: 91.193.58.65
-  servername: kjgx.laoyoutiao.link
-  skip-cert-verify: true
-  tls: true
-  type: vless
-  udp: true
-  uuid: fab7bf9c-ddb9-4563-8a04-fb01ce6c0fbf
-  ws-opts:
-    headers:
-      host: kjgx.laoyoutiao.link
-    path: freecodes蘇小檸 | 華東電訊 | 解鎖netflix
-- name: 🇯🇵_日本_31
-  network: ws
-  port: 8880
-  server: 91.193.58.194
-  servername: kjgx.laoyoutiao.link
-  skip-cert-verify: true
-  tls: true
-  type: vless
-  udp: true
-  uuid: fab7bf9c-ddb9-4563-8a04-fb01ce6c0fbf
-  ws-opts:
-    headers:
-      host: kjgx.laoyoutiao.link
-    path: freecodes蘇小檸 | 華東電訊 | 解鎖netflix
-- name: 🇯🇵_日本_32
-  network: ws
-  port: 8880
-  server: 91.193.58.11
-  servername: kjgx.laoyoutiao.link
-  skip-cert-verify: true
-  tls: true
-  type: vless
-  udp: true
-  uuid: fab7bf9c-ddb9-4563-8a04-fb01ce6c0fbf
-  ws-opts:
-    headers:
-      host: kjgx.laoyoutiao.link
-    path: freecodes蘇小檸 | 華東電訊 | 解鎖netflix
-- name: 🇯🇵_日本_33
-  network: ws
-  port: 8880
-  server: 91.193.58.86
-  servername: kjgx.laoyoutiao.link
-  skip-cert-verify: true
-  tls: true
-  type: vless
-  udp: true
-  uuid: fab7bf9c-ddb9-4563-8a04-fb01ce6c0fbf
-  ws-opts:
-    headers:
-      host: kjgx.laoyoutiao.link
-    path: telegram @wangcai2 /?ed=2560
-- name: 🇯🇵_日本_34
-  network: ws
-  port: 8880
-  server: 91.193.58.24
-  servername: kjgx.laoyoutiao.link
-  skip-cert-verify: true
-  tls: true
-  type: vless
-  udp: true
-  uuid: fab7bf9c-ddb9-4563-8a04-fb01ce6c0fbf
-  ws-opts:
-    headers:
-      host: kjgx.laoyoutiao.link
-    path: telegram @wangcai2 /?ed=2560
-- name: 🇯🇵_日本_35
-  network: ws
-  port: 8880
-  server: 91.193.58.14
-  servername: kjgx.laoyoutiao.link
-  skip-cert-verify: true
-  tls: true
-  type: vless
-  udp: true
-  uuid: fab7bf9c-ddb9-4563-8a04-fb01ce6c0fbf
-  ws-opts:
-    headers:
-      host: kjgx.laoyoutiao.link
-    path: freecodes蘇小檸 | 華東電訊 | 解鎖netflix
-- name: 🇯🇵_日本_36
-  network: ws
-  port: 8880
-  server: 91.193.58.166
-  servername: kjgx.laoyoutiao.link
-  skip-cert-verify: true
-  tls: true
-  type: vless
-  udp: true
-  uuid: fab7bf9c-ddb9-4563-8a04-fb01ce6c0fbf
-  ws-opts:
-    headers:
-      host: kjgx.laoyoutiao.link
-    path: freecodes蘇小檸 | 華東電訊 | 解鎖netflix
-- name: 🇷🇺_俄罗斯_8
-  network: ws
-  port: 8880
-  server: 195.13.54.3
-  servername: Telegram-channel-WangCai2
-  skip-cert-verify: true
-  tls: true
-  type: vless
-  udp: true
-  uuid: b5441b0d-2147-4898-8a6a-9b2c87f58382
-  ws-opts:
-    headers:
-      host: Telegram-channel-WangCai2
-    path: /
+      host: mc.ylks0033.dpdns.org
+    path: /?ed=2560
 - name: 🇺🇸_美国_19
   network: ws
   port: 443
-  server: web.xhamster.biz.id
-  servername: web.xhamster.biz.id
+  server: www.4chan.org
+  servername: mc.ylks0033.dpdns.org
   skip-cert-verify: true
   tls: true
   type: vless
   udp: true
-  uuid: aaaaaaa1-bbbb-4ccc-accc-eeeeeeeeeee1
+  uuid: 06e4425e-a8cb-4b63-929f-2105604ab0a9
   ws-opts:
     headers:
-      host: web.xhamster.biz.id
-    path: /free-cf-proxy-au16
-- name: 🇯🇵_日本_37
+      host: mc.ylks0033.dpdns.org
+    path: /?ed=2560
+- name: 🇳🇱_荷兰_1
   network: ws
-  port: 8880
-  server: 91.193.58.198
-  servername: kjgx.laoyoutiao.link
+  port: 443
+  server: 158.101.214.54
+  servername: mc.ylks0033.dpdns.org
   skip-cert-verify: true
   tls: true
   type: vless
   udp: true
-  uuid: fab7bf9c-ddb9-4563-8a04-fb01ce6c0fbf
+  uuid: 06e4425e-a8cb-4b63-929f-2105604ab0a9
   ws-opts:
     headers:
-      host: kjgx.laoyoutiao.link
-    path: telegram@wangcai2/?ed=2560
+      host: mc.ylks0033.dpdns.org
+    path: /?ed=2560
 - name: 🇺🇸_美国_20
   network: ws
-  port: 8880
-  server: 154.85.99.186
-  servername: Telegram-channel-WangCai2
+  port: 443
+  server: 104.18.82.55
+  servername: mc.ylks0033.dpdns.org
   skip-cert-verify: true
   tls: true
   type: vless
   udp: true
-  uuid: 583ceab3-4022-4553-9158-9bedc625ad4e
+  uuid: 06e4425e-a8cb-4b63-929f-2105604ab0a9
   ws-opts:
     headers:
-      host: Telegram-channel-WangCai2
-    path: /
-- name: 🇱🇹_立陶宛_6
-  network: ws
-  port: 8880
-  server: 185.148.106.186
-  servername: Telegram-channel-WangCai2
-  skip-cert-verify: true
-  tls: true
-  type: vless
-  udp: true
-  uuid: 583ceab3-4022-4553-9158-9bedc625ad4e
-  ws-opts:
-    headers:
-      host: Telegram-channel-WangCai2
-    path: /
-- name: 🇩🇪_德国_2
-  network: ws
-  port: 8880
-  server: 5.10.215.177
-  servername: ip.langmanshanxi.top
-  skip-cert-verify: true
-  tls: true
-  type: vless
-  udp: true
-  uuid: 583ceab3-4022-4553-9158-9bedc625ad4e
-  ws-opts:
-    headers:
-      host: ip.langmanshanxi.top
-    path: /telegram@wangcai2/?ed
-- name: 🇷🇺_俄罗斯_9
-  network: ws
-  port: 8880
-  server: 46.254.93.177
-  servername: ip.langmanshanxi.top
-  skip-cert-verify: true
-  tls: true
-  type: vless
-  udp: true
-  uuid: 583ceab3-4022-4553-9158-9bedc625ad4e
-  ws-opts:
-    headers:
-      host: ip.langmanshanxi.top
-    path: /telegram @wangcai2 /?ed
-- name: 🇯🇵_日本_38
-  network: ws
-  port: 8880
-  server: 91.193.58.218
-  servername: Telegram-channel-WangCai2
-  skip-cert-verify: true
-  tls: true
-  type: vless
-  udp: true
-  uuid: fab7bf9c-ddb9-4563-8a04-fb01ce6c0fbf
-  ws-opts:
-    headers:
-      host: Telegram-channel-WangCai2
-    path: /telegram @wangcai2 /?ed=2560
-- name: 🇸🇬_新加坡_1
-  network: ws
-  port: 8880
-  server: 114.129.43.168
-  servername: kjgx.laoyoutiao.link
-  skip-cert-verify: true
-  tls: true
-  type: vless
-  udp: true
-  uuid: fab7bf9c-ddb9-4563-8a04-fb01ce6c0fbf
-  ws-opts:
-    headers:
-      host: kjgx.laoyoutiao.link
-    path: telegram@wangcai2/?ed=2560
-- name: 🇯🇵_日本_39
-  network: ws
-  port: 8880
-  server: 91.193.58.161
-  servername: sk.laoyoutiao.link
-  skip-cert-verify: true
-  tls: true
-  type: vless
-  udp: true
-  uuid: fab7bf9c-ddb9-4563-8a04-fb01ce6c0fbf
-  ws-opts:
-    headers:
-      host: sk.laoyoutiao.link
-    path: /telegram
-- name: 🇯🇵_日本_40
-  network: ws
-  port: 8880
-  server: 91.193.58.23
-  servername: kjgx.laoyoutiao.link
-  skip-cert-verify: true
-  tls: true
-  type: vless
-  udp: true
-  uuid: fab7bf9c-ddb9-4563-8a04-fb01ce6c0fbf
-  ws-opts:
-    headers:
-      host: kjgx.laoyoutiao.link
-    path: freecodes蘇小檸|華東電訊|解鎖netflix
-- name: 🇫🇷_法国_3
-  network: ws
-  port: 8880
-  server: 45.80.110.168
-  servername: kjgx.laoyoutiao.link
-  skip-cert-verify: true
-  tls: true
-  type: vless
-  udp: true
-  uuid: fab7bf9c-ddb9-4563-8a04-fb01ce6c0fbf
-  ws-opts:
-    headers:
-      host: kjgx.laoyoutiao.link
-    path: telegram @wangcai2 /?ed=2560
-- name: 🇯🇵_日本_41
-  network: ws
-  port: 8880
-  server: 91.193.58.126
-  servername: Telegram-channel-WangCai2
-  skip-cert-verify: true
-  tls: true
-  type: vless
-  udp: true
-  uuid: fab7bf9c-ddb9-4563-8a04-fb01ce6c0fbf
-  ws-opts:
-    headers:
-      host: Telegram-channel-WangCai2
-    path: /
-- name: 🇯🇵_日本_42
-  network: ws
-  port: 8880
-  server: 91.193.58.27
-  servername: kjgx.laoyoutiao.link
-  skip-cert-verify: true
-  tls: true
-  type: vless
-  udp: true
-  uuid: fab7bf9c-ddb9-4563-8a04-fb01ce6c0fbf
-  ws-opts:
-    headers:
-      host: kjgx.laoyoutiao.link
-    path: telegram @wangcai2 /?ed=2560
-- name: 🇸🇦_沙特阿拉伯_1
-  network: ws
-  port: 8880
-  server: 91.209.253.177
-  servername: ip.langmanshanxi.top
-  skip-cert-verify: true
-  tls: true
-  type: vless
-  udp: true
-  uuid: 583ceab3-4022-4553-9158-9bedc625ad4e
-  ws-opts:
-    headers:
-      host: ip.langmanshanxi.top
-    path: /
-- name: 🇱🇹_立陶宛_7
-  network: ws
-  port: 8880
-  server: 185.148.106.168
-  servername: kjgx.laoyoutiao.link
-  skip-cert-verify: true
-  tls: true
-  type: vless
-  udp: true
-  uuid: fab7bf9c-ddb9-4563-8a04-fb01ce6c0fbf
-  ws-opts:
-    headers:
-      host: kjgx.laoyoutiao.link
-    path: telegram @wangcai2 /?ed=2560
+      host: mc.ylks0033.dpdns.org
+    path: /?ed=2560
 - name: 🇺🇸_美国_21
   network: ws
   port: 443
-  server: freevpn.cloudproxyip.my.id
-  servername: freevpn.cloudproxyip.my.id
+  server: 104.18.147.201
+  servername: cx.ylks0033.dpdns.org
   skip-cert-verify: true
   tls: true
   type: vless
   udp: true
-  uuid: aaaaaaa1-bbbb-4ccc-accc-eeeeeeeeeee1
+  uuid: 06e4425e-a8cb-4b63-929f-2105604ab0a9
   ws-opts:
     headers:
-      host: freevpn.cloudproxyip.my.id
-    path: /free-cf-proxy-au11
+      host: cx.ylks0033.dpdns.org
+    path: /?ed=2560
 - name: 🇺🇸_美国_22
   network: ws
   port: 443
-  server: icook.tw
-  servername: li.ylks0033.dpdns.org
+  server: 104.17.102.95
+  servername: cx.ylks0033.dpdns.org
   skip-cert-verify: true
   tls: true
   type: vless
@@ -1493,307 +394,97 @@ proxies:
   uuid: 06e4425e-a8cb-4b63-929f-2105604ab0a9
   ws-opts:
     headers:
-      host: li.ylks0033.dpdns.org
+      host: cx.ylks0033.dpdns.org
     path: /?ed=2560
-- name: 🇱🇹_立陶宛_8
-  network: ws
-  port: 8880
-  server: 89.116.250.177
-  servername: ip.langmanshanxi.top
-  skip-cert-verify: true
-  tls: true
-  type: vless
-  udp: true
-  uuid: 583ceab3-4022-4553-9158-9bedc625ad4e
-  ws-opts:
-    headers:
-      host: ip.langmanshanxi.top
-    path: /
 - name: 🇺🇸_美国_23
   network: ws
-  port: 8880
-  server: 167.68.11.177
-  servername: Telegram-channel-WangCai2
+  port: 443
+  server: www.okcupid.com
+  servername: cx.ylks0033.dpdns.org
   skip-cert-verify: true
   tls: true
   type: vless
   udp: true
-  uuid: 583ceab3-4022-4553-9158-9bedc625ad4e
+  uuid: 06e4425e-a8cb-4b63-929f-2105604ab0a9
   ws-opts:
     headers:
-      host: Telegram-channel-WangCai2
-    path: /freecodes蘇小檸 | 華東電訊 | 解鎖netflix
-- name: 🇦🇺_澳大利亚
-  network: ws
-  port: 8880
-  server: 192.65.217.168
-  servername: kjgx.laoyoutiao.link
-  skip-cert-verify: true
-  tls: true
-  type: vless
-  udp: true
-  uuid: fab7bf9c-ddb9-4563-8a04-fb01ce6c0fbf
-  ws-opts:
-    headers:
-      host: kjgx.laoyoutiao.link
-    path: telegram @wangcai2 /?ed=2560
-- name: 🇬🇧_英国_2
-  network: ws
-  port: 8880
-  server: 25.129.197.168
-  servername: kjgx.laoyoutiao.link
-  skip-cert-verify: true
-  tls: true
-  type: vless
-  udp: true
-  uuid: fab7bf9c-ddb9-4563-8a04-fb01ce6c0fbf
-  ws-opts:
-    headers:
-      host: kjgx.laoyoutiao.link
-    path: telegram @wangcai2 /?ed=2560
+      host: cx.ylks0033.dpdns.org
+    path: /?ed=2560
 - name: 🇺🇸_美国_24
   network: ws
-  port: 8880
-  server: 66.45.118.177
-  servername: Telegram-channel-WangCai2
+  port: 443
+  server: 104.17.68.85
+  servername: mc.ylks0033.dpdns.org
   skip-cert-verify: true
   tls: true
   type: vless
   udp: true
-  uuid: 583ceab3-4022-4553-9158-9bedc625ad4e
+  uuid: 06e4425e-a8cb-4b63-929f-2105604ab0a9
   ws-opts:
     headers:
-      host: Telegram-channel-WangCai2
-    path: /telegram@wangcai2/?ed=2560
-- name: 🇩🇪_德国_3
-  network: ws
-  port: 8880
-  server: 5.10.214.20
-  servername: ip.langmanshanxi.top
-  skip-cert-verify: true
-  tls: true
-  type: vless
-  udp: true
-  uuid: 583ceab3-4022-4553-9158-9bedc625ad4e
-  ws-opts:
-    headers:
-      host: ip.langmanshanxi.top
-    path: telegram@wangcai2/?ed=2560
+      host: mc.ylks0033.dpdns.org
+    path: /?ed=2560
 - name: 🇺🇸_美国_25
   network: ws
-  port: 8880
-  server: 66.235.200.177
-  servername: ip.langmanshanxi.top
+  port: 443
+  server: 104.17.210.171
+  servername: mc.ylks0033.dpdns.org
   skip-cert-verify: true
   tls: true
   type: vless
   udp: true
-  uuid: 583ceab3-4022-4553-9158-9bedc625ad4e
+  uuid: 06e4425e-a8cb-4b63-929f-2105604ab0a9
   ws-opts:
     headers:
-      host: ip.langmanshanxi.top
-    path: /telegram @wangcai2 /?ed
-- name: 🇷🇺_俄罗斯_10
-  network: ws
-  port: 8880
-  server: 185.221.160.177
-  servername: Telegram-channel-WangCai2
-  skip-cert-verify: true
-  tls: true
-  type: vless
-  udp: true
-  uuid: 583ceab3-4022-4553-9158-9bedc625ad4e
-  ws-opts:
-    headers:
-      host: Telegram-channel-WangCai2
-    path: /telegram@wangcai2/?ed=2560
-- name: 🇯🇵_日本_43
-  network: ws
-  port: 8880
-  server: 91.193.58.3
-  servername: kjgx.laoyoutiao.link
-  skip-cert-verify: true
-  tls: true
-  type: vless
-  udp: true
-  uuid: fab7bf9c-ddb9-4563-8a04-fb01ce6c0fbf
-  ws-opts:
-    headers:
-      host: kjgx.laoyoutiao.link
-    path: telegram @wangcai2 /?ed=2560
-- name: 🇯🇵_日本_44
-  network: ws
-  port: 8880
-  server: 91.193.58.251
-  servername: kjgx.laoyoutiao.link
-  skip-cert-verify: true
-  tls: true
-  type: vless
-  udp: true
-  uuid: fab7bf9c-ddb9-4563-8a04-fb01ce6c0fbf
-  ws-opts:
-    headers:
-      host: kjgx.laoyoutiao.link
-    path: telegram@wangcai2/?ed=2560
-- name: 🇯🇵_日本_45
-  network: ws
-  port: 8880
-  server: 91.193.58.195
-  servername: kjgx.laoyoutiao.link
-  skip-cert-verify: true
-  tls: true
-  type: vless
-  udp: true
-  uuid: fab7bf9c-ddb9-4563-8a04-fb01ce6c0fbf
-  ws-opts:
-    headers:
-      host: kjgx.laoyoutiao.link
-    path: telegram@wangcai2/?ed=2560
-- name: 🇯🇵_日本_46
-  network: ws
-  port: 8880
-  server: 91.193.58.4
-  servername: kjgx.laoyoutiao.link
-  skip-cert-verify: true
-  tls: true
-  type: vless
-  udp: true
-  uuid: fab7bf9c-ddb9-4563-8a04-fb01ce6c0fbf
-  ws-opts:
-    headers:
-      host: kjgx.laoyoutiao.link
-    path: telegram@wangcai2/?ed=2560
-- name: 🇯🇵_日本_47
-  network: ws
-  port: 8880
-  server: 91.193.58.154
-  servername: kjgx.laoyoutiao.link
-  skip-cert-verify: true
-  tls: true
-  type: vless
-  udp: true
-  uuid: fab7bf9c-ddb9-4563-8a04-fb01ce6c0fbf
-  ws-opts:
-    headers:
-      host: kjgx.laoyoutiao.link
-    path: telegram@wangcai2/?ed=2560
-- name: 🇯🇵_日本_48
-  network: ws
-  port: 8880
-  server: 91.193.58.165
-  servername: kjgx.laoyoutiao.link
-  skip-cert-verify: true
-  tls: true
-  type: vless
-  udp: true
-  uuid: fab7bf9c-ddb9-4563-8a04-fb01ce6c0fbf
-  ws-opts:
-    headers:
-      host: kjgx.laoyoutiao.link
-    path: telegram@wangcai2/?ed=2560
+      host: mc.ylks0033.dpdns.org
+    path: /?ed=2560
 - name: 🇺🇸_美国_26
   network: ws
-  port: 443
-  server: freexxx.xhamster.biz.id
-  servername: freexxx.xhamster.biz.id
+  port: 2096
+  server: 104.17.128.1
+  servername: mc.ylks0033.dpdns.org
   skip-cert-verify: true
   tls: true
   type: vless
   udp: true
-  uuid: aaaaaaa1-bbbb-4ccc-accc-eeeeeeeeeee1
+  uuid: 06e4425e-a8cb-4b63-929f-2105604ab0a9
   ws-opts:
     headers:
-      host: freexxx.xhamster.biz.id
-    path: /free-cf-proxy-am12
-- name: 🇯🇵_日本_49
-  network: ws
-  port: 8880
-  server: 91.193.58.220
-  servername: kjgx.laoyoutiao.link
-  skip-cert-verify: true
-  tls: true
-  type: vless
-  udp: true
-  uuid: fab7bf9c-ddb9-4563-8a04-fb01ce6c0fbf
-  ws-opts:
-    headers:
-      host: kjgx.laoyoutiao.link
-    path: telegram @wangcai2 /?ed=2560
-- name: 🇷🇺_俄罗斯_11
-  network: ws
-  port: 8880
-  server: 5.182.85.177
-  servername: Telegram-channel-WangCai2
-  skip-cert-verify: true
-  tls: true
-  type: vless
-  udp: true
-  uuid: 583ceab3-4022-4553-9158-9bedc625ad4e
-  ws-opts:
-    headers:
-      host: Telegram-channel-WangCai2
-    path: /freecodes蘇小檸 | 華東電訊 | 解鎖netflix
-- name: 🇯🇵_日本_50
-  network: ws
-  port: 8880
-  server: 91.193.58.19
-  servername: kjgx.laoyoutiao.link
-  skip-cert-verify: true
-  tls: true
-  type: vless
-  udp: true
-  uuid: fab7bf9c-ddb9-4563-8a04-fb01ce6c0fbf
-  ws-opts:
-    headers:
-      host: kjgx.laoyoutiao.link
-    path: freecodes蘇小檸 | 華東電訊 | 解鎖netflix
+      host: mc.ylks0033.dpdns.org
+    path: /?ed=2560
 - name: 🇺🇸_美国_27
   network: ws
-  port: 8880
-  server: 170.114.45.177
-  servername: ip.langmanshanxi.top
+  port: 443
+  server: 104.17.102.95
+  servername: mc.ylks0033.dpdns.org
   skip-cert-verify: true
   tls: true
   type: vless
   udp: true
-  uuid: 583ceab3-4022-4553-9158-9bedc625ad4e
+  uuid: 06e4425e-a8cb-4b63-929f-2105604ab0a9
   ws-opts:
     headers:
-      host: ip.langmanshanxi.top
-    path: /telegram
+      host: mc.ylks0033.dpdns.org
+    path: /?ed=2560
 - name: 🇺🇸_美国_28
   network: ws
   port: 443
-  server: freevpn.najah.biz.id
-  servername: freevpn.najah.biz.id
+  server: 104.19.150.28
+  servername: mc.ylks0033.dpdns.org
   skip-cert-verify: true
   tls: true
   type: vless
   udp: true
-  uuid: aaaaaaa1-bbbb-4ccc-accc-eeeeeeeeeee1
+  uuid: 06e4425e-a8cb-4b63-929f-2105604ab0a9
   ws-opts:
     headers:
-      host: freevpn.najah.biz.id
-    path: /free-cf-proxy-at27
-- name: 🇺🇦_乌克兰_2
-  network: ws
-  port: 8880
-  server: 46.202.30.168
-  servername: kjgx.laoyoutiao.link
-  skip-cert-verify: true
-  tls: true
-  type: vless
-  udp: true
-  uuid: fab7bf9c-ddb9-4563-8a04-fb01ce6c0fbf
-  ws-opts:
-    headers:
-      host: kjgx.laoyoutiao.link
-    path: telegram @wangcai2 /?ed=2560
+      host: mc.ylks0033.dpdns.org
+    path: /?ed=2560
 - name: 🇺🇸_美国_29
   network: ws
   port: 443
-  server: nikon.ns.cloudflare.com
-  servername: ss.ylka.dpdns.org
+  server: benedict.ns.cloudflare.com
+  servername: cx.ylks0033.dpdns.org
   skip-cert-verify: true
   tls: true
   type: vless
@@ -1801,153 +492,13 @@ proxies:
   uuid: 06e4425e-a8cb-4b63-929f-2105604ab0a9
   ws-opts:
     headers:
-      host: ss.ylka.dpdns.org
-    path: /?ed=2560&prot_type=vless
+      host: cx.ylks0033.dpdns.org
+    path: /?ed=2560
 - name: 🇺🇸_美国_30
   network: ws
   port: 443
-  server: web.ndeso.web.id
-  servername: web.ndeso.web.id
-  skip-cert-verify: true
-  tls: true
-  type: vless
-  udp: true
-  uuid: aaaaaaa1-bbbb-4ccc-accc-eeeeeeeeeee1
-  ws-opts:
-    headers:
-      host: web.ndeso.web.id
-    path: /free-cf-proxy-au14
-- name: 🇺🇸_美国_31
-  network: ws
-  port: 8880
-  server: 154.83.2.3
-  servername: Telegram-channel-WangCai2
-  skip-cert-verify: true
-  tls: true
-  type: vless
-  udp: true
-  uuid: b5441b0d-2147-4898-8a6a-9b2c87f58382
-  ws-opts:
-    headers:
-      host: Telegram-channel-WangCai2
-    path: /
-- name: 🇺🇸_美国_32
-  network: ws
-  port: 8880
-  server: 159.246.55.13
-  servername: Telegram-channel-WangCai2
-  skip-cert-verify: true
-  tls: true
-  type: vless
-  udp: true
-  uuid: 9f3c4ab7-ea26-4d96-91a9-c85ff64ad9a0
-  ws-opts:
-    headers:
-      host: Telegram-channel-WangCai2
-    path: /
-- name: 🇯🇵_日本_51
-  network: ws
-  port: 8880
-  server: 91.193.58.55
-  servername: kjgx.laoyoutiao.link
-  skip-cert-verify: true
-  tls: true
-  type: vless
-  udp: true
-  uuid: fab7bf9c-ddb9-4563-8a04-fb01ce6c0fbf
-  ws-opts:
-    headers:
-      host: kjgx.laoyoutiao.link
-    path: telegram @wangcai2 /?ed=2560
-- name: 🇯🇵_日本_52
-  network: ws
-  port: 8880
-  server: 91.193.58.42
-  servername: kjgx.laoyoutiao.link
-  skip-cert-verify: true
-  tls: true
-  type: vless
-  udp: true
-  uuid: fab7bf9c-ddb9-4563-8a04-fb01ce6c0fbf
-  ws-opts:
-    headers:
-      host: kjgx.laoyoutiao.link
-    path: telegram @wangcai2 /?ed=2560
-- name: 🇯🇵_日本_53
-  network: ws
-  port: 8880
-  server: 91.193.58.9
-  servername: kjgx.laoyoutiao.link
-  skip-cert-verify: true
-  tls: true
-  type: vless
-  udp: true
-  uuid: fab7bf9c-ddb9-4563-8a04-fb01ce6c0fbf
-  ws-opts:
-    headers:
-      host: kjgx.laoyoutiao.link
-    path: telegram @wangcai2 /?ed=2560
-- name: 🇳🇱_荷兰_4
-  network: ws
-  port: 8880
-  server: 188.42.145.177
-  servername: Telegram-channel-WangCai2
-  skip-cert-verify: true
-  tls: true
-  type: vless
-  udp: true
-  uuid: 583ceab3-4022-4553-9158-9bedc625ad4e
-  ws-opts:
-    headers:
-      host: Telegram-channel-WangCai2
-    path: /
-- name: 🇯🇵_日本_54
-  network: ws
-  port: 8880
-  server: 91.193.58.226
-  servername: kjgx.laoyoutiao.link
-  skip-cert-verify: true
-  tls: true
-  type: vless
-  udp: true
-  uuid: fab7bf9c-ddb9-4563-8a04-fb01ce6c0fbf
-  ws-opts:
-    headers:
-      host: kjgx.laoyoutiao.link
-    path: telegram @wangcai2 /?ed=2560
-- name: 🇯🇵_日本_55
-  network: ws
-  port: 8880
-  server: 91.193.58.18
-  servername: kjgx.laoyoutiao.link
-  skip-cert-verify: true
-  tls: true
-  type: vless
-  udp: true
-  uuid: fab7bf9c-ddb9-4563-8a04-fb01ce6c0fbf
-  ws-opts:
-    headers:
-      host: kjgx.laoyoutiao.link
-    path: telegram @wangcai2 /?ed=2560
-- name: 🇯🇵_日本_56
-  network: ws
-  port: 8880
-  server: 91.193.58.115
-  servername: kjgx.laoyoutiao.link
-  skip-cert-verify: true
-  tls: true
-  type: vless
-  udp: true
-  uuid: fab7bf9c-ddb9-4563-8a04-fb01ce6c0fbf
-  ws-opts:
-    headers:
-      host: kjgx.laoyoutiao.link
-    path: telegram @wangcai2 /?ed=2560
-- name: 🇺🇸_美国_33
-  network: ws
-  port: 443
-  server: ip.sb
-  servername: cc.ylka.dpdns.org
+  server: comicabc.com
+  servername: cx.ylks0033.dpdns.org
   skip-cert-verify: true
   tls: true
   type: vless
@@ -1955,81 +506,2485 @@ proxies:
   uuid: 06e4425e-a8cb-4b63-929f-2105604ab0a9
   ws-opts:
     headers:
-      host: cc.ylka.dpdns.org
-    path: /?ed=2560&prot_type=vless
-- name: 🇯🇵_日本_57
+      host: cx.ylks0033.dpdns.org
+    path: /?ed=2560
+- name: 🇺🇸_美国_31
   network: ws
-  port: 8880
-  server: 91.193.58.241
-  servername: Telegram-channel-WangCai2
+  port: 443
+  server: 104.18.86.131
+  servername: cx.ylks0033.dpdns.org
   skip-cert-verify: true
   tls: true
   type: vless
   udp: true
-  uuid: fab7bf9c-ddb9-4563-8a04-fb01ce6c0fbf
+  uuid: 06e4425e-a8cb-4b63-929f-2105604ab0a9
   ws-opts:
     headers:
-      host: Telegram-channel-WangCai2
-    path: /telegram @wangcai2 /?ed=2560
-- name: 🇯🇵_日本_58
+      host: cx.ylks0033.dpdns.org
+    path: /?ed=2560
+- name: 🇺🇸_美国_32
   network: ws
-  port: 8880
-  server: 91.193.58.216
-  servername: Telegram-channel-WangCai2
+  port: 443
+  server: craig.ns.cloudflare.com
+  servername: cx.ylks0033.dpdns.org
   skip-cert-verify: true
   tls: true
   type: vless
   udp: true
-  uuid: fab7bf9c-ddb9-4563-8a04-fb01ce6c0fbf
+  uuid: 06e4425e-a8cb-4b63-929f-2105604ab0a9
   ws-opts:
     headers:
-      host: Telegram-channel-WangCai2
-    path: /
-- name: 🇦🇹_奥地利
+      host: cx.ylks0033.dpdns.org
+    path: /?ed=2560
+- name: 🇺🇸_美国_33
   network: ws
-  port: 8880
-  server: 212.183.88.186
-  servername: Telegram-channel-WangCai2
+  port: 8443
+  server: 162.159.129.67
+  servername: cx.ylks0033.dpdns.org
   skip-cert-verify: true
   tls: true
   type: vless
   udp: true
-  uuid: 583ceab3-4022-4553-9158-9bedc625ad4e
+  uuid: 06e4425e-a8cb-4b63-929f-2105604ab0a9
   ws-opts:
     headers:
-      host: Telegram-channel-WangCai2
-    path: /
+      host: cx.ylks0033.dpdns.org
+    path: /?ed=2560
 - name: 🇺🇸_美国_34
   network: ws
   port: 443
-  server: freevpn.ndeso.xyz
-  servername: freevpn.ndeso.xyz
+  server: shopify.com
+  servername: mc.ylks0033.dpdns.org
   skip-cert-verify: true
   tls: true
   type: vless
   udp: true
-  uuid: aaaaaaa1-bbbb-4ccc-accc-eeeeeeeeeee1
+  uuid: 06e4425e-a8cb-4b63-929f-2105604ab0a9
   ws-opts:
     headers:
-      host: freevpn.ndeso.xyz
-    path: /free-cf-proxy-at28
-- name: 🇯🇵_日本_59
+      host: mc.ylks0033.dpdns.org
+    path: /?ed=2560
+- name: 🇺🇸_美国_35
   network: ws
-  port: 8880
-  server: 91.193.58.21
-  servername: kjgx.laoyoutiao.link
+  port: 443
+  server: 162.159.153.170
+  servername: mc.ylks0033.dpdns.org
   skip-cert-verify: true
   tls: true
   type: vless
   udp: true
-  uuid: fab7bf9c-ddb9-4563-8a04-fb01ce6c0fbf
+  uuid: 06e4425e-a8cb-4b63-929f-2105604ab0a9
   ws-opts:
     headers:
-      host: kjgx.laoyoutiao.link
-    path: telegram @wangcai2 /?ed=2560
+      host: mc.ylks0033.dpdns.org
+    path: /?ed=2560
+- name: 🇺🇸_美国_36
+  network: ws
+  port: 443
+  server: 172.67.95.24
+  servername: cx.ylks0033.dpdns.org
+  skip-cert-verify: true
+  tls: true
+  type: vless
+  udp: true
+  uuid: 06e4425e-a8cb-4b63-929f-2105604ab0a9
+  ws-opts:
+    headers:
+      host: cx.ylks0033.dpdns.org
+    path: /?ed=2560
+- name: 🇺🇸_美国_37
+  network: ws
+  port: 443
+  server: 162.159.36.104
+  servername: mc.ylks0033.dpdns.org
+  skip-cert-verify: true
+  tls: true
+  type: vless
+  udp: true
+  uuid: 06e4425e-a8cb-4b63-929f-2105604ab0a9
+  ws-opts:
+    headers:
+      host: mc.ylks0033.dpdns.org
+    path: /?ed=2560
+- name: 🇺🇸_美国_38
+  network: ws
+  port: 443
+  server: ipv4.ip.sb
+  servername: cx.ylks0033.dpdns.org
+  skip-cert-verify: true
+  tls: true
+  type: vless
+  udp: true
+  uuid: 06e4425e-a8cb-4b63-929f-2105604ab0a9
+  ws-opts:
+    headers:
+      host: cx.ylks0033.dpdns.org
+    path: /?ed=2560
+- name: 🇺🇸_美国_39
+  network: ws
+  port: 443
+  server: www.wto.org
+  servername: mc.ylks0033.dpdns.org
+  skip-cert-verify: true
+  tls: true
+  type: vless
+  udp: true
+  uuid: 06e4425e-a8cb-4b63-929f-2105604ab0a9
+  ws-opts:
+    headers:
+      host: mc.ylks0033.dpdns.org
+    path: /?ed=2560
+- name: 🇺🇸_美国_40
+  network: ws
+  port: 443
+  server: 172.67.120.0
+  servername: cx.ylks0033.dpdns.org
+  skip-cert-verify: true
+  tls: true
+  type: vless
+  udp: true
+  uuid: 06e4425e-a8cb-4b63-929f-2105604ab0a9
+  ws-opts:
+    headers:
+      host: cx.ylks0033.dpdns.org
+    path: /?ed=2560
+- name: 🇺🇸_美国_41
+  network: ws
+  port: 443
+  server: 104.18.82.55
+  servername: cx.ylks0033.dpdns.org
+  skip-cert-verify: true
+  tls: true
+  type: vless
+  udp: true
+  uuid: 06e4425e-a8cb-4b63-929f-2105604ab0a9
+  ws-opts:
+    headers:
+      host: cx.ylks0033.dpdns.org
+    path: /?ed=2560
+- name: 🇺🇸_美国_42
+  network: ws
+  port: 443
+  server: 162.159.152.53
+  servername: cx.ylks0033.dpdns.org
+  skip-cert-verify: true
+  tls: true
+  type: vless
+  udp: true
+  uuid: 06e4425e-a8cb-4b63-929f-2105604ab0a9
+  ws-opts:
+    headers:
+      host: cx.ylks0033.dpdns.org
+    path: /?ed=2560
+- name: 🇺🇸_美国_43
+  network: ws
+  port: 443
+  server: rustam.ns.cloudflare.com
+  servername: mc.ylks0033.dpdns.org
+  skip-cert-verify: true
+  tls: true
+  type: vless
+  udp: true
+  uuid: 06e4425e-a8cb-4b63-929f-2105604ab0a9
+  ws-opts:
+    headers:
+      host: mc.ylks0033.dpdns.org
+    path: /?ed=2560
+- name: 🇺🇸_美国_44
+  network: ws
+  port: 443
+  server: 162.159.152.31
+  servername: cx.ylks0033.dpdns.org
+  skip-cert-verify: true
+  tls: true
+  type: vless
+  udp: true
+  uuid: 06e4425e-a8cb-4b63-929f-2105604ab0a9
+  ws-opts:
+    headers:
+      host: cx.ylks0033.dpdns.org
+    path: /?ed=2560
+- name: 🇺🇸_美国_45
+  network: ws
+  port: 443
+  server: 162.159.153.216
+  servername: mc.ylks0033.dpdns.org
+  skip-cert-verify: true
+  tls: true
+  type: vless
+  udp: true
+  uuid: 06e4425e-a8cb-4b63-929f-2105604ab0a9
+  ws-opts:
+    headers:
+      host: mc.ylks0033.dpdns.org
+    path: /?ed=2560
+- name: 🇺🇸_美国_46
+  network: ws
+  port: 443
+  server: steamdb.info
+  servername: cx.ylks0033.dpdns.org
+  skip-cert-verify: true
+  tls: true
+  type: vless
+  udp: true
+  uuid: 06e4425e-a8cb-4b63-929f-2105604ab0a9
+  ws-opts:
+    headers:
+      host: cx.ylks0033.dpdns.org
+    path: /?ed=2560
+- name: 🇺🇸_美国_47
+  network: ws
+  port: 443
+  server: ip.gs
+  servername: cx.ylks0033.dpdns.org
+  skip-cert-verify: true
+  tls: true
+  type: vless
+  udp: true
+  uuid: 06e4425e-a8cb-4b63-929f-2105604ab0a9
+  ws-opts:
+    headers:
+      host: cx.ylks0033.dpdns.org
+    path: /?ed=2560
+- name: 🇺🇸_美国_48
+  network: ws
+  port: 443
+  server: 104.17.142.12
+  servername: cx.ylks0033.dpdns.org
+  skip-cert-verify: true
+  tls: true
+  type: vless
+  udp: true
+  uuid: 06e4425e-a8cb-4b63-929f-2105604ab0a9
+  ws-opts:
+    headers:
+      host: cx.ylks0033.dpdns.org
+    path: /?ed=2560
+- name: 🇺🇸_美国_49
+  network: ws
+  port: 8443
+  server: 162.159.129.67
+  servername: mc.ylks0033.dpdns.org
+  skip-cert-verify: true
+  tls: true
+  type: vless
+  udp: true
+  uuid: 06e4425e-a8cb-4b63-929f-2105604ab0a9
+  ws-opts:
+    headers:
+      host: mc.ylks0033.dpdns.org
+    path: /?ed=2560
+- name: 🇺🇸_美国_50
+  network: ws
+  port: 2087
+  server: 104.25.254.4
+  servername: cx.ylks0033.dpdns.org
+  skip-cert-verify: true
+  tls: true
+  type: vless
+  udp: true
+  uuid: 06e4425e-a8cb-4b63-929f-2105604ab0a9
+  ws-opts:
+    headers:
+      host: cx.ylks0033.dpdns.org
+    path: /?ed=2560
+- name: 🇺🇸_美国_51
+  network: ws
+  port: 443
+  server: steamdb.info
+  servername: mc.ylks0033.dpdns.org
+  skip-cert-verify: true
+  tls: true
+  type: vless
+  udp: true
+  uuid: 06e4425e-a8cb-4b63-929f-2105604ab0a9
+  ws-opts:
+    headers:
+      host: mc.ylks0033.dpdns.org
+    path: /?ed=2560
+- name: 🇺🇸_美国_52
+  network: ws
+  port: 443
+  server: icook.tw
+  servername: cx.ylks0033.dpdns.org
+  skip-cert-verify: true
+  tls: true
+  type: vless
+  udp: true
+  uuid: 06e4425e-a8cb-4b63-929f-2105604ab0a9
+  ws-opts:
+    headers:
+      host: cx.ylks0033.dpdns.org
+    path: /?ed=2560
+- name: 🇺🇸_美国_53
+  network: ws
+  port: 443
+  server: www.whatismyip.com
+  servername: mc.ylks0033.dpdns.org
+  skip-cert-verify: true
+  tls: true
+  type: vless
+  udp: true
+  uuid: 06e4425e-a8cb-4b63-929f-2105604ab0a9
+  ws-opts:
+    headers:
+      host: mc.ylks0033.dpdns.org
+    path: /?ed=2560
+- name: 🇺🇸_美国_54
+  network: ws
+  port: 443
+  server: www.iakeys.com
+  servername: cx.ylks0033.dpdns.org
+  skip-cert-verify: true
+  tls: true
+  type: vless
+  udp: true
+  uuid: 06e4425e-a8cb-4b63-929f-2105604ab0a9
+  ws-opts:
+    headers:
+      host: cx.ylks0033.dpdns.org
+    path: /?ed=2560
+- name: 🇺🇸_美国_55
+  network: ws
+  port: 443
+  server: damien.ns.cloudflare.com
+  servername: cx.ylks0033.dpdns.org
+  skip-cert-verify: true
+  tls: true
+  type: vless
+  udp: true
+  uuid: 06e4425e-a8cb-4b63-929f-2105604ab0a9
+  ws-opts:
+    headers:
+      host: cx.ylks0033.dpdns.org
+    path: /?ed=2560
+- name: 🇺🇸_美国_56
+  network: ws
+  port: 443
+  server: ip.sb
+  servername: mc.ylks0033.dpdns.org
+  skip-cert-verify: true
+  tls: true
+  type: vless
+  udp: true
+  uuid: 06e4425e-a8cb-4b63-929f-2105604ab0a9
+  ws-opts:
+    headers:
+      host: mc.ylks0033.dpdns.org
+    path: /?ed=2560
+- name: 🇺🇸_美国_57
+  network: ws
+  port: 443
+  server: www.ddwhm.com
+  servername: cx.ylks0033.dpdns.org
+  skip-cert-verify: true
+  tls: true
+  type: vless
+  udp: true
+  uuid: 06e4425e-a8cb-4b63-929f-2105604ab0a9
+  ws-opts:
+    headers:
+      host: cx.ylks0033.dpdns.org
+    path: /?ed=2560
+- name: 🇺🇸_美国_58
+  network: ws
+  port: 443
+  server: 162.159.36.104
+  servername: cx.ylks0033.dpdns.org
+  skip-cert-verify: true
+  tls: true
+  type: vless
+  udp: true
+  uuid: 06e4425e-a8cb-4b63-929f-2105604ab0a9
+  ws-opts:
+    headers:
+      host: cx.ylks0033.dpdns.org
+    path: /?ed=2560
+- name: 🇺🇸_美国_59
+  network: ws
+  port: 443
+  server: 162.159.153.72
+  servername: cx.ylks0033.dpdns.org
+  skip-cert-verify: true
+  tls: true
+  type: vless
+  udp: true
+  uuid: 06e4425e-a8cb-4b63-929f-2105604ab0a9
+  ws-opts:
+    headers:
+      host: cx.ylks0033.dpdns.org
+    path: /?ed=2560
+- name: 🇺🇸_美国_60
+  network: ws
+  port: 443
+  server: bowen.ns.cloudflare.com
+  servername: cx.ylks0033.dpdns.org
+  skip-cert-verify: true
+  tls: true
+  type: vless
+  udp: true
+  uuid: 06e4425e-a8cb-4b63-929f-2105604ab0a9
+  ws-opts:
+    headers:
+      host: cx.ylks0033.dpdns.org
+    path: /?ed=2560
+- name: 🇺🇸_美国_61
+  network: ws
+  port: 443
+  server: www.digitalocean.com
+  servername: cx.ylks0033.dpdns.org
+  skip-cert-verify: true
+  tls: true
+  type: vless
+  udp: true
+  uuid: 06e4425e-a8cb-4b63-929f-2105604ab0a9
+  ws-opts:
+    headers:
+      host: cx.ylks0033.dpdns.org
+    path: /?ed=2560
+- name: 🇺🇸_美国_62
+  network: ws
+  port: 443
+  server: kyree.ns.cloudflare.com
+  servername: cx.ylks0033.dpdns.org
+  skip-cert-verify: true
+  tls: true
+  type: vless
+  udp: true
+  uuid: 06e4425e-a8cb-4b63-929f-2105604ab0a9
+  ws-opts:
+    headers:
+      host: cx.ylks0033.dpdns.org
+    path: /?ed=2560
+- name: 🇺🇸_美国_63
+  network: ws
+  port: 443
+  server: 172.67.120.0
+  servername: mc.ylks0033.dpdns.org
+  skip-cert-verify: true
+  tls: true
+  type: vless
+  udp: true
+  uuid: 06e4425e-a8cb-4b63-929f-2105604ab0a9
+  ws-opts:
+    headers:
+      host: mc.ylks0033.dpdns.org
+    path: /?ed=2560
+- name: 🇺🇸_美国_64
+  network: ws
+  port: 443
+  server: ip.gs
+  servername: mc.ylks0033.dpdns.org
+  skip-cert-verify: true
+  tls: true
+  type: vless
+  udp: true
+  uuid: 06e4425e-a8cb-4b63-929f-2105604ab0a9
+  ws-opts:
+    headers:
+      host: mc.ylks0033.dpdns.org
+    path: /?ed=2560
+- name: 🇺🇸_美国_65
+  network: ws
+  port: 443
+  server: www.4chan.org
+  servername: cx.ylks0033.dpdns.org
+  skip-cert-verify: true
+  tls: true
+  type: vless
+  udp: true
+  uuid: 06e4425e-a8cb-4b63-929f-2105604ab0a9
+  ws-opts:
+    headers:
+      host: cx.ylks0033.dpdns.org
+    path: /?ed=2560
+- name: 🇺🇸_美国_66
+  network: ws
+  port: 443
+  server: 162.159.153.212
+  servername: cx.ylks0033.dpdns.org
+  skip-cert-verify: true
+  tls: true
+  type: vless
+  udp: true
+  uuid: 06e4425e-a8cb-4b63-929f-2105604ab0a9
+  ws-opts:
+    headers:
+      host: cx.ylks0033.dpdns.org
+    path: /?ed=2560
+- name: 🇺🇸_美国_67
+  network: ws
+  port: 443
+  server: toy-people.com
+  servername: mc.ylks0033.dpdns.org
+  skip-cert-verify: true
+  tls: true
+  type: vless
+  udp: true
+  uuid: 06e4425e-a8cb-4b63-929f-2105604ab0a9
+  ws-opts:
+    headers:
+      host: mc.ylks0033.dpdns.org
+    path: /?ed=2560
+- name: 🇺🇸_美国_68
+  network: ws
+  port: 443
+  server: toy-people.com
+  servername: cx.ylks0033.dpdns.org
+  skip-cert-verify: true
+  tls: true
+  type: vless
+  udp: true
+  uuid: 06e4425e-a8cb-4b63-929f-2105604ab0a9
+  ws-opts:
+    headers:
+      host: cx.ylks0033.dpdns.org
+    path: /?ed=2560
+- name: 🇺🇸_美国_69
+  network: ws
+  port: 443
+  server: kyree.ns.cloudflare.com
+  servername: mc.ylks0033.dpdns.org
+  skip-cert-verify: true
+  tls: true
+  type: vless
+  udp: true
+  uuid: 06e4425e-a8cb-4b63-929f-2105604ab0a9
+  ws-opts:
+    headers:
+      host: mc.ylks0033.dpdns.org
+    path: /?ed=2560
+- name: 🇺🇸_美国_70
+  network: ws
+  port: 443
+  server: www.ddwhm.com
+  servername: mc.ylks0033.dpdns.org
+  skip-cert-verify: true
+  tls: true
+  type: vless
+  udp: true
+  uuid: 06e4425e-a8cb-4b63-929f-2105604ab0a9
+  ws-opts:
+    headers:
+      host: mc.ylks0033.dpdns.org
+    path: /?ed=2560
+- name: 🇺🇸_美国_71
+  network: ws
+  port: 443
+  server: ipinfo.in
+  servername: mc.ylks0033.dpdns.org
+  skip-cert-verify: true
+  tls: true
+  type: vless
+  udp: true
+  uuid: 06e4425e-a8cb-4b63-929f-2105604ab0a9
+  ws-opts:
+    headers:
+      host: mc.ylks0033.dpdns.org
+    path: /?ed=2560
+- name: 🇺🇸_美国_72
+  network: ws
+  port: 443
+  server: ipinfo.in
+  servername: cx.ylks0033.dpdns.org
+  skip-cert-verify: true
+  tls: true
+  type: vless
+  udp: true
+  uuid: 06e4425e-a8cb-4b63-929f-2105604ab0a9
+  ws-opts:
+    headers:
+      host: cx.ylks0033.dpdns.org
+    path: /?ed=2560
+- name: 🇺🇸_美国_73
+  network: ws
+  port: 443
+  server: dnschecker.org
+  servername: cx.ylks0033.dpdns.org
+  skip-cert-verify: true
+  tls: true
+  type: vless
+  udp: true
+  uuid: 06e4425e-a8cb-4b63-929f-2105604ab0a9
+  ws-opts:
+    headers:
+      host: cx.ylks0033.dpdns.org
+    path: /?ed=2560
+- name: 🇺🇸_美国_74
+  network: ws
+  port: 443
+  server: otto.ns.cloudflare.com
+  servername: cx.ylks0033.dpdns.org
+  skip-cert-verify: true
+  tls: true
+  type: vless
+  udp: true
+  uuid: 06e4425e-a8cb-4b63-929f-2105604ab0a9
+  ws-opts:
+    headers:
+      host: cx.ylks0033.dpdns.org
+    path: /?ed=2560
+- name: 🇺🇸_美国_75
+  network: ws
+  port: 443
+  server: uriah.ns.cloudflare.com
+  servername: mc.ylks0033.dpdns.org
+  skip-cert-verify: true
+  tls: true
+  type: vless
+  udp: true
+  uuid: 06e4425e-a8cb-4b63-929f-2105604ab0a9
+  ws-opts:
+    headers:
+      host: mc.ylks0033.dpdns.org
+    path: /?ed=2560
+- name: 🇺🇸_美国_76
+  network: ws
+  port: 443
+  server: braden.ns.cloudflare.com
+  servername: cx.ylks0033.dpdns.org
+  skip-cert-verify: true
+  tls: true
+  type: vless
+  udp: true
+  uuid: 06e4425e-a8cb-4b63-929f-2105604ab0a9
+  ws-opts:
+    headers:
+      host: cx.ylks0033.dpdns.org
+    path: /?ed=2560
+- name: 🇺🇸_美国_77
+  network: ws
+  port: 443
+  server: 162.159.152.81
+  servername: cx.ylks0033.dpdns.org
+  skip-cert-verify: true
+  tls: true
+  type: vless
+  udp: true
+  uuid: 06e4425e-a8cb-4b63-929f-2105604ab0a9
+  ws-opts:
+    headers:
+      host: cx.ylks0033.dpdns.org
+    path: /?ed=2560
+- name: 🇺🇸_美国_78
+  network: ws
+  port: 443
+  server: huxley.ns.cloudflare.com
+  servername: cx.ylks0033.dpdns.org
+  skip-cert-verify: true
+  tls: true
+  type: vless
+  udp: true
+  uuid: 06e4425e-a8cb-4b63-929f-2105604ab0a9
+  ws-opts:
+    headers:
+      host: cx.ylks0033.dpdns.org
+    path: /?ed=2560
+- name: 🇺🇸_美国_79
+  network: ws
+  port: 443
+  server: 172.67.49.134
+  servername: mc.ylks0033.dpdns.org
+  skip-cert-verify: true
+  tls: true
+  type: vless
+  udp: true
+  uuid: 06e4425e-a8cb-4b63-929f-2105604ab0a9
+  ws-opts:
+    headers:
+      host: mc.ylks0033.dpdns.org
+    path: /?ed=2560
+- name: 🇺🇸_美国_80
+  network: ws
+  port: 443
+  server: www.ipget.net
+  servername: cx.ylks0033.dpdns.org
+  skip-cert-verify: true
+  tls: true
+  type: vless
+  udp: true
+  uuid: 06e4425e-a8cb-4b63-929f-2105604ab0a9
+  ws-opts:
+    headers:
+      host: cx.ylks0033.dpdns.org
+    path: /?ed=2560
+- name: 🇺🇸_美国_81
+  network: ws
+  port: 443
+  server: damien.ns.cloudflare.com
+  servername: mc.ylks0033.dpdns.org
+  skip-cert-verify: true
+  tls: true
+  type: vless
+  udp: true
+  uuid: 06e4425e-a8cb-4b63-929f-2105604ab0a9
+  ws-opts:
+    headers:
+      host: mc.ylks0033.dpdns.org
+    path: /?ed=2560
+- name: 🇺🇸_美国_82
+  network: ws
+  port: 443
+  server: tasteatlas.com
+  servername: cx.ylks0033.dpdns.org
+  skip-cert-verify: true
+  tls: true
+  type: vless
+  udp: true
+  uuid: 06e4425e-a8cb-4b63-929f-2105604ab0a9
+  ws-opts:
+    headers:
+      host: cx.ylks0033.dpdns.org
+    path: /?ed=2560
+- name: 🇺🇸_美国_83
+  network: ws
+  port: 443
+  server: pranab.ns.cloudflare.com
+  servername: mc.ylks0033.dpdns.org
+  skip-cert-verify: true
+  tls: true
+  type: vless
+  udp: true
+  uuid: 06e4425e-a8cb-4b63-929f-2105604ab0a9
+  ws-opts:
+    headers:
+      host: mc.ylks0033.dpdns.org
+    path: /?ed=2560
+- name: 🇺🇸_美国_84
+  network: ws
+  port: 443
+  server: time.is
+  servername: mc.ylks0033.dpdns.org
+  skip-cert-verify: true
+  tls: true
+  type: vless
+  udp: true
+  uuid: 06e4425e-a8cb-4b63-929f-2105604ab0a9
+  ws-opts:
+    headers:
+      host: mc.ylks0033.dpdns.org
+    path: /?ed=2560
+- name: 🇺🇸_美国_85
+  network: ws
+  port: 443
+  server: 172.67.243.218
+  servername: mc.ylks0033.dpdns.org
+  skip-cert-verify: true
+  tls: true
+  type: vless
+  udp: true
+  uuid: 06e4425e-a8cb-4b63-929f-2105604ab0a9
+  ws-opts:
+    headers:
+      host: mc.ylks0033.dpdns.org
+    path: /?ed=2560
+- name: 🇺🇸_美国_86
+  network: ws
+  port: 443
+  server: 162.159.153.184
+  servername: mc.ylks0033.dpdns.org
+  skip-cert-verify: true
+  tls: true
+  type: vless
+  udp: true
+  uuid: 06e4425e-a8cb-4b63-929f-2105604ab0a9
+  ws-opts:
+    headers:
+      host: mc.ylks0033.dpdns.org
+    path: /?ed=2560
+- name: 🇺🇸_美国_87
+  network: ws
+  port: 443
+  server: 172.67.106.26
+  servername: mc.ylks0033.dpdns.org
+  skip-cert-verify: true
+  tls: true
+  type: vless
+  udp: true
+  uuid: 06e4425e-a8cb-4b63-929f-2105604ab0a9
+  ws-opts:
+    headers:
+      host: mc.ylks0033.dpdns.org
+    path: /?ed=2560
+- name: 🇺🇸_美国_88
+  network: ws
+  port: 443
+  server: 162.159.153.194
+  servername: cx.ylks0033.dpdns.org
+  skip-cert-verify: true
+  tls: true
+  type: vless
+  udp: true
+  uuid: 06e4425e-a8cb-4b63-929f-2105604ab0a9
+  ws-opts:
+    headers:
+      host: cx.ylks0033.dpdns.org
+    path: /?ed=2560
+- name: 🇺🇸_美国_89
+  network: ws
+  port: 443
+  server: decker.ns.cloudflare.com
+  servername: cx.ylks0033.dpdns.org
+  skip-cert-verify: true
+  tls: true
+  type: vless
+  udp: true
+  uuid: 06e4425e-a8cb-4b63-929f-2105604ab0a9
+  ws-opts:
+    headers:
+      host: cx.ylks0033.dpdns.org
+    path: /?ed=2560
+- name: 🇺🇸_美国_90
+  network: ws
+  port: 443
+  server: ashton.ns.cloudflare.com
+  servername: mc.ylks0033.dpdns.org
+  skip-cert-verify: true
+  tls: true
+  type: vless
+  udp: true
+  uuid: 06e4425e-a8cb-4b63-929f-2105604ab0a9
+  ws-opts:
+    headers:
+      host: mc.ylks0033.dpdns.org
+    path: /?ed=2560
+- name: 🇺🇸_美国_91
+  network: ws
+  port: 443
+  server: dnschecker.org
+  servername: mc.ylks0033.dpdns.org
+  skip-cert-verify: true
+  tls: true
+  type: vless
+  udp: true
+  uuid: 06e4425e-a8cb-4b63-929f-2105604ab0a9
+  ws-opts:
+    headers:
+      host: mc.ylks0033.dpdns.org
+    path: /?ed=2560
+- name: 🇺🇸_美国_92
+  network: ws
+  port: 443
+  server: rustam.ns.cloudflare.com
+  servername: cx.ylks0033.dpdns.org
+  skip-cert-verify: true
+  tls: true
+  type: vless
+  udp: true
+  uuid: 06e4425e-a8cb-4b63-929f-2105604ab0a9
+  ws-opts:
+    headers:
+      host: cx.ylks0033.dpdns.org
+    path: /?ed=2560
+- name: 🇺🇸_美国_93
+  network: ws
+  port: 443
+  server: julio.ns.cloudflare.com
+  servername: mc.ylks0033.dpdns.org
+  skip-cert-verify: true
+  tls: true
+  type: vless
+  udp: true
+  uuid: 06e4425e-a8cb-4b63-929f-2105604ab0a9
+  ws-opts:
+    headers:
+      host: mc.ylks0033.dpdns.org
+    path: /?ed=2560
+- name: 🇺🇸_美国_94
+  network: ws
+  port: 443
+  server: 162.159.152.69
+  servername: mc.ylks0033.dpdns.org
+  skip-cert-verify: true
+  tls: true
+  type: vless
+  udp: true
+  uuid: 06e4425e-a8cb-4b63-929f-2105604ab0a9
+  ws-opts:
+    headers:
+      host: mc.ylks0033.dpdns.org
+    path: /?ed=2560
+- name: 🇺🇸_美国_95
+  network: ws
+  port: 443
+  server: abdullah.ns.cloudflare.com
+  servername: mc.ylks0033.dpdns.org
+  skip-cert-verify: true
+  tls: true
+  type: vless
+  udp: true
+  uuid: 06e4425e-a8cb-4b63-929f-2105604ab0a9
+  ws-opts:
+    headers:
+      host: mc.ylks0033.dpdns.org
+    path: /?ed=2560
+- name: 🇺🇸_美国_96
+  network: ws
+  port: 443
+  server: ip.sb
+  servername: cx.ylks0033.dpdns.org
+  skip-cert-verify: true
+  tls: true
+  type: vless
+  udp: true
+  uuid: 06e4425e-a8cb-4b63-929f-2105604ab0a9
+  ws-opts:
+    headers:
+      host: cx.ylks0033.dpdns.org
+    path: /?ed=2560
+- name: 🇺🇸_美国_97
+  network: ws
+  port: 443
+  server: 172.67.243.218
+  servername: cx.ylks0033.dpdns.org
+  skip-cert-verify: true
+  tls: true
+  type: vless
+  udp: true
+  uuid: 06e4425e-a8cb-4b63-929f-2105604ab0a9
+  ws-opts:
+    headers:
+      host: cx.ylks0033.dpdns.org
+    path: /?ed=2560
+- name: 🇺🇸_美国_98
+  network: ws
+  port: 443
+  server: 198.62.62.156
+  servername: mc.ylks0033.dpdns.org
+  skip-cert-verify: true
+  tls: true
+  type: vless
+  udp: true
+  uuid: 06e4425e-a8cb-4b63-929f-2105604ab0a9
+  ws-opts:
+    headers:
+      host: mc.ylks0033.dpdns.org
+    path: /?ed=2560
+- name: 🇺🇸_美国_99
+  network: ws
+  port: 443
+  server: www.pcmag.com
+  servername: mc.ylks0033.dpdns.org
+  skip-cert-verify: true
+  tls: true
+  type: vless
+  udp: true
+  uuid: 06e4425e-a8cb-4b63-929f-2105604ab0a9
+  ws-opts:
+    headers:
+      host: mc.ylks0033.dpdns.org
+    path: /?ed=2560
+- name: 🇩🇰_丹麦_1
+  network: ws
+  port: 443
+  server: www.csgo.com
+  servername: mc.ylks0033.dpdns.org
+  skip-cert-verify: true
+  tls: true
+  type: vless
+  udp: true
+  uuid: 06e4425e-a8cb-4b63-929f-2105604ab0a9
+  ws-opts:
+    headers:
+      host: mc.ylks0033.dpdns.org
+    path: /?ed=2560
+- name: 🇺🇸_美国_100
+  network: ws
+  port: 443
+  server: comicabc.com
+  servername: mc.ylks0033.dpdns.org
+  skip-cert-verify: true
+  tls: true
+  type: vless
+  udp: true
+  uuid: 06e4425e-a8cb-4b63-929f-2105604ab0a9
+  ws-opts:
+    headers:
+      host: mc.ylks0033.dpdns.org
+    path: /?ed=2560
+- name: 🇺🇸_美国_101
+  network: ws
+  port: 443
+  server: otto.ns.cloudflare.com
+  servername: mc.ylks0033.dpdns.org
+  skip-cert-verify: true
+  tls: true
+  type: vless
+  udp: true
+  uuid: 06e4425e-a8cb-4b63-929f-2105604ab0a9
+  ws-opts:
+    headers:
+      host: mc.ylks0033.dpdns.org
+    path: /?ed=2560
+- name: 🇺🇸_美国_102
+  network: ws
+  port: 443
+  server: cris.ns.cloudflare.com
+  servername: cx.ylks0033.dpdns.org
+  skip-cert-verify: true
+  tls: true
+  type: vless
+  udp: true
+  uuid: 06e4425e-a8cb-4b63-929f-2105604ab0a9
+  ws-opts:
+    headers:
+      host: cx.ylks0033.dpdns.org
+    path: /?ed=2560
+- name: 🇺🇸_美国_103
+  network: ws
+  port: 2083
+  server: 104.16.134.27
+  servername: mc.ylks0033.dpdns.org
+  skip-cert-verify: true
+  tls: true
+  type: vless
+  udp: true
+  uuid: 06e4425e-a8cb-4b63-929f-2105604ab0a9
+  ws-opts:
+    headers:
+      host: mc.ylks0033.dpdns.org
+    path: /?ed=2560
+- name: 🇺🇸_美国_104
+  network: ws
+  port: 443
+  server: 162.159.152.69
+  servername: cx.ylks0033.dpdns.org
+  skip-cert-verify: true
+  tls: true
+  type: vless
+  udp: true
+  uuid: 06e4425e-a8cb-4b63-929f-2105604ab0a9
+  ws-opts:
+    headers:
+      host: cx.ylks0033.dpdns.org
+    path: /?ed=2560
+- name: 🇺🇸_美国_105
+  network: ws
+  port: 443
+  server: www.ipget.net
+  servername: mc.ylks0033.dpdns.org
+  skip-cert-verify: true
+  tls: true
+  type: vless
+  udp: true
+  uuid: 06e4425e-a8cb-4b63-929f-2105604ab0a9
+  ws-opts:
+    headers:
+      host: mc.ylks0033.dpdns.org
+    path: /?ed=2560
+- name: 🇺🇸_美国_106
+  network: ws
+  port: 443
+  server: 172.67.49.134
+  servername: cx.ylks0033.dpdns.org
+  skip-cert-verify: true
+  tls: true
+  type: vless
+  udp: true
+  uuid: 06e4425e-a8cb-4b63-929f-2105604ab0a9
+  ws-opts:
+    headers:
+      host: cx.ylks0033.dpdns.org
+    path: /?ed=2560
+- name: 🇺🇸_美国_107
+  network: ws
+  port: 443
+  server: wilson.ns.cloudflare.com
+  servername: mc.ylks0033.dpdns.org
+  skip-cert-verify: true
+  tls: true
+  type: vless
+  udp: true
+  uuid: 06e4425e-a8cb-4b63-929f-2105604ab0a9
+  ws-opts:
+    headers:
+      host: mc.ylks0033.dpdns.org
+    path: /?ed=2560
+- name: 🇺🇸_美国_108
+  network: ws
+  port: 443
+  server: lewis.ns.cloudflare.com
+  servername: cx.ylks0033.dpdns.org
+  skip-cert-verify: true
+  tls: true
+  type: vless
+  udp: true
+  uuid: 06e4425e-a8cb-4b63-929f-2105604ab0a9
+  ws-opts:
+    headers:
+      host: cx.ylks0033.dpdns.org
+    path: /?ed=2560
+- name: 🇺🇸_美国_109
+  network: ws
+  port: 443
+  server: join.my.telegram.channel.cmliussss.to.unlock.more.premium.nodes.cf.090227.xyz
+  servername: cx.ylks0033.dpdns.org
+  skip-cert-verify: true
+  tls: true
+  type: vless
+  udp: true
+  uuid: 06e4425e-a8cb-4b63-929f-2105604ab0a9
+  ws-opts:
+    headers:
+      host: cx.ylks0033.dpdns.org
+    path: /?ed=2560
+- name: 🇺🇸_美国_110
+  network: ws
+  port: 443
+  server: whatismyipaddress.com
+  servername: cx.ylks0033.dpdns.org
+  skip-cert-verify: true
+  tls: true
+  type: vless
+  udp: true
+  uuid: 06e4425e-a8cb-4b63-929f-2105604ab0a9
+  ws-opts:
+    headers:
+      host: cx.ylks0033.dpdns.org
+    path: /?ed=2560
+- name: 🇺🇸_美国_111
+  network: ws
+  port: 443
+  server: 129.213.136.180
+  servername: cx.ylks0033.dpdns.org
+  skip-cert-verify: true
+  tls: true
+  type: vless
+  udp: true
+  uuid: 06e4425e-a8cb-4b63-929f-2105604ab0a9
+  ws-opts:
+    headers:
+      host: cx.ylks0033.dpdns.org
+    path: /?ed=2560
+- name: 🇺🇸_美国_112
+  network: ws
+  port: 443
+  server: iplocation.io
+  servername: mc.ylks0033.dpdns.org
+  skip-cert-verify: true
+  tls: true
+  type: vless
+  udp: true
+  uuid: 06e4425e-a8cb-4b63-929f-2105604ab0a9
+  ws-opts:
+    headers:
+      host: mc.ylks0033.dpdns.org
+    path: /?ed=2560
+- name: 🇺🇸_美国_113
+  network: ws
+  port: 443
+  server: trevor.ns.cloudflare.com
+  servername: mc.ylks0033.dpdns.org
+  skip-cert-verify: true
+  tls: true
+  type: vless
+  udp: true
+  uuid: 06e4425e-a8cb-4b63-929f-2105604ab0a9
+  ws-opts:
+    headers:
+      host: mc.ylks0033.dpdns.org
+    path: /?ed=2560
+- name: 🇺🇸_美国_114
+  network: ws
+  port: 443
+  server: whatismyipaddress.com
+  servername: mc.ylks0033.dpdns.org
+  skip-cert-verify: true
+  tls: true
+  type: vless
+  udp: true
+  uuid: 06e4425e-a8cb-4b63-929f-2105604ab0a9
+  ws-opts:
+    headers:
+      host: mc.ylks0033.dpdns.org
+    path: /?ed=2560
+- name: 🇺🇸_美国_115
+  network: ws
+  port: 2096
+  server: 104.17.128.1
+  servername: cx.ylks0033.dpdns.org
+  skip-cert-verify: true
+  tls: true
+  type: vless
+  udp: true
+  uuid: 06e4425e-a8cb-4b63-929f-2105604ab0a9
+  ws-opts:
+    headers:
+      host: cx.ylks0033.dpdns.org
+    path: /?ed=2560
+- name: 🇺🇸_美国_116
+  network: ws
+  port: 443
+  server: 172.67.110.232
+  servername: cx.ylks0033.dpdns.org
+  skip-cert-verify: true
+  tls: true
+  type: vless
+  udp: true
+  uuid: 06e4425e-a8cb-4b63-929f-2105604ab0a9
+  ws-opts:
+    headers:
+      host: cx.ylks0033.dpdns.org
+    path: /?ed=2560
+- name: 🇺🇸_美国_117
+  network: ws
+  port: 443
+  server: www.udemy.com
+  servername: mc.ylks0033.dpdns.org
+  skip-cert-verify: true
+  tls: true
+  type: vless
+  udp: true
+  uuid: 06e4425e-a8cb-4b63-929f-2105604ab0a9
+  ws-opts:
+    headers:
+      host: mc.ylks0033.dpdns.org
+    path: /?ed=2560
+- name: 🇺🇸_美国_118
+  network: ws
+  port: 443
+  server: time.is
+  servername: cx.ylks0033.dpdns.org
+  skip-cert-verify: true
+  tls: true
+  type: vless
+  udp: true
+  uuid: 06e4425e-a8cb-4b63-929f-2105604ab0a9
+  ws-opts:
+    headers:
+      host: cx.ylks0033.dpdns.org
+    path: /?ed=2560
+- name: 🇺🇸_美国_119
+  network: ws
+  port: 443
+  server: www.hugedomains.com
+  servername: cx.ylks0033.dpdns.org
+  skip-cert-verify: true
+  tls: true
+  type: vless
+  udp: true
+  uuid: 06e4425e-a8cb-4b63-929f-2105604ab0a9
+  ws-opts:
+    headers:
+      host: cx.ylks0033.dpdns.org
+    path: /?ed=2560
+- name: 🇺🇸_美国_120
+  network: ws
+  port: 443
+  server: dylan.ns.cloudflare.com
+  servername: mc.ylks0033.dpdns.org
+  skip-cert-verify: true
+  tls: true
+  type: vless
+  udp: true
+  uuid: 06e4425e-a8cb-4b63-929f-2105604ab0a9
+  ws-opts:
+    headers:
+      host: mc.ylks0033.dpdns.org
+    path: /?ed=2560
+- name: 🇺🇸_美国_121
+  network: ws
+  port: 443
+  server: 172.67.181.209
+  servername: cx.ylks0033.dpdns.org
+  skip-cert-verify: true
+  tls: true
+  type: vless
+  udp: true
+  uuid: 06e4425e-a8cb-4b63-929f-2105604ab0a9
+  ws-opts:
+    headers:
+      host: cx.ylks0033.dpdns.org
+    path: /?ed=2560
+- name: 🇺🇸_美国_122
+  network: ws
+  port: 443
+  server: moura.ns.cloudflare.com
+  servername: mc.ylks0033.dpdns.org
+  skip-cert-verify: true
+  tls: true
+  type: vless
+  udp: true
+  uuid: 06e4425e-a8cb-4b63-929f-2105604ab0a9
+  ws-opts:
+    headers:
+      host: mc.ylks0033.dpdns.org
+    path: /?ed=2560
+- name: 🇺🇸_美国_123
+  network: ws
+  port: 443
+  server: 162.159.152.205
+  servername: cx.ylks0033.dpdns.org
+  skip-cert-verify: true
+  tls: true
+  type: vless
+  udp: true
+  uuid: 06e4425e-a8cb-4b63-929f-2105604ab0a9
+  ws-opts:
+    headers:
+      host: cx.ylks0033.dpdns.org
+    path: /?ed=2560
+- name: 🇺🇸_美国_124
+  network: ws
+  port: 443
+  server: nikon.ns.cloudflare.com
+  servername: mc.ylks0033.dpdns.org
+  skip-cert-verify: true
+  tls: true
+  type: vless
+  udp: true
+  uuid: 06e4425e-a8cb-4b63-929f-2105604ab0a9
+  ws-opts:
+    headers:
+      host: mc.ylks0033.dpdns.org
+    path: /?ed=2560
+- name: 🇺🇸_美国_125
+  network: ws
+  port: 443
+  server: sullivan.ns.cloudflare.com
+  servername: cx.ylks0033.dpdns.org
+  skip-cert-verify: true
+  tls: true
+  type: vless
+  udp: true
+  uuid: 06e4425e-a8cb-4b63-929f-2105604ab0a9
+  ws-opts:
+    headers:
+      host: cx.ylks0033.dpdns.org
+    path: /?ed=2560
+- name: 🇺🇸_美国_126
+  network: ws
+  port: 443
+  server: 162.159.152.81
+  servername: mc.ylks0033.dpdns.org
+  skip-cert-verify: true
+  tls: true
+  type: vless
+  udp: true
+  uuid: 06e4425e-a8cb-4b63-929f-2105604ab0a9
+  ws-opts:
+    headers:
+      host: mc.ylks0033.dpdns.org
+    path: /?ed=2560
+- name: 🇺🇸_美国_127
+  network: ws
+  port: 443
+  server: www.okcupid.com
+  servername: mc.ylks0033.dpdns.org
+  skip-cert-verify: true
+  tls: true
+  type: vless
+  udp: true
+  uuid: 06e4425e-a8cb-4b63-929f-2105604ab0a9
+  ws-opts:
+    headers:
+      host: mc.ylks0033.dpdns.org
+    path: /?ed=2560
+- name: 🇺🇸_美国_128
+  network: ws
+  port: 443
+  server: lewis.ns.cloudflare.com
+  servername: mc.ylks0033.dpdns.org
+  skip-cert-verify: true
+  tls: true
+  type: vless
+  udp: true
+  uuid: 06e4425e-a8cb-4b63-929f-2105604ab0a9
+  ws-opts:
+    headers:
+      host: mc.ylks0033.dpdns.org
+    path: /?ed=2560
+- name: 🇺🇸_美国_129
+  network: ws
+  port: 443
+  server: wilson.ns.cloudflare.com
+  servername: cx.ylks0033.dpdns.org
+  skip-cert-verify: true
+  tls: true
+  type: vless
+  udp: true
+  uuid: 06e4425e-a8cb-4b63-929f-2105604ab0a9
+  ws-opts:
+    headers:
+      host: cx.ylks0033.dpdns.org
+    path: /?ed=2560
+- name: 🇺🇸_美国_130
+  network: ws
+  port: 443
+  server: nikon.ns.cloudflare.com
+  servername: cx.ylks0033.dpdns.org
+  skip-cert-verify: true
+  tls: true
+  type: vless
+  udp: true
+  uuid: 06e4425e-a8cb-4b63-929f-2105604ab0a9
+  ws-opts:
+    headers:
+      host: cx.ylks0033.dpdns.org
+    path: /?ed=2560
+- name: 🇺🇸_美国_131
+  network: ws
+  port: 443
+  server: 162.159.152.155
+  servername: cx.ylks0033.dpdns.org
+  skip-cert-verify: true
+  tls: true
+  type: vless
+  udp: true
+  uuid: 06e4425e-a8cb-4b63-929f-2105604ab0a9
+  ws-opts:
+    headers:
+      host: cx.ylks0033.dpdns.org
+    path: /?ed=2560
+- name: 🇺🇸_美国_132
+  network: ws
+  port: 443
+  server: 162.159.152.225
+  servername: mc.ylks0033.dpdns.org
+  skip-cert-verify: true
+  tls: true
+  type: vless
+  udp: true
+  uuid: 06e4425e-a8cb-4b63-929f-2105604ab0a9
+  ws-opts:
+    headers:
+      host: mc.ylks0033.dpdns.org
+    path: /?ed=2560
+- name: 🇺🇸_美国_133
+  network: ws
+  port: 443
+  server: 104.16.249.115
+  servername: mc.ylks0033.dpdns.org
+  skip-cert-verify: true
+  tls: true
+  type: vless
+  udp: true
+  uuid: 06e4425e-a8cb-4b63-929f-2105604ab0a9
+  ws-opts:
+    headers:
+      host: mc.ylks0033.dpdns.org
+    path: /?ed=2560
+- name: 🇺🇸_美国_134
+  network: ws
+  port: 443
+  server: 104.18.83.92
+  servername: cx.ylks0033.dpdns.org
+  skip-cert-verify: true
+  tls: true
+  type: vless
+  udp: true
+  uuid: 06e4425e-a8cb-4b63-929f-2105604ab0a9
+  ws-opts:
+    headers:
+      host: cx.ylks0033.dpdns.org
+    path: /?ed=2560
+- name: 🇺🇸_美国_135
+  network: ws
+  port: 443
+  server: 104.16.246.173
+  servername: cx.ylks0033.dpdns.org
+  skip-cert-verify: true
+  tls: true
+  type: vless
+  udp: true
+  uuid: 06e4425e-a8cb-4b63-929f-2105604ab0a9
+  ws-opts:
+    headers:
+      host: cx.ylks0033.dpdns.org
+    path: /?ed=2560
+- name: 🇺🇸_美国_136
+  network: ws
+  port: 443
+  server: www.udemy.com
+  servername: cx.ylks0033.dpdns.org
+  skip-cert-verify: true
+  tls: true
+  type: vless
+  udp: true
+  uuid: 06e4425e-a8cb-4b63-929f-2105604ab0a9
+  ws-opts:
+    headers:
+      host: cx.ylks0033.dpdns.org
+    path: /?ed=2560
+- name: 🇺🇸_美国_137
+  network: ws
+  port: 443
+  server: 198.62.62.156
+  servername: cx.ylks0033.dpdns.org
+  skip-cert-verify: true
+  tls: true
+  type: vless
+  udp: true
+  uuid: 06e4425e-a8cb-4b63-929f-2105604ab0a9
+  ws-opts:
+    headers:
+      host: cx.ylks0033.dpdns.org
+    path: /?ed=2560
+- name: 🇺🇸_美国_138
+  network: ws
+  port: 443
+  server: braden.ns.cloudflare.com
+  servername: mc.ylks0033.dpdns.org
+  skip-cert-verify: true
+  tls: true
+  type: vless
+  udp: true
+  uuid: 06e4425e-a8cb-4b63-929f-2105604ab0a9
+  ws-opts:
+    headers:
+      host: mc.ylks0033.dpdns.org
+    path: /?ed=2560
+- name: 🇺🇸_美国_139
+  network: ws
+  port: 443
+  server: 162.159.153.212
+  servername: mc.ylks0033.dpdns.org
+  skip-cert-verify: true
+  tls: true
+  type: vless
+  udp: true
+  uuid: 06e4425e-a8cb-4b63-929f-2105604ab0a9
+  ws-opts:
+    headers:
+      host: mc.ylks0033.dpdns.org
+    path: /?ed=2560
+- name: 🇩🇰_丹麦_2
+  network: ws
+  port: 443
+  server: www.csgo.com
+  servername: cx.ylks0033.dpdns.org
+  skip-cert-verify: true
+  tls: true
+  type: vless
+  udp: true
+  uuid: 06e4425e-a8cb-4b63-929f-2105604ab0a9
+  ws-opts:
+    headers:
+      host: cx.ylks0033.dpdns.org
+    path: /?ed=2560
+- name: 🇺🇸_美国_140
+  network: ws
+  port: 2087
+  server: 104.25.254.4
+  servername: mc.ylks0033.dpdns.org
+  skip-cert-verify: true
+  tls: true
+  type: vless
+  udp: true
+  uuid: 06e4425e-a8cb-4b63-929f-2105604ab0a9
+  ws-opts:
+    headers:
+      host: mc.ylks0033.dpdns.org
+    path: /?ed=2560
+- name: 🇺🇸_美国_141
+  network: ws
+  port: 443
+  server: icook.hk
+  servername: cx.ylks0033.dpdns.org
+  skip-cert-verify: true
+  tls: true
+  type: vless
+  udp: true
+  uuid: 06e4425e-a8cb-4b63-929f-2105604ab0a9
+  ws-opts:
+    headers:
+      host: cx.ylks0033.dpdns.org
+    path: /?ed=2560
+- name: 🇺🇸_美国_142
+  network: ws
+  port: 443
+  server: sullivan.ns.cloudflare.com
+  servername: mc.ylks0033.dpdns.org
+  skip-cert-verify: true
+  tls: true
+  type: vless
+  udp: true
+  uuid: 06e4425e-a8cb-4b63-929f-2105604ab0a9
+  ws-opts:
+    headers:
+      host: mc.ylks0033.dpdns.org
+    path: /?ed=2560
+- name: 🇺🇸_美国_143
+  network: ws
+  port: 2053
+  server: 162.159.129.11
+  servername: mc.ylks0033.dpdns.org
+  skip-cert-verify: true
+  tls: true
+  type: vless
+  udp: true
+  uuid: 06e4425e-a8cb-4b63-929f-2105604ab0a9
+  ws-opts:
+    headers:
+      host: mc.ylks0033.dpdns.org
+    path: /?ed=2560
+- name: 🇺🇸_美国_144
+  network: ws
+  port: 443
+  server: 172.67.106.26
+  servername: cx.ylks0033.dpdns.org
+  skip-cert-verify: true
+  tls: true
+  type: vless
+  udp: true
+  uuid: 06e4425e-a8cb-4b63-929f-2105604ab0a9
+  ws-opts:
+    headers:
+      host: cx.ylks0033.dpdns.org
+    path: /?ed=2560
+- name: 🇨🇭_瑞士_1
+  network: ws
+  port: 443
+  server: 140.238.212.95
+  servername: mc.ylks0033.dpdns.org
+  skip-cert-verify: true
+  tls: true
+  type: vless
+  udp: true
+  uuid: 06e4425e-a8cb-4b63-929f-2105604ab0a9
+  ws-opts:
+    headers:
+      host: mc.ylks0033.dpdns.org
+    path: /?ed=2560
+- name: 🇺🇸_美国_145
+  network: ws
+  port: 443
+  server: www.glassdoor.com
+  servername: mc.ylks0033.dpdns.org
+  skip-cert-verify: true
+  tls: true
+  type: vless
+  udp: true
+  uuid: 06e4425e-a8cb-4b63-929f-2105604ab0a9
+  ws-opts:
+    headers:
+      host: mc.ylks0033.dpdns.org
+    path: /?ed=2560
+- name: 🇺🇸_美国_146
+  network: ws
+  port: 443
+  server: 104.17.219.208
+  servername: mc.ylks0033.dpdns.org
+  skip-cert-verify: true
+  tls: true
+  type: vless
+  udp: true
+  uuid: 06e4425e-a8cb-4b63-929f-2105604ab0a9
+  ws-opts:
+    headers:
+      host: mc.ylks0033.dpdns.org
+    path: /?ed=2560
+- name: 🇺🇸_美国_147
+  network: ws
+  port: 443
+  server: 104.17.142.12
+  servername: mc.ylks0033.dpdns.org
+  skip-cert-verify: true
+  tls: true
+  type: vless
+  udp: true
+  uuid: 06e4425e-a8cb-4b63-929f-2105604ab0a9
+  ws-opts:
+    headers:
+      host: mc.ylks0033.dpdns.org
+    path: /?ed=2560
+- name: 🇺🇸_美国_148
+  network: ws
+  port: 443
+  server: 162.159.152.53
+  servername: mc.ylks0033.dpdns.org
+  skip-cert-verify: true
+  tls: true
+  type: vless
+  udp: true
+  uuid: 06e4425e-a8cb-4b63-929f-2105604ab0a9
+  ws-opts:
+    headers:
+      host: mc.ylks0033.dpdns.org
+    path: /?ed=2560
+- name: 🇺🇸_美国_149
+  network: ws
+  port: 443
+  server: www.iakeys.com
+  servername: mc.ylks0033.dpdns.org
+  skip-cert-verify: true
+  tls: true
+  type: vless
+  udp: true
+  uuid: 06e4425e-a8cb-4b63-929f-2105604ab0a9
+  ws-opts:
+    headers:
+      host: mc.ylks0033.dpdns.org
+    path: /?ed=2560
+- name: 🇺🇸_美国_150
+  network: ws
+  port: 443
+  server: shopify.com
+  servername: cx.ylks0033.dpdns.org
+  skip-cert-verify: true
+  tls: true
+  type: vless
+  udp: true
+  uuid: 06e4425e-a8cb-4b63-929f-2105604ab0a9
+  ws-opts:
+    headers:
+      host: cx.ylks0033.dpdns.org
+    path: /?ed=2560
+- name: 🇺🇸_美国_151
+  network: ws
+  port: 443
+  server: dylan.ns.cloudflare.com
+  servername: cx.ylks0033.dpdns.org
+  skip-cert-verify: true
+  tls: true
+  type: vless
+  udp: true
+  uuid: 06e4425e-a8cb-4b63-929f-2105604ab0a9
+  ws-opts:
+    headers:
+      host: cx.ylks0033.dpdns.org
+    path: /?ed=2560
+- name: 🇺🇸_美国_152
+  network: ws
+  port: 443
+  server: decker.ns.cloudflare.com
+  servername: mc.ylks0033.dpdns.org
+  skip-cert-verify: true
+  tls: true
+  type: vless
+  udp: true
+  uuid: 06e4425e-a8cb-4b63-929f-2105604ab0a9
+  ws-opts:
+    headers:
+      host: mc.ylks0033.dpdns.org
+    path: /?ed=2560
+- name: 🇺🇸_美国_153
+  network: ws
+  port: 443
+  server: 162.159.133.85
+  servername: cx.ylks0033.dpdns.org
+  skip-cert-verify: true
+  tls: true
+  type: vless
+  udp: true
+  uuid: 06e4425e-a8cb-4b63-929f-2105604ab0a9
+  ws-opts:
+    headers:
+      host: cx.ylks0033.dpdns.org
+    path: /?ed=2560
+- name: 🇺🇸_美国_154
+  network: ws
+  port: 443
+  server: 104.17.104.243
+  servername: cx.ylks0033.dpdns.org
+  skip-cert-verify: true
+  tls: true
+  type: vless
+  udp: true
+  uuid: 06e4425e-a8cb-4b63-929f-2105604ab0a9
+  ws-opts:
+    headers:
+      host: cx.ylks0033.dpdns.org
+    path: /?ed=2560
+- name: 🇺🇸_美国_155
+  network: ws
+  port: 443
+  server: 104.17.110.70
+  servername: cx.ylks0033.dpdns.org
+  skip-cert-verify: true
+  tls: true
+  type: vless
+  udp: true
+  uuid: 06e4425e-a8cb-4b63-929f-2105604ab0a9
+  ws-opts:
+    headers:
+      host: cx.ylks0033.dpdns.org
+    path: /?ed=2560
+- name: 🇺🇸_美国_156
+  network: ws
+  port: 443
+  server: 162.159.152.225
+  servername: cx.ylks0033.dpdns.org
+  skip-cert-verify: true
+  tls: true
+  type: vless
+  udp: true
+  uuid: 06e4425e-a8cb-4b63-929f-2105604ab0a9
+  ws-opts:
+    headers:
+      host: cx.ylks0033.dpdns.org
+    path: /?ed=2560
+- name: 🇺🇸_美国_157
+  network: ws
+  port: 443
+  server: 162.159.153.194
+  servername: mc.ylks0033.dpdns.org
+  skip-cert-verify: true
+  tls: true
+  type: vless
+  udp: true
+  uuid: 06e4425e-a8cb-4b63-929f-2105604ab0a9
+  ws-opts:
+    headers:
+      host: mc.ylks0033.dpdns.org
+    path: /?ed=2560
+- name: 🇺🇸_美国_158
+  network: ws
+  port: 443
+  server: www.digitalocean.com
+  servername: mc.ylks0033.dpdns.org
+  skip-cert-verify: true
+  tls: true
+  type: vless
+  udp: true
+  uuid: 06e4425e-a8cb-4b63-929f-2105604ab0a9
+  ws-opts:
+    headers:
+      host: mc.ylks0033.dpdns.org
+    path: /?ed=2560
+- name: 🇺🇸_美国_159
+  network: ws
+  port: 443
+  server: www.wto.org
+  servername: cx.ylks0033.dpdns.org
+  skip-cert-verify: true
+  tls: true
+  type: vless
+  udp: true
+  uuid: 06e4425e-a8cb-4b63-929f-2105604ab0a9
+  ws-opts:
+    headers:
+      host: cx.ylks0033.dpdns.org
+    path: /?ed=2560
+- name: 🏳️_未知_1
+  network: ws
+  port: 443
+  server: 103.160.204.59
+  servername: cx.ylks0033.dpdns.org
+  skip-cert-verify: true
+  tls: true
+  type: vless
+  udp: true
+  uuid: 06e4425e-a8cb-4b63-929f-2105604ab0a9
+  ws-opts:
+    headers:
+      host: cx.ylks0033.dpdns.org
+    path: /?ed=2560
+- name: 🇺🇸_美国_160
+  network: ws
+  port: 443
+  server: 162.159.153.42
+  servername: cx.ylks0033.dpdns.org
+  skip-cert-verify: true
+  tls: true
+  type: vless
+  udp: true
+  uuid: 06e4425e-a8cb-4b63-929f-2105604ab0a9
+  ws-opts:
+    headers:
+      host: cx.ylks0033.dpdns.org
+    path: /?ed=2560
+- name: 🇺🇸_美国_161
+  network: ws
+  port: 443
+  server: join.my.telegram.channel.cmliussss.to.unlock.more.premium.nodes.cf.090227.xyz
+  servername: mc.ylks0033.dpdns.org
+  skip-cert-verify: true
+  tls: true
+  type: vless
+  udp: true
+  uuid: 06e4425e-a8cb-4b63-929f-2105604ab0a9
+  ws-opts:
+    headers:
+      host: mc.ylks0033.dpdns.org
+    path: /?ed=2560
+- name: 🇺🇸_美国_162
+  network: ws
+  port: 443
+  server: craig.ns.cloudflare.com
+  servername: mc.ylks0033.dpdns.org
+  skip-cert-verify: true
+  tls: true
+  type: vless
+  udp: true
+  uuid: 06e4425e-a8cb-4b63-929f-2105604ab0a9
+  ws-opts:
+    headers:
+      host: mc.ylks0033.dpdns.org
+    path: /?ed=2560
+- name: 🇺🇸_美国_163
+  network: ws
+  port: 443
+  server: 104.19.145.14
+  servername: cx.ylks0033.dpdns.org
+  skip-cert-verify: true
+  tls: true
+  type: vless
+  udp: true
+  uuid: 06e4425e-a8cb-4b63-929f-2105604ab0a9
+  ws-opts:
+    headers:
+      host: cx.ylks0033.dpdns.org
+    path: /?ed=2560
+- name: 🇺🇸_美国_164
+  network: ws
+  port: 443
+  server: icook.hk
+  servername: mc.ylks0033.dpdns.org
+  skip-cert-verify: true
+  tls: true
+  type: vless
+  udp: true
+  uuid: 06e4425e-a8cb-4b63-929f-2105604ab0a9
+  ws-opts:
+    headers:
+      host: mc.ylks0033.dpdns.org
+    path: /?ed=2560
+- name: 🇺🇸_美国_165
+  network: ws
+  port: 443
+  server: abdullah.ns.cloudflare.com
+  servername: cx.ylks0033.dpdns.org
+  skip-cert-verify: true
+  tls: true
+  type: vless
+  udp: true
+  uuid: 06e4425e-a8cb-4b63-929f-2105604ab0a9
+  ws-opts:
+    headers:
+      host: cx.ylks0033.dpdns.org
+    path: /?ed=2560
+- name: 🇺🇸_美国_166
+  network: ws
+  port: 443
+  server: julio.ns.cloudflare.com
+  servername: cx.ylks0033.dpdns.org
+  skip-cert-verify: true
+  tls: true
+  type: vless
+  udp: true
+  uuid: 06e4425e-a8cb-4b63-929f-2105604ab0a9
+  ws-opts:
+    headers:
+      host: cx.ylks0033.dpdns.org
+    path: /?ed=2560
+- name: 🇺🇸_美国_167
+  network: ws
+  port: 443
+  server: www.pcmag.com
+  servername: cx.ylks0033.dpdns.org
+  skip-cert-verify: true
+  tls: true
+  type: vless
+  udp: true
+  uuid: 06e4425e-a8cb-4b63-929f-2105604ab0a9
+  ws-opts:
+    headers:
+      host: cx.ylks0033.dpdns.org
+    path: /?ed=2560
+- name: 🇺🇸_美国_168
+  network: ws
+  port: 443
+  server: ashton.ns.cloudflare.com
+  servername: cx.ylks0033.dpdns.org
+  skip-cert-verify: true
+  tls: true
+  type: vless
+  udp: true
+  uuid: 06e4425e-a8cb-4b63-929f-2105604ab0a9
+  ws-opts:
+    headers:
+      host: cx.ylks0033.dpdns.org
+    path: /?ed=2560
+- name: 🇺🇸_美国_169
+  network: ws
+  port: 443
+  server: benedict.ns.cloudflare.com
+  servername: mc.ylks0033.dpdns.org
+  skip-cert-verify: true
+  tls: true
+  type: vless
+  udp: true
+  uuid: 06e4425e-a8cb-4b63-929f-2105604ab0a9
+  ws-opts:
+    headers:
+      host: mc.ylks0033.dpdns.org
+    path: /?ed=2560
+- name: 🇺🇸_美国_170
+  network: ws
+  port: 443
+  server: bowen.ns.cloudflare.com
+  servername: mc.ylks0033.dpdns.org
+  skip-cert-verify: true
+  tls: true
+  type: vless
+  udp: true
+  uuid: 06e4425e-a8cb-4b63-929f-2105604ab0a9
+  ws-opts:
+    headers:
+      host: mc.ylks0033.dpdns.org
+    path: /?ed=2560
+- name: 🇺🇸_美国_171
+  network: ws
+  port: 443
+  server: 162.159.153.239
+  servername: cx.ylks0033.dpdns.org
+  skip-cert-verify: true
+  tls: true
+  type: vless
+  udp: true
+  uuid: 06e4425e-a8cb-4b63-929f-2105604ab0a9
+  ws-opts:
+    headers:
+      host: cx.ylks0033.dpdns.org
+    path: /?ed=2560
+- name: 🇺🇸_美国_172
+  network: ws
+  port: 443
+  server: pranab.ns.cloudflare.com
+  servername: cx.ylks0033.dpdns.org
+  skip-cert-verify: true
+  tls: true
+  type: vless
+  udp: true
+  uuid: 06e4425e-a8cb-4b63-929f-2105604ab0a9
+  ws-opts:
+    headers:
+      host: cx.ylks0033.dpdns.org
+    path: /?ed=2560
+- name: 🇺🇸_美国_173
+  network: ws
+  port: 443
+  server: tasteatlas.com
+  servername: mc.ylks0033.dpdns.org
+  skip-cert-verify: true
+  tls: true
+  type: vless
+  udp: true
+  uuid: 06e4425e-a8cb-4b63-929f-2105604ab0a9
+  ws-opts:
+    headers:
+      host: mc.ylks0033.dpdns.org
+    path: /?ed=2560
+- name: 🇺🇸_美国_174
+  network: ws
+  port: 443
+  server: huxley.ns.cloudflare.com
+  servername: mc.ylks0033.dpdns.org
+  skip-cert-verify: true
+  tls: true
+  type: vless
+  udp: true
+  uuid: 06e4425e-a8cb-4b63-929f-2105604ab0a9
+  ws-opts:
+    headers:
+      host: mc.ylks0033.dpdns.org
+    path: /?ed=2560
+- name: 🇺🇸_美国_175
+  network: ws
+  port: 443
+  server: trevor.ns.cloudflare.com
+  servername: cx.ylks0033.dpdns.org
+  skip-cert-verify: true
+  tls: true
+  type: vless
+  udp: true
+  uuid: 06e4425e-a8cb-4b63-929f-2105604ab0a9
+  ws-opts:
+    headers:
+      host: cx.ylks0033.dpdns.org
+    path: /?ed=2560
+- name: 🇺🇸_美国_176
+  network: ws
+  port: 443
+  server: 104.17.223.37
+  servername: mc.ylks0033.dpdns.org
+  skip-cert-verify: true
+  tls: true
+  type: vless
+  udp: true
+  uuid: 06e4425e-a8cb-4b63-929f-2105604ab0a9
+  ws-opts:
+    headers:
+      host: mc.ylks0033.dpdns.org
+    path: /?ed=2560
+- name: 🇺🇸_美国_177
+  network: ws
+  port: 443
+  server: 129.213.130.70
+  servername: cx.ylks0033.dpdns.org
+  skip-cert-verify: true
+  tls: true
+  type: vless
+  udp: true
+  uuid: 06e4425e-a8cb-4b63-929f-2105604ab0a9
+  ws-opts:
+    headers:
+      host: cx.ylks0033.dpdns.org
+    path: /?ed=2560
+- name: 🇺🇸_美国_178
+  network: ws
+  port: 443
+  server: www.whatismyip.com
+  servername: cx.ylks0033.dpdns.org
+  skip-cert-verify: true
+  tls: true
+  type: vless
+  udp: true
+  uuid: 06e4425e-a8cb-4b63-929f-2105604ab0a9
+  ws-opts:
+    headers:
+      host: cx.ylks0033.dpdns.org
+    path: /?ed=2560
+- name: 🇺🇸_美国_179
+  network: ws
+  port: 443
+  server: 162.159.153.144
+  servername: mc.ylks0033.dpdns.org
+  skip-cert-verify: true
+  tls: true
+  type: vless
+  udp: true
+  uuid: 06e4425e-a8cb-4b63-929f-2105604ab0a9
+  ws-opts:
+    headers:
+      host: mc.ylks0033.dpdns.org
+    path: /?ed=2560
+- name: 🇺🇸_美国_180
+  network: ws
+  port: 2053
+  server: 162.159.129.11
+  servername: cx.ylks0033.dpdns.org
+  skip-cert-verify: true
+  tls: true
+  type: vless
+  udp: true
+  uuid: 06e4425e-a8cb-4b63-929f-2105604ab0a9
+  ws-opts:
+    headers:
+      host: cx.ylks0033.dpdns.org
+    path: /?ed=2560
+- name: 🇺🇸_美国_181
+  network: ws
+  port: 443
+  server: 104.17.71.31
+  servername: cx.ylks0033.dpdns.org
+  skip-cert-verify: true
+  tls: true
+  type: vless
+  udp: true
+  uuid: 06e4425e-a8cb-4b63-929f-2105604ab0a9
+  ws-opts:
+    headers:
+      host: cx.ylks0033.dpdns.org
+    path: /?ed=2560
+- name: 🇺🇸_美国_182
+  network: ws
+  port: 443
+  server: 162.159.153.144
+  servername: cx.ylks0033.dpdns.org
+  skip-cert-verify: true
+  tls: true
+  type: vless
+  udp: true
+  uuid: 06e4425e-a8cb-4b63-929f-2105604ab0a9
+  ws-opts:
+    headers:
+      host: cx.ylks0033.dpdns.org
+    path: /?ed=2560
+- name: 🇺🇸_美国_183
+  network: ws
+  port: 443
+  server: cris.ns.cloudflare.com
+  servername: mc.ylks0033.dpdns.org
+  skip-cert-verify: true
+  tls: true
+  type: vless
+  udp: true
+  uuid: 06e4425e-a8cb-4b63-929f-2105604ab0a9
+  ws-opts:
+    headers:
+      host: mc.ylks0033.dpdns.org
+    path: /?ed=2560
+- name: 🇺🇸_美国_184
+  network: ws
+  port: 443
+  server: 129.213.130.70
+  servername: mc.ylks0033.dpdns.org
+  skip-cert-verify: true
+  tls: true
+  type: vless
+  udp: true
+  uuid: 06e4425e-a8cb-4b63-929f-2105604ab0a9
+  ws-opts:
+    headers:
+      host: mc.ylks0033.dpdns.org
+    path: /?ed=2560
+- name: 🇺🇸_美国_185
+  network: ws
+  port: 443
+  server: 129.213.136.180
+  servername: mc.ylks0033.dpdns.org
+  skip-cert-verify: true
+  tls: true
+  type: vless
+  udp: true
+  uuid: 06e4425e-a8cb-4b63-929f-2105604ab0a9
+  ws-opts:
+    headers:
+      host: mc.ylks0033.dpdns.org
+    path: /?ed=2560
+- name: 🇺🇸_美国_186
+  network: ws
+  port: 443
+  server: 162.159.153.239
+  servername: mc.ylks0033.dpdns.org
+  skip-cert-verify: true
+  tls: true
+  type: vless
+  udp: true
+  uuid: 06e4425e-a8cb-4b63-929f-2105604ab0a9
+  ws-opts:
+    headers:
+      host: mc.ylks0033.dpdns.org
+    path: /?ed=2560
+- name: 🏳️_未知_2
+  network: ws
+  port: 443
+  server: 103.160.204.59
+  servername: mc.ylks0033.dpdns.org
+  skip-cert-verify: true
+  tls: true
+  type: vless
+  udp: true
+  uuid: 06e4425e-a8cb-4b63-929f-2105604ab0a9
+  ws-opts:
+    headers:
+      host: mc.ylks0033.dpdns.org
+    path: /?ed=2560
+- name: 🇺🇸_美国_187
+  network: ws
+  port: 443
+  server: icook.tw
+  servername: mc.ylks0033.dpdns.org
+  skip-cert-verify: true
+  tls: true
+  type: vless
+  udp: true
+  uuid: 06e4425e-a8cb-4b63-929f-2105604ab0a9
+  ws-opts:
+    headers:
+      host: mc.ylks0033.dpdns.org
+    path: /?ed=2560
+- name: 🇺🇸_美国_188
+  network: ws
+  port: 443
+  server: www.hugedomains.com
+  servername: mc.ylks0033.dpdns.org
+  skip-cert-verify: true
+  tls: true
+  type: vless
+  udp: true
+  uuid: 06e4425e-a8cb-4b63-929f-2105604ab0a9
+  ws-opts:
+    headers:
+      host: mc.ylks0033.dpdns.org
+    path: /?ed=2560
+- name: 🇺🇸_美国_189
+  network: ws
+  port: 443
+  server: uriah.ns.cloudflare.com
+  servername: cx.ylks0033.dpdns.org
+  skip-cert-verify: true
+  tls: true
+  type: vless
+  udp: true
+  uuid: 06e4425e-a8cb-4b63-929f-2105604ab0a9
+  ws-opts:
+    headers:
+      host: cx.ylks0033.dpdns.org
+    path: /?ed=2560
+- name: 🇺🇸_美国_190
+  network: ws
+  port: 443
+  server: iplocation.io
+  servername: cx.ylks0033.dpdns.org
+  skip-cert-verify: true
+  tls: true
+  type: vless
+  udp: true
+  uuid: 06e4425e-a8cb-4b63-929f-2105604ab0a9
+  ws-opts:
+    headers:
+      host: cx.ylks0033.dpdns.org
+    path: /?ed=2560
+- name: 🇺🇸_美国_191
+  network: ws
+  port: 443
+  server: moura.ns.cloudflare.com
+  servername: cx.ylks0033.dpdns.org
+  skip-cert-verify: true
+  tls: true
+  type: vless
+  udp: true
+  uuid: 06e4425e-a8cb-4b63-929f-2105604ab0a9
+  ws-opts:
+    headers:
+      host: cx.ylks0033.dpdns.org
+    path: /?ed=2560
+- name: 🇳🇱_荷兰_2
+  network: ws
+  port: 443
+  server: 158.101.214.54
+  servername: cx.ylks0033.dpdns.org
+  skip-cert-verify: true
+  tls: true
+  type: vless
+  udp: true
+  uuid: 06e4425e-a8cb-4b63-929f-2105604ab0a9
+  ws-opts:
+    headers:
+      host: cx.ylks0033.dpdns.org
+    path: /?ed=2560
+- name: 🇺🇸_美国_192
+  network: ws
+  port: 443
+  server: 172.67.181.209
+  servername: mc.ylks0033.dpdns.org
+  skip-cert-verify: true
+  tls: true
+  type: vless
+  udp: true
+  uuid: 06e4425e-a8cb-4b63-929f-2105604ab0a9
+  ws-opts:
+    headers:
+      host: mc.ylks0033.dpdns.org
+    path: /?ed=2560
+- name: 🇺🇸_美国_193
+  network: ws
+  port: 443
+  server: 172.67.110.232
+  servername: mc.ylks0033.dpdns.org
+  skip-cert-verify: true
+  tls: true
+  type: vless
+  udp: true
+  uuid: 06e4425e-a8cb-4b63-929f-2105604ab0a9
+  ws-opts:
+    headers:
+      host: mc.ylks0033.dpdns.org
+    path: /?ed=2560
+- name: 🇨🇭_瑞士_2
+  network: ws
+  port: 443
+  server: 140.238.212.95
+  servername: cx.ylks0033.dpdns.org
+  skip-cert-verify: true
+  tls: true
+  type: vless
+  udp: true
+  uuid: 06e4425e-a8cb-4b63-929f-2105604ab0a9
+  ws-opts:
+    headers:
+      host: cx.ylks0033.dpdns.org
+    path: /?ed=2560
+- name: 🇺🇸_美国_194
+  network: ws
+  port: 443
+  server: 162.159.133.85
+  servername: mc.ylks0033.dpdns.org
+  skip-cert-verify: true
+  tls: true
+  type: vless
+  udp: true
+  uuid: 06e4425e-a8cb-4b63-929f-2105604ab0a9
+  ws-opts:
+    headers:
+      host: mc.ylks0033.dpdns.org
+    path: /?ed=2560
+- name: 🇨🇦_加拿大
+  network: ws
+  port: 443
+  server: 140.238.158.238
+  servername: cx.ylks0033.dpdns.org
+  skip-cert-verify: true
+  tls: true
+  type: vless
+  udp: true
+  uuid: 06e4425e-a8cb-4b63-929f-2105604ab0a9
+  ws-opts:
+    headers:
+      host: cx.ylks0033.dpdns.org
+    path: /?ed=2560
+- name: 🇺🇸_美国_195
+  network: ws
+  port: 443
+  server: 150.136.87.192
+  servername: cx.ylks0033.dpdns.org
+  skip-cert-verify: true
+  tls: true
+  type: vless
+  udp: true
+  uuid: 06e4425e-a8cb-4b63-929f-2105604ab0a9
+  ws-opts:
+    headers:
+      host: cx.ylks0033.dpdns.org
+    path: /?ed=2560
+- name: 🇺🇸_美国_196
+  network: ws
+  port: 443
+  server: 172.67.95.24
+  servername: mc.ylks0033.dpdns.org
+  skip-cert-verify: true
+  tls: true
+  type: vless
+  udp: true
+  uuid: 06e4425e-a8cb-4b63-929f-2105604ab0a9
+  ws-opts:
+    headers:
+      host: mc.ylks0033.dpdns.org
+    path: /?ed=2560
+- alterId: '0'
+  cipher: auto
+  name: 🇨🇳_中国_2
+  network: ws
+  port: '80'
+  server: hyttttesgvvxb2.jkhkgj.xyz
+  type: vmess
+  uuid: e15ac3ce-6a1a-412a-aa07-4bc52daa5935
+  ws-opts:
+    headers:
+      host: file.dingtalk.com
+    path: /market/jp1?ed=512
 - alterId: '2'
   cipher: auto
   name: 🇨🇳_中国_3
+  network: ws
+  port: '30833'
+  server: v33.heduian.link
+  type: vmess
+  uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
+  ws-opts:
+    headers:
+      host: v33.heduian.link
+    path: /oooo
+- name: 🇺🇸_美国_197
+  network: ws
+  port: 80
+  server: 104.16.53.11
+  servername: dETeRMiNeD-COuRT.oneEaT.CO
+  skip-cert-verify: true
+  tls: true
+  type: vless
+  udp: true
+  uuid: 9fc94683-42be-4c44-9525-096f675965db
+  ws-opts:
+    headers:
+      host: dETeRMiNeD-COuRT.oneEaT.CO
+    path: /?ed
+- alterId: '2'
+  cipher: auto
+  name: 🇨🇳_中国_4
   network: ws
   port: '30805'
   server: v5.heduian.link
@@ -2039,688 +2994,6 @@ proxies:
     headers:
       host: v5.heduian.link
     path: /oooo
-- alterId: '2'
-  cipher: auto
-  name: 🇨🇳_中国_4
-  network: ws
-  port: '30808'
-  server: v8.heduian.link
-  type: vmess
-  uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
-  ws-opts:
-    headers:
-      host: v8.heduian.link
-    path: /oooo
-- alterId: '2'
-  cipher: auto
-  name: 🇨🇳_中国_5
-  network: ws
-  port: '30808'
-  server: v8.heduian.link
-  type: vmess
-  uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
-  ws-opts:
-    headers:
-      host: v8.heduian.link
-    path: /oooo
-- name: 🇯🇵_日本_60
-  network: ws
-  port: 8880
-  server: 91.193.58.69
-  servername: kjgx.laoyoutiao.link
-  skip-cert-verify: true
-  tls: true
-  type: vless
-  udp: true
-  uuid: fab7bf9c-ddb9-4563-8a04-fb01ce6c0fbf
-  ws-opts:
-    headers:
-      host: kjgx.laoyoutiao.link
-    path: telegram@wangcai2/?ed=2560
-- name: 🇺🇸_美国_35
-  network: ws
-  port: 443
-  server: web.ndeso.xyz
-  servername: web.ndeso.xyz
-  skip-cert-verify: true
-  tls: true
-  type: vless
-  udp: true
-  uuid: aaaaaaa1-bbbb-4ccc-accc-eeeeeeeeeee1
-  ws-opts:
-    headers:
-      host: web.ndeso.xyz
-    path: /free-cf-proxy-au8
-- name: 🇺🇸_美国_36
-  network: ws
-  port: 8880
-  server: 147.185.161.186
-  servername: Telegram-channel-WangCai2
-  skip-cert-verify: true
-  tls: true
-  type: vless
-  udp: true
-  uuid: 583ceab3-4022-4553-9158-9bedc625ad4e
-  ws-opts:
-    headers:
-      host: Telegram-channel-WangCai2
-    path: /
-- name: 🇱🇹_立陶宛_9
-  network: ws
-  port: 8880
-  server: 185.148.107.168
-  servername: kjgx.laoyoutiao.link
-  skip-cert-verify: true
-  tls: true
-  type: vless
-  udp: true
-  uuid: fab7bf9c-ddb9-4563-8a04-fb01ce6c0fbf
-  ws-opts:
-    headers:
-      host: kjgx.laoyoutiao.link
-    path: telegram @wangcai2 /?ed=2560
-- name: 🇺🇦_乌克兰_3
-  network: ws
-  port: 8880
-  server: 45.67.215.177
-  servername: Telegram-channel-WangCai2
-  skip-cert-verify: true
-  tls: true
-  type: vless
-  udp: true
-  uuid: 583ceab3-4022-4553-9158-9bedc625ad4e
-  ws-opts:
-    headers:
-      host: Telegram-channel-WangCai2
-    path: /
-- name: 🇳🇱_荷兰_5
-  network: ws
-  port: 8880
-  server: 213.109.205.186
-  servername: Telegram-channel-WangCai2
-  skip-cert-verify: true
-  tls: true
-  type: vless
-  udp: true
-  uuid: 583ceab3-4022-4553-9158-9bedc625ad4e
-  ws-opts:
-    headers:
-      host: Telegram-channel-WangCai2
-    path: /
-- name: 🇪🇸_西班牙_3
-  network: ws
-  port: 8880
-  server: 185.251.83.254
-  servername: Telegram-channel-WangCai2
-  skip-cert-verify: true
-  tls: true
-  type: vless
-  udp: true
-  uuid: 34c01e61-f4f3-4afb-a83b-406caf8caa33
-  ws-opts:
-    headers:
-      host: Telegram-channel-WangCai2
-    path: /
-- name: 🇯🇵_日本_61
-  network: ws
-  port: 8880
-  server: 91.193.58.2
-  servername: kjgx.laoyoutiao.link
-  skip-cert-verify: true
-  tls: true
-  type: vless
-  udp: true
-  uuid: fab7bf9c-ddb9-4563-8a04-fb01ce6c0fbf
-  ws-opts:
-    headers:
-      host: kjgx.laoyoutiao.link
-    path: telegram @wangcai2 /?ed=2560
-- name: 🇯🇵_日本_62
-  network: ws
-  port: 8880
-  server: 91.193.58.202
-  servername: kjgx.laoyoutiao.link
-  skip-cert-verify: true
-  tls: true
-  type: vless
-  udp: true
-  uuid: fab7bf9c-ddb9-4563-8a04-fb01ce6c0fbf
-  ws-opts:
-    headers:
-      host: kjgx.laoyoutiao.link
-    path: telegram@wangcai2/?ed=2560
-- name: 🇺🇸_美国_37
-  network: ws
-  port: 8880
-  server: 135.84.75.3
-  servername: bitget1.asdasd.click
-  skip-cert-verify: true
-  tls: true
-  type: vless
-  udp: true
-  uuid: b5441b0d-2147-4898-8a6a-9b2c87f58382
-  ws-opts:
-    headers:
-      host: bitget1.asdasd.click
-    path: /telegram
-- name: 🇯🇵_日本_63
-  network: ws
-  port: 8880
-  server: 91.193.58.102
-  servername: kjgx.laoyoutiao.link
-  skip-cert-verify: true
-  tls: true
-  type: vless
-  udp: true
-  uuid: fab7bf9c-ddb9-4563-8a04-fb01ce6c0fbf
-  ws-opts:
-    headers:
-      host: kjgx.laoyoutiao.link
-    path: freecodes蘇小檸|華東電訊|解鎖netflix
-- name: 🇺🇸_美国_38
-  network: ws
-  port: 8880
-  server: 135.84.79.177
-  servername: Telegram-channel-WangCai2
-  skip-cert-verify: true
-  tls: true
-  type: vless
-  udp: true
-  uuid: 583ceab3-4022-4553-9158-9bedc625ad4e
-  ws-opts:
-    headers:
-      host: Telegram-channel-WangCai2
-    path: /telegram @wangcai2 /?ed=2560
-- name: 🇯🇵_日本_64
-  network: ws
-  port: 8880
-  server: 91.193.58.192
-  servername: kjgx.laoyoutiao.link
-  skip-cert-verify: true
-  tls: true
-  type: vless
-  udp: true
-  uuid: fab7bf9c-ddb9-4563-8a04-fb01ce6c0fbf
-  ws-opts:
-    headers:
-      host: kjgx.laoyoutiao.link
-    path: telegram @wangcai2 /?ed=2560
-- name: 🇱🇹_立陶宛_10
-  network: ws
-  port: 8880
-  server: 86.38.214.177
-  servername: Telegram-channel-WangCai2
-  skip-cert-verify: true
-  tls: true
-  type: vless
-  udp: true
-  uuid: 583ceab3-4022-4553-9158-9bedc625ad4e
-  ws-opts:
-    headers:
-      host: Telegram-channel-WangCai2
-    path: /freecodes蘇小檸 | 華東電訊 | 解鎖netflix
-- name: 🇺🇸_美国_39
-  network: ws
-  port: 8880
-  server: 167.68.42.177
-  servername: Telegram-channel-WangCai2
-  skip-cert-verify: true
-  tls: true
-  type: vless
-  udp: true
-  uuid: 583ceab3-4022-4553-9158-9bedc625ad4e
-  ws-opts:
-    headers:
-      host: Telegram-channel-WangCai2
-    path: /
-- name: 🇯🇵_日本_65
-  network: ws
-  port: 8880
-  server: 91.193.58.170
-  servername: kjgx.laoyoutiao.link
-  skip-cert-verify: true
-  tls: true
-  type: vless
-  udp: true
-  uuid: fab7bf9c-ddb9-4563-8a04-fb01ce6c0fbf
-  ws-opts:
-    headers:
-      host: kjgx.laoyoutiao.link
-    path: freecodes蘇小檸 | 華東電訊 | 解鎖netflix
-- name: 🇺🇸_美国_40
-  network: ws
-  port: 8880
-  server: 161.145.150.177
-  servername: Telegram-channel-WangCai2
-  skip-cert-verify: true
-  tls: true
-  type: vless
-  udp: true
-  uuid: 583ceab3-4022-4553-9158-9bedc625ad4e
-  ws-opts:
-    headers:
-      host: Telegram-channel-WangCai2
-    path: /
-- name: 🇯🇵_日本_66
-  network: ws
-  port: 8880
-  server: 91.193.58.91
-  servername: kjgx.laoyoutiao.link
-  skip-cert-verify: true
-  tls: true
-  type: vless
-  udp: true
-  uuid: fab7bf9c-ddb9-4563-8a04-fb01ce6c0fbf
-  ws-opts:
-    headers:
-      host: kjgx.laoyoutiao.link
-    path: telegram@wangcai2/?ed=2560
-- name: 🇸🇪_瑞典
-  network: ws
-  port: 8880
-  server: 195.13.55.168
-  servername: kjgx.laoyoutiao.link
-  skip-cert-verify: true
-  tls: true
-  type: vless
-  udp: true
-  uuid: fab7bf9c-ddb9-4563-8a04-fb01ce6c0fbf
-  ws-opts:
-    headers:
-      host: kjgx.laoyoutiao.link
-    path: telegram @wangcai2 /?ed=2560
-- name: 🇺🇸_美国_41
-  network: ws
-  port: 443
-  server: freexxx.najah.biz.id
-  servername: freexxx.najah.biz.id
-  skip-cert-verify: true
-  tls: true
-  type: vless
-  udp: true
-  uuid: aaaaaaa1-bbbb-4ccc-accc-eeeeeeeeeee1
-  ws-opts:
-    headers:
-      host: freexxx.najah.biz.id
-    path: /free-cf-proxy-at29
-- name: 🇺🇸_美国_42
-  network: ws
-  port: 443
-  server: freevpn.ndeso.web.id
-  servername: freevpn.ndeso.web.id
-  skip-cert-verify: true
-  tls: true
-  type: vless
-  udp: true
-  uuid: aaaaaaa1-bbbb-4ccc-accc-eeeeeeeeeee1
-  ws-opts:
-    headers:
-      host: freevpn.ndeso.web.id
-    path: /free-cf-proxy-at36
-- name: 🏳️_未知_3
-  network: ws
-  port: 8880
-  server: 103.169.142.168
-  servername: kjgx.laoyoutiao.link
-  skip-cert-verify: true
-  tls: true
-  type: vless
-  udp: true
-  uuid: fab7bf9c-ddb9-4563-8a04-fb01ce6c0fbf
-  ws-opts:
-    headers:
-      host: kjgx.laoyoutiao.link
-    path: telegram @wangcai2 /?ed=2560
-- name: 🇺🇸_美国_43
-  network: ws
-  port: 443
-  server: benedict.ns.cloudflare.com
-  servername: ls.ylks0033.dpdns.org
-  skip-cert-verify: true
-  tls: true
-  type: vless
-  udp: true
-  uuid: 06e4425e-a8cb-4b63-929f-2105604ab0a9
-  ws-opts:
-    headers:
-      host: ls.ylks0033.dpdns.org
-    path: /?ed=2560
-- name: 🇺🇸_美国_44
-  network: ws
-  port: 443
-  server: freexxx.ndeso.web.id
-  servername: freexxx.ndeso.web.id
-  skip-cert-verify: true
-  tls: true
-  type: vless
-  udp: true
-  uuid: aaaaaaa1-bbbb-4ccc-accc-eeeeeeeeeee1
-  ws-opts:
-    headers:
-      host: freexxx.ndeso.web.id
-    path: /free-cf-proxy-ar1
-- name: 🇯🇵_日本_67
-  network: ws
-  port: 8880
-  server: 91.193.58.64
-  servername: kjgx.laoyoutiao.link
-  skip-cert-verify: true
-  tls: true
-  type: vless
-  udp: true
-  uuid: fab7bf9c-ddb9-4563-8a04-fb01ce6c0fbf
-  ws-opts:
-    headers:
-      host: kjgx.laoyoutiao.link
-    path: telegram @wangcai2 /?ed=2560
-- name: 🇸🇦_沙特阿拉伯_2
-  network: ws
-  port: 8880
-  server: 91.209.253.13
-  servername: Telegram-channel-WangCai2
-  skip-cert-verify: true
-  tls: true
-  type: vless
-  udp: true
-  uuid: 9f3c4ab7-ea26-4d96-91a9-c85ff64ad9a0
-  ws-opts:
-    headers:
-      host: Telegram-channel-WangCai2
-    path: /
-- name: 🇯🇵_日本_68
-  network: ws
-  port: 8880
-  server: 91.193.58.229
-  servername: kjgx.laoyoutiao.link
-  skip-cert-verify: true
-  tls: true
-  type: vless
-  udp: true
-  uuid: fab7bf9c-ddb9-4563-8a04-fb01ce6c0fbf
-  ws-opts:
-    headers:
-      host: kjgx.laoyoutiao.link
-    path: telegram @wangcai2 /?ed=2560
-- name: 🇺🇸_美国_45
-  network: ws
-  port: 8880
-  server: 147.185.161.177
-  servername: ip.langmanshanxi.top
-  skip-cert-verify: true
-  tls: true
-  type: vless
-  udp: true
-  uuid: 583ceab3-4022-4553-9158-9bedc625ad4e
-  ws-opts:
-    headers:
-      host: ip.langmanshanxi.top
-    path: /telegram
-- name: 🇧🇬_保加利亚
-  network: ws
-  port: 8880
-  server: 147.78.140.186
-  servername: Telegram-channel-WangCai2
-  skip-cert-verify: true
-  tls: true
-  type: vless
-  udp: true
-  uuid: 583ceab3-4022-4553-9158-9bedc625ad4e
-  ws-opts:
-    headers:
-      host: Telegram-channel-WangCai2
-    path: /
-- name: 🇸🇬_新加坡_2
-  network: ws
-  port: 8880
-  server: 114.129.43.186
-  servername: Telegram-channel-WangCai2
-  skip-cert-verify: true
-  tls: true
-  type: vless
-  udp: true
-  uuid: 583ceab3-4022-4553-9158-9bedc625ad4e
-  ws-opts:
-    headers:
-      host: Telegram-channel-WangCai2
-    path: /
-- name: 🇳🇱_荷兰_6
-  network: ws
-  port: 8880
-  server: 45.153.7.168
-  servername: kjgx.laoyoutiao.link
-  skip-cert-verify: true
-  tls: true
-  type: vless
-  udp: true
-  uuid: fab7bf9c-ddb9-4563-8a04-fb01ce6c0fbf
-  ws-opts:
-    headers:
-      host: kjgx.laoyoutiao.link
-    path: telegram @wangcai2 /?ed=2560
-- name: 🇯🇵_日本_69
-  network: ws
-  port: 8880
-  server: 91.193.58.111
-  servername: kjgx.laoyoutiao.link
-  skip-cert-verify: true
-  tls: true
-  type: vless
-  udp: true
-  uuid: fab7bf9c-ddb9-4563-8a04-fb01ce6c0fbf
-  ws-opts:
-    headers:
-      host: kjgx.laoyoutiao.link
-    path: telegram@wangcai2/?ed=2560
-- name: 🇳🇱_荷兰_7
-  network: ws
-  port: 8880
-  server: 45.149.12.177
-  servername: Telegram-channel-WangCai2
-  skip-cert-verify: true
-  tls: true
-  type: vless
-  udp: true
-  uuid: 583ceab3-4022-4553-9158-9bedc625ad4e
-  ws-opts:
-    headers:
-      host: Telegram-channel-WangCai2
-    path: /telegram @wangcai2
-- name: 🇯🇵_日本_70
-  network: ws
-  port: 8880
-  server: 91.193.58.140
-  servername: kjgx.laoyoutiao.link
-  skip-cert-verify: true
-  tls: true
-  type: vless
-  udp: true
-  uuid: fab7bf9c-ddb9-4563-8a04-fb01ce6c0fbf
-  ws-opts:
-    headers:
-      host: kjgx.laoyoutiao.link
-    path: telegram @wangcai2 /?ed=2560
-- name: 🇺🇸_美国_46
-  network: ws
-  port: 8880
-  server: 104.129.167.168
-  servername: kjgx.laoyoutiao.link
-  skip-cert-verify: true
-  tls: true
-  type: vless
-  udp: true
-  uuid: fab7bf9c-ddb9-4563-8a04-fb01ce6c0fbf
-  ws-opts:
-    headers:
-      host: kjgx.laoyoutiao.link
-    path: telegram@wangcai2/?ed=2560
-- name: 🇳🇱_荷兰_8
-  network: ws
-  port: 8880
-  server: 45.159.219.177
-  servername: Telegram-channel-WangCai2
-  skip-cert-verify: true
-  tls: true
-  type: vless
-  udp: true
-  uuid: 583ceab3-4022-4553-9158-9bedc625ad4e
-  ws-opts:
-    headers:
-      host: Telegram-channel-WangCai2
-    path: /
-- name: 🇰🇷_韩国_3
-  network: ws
-  port: 12020
-  server: 121.129.79.208
-  servername: jp.laoyoutiao.link
-  skip-cert-verify: true
-  tls: true
-  type: vless
-  udp: true
-  uuid: fab7bf9c-ddb9-4563-8a04-fb01ce6c0fbf
-  ws-opts:
-    headers:
-      host: jp.laoyoutiao.link
-    path: telegram @wangcai2 /?ed=2560
-- name: 🇯🇵_日本_71
-  network: ws
-  port: 8880
-  server: 91.193.58.158
-  servername: kjgx.laoyoutiao.link
-  skip-cert-verify: true
-  tls: true
-  type: vless
-  udp: true
-  uuid: fab7bf9c-ddb9-4563-8a04-fb01ce6c0fbf
-  ws-opts:
-    headers:
-      host: kjgx.laoyoutiao.link
-    path: telegram @wangcai2 /?ed=2560
-- name: 🇯🇵_日本_72
-  network: ws
-  port: 8880
-  server: 91.193.58.172
-  servername: kjgx.laoyoutiao.link
-  skip-cert-verify: true
-  tls: true
-  type: vless
-  udp: true
-  uuid: fab7bf9c-ddb9-4563-8a04-fb01ce6c0fbf
-  ws-opts:
-    headers:
-      host: kjgx.laoyoutiao.link
-    path: freecodes蘇小檸 | 華東電訊 | 解鎖netflix
-- name: 🇯🇵_日本_73
-  network: ws
-  port: 8880
-  server: 91.193.58.120
-  servername: kjgx.laoyoutiao.link
-  skip-cert-verify: true
-  tls: true
-  type: vless
-  udp: true
-  uuid: fab7bf9c-ddb9-4563-8a04-fb01ce6c0fbf
-  ws-opts:
-    headers:
-      host: kjgx.laoyoutiao.link
-    path: telegram@wangcai2/?ed=2560
-- name: 🇯🇵_日本_74
-  network: ws
-  port: 8880
-  server: 91.193.58.179
-  servername: kjgx.laoyoutiao.link
-  skip-cert-verify: true
-  tls: true
-  type: vless
-  udp: true
-  uuid: fab7bf9c-ddb9-4563-8a04-fb01ce6c0fbf
-  ws-opts:
-    headers:
-      host: kjgx.laoyoutiao.link
-    path: telegram @wangcai2 /?ed=2560
-- name: 🇺🇸_美国_47
-  network: ws
-  port: 443
-  server: jquery.com
-  servername: rayan-karma.parvaneh.dpdns.org
-  skip-cert-verify: true
-  tls: true
-  type: vless
-  udp: true
-  uuid: 60882caa-4e74-42a2-be70-220755fc1551
-  ws-opts:
-    headers:
-      host: rayan-karma.parvaneh.dpdns.org
-    path: /?ed=2560
-- name: 🇱🇹_立陶宛_11
-  network: ws
-  port: 8880
-  server: 86.38.214.254
-  servername: Telegram-channel-WangCai2
-  skip-cert-verify: true
-  tls: true
-  type: vless
-  udp: true
-  uuid: 34c01e61-f4f3-4afb-a83b-406caf8caa33
-  ws-opts:
-    headers:
-      host: Telegram-channel-WangCai2
-    path: /
-- name: 🇫🇷_法国_4
-  network: ws
-  port: 8880
-  server: 45.81.58.53
-  servername: bitget1.asdasd.click
-  skip-cert-verify: true
-  tls: true
-  type: vless
-  udp: true
-  uuid: b5441b0d-2147-4898-8a6a-9b2c87f58382
-  ws-opts:
-    headers:
-      host: bitget1.asdasd.click
-    path: /?ed=2560
-- name: 🇬🇧_英国_3
-  network: ws
-  port: 8880
-  server: 25.129.198.177
-  servername: Telegram-channel-WangCai2
-  skip-cert-verify: true
-  tls: true
-  type: vless
-  udp: true
-  uuid: 583ceab3-4022-4553-9158-9bedc625ad4e
-  ws-opts:
-    headers:
-      host: Telegram-channel-WangCai2
-    path: /telegram @wangcai2 /?ed=2560
-- name: 🇬🇧_英国_4
-  network: ws
-  port: 8880
-  server: 25.129.198.168
-  servername: kjgx.laoyoutiao.link
-  skip-cert-verify: true
-  tls: true
-  type: vless
-  udp: true
-  uuid: fab7bf9c-ddb9-4563-8a04-fb01ce6c0fbf
-  ws-opts:
-    headers:
-      host: kjgx.laoyoutiao.link
-    path: telegram @wangcai2 /?ed=2560
-- name: 🇺🇸_美国_48
-  network: ws
-  port: 8880
-  server: 159.246.55.177
-  servername: ip.langmanshanxi.top
-  skip-cert-verify: true
-  tls: true
-  type: vless
-  udp: true
-  uuid: 583ceab3-4022-4553-9158-9bedc625ad4e
-  ws-opts:
-    headers:
-      host: ip.langmanshanxi.top
-    path: /
 proxy-groups:
 - name: 🚀 节点选择
   proxies:
@@ -2728,402 +3001,436 @@ proxy-groups:
   - DIRECT
   - 电报群：https://t.me/vvkj11
   - 每天更新，请加电报群防止失联
-  - 日期：07-16
+  - 日期：07-18
   - 免费VPN：https://tt.vg/gwaAy
-  - 🇨🇳_中国_1
-  - 🇨🇳_中国_2
-  - 🇧🇪_比利时
   - 🇺🇸_美国_1
   - 🇺🇸_美国_2
-  - 🇯🇵_日本_1
-  - 🇯🇵_日本_2
-  - 🇩🇪_德国_1
-  - 🇯🇵_日本_3
-  - 🇯🇵_日本_4
-  - 🇯🇵_日本_5
-  - 🇯🇵_日本_6
-  - 🇯🇵_日本_7
-  - 🇯🇵_日本_8
-  - 🇯🇵_日本_9
-  - 🇯🇵_日本_10
-  - 🇯🇵_日本_11
   - 🇺🇸_美国_3
-  - 🇯🇵_日本_12
-  - 🇯🇵_日本_13
-  - 🇯🇵_日本_14
-  - 🇱🇹_立陶宛_1
-  - 🇯🇵_日本_15
-  - 🇯🇵_日本_16
-  - 🇯🇵_日本_17
-  - 🇯🇵_日本_18
-  - 🇯🇵_日本_19
-  - 🇯🇵_日本_20
-  - 🇯🇵_日本_21
-  - 🇯🇵_日本_22
   - 🇺🇸_美国_4
-  - 🇷🇺_俄罗斯_1
-  - 🇯🇵_日本_23
   - 🇺🇸_美国_5
-  - 🇰🇷_韩国_1
-  - 🇷🇺_俄罗斯_2
-  - 🇷🇺_俄罗斯_3
-  - 🇱🇹_立陶宛_2
   - 🇺🇸_美国_6
-  - 🇱🇹_立陶宛_3
-  - 🇯🇵_日本_24
   - 🇺🇸_美国_7
   - 🇺🇸_美国_8
-  - 🇳🇱_荷兰_1
-  - 🇬🇧_英国_1
-  - 🇷🇺_俄罗斯_4
   - 🇺🇸_美国_9
   - 🇺🇸_美国_10
-  - 🇯🇵_日本_25
-  - 🇳🇱_荷兰_2
-  - 🇷🇺_俄罗斯_5
-  - 🇫🇷_法国_1
   - 🇺🇸_美国_11
-  - 🇮🇳_印度
-  - 🇷🇺_俄罗斯_6
-  - 🇺🇦_乌克兰_1
-  - 🇪🇸_西班牙_1
   - 🇺🇸_美国_12
-  - 🇱🇹_立陶宛_4
-  - 🏳️_未知_1
-  - 🇷🇺_俄罗斯_7
   - 🇺🇸_美国_13
-  - 🇪🇸_西班牙_2
-  - 🇱🇺_卢森堡
   - 🇺🇸_美国_14
   - 🇺🇸_美国_15
-  - 🇨🇦_加拿大
-  - 🇫🇷_法国_2
-  - 🇳🇱_荷兰_3
   - 🇺🇸_美国_16
   - 🇺🇸_美国_17
-  - 🇱🇹_立陶宛_5
-  - 🇿🇦_南非
-  - 🏳️_未知_2
-  - 🇯🇵_日本_26
-  - 🇯🇵_日本_27
-  - 🇯🇵_日本_28
+  - 🇨🇳_中国_1
   - 🇺🇸_美国_18
-  - 🇰🇷_韩国_2
-  - 🇯🇵_日本_29
-  - 🇯🇵_日本_30
-  - 🇯🇵_日本_31
-  - 🇯🇵_日本_32
-  - 🇯🇵_日本_33
-  - 🇯🇵_日本_34
-  - 🇯🇵_日本_35
-  - 🇯🇵_日本_36
-  - 🇷🇺_俄罗斯_8
   - 🇺🇸_美国_19
-  - 🇯🇵_日本_37
+  - 🇳🇱_荷兰_1
   - 🇺🇸_美国_20
-  - 🇱🇹_立陶宛_6
-  - 🇩🇪_德国_2
-  - 🇷🇺_俄罗斯_9
-  - 🇯🇵_日本_38
-  - 🇸🇬_新加坡_1
-  - 🇯🇵_日本_39
-  - 🇯🇵_日本_40
-  - 🇫🇷_法国_3
-  - 🇯🇵_日本_41
-  - 🇯🇵_日本_42
-  - 🇸🇦_沙特阿拉伯_1
-  - 🇱🇹_立陶宛_7
   - 🇺🇸_美国_21
   - 🇺🇸_美国_22
-  - 🇱🇹_立陶宛_8
   - 🇺🇸_美国_23
-  - 🇦🇺_澳大利亚
-  - 🇬🇧_英国_2
   - 🇺🇸_美国_24
-  - 🇩🇪_德国_3
   - 🇺🇸_美国_25
-  - 🇷🇺_俄罗斯_10
-  - 🇯🇵_日本_43
-  - 🇯🇵_日本_44
-  - 🇯🇵_日本_45
-  - 🇯🇵_日本_46
-  - 🇯🇵_日本_47
-  - 🇯🇵_日本_48
   - 🇺🇸_美国_26
-  - 🇯🇵_日本_49
-  - 🇷🇺_俄罗斯_11
-  - 🇯🇵_日本_50
   - 🇺🇸_美国_27
   - 🇺🇸_美国_28
-  - 🇺🇦_乌克兰_2
   - 🇺🇸_美国_29
   - 🇺🇸_美国_30
   - 🇺🇸_美国_31
   - 🇺🇸_美国_32
-  - 🇯🇵_日本_51
-  - 🇯🇵_日本_52
-  - 🇯🇵_日本_53
-  - 🇳🇱_荷兰_4
-  - 🇯🇵_日本_54
-  - 🇯🇵_日本_55
-  - 🇯🇵_日本_56
   - 🇺🇸_美国_33
-  - 🇯🇵_日本_57
-  - 🇯🇵_日本_58
-  - 🇦🇹_奥地利
   - 🇺🇸_美国_34
-  - 🇯🇵_日本_59
-  - 🇨🇳_中国_3
-  - 🇨🇳_中国_4
-  - 🇨🇳_中国_5
-  - 🇯🇵_日本_60
   - 🇺🇸_美国_35
   - 🇺🇸_美国_36
-  - 🇱🇹_立陶宛_9
-  - 🇺🇦_乌克兰_3
-  - 🇳🇱_荷兰_5
-  - 🇪🇸_西班牙_3
-  - 🇯🇵_日本_61
-  - 🇯🇵_日本_62
   - 🇺🇸_美国_37
-  - 🇯🇵_日本_63
   - 🇺🇸_美国_38
-  - 🇯🇵_日本_64
-  - 🇱🇹_立陶宛_10
   - 🇺🇸_美国_39
-  - 🇯🇵_日本_65
   - 🇺🇸_美国_40
-  - 🇯🇵_日本_66
-  - 🇸🇪_瑞典
   - 🇺🇸_美国_41
   - 🇺🇸_美国_42
-  - 🏳️_未知_3
   - 🇺🇸_美国_43
   - 🇺🇸_美国_44
-  - 🇯🇵_日本_67
-  - 🇸🇦_沙特阿拉伯_2
-  - 🇯🇵_日本_68
   - 🇺🇸_美国_45
-  - 🇧🇬_保加利亚
-  - 🇸🇬_新加坡_2
-  - 🇳🇱_荷兰_6
-  - 🇯🇵_日本_69
-  - 🇳🇱_荷兰_7
-  - 🇯🇵_日本_70
   - 🇺🇸_美国_46
-  - 🇳🇱_荷兰_8
-  - 🇰🇷_韩国_3
-  - 🇯🇵_日本_71
-  - 🇯🇵_日本_72
-  - 🇯🇵_日本_73
-  - 🇯🇵_日本_74
   - 🇺🇸_美国_47
-  - 🇱🇹_立陶宛_11
-  - 🇫🇷_法国_4
-  - 🇬🇧_英国_3
-  - 🇬🇧_英国_4
   - 🇺🇸_美国_48
+  - 🇺🇸_美国_49
+  - 🇺🇸_美国_50
+  - 🇺🇸_美国_51
+  - 🇺🇸_美国_52
+  - 🇺🇸_美国_53
+  - 🇺🇸_美国_54
+  - 🇺🇸_美国_55
+  - 🇺🇸_美国_56
+  - 🇺🇸_美国_57
+  - 🇺🇸_美国_58
+  - 🇺🇸_美国_59
+  - 🇺🇸_美国_60
+  - 🇺🇸_美国_61
+  - 🇺🇸_美国_62
+  - 🇺🇸_美国_63
+  - 🇺🇸_美国_64
+  - 🇺🇸_美国_65
+  - 🇺🇸_美国_66
+  - 🇺🇸_美国_67
+  - 🇺🇸_美国_68
+  - 🇺🇸_美国_69
+  - 🇺🇸_美国_70
+  - 🇺🇸_美国_71
+  - 🇺🇸_美国_72
+  - 🇺🇸_美国_73
+  - 🇺🇸_美国_74
+  - 🇺🇸_美国_75
+  - 🇺🇸_美国_76
+  - 🇺🇸_美国_77
+  - 🇺🇸_美国_78
+  - 🇺🇸_美国_79
+  - 🇺🇸_美国_80
+  - 🇺🇸_美国_81
+  - 🇺🇸_美国_82
+  - 🇺🇸_美国_83
+  - 🇺🇸_美国_84
+  - 🇺🇸_美国_85
+  - 🇺🇸_美国_86
+  - 🇺🇸_美国_87
+  - 🇺🇸_美国_88
+  - 🇺🇸_美国_89
+  - 🇺🇸_美国_90
+  - 🇺🇸_美国_91
+  - 🇺🇸_美国_92
+  - 🇺🇸_美国_93
+  - 🇺🇸_美国_94
+  - 🇺🇸_美国_95
+  - 🇺🇸_美国_96
+  - 🇺🇸_美国_97
+  - 🇺🇸_美国_98
+  - 🇺🇸_美国_99
+  - 🇩🇰_丹麦_1
+  - 🇺🇸_美国_100
+  - 🇺🇸_美国_101
+  - 🇺🇸_美国_102
+  - 🇺🇸_美国_103
+  - 🇺🇸_美国_104
+  - 🇺🇸_美国_105
+  - 🇺🇸_美国_106
+  - 🇺🇸_美国_107
+  - 🇺🇸_美国_108
+  - 🇺🇸_美国_109
+  - 🇺🇸_美国_110
+  - 🇺🇸_美国_111
+  - 🇺🇸_美国_112
+  - 🇺🇸_美国_113
+  - 🇺🇸_美国_114
+  - 🇺🇸_美国_115
+  - 🇺🇸_美国_116
+  - 🇺🇸_美国_117
+  - 🇺🇸_美国_118
+  - 🇺🇸_美国_119
+  - 🇺🇸_美国_120
+  - 🇺🇸_美国_121
+  - 🇺🇸_美国_122
+  - 🇺🇸_美国_123
+  - 🇺🇸_美国_124
+  - 🇺🇸_美国_125
+  - 🇺🇸_美国_126
+  - 🇺🇸_美国_127
+  - 🇺🇸_美国_128
+  - 🇺🇸_美国_129
+  - 🇺🇸_美国_130
+  - 🇺🇸_美国_131
+  - 🇺🇸_美国_132
+  - 🇺🇸_美国_133
+  - 🇺🇸_美国_134
+  - 🇺🇸_美国_135
+  - 🇺🇸_美国_136
+  - 🇺🇸_美国_137
+  - 🇺🇸_美国_138
+  - 🇺🇸_美国_139
+  - 🇩🇰_丹麦_2
+  - 🇺🇸_美国_140
+  - 🇺🇸_美国_141
+  - 🇺🇸_美国_142
+  - 🇺🇸_美国_143
+  - 🇺🇸_美国_144
+  - 🇨🇭_瑞士_1
+  - 🇺🇸_美国_145
+  - 🇺🇸_美国_146
+  - 🇺🇸_美国_147
+  - 🇺🇸_美国_148
+  - 🇺🇸_美国_149
+  - 🇺🇸_美国_150
+  - 🇺🇸_美国_151
+  - 🇺🇸_美国_152
+  - 🇺🇸_美国_153
+  - 🇺🇸_美国_154
+  - 🇺🇸_美国_155
+  - 🇺🇸_美国_156
+  - 🇺🇸_美国_157
+  - 🇺🇸_美国_158
+  - 🇺🇸_美国_159
+  - 🏳️_未知_1
+  - 🇺🇸_美国_160
+  - 🇺🇸_美国_161
+  - 🇺🇸_美国_162
+  - 🇺🇸_美国_163
+  - 🇺🇸_美国_164
+  - 🇺🇸_美国_165
+  - 🇺🇸_美国_166
+  - 🇺🇸_美国_167
+  - 🇺🇸_美国_168
+  - 🇺🇸_美国_169
+  - 🇺🇸_美国_170
+  - 🇺🇸_美国_171
+  - 🇺🇸_美国_172
+  - 🇺🇸_美国_173
+  - 🇺🇸_美国_174
+  - 🇺🇸_美国_175
+  - 🇺🇸_美国_176
+  - 🇺🇸_美国_177
+  - 🇺🇸_美国_178
+  - 🇺🇸_美国_179
+  - 🇺🇸_美国_180
+  - 🇺🇸_美国_181
+  - 🇺🇸_美国_182
+  - 🇺🇸_美国_183
+  - 🇺🇸_美国_184
+  - 🇺🇸_美国_185
+  - 🇺🇸_美国_186
+  - 🏳️_未知_2
+  - 🇺🇸_美国_187
+  - 🇺🇸_美国_188
+  - 🇺🇸_美国_189
+  - 🇺🇸_美国_190
+  - 🇺🇸_美国_191
+  - 🇳🇱_荷兰_2
+  - 🇺🇸_美国_192
+  - 🇺🇸_美国_193
+  - 🇨🇭_瑞士_2
+  - 🇺🇸_美国_194
+  - 🇨🇦_加拿大
+  - 🇺🇸_美国_195
+  - 🇺🇸_美国_196
+  - 🇨🇳_中国_2
+  - 🇨🇳_中国_3
+  - 🇺🇸_美国_197
+  - 🇨🇳_中国_4
   type: select
 - interval: 300
   name: ♻️ 自动选择
   proxies:
   - 电报群：https://t.me/vvkj11
   - 每天更新，请加电报群防止失联
-  - 日期：07-16
+  - 日期：07-18
   - 免费VPN：https://tt.vg/gwaAy
-  - 🇨🇳_中国_1
-  - 🇨🇳_中国_2
-  - 🇧🇪_比利时
   - 🇺🇸_美国_1
   - 🇺🇸_美国_2
-  - 🇯🇵_日本_1
-  - 🇯🇵_日本_2
-  - 🇩🇪_德国_1
-  - 🇯🇵_日本_3
-  - 🇯🇵_日本_4
-  - 🇯🇵_日本_5
-  - 🇯🇵_日本_6
-  - 🇯🇵_日本_7
-  - 🇯🇵_日本_8
-  - 🇯🇵_日本_9
-  - 🇯🇵_日本_10
-  - 🇯🇵_日本_11
   - 🇺🇸_美国_3
-  - 🇯🇵_日本_12
-  - 🇯🇵_日本_13
-  - 🇯🇵_日本_14
-  - 🇱🇹_立陶宛_1
-  - 🇯🇵_日本_15
-  - 🇯🇵_日本_16
-  - 🇯🇵_日本_17
-  - 🇯🇵_日本_18
-  - 🇯🇵_日本_19
-  - 🇯🇵_日本_20
-  - 🇯🇵_日本_21
-  - 🇯🇵_日本_22
   - 🇺🇸_美国_4
-  - 🇷🇺_俄罗斯_1
-  - 🇯🇵_日本_23
   - 🇺🇸_美国_5
-  - 🇰🇷_韩国_1
-  - 🇷🇺_俄罗斯_2
-  - 🇷🇺_俄罗斯_3
-  - 🇱🇹_立陶宛_2
   - 🇺🇸_美国_6
-  - 🇱🇹_立陶宛_3
-  - 🇯🇵_日本_24
   - 🇺🇸_美国_7
   - 🇺🇸_美国_8
-  - 🇳🇱_荷兰_1
-  - 🇬🇧_英国_1
-  - 🇷🇺_俄罗斯_4
   - 🇺🇸_美国_9
   - 🇺🇸_美国_10
-  - 🇯🇵_日本_25
-  - 🇳🇱_荷兰_2
-  - 🇷🇺_俄罗斯_5
-  - 🇫🇷_法国_1
   - 🇺🇸_美国_11
-  - 🇮🇳_印度
-  - 🇷🇺_俄罗斯_6
-  - 🇺🇦_乌克兰_1
-  - 🇪🇸_西班牙_1
   - 🇺🇸_美国_12
-  - 🇱🇹_立陶宛_4
-  - 🏳️_未知_1
-  - 🇷🇺_俄罗斯_7
   - 🇺🇸_美国_13
-  - 🇪🇸_西班牙_2
-  - 🇱🇺_卢森堡
   - 🇺🇸_美国_14
   - 🇺🇸_美国_15
-  - 🇨🇦_加拿大
-  - 🇫🇷_法国_2
-  - 🇳🇱_荷兰_3
   - 🇺🇸_美国_16
   - 🇺🇸_美国_17
-  - 🇱🇹_立陶宛_5
-  - 🇿🇦_南非
-  - 🏳️_未知_2
-  - 🇯🇵_日本_26
-  - 🇯🇵_日本_27
-  - 🇯🇵_日本_28
+  - 🇨🇳_中国_1
   - 🇺🇸_美国_18
-  - 🇰🇷_韩国_2
-  - 🇯🇵_日本_29
-  - 🇯🇵_日本_30
-  - 🇯🇵_日本_31
-  - 🇯🇵_日本_32
-  - 🇯🇵_日本_33
-  - 🇯🇵_日本_34
-  - 🇯🇵_日本_35
-  - 🇯🇵_日本_36
-  - 🇷🇺_俄罗斯_8
   - 🇺🇸_美国_19
-  - 🇯🇵_日本_37
+  - 🇳🇱_荷兰_1
   - 🇺🇸_美国_20
-  - 🇱🇹_立陶宛_6
-  - 🇩🇪_德国_2
-  - 🇷🇺_俄罗斯_9
-  - 🇯🇵_日本_38
-  - 🇸🇬_新加坡_1
-  - 🇯🇵_日本_39
-  - 🇯🇵_日本_40
-  - 🇫🇷_法国_3
-  - 🇯🇵_日本_41
-  - 🇯🇵_日本_42
-  - 🇸🇦_沙特阿拉伯_1
-  - 🇱🇹_立陶宛_7
   - 🇺🇸_美国_21
   - 🇺🇸_美国_22
-  - 🇱🇹_立陶宛_8
   - 🇺🇸_美国_23
-  - 🇦🇺_澳大利亚
-  - 🇬🇧_英国_2
   - 🇺🇸_美国_24
-  - 🇩🇪_德国_3
   - 🇺🇸_美国_25
-  - 🇷🇺_俄罗斯_10
-  - 🇯🇵_日本_43
-  - 🇯🇵_日本_44
-  - 🇯🇵_日本_45
-  - 🇯🇵_日本_46
-  - 🇯🇵_日本_47
-  - 🇯🇵_日本_48
   - 🇺🇸_美国_26
-  - 🇯🇵_日本_49
-  - 🇷🇺_俄罗斯_11
-  - 🇯🇵_日本_50
   - 🇺🇸_美国_27
   - 🇺🇸_美国_28
-  - 🇺🇦_乌克兰_2
   - 🇺🇸_美国_29
   - 🇺🇸_美国_30
   - 🇺🇸_美国_31
   - 🇺🇸_美国_32
-  - 🇯🇵_日本_51
-  - 🇯🇵_日本_52
-  - 🇯🇵_日本_53
-  - 🇳🇱_荷兰_4
-  - 🇯🇵_日本_54
-  - 🇯🇵_日本_55
-  - 🇯🇵_日本_56
   - 🇺🇸_美国_33
-  - 🇯🇵_日本_57
-  - 🇯🇵_日本_58
-  - 🇦🇹_奥地利
   - 🇺🇸_美国_34
-  - 🇯🇵_日本_59
-  - 🇨🇳_中国_3
-  - 🇨🇳_中国_4
-  - 🇨🇳_中国_5
-  - 🇯🇵_日本_60
   - 🇺🇸_美国_35
   - 🇺🇸_美国_36
-  - 🇱🇹_立陶宛_9
-  - 🇺🇦_乌克兰_3
-  - 🇳🇱_荷兰_5
-  - 🇪🇸_西班牙_3
-  - 🇯🇵_日本_61
-  - 🇯🇵_日本_62
   - 🇺🇸_美国_37
-  - 🇯🇵_日本_63
   - 🇺🇸_美国_38
-  - 🇯🇵_日本_64
-  - 🇱🇹_立陶宛_10
   - 🇺🇸_美国_39
-  - 🇯🇵_日本_65
   - 🇺🇸_美国_40
-  - 🇯🇵_日本_66
-  - 🇸🇪_瑞典
   - 🇺🇸_美国_41
   - 🇺🇸_美国_42
-  - 🏳️_未知_3
   - 🇺🇸_美国_43
   - 🇺🇸_美国_44
-  - 🇯🇵_日本_67
-  - 🇸🇦_沙特阿拉伯_2
-  - 🇯🇵_日本_68
   - 🇺🇸_美国_45
-  - 🇧🇬_保加利亚
-  - 🇸🇬_新加坡_2
-  - 🇳🇱_荷兰_6
-  - 🇯🇵_日本_69
-  - 🇳🇱_荷兰_7
-  - 🇯🇵_日本_70
   - 🇺🇸_美国_46
-  - 🇳🇱_荷兰_8
-  - 🇰🇷_韩国_3
-  - 🇯🇵_日本_71
-  - 🇯🇵_日本_72
-  - 🇯🇵_日本_73
-  - 🇯🇵_日本_74
   - 🇺🇸_美国_47
-  - 🇱🇹_立陶宛_11
-  - 🇫🇷_法国_4
-  - 🇬🇧_英国_3
-  - 🇬🇧_英国_4
   - 🇺🇸_美国_48
+  - 🇺🇸_美国_49
+  - 🇺🇸_美国_50
+  - 🇺🇸_美国_51
+  - 🇺🇸_美国_52
+  - 🇺🇸_美国_53
+  - 🇺🇸_美国_54
+  - 🇺🇸_美国_55
+  - 🇺🇸_美国_56
+  - 🇺🇸_美国_57
+  - 🇺🇸_美国_58
+  - 🇺🇸_美国_59
+  - 🇺🇸_美国_60
+  - 🇺🇸_美国_61
+  - 🇺🇸_美国_62
+  - 🇺🇸_美国_63
+  - 🇺🇸_美国_64
+  - 🇺🇸_美国_65
+  - 🇺🇸_美国_66
+  - 🇺🇸_美国_67
+  - 🇺🇸_美国_68
+  - 🇺🇸_美国_69
+  - 🇺🇸_美国_70
+  - 🇺🇸_美国_71
+  - 🇺🇸_美国_72
+  - 🇺🇸_美国_73
+  - 🇺🇸_美国_74
+  - 🇺🇸_美国_75
+  - 🇺🇸_美国_76
+  - 🇺🇸_美国_77
+  - 🇺🇸_美国_78
+  - 🇺🇸_美国_79
+  - 🇺🇸_美国_80
+  - 🇺🇸_美国_81
+  - 🇺🇸_美国_82
+  - 🇺🇸_美国_83
+  - 🇺🇸_美国_84
+  - 🇺🇸_美国_85
+  - 🇺🇸_美国_86
+  - 🇺🇸_美国_87
+  - 🇺🇸_美国_88
+  - 🇺🇸_美国_89
+  - 🇺🇸_美国_90
+  - 🇺🇸_美国_91
+  - 🇺🇸_美国_92
+  - 🇺🇸_美国_93
+  - 🇺🇸_美国_94
+  - 🇺🇸_美国_95
+  - 🇺🇸_美国_96
+  - 🇺🇸_美国_97
+  - 🇺🇸_美国_98
+  - 🇺🇸_美国_99
+  - 🇩🇰_丹麦_1
+  - 🇺🇸_美国_100
+  - 🇺🇸_美国_101
+  - 🇺🇸_美国_102
+  - 🇺🇸_美国_103
+  - 🇺🇸_美国_104
+  - 🇺🇸_美国_105
+  - 🇺🇸_美国_106
+  - 🇺🇸_美国_107
+  - 🇺🇸_美国_108
+  - 🇺🇸_美国_109
+  - 🇺🇸_美国_110
+  - 🇺🇸_美国_111
+  - 🇺🇸_美国_112
+  - 🇺🇸_美国_113
+  - 🇺🇸_美国_114
+  - 🇺🇸_美国_115
+  - 🇺🇸_美国_116
+  - 🇺🇸_美国_117
+  - 🇺🇸_美国_118
+  - 🇺🇸_美国_119
+  - 🇺🇸_美国_120
+  - 🇺🇸_美国_121
+  - 🇺🇸_美国_122
+  - 🇺🇸_美国_123
+  - 🇺🇸_美国_124
+  - 🇺🇸_美国_125
+  - 🇺🇸_美国_126
+  - 🇺🇸_美国_127
+  - 🇺🇸_美国_128
+  - 🇺🇸_美国_129
+  - 🇺🇸_美国_130
+  - 🇺🇸_美国_131
+  - 🇺🇸_美国_132
+  - 🇺🇸_美国_133
+  - 🇺🇸_美国_134
+  - 🇺🇸_美国_135
+  - 🇺🇸_美国_136
+  - 🇺🇸_美国_137
+  - 🇺🇸_美国_138
+  - 🇺🇸_美国_139
+  - 🇩🇰_丹麦_2
+  - 🇺🇸_美国_140
+  - 🇺🇸_美国_141
+  - 🇺🇸_美国_142
+  - 🇺🇸_美国_143
+  - 🇺🇸_美国_144
+  - 🇨🇭_瑞士_1
+  - 🇺🇸_美国_145
+  - 🇺🇸_美国_146
+  - 🇺🇸_美国_147
+  - 🇺🇸_美国_148
+  - 🇺🇸_美国_149
+  - 🇺🇸_美国_150
+  - 🇺🇸_美国_151
+  - 🇺🇸_美国_152
+  - 🇺🇸_美国_153
+  - 🇺🇸_美国_154
+  - 🇺🇸_美国_155
+  - 🇺🇸_美国_156
+  - 🇺🇸_美国_157
+  - 🇺🇸_美国_158
+  - 🇺🇸_美国_159
+  - 🏳️_未知_1
+  - 🇺🇸_美国_160
+  - 🇺🇸_美国_161
+  - 🇺🇸_美国_162
+  - 🇺🇸_美国_163
+  - 🇺🇸_美国_164
+  - 🇺🇸_美国_165
+  - 🇺🇸_美国_166
+  - 🇺🇸_美国_167
+  - 🇺🇸_美国_168
+  - 🇺🇸_美国_169
+  - 🇺🇸_美国_170
+  - 🇺🇸_美国_171
+  - 🇺🇸_美国_172
+  - 🇺🇸_美国_173
+  - 🇺🇸_美国_174
+  - 🇺🇸_美国_175
+  - 🇺🇸_美国_176
+  - 🇺🇸_美国_177
+  - 🇺🇸_美国_178
+  - 🇺🇸_美国_179
+  - 🇺🇸_美国_180
+  - 🇺🇸_美国_181
+  - 🇺🇸_美国_182
+  - 🇺🇸_美国_183
+  - 🇺🇸_美国_184
+  - 🇺🇸_美国_185
+  - 🇺🇸_美国_186
+  - 🏳️_未知_2
+  - 🇺🇸_美国_187
+  - 🇺🇸_美国_188
+  - 🇺🇸_美国_189
+  - 🇺🇸_美国_190
+  - 🇺🇸_美国_191
+  - 🇳🇱_荷兰_2
+  - 🇺🇸_美国_192
+  - 🇺🇸_美国_193
+  - 🇨🇭_瑞士_2
+  - 🇺🇸_美国_194
+  - 🇨🇦_加拿大
+  - 🇺🇸_美国_195
+  - 🇺🇸_美国_196
+  - 🇨🇳_中国_2
+  - 🇨🇳_中国_3
+  - 🇺🇸_美国_197
+  - 🇨🇳_中国_4
   tolerance: 50
   type: url-test
   url: http://www.gstatic.com/generate_204
@@ -3134,201 +3441,218 @@ proxy-groups:
   - 🎯 全球直连
   - 电报群：https://t.me/vvkj11
   - 每天更新，请加电报群防止失联
-  - 日期：07-16
+  - 日期：07-18
   - 免费VPN：https://tt.vg/gwaAy
-  - 🇨🇳_中国_1
-  - 🇨🇳_中国_2
-  - 🇧🇪_比利时
   - 🇺🇸_美国_1
   - 🇺🇸_美国_2
-  - 🇯🇵_日本_1
-  - 🇯🇵_日本_2
-  - 🇩🇪_德国_1
-  - 🇯🇵_日本_3
-  - 🇯🇵_日本_4
-  - 🇯🇵_日本_5
-  - 🇯🇵_日本_6
-  - 🇯🇵_日本_7
-  - 🇯🇵_日本_8
-  - 🇯🇵_日本_9
-  - 🇯🇵_日本_10
-  - 🇯🇵_日本_11
   - 🇺🇸_美国_3
-  - 🇯🇵_日本_12
-  - 🇯🇵_日本_13
-  - 🇯🇵_日本_14
-  - 🇱🇹_立陶宛_1
-  - 🇯🇵_日本_15
-  - 🇯🇵_日本_16
-  - 🇯🇵_日本_17
-  - 🇯🇵_日本_18
-  - 🇯🇵_日本_19
-  - 🇯🇵_日本_20
-  - 🇯🇵_日本_21
-  - 🇯🇵_日本_22
   - 🇺🇸_美国_4
-  - 🇷🇺_俄罗斯_1
-  - 🇯🇵_日本_23
   - 🇺🇸_美国_5
-  - 🇰🇷_韩国_1
-  - 🇷🇺_俄罗斯_2
-  - 🇷🇺_俄罗斯_3
-  - 🇱🇹_立陶宛_2
   - 🇺🇸_美国_6
-  - 🇱🇹_立陶宛_3
-  - 🇯🇵_日本_24
   - 🇺🇸_美国_7
   - 🇺🇸_美国_8
-  - 🇳🇱_荷兰_1
-  - 🇬🇧_英国_1
-  - 🇷🇺_俄罗斯_4
   - 🇺🇸_美国_9
   - 🇺🇸_美国_10
-  - 🇯🇵_日本_25
-  - 🇳🇱_荷兰_2
-  - 🇷🇺_俄罗斯_5
-  - 🇫🇷_法国_1
   - 🇺🇸_美国_11
-  - 🇮🇳_印度
-  - 🇷🇺_俄罗斯_6
-  - 🇺🇦_乌克兰_1
-  - 🇪🇸_西班牙_1
   - 🇺🇸_美国_12
-  - 🇱🇹_立陶宛_4
-  - 🏳️_未知_1
-  - 🇷🇺_俄罗斯_7
   - 🇺🇸_美国_13
-  - 🇪🇸_西班牙_2
-  - 🇱🇺_卢森堡
   - 🇺🇸_美国_14
   - 🇺🇸_美国_15
-  - 🇨🇦_加拿大
-  - 🇫🇷_法国_2
-  - 🇳🇱_荷兰_3
   - 🇺🇸_美国_16
   - 🇺🇸_美国_17
-  - 🇱🇹_立陶宛_5
-  - 🇿🇦_南非
-  - 🏳️_未知_2
-  - 🇯🇵_日本_26
-  - 🇯🇵_日本_27
-  - 🇯🇵_日本_28
+  - 🇨🇳_中国_1
   - 🇺🇸_美国_18
-  - 🇰🇷_韩国_2
-  - 🇯🇵_日本_29
-  - 🇯🇵_日本_30
-  - 🇯🇵_日本_31
-  - 🇯🇵_日本_32
-  - 🇯🇵_日本_33
-  - 🇯🇵_日本_34
-  - 🇯🇵_日本_35
-  - 🇯🇵_日本_36
-  - 🇷🇺_俄罗斯_8
   - 🇺🇸_美国_19
-  - 🇯🇵_日本_37
+  - 🇳🇱_荷兰_1
   - 🇺🇸_美国_20
-  - 🇱🇹_立陶宛_6
-  - 🇩🇪_德国_2
-  - 🇷🇺_俄罗斯_9
-  - 🇯🇵_日本_38
-  - 🇸🇬_新加坡_1
-  - 🇯🇵_日本_39
-  - 🇯🇵_日本_40
-  - 🇫🇷_法国_3
-  - 🇯🇵_日本_41
-  - 🇯🇵_日本_42
-  - 🇸🇦_沙特阿拉伯_1
-  - 🇱🇹_立陶宛_7
   - 🇺🇸_美国_21
   - 🇺🇸_美国_22
-  - 🇱🇹_立陶宛_8
   - 🇺🇸_美国_23
-  - 🇦🇺_澳大利亚
-  - 🇬🇧_英国_2
   - 🇺🇸_美国_24
-  - 🇩🇪_德国_3
   - 🇺🇸_美国_25
-  - 🇷🇺_俄罗斯_10
-  - 🇯🇵_日本_43
-  - 🇯🇵_日本_44
-  - 🇯🇵_日本_45
-  - 🇯🇵_日本_46
-  - 🇯🇵_日本_47
-  - 🇯🇵_日本_48
   - 🇺🇸_美国_26
-  - 🇯🇵_日本_49
-  - 🇷🇺_俄罗斯_11
-  - 🇯🇵_日本_50
   - 🇺🇸_美国_27
   - 🇺🇸_美国_28
-  - 🇺🇦_乌克兰_2
   - 🇺🇸_美国_29
   - 🇺🇸_美国_30
   - 🇺🇸_美国_31
   - 🇺🇸_美国_32
-  - 🇯🇵_日本_51
-  - 🇯🇵_日本_52
-  - 🇯🇵_日本_53
-  - 🇳🇱_荷兰_4
-  - 🇯🇵_日本_54
-  - 🇯🇵_日本_55
-  - 🇯🇵_日本_56
   - 🇺🇸_美国_33
-  - 🇯🇵_日本_57
-  - 🇯🇵_日本_58
-  - 🇦🇹_奥地利
   - 🇺🇸_美国_34
-  - 🇯🇵_日本_59
-  - 🇨🇳_中国_3
-  - 🇨🇳_中国_4
-  - 🇨🇳_中国_5
-  - 🇯🇵_日本_60
   - 🇺🇸_美国_35
   - 🇺🇸_美国_36
-  - 🇱🇹_立陶宛_9
-  - 🇺🇦_乌克兰_3
-  - 🇳🇱_荷兰_5
-  - 🇪🇸_西班牙_3
-  - 🇯🇵_日本_61
-  - 🇯🇵_日本_62
   - 🇺🇸_美国_37
-  - 🇯🇵_日本_63
   - 🇺🇸_美国_38
-  - 🇯🇵_日本_64
-  - 🇱🇹_立陶宛_10
   - 🇺🇸_美国_39
-  - 🇯🇵_日本_65
   - 🇺🇸_美国_40
-  - 🇯🇵_日本_66
-  - 🇸🇪_瑞典
   - 🇺🇸_美国_41
   - 🇺🇸_美国_42
-  - 🏳️_未知_3
   - 🇺🇸_美国_43
   - 🇺🇸_美国_44
-  - 🇯🇵_日本_67
-  - 🇸🇦_沙特阿拉伯_2
-  - 🇯🇵_日本_68
   - 🇺🇸_美国_45
-  - 🇧🇬_保加利亚
-  - 🇸🇬_新加坡_2
-  - 🇳🇱_荷兰_6
-  - 🇯🇵_日本_69
-  - 🇳🇱_荷兰_7
-  - 🇯🇵_日本_70
   - 🇺🇸_美国_46
-  - 🇳🇱_荷兰_8
-  - 🇰🇷_韩国_3
-  - 🇯🇵_日本_71
-  - 🇯🇵_日本_72
-  - 🇯🇵_日本_73
-  - 🇯🇵_日本_74
   - 🇺🇸_美国_47
-  - 🇱🇹_立陶宛_11
-  - 🇫🇷_法国_4
-  - 🇬🇧_英国_3
-  - 🇬🇧_英国_4
   - 🇺🇸_美国_48
+  - 🇺🇸_美国_49
+  - 🇺🇸_美国_50
+  - 🇺🇸_美国_51
+  - 🇺🇸_美国_52
+  - 🇺🇸_美国_53
+  - 🇺🇸_美国_54
+  - 🇺🇸_美国_55
+  - 🇺🇸_美国_56
+  - 🇺🇸_美国_57
+  - 🇺🇸_美国_58
+  - 🇺🇸_美国_59
+  - 🇺🇸_美国_60
+  - 🇺🇸_美国_61
+  - 🇺🇸_美国_62
+  - 🇺🇸_美国_63
+  - 🇺🇸_美国_64
+  - 🇺🇸_美国_65
+  - 🇺🇸_美国_66
+  - 🇺🇸_美国_67
+  - 🇺🇸_美国_68
+  - 🇺🇸_美国_69
+  - 🇺🇸_美国_70
+  - 🇺🇸_美国_71
+  - 🇺🇸_美国_72
+  - 🇺🇸_美国_73
+  - 🇺🇸_美国_74
+  - 🇺🇸_美国_75
+  - 🇺🇸_美国_76
+  - 🇺🇸_美国_77
+  - 🇺🇸_美国_78
+  - 🇺🇸_美国_79
+  - 🇺🇸_美国_80
+  - 🇺🇸_美国_81
+  - 🇺🇸_美国_82
+  - 🇺🇸_美国_83
+  - 🇺🇸_美国_84
+  - 🇺🇸_美国_85
+  - 🇺🇸_美国_86
+  - 🇺🇸_美国_87
+  - 🇺🇸_美国_88
+  - 🇺🇸_美国_89
+  - 🇺🇸_美国_90
+  - 🇺🇸_美国_91
+  - 🇺🇸_美国_92
+  - 🇺🇸_美国_93
+  - 🇺🇸_美国_94
+  - 🇺🇸_美国_95
+  - 🇺🇸_美国_96
+  - 🇺🇸_美国_97
+  - 🇺🇸_美国_98
+  - 🇺🇸_美国_99
+  - 🇩🇰_丹麦_1
+  - 🇺🇸_美国_100
+  - 🇺🇸_美国_101
+  - 🇺🇸_美国_102
+  - 🇺🇸_美国_103
+  - 🇺🇸_美国_104
+  - 🇺🇸_美国_105
+  - 🇺🇸_美国_106
+  - 🇺🇸_美国_107
+  - 🇺🇸_美国_108
+  - 🇺🇸_美国_109
+  - 🇺🇸_美国_110
+  - 🇺🇸_美国_111
+  - 🇺🇸_美国_112
+  - 🇺🇸_美国_113
+  - 🇺🇸_美国_114
+  - 🇺🇸_美国_115
+  - 🇺🇸_美国_116
+  - 🇺🇸_美国_117
+  - 🇺🇸_美国_118
+  - 🇺🇸_美国_119
+  - 🇺🇸_美国_120
+  - 🇺🇸_美国_121
+  - 🇺🇸_美国_122
+  - 🇺🇸_美国_123
+  - 🇺🇸_美国_124
+  - 🇺🇸_美国_125
+  - 🇺🇸_美国_126
+  - 🇺🇸_美国_127
+  - 🇺🇸_美国_128
+  - 🇺🇸_美国_129
+  - 🇺🇸_美国_130
+  - 🇺🇸_美国_131
+  - 🇺🇸_美国_132
+  - 🇺🇸_美国_133
+  - 🇺🇸_美国_134
+  - 🇺🇸_美国_135
+  - 🇺🇸_美国_136
+  - 🇺🇸_美国_137
+  - 🇺🇸_美国_138
+  - 🇺🇸_美国_139
+  - 🇩🇰_丹麦_2
+  - 🇺🇸_美国_140
+  - 🇺🇸_美国_141
+  - 🇺🇸_美国_142
+  - 🇺🇸_美国_143
+  - 🇺🇸_美国_144
+  - 🇨🇭_瑞士_1
+  - 🇺🇸_美国_145
+  - 🇺🇸_美国_146
+  - 🇺🇸_美国_147
+  - 🇺🇸_美国_148
+  - 🇺🇸_美国_149
+  - 🇺🇸_美国_150
+  - 🇺🇸_美国_151
+  - 🇺🇸_美国_152
+  - 🇺🇸_美国_153
+  - 🇺🇸_美国_154
+  - 🇺🇸_美国_155
+  - 🇺🇸_美国_156
+  - 🇺🇸_美国_157
+  - 🇺🇸_美国_158
+  - 🇺🇸_美国_159
+  - 🏳️_未知_1
+  - 🇺🇸_美国_160
+  - 🇺🇸_美国_161
+  - 🇺🇸_美国_162
+  - 🇺🇸_美国_163
+  - 🇺🇸_美国_164
+  - 🇺🇸_美国_165
+  - 🇺🇸_美国_166
+  - 🇺🇸_美国_167
+  - 🇺🇸_美国_168
+  - 🇺🇸_美国_169
+  - 🇺🇸_美国_170
+  - 🇺🇸_美国_171
+  - 🇺🇸_美国_172
+  - 🇺🇸_美国_173
+  - 🇺🇸_美国_174
+  - 🇺🇸_美国_175
+  - 🇺🇸_美国_176
+  - 🇺🇸_美国_177
+  - 🇺🇸_美国_178
+  - 🇺🇸_美国_179
+  - 🇺🇸_美国_180
+  - 🇺🇸_美国_181
+  - 🇺🇸_美国_182
+  - 🇺🇸_美国_183
+  - 🇺🇸_美国_184
+  - 🇺🇸_美国_185
+  - 🇺🇸_美国_186
+  - 🏳️_未知_2
+  - 🇺🇸_美国_187
+  - 🇺🇸_美国_188
+  - 🇺🇸_美国_189
+  - 🇺🇸_美国_190
+  - 🇺🇸_美国_191
+  - 🇳🇱_荷兰_2
+  - 🇺🇸_美国_192
+  - 🇺🇸_美国_193
+  - 🇨🇭_瑞士_2
+  - 🇺🇸_美国_194
+  - 🇨🇦_加拿大
+  - 🇺🇸_美国_195
+  - 🇺🇸_美国_196
+  - 🇨🇳_中国_2
+  - 🇨🇳_中国_3
+  - 🇺🇸_美国_197
+  - 🇨🇳_中国_4
   type: select
 - name: 📲 电报信息
   proxies:
@@ -3336,201 +3660,218 @@ proxy-groups:
   - 🎯 全球直连
   - 电报群：https://t.me/vvkj11
   - 每天更新，请加电报群防止失联
-  - 日期：07-16
+  - 日期：07-18
   - 免费VPN：https://tt.vg/gwaAy
-  - 🇨🇳_中国_1
-  - 🇨🇳_中国_2
-  - 🇧🇪_比利时
   - 🇺🇸_美国_1
   - 🇺🇸_美国_2
-  - 🇯🇵_日本_1
-  - 🇯🇵_日本_2
-  - 🇩🇪_德国_1
-  - 🇯🇵_日本_3
-  - 🇯🇵_日本_4
-  - 🇯🇵_日本_5
-  - 🇯🇵_日本_6
-  - 🇯🇵_日本_7
-  - 🇯🇵_日本_8
-  - 🇯🇵_日本_9
-  - 🇯🇵_日本_10
-  - 🇯🇵_日本_11
   - 🇺🇸_美国_3
-  - 🇯🇵_日本_12
-  - 🇯🇵_日本_13
-  - 🇯🇵_日本_14
-  - 🇱🇹_立陶宛_1
-  - 🇯🇵_日本_15
-  - 🇯🇵_日本_16
-  - 🇯🇵_日本_17
-  - 🇯🇵_日本_18
-  - 🇯🇵_日本_19
-  - 🇯🇵_日本_20
-  - 🇯🇵_日本_21
-  - 🇯🇵_日本_22
   - 🇺🇸_美国_4
-  - 🇷🇺_俄罗斯_1
-  - 🇯🇵_日本_23
   - 🇺🇸_美国_5
-  - 🇰🇷_韩国_1
-  - 🇷🇺_俄罗斯_2
-  - 🇷🇺_俄罗斯_3
-  - 🇱🇹_立陶宛_2
   - 🇺🇸_美国_6
-  - 🇱🇹_立陶宛_3
-  - 🇯🇵_日本_24
   - 🇺🇸_美国_7
   - 🇺🇸_美国_8
-  - 🇳🇱_荷兰_1
-  - 🇬🇧_英国_1
-  - 🇷🇺_俄罗斯_4
   - 🇺🇸_美国_9
   - 🇺🇸_美国_10
-  - 🇯🇵_日本_25
-  - 🇳🇱_荷兰_2
-  - 🇷🇺_俄罗斯_5
-  - 🇫🇷_法国_1
   - 🇺🇸_美国_11
-  - 🇮🇳_印度
-  - 🇷🇺_俄罗斯_6
-  - 🇺🇦_乌克兰_1
-  - 🇪🇸_西班牙_1
   - 🇺🇸_美国_12
-  - 🇱🇹_立陶宛_4
-  - 🏳️_未知_1
-  - 🇷🇺_俄罗斯_7
   - 🇺🇸_美国_13
-  - 🇪🇸_西班牙_2
-  - 🇱🇺_卢森堡
   - 🇺🇸_美国_14
   - 🇺🇸_美国_15
-  - 🇨🇦_加拿大
-  - 🇫🇷_法国_2
-  - 🇳🇱_荷兰_3
   - 🇺🇸_美国_16
   - 🇺🇸_美国_17
-  - 🇱🇹_立陶宛_5
-  - 🇿🇦_南非
-  - 🏳️_未知_2
-  - 🇯🇵_日本_26
-  - 🇯🇵_日本_27
-  - 🇯🇵_日本_28
+  - 🇨🇳_中国_1
   - 🇺🇸_美国_18
-  - 🇰🇷_韩国_2
-  - 🇯🇵_日本_29
-  - 🇯🇵_日本_30
-  - 🇯🇵_日本_31
-  - 🇯🇵_日本_32
-  - 🇯🇵_日本_33
-  - 🇯🇵_日本_34
-  - 🇯🇵_日本_35
-  - 🇯🇵_日本_36
-  - 🇷🇺_俄罗斯_8
   - 🇺🇸_美国_19
-  - 🇯🇵_日本_37
+  - 🇳🇱_荷兰_1
   - 🇺🇸_美国_20
-  - 🇱🇹_立陶宛_6
-  - 🇩🇪_德国_2
-  - 🇷🇺_俄罗斯_9
-  - 🇯🇵_日本_38
-  - 🇸🇬_新加坡_1
-  - 🇯🇵_日本_39
-  - 🇯🇵_日本_40
-  - 🇫🇷_法国_3
-  - 🇯🇵_日本_41
-  - 🇯🇵_日本_42
-  - 🇸🇦_沙特阿拉伯_1
-  - 🇱🇹_立陶宛_7
   - 🇺🇸_美国_21
   - 🇺🇸_美国_22
-  - 🇱🇹_立陶宛_8
   - 🇺🇸_美国_23
-  - 🇦🇺_澳大利亚
-  - 🇬🇧_英国_2
   - 🇺🇸_美国_24
-  - 🇩🇪_德国_3
   - 🇺🇸_美国_25
-  - 🇷🇺_俄罗斯_10
-  - 🇯🇵_日本_43
-  - 🇯🇵_日本_44
-  - 🇯🇵_日本_45
-  - 🇯🇵_日本_46
-  - 🇯🇵_日本_47
-  - 🇯🇵_日本_48
   - 🇺🇸_美国_26
-  - 🇯🇵_日本_49
-  - 🇷🇺_俄罗斯_11
-  - 🇯🇵_日本_50
   - 🇺🇸_美国_27
   - 🇺🇸_美国_28
-  - 🇺🇦_乌克兰_2
   - 🇺🇸_美国_29
   - 🇺🇸_美国_30
   - 🇺🇸_美国_31
   - 🇺🇸_美国_32
-  - 🇯🇵_日本_51
-  - 🇯🇵_日本_52
-  - 🇯🇵_日本_53
-  - 🇳🇱_荷兰_4
-  - 🇯🇵_日本_54
-  - 🇯🇵_日本_55
-  - 🇯🇵_日本_56
   - 🇺🇸_美国_33
-  - 🇯🇵_日本_57
-  - 🇯🇵_日本_58
-  - 🇦🇹_奥地利
   - 🇺🇸_美国_34
-  - 🇯🇵_日本_59
-  - 🇨🇳_中国_3
-  - 🇨🇳_中国_4
-  - 🇨🇳_中国_5
-  - 🇯🇵_日本_60
   - 🇺🇸_美国_35
   - 🇺🇸_美国_36
-  - 🇱🇹_立陶宛_9
-  - 🇺🇦_乌克兰_3
-  - 🇳🇱_荷兰_5
-  - 🇪🇸_西班牙_3
-  - 🇯🇵_日本_61
-  - 🇯🇵_日本_62
   - 🇺🇸_美国_37
-  - 🇯🇵_日本_63
   - 🇺🇸_美国_38
-  - 🇯🇵_日本_64
-  - 🇱🇹_立陶宛_10
   - 🇺🇸_美国_39
-  - 🇯🇵_日本_65
   - 🇺🇸_美国_40
-  - 🇯🇵_日本_66
-  - 🇸🇪_瑞典
   - 🇺🇸_美国_41
   - 🇺🇸_美国_42
-  - 🏳️_未知_3
   - 🇺🇸_美国_43
   - 🇺🇸_美国_44
-  - 🇯🇵_日本_67
-  - 🇸🇦_沙特阿拉伯_2
-  - 🇯🇵_日本_68
   - 🇺🇸_美国_45
-  - 🇧🇬_保加利亚
-  - 🇸🇬_新加坡_2
-  - 🇳🇱_荷兰_6
-  - 🇯🇵_日本_69
-  - 🇳🇱_荷兰_7
-  - 🇯🇵_日本_70
   - 🇺🇸_美国_46
-  - 🇳🇱_荷兰_8
-  - 🇰🇷_韩国_3
-  - 🇯🇵_日本_71
-  - 🇯🇵_日本_72
-  - 🇯🇵_日本_73
-  - 🇯🇵_日本_74
   - 🇺🇸_美国_47
-  - 🇱🇹_立陶宛_11
-  - 🇫🇷_法国_4
-  - 🇬🇧_英国_3
-  - 🇬🇧_英国_4
   - 🇺🇸_美国_48
+  - 🇺🇸_美国_49
+  - 🇺🇸_美国_50
+  - 🇺🇸_美国_51
+  - 🇺🇸_美国_52
+  - 🇺🇸_美国_53
+  - 🇺🇸_美国_54
+  - 🇺🇸_美国_55
+  - 🇺🇸_美国_56
+  - 🇺🇸_美国_57
+  - 🇺🇸_美国_58
+  - 🇺🇸_美国_59
+  - 🇺🇸_美国_60
+  - 🇺🇸_美国_61
+  - 🇺🇸_美国_62
+  - 🇺🇸_美国_63
+  - 🇺🇸_美国_64
+  - 🇺🇸_美国_65
+  - 🇺🇸_美国_66
+  - 🇺🇸_美国_67
+  - 🇺🇸_美国_68
+  - 🇺🇸_美国_69
+  - 🇺🇸_美国_70
+  - 🇺🇸_美国_71
+  - 🇺🇸_美国_72
+  - 🇺🇸_美国_73
+  - 🇺🇸_美国_74
+  - 🇺🇸_美国_75
+  - 🇺🇸_美国_76
+  - 🇺🇸_美国_77
+  - 🇺🇸_美国_78
+  - 🇺🇸_美国_79
+  - 🇺🇸_美国_80
+  - 🇺🇸_美国_81
+  - 🇺🇸_美国_82
+  - 🇺🇸_美国_83
+  - 🇺🇸_美国_84
+  - 🇺🇸_美国_85
+  - 🇺🇸_美国_86
+  - 🇺🇸_美国_87
+  - 🇺🇸_美国_88
+  - 🇺🇸_美国_89
+  - 🇺🇸_美国_90
+  - 🇺🇸_美国_91
+  - 🇺🇸_美国_92
+  - 🇺🇸_美国_93
+  - 🇺🇸_美国_94
+  - 🇺🇸_美国_95
+  - 🇺🇸_美国_96
+  - 🇺🇸_美国_97
+  - 🇺🇸_美国_98
+  - 🇺🇸_美国_99
+  - 🇩🇰_丹麦_1
+  - 🇺🇸_美国_100
+  - 🇺🇸_美国_101
+  - 🇺🇸_美国_102
+  - 🇺🇸_美国_103
+  - 🇺🇸_美国_104
+  - 🇺🇸_美国_105
+  - 🇺🇸_美国_106
+  - 🇺🇸_美国_107
+  - 🇺🇸_美国_108
+  - 🇺🇸_美国_109
+  - 🇺🇸_美国_110
+  - 🇺🇸_美国_111
+  - 🇺🇸_美国_112
+  - 🇺🇸_美国_113
+  - 🇺🇸_美国_114
+  - 🇺🇸_美国_115
+  - 🇺🇸_美国_116
+  - 🇺🇸_美国_117
+  - 🇺🇸_美国_118
+  - 🇺🇸_美国_119
+  - 🇺🇸_美国_120
+  - 🇺🇸_美国_121
+  - 🇺🇸_美国_122
+  - 🇺🇸_美国_123
+  - 🇺🇸_美国_124
+  - 🇺🇸_美国_125
+  - 🇺🇸_美国_126
+  - 🇺🇸_美国_127
+  - 🇺🇸_美国_128
+  - 🇺🇸_美国_129
+  - 🇺🇸_美国_130
+  - 🇺🇸_美国_131
+  - 🇺🇸_美国_132
+  - 🇺🇸_美国_133
+  - 🇺🇸_美国_134
+  - 🇺🇸_美国_135
+  - 🇺🇸_美国_136
+  - 🇺🇸_美国_137
+  - 🇺🇸_美国_138
+  - 🇺🇸_美国_139
+  - 🇩🇰_丹麦_2
+  - 🇺🇸_美国_140
+  - 🇺🇸_美国_141
+  - 🇺🇸_美国_142
+  - 🇺🇸_美国_143
+  - 🇺🇸_美国_144
+  - 🇨🇭_瑞士_1
+  - 🇺🇸_美国_145
+  - 🇺🇸_美国_146
+  - 🇺🇸_美国_147
+  - 🇺🇸_美国_148
+  - 🇺🇸_美国_149
+  - 🇺🇸_美国_150
+  - 🇺🇸_美国_151
+  - 🇺🇸_美国_152
+  - 🇺🇸_美国_153
+  - 🇺🇸_美国_154
+  - 🇺🇸_美国_155
+  - 🇺🇸_美国_156
+  - 🇺🇸_美国_157
+  - 🇺🇸_美国_158
+  - 🇺🇸_美国_159
+  - 🏳️_未知_1
+  - 🇺🇸_美国_160
+  - 🇺🇸_美国_161
+  - 🇺🇸_美国_162
+  - 🇺🇸_美国_163
+  - 🇺🇸_美国_164
+  - 🇺🇸_美国_165
+  - 🇺🇸_美国_166
+  - 🇺🇸_美国_167
+  - 🇺🇸_美国_168
+  - 🇺🇸_美国_169
+  - 🇺🇸_美国_170
+  - 🇺🇸_美国_171
+  - 🇺🇸_美国_172
+  - 🇺🇸_美国_173
+  - 🇺🇸_美国_174
+  - 🇺🇸_美国_175
+  - 🇺🇸_美国_176
+  - 🇺🇸_美国_177
+  - 🇺🇸_美国_178
+  - 🇺🇸_美国_179
+  - 🇺🇸_美国_180
+  - 🇺🇸_美国_181
+  - 🇺🇸_美国_182
+  - 🇺🇸_美国_183
+  - 🇺🇸_美国_184
+  - 🇺🇸_美国_185
+  - 🇺🇸_美国_186
+  - 🏳️_未知_2
+  - 🇺🇸_美国_187
+  - 🇺🇸_美国_188
+  - 🇺🇸_美国_189
+  - 🇺🇸_美国_190
+  - 🇺🇸_美国_191
+  - 🇳🇱_荷兰_2
+  - 🇺🇸_美国_192
+  - 🇺🇸_美国_193
+  - 🇨🇭_瑞士_2
+  - 🇺🇸_美国_194
+  - 🇨🇦_加拿大
+  - 🇺🇸_美国_195
+  - 🇺🇸_美国_196
+  - 🇨🇳_中国_2
+  - 🇨🇳_中国_3
+  - 🇺🇸_美国_197
+  - 🇨🇳_中国_4
   type: select
 - name: Ⓜ️ 微软服务
   proxies:
@@ -3538,201 +3879,218 @@ proxy-groups:
   - 🚀 节点选择
   - 电报群：https://t.me/vvkj11
   - 每天更新，请加电报群防止失联
-  - 日期：07-16
+  - 日期：07-18
   - 免费VPN：https://tt.vg/gwaAy
-  - 🇨🇳_中国_1
-  - 🇨🇳_中国_2
-  - 🇧🇪_比利时
   - 🇺🇸_美国_1
   - 🇺🇸_美国_2
-  - 🇯🇵_日本_1
-  - 🇯🇵_日本_2
-  - 🇩🇪_德国_1
-  - 🇯🇵_日本_3
-  - 🇯🇵_日本_4
-  - 🇯🇵_日本_5
-  - 🇯🇵_日本_6
-  - 🇯🇵_日本_7
-  - 🇯🇵_日本_8
-  - 🇯🇵_日本_9
-  - 🇯🇵_日本_10
-  - 🇯🇵_日本_11
   - 🇺🇸_美国_3
-  - 🇯🇵_日本_12
-  - 🇯🇵_日本_13
-  - 🇯🇵_日本_14
-  - 🇱🇹_立陶宛_1
-  - 🇯🇵_日本_15
-  - 🇯🇵_日本_16
-  - 🇯🇵_日本_17
-  - 🇯🇵_日本_18
-  - 🇯🇵_日本_19
-  - 🇯🇵_日本_20
-  - 🇯🇵_日本_21
-  - 🇯🇵_日本_22
   - 🇺🇸_美国_4
-  - 🇷🇺_俄罗斯_1
-  - 🇯🇵_日本_23
   - 🇺🇸_美国_5
-  - 🇰🇷_韩国_1
-  - 🇷🇺_俄罗斯_2
-  - 🇷🇺_俄罗斯_3
-  - 🇱🇹_立陶宛_2
   - 🇺🇸_美国_6
-  - 🇱🇹_立陶宛_3
-  - 🇯🇵_日本_24
   - 🇺🇸_美国_7
   - 🇺🇸_美国_8
-  - 🇳🇱_荷兰_1
-  - 🇬🇧_英国_1
-  - 🇷🇺_俄罗斯_4
   - 🇺🇸_美国_9
   - 🇺🇸_美国_10
-  - 🇯🇵_日本_25
-  - 🇳🇱_荷兰_2
-  - 🇷🇺_俄罗斯_5
-  - 🇫🇷_法国_1
   - 🇺🇸_美国_11
-  - 🇮🇳_印度
-  - 🇷🇺_俄罗斯_6
-  - 🇺🇦_乌克兰_1
-  - 🇪🇸_西班牙_1
   - 🇺🇸_美国_12
-  - 🇱🇹_立陶宛_4
-  - 🏳️_未知_1
-  - 🇷🇺_俄罗斯_7
   - 🇺🇸_美国_13
-  - 🇪🇸_西班牙_2
-  - 🇱🇺_卢森堡
   - 🇺🇸_美国_14
   - 🇺🇸_美国_15
-  - 🇨🇦_加拿大
-  - 🇫🇷_法国_2
-  - 🇳🇱_荷兰_3
   - 🇺🇸_美国_16
   - 🇺🇸_美国_17
-  - 🇱🇹_立陶宛_5
-  - 🇿🇦_南非
-  - 🏳️_未知_2
-  - 🇯🇵_日本_26
-  - 🇯🇵_日本_27
-  - 🇯🇵_日本_28
+  - 🇨🇳_中国_1
   - 🇺🇸_美国_18
-  - 🇰🇷_韩国_2
-  - 🇯🇵_日本_29
-  - 🇯🇵_日本_30
-  - 🇯🇵_日本_31
-  - 🇯🇵_日本_32
-  - 🇯🇵_日本_33
-  - 🇯🇵_日本_34
-  - 🇯🇵_日本_35
-  - 🇯🇵_日本_36
-  - 🇷🇺_俄罗斯_8
   - 🇺🇸_美国_19
-  - 🇯🇵_日本_37
+  - 🇳🇱_荷兰_1
   - 🇺🇸_美国_20
-  - 🇱🇹_立陶宛_6
-  - 🇩🇪_德国_2
-  - 🇷🇺_俄罗斯_9
-  - 🇯🇵_日本_38
-  - 🇸🇬_新加坡_1
-  - 🇯🇵_日本_39
-  - 🇯🇵_日本_40
-  - 🇫🇷_法国_3
-  - 🇯🇵_日本_41
-  - 🇯🇵_日本_42
-  - 🇸🇦_沙特阿拉伯_1
-  - 🇱🇹_立陶宛_7
   - 🇺🇸_美国_21
   - 🇺🇸_美国_22
-  - 🇱🇹_立陶宛_8
   - 🇺🇸_美国_23
-  - 🇦🇺_澳大利亚
-  - 🇬🇧_英国_2
   - 🇺🇸_美国_24
-  - 🇩🇪_德国_3
   - 🇺🇸_美国_25
-  - 🇷🇺_俄罗斯_10
-  - 🇯🇵_日本_43
-  - 🇯🇵_日本_44
-  - 🇯🇵_日本_45
-  - 🇯🇵_日本_46
-  - 🇯🇵_日本_47
-  - 🇯🇵_日本_48
   - 🇺🇸_美国_26
-  - 🇯🇵_日本_49
-  - 🇷🇺_俄罗斯_11
-  - 🇯🇵_日本_50
   - 🇺🇸_美国_27
   - 🇺🇸_美国_28
-  - 🇺🇦_乌克兰_2
   - 🇺🇸_美国_29
   - 🇺🇸_美国_30
   - 🇺🇸_美国_31
   - 🇺🇸_美国_32
-  - 🇯🇵_日本_51
-  - 🇯🇵_日本_52
-  - 🇯🇵_日本_53
-  - 🇳🇱_荷兰_4
-  - 🇯🇵_日本_54
-  - 🇯🇵_日本_55
-  - 🇯🇵_日本_56
   - 🇺🇸_美国_33
-  - 🇯🇵_日本_57
-  - 🇯🇵_日本_58
-  - 🇦🇹_奥地利
   - 🇺🇸_美国_34
-  - 🇯🇵_日本_59
-  - 🇨🇳_中国_3
-  - 🇨🇳_中国_4
-  - 🇨🇳_中国_5
-  - 🇯🇵_日本_60
   - 🇺🇸_美国_35
   - 🇺🇸_美国_36
-  - 🇱🇹_立陶宛_9
-  - 🇺🇦_乌克兰_3
-  - 🇳🇱_荷兰_5
-  - 🇪🇸_西班牙_3
-  - 🇯🇵_日本_61
-  - 🇯🇵_日本_62
   - 🇺🇸_美国_37
-  - 🇯🇵_日本_63
   - 🇺🇸_美国_38
-  - 🇯🇵_日本_64
-  - 🇱🇹_立陶宛_10
   - 🇺🇸_美国_39
-  - 🇯🇵_日本_65
   - 🇺🇸_美国_40
-  - 🇯🇵_日本_66
-  - 🇸🇪_瑞典
   - 🇺🇸_美国_41
   - 🇺🇸_美国_42
-  - 🏳️_未知_3
   - 🇺🇸_美国_43
   - 🇺🇸_美国_44
-  - 🇯🇵_日本_67
-  - 🇸🇦_沙特阿拉伯_2
-  - 🇯🇵_日本_68
   - 🇺🇸_美国_45
-  - 🇧🇬_保加利亚
-  - 🇸🇬_新加坡_2
-  - 🇳🇱_荷兰_6
-  - 🇯🇵_日本_69
-  - 🇳🇱_荷兰_7
-  - 🇯🇵_日本_70
   - 🇺🇸_美国_46
-  - 🇳🇱_荷兰_8
-  - 🇰🇷_韩国_3
-  - 🇯🇵_日本_71
-  - 🇯🇵_日本_72
-  - 🇯🇵_日本_73
-  - 🇯🇵_日本_74
   - 🇺🇸_美国_47
-  - 🇱🇹_立陶宛_11
-  - 🇫🇷_法国_4
-  - 🇬🇧_英国_3
-  - 🇬🇧_英国_4
   - 🇺🇸_美国_48
+  - 🇺🇸_美国_49
+  - 🇺🇸_美国_50
+  - 🇺🇸_美国_51
+  - 🇺🇸_美国_52
+  - 🇺🇸_美国_53
+  - 🇺🇸_美国_54
+  - 🇺🇸_美国_55
+  - 🇺🇸_美国_56
+  - 🇺🇸_美国_57
+  - 🇺🇸_美国_58
+  - 🇺🇸_美国_59
+  - 🇺🇸_美国_60
+  - 🇺🇸_美国_61
+  - 🇺🇸_美国_62
+  - 🇺🇸_美国_63
+  - 🇺🇸_美国_64
+  - 🇺🇸_美国_65
+  - 🇺🇸_美国_66
+  - 🇺🇸_美国_67
+  - 🇺🇸_美国_68
+  - 🇺🇸_美国_69
+  - 🇺🇸_美国_70
+  - 🇺🇸_美国_71
+  - 🇺🇸_美国_72
+  - 🇺🇸_美国_73
+  - 🇺🇸_美国_74
+  - 🇺🇸_美国_75
+  - 🇺🇸_美国_76
+  - 🇺🇸_美国_77
+  - 🇺🇸_美国_78
+  - 🇺🇸_美国_79
+  - 🇺🇸_美国_80
+  - 🇺🇸_美国_81
+  - 🇺🇸_美国_82
+  - 🇺🇸_美国_83
+  - 🇺🇸_美国_84
+  - 🇺🇸_美国_85
+  - 🇺🇸_美国_86
+  - 🇺🇸_美国_87
+  - 🇺🇸_美国_88
+  - 🇺🇸_美国_89
+  - 🇺🇸_美国_90
+  - 🇺🇸_美国_91
+  - 🇺🇸_美国_92
+  - 🇺🇸_美国_93
+  - 🇺🇸_美国_94
+  - 🇺🇸_美国_95
+  - 🇺🇸_美国_96
+  - 🇺🇸_美国_97
+  - 🇺🇸_美国_98
+  - 🇺🇸_美国_99
+  - 🇩🇰_丹麦_1
+  - 🇺🇸_美国_100
+  - 🇺🇸_美国_101
+  - 🇺🇸_美国_102
+  - 🇺🇸_美国_103
+  - 🇺🇸_美国_104
+  - 🇺🇸_美国_105
+  - 🇺🇸_美国_106
+  - 🇺🇸_美国_107
+  - 🇺🇸_美国_108
+  - 🇺🇸_美国_109
+  - 🇺🇸_美国_110
+  - 🇺🇸_美国_111
+  - 🇺🇸_美国_112
+  - 🇺🇸_美国_113
+  - 🇺🇸_美国_114
+  - 🇺🇸_美国_115
+  - 🇺🇸_美国_116
+  - 🇺🇸_美国_117
+  - 🇺🇸_美国_118
+  - 🇺🇸_美国_119
+  - 🇺🇸_美国_120
+  - 🇺🇸_美国_121
+  - 🇺🇸_美国_122
+  - 🇺🇸_美国_123
+  - 🇺🇸_美国_124
+  - 🇺🇸_美国_125
+  - 🇺🇸_美国_126
+  - 🇺🇸_美国_127
+  - 🇺🇸_美国_128
+  - 🇺🇸_美国_129
+  - 🇺🇸_美国_130
+  - 🇺🇸_美国_131
+  - 🇺🇸_美国_132
+  - 🇺🇸_美国_133
+  - 🇺🇸_美国_134
+  - 🇺🇸_美国_135
+  - 🇺🇸_美国_136
+  - 🇺🇸_美国_137
+  - 🇺🇸_美国_138
+  - 🇺🇸_美国_139
+  - 🇩🇰_丹麦_2
+  - 🇺🇸_美国_140
+  - 🇺🇸_美国_141
+  - 🇺🇸_美国_142
+  - 🇺🇸_美国_143
+  - 🇺🇸_美国_144
+  - 🇨🇭_瑞士_1
+  - 🇺🇸_美国_145
+  - 🇺🇸_美国_146
+  - 🇺🇸_美国_147
+  - 🇺🇸_美国_148
+  - 🇺🇸_美国_149
+  - 🇺🇸_美国_150
+  - 🇺🇸_美国_151
+  - 🇺🇸_美国_152
+  - 🇺🇸_美国_153
+  - 🇺🇸_美国_154
+  - 🇺🇸_美国_155
+  - 🇺🇸_美国_156
+  - 🇺🇸_美国_157
+  - 🇺🇸_美国_158
+  - 🇺🇸_美国_159
+  - 🏳️_未知_1
+  - 🇺🇸_美国_160
+  - 🇺🇸_美国_161
+  - 🇺🇸_美国_162
+  - 🇺🇸_美国_163
+  - 🇺🇸_美国_164
+  - 🇺🇸_美国_165
+  - 🇺🇸_美国_166
+  - 🇺🇸_美国_167
+  - 🇺🇸_美国_168
+  - 🇺🇸_美国_169
+  - 🇺🇸_美国_170
+  - 🇺🇸_美国_171
+  - 🇺🇸_美国_172
+  - 🇺🇸_美国_173
+  - 🇺🇸_美国_174
+  - 🇺🇸_美国_175
+  - 🇺🇸_美国_176
+  - 🇺🇸_美国_177
+  - 🇺🇸_美国_178
+  - 🇺🇸_美国_179
+  - 🇺🇸_美国_180
+  - 🇺🇸_美国_181
+  - 🇺🇸_美国_182
+  - 🇺🇸_美国_183
+  - 🇺🇸_美国_184
+  - 🇺🇸_美国_185
+  - 🇺🇸_美国_186
+  - 🏳️_未知_2
+  - 🇺🇸_美国_187
+  - 🇺🇸_美国_188
+  - 🇺🇸_美国_189
+  - 🇺🇸_美国_190
+  - 🇺🇸_美国_191
+  - 🇳🇱_荷兰_2
+  - 🇺🇸_美国_192
+  - 🇺🇸_美国_193
+  - 🇨🇭_瑞士_2
+  - 🇺🇸_美国_194
+  - 🇨🇦_加拿大
+  - 🇺🇸_美国_195
+  - 🇺🇸_美国_196
+  - 🇨🇳_中国_2
+  - 🇨🇳_中国_3
+  - 🇺🇸_美国_197
+  - 🇨🇳_中国_4
   type: select
 - name: 🍎 苹果服务
   proxies:
@@ -3740,201 +4098,218 @@ proxy-groups:
   - 🎯 全球直连
   - 电报群：https://t.me/vvkj11
   - 每天更新，请加电报群防止失联
-  - 日期：07-16
+  - 日期：07-18
   - 免费VPN：https://tt.vg/gwaAy
-  - 🇨🇳_中国_1
-  - 🇨🇳_中国_2
-  - 🇧🇪_比利时
   - 🇺🇸_美国_1
   - 🇺🇸_美国_2
-  - 🇯🇵_日本_1
-  - 🇯🇵_日本_2
-  - 🇩🇪_德国_1
-  - 🇯🇵_日本_3
-  - 🇯🇵_日本_4
-  - 🇯🇵_日本_5
-  - 🇯🇵_日本_6
-  - 🇯🇵_日本_7
-  - 🇯🇵_日本_8
-  - 🇯🇵_日本_9
-  - 🇯🇵_日本_10
-  - 🇯🇵_日本_11
   - 🇺🇸_美国_3
-  - 🇯🇵_日本_12
-  - 🇯🇵_日本_13
-  - 🇯🇵_日本_14
-  - 🇱🇹_立陶宛_1
-  - 🇯🇵_日本_15
-  - 🇯🇵_日本_16
-  - 🇯🇵_日本_17
-  - 🇯🇵_日本_18
-  - 🇯🇵_日本_19
-  - 🇯🇵_日本_20
-  - 🇯🇵_日本_21
-  - 🇯🇵_日本_22
   - 🇺🇸_美国_4
-  - 🇷🇺_俄罗斯_1
-  - 🇯🇵_日本_23
   - 🇺🇸_美国_5
-  - 🇰🇷_韩国_1
-  - 🇷🇺_俄罗斯_2
-  - 🇷🇺_俄罗斯_3
-  - 🇱🇹_立陶宛_2
   - 🇺🇸_美国_6
-  - 🇱🇹_立陶宛_3
-  - 🇯🇵_日本_24
   - 🇺🇸_美国_7
   - 🇺🇸_美国_8
-  - 🇳🇱_荷兰_1
-  - 🇬🇧_英国_1
-  - 🇷🇺_俄罗斯_4
   - 🇺🇸_美国_9
   - 🇺🇸_美国_10
-  - 🇯🇵_日本_25
-  - 🇳🇱_荷兰_2
-  - 🇷🇺_俄罗斯_5
-  - 🇫🇷_法国_1
   - 🇺🇸_美国_11
-  - 🇮🇳_印度
-  - 🇷🇺_俄罗斯_6
-  - 🇺🇦_乌克兰_1
-  - 🇪🇸_西班牙_1
   - 🇺🇸_美国_12
-  - 🇱🇹_立陶宛_4
-  - 🏳️_未知_1
-  - 🇷🇺_俄罗斯_7
   - 🇺🇸_美国_13
-  - 🇪🇸_西班牙_2
-  - 🇱🇺_卢森堡
   - 🇺🇸_美国_14
   - 🇺🇸_美国_15
-  - 🇨🇦_加拿大
-  - 🇫🇷_法国_2
-  - 🇳🇱_荷兰_3
   - 🇺🇸_美国_16
   - 🇺🇸_美国_17
-  - 🇱🇹_立陶宛_5
-  - 🇿🇦_南非
-  - 🏳️_未知_2
-  - 🇯🇵_日本_26
-  - 🇯🇵_日本_27
-  - 🇯🇵_日本_28
+  - 🇨🇳_中国_1
   - 🇺🇸_美国_18
-  - 🇰🇷_韩国_2
-  - 🇯🇵_日本_29
-  - 🇯🇵_日本_30
-  - 🇯🇵_日本_31
-  - 🇯🇵_日本_32
-  - 🇯🇵_日本_33
-  - 🇯🇵_日本_34
-  - 🇯🇵_日本_35
-  - 🇯🇵_日本_36
-  - 🇷🇺_俄罗斯_8
   - 🇺🇸_美国_19
-  - 🇯🇵_日本_37
+  - 🇳🇱_荷兰_1
   - 🇺🇸_美国_20
-  - 🇱🇹_立陶宛_6
-  - 🇩🇪_德国_2
-  - 🇷🇺_俄罗斯_9
-  - 🇯🇵_日本_38
-  - 🇸🇬_新加坡_1
-  - 🇯🇵_日本_39
-  - 🇯🇵_日本_40
-  - 🇫🇷_法国_3
-  - 🇯🇵_日本_41
-  - 🇯🇵_日本_42
-  - 🇸🇦_沙特阿拉伯_1
-  - 🇱🇹_立陶宛_7
   - 🇺🇸_美国_21
   - 🇺🇸_美国_22
-  - 🇱🇹_立陶宛_8
   - 🇺🇸_美国_23
-  - 🇦🇺_澳大利亚
-  - 🇬🇧_英国_2
   - 🇺🇸_美国_24
-  - 🇩🇪_德国_3
   - 🇺🇸_美国_25
-  - 🇷🇺_俄罗斯_10
-  - 🇯🇵_日本_43
-  - 🇯🇵_日本_44
-  - 🇯🇵_日本_45
-  - 🇯🇵_日本_46
-  - 🇯🇵_日本_47
-  - 🇯🇵_日本_48
   - 🇺🇸_美国_26
-  - 🇯🇵_日本_49
-  - 🇷🇺_俄罗斯_11
-  - 🇯🇵_日本_50
   - 🇺🇸_美国_27
   - 🇺🇸_美国_28
-  - 🇺🇦_乌克兰_2
   - 🇺🇸_美国_29
   - 🇺🇸_美国_30
   - 🇺🇸_美国_31
   - 🇺🇸_美国_32
-  - 🇯🇵_日本_51
-  - 🇯🇵_日本_52
-  - 🇯🇵_日本_53
-  - 🇳🇱_荷兰_4
-  - 🇯🇵_日本_54
-  - 🇯🇵_日本_55
-  - 🇯🇵_日本_56
   - 🇺🇸_美国_33
-  - 🇯🇵_日本_57
-  - 🇯🇵_日本_58
-  - 🇦🇹_奥地利
   - 🇺🇸_美国_34
-  - 🇯🇵_日本_59
-  - 🇨🇳_中国_3
-  - 🇨🇳_中国_4
-  - 🇨🇳_中国_5
-  - 🇯🇵_日本_60
   - 🇺🇸_美国_35
   - 🇺🇸_美国_36
-  - 🇱🇹_立陶宛_9
-  - 🇺🇦_乌克兰_3
-  - 🇳🇱_荷兰_5
-  - 🇪🇸_西班牙_3
-  - 🇯🇵_日本_61
-  - 🇯🇵_日本_62
   - 🇺🇸_美国_37
-  - 🇯🇵_日本_63
   - 🇺🇸_美国_38
-  - 🇯🇵_日本_64
-  - 🇱🇹_立陶宛_10
   - 🇺🇸_美国_39
-  - 🇯🇵_日本_65
   - 🇺🇸_美国_40
-  - 🇯🇵_日本_66
-  - 🇸🇪_瑞典
   - 🇺🇸_美国_41
   - 🇺🇸_美国_42
-  - 🏳️_未知_3
   - 🇺🇸_美国_43
   - 🇺🇸_美国_44
-  - 🇯🇵_日本_67
-  - 🇸🇦_沙特阿拉伯_2
-  - 🇯🇵_日本_68
   - 🇺🇸_美国_45
-  - 🇧🇬_保加利亚
-  - 🇸🇬_新加坡_2
-  - 🇳🇱_荷兰_6
-  - 🇯🇵_日本_69
-  - 🇳🇱_荷兰_7
-  - 🇯🇵_日本_70
   - 🇺🇸_美国_46
-  - 🇳🇱_荷兰_8
-  - 🇰🇷_韩国_3
-  - 🇯🇵_日本_71
-  - 🇯🇵_日本_72
-  - 🇯🇵_日本_73
-  - 🇯🇵_日本_74
   - 🇺🇸_美国_47
-  - 🇱🇹_立陶宛_11
-  - 🇫🇷_法国_4
-  - 🇬🇧_英国_3
-  - 🇬🇧_英国_4
   - 🇺🇸_美国_48
+  - 🇺🇸_美国_49
+  - 🇺🇸_美国_50
+  - 🇺🇸_美国_51
+  - 🇺🇸_美国_52
+  - 🇺🇸_美国_53
+  - 🇺🇸_美国_54
+  - 🇺🇸_美国_55
+  - 🇺🇸_美国_56
+  - 🇺🇸_美国_57
+  - 🇺🇸_美国_58
+  - 🇺🇸_美国_59
+  - 🇺🇸_美国_60
+  - 🇺🇸_美国_61
+  - 🇺🇸_美国_62
+  - 🇺🇸_美国_63
+  - 🇺🇸_美国_64
+  - 🇺🇸_美国_65
+  - 🇺🇸_美国_66
+  - 🇺🇸_美国_67
+  - 🇺🇸_美国_68
+  - 🇺🇸_美国_69
+  - 🇺🇸_美国_70
+  - 🇺🇸_美国_71
+  - 🇺🇸_美国_72
+  - 🇺🇸_美国_73
+  - 🇺🇸_美国_74
+  - 🇺🇸_美国_75
+  - 🇺🇸_美国_76
+  - 🇺🇸_美国_77
+  - 🇺🇸_美国_78
+  - 🇺🇸_美国_79
+  - 🇺🇸_美国_80
+  - 🇺🇸_美国_81
+  - 🇺🇸_美国_82
+  - 🇺🇸_美国_83
+  - 🇺🇸_美国_84
+  - 🇺🇸_美国_85
+  - 🇺🇸_美国_86
+  - 🇺🇸_美国_87
+  - 🇺🇸_美国_88
+  - 🇺🇸_美国_89
+  - 🇺🇸_美国_90
+  - 🇺🇸_美国_91
+  - 🇺🇸_美国_92
+  - 🇺🇸_美国_93
+  - 🇺🇸_美国_94
+  - 🇺🇸_美国_95
+  - 🇺🇸_美国_96
+  - 🇺🇸_美国_97
+  - 🇺🇸_美国_98
+  - 🇺🇸_美国_99
+  - 🇩🇰_丹麦_1
+  - 🇺🇸_美国_100
+  - 🇺🇸_美国_101
+  - 🇺🇸_美国_102
+  - 🇺🇸_美国_103
+  - 🇺🇸_美国_104
+  - 🇺🇸_美国_105
+  - 🇺🇸_美国_106
+  - 🇺🇸_美国_107
+  - 🇺🇸_美国_108
+  - 🇺🇸_美国_109
+  - 🇺🇸_美国_110
+  - 🇺🇸_美国_111
+  - 🇺🇸_美国_112
+  - 🇺🇸_美国_113
+  - 🇺🇸_美国_114
+  - 🇺🇸_美国_115
+  - 🇺🇸_美国_116
+  - 🇺🇸_美国_117
+  - 🇺🇸_美国_118
+  - 🇺🇸_美国_119
+  - 🇺🇸_美国_120
+  - 🇺🇸_美国_121
+  - 🇺🇸_美国_122
+  - 🇺🇸_美国_123
+  - 🇺🇸_美国_124
+  - 🇺🇸_美国_125
+  - 🇺🇸_美国_126
+  - 🇺🇸_美国_127
+  - 🇺🇸_美国_128
+  - 🇺🇸_美国_129
+  - 🇺🇸_美国_130
+  - 🇺🇸_美国_131
+  - 🇺🇸_美国_132
+  - 🇺🇸_美国_133
+  - 🇺🇸_美国_134
+  - 🇺🇸_美国_135
+  - 🇺🇸_美国_136
+  - 🇺🇸_美国_137
+  - 🇺🇸_美国_138
+  - 🇺🇸_美国_139
+  - 🇩🇰_丹麦_2
+  - 🇺🇸_美国_140
+  - 🇺🇸_美国_141
+  - 🇺🇸_美国_142
+  - 🇺🇸_美国_143
+  - 🇺🇸_美国_144
+  - 🇨🇭_瑞士_1
+  - 🇺🇸_美国_145
+  - 🇺🇸_美国_146
+  - 🇺🇸_美国_147
+  - 🇺🇸_美国_148
+  - 🇺🇸_美国_149
+  - 🇺🇸_美国_150
+  - 🇺🇸_美国_151
+  - 🇺🇸_美国_152
+  - 🇺🇸_美国_153
+  - 🇺🇸_美国_154
+  - 🇺🇸_美国_155
+  - 🇺🇸_美国_156
+  - 🇺🇸_美国_157
+  - 🇺🇸_美国_158
+  - 🇺🇸_美国_159
+  - 🏳️_未知_1
+  - 🇺🇸_美国_160
+  - 🇺🇸_美国_161
+  - 🇺🇸_美国_162
+  - 🇺🇸_美国_163
+  - 🇺🇸_美国_164
+  - 🇺🇸_美国_165
+  - 🇺🇸_美国_166
+  - 🇺🇸_美国_167
+  - 🇺🇸_美国_168
+  - 🇺🇸_美国_169
+  - 🇺🇸_美国_170
+  - 🇺🇸_美国_171
+  - 🇺🇸_美国_172
+  - 🇺🇸_美国_173
+  - 🇺🇸_美国_174
+  - 🇺🇸_美国_175
+  - 🇺🇸_美国_176
+  - 🇺🇸_美国_177
+  - 🇺🇸_美国_178
+  - 🇺🇸_美国_179
+  - 🇺🇸_美国_180
+  - 🇺🇸_美国_181
+  - 🇺🇸_美国_182
+  - 🇺🇸_美国_183
+  - 🇺🇸_美国_184
+  - 🇺🇸_美国_185
+  - 🇺🇸_美国_186
+  - 🏳️_未知_2
+  - 🇺🇸_美国_187
+  - 🇺🇸_美国_188
+  - 🇺🇸_美国_189
+  - 🇺🇸_美国_190
+  - 🇺🇸_美国_191
+  - 🇳🇱_荷兰_2
+  - 🇺🇸_美国_192
+  - 🇺🇸_美国_193
+  - 🇨🇭_瑞士_2
+  - 🇺🇸_美国_194
+  - 🇨🇦_加拿大
+  - 🇺🇸_美国_195
+  - 🇺🇸_美国_196
+  - 🇨🇳_中国_2
+  - 🇨🇳_中国_3
+  - 🇺🇸_美国_197
+  - 🇨🇳_中国_4
   type: select
 - name: 🎯 全球直连
   proxies:
@@ -3959,201 +4334,218 @@ proxy-groups:
   - ♻️ 自动选择
   - 电报群：https://t.me/vvkj11
   - 每天更新，请加电报群防止失联
-  - 日期：07-16
+  - 日期：07-18
   - 免费VPN：https://tt.vg/gwaAy
-  - 🇨🇳_中国_1
-  - 🇨🇳_中国_2
-  - 🇧🇪_比利时
   - 🇺🇸_美国_1
   - 🇺🇸_美国_2
-  - 🇯🇵_日本_1
-  - 🇯🇵_日本_2
-  - 🇩🇪_德国_1
-  - 🇯🇵_日本_3
-  - 🇯🇵_日本_4
-  - 🇯🇵_日本_5
-  - 🇯🇵_日本_6
-  - 🇯🇵_日本_7
-  - 🇯🇵_日本_8
-  - 🇯🇵_日本_9
-  - 🇯🇵_日本_10
-  - 🇯🇵_日本_11
   - 🇺🇸_美国_3
-  - 🇯🇵_日本_12
-  - 🇯🇵_日本_13
-  - 🇯🇵_日本_14
-  - 🇱🇹_立陶宛_1
-  - 🇯🇵_日本_15
-  - 🇯🇵_日本_16
-  - 🇯🇵_日本_17
-  - 🇯🇵_日本_18
-  - 🇯🇵_日本_19
-  - 🇯🇵_日本_20
-  - 🇯🇵_日本_21
-  - 🇯🇵_日本_22
   - 🇺🇸_美国_4
-  - 🇷🇺_俄罗斯_1
-  - 🇯🇵_日本_23
   - 🇺🇸_美国_5
-  - 🇰🇷_韩国_1
-  - 🇷🇺_俄罗斯_2
-  - 🇷🇺_俄罗斯_3
-  - 🇱🇹_立陶宛_2
   - 🇺🇸_美国_6
-  - 🇱🇹_立陶宛_3
-  - 🇯🇵_日本_24
   - 🇺🇸_美国_7
   - 🇺🇸_美国_8
-  - 🇳🇱_荷兰_1
-  - 🇬🇧_英国_1
-  - 🇷🇺_俄罗斯_4
   - 🇺🇸_美国_9
   - 🇺🇸_美国_10
-  - 🇯🇵_日本_25
-  - 🇳🇱_荷兰_2
-  - 🇷🇺_俄罗斯_5
-  - 🇫🇷_法国_1
   - 🇺🇸_美国_11
-  - 🇮🇳_印度
-  - 🇷🇺_俄罗斯_6
-  - 🇺🇦_乌克兰_1
-  - 🇪🇸_西班牙_1
   - 🇺🇸_美国_12
-  - 🇱🇹_立陶宛_4
-  - 🏳️_未知_1
-  - 🇷🇺_俄罗斯_7
   - 🇺🇸_美国_13
-  - 🇪🇸_西班牙_2
-  - 🇱🇺_卢森堡
   - 🇺🇸_美国_14
   - 🇺🇸_美国_15
-  - 🇨🇦_加拿大
-  - 🇫🇷_法国_2
-  - 🇳🇱_荷兰_3
   - 🇺🇸_美国_16
   - 🇺🇸_美国_17
-  - 🇱🇹_立陶宛_5
-  - 🇿🇦_南非
-  - 🏳️_未知_2
-  - 🇯🇵_日本_26
-  - 🇯🇵_日本_27
-  - 🇯🇵_日本_28
+  - 🇨🇳_中国_1
   - 🇺🇸_美国_18
-  - 🇰🇷_韩国_2
-  - 🇯🇵_日本_29
-  - 🇯🇵_日本_30
-  - 🇯🇵_日本_31
-  - 🇯🇵_日本_32
-  - 🇯🇵_日本_33
-  - 🇯🇵_日本_34
-  - 🇯🇵_日本_35
-  - 🇯🇵_日本_36
-  - 🇷🇺_俄罗斯_8
   - 🇺🇸_美国_19
-  - 🇯🇵_日本_37
+  - 🇳🇱_荷兰_1
   - 🇺🇸_美国_20
-  - 🇱🇹_立陶宛_6
-  - 🇩🇪_德国_2
-  - 🇷🇺_俄罗斯_9
-  - 🇯🇵_日本_38
-  - 🇸🇬_新加坡_1
-  - 🇯🇵_日本_39
-  - 🇯🇵_日本_40
-  - 🇫🇷_法国_3
-  - 🇯🇵_日本_41
-  - 🇯🇵_日本_42
-  - 🇸🇦_沙特阿拉伯_1
-  - 🇱🇹_立陶宛_7
   - 🇺🇸_美国_21
   - 🇺🇸_美国_22
-  - 🇱🇹_立陶宛_8
   - 🇺🇸_美国_23
-  - 🇦🇺_澳大利亚
-  - 🇬🇧_英国_2
   - 🇺🇸_美国_24
-  - 🇩🇪_德国_3
   - 🇺🇸_美国_25
-  - 🇷🇺_俄罗斯_10
-  - 🇯🇵_日本_43
-  - 🇯🇵_日本_44
-  - 🇯🇵_日本_45
-  - 🇯🇵_日本_46
-  - 🇯🇵_日本_47
-  - 🇯🇵_日本_48
   - 🇺🇸_美国_26
-  - 🇯🇵_日本_49
-  - 🇷🇺_俄罗斯_11
-  - 🇯🇵_日本_50
   - 🇺🇸_美国_27
   - 🇺🇸_美国_28
-  - 🇺🇦_乌克兰_2
   - 🇺🇸_美国_29
   - 🇺🇸_美国_30
   - 🇺🇸_美国_31
   - 🇺🇸_美国_32
-  - 🇯🇵_日本_51
-  - 🇯🇵_日本_52
-  - 🇯🇵_日本_53
-  - 🇳🇱_荷兰_4
-  - 🇯🇵_日本_54
-  - 🇯🇵_日本_55
-  - 🇯🇵_日本_56
   - 🇺🇸_美国_33
-  - 🇯🇵_日本_57
-  - 🇯🇵_日本_58
-  - 🇦🇹_奥地利
   - 🇺🇸_美国_34
-  - 🇯🇵_日本_59
-  - 🇨🇳_中国_3
-  - 🇨🇳_中国_4
-  - 🇨🇳_中国_5
-  - 🇯🇵_日本_60
   - 🇺🇸_美国_35
   - 🇺🇸_美国_36
-  - 🇱🇹_立陶宛_9
-  - 🇺🇦_乌克兰_3
-  - 🇳🇱_荷兰_5
-  - 🇪🇸_西班牙_3
-  - 🇯🇵_日本_61
-  - 🇯🇵_日本_62
   - 🇺🇸_美国_37
-  - 🇯🇵_日本_63
   - 🇺🇸_美国_38
-  - 🇯🇵_日本_64
-  - 🇱🇹_立陶宛_10
   - 🇺🇸_美国_39
-  - 🇯🇵_日本_65
   - 🇺🇸_美国_40
-  - 🇯🇵_日本_66
-  - 🇸🇪_瑞典
   - 🇺🇸_美国_41
   - 🇺🇸_美国_42
-  - 🏳️_未知_3
   - 🇺🇸_美国_43
   - 🇺🇸_美国_44
-  - 🇯🇵_日本_67
-  - 🇸🇦_沙特阿拉伯_2
-  - 🇯🇵_日本_68
   - 🇺🇸_美国_45
-  - 🇧🇬_保加利亚
-  - 🇸🇬_新加坡_2
-  - 🇳🇱_荷兰_6
-  - 🇯🇵_日本_69
-  - 🇳🇱_荷兰_7
-  - 🇯🇵_日本_70
   - 🇺🇸_美国_46
-  - 🇳🇱_荷兰_8
-  - 🇰🇷_韩国_3
-  - 🇯🇵_日本_71
-  - 🇯🇵_日本_72
-  - 🇯🇵_日本_73
-  - 🇯🇵_日本_74
   - 🇺🇸_美国_47
-  - 🇱🇹_立陶宛_11
-  - 🇫🇷_法国_4
-  - 🇬🇧_英国_3
-  - 🇬🇧_英国_4
   - 🇺🇸_美国_48
+  - 🇺🇸_美国_49
+  - 🇺🇸_美国_50
+  - 🇺🇸_美国_51
+  - 🇺🇸_美国_52
+  - 🇺🇸_美国_53
+  - 🇺🇸_美国_54
+  - 🇺🇸_美国_55
+  - 🇺🇸_美国_56
+  - 🇺🇸_美国_57
+  - 🇺🇸_美国_58
+  - 🇺🇸_美国_59
+  - 🇺🇸_美国_60
+  - 🇺🇸_美国_61
+  - 🇺🇸_美国_62
+  - 🇺🇸_美国_63
+  - 🇺🇸_美国_64
+  - 🇺🇸_美国_65
+  - 🇺🇸_美国_66
+  - 🇺🇸_美国_67
+  - 🇺🇸_美国_68
+  - 🇺🇸_美国_69
+  - 🇺🇸_美国_70
+  - 🇺🇸_美国_71
+  - 🇺🇸_美国_72
+  - 🇺🇸_美国_73
+  - 🇺🇸_美国_74
+  - 🇺🇸_美国_75
+  - 🇺🇸_美国_76
+  - 🇺🇸_美国_77
+  - 🇺🇸_美国_78
+  - 🇺🇸_美国_79
+  - 🇺🇸_美国_80
+  - 🇺🇸_美国_81
+  - 🇺🇸_美国_82
+  - 🇺🇸_美国_83
+  - 🇺🇸_美国_84
+  - 🇺🇸_美国_85
+  - 🇺🇸_美国_86
+  - 🇺🇸_美国_87
+  - 🇺🇸_美国_88
+  - 🇺🇸_美国_89
+  - 🇺🇸_美国_90
+  - 🇺🇸_美国_91
+  - 🇺🇸_美国_92
+  - 🇺🇸_美国_93
+  - 🇺🇸_美国_94
+  - 🇺🇸_美国_95
+  - 🇺🇸_美国_96
+  - 🇺🇸_美国_97
+  - 🇺🇸_美国_98
+  - 🇺🇸_美国_99
+  - 🇩🇰_丹麦_1
+  - 🇺🇸_美国_100
+  - 🇺🇸_美国_101
+  - 🇺🇸_美国_102
+  - 🇺🇸_美国_103
+  - 🇺🇸_美国_104
+  - 🇺🇸_美国_105
+  - 🇺🇸_美国_106
+  - 🇺🇸_美国_107
+  - 🇺🇸_美国_108
+  - 🇺🇸_美国_109
+  - 🇺🇸_美国_110
+  - 🇺🇸_美国_111
+  - 🇺🇸_美国_112
+  - 🇺🇸_美国_113
+  - 🇺🇸_美国_114
+  - 🇺🇸_美国_115
+  - 🇺🇸_美国_116
+  - 🇺🇸_美国_117
+  - 🇺🇸_美国_118
+  - 🇺🇸_美国_119
+  - 🇺🇸_美国_120
+  - 🇺🇸_美国_121
+  - 🇺🇸_美国_122
+  - 🇺🇸_美国_123
+  - 🇺🇸_美国_124
+  - 🇺🇸_美国_125
+  - 🇺🇸_美国_126
+  - 🇺🇸_美国_127
+  - 🇺🇸_美国_128
+  - 🇺🇸_美国_129
+  - 🇺🇸_美国_130
+  - 🇺🇸_美国_131
+  - 🇺🇸_美国_132
+  - 🇺🇸_美国_133
+  - 🇺🇸_美国_134
+  - 🇺🇸_美国_135
+  - 🇺🇸_美国_136
+  - 🇺🇸_美国_137
+  - 🇺🇸_美国_138
+  - 🇺🇸_美国_139
+  - 🇩🇰_丹麦_2
+  - 🇺🇸_美国_140
+  - 🇺🇸_美国_141
+  - 🇺🇸_美国_142
+  - 🇺🇸_美国_143
+  - 🇺🇸_美国_144
+  - 🇨🇭_瑞士_1
+  - 🇺🇸_美国_145
+  - 🇺🇸_美国_146
+  - 🇺🇸_美国_147
+  - 🇺🇸_美国_148
+  - 🇺🇸_美国_149
+  - 🇺🇸_美国_150
+  - 🇺🇸_美国_151
+  - 🇺🇸_美国_152
+  - 🇺🇸_美国_153
+  - 🇺🇸_美国_154
+  - 🇺🇸_美国_155
+  - 🇺🇸_美国_156
+  - 🇺🇸_美国_157
+  - 🇺🇸_美国_158
+  - 🇺🇸_美国_159
+  - 🏳️_未知_1
+  - 🇺🇸_美国_160
+  - 🇺🇸_美国_161
+  - 🇺🇸_美国_162
+  - 🇺🇸_美国_163
+  - 🇺🇸_美国_164
+  - 🇺🇸_美国_165
+  - 🇺🇸_美国_166
+  - 🇺🇸_美国_167
+  - 🇺🇸_美国_168
+  - 🇺🇸_美国_169
+  - 🇺🇸_美国_170
+  - 🇺🇸_美国_171
+  - 🇺🇸_美国_172
+  - 🇺🇸_美国_173
+  - 🇺🇸_美国_174
+  - 🇺🇸_美国_175
+  - 🇺🇸_美国_176
+  - 🇺🇸_美国_177
+  - 🇺🇸_美国_178
+  - 🇺🇸_美国_179
+  - 🇺🇸_美国_180
+  - 🇺🇸_美国_181
+  - 🇺🇸_美国_182
+  - 🇺🇸_美国_183
+  - 🇺🇸_美国_184
+  - 🇺🇸_美国_185
+  - 🇺🇸_美国_186
+  - 🏳️_未知_2
+  - 🇺🇸_美国_187
+  - 🇺🇸_美国_188
+  - 🇺🇸_美国_189
+  - 🇺🇸_美国_190
+  - 🇺🇸_美国_191
+  - 🇳🇱_荷兰_2
+  - 🇺🇸_美国_192
+  - 🇺🇸_美国_193
+  - 🇨🇭_瑞士_2
+  - 🇺🇸_美国_194
+  - 🇨🇦_加拿大
+  - 🇺🇸_美国_195
+  - 🇺🇸_美国_196
+  - 🇨🇳_中国_2
+  - 🇨🇳_中国_3
+  - 🇺🇸_美国_197
+  - 🇨🇳_中国_4
   type: select
 rules:
 - DOMAIN-SUFFIX,acl4.ssr,🎯 全球直连
