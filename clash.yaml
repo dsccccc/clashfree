@@ -210,35 +210,12 @@ proxies:
     headers:
       Host: baidu.com
     path: /oooo
-- alterId: 2
-  cipher: auto
-  name: 🇭🇰 香港3|@ripaojiedian
-  network: ws
-  port: 80
-  server: hkt.gotochinatown.net
-  skip-cert-verify: false
-  tls: false
-  type: vmess
-  udp: true
-  uuid: 6d4abac0-86e6-11ef-83cc-f23c913c8d2b
-  ws-opts:
-    headers:
-      Host: broadcastlv.chat.bilibili.com
-    path: /
 - name: 🇭🇰 香港4|@ripaojiedian
   password: d0d08cddacc3190ea81b1b792e1b5fde
   port: 447
   server: 36.156.102.125
   skip-cert-verify: false
   sni: www.baidu.com
-  type: trojan
-  udp: true
-- name: 🇭🇰 香港5|@ripaojiedian
-  password: dfd4867b-26c6-4e49-9b96-ef4dbbb3f31f
-  port: 12221
-  server: gz-43e866.kaiqsz.com
-  skip-cert-verify: false
-  sni: mmbiz.redapricotcloud.com
   type: trojan
   udp: true
 - name: 🇭🇰 香港6|@ripaojiedian
@@ -249,27 +226,12 @@ proxies:
   sni: www.ithome.com
   type: trojan
   udp: true
-- alterId: 2
-  cipher: auto
-  name: 🇭🇰 香港7|@ripaojiedian
-  network: ws
-  port: 80
-  server: hkt.gotochinatown.net
-  skip-cert-verify: false
-  tls: false
-  type: vmess
-  udp: true
-  uuid: ca506e08-ce3d-5e5a-c128-6358caca15e5
-  ws-opts:
-    headers:
-      Host: broadcastlv.chat.bilibili.com
-    path: /
 - name: 🇯🇵 日本3|@ripaojiedian
-  password: d0d08cddacc3190ea81b1b792e1b5fde
-  port: 181
-  server: 36.156.102.125
+  password: 6b5b43c9-05bd-471e-b502-d52c0dbd55fd
+  port: 23008
+  server: okanc.iepl.cac.cab
   skip-cert-verify: false
-  sni: www.baidu.com
+  sni: www.bilibili.com
   type: trojan
   udp: true
 - name: 🇯🇵 日本4|@ripaojiedian
@@ -278,6 +240,14 @@ proxies:
   server: 36.156.102.125
   skip-cert-verify: false
   sni: www.baidu.com
+  type: trojan
+  udp: true
+- name: 🇰🇷 韩国|@ripaojiedian
+  password: 6b5b43c9-05bd-471e-b502-d52c0dbd55fd
+  port: 24001
+  server: okanc.iepl.cac.cab
+  skip-cert-verify: false
+  sni: www.bilibili.com
   type: trojan
   udp: true
 - name: 🇸🇬 新加坡|@ripaojiedian
@@ -294,14 +264,6 @@ proxies:
   server: 36.156.102.125
   skip-cert-verify: false
   sni: www.baidu.com
-  type: trojan
-  udp: true
-- name: 🇸🇬 新加坡3|@ripaojiedian
-  password: 92435aa8-f3b6-466a-ad58-c55cbb6d2acf
-  port: 443
-  server: sg.mjt000.com
-  skip-cert-verify: false
-  sni: sg.mjt000.com
   type: trojan
   udp: true
 - name: 🇺🇸 美国|@ripaojiedian
@@ -346,6 +308,19 @@ proxies:
     headers:
       Host: xXcdvFgt.191268.XYz
     path: /ctdmgeIg3NII3ibrzzKXJGy3S1
+- name: US_speednode_0123
+  network: ws
+  password: tg-fq521free
+  port: 443
+  server: 216.24.57.30
+  skip-cert-verify: false
+  sni: torjan.xn--xhq44j.eu.org
+  type: trojan
+  udp: true
+  ws-opts:
+    headers:
+      Host: torjan.xn--xhq44j.eu.org
+    path: /
 proxy-groups:
 - name: 🔰 节点选择
   proxies:
@@ -361,20 +336,18 @@ proxy-groups:
   - 🇺🇸 美国63 | ⬇️ 2.1MB/s|46%|Openai...
   - 🇺🇸 美国64 | ⬇️ 1.3MB/s|46%|Openai...
   - 🇭🇰 香港|@ripaojiedian
-  - 🇭🇰 香港3|@ripaojiedian
   - 🇭🇰 香港4|@ripaojiedian
-  - 🇭🇰 香港5|@ripaojiedian
   - 🇭🇰 香港6|@ripaojiedian
-  - 🇭🇰 香港7|@ripaojiedian
   - 🇯🇵 日本3|@ripaojiedian
   - 🇯🇵 日本4|@ripaojiedian
+  - 🇰🇷 韩国|@ripaojiedian
   - 🇸🇬 新加坡|@ripaojiedian
   - 🇸🇬 新加坡2|@ripaojiedian
-  - 🇸🇬 新加坡3|@ripaojiedian
   - 🇺🇸 美国|@ripaojiedian
   - 🇺🇸 美国3|@ripaojiedian
   - 🇺🇸 美国4|@ripaojiedian
   - 🇺🇸 美国|@ripaojiedian 2
+  - US_speednode_0123
   type: select
 - interval: 300
   name: ♻️ 自动选择
@@ -389,20 +362,18 @@ proxy-groups:
   - 🇺🇸 美国63 | ⬇️ 2.1MB/s|46%|Openai...
   - 🇺🇸 美国64 | ⬇️ 1.3MB/s|46%|Openai...
   - 🇭🇰 香港|@ripaojiedian
-  - 🇭🇰 香港3|@ripaojiedian
   - 🇭🇰 香港4|@ripaojiedian
-  - 🇭🇰 香港5|@ripaojiedian
   - 🇭🇰 香港6|@ripaojiedian
-  - 🇭🇰 香港7|@ripaojiedian
   - 🇯🇵 日本3|@ripaojiedian
   - 🇯🇵 日本4|@ripaojiedian
+  - 🇰🇷 韩国|@ripaojiedian
   - 🇸🇬 新加坡|@ripaojiedian
   - 🇸🇬 新加坡2|@ripaojiedian
-  - 🇸🇬 新加坡3|@ripaojiedian
   - 🇺🇸 美国|@ripaojiedian
   - 🇺🇸 美国3|@ripaojiedian
   - 🇺🇸 美国4|@ripaojiedian
   - 🇺🇸 美国|@ripaojiedian 2
+  - US_speednode_0123
   type: url-test
   url: http://www.gstatic.com/generate_204
 - name: 🎥 NETFLIX
@@ -420,20 +391,18 @@ proxy-groups:
   - 🇺🇸 美国63 | ⬇️ 2.1MB/s|46%|Openai...
   - 🇺🇸 美国64 | ⬇️ 1.3MB/s|46%|Openai...
   - 🇭🇰 香港|@ripaojiedian
-  - 🇭🇰 香港3|@ripaojiedian
   - 🇭🇰 香港4|@ripaojiedian
-  - 🇭🇰 香港5|@ripaojiedian
   - 🇭🇰 香港6|@ripaojiedian
-  - 🇭🇰 香港7|@ripaojiedian
   - 🇯🇵 日本3|@ripaojiedian
   - 🇯🇵 日本4|@ripaojiedian
+  - 🇰🇷 韩国|@ripaojiedian
   - 🇸🇬 新加坡|@ripaojiedian
   - 🇸🇬 新加坡2|@ripaojiedian
-  - 🇸🇬 新加坡3|@ripaojiedian
   - 🇺🇸 美国|@ripaojiedian
   - 🇺🇸 美国3|@ripaojiedian
   - 🇺🇸 美国4|@ripaojiedian
   - 🇺🇸 美国|@ripaojiedian 2
+  - US_speednode_0123
   type: select
 - name: ⛔️ 广告拦截
   proxies:
@@ -462,31 +431,26 @@ proxy-groups:
   - 🇺🇸 美国63 | ⬇️ 2.1MB/s|46%|Openai...
   - 🇺🇸 美国64 | ⬇️ 1.3MB/s|46%|Openai...
   - 🇭🇰 香港|@ripaojiedian
-  - 🇭🇰 香港3|@ripaojiedian
   - 🇭🇰 香港4|@ripaojiedian
-  - 🇭🇰 香港5|@ripaojiedian
   - 🇭🇰 香港6|@ripaojiedian
-  - 🇭🇰 香港7|@ripaojiedian
   - 🇯🇵 日本3|@ripaojiedian
   - 🇯🇵 日本4|@ripaojiedian
+  - 🇰🇷 韩国|@ripaojiedian
   - 🇸🇬 新加坡|@ripaojiedian
   - 🇸🇬 新加坡2|@ripaojiedian
-  - 🇸🇬 新加坡3|@ripaojiedian
   - 🇺🇸 美国|@ripaojiedian
   - 🇺🇸 美国3|@ripaojiedian
   - 🇺🇸 美国4|@ripaojiedian
   - 🇺🇸 美国|@ripaojiedian 2
+  - US_speednode_0123
   type: select
 - name: 🌏 国内媒体
   proxies:
   - 🎯 全球直连
   - 🇭🇰 香港1 | ⬇️ 1.8MB/s|15%|Disney|...
   - 🇭🇰 香港|@ripaojiedian
-  - 🇭🇰 香港3|@ripaojiedian
   - 🇭🇰 香港4|@ripaojiedian
-  - 🇭🇰 香港5|@ripaojiedian
   - 🇭🇰 香港6|@ripaojiedian
-  - 🇭🇰 香港7|@ripaojiedian
   - 🔰 节点选择
   type: select
 - name: Ⓜ️ 微软服务
@@ -503,20 +467,18 @@ proxy-groups:
   - 🇺🇸 美国63 | ⬇️ 2.1MB/s|46%|Openai...
   - 🇺🇸 美国64 | ⬇️ 1.3MB/s|46%|Openai...
   - 🇭🇰 香港|@ripaojiedian
-  - 🇭🇰 香港3|@ripaojiedian
   - 🇭🇰 香港4|@ripaojiedian
-  - 🇭🇰 香港5|@ripaojiedian
   - 🇭🇰 香港6|@ripaojiedian
-  - 🇭🇰 香港7|@ripaojiedian
   - 🇯🇵 日本3|@ripaojiedian
   - 🇯🇵 日本4|@ripaojiedian
+  - 🇰🇷 韩国|@ripaojiedian
   - 🇸🇬 新加坡|@ripaojiedian
   - 🇸🇬 新加坡2|@ripaojiedian
-  - 🇸🇬 新加坡3|@ripaojiedian
   - 🇺🇸 美国|@ripaojiedian
   - 🇺🇸 美国3|@ripaojiedian
   - 🇺🇸 美国4|@ripaojiedian
   - 🇺🇸 美国|@ripaojiedian 2
+  - US_speednode_0123
   type: select
 - name: 📲 电报信息
   proxies:
@@ -532,20 +494,18 @@ proxy-groups:
   - 🇺🇸 美国63 | ⬇️ 2.1MB/s|46%|Openai...
   - 🇺🇸 美国64 | ⬇️ 1.3MB/s|46%|Openai...
   - 🇭🇰 香港|@ripaojiedian
-  - 🇭🇰 香港3|@ripaojiedian
   - 🇭🇰 香港4|@ripaojiedian
-  - 🇭🇰 香港5|@ripaojiedian
   - 🇭🇰 香港6|@ripaojiedian
-  - 🇭🇰 香港7|@ripaojiedian
   - 🇯🇵 日本3|@ripaojiedian
   - 🇯🇵 日本4|@ripaojiedian
+  - 🇰🇷 韩国|@ripaojiedian
   - 🇸🇬 新加坡|@ripaojiedian
   - 🇸🇬 新加坡2|@ripaojiedian
-  - 🇸🇬 新加坡3|@ripaojiedian
   - 🇺🇸 美国|@ripaojiedian
   - 🇺🇸 美国3|@ripaojiedian
   - 🇺🇸 美国4|@ripaojiedian
   - 🇺🇸 美国|@ripaojiedian 2
+  - US_speednode_0123
   type: select
 - name: 🍎 苹果服务
   proxies:
@@ -562,20 +522,18 @@ proxy-groups:
   - 🇺🇸 美国63 | ⬇️ 2.1MB/s|46%|Openai...
   - 🇺🇸 美国64 | ⬇️ 1.3MB/s|46%|Openai...
   - 🇭🇰 香港|@ripaojiedian
-  - 🇭🇰 香港3|@ripaojiedian
   - 🇭🇰 香港4|@ripaojiedian
-  - 🇭🇰 香港5|@ripaojiedian
   - 🇭🇰 香港6|@ripaojiedian
-  - 🇭🇰 香港7|@ripaojiedian
   - 🇯🇵 日本3|@ripaojiedian
   - 🇯🇵 日本4|@ripaojiedian
+  - 🇰🇷 韩国|@ripaojiedian
   - 🇸🇬 新加坡|@ripaojiedian
   - 🇸🇬 新加坡2|@ripaojiedian
-  - 🇸🇬 新加坡3|@ripaojiedian
   - 🇺🇸 美国|@ripaojiedian
   - 🇺🇸 美国3|@ripaojiedian
   - 🇺🇸 美国4|@ripaojiedian
   - 🇺🇸 美国|@ripaojiedian 2
+  - US_speednode_0123
   type: select
 - name: 🎯 全球直连
   proxies:
@@ -601,20 +559,18 @@ proxy-groups:
   - 🇺🇸 美国63 | ⬇️ 2.1MB/s|46%|Openai...
   - 🇺🇸 美国64 | ⬇️ 1.3MB/s|46%|Openai...
   - 🇭🇰 香港|@ripaojiedian
-  - 🇭🇰 香港3|@ripaojiedian
   - 🇭🇰 香港4|@ripaojiedian
-  - 🇭🇰 香港5|@ripaojiedian
   - 🇭🇰 香港6|@ripaojiedian
-  - 🇭🇰 香港7|@ripaojiedian
   - 🇯🇵 日本3|@ripaojiedian
   - 🇯🇵 日本4|@ripaojiedian
+  - 🇰🇷 韩国|@ripaojiedian
   - 🇸🇬 新加坡|@ripaojiedian
   - 🇸🇬 新加坡2|@ripaojiedian
-  - 🇸🇬 新加坡3|@ripaojiedian
   - 🇺🇸 美国|@ripaojiedian
   - 🇺🇸 美国3|@ripaojiedian
   - 🇺🇸 美国4|@ripaojiedian
   - 🇺🇸 美国|@ripaojiedian 2
+  - US_speednode_0123
   type: select
 rules:
 - DOMAIN-SUFFIX,local,🎯 全球直连
