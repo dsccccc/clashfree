@@ -10,33 +10,6 @@ mode: rule
 proxies:
 - alterId: 0
   cipher: auto
-  name: '[VMess] 北美地区 V2CROSS.COM'
-  port: 443
-  server: abc.theyyszmn.sbs
-  skip-cert-verify: true
-  tfo: false
-  tls: true
-  type: vmess
-  udp: true
-  uuid: 3d84a668-0588-447b-fbe1-058deb5baf93
-- alterId: 0
-  cipher: auto
-  name: '[VMess] 🇦🇺 澳大利亚 V2CROSS.COM'
-  network: ws
-  port: 443
-  server: 202.79.161.21
-  skip-cert-verify: true
-  tfo: false
-  tls: true
-  type: vmess
-  udp: true
-  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
-  ws-opts:
-    headers:
-      Host: www.20850772.xyz
-    path: /path/170733132233
-- alterId: 0
-  cipher: auto
   name: '[VMess] 🇨🇦 _CA_加拿大'
   network: ws
   port: 80
@@ -63,56 +36,17 @@ proxies:
   uuid: efcb7d7c-c582-46f5-eeff-0e553342528d
   ws-opts:
     path: /tg@hkaa0
-- alterId: 2
+- alterId: 0
   cipher: auto
-  name: '[VMess] 🇨🇳 江苏省 移动'
-  network: ws
-  port: 30837
-  server: v37.heduian.link
+  name: '[VMess] 🇨🇳 台湾省 V2CROSS.COM'
+  port: 20788
+  server: 45.121.48.174
   skip-cert-verify: true
   tfo: false
   tls: false
   type: vmess
   udp: true
-  uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
-  ws-opts:
-    headers:
-      Host: ocbc.com
-    path: /oooo
-- alterId: 2
-  cipher: auto
-  name: '[VMess] 🇨🇳 江苏省 移动 2'
-  network: ws
-  port: 30829
-  server: v29.heduian.link
-  skip-cert-verify: true
-  tfo: false
-  tls: false
-  type: vmess
-  udp: true
-  uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
-  ws-opts:
-    headers:
-      Host: v29.heduian.link
-    path: /oooo
-- name: '[Trojan] 🇨🇳 江苏省盐城市 移动'
-  password: 253bc477d4e43c209f2d427272968280
-  port: 472
-  server: 36.156.102.125
-  skip-cert-verify: true
-  sni: www.baidu.com
-  tfo: false
-  type: trojan
-  udp: true
-- name: '[Trojan] 🇨🇳 江苏省盐城市 移动 2'
-  password: 253bc477d4e43c209f2d427272968280
-  port: 461
-  server: 36.156.102.125
-  skip-cert-verify: true
-  sni: www.baidu.com
-  tfo: false
-  type: trojan
-  udp: true
+  uuid: bfc630aa-4598-4481-9338-cac15e3e6b65
 - alterId: 0
   cipher: auto
   name: '[VMess] 🇩🇪 _US_美国->🇩🇪_DE_德国'
@@ -128,6 +62,20 @@ proxies:
   ws-opts:
     headers:
       Host: flkf2.shabijichang.com
+    path: /
+- alterId: 0
+  cipher: auto
+  name: '[VMess] 🇩🇪 德国 黑森州法兰克福DigitalOcean数据中心'
+  network: ws
+  port: 20086
+  server: 46.101.152.68
+  skip-cert-verify: true
+  tfo: false
+  tls: false
+  type: vmess
+  udp: true
+  uuid: e3501cb6-af9a-44ab-bb4b-48aa5fca2ae8
+  ws-opts:
     path: /
 - alterId: 0
   cipher: auto
@@ -177,22 +125,38 @@ proxies:
     headers:
       Host: ld2.shabijichang.com
     path: /
-- alterId: 0
+- alterId: 2
   cipher: auto
-  name: '[VMess] 🇭🇰 香港 腾讯云'
+  name: '[VMess] 🇭🇰 香港 电讯盈科有限公司'
   network: ws
-  port: 443
-  server: tx.lonxin.net
+  port: 80
+  server: ee734b86-t0bog0-t2bzbl-1qs82.hk.p5pv.com
   skip-cert-verify: true
   tfo: false
-  tls: true
+  tls: false
   type: vmess
   udp: true
-  uuid: 29eb7d31-7117-4df2-b96d-2e91c21c5157
+  uuid: 9c6d1142-dc2b-11ee-88c7-f23c913c8d2b
   ws-opts:
     headers:
-      Host: tx.lonxin.net
-    path: /c8cb8cfb292d7d0/
+      Host: broadcastlv.chat.bilibili.com
+    path: /
+- alterId: 2
+  cipher: auto
+  name: '[VMess] 🇭🇰 香港 电讯盈科有限公司 2'
+  network: ws
+  port: 30807
+  server: v10.heduian.link
+  skip-cert-verify: true
+  tfo: false
+  tls: false
+  type: vmess
+  udp: true
+  uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
+  ws-opts:
+    headers:
+      Host: baidu.com
+    path: /oooo
 - alterId: 0
   cipher: auto
   name: '[VMess] 🇮🇳 _US_美国->🇮🇳_IN_印度_1'
@@ -253,6 +217,22 @@ proxies:
     headers:
       Host: mm3.shabijichang.com
     path: /
+- alterId: 0
+  cipher: auto
+  name: '[VMess] 🇲🇩 摩尔多瓦 V2CROSS.COM'
+  network: ws
+  port: 8880
+  server: 185.193.30.88
+  skip-cert-verify: true
+  tfo: false
+  tls: false
+  type: vmess
+  udp: true
+  uuid: cc0926df-54a8-3df7-934c-fd3ead64f6aa
+  ws-opts:
+    headers:
+      Host: TG.WangCai2.s2.cn-db.top
+    path: /dabai&Telegram🇨🇳 @WangCai2 /?ed=2560
 - alterId: 64
   cipher: auto
   name: '[VMess] 🇳🇱 _US_美国->🇳🇱_NL_荷兰'
@@ -361,18 +341,18 @@ proxies:
   cipher: auto
   name: '[VMess] 🇺🇸 美国 CloudFlare节点'
   network: ws
-  port: 443
-  server: ip.sb
+  port: 80
+  server: test.flha.ru
   skip-cert-verify: true
   tfo: false
-  tls: true
+  tls: false
   type: vmess
   udp: true
-  uuid: 28548ef7-983d-4ee8-8bd6-7d71d905b5a2
+  uuid: 2bab6b8f-8d6e-463a-8331-b9de3d56921d
   ws-opts:
     headers:
-      Host: fr.atlen.dpdns.org
-    path: /28548ef7-983d-4ee8-8bd6-7d71d905b5a2-vmess
+      Host: test.flha.ru
+    path: /2bab6b8f-8d6e-463a-8331-b9de3d56921d-vmess
 proxy-groups:
 - name: 🚀 全球互联
   proxies:
@@ -385,23 +365,21 @@ proxy-groups:
   - 🇺🇲 美国
   - 🇹🇼 台湾
   - 🇸🇬 新加坡
-  - '[VMess] 北美地区 V2CROSS.COM'
-  - '[VMess] 🇦🇺 澳大利亚 V2CROSS.COM'
   - '[VMess] 🇨🇦 _CA_加拿大'
   - '[VMess] 🇨🇳 _TW_台湾->🇺🇸_US_美国'
-  - '[VMess] 🇨🇳 江苏省 移动'
-  - '[VMess] 🇨🇳 江苏省 移动 2'
-  - '[Trojan] 🇨🇳 江苏省盐城市 移动'
-  - '[Trojan] 🇨🇳 江苏省盐城市 移动 2'
+  - '[VMess] 🇨🇳 台湾省 V2CROSS.COM'
   - '[VMess] 🇩🇪 _US_美国->🇩🇪_DE_德国'
+  - '[VMess] 🇩🇪 德国 黑森州法兰克福DigitalOcean数据中心'
   - '[VMess] 🇩🇰 丹麦 V2CROSS.COM'
   - '[VMess] 🇬🇧 _US_美国->🇬🇧_GB_英国_1'
   - '[VMess] 🇬🇧 _US_美国->🇬🇧_GB_英国_2'
-  - '[VMess] 🇭🇰 香港 腾讯云'
+  - '[VMess] 🇭🇰 香港 电讯盈科有限公司'
+  - '[VMess] 🇭🇰 香港 电讯盈科有限公司 2'
   - '[VMess] 🇮🇳 _US_美国->🇮🇳_IN_印度_1'
   - '[VMess] 🇮🇳 _US_美国->🇮🇳_IN_印度_2'
   - '[VMess] 🇮🇳 _US_美国->🇮🇳_IN_印度_3'
   - '[VMess] 🇮🇳 _US_美国->🇮🇳_IN_印度_4'
+  - '[VMess] 🇲🇩 摩尔多瓦 V2CROSS.COM'
   - '[VMess] 🇳🇱 _US_美国->🇳🇱_NL_荷兰'
   - '[VMess] 🇸🇦 _US_美国->🇸🇦_SA_沙特阿拉伯'
   - '[VMess] 🇺🇸 _US_美国_1'
@@ -418,23 +396,21 @@ proxy-groups:
   - 🇺🇲 美国
   - 🇹🇼 台湾
   - 🇸🇬 新加坡
-  - '[VMess] 北美地区 V2CROSS.COM'
-  - '[VMess] 🇦🇺 澳大利亚 V2CROSS.COM'
   - '[VMess] 🇨🇦 _CA_加拿大'
   - '[VMess] 🇨🇳 _TW_台湾->🇺🇸_US_美国'
-  - '[VMess] 🇨🇳 江苏省 移动'
-  - '[VMess] 🇨🇳 江苏省 移动 2'
-  - '[Trojan] 🇨🇳 江苏省盐城市 移动'
-  - '[Trojan] 🇨🇳 江苏省盐城市 移动 2'
+  - '[VMess] 🇨🇳 台湾省 V2CROSS.COM'
   - '[VMess] 🇩🇪 _US_美国->🇩🇪_DE_德国'
+  - '[VMess] 🇩🇪 德国 黑森州法兰克福DigitalOcean数据中心'
   - '[VMess] 🇩🇰 丹麦 V2CROSS.COM'
   - '[VMess] 🇬🇧 _US_美国->🇬🇧_GB_英国_1'
   - '[VMess] 🇬🇧 _US_美国->🇬🇧_GB_英国_2'
-  - '[VMess] 🇭🇰 香港 腾讯云'
+  - '[VMess] 🇭🇰 香港 电讯盈科有限公司'
+  - '[VMess] 🇭🇰 香港 电讯盈科有限公司 2'
   - '[VMess] 🇮🇳 _US_美国->🇮🇳_IN_印度_1'
   - '[VMess] 🇮🇳 _US_美国->🇮🇳_IN_印度_2'
   - '[VMess] 🇮🇳 _US_美国->🇮🇳_IN_印度_3'
   - '[VMess] 🇮🇳 _US_美国->🇮🇳_IN_印度_4'
+  - '[VMess] 🇲🇩 摩尔多瓦 V2CROSS.COM'
   - '[VMess] 🇳🇱 _US_美国->🇳🇱_NL_荷兰'
   - '[VMess] 🇸🇦 _US_美国->🇸🇦_SA_沙特阿拉伯'
   - '[VMess] 🇺🇸 _US_美国_1'
@@ -451,23 +427,21 @@ proxy-groups:
   - 🇺🇲 美国
   - 🇹🇼 台湾
   - 🇸🇬 新加坡
-  - '[VMess] 北美地区 V2CROSS.COM'
-  - '[VMess] 🇦🇺 澳大利亚 V2CROSS.COM'
   - '[VMess] 🇨🇦 _CA_加拿大'
   - '[VMess] 🇨🇳 _TW_台湾->🇺🇸_US_美国'
-  - '[VMess] 🇨🇳 江苏省 移动'
-  - '[VMess] 🇨🇳 江苏省 移动 2'
-  - '[Trojan] 🇨🇳 江苏省盐城市 移动'
-  - '[Trojan] 🇨🇳 江苏省盐城市 移动 2'
+  - '[VMess] 🇨🇳 台湾省 V2CROSS.COM'
   - '[VMess] 🇩🇪 _US_美国->🇩🇪_DE_德国'
+  - '[VMess] 🇩🇪 德国 黑森州法兰克福DigitalOcean数据中心'
   - '[VMess] 🇩🇰 丹麦 V2CROSS.COM'
   - '[VMess] 🇬🇧 _US_美国->🇬🇧_GB_英国_1'
   - '[VMess] 🇬🇧 _US_美国->🇬🇧_GB_英国_2'
-  - '[VMess] 🇭🇰 香港 腾讯云'
+  - '[VMess] 🇭🇰 香港 电讯盈科有限公司'
+  - '[VMess] 🇭🇰 香港 电讯盈科有限公司 2'
   - '[VMess] 🇮🇳 _US_美国->🇮🇳_IN_印度_1'
   - '[VMess] 🇮🇳 _US_美国->🇮🇳_IN_印度_2'
   - '[VMess] 🇮🇳 _US_美国->🇮🇳_IN_印度_3'
   - '[VMess] 🇮🇳 _US_美国->🇮🇳_IN_印度_4'
+  - '[VMess] 🇲🇩 摩尔多瓦 V2CROSS.COM'
   - '[VMess] 🇳🇱 _US_美国->🇳🇱_NL_荷兰'
   - '[VMess] 🇸🇦 _US_美国->🇸🇦_SA_沙特阿拉伯'
   - '[VMess] 🇺🇸 _US_美国_1'
@@ -484,23 +458,21 @@ proxy-groups:
   - 🇺🇲 美国
   - 🇹🇼 台湾
   - 🇸🇬 新加坡
-  - '[VMess] 北美地区 V2CROSS.COM'
-  - '[VMess] 🇦🇺 澳大利亚 V2CROSS.COM'
   - '[VMess] 🇨🇦 _CA_加拿大'
   - '[VMess] 🇨🇳 _TW_台湾->🇺🇸_US_美国'
-  - '[VMess] 🇨🇳 江苏省 移动'
-  - '[VMess] 🇨🇳 江苏省 移动 2'
-  - '[Trojan] 🇨🇳 江苏省盐城市 移动'
-  - '[Trojan] 🇨🇳 江苏省盐城市 移动 2'
+  - '[VMess] 🇨🇳 台湾省 V2CROSS.COM'
   - '[VMess] 🇩🇪 _US_美国->🇩🇪_DE_德国'
+  - '[VMess] 🇩🇪 德国 黑森州法兰克福DigitalOcean数据中心'
   - '[VMess] 🇩🇰 丹麦 V2CROSS.COM'
   - '[VMess] 🇬🇧 _US_美国->🇬🇧_GB_英国_1'
   - '[VMess] 🇬🇧 _US_美国->🇬🇧_GB_英国_2'
-  - '[VMess] 🇭🇰 香港 腾讯云'
+  - '[VMess] 🇭🇰 香港 电讯盈科有限公司'
+  - '[VMess] 🇭🇰 香港 电讯盈科有限公司 2'
   - '[VMess] 🇮🇳 _US_美国->🇮🇳_IN_印度_1'
   - '[VMess] 🇮🇳 _US_美国->🇮🇳_IN_印度_2'
   - '[VMess] 🇮🇳 _US_美国->🇮🇳_IN_印度_3'
   - '[VMess] 🇮🇳 _US_美国->🇮🇳_IN_印度_4'
+  - '[VMess] 🇲🇩 摩尔多瓦 V2CROSS.COM'
   - '[VMess] 🇳🇱 _US_美国->🇳🇱_NL_荷兰'
   - '[VMess] 🇸🇦 _US_美国->🇸🇦_SA_沙特阿拉伯'
   - '[VMess] 🇺🇸 _US_美国_1'
@@ -518,23 +490,21 @@ proxy-groups:
   - 🇺🇲 美国
   - 🇹🇼 台湾
   - 🇸🇬 新加坡
-  - '[VMess] 北美地区 V2CROSS.COM'
-  - '[VMess] 🇦🇺 澳大利亚 V2CROSS.COM'
   - '[VMess] 🇨🇦 _CA_加拿大'
   - '[VMess] 🇨🇳 _TW_台湾->🇺🇸_US_美国'
-  - '[VMess] 🇨🇳 江苏省 移动'
-  - '[VMess] 🇨🇳 江苏省 移动 2'
-  - '[Trojan] 🇨🇳 江苏省盐城市 移动'
-  - '[Trojan] 🇨🇳 江苏省盐城市 移动 2'
+  - '[VMess] 🇨🇳 台湾省 V2CROSS.COM'
   - '[VMess] 🇩🇪 _US_美国->🇩🇪_DE_德国'
+  - '[VMess] 🇩🇪 德国 黑森州法兰克福DigitalOcean数据中心'
   - '[VMess] 🇩🇰 丹麦 V2CROSS.COM'
   - '[VMess] 🇬🇧 _US_美国->🇬🇧_GB_英国_1'
   - '[VMess] 🇬🇧 _US_美国->🇬🇧_GB_英国_2'
-  - '[VMess] 🇭🇰 香港 腾讯云'
+  - '[VMess] 🇭🇰 香港 电讯盈科有限公司'
+  - '[VMess] 🇭🇰 香港 电讯盈科有限公司 2'
   - '[VMess] 🇮🇳 _US_美国->🇮🇳_IN_印度_1'
   - '[VMess] 🇮🇳 _US_美国->🇮🇳_IN_印度_2'
   - '[VMess] 🇮🇳 _US_美国->🇮🇳_IN_印度_3'
   - '[VMess] 🇮🇳 _US_美国->🇮🇳_IN_印度_4'
+  - '[VMess] 🇲🇩 摩尔多瓦 V2CROSS.COM'
   - '[VMess] 🇳🇱 _US_美国->🇳🇱_NL_荷兰'
   - '[VMess] 🇸🇦 _US_美国->🇸🇦_SA_沙特阿拉伯'
   - '[VMess] 🇺🇸 _US_美国_1'
@@ -557,7 +527,9 @@ proxy-groups:
   proxies:
   - DIRECT
   - '[VMess] 🇨🇳 _TW_台湾->🇺🇸_US_美国'
-  - '[VMess] 🇭🇰 香港 腾讯云'
+  - '[VMess] 🇨🇳 台湾省 V2CROSS.COM'
+  - '[VMess] 🇭🇰 香港 电讯盈科有限公司'
+  - '[VMess] 🇭🇰 香港 电讯盈科有限公司 2'
   type: select
 - name: Ⓜ️ 微软服务
   proxies:
@@ -567,23 +539,21 @@ proxy-groups:
   - 🇺🇲 美国
   - 🇹🇼 台湾
   - 🇸🇬 新加坡
-  - '[VMess] 北美地区 V2CROSS.COM'
-  - '[VMess] 🇦🇺 澳大利亚 V2CROSS.COM'
   - '[VMess] 🇨🇦 _CA_加拿大'
   - '[VMess] 🇨🇳 _TW_台湾->🇺🇸_US_美国'
-  - '[VMess] 🇨🇳 江苏省 移动'
-  - '[VMess] 🇨🇳 江苏省 移动 2'
-  - '[Trojan] 🇨🇳 江苏省盐城市 移动'
-  - '[Trojan] 🇨🇳 江苏省盐城市 移动 2'
+  - '[VMess] 🇨🇳 台湾省 V2CROSS.COM'
   - '[VMess] 🇩🇪 _US_美国->🇩🇪_DE_德国'
+  - '[VMess] 🇩🇪 德国 黑森州法兰克福DigitalOcean数据中心'
   - '[VMess] 🇩🇰 丹麦 V2CROSS.COM'
   - '[VMess] 🇬🇧 _US_美国->🇬🇧_GB_英国_1'
   - '[VMess] 🇬🇧 _US_美国->🇬🇧_GB_英国_2'
-  - '[VMess] 🇭🇰 香港 腾讯云'
+  - '[VMess] 🇭🇰 香港 电讯盈科有限公司'
+  - '[VMess] 🇭🇰 香港 电讯盈科有限公司 2'
   - '[VMess] 🇮🇳 _US_美国->🇮🇳_IN_印度_1'
   - '[VMess] 🇮🇳 _US_美国->🇮🇳_IN_印度_2'
   - '[VMess] 🇮🇳 _US_美国->🇮🇳_IN_印度_3'
   - '[VMess] 🇮🇳 _US_美国->🇮🇳_IN_印度_4'
+  - '[VMess] 🇲🇩 摩尔多瓦 V2CROSS.COM'
   - '[VMess] 🇳🇱 _US_美国->🇳🇱_NL_荷兰'
   - '[VMess] 🇸🇦 _US_美国->🇸🇦_SA_沙特阿拉伯'
   - '[VMess] 🇺🇸 _US_美国_1'
@@ -595,7 +565,8 @@ proxy-groups:
   type: select
 - name: 🇭🇰 香港
   proxies:
-  - '[VMess] 🇭🇰 香港 腾讯云'
+  - '[VMess] 🇭🇰 香港 电讯盈科有限公司'
+  - '[VMess] 🇭🇰 香港 电讯盈科有限公司 2'
   type: select
 - name: 🇯🇵 日本
   proxies:
@@ -603,7 +574,6 @@ proxy-groups:
   type: select
 - name: 🇺🇲 美国
   proxies:
-  - '[VMess] 北美地区 V2CROSS.COM'
   - '[VMess] 🇨🇳 _TW_台湾->🇺🇸_US_美国'
   - '[VMess] 🇩🇪 _US_美国->🇩🇪_DE_德国'
   - '[VMess] 🇬🇧 _US_美国->🇬🇧_GB_英国_1'
@@ -624,9 +594,11 @@ proxy-groups:
 - name: 🇹🇼 台湾
   proxies:
   - '[VMess] 🇨🇳 _TW_台湾->🇺🇸_US_美国'
+  - '[VMess] 🇨🇳 台湾省 V2CROSS.COM'
   type: select
 - name: 🇸🇬 新加坡
   proxies:
+  - DIRECT
   type: select
 - name: 🛑 广告拦截
   proxies:
