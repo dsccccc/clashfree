@@ -203,16 +203,14 @@ proxies:
     headers:
       Host: baidu.com
     path: /oooo
-- alterId: 0
-  cipher: auto
-  name: 🇭🇰 香港3|@ripaojiedian
-  port: 44470
-  server: 43.247.135.176
+- name: 🇭🇰 香港3|@ripaojiedian
+  password: 2ee85121-31de-4581-a492-eb00f606e392
+  port: 443
+  server: 103.252.116.138
   skip-cert-verify: false
-  tls: false
-  type: vmess
+  sni: hk.freeguard.org
+  type: trojan
   udp: true
-  uuid: f7adceb1-556b-44f4-a2c2-20f3e06e2001
 - name: 🇭🇰 香港4|@ripaojiedian
   password: 253bc477d4e43c209f2d427272968280
   port: 447
@@ -221,6 +219,21 @@ proxies:
   sni: www.baidu.com
   type: trojan
   udp: true
+- alterId: 2
+  cipher: auto
+  name: 🇭🇰 香港5|@ripaojiedian
+  network: ws
+  port: 80
+  server: hkt.gotochinatown.net
+  skip-cert-verify: false
+  tls: false
+  type: vmess
+  udp: true
+  uuid: 3be8cba8-b721-11ec-8b04-f23c91cfbbc9
+  ws-opts:
+    headers:
+      Host: broadcastlv.chat.bilibili.com
+    path: /
 - name: 🇭🇰 香港6|@ripaojiedian
   password: 253bc477d4e43c209f2d427272968280
   port: 444
@@ -229,6 +242,21 @@ proxies:
   sni: www.ithome.com
   type: trojan
   udp: true
+- alterId: 2
+  cipher: auto
+  name: 🇭🇰 香港7|@ripaojiedian
+  network: ws
+  port: 80
+  server: f0364aea-t13gg0-t1rksu-1ssud.hk3.p5pv.com
+  skip-cert-verify: false
+  tls: false
+  type: vmess
+  udp: true
+  uuid: e6aa39b6-f0b5-11ef-bca1-f23c91cfbbc9
+  ws-opts:
+    headers:
+      Host: broadcastlv.chat.bilibili.com
+    path: /
 - name: 🇯🇵 日本3|@ripaojiedian
   password: 253bc477d4e43c209f2d427272968280
   port: 409
@@ -261,28 +289,6 @@ proxies:
   sni: www.baidu.com
   type: trojan
   udp: true
-- name: 🇸🇬 新加坡3|@ripaojiedian
-  password: be76ac23-8ff8-4afe-a86e-5153f4ce869d
-  port: 25010
-  server: 8.148.194.255
-  skip-cert-verify: false
-  type: trojan
-  udp: true
-- alterId: 0
-  cipher: auto
-  name: 🇸🇬 新加坡4|@ripaojiedian
-  network: ws
-  port: 16618
-  server: t.cnmjcn.cyou
-  skip-cert-verify: false
-  tls: false
-  type: vmess
-  udp: true
-  uuid: 42c37c6c-9ad9-42dc-99d6-afd3c100a563
-  ws-opts:
-    headers:
-      Host: e5406c2f4f42756d4a4089ffcd58947b.mobgslb.tbcache.com
-    path: /
 - name: 🇺🇸 美国|@ripaojiedian
   network: ws
   password: 7248e825-887c-48b9-83bc-c26bc6392bf8
@@ -312,16 +318,6 @@ proxies:
   sni: www.baidu.com
   type: trojan
   udp: true
-- alterId: 0
-  cipher: auto
-  name: 🇭🇰 香港3|@ripaojiedian 2
-  port: 44470
-  server: 43.247.135.176
-  skip-cert-verify: false
-  tls: false
-  type: vmess
-  udp: true
-  uuid: f7adceb1-556b-44f4-a2c2-20f3e06e2001
 - name: 🇺🇸 美国|@ripaojiedian 2
   network: ws
   password: 7248e825-887c-48b9-83bc-c26bc6392bf8
@@ -1237,17 +1233,16 @@ proxy-groups:
   - 🇭🇰 香港|@ripaojiedian
   - 🇭🇰 香港3|@ripaojiedian
   - 🇭🇰 香港4|@ripaojiedian
+  - 🇭🇰 香港5|@ripaojiedian
   - 🇭🇰 香港6|@ripaojiedian
+  - 🇭🇰 香港7|@ripaojiedian
   - 🇯🇵 日本3|@ripaojiedian
   - 🇯🇵 日本4|@ripaojiedian
   - 🇸🇬 新加坡|@ripaojiedian
   - 🇸🇬 新加坡2|@ripaojiedian
-  - 🇸🇬 新加坡3|@ripaojiedian
-  - 🇸🇬 新加坡4|@ripaojiedian
   - 🇺🇸 美国|@ripaojiedian
   - 🇺🇸 美国3|@ripaojiedian
   - 🇺🇸 美国4|@ripaojiedian
-  - 🇭🇰 香港3|@ripaojiedian 2
   - 🇺🇸 美国|@ripaojiedian 2
   - AM_speednode_0011
   - AM_speednode_0012
@@ -1334,17 +1329,16 @@ proxy-groups:
   - 🇭🇰 香港|@ripaojiedian
   - 🇭🇰 香港3|@ripaojiedian
   - 🇭🇰 香港4|@ripaojiedian
+  - 🇭🇰 香港5|@ripaojiedian
   - 🇭🇰 香港6|@ripaojiedian
+  - 🇭🇰 香港7|@ripaojiedian
   - 🇯🇵 日本3|@ripaojiedian
   - 🇯🇵 日本4|@ripaojiedian
   - 🇸🇬 新加坡|@ripaojiedian
   - 🇸🇬 新加坡2|@ripaojiedian
-  - 🇸🇬 新加坡3|@ripaojiedian
-  - 🇸🇬 新加坡4|@ripaojiedian
   - 🇺🇸 美国|@ripaojiedian
   - 🇺🇸 美国3|@ripaojiedian
   - 🇺🇸 美国4|@ripaojiedian
-  - 🇭🇰 香港3|@ripaojiedian 2
   - 🇺🇸 美国|@ripaojiedian 2
   - AM_speednode_0011
   - AM_speednode_0012
@@ -1434,17 +1428,16 @@ proxy-groups:
   - 🇭🇰 香港|@ripaojiedian
   - 🇭🇰 香港3|@ripaojiedian
   - 🇭🇰 香港4|@ripaojiedian
+  - 🇭🇰 香港5|@ripaojiedian
   - 🇭🇰 香港6|@ripaojiedian
+  - 🇭🇰 香港7|@ripaojiedian
   - 🇯🇵 日本3|@ripaojiedian
   - 🇯🇵 日本4|@ripaojiedian
   - 🇸🇬 新加坡|@ripaojiedian
   - 🇸🇬 新加坡2|@ripaojiedian
-  - 🇸🇬 新加坡3|@ripaojiedian
-  - 🇸🇬 新加坡4|@ripaojiedian
   - 🇺🇸 美国|@ripaojiedian
   - 🇺🇸 美国3|@ripaojiedian
   - 🇺🇸 美国4|@ripaojiedian
-  - 🇭🇰 香港3|@ripaojiedian 2
   - 🇺🇸 美国|@ripaojiedian 2
   - AM_speednode_0011
   - AM_speednode_0012
@@ -1545,17 +1538,16 @@ proxy-groups:
   - 🇭🇰 香港|@ripaojiedian
   - 🇭🇰 香港3|@ripaojiedian
   - 🇭🇰 香港4|@ripaojiedian
+  - 🇭🇰 香港5|@ripaojiedian
   - 🇭🇰 香港6|@ripaojiedian
+  - 🇭🇰 香港7|@ripaojiedian
   - 🇯🇵 日本3|@ripaojiedian
   - 🇯🇵 日本4|@ripaojiedian
   - 🇸🇬 新加坡|@ripaojiedian
   - 🇸🇬 新加坡2|@ripaojiedian
-  - 🇸🇬 新加坡3|@ripaojiedian
-  - 🇸🇬 新加坡4|@ripaojiedian
   - 🇺🇸 美国|@ripaojiedian
   - 🇺🇸 美国3|@ripaojiedian
   - 🇺🇸 美国4|@ripaojiedian
-  - 🇭🇰 香港3|@ripaojiedian 2
   - 🇺🇸 美国|@ripaojiedian 2
   - AM_speednode_0011
   - AM_speednode_0012
@@ -1632,8 +1624,9 @@ proxy-groups:
   - 🇭🇰 香港|@ripaojiedian
   - 🇭🇰 香港3|@ripaojiedian
   - 🇭🇰 香港4|@ripaojiedian
+  - 🇭🇰 香港5|@ripaojiedian
   - 🇭🇰 香港6|@ripaojiedian
-  - 🇭🇰 香港3|@ripaojiedian 2
+  - 🇭🇰 香港7|@ripaojiedian
   - 🔰 节点选择
   type: select
 - name: Ⓜ️ 微软服务
@@ -1653,17 +1646,16 @@ proxy-groups:
   - 🇭🇰 香港|@ripaojiedian
   - 🇭🇰 香港3|@ripaojiedian
   - 🇭🇰 香港4|@ripaojiedian
+  - 🇭🇰 香港5|@ripaojiedian
   - 🇭🇰 香港6|@ripaojiedian
+  - 🇭🇰 香港7|@ripaojiedian
   - 🇯🇵 日本3|@ripaojiedian
   - 🇯🇵 日本4|@ripaojiedian
   - 🇸🇬 新加坡|@ripaojiedian
   - 🇸🇬 新加坡2|@ripaojiedian
-  - 🇸🇬 新加坡3|@ripaojiedian
-  - 🇸🇬 新加坡4|@ripaojiedian
   - 🇺🇸 美国|@ripaojiedian
   - 🇺🇸 美国3|@ripaojiedian
   - 🇺🇸 美国4|@ripaojiedian
-  - 🇭🇰 香港3|@ripaojiedian 2
   - 🇺🇸 美国|@ripaojiedian 2
   - AM_speednode_0011
   - AM_speednode_0012
@@ -1751,17 +1743,16 @@ proxy-groups:
   - 🇭🇰 香港|@ripaojiedian
   - 🇭🇰 香港3|@ripaojiedian
   - 🇭🇰 香港4|@ripaojiedian
+  - 🇭🇰 香港5|@ripaojiedian
   - 🇭🇰 香港6|@ripaojiedian
+  - 🇭🇰 香港7|@ripaojiedian
   - 🇯🇵 日本3|@ripaojiedian
   - 🇯🇵 日本4|@ripaojiedian
   - 🇸🇬 新加坡|@ripaojiedian
   - 🇸🇬 新加坡2|@ripaojiedian
-  - 🇸🇬 新加坡3|@ripaojiedian
-  - 🇸🇬 新加坡4|@ripaojiedian
   - 🇺🇸 美国|@ripaojiedian
   - 🇺🇸 美国3|@ripaojiedian
   - 🇺🇸 美国4|@ripaojiedian
-  - 🇭🇰 香港3|@ripaojiedian 2
   - 🇺🇸 美国|@ripaojiedian 2
   - AM_speednode_0011
   - AM_speednode_0012
@@ -1850,17 +1841,16 @@ proxy-groups:
   - 🇭🇰 香港|@ripaojiedian
   - 🇭🇰 香港3|@ripaojiedian
   - 🇭🇰 香港4|@ripaojiedian
+  - 🇭🇰 香港5|@ripaojiedian
   - 🇭🇰 香港6|@ripaojiedian
+  - 🇭🇰 香港7|@ripaojiedian
   - 🇯🇵 日本3|@ripaojiedian
   - 🇯🇵 日本4|@ripaojiedian
   - 🇸🇬 新加坡|@ripaojiedian
   - 🇸🇬 新加坡2|@ripaojiedian
-  - 🇸🇬 新加坡3|@ripaojiedian
-  - 🇸🇬 新加坡4|@ripaojiedian
   - 🇺🇸 美国|@ripaojiedian
   - 🇺🇸 美国3|@ripaojiedian
   - 🇺🇸 美国4|@ripaojiedian
-  - 🇭🇰 香港3|@ripaojiedian 2
   - 🇺🇸 美国|@ripaojiedian 2
   - AM_speednode_0011
   - AM_speednode_0012
@@ -1958,17 +1948,16 @@ proxy-groups:
   - 🇭🇰 香港|@ripaojiedian
   - 🇭🇰 香港3|@ripaojiedian
   - 🇭🇰 香港4|@ripaojiedian
+  - 🇭🇰 香港5|@ripaojiedian
   - 🇭🇰 香港6|@ripaojiedian
+  - 🇭🇰 香港7|@ripaojiedian
   - 🇯🇵 日本3|@ripaojiedian
   - 🇯🇵 日本4|@ripaojiedian
   - 🇸🇬 新加坡|@ripaojiedian
   - 🇸🇬 新加坡2|@ripaojiedian
-  - 🇸🇬 新加坡3|@ripaojiedian
-  - 🇸🇬 新加坡4|@ripaojiedian
   - 🇺🇸 美国|@ripaojiedian
   - 🇺🇸 美国3|@ripaojiedian
   - 🇺🇸 美国4|@ripaojiedian
-  - 🇭🇰 香港3|@ripaojiedian 2
   - 🇺🇸 美国|@ripaojiedian 2
   - AM_speednode_0011
   - AM_speednode_0012
