@@ -1,92 +1,12 @@
 allow-lan: false
 clash-for-android:
   append-system-dns: false
-dns:
-  default-nameserver:
-  - 180.184.1.1
-  - 119.29.29.29
-  - 223.5.5.5
-  enable: true
-  fake-ip-filter:
-  - '*.n.n.srv.nintendo.net'
-  - +.stun.playstation.net
-  - xbox.*.*.microsoft.com
-  - '*.msftncsi.com'
-  - '*.msftconnecttest.com'
-  - WORKGROUP
-  - '*.lan'
-  - stun.*.*.*
-  - stun.*.*
-  - time.windows.com
-  - time.nist.gov
-  - time.apple.com
-  - time.asia.apple.com
-  - '*.ntp.org.cn'
-  - '*.openwrt.pool.ntp.org'
-  - time1.cloud.tencent.com
-  - time.ustc.edu.cn
-  - pool.ntp.org
-  - ntp.ubuntu.com
-  - '*.*.xboxlive.com'
-  - speedtest.cros.wr.pvp.net
-  fallback:
-  - https://101.101.101.101/dns-query
-  - https://public.dns.iij.jp/dns-query
-  - https://208.67.220.220/dns-query
-  fallback-filter:
-    domain:
-    - +.bianyuan.xyz
-    - +.happynothings031.xyz
-    - +.jsdelivr.net
-    - +.proton.me
-    geoip: true
-    ipcidr:
-    - 240.0.0.0/4
-    - 0.0.0.0/32
-    - 223.75.236.241/32
-    - 182.43.124.6/32
-    - 106.74.25.198/32
-  ipv6: true
-  listen: 127.0.0.1:5335
-  nameserver:
-  - tls://223.5.5.5:853
-  - https://223.6.6.6/dns-query
-  - https://120.53.53.53/dns-query
-  nameserver-policy:
-    +.126.com: 119.29.29.29
-    +.126.net: 119.29.29.29
-    +.127.net: 119.29.29.29
-    +.163.com: 119.29.29.29
-    +.alibaba.com: 223.5.5.5
-    +.alicdn.com: 223.5.5.5
-    +.alipay.com: 223.5.5.5
-    +.aliyun.com: 223.5.5.5
-    +.baidu.com: 223.5.5.5
-    +.bdstatic.com: 223.5.5.5
-    +.bilibili.com: 119.29.29.29
-    +.bilivideo.+: 119.29.29.29
-    +.douyin.com: 180.184.1.1
-    +.douyincdn.com: 180.184.1.1
-    +.douyinpic.com: 180.184.1.1
-    +.douyinvod.com: 180.184.1.1
-    +.feishu.cn: 180.184.1.1
-    +.hdslb.com: 119.29.29.29
-    +.iqiyi.com: 119.29.29.29
-    +.jd.com: 119.29.29.29
-    +.netease.com: 119.29.29.29
-    +.qpic.cn: 119.29.29.29
-    +.qq.com: 119.29.29.29
-    +.taobao.com: 223.5.5.5
-    +.tencent.com: 119.29.29.29
-    +.tmall.com: 223.5.5.5
-    +.weixin.com: 119.29.29.29
-  use-hosts: true
 external-controller: 127.0.0.1:9090
-hosts:
-  mtalk.google.com: 108.177.125.188
-log-level: info
+global-client-fingerprint: chrome
+keep-alive-interval: 360
+log-level: warning
 mixed-port: 7890
-mode: Rule
+mode: rule
 proxies:
 - alterId: 0
   cipher: auto
@@ -10912,3 +10832,4 @@ rules:
 - DOMAIN-KEYWORD,XLLiveUD,🎯 全球直连
 - GEOIP,CN,🎯 全球直连
 - MATCH,🐟 漏网之鱼
+unified-delay: true
