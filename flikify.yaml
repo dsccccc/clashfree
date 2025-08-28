@@ -36,22 +36,6 @@ proxies:
   uuid: efcb7d7c-c582-46f5-eeff-0e553342528d
   ws-opts:
     path: /tg@hkaa0
-- alterId: 2
-  cipher: auto
-  name: '[VMess] 🇨🇳 江苏省 移动'
-  network: ws
-  port: 30809
-  server: v9.heduian.link
-  skip-cert-verify: true
-  tfo: false
-  tls: false
-  type: vmess
-  udp: true
-  uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
-  ws-opts:
-    headers:
-      Host: baidu.com
-    path: /oooo
 - alterId: 0
   cipher: auto
   name: '[VMess] 🇩🇪 _US_美国->🇩🇪_DE_德国'
@@ -67,6 +51,20 @@ proxies:
   ws-opts:
     headers:
       Host: flkf2.shabijichang.com
+    path: /
+- name: '[Trojan] 🇩🇪 德国 V2CROSS.COM'
+  network: ws
+  password: tg-fq521free
+  port: 443
+  server: 194.76.18.129
+  skip-cert-verify: true
+  sni: torjan.xn--xhq44j.eu.org
+  tfo: false
+  type: trojan
+  udp: true
+  ws-opts:
+    headers:
+      Host: torjan.xn--xhq44j.eu.org
     path: /
 - alterId: 0
   cipher: auto
@@ -100,6 +98,14 @@ proxies:
     headers:
       Host: ld2.shabijichang.com
     path: /
+- name: '[Trojan] 🇬🇧 英国 社会保险安全部'
+  password: 1ce1df7962f71c6f
+  port: 8443
+  server: uk-03.allhubb.info
+  skip-cert-verify: true
+  tfo: false
+  type: trojan
+  udp: true
 - alterId: 0
   cipher: auto
   name: '[VMess] 🇮🇳 _US_美国->🇮🇳_IN_印度_1'
@@ -266,52 +272,68 @@ proxies:
     path: /
 - alterId: 0
   cipher: auto
+  name: '[VMess] 🇺🇸 美国 CloudFlare节点'
+  network: ws
+  port: 443
+  server: cloudgetservice.mcloudservice.site
+  skip-cert-verify: true
+  tfo: false
+  tls: true
+  type: vmess
+  udp: true
+  uuid: 37f464cb-b826-4278-9bf8-11bdf1ec892b
+  ws-opts:
+    headers:
+      Host: Fra-Vp-123.BLaZECLOUD.Site
+    path: /linvkws
+- alterId: 0
+  cipher: auto
+  name: '[VMess] 🇺🇸 美国 CloudFlare节点 2'
+  network: ws
+  port: 443
+  server: linux.do
+  skip-cert-verify: true
+  tfo: false
+  tls: true
+  type: vmess
+  udp: true
+  uuid: 2fbe41db-0797-44f6-a3eb-9c680e5f09ce
+  ws-opts:
+    headers:
+      Host: designs-cycles-submission-really.trycloudflare.com
+    path: /2fbe41db-0797-44f6-a3eb-9c680e5f09ce-vm
+- alterId: 0
+  cipher: auto
+  name: '[VMess] 🇺🇸 美国 CloudFlare节点 3'
+  network: ws
+  port: 443
+  server: new1.huvicloud.com
+  skip-cert-verify: true
+  tfo: false
+  tls: true
+  type: vmess
+  udp: true
+  uuid: 0f02e02f-418d-4434-b0cf-dbdd15892333
+  ws-opts:
+    headers:
+      Host: new1.huvicloud.com
+    path: /0f02e02f-418d-4434-b0cf-dbdd15892333
+- alterId: 0
+  cipher: auto
   name: '[VMess] 🇺🇸 美国 V2CROSS.COM'
   network: ws
   port: 8880
-  server: 192.200.160.211
+  server: 45.131.210.212
   skip-cert-verify: true
   tfo: false
   tls: false
   type: vmess
   udp: true
-  uuid: 7a384b65-fcc9-32b1-bff4-d2494705b7b1
+  uuid: b209dfbf-6bb0-30b2-a77a-286e230466b5
   ws-opts:
     headers:
       Host: TG.WangCai2.s4.db-link02.top
     path: /dabai&Telegram🇨🇳@WangCai2/?ed=2560
-- alterId: 0
-  cipher: auto
-  name: '[VMess] 🇺🇸 美国 V2CROSS.COM 2'
-  network: ws
-  port: 8880
-  server: 216.205.52.215
-  skip-cert-verify: true
-  tfo: false
-  tls: false
-  type: vmess
-  udp: true
-  uuid: 0b67f537-9bdd-3c10-baa3-0554249bd788
-  ws-opts:
-    headers:
-      Host: TG.WangCai2.s4.db-link02.top
-    path: /dabai&Telegram🇨🇳@WangCai2/?ed=2560
-- alterId: 0
-  cipher: auto
-  name: '[VMess] 🇿🇦 南非 V2CROSS.COM'
-  network: ws
-  port: 8880
-  server: 102.177.176.210
-  skip-cert-verify: true
-  tfo: false
-  tls: false
-  type: vmess
-  udp: true
-  uuid: d9369b77-531e-31f4-a2a2-2273db2825a2
-  ws-opts:
-    headers:
-      Host: TG.WangCai2.s4.db-link02.top
-    path: /dabai&Telegram🇨🇳 @WangCai2 /?ed=2560
 proxy-groups:
 - name: 🚀 全球互联
   proxies:
@@ -326,10 +348,11 @@ proxy-groups:
   - 🇸🇬 新加坡
   - '[VMess] 🇨🇦 _CA_加拿大'
   - '[VMess] 🇨🇳 _TW_台湾->🇺🇸_US_美国'
-  - '[VMess] 🇨🇳 江苏省 移动'
   - '[VMess] 🇩🇪 _US_美国->🇩🇪_DE_德国'
+  - '[Trojan] 🇩🇪 德国 V2CROSS.COM'
   - '[VMess] 🇬🇧 _US_美国->🇬🇧_GB_英国_1'
   - '[VMess] 🇬🇧 _US_美国->🇬🇧_GB_英国_2'
+  - '[Trojan] 🇬🇧 英国 社会保险安全部'
   - '[VMess] 🇮🇳 _US_美国->🇮🇳_IN_印度_1'
   - '[VMess] 🇮🇳 _US_美国->🇮🇳_IN_印度_2'
   - '[VMess] 🇮🇳 _US_美国->🇮🇳_IN_印度_3'
@@ -341,9 +364,10 @@ proxy-groups:
   - '[VMess] 🇺🇸 _US_美国_3'
   - '[VMess] 🇺🇸 _US_美国_4'
   - '[VMess] 🇺🇸 _US_美国_5'
+  - '[VMess] 🇺🇸 美国 CloudFlare节点'
+  - '[VMess] 🇺🇸 美国 CloudFlare节点 2'
+  - '[VMess] 🇺🇸 美国 CloudFlare节点 3'
   - '[VMess] 🇺🇸 美国 V2CROSS.COM'
-  - '[VMess] 🇺🇸 美国 V2CROSS.COM 2'
-  - '[VMess] 🇿🇦 南非 V2CROSS.COM'
   type: select
 - name: 🎥 Netflix
   proxies:
@@ -354,10 +378,11 @@ proxy-groups:
   - 🇸🇬 新加坡
   - '[VMess] 🇨🇦 _CA_加拿大'
   - '[VMess] 🇨🇳 _TW_台湾->🇺🇸_US_美国'
-  - '[VMess] 🇨🇳 江苏省 移动'
   - '[VMess] 🇩🇪 _US_美国->🇩🇪_DE_德国'
+  - '[Trojan] 🇩🇪 德国 V2CROSS.COM'
   - '[VMess] 🇬🇧 _US_美国->🇬🇧_GB_英国_1'
   - '[VMess] 🇬🇧 _US_美国->🇬🇧_GB_英国_2'
+  - '[Trojan] 🇬🇧 英国 社会保险安全部'
   - '[VMess] 🇮🇳 _US_美国->🇮🇳_IN_印度_1'
   - '[VMess] 🇮🇳 _US_美国->🇮🇳_IN_印度_2'
   - '[VMess] 🇮🇳 _US_美国->🇮🇳_IN_印度_3'
@@ -369,9 +394,10 @@ proxy-groups:
   - '[VMess] 🇺🇸 _US_美国_3'
   - '[VMess] 🇺🇸 _US_美国_4'
   - '[VMess] 🇺🇸 _US_美国_5'
+  - '[VMess] 🇺🇸 美国 CloudFlare节点'
+  - '[VMess] 🇺🇸 美国 CloudFlare节点 2'
+  - '[VMess] 🇺🇸 美国 CloudFlare节点 3'
   - '[VMess] 🇺🇸 美国 V2CROSS.COM'
-  - '[VMess] 🇺🇸 美国 V2CROSS.COM 2'
-  - '[VMess] 🇿🇦 南非 V2CROSS.COM'
   type: select
 - name: 📹 Youtube
   proxies:
@@ -382,10 +408,11 @@ proxy-groups:
   - 🇸🇬 新加坡
   - '[VMess] 🇨🇦 _CA_加拿大'
   - '[VMess] 🇨🇳 _TW_台湾->🇺🇸_US_美国'
-  - '[VMess] 🇨🇳 江苏省 移动'
   - '[VMess] 🇩🇪 _US_美国->🇩🇪_DE_德国'
+  - '[Trojan] 🇩🇪 德国 V2CROSS.COM'
   - '[VMess] 🇬🇧 _US_美国->🇬🇧_GB_英国_1'
   - '[VMess] 🇬🇧 _US_美国->🇬🇧_GB_英国_2'
+  - '[Trojan] 🇬🇧 英国 社会保险安全部'
   - '[VMess] 🇮🇳 _US_美国->🇮🇳_IN_印度_1'
   - '[VMess] 🇮🇳 _US_美国->🇮🇳_IN_印度_2'
   - '[VMess] 🇮🇳 _US_美国->🇮🇳_IN_印度_3'
@@ -397,9 +424,10 @@ proxy-groups:
   - '[VMess] 🇺🇸 _US_美国_3'
   - '[VMess] 🇺🇸 _US_美国_4'
   - '[VMess] 🇺🇸 _US_美国_5'
+  - '[VMess] 🇺🇸 美国 CloudFlare节点'
+  - '[VMess] 🇺🇸 美国 CloudFlare节点 2'
+  - '[VMess] 🇺🇸 美国 CloudFlare节点 3'
   - '[VMess] 🇺🇸 美国 V2CROSS.COM'
-  - '[VMess] 🇺🇸 美国 V2CROSS.COM 2'
-  - '[VMess] 🇿🇦 南非 V2CROSS.COM'
   type: select
 - name: ▶️ Disney+
   proxies:
@@ -410,10 +438,11 @@ proxy-groups:
   - 🇸🇬 新加坡
   - '[VMess] 🇨🇦 _CA_加拿大'
   - '[VMess] 🇨🇳 _TW_台湾->🇺🇸_US_美国'
-  - '[VMess] 🇨🇳 江苏省 移动'
   - '[VMess] 🇩🇪 _US_美国->🇩🇪_DE_德国'
+  - '[Trojan] 🇩🇪 德国 V2CROSS.COM'
   - '[VMess] 🇬🇧 _US_美国->🇬🇧_GB_英国_1'
   - '[VMess] 🇬🇧 _US_美国->🇬🇧_GB_英国_2'
+  - '[Trojan] 🇬🇧 英国 社会保险安全部'
   - '[VMess] 🇮🇳 _US_美国->🇮🇳_IN_印度_1'
   - '[VMess] 🇮🇳 _US_美国->🇮🇳_IN_印度_2'
   - '[VMess] 🇮🇳 _US_美国->🇮🇳_IN_印度_3'
@@ -425,9 +454,10 @@ proxy-groups:
   - '[VMess] 🇺🇸 _US_美国_3'
   - '[VMess] 🇺🇸 _US_美国_4'
   - '[VMess] 🇺🇸 _US_美国_5'
+  - '[VMess] 🇺🇸 美国 CloudFlare节点'
+  - '[VMess] 🇺🇸 美国 CloudFlare节点 2'
+  - '[VMess] 🇺🇸 美国 CloudFlare节点 3'
   - '[VMess] 🇺🇸 美国 V2CROSS.COM'
-  - '[VMess] 🇺🇸 美国 V2CROSS.COM 2'
-  - '[VMess] 🇿🇦 南非 V2CROSS.COM'
   type: select
 - name: 🌍 国外媒体
   proxies:
@@ -439,10 +469,11 @@ proxy-groups:
   - 🇸🇬 新加坡
   - '[VMess] 🇨🇦 _CA_加拿大'
   - '[VMess] 🇨🇳 _TW_台湾->🇺🇸_US_美国'
-  - '[VMess] 🇨🇳 江苏省 移动'
   - '[VMess] 🇩🇪 _US_美国->🇩🇪_DE_德国'
+  - '[Trojan] 🇩🇪 德国 V2CROSS.COM'
   - '[VMess] 🇬🇧 _US_美国->🇬🇧_GB_英国_1'
   - '[VMess] 🇬🇧 _US_美国->🇬🇧_GB_英国_2'
+  - '[Trojan] 🇬🇧 英国 社会保险安全部'
   - '[VMess] 🇮🇳 _US_美国->🇮🇳_IN_印度_1'
   - '[VMess] 🇮🇳 _US_美国->🇮🇳_IN_印度_2'
   - '[VMess] 🇮🇳 _US_美国->🇮🇳_IN_印度_3'
@@ -454,9 +485,10 @@ proxy-groups:
   - '[VMess] 🇺🇸 _US_美国_3'
   - '[VMess] 🇺🇸 _US_美国_4'
   - '[VMess] 🇺🇸 _US_美国_5'
+  - '[VMess] 🇺🇸 美国 CloudFlare节点'
+  - '[VMess] 🇺🇸 美国 CloudFlare节点 2'
+  - '[VMess] 🇺🇸 美国 CloudFlare节点 3'
   - '[VMess] 🇺🇸 美国 V2CROSS.COM'
-  - '[VMess] 🇺🇸 美国 V2CROSS.COM 2'
-  - '[VMess] 🇿🇦 南非 V2CROSS.COM'
   type: select
 - name: 📲 Telegram
   proxies:
@@ -482,10 +514,11 @@ proxy-groups:
   - 🇸🇬 新加坡
   - '[VMess] 🇨🇦 _CA_加拿大'
   - '[VMess] 🇨🇳 _TW_台湾->🇺🇸_US_美国'
-  - '[VMess] 🇨🇳 江苏省 移动'
   - '[VMess] 🇩🇪 _US_美国->🇩🇪_DE_德国'
+  - '[Trojan] 🇩🇪 德国 V2CROSS.COM'
   - '[VMess] 🇬🇧 _US_美国->🇬🇧_GB_英国_1'
   - '[VMess] 🇬🇧 _US_美国->🇬🇧_GB_英国_2'
+  - '[Trojan] 🇬🇧 英国 社会保险安全部'
   - '[VMess] 🇮🇳 _US_美国->🇮🇳_IN_印度_1'
   - '[VMess] 🇮🇳 _US_美国->🇮🇳_IN_印度_2'
   - '[VMess] 🇮🇳 _US_美国->🇮🇳_IN_印度_3'
@@ -497,9 +530,10 @@ proxy-groups:
   - '[VMess] 🇺🇸 _US_美国_3'
   - '[VMess] 🇺🇸 _US_美国_4'
   - '[VMess] 🇺🇸 _US_美国_5'
+  - '[VMess] 🇺🇸 美国 CloudFlare节点'
+  - '[VMess] 🇺🇸 美国 CloudFlare节点 2'
+  - '[VMess] 🇺🇸 美国 CloudFlare节点 3'
   - '[VMess] 🇺🇸 美国 V2CROSS.COM'
-  - '[VMess] 🇺🇸 美国 V2CROSS.COM 2'
-  - '[VMess] 🇿🇦 南非 V2CROSS.COM'
   type: select
 - name: 🇭🇰 香港
   proxies:
@@ -526,8 +560,10 @@ proxy-groups:
   - '[VMess] 🇺🇸 _US_美国_3'
   - '[VMess] 🇺🇸 _US_美国_4'
   - '[VMess] 🇺🇸 _US_美国_5'
+  - '[VMess] 🇺🇸 美国 CloudFlare节点'
+  - '[VMess] 🇺🇸 美国 CloudFlare节点 2'
+  - '[VMess] 🇺🇸 美国 CloudFlare节点 3'
   - '[VMess] 🇺🇸 美国 V2CROSS.COM'
-  - '[VMess] 🇺🇸 美国 V2CROSS.COM 2'
   type: select
 - name: 🇹🇼 台湾
   proxies:
