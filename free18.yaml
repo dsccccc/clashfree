@@ -4,644 +4,1119 @@ log-level: info
 mode: Rule
 port: 7890
 proxies:
-- name: 电报群：https://t.me/vvkj11
-  network: grpc
-  port: 443
-  server: 154.83.2.167
+- alterId: '0'
+  cipher: auto
+  name: 电报群：https://t.me/vvkj11
+  network: tcp
+  port: '50007'
+  server: 112.132.215.34
+  type: vmess
+  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
+- alterId: '64'
+  cipher: auto
+  name: 每天更新，请加电报群防止失联
+  network: tcp
+  port: '50002'
+  server: 47.116.166.178
+  type: vmess
+  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
+- alterId: '64'
+  cipher: auto
+  name: 日期：09-01
+  network: tcp
+  port: '50002'
+  server: 47.92.152.169
+  type: vmess
+  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
+- alterId: '64'
+  cipher: auto
+  name: 免费VPN：https://tt.vg/gwaAy
+  network: tcp
+  port: '50112'
+  server: 120.26.55.225
+  type: vmess
+  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
+- alterId: '64'
+  cipher: auto
+  name: 🇨🇳_中国_1
+  network: tcp
+  port: '50002'
+  server: 120.210.205.59
+  type: vmess
+  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
+- name: 🇰🇷_韩国_1
+  network: tcp
+  password: Aimer
+  port: 12257
+  server: 112.173.231.254
   skip-cert-verify: true
-  tls: true
-  type: vless
+  sni: epge.muarua.filegear-sg.me
+  type: trojan
   udp: true
-  uuid: 401374e6-df77-41fb-f638-dad8184f175b
-- name: 每天更新，请加电报群防止失联
-  network: grpc
-  port: 443
-  server: 184.174.80.250
+- name: 🇰🇷_韩国_2
+  network: tcp
+  password: Aimer
+  port: 12467
+  server: 119.203.202.120
   skip-cert-verify: true
-  tls: true
-  type: vless
+  sni: epge.muarua.filegear-sg.me
+  type: trojan
   udp: true
-  uuid: 401374e6-df77-41fb-f638-dad8184f175b
-- name: 日期：08-31
-  network: grpc
-  port: 443
-  server: 92.53.188.36
-  skip-cert-verify: true
-  tls: true
-  type: vless
-  udp: true
-  uuid: 401374e6-df77-41fb-f638-dad8184f175b
-- name: 免费VPN：https://tt.vg/gwaAy
-  network: grpc
-  port: 443
-  server: 94.140.0.141
-  skip-cert-verify: true
-  tls: true
-  type: vless
-  udp: true
-  uuid: 401374e6-df77-41fb-f638-dad8184f175b
-- name: 🇷🇺_俄罗斯_1
-  network: grpc
-  port: 443
-  server: 94.247.142.103
-  skip-cert-verify: true
-  tls: true
-  type: vless
-  udp: true
-  uuid: 401374e6-df77-41fb-f638-dad8184f175b
+- alterId: '0'
+  cipher: auto
+  name: 🇨🇳_中国_2
+  network: tcp
+  port: '50002'
+  server: 47.104.186.133
+  type: vmess
+  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
 - name: 🇺🇸_美国_1
-  network: grpc
-  port: 443
-  server: 147.185.161.234
-  skip-cert-verify: true
-  tls: true
-  type: vless
-  udp: true
-  uuid: 401374e6-df77-41fb-f638-dad8184f175b
-- name: 🇺🇸_美国_2
-  network: grpc
-  port: 443
-  server: 104.129.167.161
-  skip-cert-verify: true
-  tls: true
-  type: vless
-  udp: true
-  uuid: 401374e6-df77-41fb-f638-dad8184f175b
-- name: 🇷🇺_俄罗斯_2
-  network: grpc
-  port: 443
-  server: 185.59.218.168
-  skip-cert-verify: true
-  tls: true
-  type: vless
-  udp: true
-  uuid: 401374e6-df77-41fb-f638-dad8184f175b
-- name: 🇿🇦_南非
-  network: grpc
-  port: 443
-  server: 102.177.189.251
-  skip-cert-verify: true
-  tls: true
-  type: vless
-  udp: true
-  uuid: 401374e6-df77-41fb-f638-dad8184f175b
-- name: 🇺🇸_美国_3
-  network: grpc
-  port: 443
-  server: 167.68.42.168
-  skip-cert-verify: true
-  tls: true
-  type: vless
-  udp: true
-  uuid: 401374e6-df77-41fb-f638-dad8184f175b
-- name: 🇬🇧_英国_1
-  network: grpc
-  port: 443
-  server: 45.8.211.71
-  skip-cert-verify: true
-  tls: true
-  type: vless
-  udp: true
-  uuid: 401374e6-df77-41fb-f638-dad8184f175b
-- name: 🇦🇺_澳大利亚_1
-  network: grpc
-  port: 443
-  server: 103.133.1.227
-  skip-cert-verify: true
-  tls: true
-  type: vless
-  udp: true
-  uuid: 401374e6-df77-41fb-f638-dad8184f175b
-- name: 🇫🇷_法国
-  network: grpc
-  port: 443
-  server: 141.11.203.139
-  skip-cert-verify: true
-  tls: true
-  type: vless
-  udp: true
-  uuid: 401374e6-df77-41fb-f638-dad8184f175b
-- name: 🇬🇧_英国_2
-  network: grpc
-  port: 443
-  server: 45.8.211.86
-  skip-cert-verify: true
-  tls: true
-  type: vless
-  udp: true
-  uuid: 401374e6-df77-41fb-f638-dad8184f175b
-- name: 🇨🇳_中国_1
   network: tcp
-  password: 8a1ab0df6abea549
+  password: Aimer
   port: 443
-  server: 60.249.35.96
+  server: arvind.ns.cloudflare.com
   skip-cert-verify: true
-  sni: TG.freecodes
-  type: trojan
-  udp: true
-- name: 🇯🇵_日本
-  network: tcp
-  password: 8a1ab0df6abea549
-  port: 443
-  server: 139.162.119.212
-  skip-cert-verify: true
-  sni: TG.freecodes
-  type: trojan
-  udp: true
-- name: 🇨🇳_中国_2
-  network: tcp
-  password: 8a1ab0df6abea549
-  port: 443
-  server: 60.249.35.3
-  skip-cert-verify: true
-  sni: TG.freecodes
+  sni: epge.muarua.filegear-sg.me
   type: trojan
   udp: true
 - name: 🇨🇳_中国_3
   network: tcp
-  password: 8a1ab0df6abea549
-  port: 443
-  server: 60.249.28.138
+  password: Aimer
+  port: 8443
+  server: 154.197.64.248
   skip-cert-verify: true
-  sni: TG.freecodes
+  sni: epge.muarua.filegear-sg.me
   type: trojan
   udp: true
-- name: 🇨🇳_中国_4
+- name: 🇰🇷_韩国_3
   network: tcp
-  password: 8a1ab0df6abea549
-  port: 443
-  server: 60.249.14.38
+  password: Aimer
+  port: 50001
+  server: 220.118.39.235
   skip-cert-verify: true
-  sni: TG.freecodes
+  sni: epge.muarua.filegear-sg.me
   type: trojan
   udp: true
-- name: 🇨🇳_中国_5
+- name: 🇺🇸_美国_2
   network: tcp
-  password: 8a1ab0df6abea549
-  port: 443
-  server: 60.249.28.59
+  password: Aimer
+  port: 2053
+  server: 167.68.5.85
   skip-cert-verify: true
-  sni: TG.freecodes
+  sni: epge.muarua.filegear-sg.me
   type: trojan
   udp: true
-- name: 🇨🇳_中国_6
+- name: 🇰🇷_韩国_4
   network: tcp
-  password: 8a1ab0df6abea549
-  port: 443
-  server: 60.249.39.170
+  password: Aimer
+  port: 50001
+  server: 210.183.11.2
   skip-cert-verify: true
-  sni: TG.freecodes
+  sni: epge.muarua.filegear-sg.me
   type: trojan
   udp: true
-- name: 🇨🇳_中国_7
+- name: 🇺🇸_美国_3
   network: tcp
-  password: 8a1ab0df6abea549
-  port: 443
-  server: 60.249.14.39
+  password: Aimer
+  port: 8443
+  server: 104.129.166.131
   skip-cert-verify: true
-  sni: TG.freecodes
-  type: trojan
-  udp: true
-- name: 🇨🇳_中国_8
-  network: tcp
-  password: 8a1ab0df6abea549
-  port: 443
-  server: 60.249.35.39
-  skip-cert-verify: true
-  sni: TG.freecodes
-  type: trojan
-  udp: true
-- name: 🇨🇳_中国_9
-  network: tcp
-  password: 8a1ab0df6abea549
-  port: 443
-  server: 60.249.14.95
-  skip-cert-verify: true
-  sni: TG.freecodes
-  type: trojan
-  udp: true
-- name: 🇨🇳_中国_10
-  network: tcp
-  password: 8a1ab0df6abea549
-  port: 443
-  server: 60.249.35.59
-  skip-cert-verify: true
-  sni: TG.freecodes
-  type: trojan
-  udp: true
-- name: 🇨🇳_中国_11
-  network: tcp
-  password: 8a1ab0df6abea549
-  port: 443
-  server: 60.249.35.60
-  skip-cert-verify: true
-  sni: TG.freecodes
-  type: trojan
-  udp: true
-- name: 🇨🇳_中国_12
-  network: tcp
-  password: 8a1ab0df6abea549
-  port: 443
-  server: 211.72.214.65
-  skip-cert-verify: true
-  sni: TG.freecodes
-  type: trojan
-  udp: true
-- name: 🇨🇳_中国_13
-  network: tcp
-  password: 8a1ab0df6abea549
-  port: 443
-  server: 60.249.35.2
-  skip-cert-verify: true
-  sni: TG.freecodes
-  type: trojan
-  udp: true
-- name: 🇨🇳_中国_14
-  network: tcp
-  password: 8a1ab0df6abea549
-  port: 443
-  server: 59.125.75.111
-  skip-cert-verify: true
-  sni: TG.freecodes
-  type: trojan
-  udp: true
-- name: 🇨🇳_中国_15
-  network: tcp
-  password: 8a1ab0df6abea549
-  port: 443
-  server: 60.249.35.37
-  skip-cert-verify: true
-  sni: TG.freecodes
-  type: trojan
-  udp: true
-- name: 🇨🇳_中国_16
-  network: tcp
-  password: 8a1ab0df6abea549
-  port: 443
-  server: 60.249.14.94
-  skip-cert-verify: true
-  sni: TG.freecodes
-  type: trojan
-  udp: true
-- name: 🇨🇳_中国_17
-  network: tcp
-  password: 8a1ab0df6abea549
-  port: 443
-  server: 118.163.200.38
-  skip-cert-verify: true
-  sni: TG.freecodes
+  sni: epge.muarua.filegear-sg.me
   type: trojan
   udp: true
 - name: 🇺🇸_美国_4
   network: tcp
-  password: 8a1ab0df6abea549
-  port: 443
-  server: 172.236.144.61
+  password: Aimer
+  port: 2053
+  server: 167.68.4.199
   skip-cert-verify: true
-  sni: TG.freecodes
-  type: trojan
-  udp: true
-- name: 🇨🇳_中国_18
-  network: tcp
-  password: 8a1ab0df6abea549
-  port: 443
-  server: 118.163.200.41
-  skip-cert-verify: true
-  sni: TG.freecodes
-  type: trojan
-  udp: true
-- name: 🇨🇳_中国_19
-  network: tcp
-  password: 8a1ab0df6abea549
-  port: 443
-  server: 118.163.200.40
-  skip-cert-verify: true
-  sni: TG.freecodes
-  type: trojan
-  udp: true
-- name: 🇨🇳_中国_20
-  network: tcp
-  password: 8a1ab0df6abea549
-  port: 443
-  server: 211.22.161.135
-  skip-cert-verify: true
-  sni: TG.freecodes
-  type: trojan
-  udp: true
-- name: 🇨🇳_中国_21
-  network: tcp
-  password: 8a1ab0df6abea549
-  port: 443
-  server: 59.125.75.115
-  skip-cert-verify: true
-  sni: TG.freecodes
-  type: trojan
-  udp: true
-- name: 🇨🇳_中国_22
-  network: tcp
-  password: 8a1ab0df6abea549
-  port: 443
-  server: 211.22.161.134
-  skip-cert-verify: true
-  sni: TG.freecodes
-  type: trojan
-  udp: true
-- name: 🇨🇳_中国_23
-  network: tcp
-  password: 8a1ab0df6abea549
-  port: 443
-  server: 60.249.28.60
-  skip-cert-verify: true
-  sni: TG.freecodes
-  type: trojan
-  udp: true
-- name: 🇨🇳_中国_24
-  network: tcp
-  password: 8a1ab0df6abea549
-  port: 443
-  server: 59.125.62.190
-  skip-cert-verify: true
-  sni: TG.freecodes
-  type: trojan
-  udp: true
-- name: 🇨🇳_中国_25
-  network: tcp
-  password: 8a1ab0df6abea549
-  port: 443
-  server: 60.249.14.96
-  skip-cert-verify: true
-  sni: TG.freecodes
-  type: trojan
-  udp: true
-- name: 🇨🇳_中国_26
-  network: tcp
-  password: 8a1ab0df6abea549
-  port: 443
-  server: 60.249.39.203
-  skip-cert-verify: true
-  sni: TG.freecodes
+  sni: epge.muarua.filegear-sg.me
   type: trojan
   udp: true
 - name: 🇺🇸_美国_5
   network: tcp
-  password: 8a1ab0df6abea549
+  password: Aimer
   port: 443
-  server: 172.236.144.38
+  server: thaddeus.ns.cloudflare.com
   skip-cert-verify: true
-  sni: TG.freecodes
+  sni: epge.muarua.filegear-sg.me
   type: trojan
   udp: true
-- name: 🇨🇳_中国_27
+- name: 🇷🇺_俄罗斯_1
   network: tcp
-  password: 8a1ab0df6abea549
-  port: 443
-  server: 60.249.28.136
+  password: Aimer
+  port: 2096
+  server: 5.182.84.22
   skip-cert-verify: true
-  sni: TG.freecodes
+  sni: epge.muarua.filegear-sg.me
   type: trojan
   udp: true
-- name: 🇨🇳_中国_28
+- name: 🇮🇷_伊朗
   network: tcp
-  password: 8a1ab0df6abea549
-  port: 443
-  server: 60.249.28.137
-  skip-cert-verify: true
-  sni: TG.freecodes
-  type: trojan
-  udp: true
-- name: 🇬🇧_英国_3
-  network: tcp
-  password: 8a1ab0df6abea549
-  port: 443
-  server: 5.44.249.51
-  skip-cert-verify: true
-  sni: TG.freecodes
-  type: trojan
-  udp: true
-- name: 🇺🇸_美国_6
-  network: tcp
-  password: f282b878-8711-45a1-8c69-5564172123c1
-  port: 443
-  server: aio.nolimit.dpdns.org
-  skip-cert-verify: true
-  sni: aio.nolimit.dpdns.org
-  type: trojan
-  udp: true
-- name: 🇨🇳_中国_29
-  network: tcp
-  password: 8a1ab0df6abea549
-  port: 443
-  server: 60.249.39.204
-  skip-cert-verify: true
-  sni: TG.freecodes
-  type: trojan
-  udp: true
-- name: 🇳🇱_荷兰_1
-  network: tcp
-  password: 8a1ab0df6abea549
-  port: 443
-  server: 95.174.71.101
-  skip-cert-verify: true
-  sni: TG.freecodes
-  type: trojan
-  udp: true
-- name: 🇳🇱_荷兰_2
-  network: tcp
-  password: 8a1ab0df6abea549
-  port: 443
-  server: 95.174.71.99
-  skip-cert-verify: true
-  sni: TG.freecodes
-  type: trojan
-  udp: true
-- name: 🇷🇺_俄罗斯_3
-  network: tcp
-  password: 8a1ab0df6abea549
-  port: 443
-  server: 88.210.36.106
-  skip-cert-verify: true
-  sni: TG.freecodes
-  type: trojan
-  udp: true
-- name: 🇺🇸_美国_7
-  network: tcp
-  password: 8a1ab0df6abea549
-  port: 443
-  server: 23.247.137.67
-  skip-cert-verify: true
-  sni: TG.freecodes
-  type: trojan
-  udp: true
-- name: 🇷🇺_俄罗斯_4
-  network: tcp
-  password: 8a1ab0df6abea549
-  port: 443
-  server: 88.210.36.107
-  skip-cert-verify: true
-  sni: TG.freecodes
-  type: trojan
-  udp: true
-- name: 🇳🇱_荷兰_3
-  network: tcp
-  password: 8a1ab0df6abea549
-  port: 443
-  server: 95.174.71.98
-  skip-cert-verify: true
-  sni: TG.freecodes
-  type: trojan
-  udp: true
-- name: 🇺🇸_美国_8
-  network: tcp
-  password: f282b878-8711-45a1-88c9-5564172123c1
-  port: 443
-  server: aio.zipzap.biz.id
-  skip-cert-verify: true
-  sni: aio.zipzap.biz.id
-  type: trojan
-  udp: true
-- name: 🇷🇺_俄罗斯_5
-  network: tcp
-  password: 8a1ab0df6abea549
-  port: 443
-  server: 88.210.36.109
-  skip-cert-verify: true
-  sni: TG.freecodes
-  type: trojan
-  udp: true
-- name: 🇷🇺_俄罗斯_6
-  network: tcp
-  password: 8a1ab0df6abea549
-  port: 443
-  server: 88.210.36.108
-  skip-cert-verify: true
-  sni: TG.freecodes
-  type: trojan
-  udp: true
-- name: 🇺🇸_美国_9
-  network: tcp
-  password: 8a1ab0df6abea549
-  port: 443
-  server: 134.195.101.84
-  skip-cert-verify: true
-  sni: TG.freecodes
-  type: trojan
-  udp: true
-- name: 🇺🇸_美国_10
-  network: tcp
-  password: 8a1ab0df6abea549
-  port: 443
-  server: 23.247.137.72
-  skip-cert-verify: true
-  sni: TG.freecodes
-  type: trojan
-  udp: true
-- alterId: '0'
-  cipher: auto
-  name: 🇺🇸_美国_11
-  network: tcp
-  port: '443'
-  server: 165.140.216.141
-  type: vmess
-  uuid: e7d72a8d-26f2-4b54-b366-0c43e0bcba7d
-- alterId: '0'
-  cipher: auto
-  name: 🇺🇸_美国_12
-  network: tcp
-  port: '443'
-  server: 165.140.216.141
-  type: vmess
-  uuid: e7d72a8d-26f2-4b54-b366-0c43e0bcba7d
-- flow: xtls-rprx-vision
-  name: 🇨🇳_中国_30
-  network: tcp
-  port: 443
-  server: 154.90.55.174
-  servername: aws.amazon.com
+  port: 8443
+  server: cdn29.saloonak.ir
   skip-cert-verify: true
   tls: false
   type: vless
   udp: true
-  uuid: f47b5d3c-4051-476d-8280-89b1125b4467
-- alterId: '64'
-  cipher: auto
-  name: 🇨🇳_中国_31
-  network: tcp
-  port: '47272'
-  server: 183.240.245.250
-  type: vmess
-  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
-- name: 🇳🇱_荷兰_4
-  network: tcp
-  password: 8a1ab0df6abea549
-  port: 443
-  server: 95.174.71.96
-  skip-cert-verify: true
-  sni: TG.freecodes
-  type: trojan
-  udp: true
-- name: 🇺🇸_美国_13
-  network: tcp
-  password: 8a1ab0df6abea549
-  port: 443
-  server: 23.247.137.74
-  skip-cert-verify: true
-  sni: TG.freecodes
-  type: trojan
-  udp: true
-- name: 🇺🇸_美国_14
-  network: tcp
-  password: 8a1ab0df6abea549
-  port: 443
-  server: 23.247.137.161
-  skip-cert-verify: true
-  sni: TG.freecodes
-  type: trojan
-  udp: true
-- name: 🇺🇸_美国_15
-  network: tcp
-  password: 8a1ab0df6abea549
-  port: 443
-  server: 23.247.137.160
-  skip-cert-verify: true
-  sni: TG.freecodes
-  type: trojan
-  udp: true
-- name: 🇺🇸_美国_16
-  network: tcp
-  password: 8a1ab0df6abea549
-  port: 443
-  server: 134.195.101.85
-  skip-cert-verify: true
-  sni: TG.freecodes
-  type: trojan
-  udp: true
-- name: 🇺🇸_美国_17
-  network: tcp
-  password: 8a1ab0df6abea549
-  port: 443
-  server: 23.247.137.68
-  skip-cert-verify: true
-  sni: TG.freecodes
-  type: trojan
-  udp: true
-- alterId: '0'
-  cipher: auto
-  name: 🇺🇸_美国_18
+  uuid: 789d4f30-c31b-4762-8116-ed42574d5e85
+- name: 🇺🇸_美国_6
   network: ws
-  port: '443'
-  server: klo.986986.shop
+  port: 443
+  server: 47.239.212.52
+  servername: edge.ambercc.filegear-sg.me
+  skip-cert-verify: true
   tls: true
-  type: vmess
-  uuid: b75c9731-408d-4aa6-8ae9-3857205113a1
+  type: vless
+  udp: true
+  uuid: ee6774c0-9b19-4ff1-8b30-2da4b71977e2
   ws-opts:
     headers:
-      host: klo.986986.shop
-    path: /nvjx6j7kbDQIQMZvbeVA9
+      host: edge.ambercc.filegear-sg.me
+    path: /?ed=2560&proxyip=ts.hpc.tw
+- name: 🇨🇳_中国_4
+  network: ws
+  port: 443
+  server: 8.223.12.202
+  servername: edgf.ambercc.filegear-sg.me
+  skip-cert-verify: true
+  tls: true
+  type: vless
+  udp: true
+  uuid: ee6774c0-9b19-4ff1-8b30-2da4b71977e2
+  ws-opts:
+    headers:
+      host: edgf.ambercc.filegear-sg.me
+    path: /?ed=2560&proxyip=ts.hpc.tw
+- name: 🇺🇸_美国_7
+  network: ws
+  port: 8005
+  server: 47.76.237.145
+  servername: edgf.ambercc.filegear-sg.me
+  skip-cert-verify: true
+  tls: true
+  type: vless
+  udp: true
+  uuid: ee6774c0-9b19-4ff1-8b30-2da4b71977e2
+  ws-opts:
+    headers:
+      host: edgf.ambercc.filegear-sg.me
+    path: /?ed=2560&proxyip=ts.hpc.tw
+- name: 🇺🇸_美国_8
+  network: ws
+  port: 443
+  server: 47.76.218.163
+  servername: edge.ambercc.filegear-sg.me
+  skip-cert-verify: true
+  tls: true
+  type: vless
+  udp: true
+  uuid: ee6774c0-9b19-4ff1-8b30-2da4b71977e2
+  ws-opts:
+    headers:
+      host: edge.ambercc.filegear-sg.me
+    path: /?ed=2560&proxyip=ts.hpc.tw
+- name: 🇨🇳_中国_5
+  network: ws
+  port: 20800
+  server: 183.178.254.158
+  servername: edgf.aimercc.dpdns.org
+  skip-cert-verify: true
+  tls: true
+  type: vless
+  udp: true
+  uuid: ee6774c0-9b19-4ff1-8b30-2da4b71977e2
+  ws-opts:
+    headers:
+      host: edgf.aimercc.dpdns.org
+    path: /?ed=2560&proxyip=ts.hpc.tw
+- name: 🇺🇸_美国_9
+  network: ws
+  port: 444
+  server: 38.147.184.173
+  servername: edgf.ambercc.filegear-sg.me
+  skip-cert-verify: true
+  tls: true
+  type: vless
+  udp: true
+  uuid: ee6774c0-9b19-4ff1-8b30-2da4b71977e2
+  ws-opts:
+    headers:
+      host: edgf.ambercc.filegear-sg.me
+    path: /?ed=2560&proxyip=ts.hpc.tw
+- name: 🇨🇳_中国_6
+  network: ws
+  port: 4443
+  server: 101.32.209.46
+  servername: edge.ambercc.filegear-sg.me
+  skip-cert-verify: true
+  tls: true
+  type: vless
+  udp: true
+  uuid: ee6774c0-9b19-4ff1-8b30-2da4b71977e2
+  ws-opts:
+    headers:
+      host: edge.ambercc.filegear-sg.me
+    path: /?ed=2560&proxyip=ts.hpc.tw
+- name: 🇨🇳_中国_7
+  network: ws
+  port: 9443
+  server: 47.243.177.147
+  servername: edge.ambercc.filegear-sg.me
+  skip-cert-verify: true
+  tls: true
+  type: vless
+  udp: true
+  uuid: ee6774c0-9b19-4ff1-8b30-2da4b71977e2
+  ws-opts:
+    headers:
+      host: edge.ambercc.filegear-sg.me
+    path: /?ed=2560&proxyip=ts.hpc.tw
+- name: 🇸🇬_新加坡_1
+  network: ws
+  port: 443
+  server: 54.254.183.22
+  servername: edgf.aimercc.dpdns.org
+  skip-cert-verify: true
+  tls: true
+  type: vless
+  udp: true
+  uuid: ee6774c0-9b19-4ff1-8b30-2da4b71977e2
+  ws-opts:
+    headers:
+      host: edgf.aimercc.dpdns.org
+    path: /?ed=2560&proxyip=ts.hpc.tw
+- name: 🇦🇺_澳大利亚_1
+  network: ws
+  port: 10000
+  server: 43.163.199.251
+  servername: edge.ambercc.filegear-sg.me
+  skip-cert-verify: true
+  tls: true
+  type: vless
+  udp: true
+  uuid: ee6774c0-9b19-4ff1-8b30-2da4b71977e2
+  ws-opts:
+    headers:
+      host: edge.ambercc.filegear-sg.me
+    path: /?ed=2560&proxyip=ts.hpc.tw
+- name: 🇧🇷_巴西
+  network: ws
+  port: 54584
+  server: 168.138.192.16
+  servername: edgf.ambercc.filegear-sg.me
+  skip-cert-verify: true
+  tls: true
+  type: vless
+  udp: true
+  uuid: ee6774c0-9b19-4ff1-8b30-2da4b71977e2
+  ws-opts:
+    headers:
+      host: edgf.ambercc.filegear-sg.me
+    path: /?ed=2560&proxyip=ts.hpc.tw
+- name: 🇸🇬_新加坡_2
+  network: ws
+  port: 443
+  server: 13.229.203.116
+  servername: edgf.ambercc.filegear-sg.me
+  skip-cert-verify: true
+  tls: true
+  type: vless
+  udp: true
+  uuid: ee6774c0-9b19-4ff1-8b30-2da4b71977e2
+  ws-opts:
+    headers:
+      host: edgf.ambercc.filegear-sg.me
+    path: /?ed=2560&proxyip=ts.hpc.tw
+- name: 🇯🇵_日本_1
+  network: ws
+  port: 443
+  server: 13.231.231.146
+  servername: edgf.ambercc.filegear-sg.me
+  skip-cert-verify: true
+  tls: true
+  type: vless
+  udp: true
+  uuid: ee6774c0-9b19-4ff1-8b30-2da4b71977e2
+  ws-opts:
+    headers:
+      host: edgf.ambercc.filegear-sg.me
+    path: /?ed=2560&proxyip=ts.hpc.tw
+- name: 🇯🇵_日本_2
+  network: ws
+  port: 443
+  server: 160.16.123.65
+  servername: edgf.ambercc.filegear-sg.me
+  skip-cert-verify: true
+  tls: true
+  type: vless
+  udp: true
+  uuid: ee6774c0-9b19-4ff1-8b30-2da4b71977e2
+  ws-opts:
+    headers:
+      host: edgf.ambercc.filegear-sg.me
+    path: /?ed=2560&proxyip=ts.hpc.tw
+- name: 🇯🇵_日本_3
+  network: ws
+  port: 443
+  server: 13.230.34.30
+  servername: edgf.ambercc.filegear-sg.me
+  skip-cert-verify: true
+  tls: true
+  type: vless
+  udp: true
+  uuid: ee6774c0-9b19-4ff1-8b30-2da4b71977e2
+  ws-opts:
+    headers:
+      host: edgf.ambercc.filegear-sg.me
+    path: /?ed=2560&proxyip=ts.hpc.tw
+- name: 🇺🇸_美国_10
+  network: ws
+  port: 4443
+  server: 149.104.25.89
+  servername: edgf.ambercc.filegear-sg.me
+  skip-cert-verify: true
+  tls: true
+  type: vless
+  udp: true
+  uuid: ee6774c0-9b19-4ff1-8b30-2da4b71977e2
+  ws-opts:
+    headers:
+      host: edgf.ambercc.filegear-sg.me
+    path: /?ed=2560&proxyip=ts.hpc.tw
+- name: 🇺🇸_美国_11
+  network: ws
+  port: 443
+  server: 35.78.229.176
+  servername: edgf.aimercc.dpdns.org
+  skip-cert-verify: true
+  tls: true
+  type: vless
+  udp: true
+  uuid: ee6774c0-9b19-4ff1-8b30-2da4b71977e2
+  ws-opts:
+    headers:
+      host: edgf.aimercc.dpdns.org
+    path: /?ed=2560&proxyip=ts.hpc.tw
+- name: 🇦🇺_澳大利亚_2
+  network: ws
+  port: 6666
+  server: 43.129.205.163
+  servername: edgf.aimercc.dpdns.org
+  skip-cert-verify: true
+  tls: true
+  type: vless
+  udp: true
+  uuid: ee6774c0-9b19-4ff1-8b30-2da4b71977e2
+  ws-opts:
+    headers:
+      host: edgf.aimercc.dpdns.org
+    path: /?ed=2560&proxyip=ts.hpc.tw
+- name: 🇺🇸_美国_12
+  network: ws
+  port: 80
+  server: 47.130.115.157
+  servername: edgf.ambercc.filegear-sg.me
+  skip-cert-verify: true
+  tls: true
+  type: vless
+  udp: true
+  uuid: ee6774c0-9b19-4ff1-8b30-2da4b71977e2
+  ws-opts:
+    headers:
+      host: edgf.ambercc.filegear-sg.me
+    path: /?ed=2560&proxyip=ts.hpc.tw
+- name: 🇺🇸_美国_13
+  network: ws
+  port: 443
+  server: 140.245.88.197
+  servername: edgf.ambercc.filegear-sg.me
+  skip-cert-verify: true
+  tls: true
+  type: vless
+  udp: true
+  uuid: ee6774c0-9b19-4ff1-8b30-2da4b71977e2
+  ws-opts:
+    headers:
+      host: edgf.ambercc.filegear-sg.me
+    path: /?ed=2560&proxyip=ts.hpc.tw
+- name: 🇨🇳_中国_8
+  network: ws
+  port: 12365
+  server: 8.222.154.58
+  servername: edgf.aimercc.dpdns.org
+  skip-cert-verify: true
+  tls: true
+  type: vless
+  udp: true
+  uuid: ee6774c0-9b19-4ff1-8b30-2da4b71977e2
+  ws-opts:
+    headers:
+      host: edgf.aimercc.dpdns.org
+    path: /?ed=2560&proxyip=ts.hpc.tw
+- name: 🇨🇳_中国_9
+  network: ws
+  port: 443
+  server: 8.222.211.76
+  servername: edgf.ambercc.filegear-sg.me
+  skip-cert-verify: true
+  tls: true
+  type: vless
+  udp: true
+  uuid: ee6774c0-9b19-4ff1-8b30-2da4b71977e2
+  ws-opts:
+    headers:
+      host: edgf.ambercc.filegear-sg.me
+    path: /?ed=2560&proxyip=ts.hpc.tw
+- name: 🇺🇸_美国_14
+  network: ws
+  port: 443
+  server: 47.128.217.14
+  servername: edgf.aimercc.dpdns.org
+  skip-cert-verify: true
+  tls: true
+  type: vless
+  udp: true
+  uuid: ee6774c0-9b19-4ff1-8b30-2da4b71977e2
+  ws-opts:
+    headers:
+      host: edgf.aimercc.dpdns.org
+    path: /?ed=2560&proxyip=ts.hpc.tw
+- name: 🇺🇸_美国_15
+  network: ws
+  port: 443
+  server: 20.44.136.56
+  servername: edgf.ambercc.filegear-sg.me
+  skip-cert-verify: true
+  tls: true
+  type: vless
+  udp: true
+  uuid: ee6774c0-9b19-4ff1-8b30-2da4b71977e2
+  ws-opts:
+    headers:
+      host: edgf.ambercc.filegear-sg.me
+    path: /?ed=2560&proxyip=ts.hpc.tw
+- name: 🇷🇺_俄罗斯_2
+  network: ws
+  port: 443
+  server: 217.30.10.55
+  servername: edgf.aimercc.dpdns.org
+  skip-cert-verify: true
+  tls: true
+  type: vless
+  udp: true
+  uuid: ee6774c0-9b19-4ff1-8b30-2da4b71977e2
+  ws-opts:
+    headers:
+      host: edgf.aimercc.dpdns.org
+    path: /?ed=2560&proxyip=ts.hpc.tw
+- name: 🇰🇷_韩国_5
+  network: ws
+  port: 50000
+  server: 116.47.199.34
+  servername: edgf.ambercc.filegear-sg.me
+  skip-cert-verify: true
+  tls: true
+  type: vless
+  udp: true
+  uuid: ee6774c0-9b19-4ff1-8b30-2da4b71977e2
+  ws-opts:
+    headers:
+      host: edgf.ambercc.filegear-sg.me
+    path: /?ed=2560&proxyip=ts.hpc.tw
+- name: 🇺🇸_美国_16
+  network: ws
+  port: 443
+  server: 104.17.219.208
+  servername: edge.ambercc.filegear-sg.me
+  skip-cert-verify: true
+  tls: true
+  type: vless
+  udp: true
+  uuid: ee6774c0-9b19-4ff1-8b30-2da4b71977e2
+  ws-opts:
+    headers:
+      host: edge.ambercc.filegear-sg.me
+    path: /?ed=2560&proxyip=ts.hpc.tw
+- name: 🇷🇺_俄罗斯_3
+  network: ws
+  port: 8443
+  server: 92.243.74.180
+  servername: edgf.ambercc.filegear-sg.me
+  skip-cert-verify: true
+  tls: true
+  type: vless
+  udp: true
+  uuid: ee6774c0-9b19-4ff1-8b30-2da4b71977e2
+  ws-opts:
+    headers:
+      host: edgf.ambercc.filegear-sg.me
+    path: /?ed=2560&proxyip=ts.hpc.tw
+- name: 🇺🇸_美国_17
+  network: ws
+  port: 55555
+  server: 152.70.112.175
+  servername: edgf.aimercc.dpdns.org
+  skip-cert-verify: true
+  tls: true
+  type: vless
+  udp: true
+  uuid: ee6774c0-9b19-4ff1-8b30-2da4b71977e2
+  ws-opts:
+    headers:
+      host: edgf.aimercc.dpdns.org
+    path: /?ed=2560&proxyip=ts.hpc.tw
+- name: 🇨🇳_中国_10
+  network: ws
+  port: 2087
+  server: 27.50.49.74
+  servername: edgf.aimercc.dpdns.org
+  skip-cert-verify: true
+  tls: true
+  type: vless
+  udp: true
+  uuid: ee6774c0-9b19-4ff1-8b30-2da4b71977e2
+  ws-opts:
+    headers:
+      host: edgf.aimercc.dpdns.org
+    path: /?ed=2560&proxyip=ts.hpc.tw
+- name: 🇺🇸_美国_18
+  network: ws
+  port: 443
+  server: thaddeus.ns.cloudflare.com
+  servername: edgf.aimercc.dpdns.org
+  skip-cert-verify: true
+  tls: true
+  type: vless
+  udp: true
+  uuid: ee6774c0-9b19-4ff1-8b30-2da4b71977e2
+  ws-opts:
+    headers:
+      host: edgf.aimercc.dpdns.org
+    path: /?ed=2560&proxyip=ts.hpc.tw
 - name: 🇺🇸_美国_19
+  network: ws
+  port: 8443
+  server: 160.79.104.131
+  servername: edge.ambercc.filegear-sg.me
+  skip-cert-verify: true
+  tls: true
+  type: vless
+  udp: true
+  uuid: ee6774c0-9b19-4ff1-8b30-2da4b71977e2
+  ws-opts:
+    headers:
+      host: edge.ambercc.filegear-sg.me
+    path: /?ed=2560&proxyip=ts.hpc.tw
+- name: 🇺🇸_美国_20
+  network: ws
+  port: 8443
+  server: 167.68.4.131
+  servername: edge.ambercc.filegear-sg.me
+  skip-cert-verify: true
+  tls: true
+  type: vless
+  udp: true
+  uuid: ee6774c0-9b19-4ff1-8b30-2da4b71977e2
+  ws-opts:
+    headers:
+      host: edge.ambercc.filegear-sg.me
+    path: /?ed=2560&proxyip=ts.hpc.tw
+- name: 🇺🇸_美国_21
+  network: ws
+  port: 2087
+  server: 108.165.152.98
+  servername: edgf.aimercc.dpdns.org
+  skip-cert-verify: true
+  tls: true
+  type: vless
+  udp: true
+  uuid: ee6774c0-9b19-4ff1-8b30-2da4b71977e2
+  ws-opts:
+    headers:
+      host: edgf.aimercc.dpdns.org
+    path: /?ed=2560&proxyip=ts.hpc.tw
+- name: 🇺🇸_美国_22
+  network: ws
+  port: 2096
+  server: 172.64.229.228
+  servername: edgf.aimercc.dpdns.org
+  skip-cert-verify: true
+  tls: true
+  type: vless
+  udp: true
+  uuid: ee6774c0-9b19-4ff1-8b30-2da4b71977e2
+  ws-opts:
+    headers:
+      host: edgf.aimercc.dpdns.org
+    path: /?ed=2560&proxyip=ts.hpc.tw
+- name: 🇺🇸_美国_23
+  network: ws
+  port: 443
+  server: damien.ns.cloudflare.com
+  servername: edgf.ambercc.filegear-sg.me
+  skip-cert-verify: true
+  tls: true
+  type: vless
+  udp: true
+  uuid: ee6774c0-9b19-4ff1-8b30-2da4b71977e2
+  ws-opts:
+    headers:
+      host: edgf.ambercc.filegear-sg.me
+    path: /?ed=2560&proxyip=ts.hpc.tw
+- name: 🇰🇷_韩国_6
+  network: ws
+  port: 50000
+  server: 222.106.126.224
+  servername: edge.ambercc.filegear-sg.me
+  skip-cert-verify: true
+  tls: true
+  type: vless
+  udp: true
+  uuid: ee6774c0-9b19-4ff1-8b30-2da4b71977e2
+  ws-opts:
+    headers:
+      host: edge.ambercc.filegear-sg.me
+    path: /?ed=2560&proxyip=ts.hpc.tw
+- name: 🇰🇷_韩国_7
+  network: ws
+  port: 50001
+  server: 175.197.129.201
+  servername: edgf.aimercc.dpdns.org
+  skip-cert-verify: true
+  tls: true
+  type: vless
+  udp: true
+  uuid: ee6774c0-9b19-4ff1-8b30-2da4b71977e2
+  ws-opts:
+    headers:
+      host: edgf.aimercc.dpdns.org
+    path: /?ed=2560&proxyip=ts.hpc.tw
+- name: 🇺🇸_美国_24
+  network: ws
+  port: 587
+  server: 47.79.146.110
+  servername: edgf.ambercc.filegear-sg.me
+  skip-cert-verify: true
+  tls: true
+  type: vless
+  udp: true
+  uuid: ee6774c0-9b19-4ff1-8b30-2da4b71977e2
+  ws-opts:
+    headers:
+      host: edgf.ambercc.filegear-sg.me
+    path: /?ed=2560&proxyip=ts.hpc.tw
+- name: 🇺🇸_美国_25
+  network: ws
+  port: 443
+  server: sage.ns.cloudflare.com
+  servername: edgf.ambercc.filegear-sg.me
+  skip-cert-verify: true
+  tls: true
+  type: vless
+  udp: true
+  uuid: ee6774c0-9b19-4ff1-8b30-2da4b71977e2
+  ws-opts:
+    headers:
+      host: edgf.ambercc.filegear-sg.me
+    path: /?ed=2560&proxyip=ts.hpc.tw
+- name: 🇺🇸_美国_26
+  network: ws
+  port: 443
+  server: duke.ns.cloudflare.com
+  servername: edgf.ambercc.filegear-sg.me
+  skip-cert-verify: true
+  tls: true
+  type: vless
+  udp: true
+  uuid: ee6774c0-9b19-4ff1-8b30-2da4b71977e2
+  ws-opts:
+    headers:
+      host: edgf.ambercc.filegear-sg.me
+    path: /?ed=2560&proxyip=ts.hpc.tw
+- name: 🏳️_未知_1
+  network: ws
+  port: 2087
+  server: 209.94.90.87
+  servername: edgf.aimercc.dpdns.org
+  skip-cert-verify: true
+  tls: true
+  type: vless
+  udp: true
+  uuid: ee6774c0-9b19-4ff1-8b30-2da4b71977e2
+  ws-opts:
+    headers:
+      host: edgf.aimercc.dpdns.org
+    path: /?ed=2560&proxyip=ts.hpc.tw
+- name: 🇺🇸_美国_27
+  network: ws
+  port: 443
+  server: kip.ns.cloudflare.com
+  servername: edgf.aimercc.dpdns.org
+  skip-cert-verify: true
+  tls: true
+  type: vless
+  udp: true
+  uuid: ee6774c0-9b19-4ff1-8b30-2da4b71977e2
+  ws-opts:
+    headers:
+      host: edgf.aimercc.dpdns.org
+    path: /?ed=2560&proxyip=ts.hpc.tw
+- name: 🇰🇷_韩国_8
+  network: ws
+  port: 15044
+  server: 183.97.71.221
+  servername: edgf.aimercc.dpdns.org
+  skip-cert-verify: true
+  tls: true
+  type: vless
+  udp: true
+  uuid: ee6774c0-9b19-4ff1-8b30-2da4b71977e2
+  ws-opts:
+    headers:
+      host: edgf.aimercc.dpdns.org
+    path: /?ed=2560&proxyip=ts.hpc.tw
+- name: 🇰🇷_韩国_9
+  network: ws
+  port: 12340
+  server: 175.200.140.27
+  servername: edgf.ambercc.filegear-sg.me
+  skip-cert-verify: true
+  tls: true
+  type: vless
+  udp: true
+  uuid: ee6774c0-9b19-4ff1-8b30-2da4b71977e2
+  ws-opts:
+    headers:
+      host: edgf.ambercc.filegear-sg.me
+    path: /?ed=2560&proxyip=ts.hpc.tw
+- name: 🇰🇷_韩国_10
+  network: ws
+  port: 12113
+  server: 175.212.51.220
+  servername: edgf.ambercc.filegear-sg.me
+  skip-cert-verify: true
+  tls: true
+  type: vless
+  udp: true
+  uuid: ee6774c0-9b19-4ff1-8b30-2da4b71977e2
+  ws-opts:
+    headers:
+      host: edgf.ambercc.filegear-sg.me
+    path: /?ed=2560&proxyip=ts.hpc.tw
+- name: 🇰🇷_韩国_11
+  network: ws
+  port: 12170
+  server: 211.198.26.197
+  servername: edgf.aimercc.dpdns.org
+  skip-cert-verify: true
+  tls: true
+  type: vless
+  udp: true
+  uuid: ee6774c0-9b19-4ff1-8b30-2da4b71977e2
+  ws-opts:
+    headers:
+      host: edgf.aimercc.dpdns.org
+    path: /?ed=2560&proxyip=ts.hpc.tw
+- name: 🇺🇸_美国_28
+  network: ws
+  port: 443
+  server: 172.64.40.175
+  servername: edgf.aimercc.dpdns.org
+  skip-cert-verify: true
+  tls: true
+  type: vless
+  udp: true
+  uuid: ee6774c0-9b19-4ff1-8b30-2da4b71977e2
+  ws-opts:
+    headers:
+      host: edgf.aimercc.dpdns.org
+    path: /?ed=2560&proxyip=ts.hpc.tw
+- name: 🇺🇸_美国_29
+  network: ws
+  port: 2096
+  server: 172.64.229.220
+  servername: edgf.ambercc.filegear-sg.me
+  skip-cert-verify: true
+  tls: true
+  type: vless
+  udp: true
+  uuid: ee6774c0-9b19-4ff1-8b30-2da4b71977e2
+  ws-opts:
+    headers:
+      host: edgf.ambercc.filegear-sg.me
+    path: /?ed=2560&proxyip=ts.hpc.tw
+- name: 🇷🇺_俄罗斯_4
+  network: ws
+  port: 8443
+  server: 92.243.74.239
+  servername: edgf.ambercc.filegear-sg.me
+  skip-cert-verify: true
+  tls: true
+  type: vless
+  udp: true
+  uuid: ee6774c0-9b19-4ff1-8b30-2da4b71977e2
+  ws-opts:
+    headers:
+      host: edgf.ambercc.filegear-sg.me
+    path: /?ed=2560&proxyip=ts.hpc.tw
+- name: 🇺🇸_美国_30
+  network: ws
+  port: 443
+  server: pranab.ns.cloudflare.com
+  servername: edgf.ambercc.filegear-sg.me
+  skip-cert-verify: true
+  tls: true
+  type: vless
+  udp: true
+  uuid: ee6774c0-9b19-4ff1-8b30-2da4b71977e2
+  ws-opts:
+    headers:
+      host: edgf.ambercc.filegear-sg.me
+    path: /?ed=2560&proxyip=ts.hpc.tw
+- name: 🇰🇷_韩国_12
+  network: ws
+  port: 12526
+  server: 118.38.245.243
+  servername: edgf.aimercc.dpdns.org
+  skip-cert-verify: true
+  tls: true
+  type: vless
+  udp: true
+  uuid: ee6774c0-9b19-4ff1-8b30-2da4b71977e2
+  ws-opts:
+    headers:
+      host: edgf.aimercc.dpdns.org
+    path: /?ed=2560&proxyip=ts.hpc.tw
+- name: 🇺🇸_美国_31
+  network: ws
+  port: 443
+  server: theo.ns.cloudflare.com
+  servername: edgf.ambercc.filegear-sg.me
+  skip-cert-verify: true
+  tls: true
+  type: vless
+  udp: true
+  uuid: ee6774c0-9b19-4ff1-8b30-2da4b71977e2
+  ws-opts:
+    headers:
+      host: edgf.ambercc.filegear-sg.me
+    path: /?ed=2560&proxyip=ts.hpc.tw
+- name: 🇺🇸_美国_32
+  network: ws
+  port: 2053
+  server: 108.162.193.162
+  servername: edgf.ambercc.filegear-sg.me
+  skip-cert-verify: true
+  tls: true
+  type: vless
+  udp: true
+  uuid: ee6774c0-9b19-4ff1-8b30-2da4b71977e2
+  ws-opts:
+    headers:
+      host: edgf.ambercc.filegear-sg.me
+    path: /?ed=2560&proxyip=ts.hpc.tw
+- name: 🇰🇷_韩国_13
+  network: ws
+  port: 22053
+  server: 152.67.209.237
+  servername: edgf.ambercc.filegear-sg.me
+  skip-cert-verify: true
+  tls: true
+  type: vless
+  udp: true
+  uuid: ee6774c0-9b19-4ff1-8b30-2da4b71977e2
+  ws-opts:
+    headers:
+      host: edgf.ambercc.filegear-sg.me
+    path: /?ed=2560&proxyip=ts.hpc.tw
+- name: 🇺🇸_美国_33
+  network: ws
+  port: 443
+  server: arvind.ns.cloudflare.com
+  servername: edgf.ambercc.filegear-sg.me
+  skip-cert-verify: true
+  tls: true
+  type: vless
+  udp: true
+  uuid: ee6774c0-9b19-4ff1-8b30-2da4b71977e2
+  ws-opts:
+    headers:
+      host: edgf.ambercc.filegear-sg.me
+    path: /?ed=2560&proxyip=ts.hpc.tw
+- name: 🇺🇸_美国_34
+  network: ws
+  port: 443
+  server: lynn.ns.cloudflare.com
+  servername: edgf.ambercc.filegear-sg.me
+  skip-cert-verify: true
+  tls: true
+  type: vless
+  udp: true
+  uuid: ee6774c0-9b19-4ff1-8b30-2da4b71977e2
+  ws-opts:
+    headers:
+      host: edgf.ambercc.filegear-sg.me
+    path: /?ed=2560&proxyip=ts.hpc.tw
+- name: 🇺🇸_美国_35
+  network: ws
+  port: 443
+  server: ignacio.ns.cloudflare.com
+  servername: edgf.ambercc.filegear-sg.me
+  skip-cert-verify: true
+  tls: true
+  type: vless
+  udp: true
+  uuid: ee6774c0-9b19-4ff1-8b30-2da4b71977e2
+  ws-opts:
+    headers:
+      host: edgf.ambercc.filegear-sg.me
+    path: /?ed=2560&proxyip=ts.hpc.tw
+- name: 🇺🇸_美国_36
+  network: ws
+  port: 443
+  server: 172.64.40.132
+  servername: edgf.ambercc.filegear-sg.me
+  skip-cert-verify: true
+  tls: true
+  type: vless
+  udp: true
+  uuid: ee6774c0-9b19-4ff1-8b30-2da4b71977e2
+  ws-opts:
+    headers:
+      host: edgf.ambercc.filegear-sg.me
+    path: /?ed=2560&proxyip=ts.hpc.tw
+- name: 🇺🇸_美国_37
+  network: ws
+  port: 443
+  server: bestcf.030101.xyz
+  servername: edgf.ambercc.filegear-sg.me
+  skip-cert-verify: true
+  tls: true
+  type: vless
+  udp: true
+  uuid: ee6774c0-9b19-4ff1-8b30-2da4b71977e2
+  ws-opts:
+    headers:
+      host: edgf.ambercc.filegear-sg.me
+    path: /?ed=2560&proxyip=ts.hpc.tw
+- name: 🇺🇸_美国_38
+  network: ws
+  port: 50006
+  server: 47.79.35.149
+  servername: edgf.ambercc.filegear-sg.me
+  skip-cert-verify: true
+  tls: true
+  type: vless
+  udp: true
+  uuid: ee6774c0-9b19-4ff1-8b30-2da4b71977e2
+  ws-opts:
+    headers:
+      host: edgf.ambercc.filegear-sg.me
+    path: /?ed=2560&proxyip=ts.hpc.tw
+- name: 🇵🇱_波兰
+  network: ws
+  port: 443
+  server: 176.105.253.98
+  servername: edgf.ambercc.filegear-sg.me
+  skip-cert-verify: true
+  tls: true
+  type: vless
+  udp: true
+  uuid: ee6774c0-9b19-4ff1-8b30-2da4b71977e2
+  ws-opts:
+    headers:
+      host: edgf.ambercc.filegear-sg.me
+    path: /?ed=2560&proxyip=ts.hpc.tw
+- name: 🇸🇪_瑞典
+  network: ws
+  port: 443
+  server: 141.147.159.250
+  servername: edgf.aimercc.dpdns.org
+  skip-cert-verify: true
+  tls: true
+  type: vless
+  udp: true
+  uuid: ee6774c0-9b19-4ff1-8b30-2da4b71977e2
+  ws-opts:
+    headers:
+      host: edgf.aimercc.dpdns.org
+    path: /?ed=2560&proxyip=ts.hpc.tw
+- name: 🇰🇷_韩国_14
+  network: ws
+  port: 12295
+  server: 211.33.238.198
+  servername: edgf.aimercc.dpdns.org
+  skip-cert-verify: true
+  tls: true
+  type: vless
+  udp: true
+  uuid: ee6774c0-9b19-4ff1-8b30-2da4b71977e2
+  ws-opts:
+    headers:
+      host: edgf.aimercc.dpdns.org
+    path: /?ed=2560&proxyip=ts.hpc.tw
+- name: 🇳🇱_荷兰_1
+  network: ws
+  port: 22053
+  server: 132.226.23.92
+  servername: edgf.aimercc.dpdns.org
+  skip-cert-verify: true
+  tls: true
+  type: vless
+  udp: true
+  uuid: ee6774c0-9b19-4ff1-8b30-2da4b71977e2
+  ws-opts:
+    headers:
+      host: edgf.aimercc.dpdns.org
+    path: /?ed=2560&proxyip=ts.hpc.tw
+- name: 🇺🇸_美国_39
+  network: ws
+  port: 443
+  server: 47.239.64.163
+  servername: edgf.aimercc.dpdns.org
+  skip-cert-verify: true
+  tls: true
+  type: vless
+  udp: true
+  uuid: ee6774c0-9b19-4ff1-8b30-2da4b71977e2
+  ws-opts:
+    headers:
+      host: edgf.aimercc.dpdns.org
+    path: /?ed=2560&proxyip=ts.hpc.tw
+- name: 🇨🇳_中国_11
+  network: ws
+  port: 20000
+  server: 101.32.41.166
+  servername: edgf.aimercc.dpdns.org
+  skip-cert-verify: true
+  tls: true
+  type: vless
+  udp: true
+  uuid: ee6774c0-9b19-4ff1-8b30-2da4b71977e2
+  ws-opts:
+    headers:
+      host: edgf.aimercc.dpdns.org
+    path: /?ed=2560&proxyip=ts.hpc.tw
+- name: 🇨🇳_中国_12
+  network: ws
+  port: 12411
+  server: 42.3.165.90
+  servername: edgf.aimercc.dpdns.org
+  skip-cert-verify: true
+  tls: true
+  type: vless
+  udp: true
+  uuid: ee6774c0-9b19-4ff1-8b30-2da4b71977e2
+  ws-opts:
+    headers:
+      host: edgf.aimercc.dpdns.org
+    path: /?ed=2560&proxyip=ts.hpc.tw
+- name: 🇺🇸_美国_40
   network: ws
   port: 443
   server: registry.cyou
-  servername: m6nfdp.po5gyu6n.33d.z0rl9.jmx5hfso.etkbg3n83.18o05p.mk08.kqc1mavaaq.7nrv70d21.a4wacz6735m.p8im8t9ui.1zsaklsetxe.w10ld5yg.f7jt74uyba.bemcbka950x1.moll4c3dd9.vamqddzi6.tjfvlhuii58.ywjzsm.dhan9lb07frvhl1lx97jo9.nudt.edu.kg
+  servername: 0aqsb8.5btow.4mzum.jmbi6tbmxdc.udm6.ot68x3x86f2.g7il.h3ax.j6e2v527b31.eom2dhqh.vj359hk3l.4oxed4bl.w6nyexcxf.hc3k9iypo.f21g7ee686.62gjy622zxq1.8a9povs.l3gmozybw.2cdnpec0.o98tocivf.2ux7thv0ogvw2bmkoj44u8saaqu4.nudt.edu.kg
   skip-cert-verify: true
   tls: true
   type: vless
@@ -649,248 +1124,49 @@ proxies:
   uuid: d342d11e-d424-4583-b36e-524ab1f0afa4
   ws-opts:
     headers:
-      host: m6nfdp.po5gyu6n.33d.z0rl9.jmx5hfso.etkbg3n83.18o05p.mk08.kqc1mavaaq.7nrv70d21.a4wacz6735m.p8im8t9ui.1zsaklsetxe.w10ld5yg.f7jt74uyba.bemcbka950x1.moll4c3dd9.vamqddzi6.tjfvlhuii58.ywjzsm.dhan9lb07frvhl1lx97jo9.nudt.edu.kg
+      host: 0aqsb8.5btow.4mzum.jmbi6tbmxdc.udm6.ot68x3x86f2.g7il.h3ax.j6e2v527b31.eom2dhqh.vj359hk3l.4oxed4bl.w6nyexcxf.hc3k9iypo.f21g7ee686.62gjy622zxq1.8a9povs.l3gmozybw.2cdnpec0.o98tocivf.2ux7thv0ogvw2bmkoj44u8saaqu4.nudt.edu.kg
     path: /snippets?ip=proxyip:port(443)&nat64=6to4
-- name: 🇺🇸_美国_20
+- name: 🇳🇱_荷兰_2
   network: ws
   port: 443
-  server: aio.xtradata.dpdns.org
-  servername: aio.xtradata.dpdns.org
+  server: 45.144.48.48
+  servername: edgf.ambercc.filegear-sg.me
   skip-cert-verify: true
   tls: true
   type: vless
   udp: true
-  uuid: f282b878-8711-45a1-8c69-5564172123c1
+  uuid: ee6774c0-9b19-4ff1-8b30-2da4b71977e2
   ws-opts:
     headers:
-      host: aio.xtradata.dpdns.org
-    path: /aioproxybot/129.150.49.58-18650
-- alterId: '0'
+      host: edgf.ambercc.filegear-sg.me
+    path: /?ed=2560&proxyip=ts.hpc.tw
+- name: 🇯🇵_日本_4
+  network: ws
+  port: 443
+  server: 18.183.158.211
+  servername: edgf.ambercc.filegear-sg.me
+  skip-cert-verify: true
+  tls: true
+  type: vless
+  udp: true
+  uuid: ee6774c0-9b19-4ff1-8b30-2da4b71977e2
+  ws-opts:
+    headers:
+      host: edgf.ambercc.filegear-sg.me
+    path: /?ed=2560&proxyip=ts.hpc.tw
+- alterId: '2'
   cipher: auto
-  name: 🇺🇸_美国_21
+  name: 🇨🇳_中国_13
   network: ws
-  port: '443'
-  server: DdDDdddddDFrrrrrrRRy.IRan2035.dPDns.ORG
-  tls: true
+  port: '30829'
+  server: v29.heduian.link
   type: vmess
-  uuid: a94fafdb-10d6-46c2-be8a-5c2e8358fbb0
+  uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
   ws-opts:
     headers:
-      host: ddddddddddfrrrrrrrry.iran2035.dpdns.org
-    path: /CjJ9A46ZRHvgWvVcmjyiKVby2Lp
-- name: 🇦🇺_澳大利亚_2
-  network: ws
-  port: 443
-  server: hk3.kaipi.link
-  servername: hk3.kaipi.link
-  skip-cert-verify: true
-  tls: true
-  type: vless
-  udp: true
-  uuid: d8665d45-8103-46e9-9cb7-8902bb7559b4
-  ws-opts:
-    headers:
-      host: hk3.kaipi.link
-    path: /texaws
-- name: 🇺🇸_美国_22
-  network: ws
-  port: 80
-  server: informed-location.seotoolsforyou.co.uk
-  skip-cert-verify: true
-  tls: true
-  type: vless
-  udp: true
-  uuid: 5c929ec5-5b1e-447a-950c-354c5d1ba1de
-  ws-opts:
-    path: /?join---marambashi---join---marambashi?ed=2560
-- name: 🇺🇸_美国_23
-  network: ws
-  port: 80
-  server: obedient-menu.seotoolsforyou.co.uk
-  skip-cert-verify: true
-  tls: true
-  type: vless
-  udp: true
-  uuid: 561623c8-4983-44d3-a6ef-92b803a74ee8
-  ws-opts:
-    path: /
-- name: 🇺🇸_美国_24
-  network: ws
-  port: 80
-  server: gleeful-error.seotoolsforyou.co.uk
-  skip-cert-verify: true
-  tls: true
-  type: vless
-  udp: true
-  uuid: 9a37131b-2b68-427f-a2fc-cc7381c2d575
-  ws-opts:
-    path: /?---join-telegram-freev2rng---join-telegram-freev2rng---join-telegram-freev2rng---join-telegram-freev2rng---join-telegram-freev2rng
-- name: 🇺🇸_美国_25
-  network: ws
-  port: 80
-  server: grumpy-building.seotoolsforyou.co.uk
-  skip-cert-verify: true
-  tls: true
-  type: vless
-  udp: true
-  uuid: 935c990a-9bcc-484b-86a2-2a402f9ad1d4
-  ws-opts:
-    path: /
-- name: 🇺🇸_美国_26
-  network: ws
-  port: 80
-  server: narrow-passenger.oneeat.co
-  skip-cert-verify: true
-  tls: true
-  type: vless
-  udp: true
-  uuid: 5a12794b-2125-46d7-a748-927a989faa04
-  ws-opts:
-    path: /
-- name: 🇺🇸_美国_27
-  network: ws
-  port: 80
-  server: obedient-detail.seotoolsforyou.co.uk
-  skip-cert-verify: true
-  tls: true
-  type: vless
-  udp: true
-  uuid: 1dd49fb8-6570-4a2a-a236-f410b63159cf
-  ws-opts:
-    path: /
-- name: 🇺🇸_美国_28
-  network: ws
-  port: 80
-  server: beloved-failure.seotoolsforyou.co.uk
-  skip-cert-verify: true
-  tls: true
-  type: vless
-  udp: true
-  uuid: 3cad733b-3526-476b-adf5-b7cbdd33dc6c
-  ws-opts:
-    path: /
-- name: 🇺🇸_美国_29
-  network: ws
-  port: 80
-  server: dedicated-development.seotoolsforyou.co.uk
-  skip-cert-verify: true
-  tls: true
-  type: vless
-  udp: true
-  uuid: 2054405e-70ff-40a2-ae27-16b63d72390a
-  ws-opts:
-    path: /
-- name: 🇺🇸_美国_30
-  network: ws
-  port: 80
-  server: famous-danger.oneeat.co
-  skip-cert-verify: true
-  tls: true
-  type: vless
-  udp: true
-  uuid: ddc27bd6-6efa-47cf-8bfc-acaf973ba6b3
-  ws-opts:
-    path: /?---join-telegram-freev2rng---join-telegram-freev2rng---join-telegram-freev2rng---join-telegram-freev2rng---join-telegram-freev2rng
-- name: 🇺🇸_美国_31
-  network: ws
-  port: 80
-  server: elegant-corporation.seotoolsforyou.co.uk
-  skip-cert-verify: true
-  tls: true
-  type: vless
-  udp: true
-  uuid: d03d8815-a06f-408f-a62f-6c84869b96a9
-  ws-opts:
-    path: /
-- name: 🇺🇸_美国_32
-  network: ws
-  port: 80
-  server: magical-fish.seotoolsforyou.co.uk
-  skip-cert-verify: true
-  tls: true
-  type: vless
-  udp: true
-  uuid: edb4c373-ac92-4430-8f42-94439ca829b9
-  ws-opts:
-    path: /?---join-telegram-freev2rng---join-telegram-freev2rng---join-telegram-freev2rng---join-telegram-freev2rng---join-telegram-freev2rng
-- name: 🇺🇸_美国_33
-  network: ws
-  port: 443
-  server: 104.21.36.57
-  servername: profit.fullmargintraders.com
-  skip-cert-verify: true
-  tls: true
-  type: vless
-  udp: true
-  uuid: 6f6e8f09-c1b3-48fd-ab00-18f921d875ef
-  ws-opts:
-    headers:
-      host: profit.fullmargintraders.com
-    path: /wsv/6f6e8f09-c1b3-48fd-ab00-18f921d875ef
-- name: 🇺🇸_美国_34
-  network: ws
-  port: 80
-  server: charming-process.seotoolsforyou.co.uk
-  skip-cert-verify: true
-  tls: true
-  type: vless
-  udp: true
-  uuid: 43791e7f-8e02-4189-9533-4f842bcacd79
-  ws-opts:
-    path: /?---join-telegram-freev2rng---join-telegram-freev2rng---join-telegram-freev2rng---join-telegram-freev2rng---join-telegram-freev2rng
-- name: 🇺🇸_美国_35
-  network: ws
-  port: 80
-  server: light-presence.oneeat.co
-  skip-cert-verify: true
-  tls: true
-  type: vless
-  udp: true
-  uuid: 7e74ff43-3a90-48b3-8372-7d92a045c2d4
-  ws-opts:
-    path: /?---join-telegram-freev2rng---join-telegram-freev2rng---join-telegram-freev2rng---join-telegram-freev2rng---join-telegram-freev2rng
-- name: 🇺🇸_美国_36
-  network: ws
-  port: 443
-  server: 198.62.62.229
-  servername: mirror.fullmargintraders.com
-  skip-cert-verify: true
-  tls: true
-  type: vless
-  udp: true
-  uuid: 6c11247b-6078-461a-93d5-22e4df284e6d
-  ws-opts:
-    headers:
-      host: mirror.fullmargintraders.com
-    path: /wsv/6c11247b-6078-461a-93d5-22e4df284e6d
-- name: 🇺🇸_美国_37
-  network: ws
-  port: 80
-  server: aio.loophole.biz.id
-  servername: aio.loophole.biz.id
-  skip-cert-verify: true
-  tls: true
-  type: vless
-  udp: true
-  uuid: f282b878-8711-45a1-8c69-5564172123c1
-  ws-opts:
-    headers:
-      host: aio.loophole.biz.id
-    path: /aioproxybot/129.150.49.58-18650
-- alterId: '0'
-  cipher: auto
-  name: 🇺🇸_美国_38
-  network: ws
-  port: '443'
-  server: 104.21.10.97
-  tls: true
-  type: vmess
-  uuid: 20e89a95-cedf-4fe3-9421-517ce66be170
-  ws-opts:
-    headers:
-      host: ooollmki.222767.xyz
-    path: /SHToRcqfiraYkzOdf
-- name: 🇺🇸_美国_39
+      host: ocbc.com
+    path: /oooo
+- name: 🇺🇸_美国_41
   network: ws
   port: 80
   server: tgju.org
@@ -903,294 +1179,235 @@ proxies:
   ws-opts:
     headers:
       host: SeRvER16.VtNEt.InFO
-    path: /
-- name: 🇺🇸_美国_40
+    path: /?ed=2048
+- alterId: '2'
+  cipher: auto
+  name: 🇨🇳_中国_14
   network: ws
-  port: 80
-  server: brilliant-knowledge.seotoolsforyou.co.uk
-  skip-cert-verify: true
-  tls: true
-  type: vless
-  udp: true
-  uuid: 4ad29f1b-2cea-4ddc-b856-fab1ff141ac6
+  port: '30808'
+  server: v8.heduian.link
+  type: vmess
+  uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
   ws-opts:
-    path: /
-- name: 🇺🇸_美国_41
-  network: ws
-  port: 8443
-  server: ovhwuxian.pai50288.uk
-  skip-cert-verify: true
-  tls: true
-  type: vless
-  udp: true
-  uuid: 57ba2ab1-a283-42eb-82ee-dc3561a805b8
-  ws-opts:
-    path: /57ba2ab1
+    headers:
+      host: v8.heduian.link
+    path: /oooo
 - alterId: '0'
   cipher: auto
   name: 🇺🇸_美国_42
   network: ws
-  port: '443'
-  server: 172.67.150.132
-  tls: true
+  port: '80'
+  server: 104.16.63.197
   type: vmess
-  uuid: 20e89a95-cedf-4fe3-9421-517ce66be170
+  uuid: ce6e649d-c4c1-4bd4-b708-090e5e2766c8
   ws-opts:
     headers:
-      host: eeeddcvfg.444682.xyz
-    path: /SHToRcqfiraYkzOdf
+      host: 375068291046492025090113121499484.s15.chibaba.filegear-sg.me
+    path: /index.html?ed=2048
 - alterId: '0'
   cipher: auto
   name: 🇺🇸_美国_43
   network: ws
-  port: '443'
-  server: dddvvbn.931.pp.ua
-  tls: true
+  port: '80'
+  server: 104.19.221.70
   type: vmess
-  uuid: 4174b95d-115e-4d39-add6-1f8db95bb860
+  uuid: ce6e649d-c4c1-4bd4-b708-090e5e2766c8
   ws-opts:
     headers:
-      host: dddvvbn.931.pp.ua
-    path: /6We3U9Df1WGxgFnoFPw1
+      host: 50604903506312025090113121489068.s15.chibaba.filegear-sg.me
+    path: /index.html?ed=2048
 - alterId: '0'
   cipher: auto
   name: 🇺🇸_美国_44
   network: ws
-  port: '443'
-  server: ssssssssssssfffffffgh.2032.pp.ua
-  tls: true
+  port: '80'
+  server: 104.17.158.15
   type: vmess
-  uuid: 4174b95d-115e-4d39-add6-1f8db95bb860
+  uuid: ce6e649d-c4c1-4bd4-b708-090e5e2766c8
   ws-opts:
     headers:
-      host: ssssssssssssfffffffgh.2032.pp.ua
-    path: /6We3U9Df1WGxgFnoFPw1
-- name: 🇺🇸_美国_45
+      host: 751813069580052025090113121437529.s15.chibaba.filegear-sg.me
+    path: /index.html?ed=2048
+- alterId: '0'
+  cipher: auto
+  name: 🇺🇸_美国_45
   network: ws
-  port: 443
-  server: ssssssssssssfffffffgh.2032.pp.ua
-  servername: ssssssssssssfffffffgh.2032.pp.ua
-  skip-cert-verify: true
-  tls: true
-  type: vless
-  udp: true
-  uuid: 4174b95d-115e-4d39-add6-1f8db95bb860
+  port: '80'
+  server: 104.17.143.2
+  type: vmess
+  uuid: ce6e649d-c4c1-4bd4-b708-090e5e2766c8
   ws-opts:
     headers:
-      host: ssssssssssssfffffffgh.2032.pp.ua
-    path: /eabacrhv1quhyxwgxgfnofpw1
+      host: 2038365286812025090113121420481.s15.chibaba.filegear-sg.me
+    path: /index.html?ed=2048
 - alterId: '0'
   cipher: auto
   name: 🇺🇸_美国_46
   network: ws
-  port: '443'
-  server: qqqqqqqqqqqqaaaa.www890604.dpdns.org
-  tls: true
+  port: '80'
+  server: 104.16.79.65
   type: vmess
-  uuid: 4174b95d-115e-4d39-add6-1f8db95bb860
+  uuid: ce6e649d-c4c1-4bd4-b708-090e5e2766c8
   ws-opts:
     headers:
-      host: qqqqqqqqqqqqaaaa.www890604.dpdns.org
-    path: /6We3U9Df1WGxgFnoFPw1
-- name: 🇺🇸_美国_47
+      host: 34707076880102025090113121473924.s15.chibaba.filegear-sg.me
+    path: /index.html?ed=2048
+- alterId: '0'
+  cipher: auto
+  name: 🇺🇸_美国_47
   network: ws
-  port: 443
-  server: tttttttttttt.222769.xyz
-  servername: ttTttttTTTTT.222769.xYz
-  skip-cert-verify: true
-  tls: true
-  type: vless
-  udp: true
-  uuid: 2e65577e-8fdb-4bb1-a495-96f3122099a7
+  port: '80'
+  server: 104.17.62.47
+  type: vmess
+  uuid: ce6e649d-c4c1-4bd4-b708-090e5e2766c8
   ws-opts:
     headers:
-      host: ttTttttTTTTT.222769.xYz
-    path: /smraaocaoszb9tpr
+      host: 925377913232802025090113121483688.s15.chibaba.filegear-sg.me
+    path: /index.html?ed=2048
 - alterId: '0'
   cipher: auto
   name: 🇺🇸_美国_48
   network: ws
   port: '80'
-  server: gggggggggggggg.222769.xyz
+  server: 104.18.239.84
   type: vmess
-  uuid: 2e65577e-8fdb-4bb1-a495-96f3122099a7
+  uuid: ce6e649d-c4c1-4bd4-b708-090e5e2766c8
   ws-opts:
     headers:
-      host: gggggggggggggg.222769.xyz
-    path: /f6taOMcOSZb9TPR
-- name: 🇺🇸_美国_49
+      host: 924564240727002025090113121473406.s15.chibaba.filegear-sg.me
+    path: /index.html?ed=2048
+- alterId: '0'
+  cipher: auto
+  name: 🇺🇸_美国_49
   network: ws
-  port: 80
-  server: hopeful-appointment.seotoolsforyou.co.uk
-  skip-cert-verify: true
-  tls: true
-  type: vless
-  udp: true
-  uuid: 491e4f76-42f0-43a7-a987-25072a68d5e4
+  port: '80'
+  server: 104.18.30.53
+  type: vmess
+  uuid: ce6e649d-c4c1-4bd4-b708-090e5e2766c8
   ws-opts:
-    path: /
-- name: 🇺🇸_美国_50
+    headers:
+      host: 619390373648742025090113121489977.s15.chibaba.filegear-sg.me
+    path: /index.html?ed=2048
+- alterId: '0'
+  cipher: auto
+  name: 🇺🇸_美国_50
   network: ws
-  port: 80
-  server: grounded-brother.seotoolsforyou.co.uk
-  skip-cert-verify: true
-  tls: true
-  type: vless
-  udp: true
-  uuid: 52adc6ba-b1c7-4541-a594-08fc698be640
+  port: '80'
+  server: 104.19.45.178
+  type: vmess
+  uuid: ce6e649d-c4c1-4bd4-b708-090e5e2766c8
   ws-opts:
-    path: /
-- name: 🇺🇸_美国_51
+    headers:
+      host: 486984356989152025090113121456605.s15.chibaba.filegear-sg.me
+    path: /index.html?ed=2048
+- alterId: '0'
+  cipher: auto
+  name: 🇺🇸_美国_51
   network: ws
-  port: 80
-  server: deep-radio.seotoolsforyou.co.uk
-  skip-cert-verify: true
-  tls: true
-  type: vless
-  udp: true
-  uuid: 5139af95-a453-46c6-831a-a532b6b51305
+  port: '80'
+  server: 104.19.94.211
+  type: vmess
+  uuid: ce6e649d-c4c1-4bd4-b708-090e5e2766c8
   ws-opts:
-    path: /?v2ray_configs_pools
+    headers:
+      host: 122188451380772025090113121494069.s15.chibaba.filegear-sg.me
+    path: /index.html?ed=2048
 - alterId: '0'
   cipher: auto
   name: 🇺🇸_美国_52
   network: ws
-  port: '443'
-  server: sssssssxxxx.2032.pp.ua
-  tls: true
+  port: '80'
+  server: 104.21.205.9
   type: vmess
-  uuid: 4174b95d-115e-4d39-add6-1f8db95bb860
+  uuid: ce6e649d-c4c1-4bd4-b708-090e5e2766c8
   ws-opts:
     headers:
-      host: sssssssxxxx.2032.pp.ua
-    path: /6We3U9Df1WGxgFnoFPw1
-- name: 🇺🇸_美国_53
-  network: ws
-  port: 80
-  server: fierce-data.seotoolsforyou.co.uk
-  skip-cert-verify: true
-  tls: true
-  type: vless
-  udp: true
-  uuid: c313c27c-97ff-45ed-ab5c-64641af5debc
-  ws-opts:
-    path: /
-- name: 🇺🇸_美国_54
-  network: ws
-  port: 80
-  server: wild-bird.seotoolsforyou.co.uk
-  skip-cert-verify: true
-  tls: true
-  type: vless
-  udp: true
-  uuid: 1d0dfde1-9f18-4557-9af8-4f3124ee5dcd
-  ws-opts:
-    path: /
-- name: 🇺🇸_美国_55
-  network: ws
-  port: 80
-  server: moody-lock.seotoolsforyou.co.uk
-  skip-cert-verify: true
-  tls: true
-  type: vless
-  udp: true
-  uuid: 82cdcdf0-e772-4d9a-b0a2-d6b605572ac1
-  ws-opts:
-    path: /?---join-telegram-freev2rng---join-telegram-freev2rng---join-telegram-freev2rng---join-telegram-freev2rng---join-telegram-freev2rng
-- name: 🇺🇸_美国_56
-  network: ws
-  port: 80
-  server: confident-club.seotoolsforyou.co.uk
-  skip-cert-verify: true
-  tls: true
-  type: vless
-  udp: true
-  uuid: 9926ee97-4398-48dd-b263-2863c62f5c41
-  ws-opts:
-    path: /
-- name: 🇺🇸_美国_57
-  network: ws
-  port: 80
-  server: jealous-competition.seotoolsforyou.co.uk
-  skip-cert-verify: true
-  tls: true
-  type: vless
-  udp: true
-  uuid: 7094df26-af60-41c4-afac-857060d1bab0
-  ws-opts:
-    path: /?@v2ray_configs_pools
-- name: 🇺🇸_美国_58
-  network: ws
-  port: 80
-  server: sweet-combination.seotoolsforyou.co.uk
-  skip-cert-verify: true
-  tls: true
-  type: vless
-  udp: true
-  uuid: 05020a61-3c0c-4ead-b256-7851ff905a75
-  ws-opts:
-    path: /
-- name: 🇺🇸_美国_59
-  network: ws
-  port: 80
-  server: bewildered-poem.seotoolsforyou.co.uk
-  skip-cert-verify: true
-  tls: true
-  type: vless
-  udp: true
-  uuid: 0f4865d9-9405-4703-a282-46e326e6d9e7
-  ws-opts:
-    path: /?--@freev2rng--bia-freev2rng--kanal-@freev2rng--
+      host: 889523069993842025090113121495082.s15.chibaba.filegear-sg.me
+    path: /index.html?ed=2048
 - alterId: '0'
   cipher: auto
-  name: 🇺🇸_美国_60
+  name: 🇺🇸_美国_53
   network: ws
   port: '80'
-  server: OOoOOOooOp.222769.XYZ
+  server: 104.18.142.163
   type: vmess
-  uuid: ce921385-2b31-45fe-84c5-1843e8ae845b
+  uuid: ce6e649d-c4c1-4bd4-b708-090e5e2766c8
   ws-opts:
     headers:
-      host: OOoOOOooOp.222769.XYZ
-    path: /VaaSEfNLHdW3I98dxLkez
-- name: 🇮🇳_印度
-  network: ws
-  port: 80
-  server: 14.102.228.75
-  servername: ov-canada1.09vpn.com
-  skip-cert-verify: true
-  tls: true
-  type: vless
-  udp: true
-  uuid: b49d8a13-12f6-4613-bb0d-3e2f6244f29c
-  ws-opts:
-    headers:
-      host: ov-canada1.09vpn.com
-    path: /vless/
-- name: 🇺🇸_美国_61
-  network: ws
-  port: 80
-  server: brainy-party.seotoolsforyou.co.uk
-  skip-cert-verify: true
-  tls: true
-  type: vless
-  udp: true
-  uuid: 34797f17-09a1-400c-9f4b-275718d62a0f
-  ws-opts:
-    path: /?ed=2048@hibyevpnn--@hibyevpnn--@hibyevpnn--@hibyevpnn--@hibyevpnn--@hibyevpnn--@hibyevpnn--@hibyevpnn--@hibyevpnn--@hibyevpnn--@hibyevpnn--@hibyevpnn--@hibyevpnn
+      host: 189569597602662025090113121496768.s15.chibaba.filegear-sg.me
+    path: /index.html?ed=2048
 - alterId: '0'
   cipher: auto
-  name: 🇺🇸_美国_62
+  name: 🇺🇸_美国_54
   network: ws
-  port: '443'
-  server: FFFFfFFvvBgnh.iRAn2035.DpDnS.OrG
-  tls: true
+  port: '80'
+  server: 104.21.29.200
   type: vmess
-  uuid: a94fafdb-10d6-46c2-be8a-5c2e8358fbb0
+  uuid: ce6e649d-c4c1-4bd4-b708-090e5e2766c8
   ws-opts:
     headers:
-      host: fffffffvvbgnh.iran2035.dpdns.org
-    path: /CjJ9A46ZRHvgWvVcmjyiKVby2Lp
+      host: 909965856513572025090113121469442.s15.chibaba.filegear-sg.me
+    path: /index.html?ed=2048
+- alterId: '0'
+  cipher: auto
+  name: 🇺🇸_美国_55
+  network: ws
+  port: '80'
+  server: 104.17.254.93
+  type: vmess
+  uuid: ce6e649d-c4c1-4bd4-b708-090e5e2766c8
+  ws-opts:
+    headers:
+      host: 882114610053832025090113121463974.s15.chibaba.filegear-sg.me
+    path: /index.html?ed=2048
+- alterId: '0'
+  cipher: auto
+  name: 🏳️_未知_2
+  network: ws
+  port: '80'
+  server: 2606:4700:9b0e::643d:4e1
+  type: vmess
+  uuid: ce6e649d-c4c1-4bd4-b708-090e5e2766c8
+  ws-opts:
+    headers:
+      host: 148177909970882025090113121486614.s15.chibaba.filegear-sg.me
+    path: /index.html?ed=2048
+- alterId: '0'
+  cipher: auto
+  name: 🏳️_未知_3
+  network: ws
+  port: '80'
+  server: 2606:4700:8ddf::6b28:10de
+  type: vmess
+  uuid: ce6e649d-c4c1-4bd4-b708-090e5e2766c8
+  ws-opts:
+    headers:
+      host: 790495074127052025090113121449920.s15.chibaba.filegear-sg.me
+    path: /index.html?ed=2048
+- alterId: '0'
+  cipher: auto
+  name: 🏳️_未知_4
+  network: ws
+  port: '80'
+  server: 2606:4700:9aee::5a63:6a04
+  type: vmess
+  uuid: ce6e649d-c4c1-4bd4-b708-090e5e2766c8
+  ws-opts:
+    headers:
+      host: 159119737006592025090113121461538.s15.chibaba.filegear-sg.me
+    path: /index.html?ed=2048
+- alterId: '0'
+  cipher: auto
+  name: 🏳️_未知_5
+  network: ws
+  port: '80'
+  server: 2606:4700:964f::1312:7256
+  type: vmess
+  uuid: ce6e649d-c4c1-4bd4-b708-090e5e2766c8
+  ws-opts:
+    headers:
+      host: 363311614790312025090113121441141.s15.chibaba.filegear-sg.me
+    path: /index.html?ed=2048
 proxy-groups:
 - name: 🚀 节点选择
   proxies:
@@ -1198,98 +1415,96 @@ proxy-groups:
   - DIRECT
   - 电报群：https://t.me/vvkj11
   - 每天更新，请加电报群防止失联
-  - 日期：08-31
+  - 日期：09-01
   - 免费VPN：https://tt.vg/gwaAy
-  - 🇷🇺_俄罗斯_1
-  - 🇺🇸_美国_1
-  - 🇺🇸_美国_2
-  - 🇷🇺_俄罗斯_2
-  - 🇿🇦_南非
-  - 🇺🇸_美国_3
-  - 🇬🇧_英国_1
-  - 🇦🇺_澳大利亚_1
-  - 🇫🇷_法国
-  - 🇬🇧_英国_2
   - 🇨🇳_中国_1
-  - 🇯🇵_日本
+  - 🇰🇷_韩国_1
+  - 🇰🇷_韩国_2
   - 🇨🇳_中国_2
+  - 🇺🇸_美国_1
   - 🇨🇳_中国_3
+  - 🇰🇷_韩国_3
+  - 🇺🇸_美国_2
+  - 🇰🇷_韩国_4
+  - 🇺🇸_美国_3
+  - 🇺🇸_美国_4
+  - 🇺🇸_美国_5
+  - 🇷🇺_俄罗斯_1
+  - 🇮🇷_伊朗
+  - 🇺🇸_美国_6
   - 🇨🇳_中国_4
+  - 🇺🇸_美国_7
+  - 🇺🇸_美国_8
   - 🇨🇳_中国_5
+  - 🇺🇸_美国_9
   - 🇨🇳_中国_6
   - 🇨🇳_中国_7
-  - 🇨🇳_中国_8
-  - 🇨🇳_中国_9
-  - 🇨🇳_中国_10
-  - 🇨🇳_中国_11
-  - 🇨🇳_中国_12
-  - 🇨🇳_中国_13
-  - 🇨🇳_中国_14
-  - 🇨🇳_中国_15
-  - 🇨🇳_中国_16
-  - 🇨🇳_中国_17
-  - 🇺🇸_美国_4
-  - 🇨🇳_中国_18
-  - 🇨🇳_中国_19
-  - 🇨🇳_中国_20
-  - 🇨🇳_中国_21
-  - 🇨🇳_中国_22
-  - 🇨🇳_中国_23
-  - 🇨🇳_中国_24
-  - 🇨🇳_中国_25
-  - 🇨🇳_中国_26
-  - 🇺🇸_美国_5
-  - 🇨🇳_中国_27
-  - 🇨🇳_中国_28
-  - 🇬🇧_英国_3
-  - 🇺🇸_美国_6
-  - 🇨🇳_中国_29
-  - 🇳🇱_荷兰_1
-  - 🇳🇱_荷兰_2
-  - 🇷🇺_俄罗斯_3
-  - 🇺🇸_美国_7
-  - 🇷🇺_俄罗斯_4
-  - 🇳🇱_荷兰_3
-  - 🇺🇸_美国_8
-  - 🇷🇺_俄罗斯_5
-  - 🇷🇺_俄罗斯_6
-  - 🇺🇸_美国_9
+  - 🇸🇬_新加坡_1
+  - 🇦🇺_澳大利亚_1
+  - 🇧🇷_巴西
+  - 🇸🇬_新加坡_2
+  - 🇯🇵_日本_1
+  - 🇯🇵_日本_2
+  - 🇯🇵_日本_3
   - 🇺🇸_美国_10
   - 🇺🇸_美国_11
+  - 🇦🇺_澳大利亚_2
   - 🇺🇸_美国_12
-  - 🇨🇳_中国_30
-  - 🇨🇳_中国_31
-  - 🇳🇱_荷兰_4
   - 🇺🇸_美国_13
+  - 🇨🇳_中国_8
+  - 🇨🇳_中国_9
   - 🇺🇸_美国_14
   - 🇺🇸_美国_15
+  - 🇷🇺_俄罗斯_2
+  - 🇰🇷_韩国_5
   - 🇺🇸_美国_16
+  - 🇷🇺_俄罗斯_3
   - 🇺🇸_美国_17
+  - 🇨🇳_中国_10
   - 🇺🇸_美国_18
   - 🇺🇸_美国_19
   - 🇺🇸_美国_20
   - 🇺🇸_美国_21
-  - 🇦🇺_澳大利亚_2
   - 🇺🇸_美国_22
   - 🇺🇸_美国_23
+  - 🇰🇷_韩国_6
+  - 🇰🇷_韩国_7
   - 🇺🇸_美国_24
   - 🇺🇸_美国_25
   - 🇺🇸_美国_26
+  - 🏳️_未知_1
   - 🇺🇸_美国_27
+  - 🇰🇷_韩国_8
+  - 🇰🇷_韩国_9
+  - 🇰🇷_韩国_10
+  - 🇰🇷_韩国_11
   - 🇺🇸_美国_28
   - 🇺🇸_美国_29
+  - 🇷🇺_俄罗斯_4
   - 🇺🇸_美国_30
+  - 🇰🇷_韩国_12
   - 🇺🇸_美国_31
   - 🇺🇸_美国_32
+  - 🇰🇷_韩国_13
   - 🇺🇸_美国_33
   - 🇺🇸_美国_34
   - 🇺🇸_美国_35
   - 🇺🇸_美国_36
   - 🇺🇸_美国_37
   - 🇺🇸_美国_38
+  - 🇵🇱_波兰
+  - 🇸🇪_瑞典
+  - 🇰🇷_韩国_14
+  - 🇳🇱_荷兰_1
   - 🇺🇸_美国_39
+  - 🇨🇳_中国_11
+  - 🇨🇳_中国_12
   - 🇺🇸_美国_40
+  - 🇳🇱_荷兰_2
+  - 🇯🇵_日本_4
+  - 🇨🇳_中国_13
   - 🇺🇸_美国_41
+  - 🇨🇳_中国_14
   - 🇺🇸_美国_42
   - 🇺🇸_美国_43
   - 🇺🇸_美国_44
@@ -1304,112 +1519,106 @@ proxy-groups:
   - 🇺🇸_美国_53
   - 🇺🇸_美国_54
   - 🇺🇸_美国_55
-  - 🇺🇸_美国_56
-  - 🇺🇸_美国_57
-  - 🇺🇸_美国_58
-  - 🇺🇸_美国_59
-  - 🇺🇸_美国_60
-  - 🇮🇳_印度
-  - 🇺🇸_美国_61
-  - 🇺🇸_美国_62
+  - 🏳️_未知_2
+  - 🏳️_未知_3
+  - 🏳️_未知_4
+  - 🏳️_未知_5
   type: select
 - interval: 300
   name: ♻️ 自动选择
   proxies:
   - 电报群：https://t.me/vvkj11
   - 每天更新，请加电报群防止失联
-  - 日期：08-31
+  - 日期：09-01
   - 免费VPN：https://tt.vg/gwaAy
-  - 🇷🇺_俄罗斯_1
-  - 🇺🇸_美国_1
-  - 🇺🇸_美国_2
-  - 🇷🇺_俄罗斯_2
-  - 🇿🇦_南非
-  - 🇺🇸_美国_3
-  - 🇬🇧_英国_1
-  - 🇦🇺_澳大利亚_1
-  - 🇫🇷_法国
-  - 🇬🇧_英国_2
   - 🇨🇳_中国_1
-  - 🇯🇵_日本
+  - 🇰🇷_韩国_1
+  - 🇰🇷_韩国_2
   - 🇨🇳_中国_2
+  - 🇺🇸_美国_1
   - 🇨🇳_中国_3
+  - 🇰🇷_韩国_3
+  - 🇺🇸_美国_2
+  - 🇰🇷_韩国_4
+  - 🇺🇸_美国_3
+  - 🇺🇸_美国_4
+  - 🇺🇸_美国_5
+  - 🇷🇺_俄罗斯_1
+  - 🇮🇷_伊朗
+  - 🇺🇸_美国_6
   - 🇨🇳_中国_4
+  - 🇺🇸_美国_7
+  - 🇺🇸_美国_8
   - 🇨🇳_中国_5
+  - 🇺🇸_美国_9
   - 🇨🇳_中国_6
   - 🇨🇳_中国_7
-  - 🇨🇳_中国_8
-  - 🇨🇳_中国_9
-  - 🇨🇳_中国_10
-  - 🇨🇳_中国_11
-  - 🇨🇳_中国_12
-  - 🇨🇳_中国_13
-  - 🇨🇳_中国_14
-  - 🇨🇳_中国_15
-  - 🇨🇳_中国_16
-  - 🇨🇳_中国_17
-  - 🇺🇸_美国_4
-  - 🇨🇳_中国_18
-  - 🇨🇳_中国_19
-  - 🇨🇳_中国_20
-  - 🇨🇳_中国_21
-  - 🇨🇳_中国_22
-  - 🇨🇳_中国_23
-  - 🇨🇳_中国_24
-  - 🇨🇳_中国_25
-  - 🇨🇳_中国_26
-  - 🇺🇸_美国_5
-  - 🇨🇳_中国_27
-  - 🇨🇳_中国_28
-  - 🇬🇧_英国_3
-  - 🇺🇸_美国_6
-  - 🇨🇳_中国_29
-  - 🇳🇱_荷兰_1
-  - 🇳🇱_荷兰_2
-  - 🇷🇺_俄罗斯_3
-  - 🇺🇸_美国_7
-  - 🇷🇺_俄罗斯_4
-  - 🇳🇱_荷兰_3
-  - 🇺🇸_美国_8
-  - 🇷🇺_俄罗斯_5
-  - 🇷🇺_俄罗斯_6
-  - 🇺🇸_美国_9
+  - 🇸🇬_新加坡_1
+  - 🇦🇺_澳大利亚_1
+  - 🇧🇷_巴西
+  - 🇸🇬_新加坡_2
+  - 🇯🇵_日本_1
+  - 🇯🇵_日本_2
+  - 🇯🇵_日本_3
   - 🇺🇸_美国_10
   - 🇺🇸_美国_11
+  - 🇦🇺_澳大利亚_2
   - 🇺🇸_美国_12
-  - 🇨🇳_中国_30
-  - 🇨🇳_中国_31
-  - 🇳🇱_荷兰_4
   - 🇺🇸_美国_13
+  - 🇨🇳_中国_8
+  - 🇨🇳_中国_9
   - 🇺🇸_美国_14
   - 🇺🇸_美国_15
+  - 🇷🇺_俄罗斯_2
+  - 🇰🇷_韩国_5
   - 🇺🇸_美国_16
+  - 🇷🇺_俄罗斯_3
   - 🇺🇸_美国_17
+  - 🇨🇳_中国_10
   - 🇺🇸_美国_18
   - 🇺🇸_美国_19
   - 🇺🇸_美国_20
   - 🇺🇸_美国_21
-  - 🇦🇺_澳大利亚_2
   - 🇺🇸_美国_22
   - 🇺🇸_美国_23
+  - 🇰🇷_韩国_6
+  - 🇰🇷_韩国_7
   - 🇺🇸_美国_24
   - 🇺🇸_美国_25
   - 🇺🇸_美国_26
+  - 🏳️_未知_1
   - 🇺🇸_美国_27
+  - 🇰🇷_韩国_8
+  - 🇰🇷_韩国_9
+  - 🇰🇷_韩国_10
+  - 🇰🇷_韩国_11
   - 🇺🇸_美国_28
   - 🇺🇸_美国_29
+  - 🇷🇺_俄罗斯_4
   - 🇺🇸_美国_30
+  - 🇰🇷_韩国_12
   - 🇺🇸_美国_31
   - 🇺🇸_美国_32
+  - 🇰🇷_韩国_13
   - 🇺🇸_美国_33
   - 🇺🇸_美国_34
   - 🇺🇸_美国_35
   - 🇺🇸_美国_36
   - 🇺🇸_美国_37
   - 🇺🇸_美国_38
+  - 🇵🇱_波兰
+  - 🇸🇪_瑞典
+  - 🇰🇷_韩国_14
+  - 🇳🇱_荷兰_1
   - 🇺🇸_美国_39
+  - 🇨🇳_中国_11
+  - 🇨🇳_中国_12
   - 🇺🇸_美国_40
+  - 🇳🇱_荷兰_2
+  - 🇯🇵_日本_4
+  - 🇨🇳_中国_13
   - 🇺🇸_美国_41
+  - 🇨🇳_中国_14
   - 🇺🇸_美国_42
   - 🇺🇸_美国_43
   - 🇺🇸_美国_44
@@ -1424,14 +1633,10 @@ proxy-groups:
   - 🇺🇸_美国_53
   - 🇺🇸_美国_54
   - 🇺🇸_美国_55
-  - 🇺🇸_美国_56
-  - 🇺🇸_美国_57
-  - 🇺🇸_美国_58
-  - 🇺🇸_美国_59
-  - 🇺🇸_美国_60
-  - 🇮🇳_印度
-  - 🇺🇸_美国_61
-  - 🇺🇸_美国_62
+  - 🏳️_未知_2
+  - 🏳️_未知_3
+  - 🏳️_未知_4
+  - 🏳️_未知_5
   tolerance: 50
   type: url-test
   url: http://www.gstatic.com/generate_204
@@ -1442,98 +1647,96 @@ proxy-groups:
   - 🎯 全球直连
   - 电报群：https://t.me/vvkj11
   - 每天更新，请加电报群防止失联
-  - 日期：08-31
+  - 日期：09-01
   - 免费VPN：https://tt.vg/gwaAy
-  - 🇷🇺_俄罗斯_1
-  - 🇺🇸_美国_1
-  - 🇺🇸_美国_2
-  - 🇷🇺_俄罗斯_2
-  - 🇿🇦_南非
-  - 🇺🇸_美国_3
-  - 🇬🇧_英国_1
-  - 🇦🇺_澳大利亚_1
-  - 🇫🇷_法国
-  - 🇬🇧_英国_2
   - 🇨🇳_中国_1
-  - 🇯🇵_日本
+  - 🇰🇷_韩国_1
+  - 🇰🇷_韩国_2
   - 🇨🇳_中国_2
+  - 🇺🇸_美国_1
   - 🇨🇳_中国_3
+  - 🇰🇷_韩国_3
+  - 🇺🇸_美国_2
+  - 🇰🇷_韩国_4
+  - 🇺🇸_美国_3
+  - 🇺🇸_美国_4
+  - 🇺🇸_美国_5
+  - 🇷🇺_俄罗斯_1
+  - 🇮🇷_伊朗
+  - 🇺🇸_美国_6
   - 🇨🇳_中国_4
+  - 🇺🇸_美国_7
+  - 🇺🇸_美国_8
   - 🇨🇳_中国_5
+  - 🇺🇸_美国_9
   - 🇨🇳_中国_6
   - 🇨🇳_中国_7
-  - 🇨🇳_中国_8
-  - 🇨🇳_中国_9
-  - 🇨🇳_中国_10
-  - 🇨🇳_中国_11
-  - 🇨🇳_中国_12
-  - 🇨🇳_中国_13
-  - 🇨🇳_中国_14
-  - 🇨🇳_中国_15
-  - 🇨🇳_中国_16
-  - 🇨🇳_中国_17
-  - 🇺🇸_美国_4
-  - 🇨🇳_中国_18
-  - 🇨🇳_中国_19
-  - 🇨🇳_中国_20
-  - 🇨🇳_中国_21
-  - 🇨🇳_中国_22
-  - 🇨🇳_中国_23
-  - 🇨🇳_中国_24
-  - 🇨🇳_中国_25
-  - 🇨🇳_中国_26
-  - 🇺🇸_美国_5
-  - 🇨🇳_中国_27
-  - 🇨🇳_中国_28
-  - 🇬🇧_英国_3
-  - 🇺🇸_美国_6
-  - 🇨🇳_中国_29
-  - 🇳🇱_荷兰_1
-  - 🇳🇱_荷兰_2
-  - 🇷🇺_俄罗斯_3
-  - 🇺🇸_美国_7
-  - 🇷🇺_俄罗斯_4
-  - 🇳🇱_荷兰_3
-  - 🇺🇸_美国_8
-  - 🇷🇺_俄罗斯_5
-  - 🇷🇺_俄罗斯_6
-  - 🇺🇸_美国_9
+  - 🇸🇬_新加坡_1
+  - 🇦🇺_澳大利亚_1
+  - 🇧🇷_巴西
+  - 🇸🇬_新加坡_2
+  - 🇯🇵_日本_1
+  - 🇯🇵_日本_2
+  - 🇯🇵_日本_3
   - 🇺🇸_美国_10
   - 🇺🇸_美国_11
+  - 🇦🇺_澳大利亚_2
   - 🇺🇸_美国_12
-  - 🇨🇳_中国_30
-  - 🇨🇳_中国_31
-  - 🇳🇱_荷兰_4
   - 🇺🇸_美国_13
+  - 🇨🇳_中国_8
+  - 🇨🇳_中国_9
   - 🇺🇸_美国_14
   - 🇺🇸_美国_15
+  - 🇷🇺_俄罗斯_2
+  - 🇰🇷_韩国_5
   - 🇺🇸_美国_16
+  - 🇷🇺_俄罗斯_3
   - 🇺🇸_美国_17
+  - 🇨🇳_中国_10
   - 🇺🇸_美国_18
   - 🇺🇸_美国_19
   - 🇺🇸_美国_20
   - 🇺🇸_美国_21
-  - 🇦🇺_澳大利亚_2
   - 🇺🇸_美国_22
   - 🇺🇸_美国_23
+  - 🇰🇷_韩国_6
+  - 🇰🇷_韩国_7
   - 🇺🇸_美国_24
   - 🇺🇸_美国_25
   - 🇺🇸_美国_26
+  - 🏳️_未知_1
   - 🇺🇸_美国_27
+  - 🇰🇷_韩国_8
+  - 🇰🇷_韩国_9
+  - 🇰🇷_韩国_10
+  - 🇰🇷_韩国_11
   - 🇺🇸_美国_28
   - 🇺🇸_美国_29
+  - 🇷🇺_俄罗斯_4
   - 🇺🇸_美国_30
+  - 🇰🇷_韩国_12
   - 🇺🇸_美国_31
   - 🇺🇸_美国_32
+  - 🇰🇷_韩国_13
   - 🇺🇸_美国_33
   - 🇺🇸_美国_34
   - 🇺🇸_美国_35
   - 🇺🇸_美国_36
   - 🇺🇸_美国_37
   - 🇺🇸_美国_38
+  - 🇵🇱_波兰
+  - 🇸🇪_瑞典
+  - 🇰🇷_韩国_14
+  - 🇳🇱_荷兰_1
   - 🇺🇸_美国_39
+  - 🇨🇳_中国_11
+  - 🇨🇳_中国_12
   - 🇺🇸_美国_40
+  - 🇳🇱_荷兰_2
+  - 🇯🇵_日本_4
+  - 🇨🇳_中国_13
   - 🇺🇸_美国_41
+  - 🇨🇳_中国_14
   - 🇺🇸_美国_42
   - 🇺🇸_美国_43
   - 🇺🇸_美国_44
@@ -1548,14 +1751,10 @@ proxy-groups:
   - 🇺🇸_美国_53
   - 🇺🇸_美国_54
   - 🇺🇸_美国_55
-  - 🇺🇸_美国_56
-  - 🇺🇸_美国_57
-  - 🇺🇸_美国_58
-  - 🇺🇸_美国_59
-  - 🇺🇸_美国_60
-  - 🇮🇳_印度
-  - 🇺🇸_美国_61
-  - 🇺🇸_美国_62
+  - 🏳️_未知_2
+  - 🏳️_未知_3
+  - 🏳️_未知_4
+  - 🏳️_未知_5
   type: select
 - name: 📲 电报信息
   proxies:
@@ -1563,98 +1762,96 @@ proxy-groups:
   - 🎯 全球直连
   - 电报群：https://t.me/vvkj11
   - 每天更新，请加电报群防止失联
-  - 日期：08-31
+  - 日期：09-01
   - 免费VPN：https://tt.vg/gwaAy
-  - 🇷🇺_俄罗斯_1
-  - 🇺🇸_美国_1
-  - 🇺🇸_美国_2
-  - 🇷🇺_俄罗斯_2
-  - 🇿🇦_南非
-  - 🇺🇸_美国_3
-  - 🇬🇧_英国_1
-  - 🇦🇺_澳大利亚_1
-  - 🇫🇷_法国
-  - 🇬🇧_英国_2
   - 🇨🇳_中国_1
-  - 🇯🇵_日本
+  - 🇰🇷_韩国_1
+  - 🇰🇷_韩国_2
   - 🇨🇳_中国_2
+  - 🇺🇸_美国_1
   - 🇨🇳_中国_3
+  - 🇰🇷_韩国_3
+  - 🇺🇸_美国_2
+  - 🇰🇷_韩国_4
+  - 🇺🇸_美国_3
+  - 🇺🇸_美国_4
+  - 🇺🇸_美国_5
+  - 🇷🇺_俄罗斯_1
+  - 🇮🇷_伊朗
+  - 🇺🇸_美国_6
   - 🇨🇳_中国_4
+  - 🇺🇸_美国_7
+  - 🇺🇸_美国_8
   - 🇨🇳_中国_5
+  - 🇺🇸_美国_9
   - 🇨🇳_中国_6
   - 🇨🇳_中国_7
-  - 🇨🇳_中国_8
-  - 🇨🇳_中国_9
-  - 🇨🇳_中国_10
-  - 🇨🇳_中国_11
-  - 🇨🇳_中国_12
-  - 🇨🇳_中国_13
-  - 🇨🇳_中国_14
-  - 🇨🇳_中国_15
-  - 🇨🇳_中国_16
-  - 🇨🇳_中国_17
-  - 🇺🇸_美国_4
-  - 🇨🇳_中国_18
-  - 🇨🇳_中国_19
-  - 🇨🇳_中国_20
-  - 🇨🇳_中国_21
-  - 🇨🇳_中国_22
-  - 🇨🇳_中国_23
-  - 🇨🇳_中国_24
-  - 🇨🇳_中国_25
-  - 🇨🇳_中国_26
-  - 🇺🇸_美国_5
-  - 🇨🇳_中国_27
-  - 🇨🇳_中国_28
-  - 🇬🇧_英国_3
-  - 🇺🇸_美国_6
-  - 🇨🇳_中国_29
-  - 🇳🇱_荷兰_1
-  - 🇳🇱_荷兰_2
-  - 🇷🇺_俄罗斯_3
-  - 🇺🇸_美国_7
-  - 🇷🇺_俄罗斯_4
-  - 🇳🇱_荷兰_3
-  - 🇺🇸_美国_8
-  - 🇷🇺_俄罗斯_5
-  - 🇷🇺_俄罗斯_6
-  - 🇺🇸_美国_9
+  - 🇸🇬_新加坡_1
+  - 🇦🇺_澳大利亚_1
+  - 🇧🇷_巴西
+  - 🇸🇬_新加坡_2
+  - 🇯🇵_日本_1
+  - 🇯🇵_日本_2
+  - 🇯🇵_日本_3
   - 🇺🇸_美国_10
   - 🇺🇸_美国_11
+  - 🇦🇺_澳大利亚_2
   - 🇺🇸_美国_12
-  - 🇨🇳_中国_30
-  - 🇨🇳_中国_31
-  - 🇳🇱_荷兰_4
   - 🇺🇸_美国_13
+  - 🇨🇳_中国_8
+  - 🇨🇳_中国_9
   - 🇺🇸_美国_14
   - 🇺🇸_美国_15
+  - 🇷🇺_俄罗斯_2
+  - 🇰🇷_韩国_5
   - 🇺🇸_美国_16
+  - 🇷🇺_俄罗斯_3
   - 🇺🇸_美国_17
+  - 🇨🇳_中国_10
   - 🇺🇸_美国_18
   - 🇺🇸_美国_19
   - 🇺🇸_美国_20
   - 🇺🇸_美国_21
-  - 🇦🇺_澳大利亚_2
   - 🇺🇸_美国_22
   - 🇺🇸_美国_23
+  - 🇰🇷_韩国_6
+  - 🇰🇷_韩国_7
   - 🇺🇸_美国_24
   - 🇺🇸_美国_25
   - 🇺🇸_美国_26
+  - 🏳️_未知_1
   - 🇺🇸_美国_27
+  - 🇰🇷_韩国_8
+  - 🇰🇷_韩国_9
+  - 🇰🇷_韩国_10
+  - 🇰🇷_韩国_11
   - 🇺🇸_美国_28
   - 🇺🇸_美国_29
+  - 🇷🇺_俄罗斯_4
   - 🇺🇸_美国_30
+  - 🇰🇷_韩国_12
   - 🇺🇸_美国_31
   - 🇺🇸_美国_32
+  - 🇰🇷_韩国_13
   - 🇺🇸_美国_33
   - 🇺🇸_美国_34
   - 🇺🇸_美国_35
   - 🇺🇸_美国_36
   - 🇺🇸_美国_37
   - 🇺🇸_美国_38
+  - 🇵🇱_波兰
+  - 🇸🇪_瑞典
+  - 🇰🇷_韩国_14
+  - 🇳🇱_荷兰_1
   - 🇺🇸_美国_39
+  - 🇨🇳_中国_11
+  - 🇨🇳_中国_12
   - 🇺🇸_美国_40
+  - 🇳🇱_荷兰_2
+  - 🇯🇵_日本_4
+  - 🇨🇳_中国_13
   - 🇺🇸_美国_41
+  - 🇨🇳_中国_14
   - 🇺🇸_美国_42
   - 🇺🇸_美国_43
   - 🇺🇸_美国_44
@@ -1669,14 +1866,10 @@ proxy-groups:
   - 🇺🇸_美国_53
   - 🇺🇸_美国_54
   - 🇺🇸_美国_55
-  - 🇺🇸_美国_56
-  - 🇺🇸_美国_57
-  - 🇺🇸_美国_58
-  - 🇺🇸_美国_59
-  - 🇺🇸_美国_60
-  - 🇮🇳_印度
-  - 🇺🇸_美国_61
-  - 🇺🇸_美国_62
+  - 🏳️_未知_2
+  - 🏳️_未知_3
+  - 🏳️_未知_4
+  - 🏳️_未知_5
   type: select
 - name: Ⓜ️ 微软服务
   proxies:
@@ -1684,98 +1877,96 @@ proxy-groups:
   - 🚀 节点选择
   - 电报群：https://t.me/vvkj11
   - 每天更新，请加电报群防止失联
-  - 日期：08-31
+  - 日期：09-01
   - 免费VPN：https://tt.vg/gwaAy
-  - 🇷🇺_俄罗斯_1
-  - 🇺🇸_美国_1
-  - 🇺🇸_美国_2
-  - 🇷🇺_俄罗斯_2
-  - 🇿🇦_南非
-  - 🇺🇸_美国_3
-  - 🇬🇧_英国_1
-  - 🇦🇺_澳大利亚_1
-  - 🇫🇷_法国
-  - 🇬🇧_英国_2
   - 🇨🇳_中国_1
-  - 🇯🇵_日本
+  - 🇰🇷_韩国_1
+  - 🇰🇷_韩国_2
   - 🇨🇳_中国_2
+  - 🇺🇸_美国_1
   - 🇨🇳_中国_3
+  - 🇰🇷_韩国_3
+  - 🇺🇸_美国_2
+  - 🇰🇷_韩国_4
+  - 🇺🇸_美国_3
+  - 🇺🇸_美国_4
+  - 🇺🇸_美国_5
+  - 🇷🇺_俄罗斯_1
+  - 🇮🇷_伊朗
+  - 🇺🇸_美国_6
   - 🇨🇳_中国_4
+  - 🇺🇸_美国_7
+  - 🇺🇸_美国_8
   - 🇨🇳_中国_5
+  - 🇺🇸_美国_9
   - 🇨🇳_中国_6
   - 🇨🇳_中国_7
-  - 🇨🇳_中国_8
-  - 🇨🇳_中国_9
-  - 🇨🇳_中国_10
-  - 🇨🇳_中国_11
-  - 🇨🇳_中国_12
-  - 🇨🇳_中国_13
-  - 🇨🇳_中国_14
-  - 🇨🇳_中国_15
-  - 🇨🇳_中国_16
-  - 🇨🇳_中国_17
-  - 🇺🇸_美国_4
-  - 🇨🇳_中国_18
-  - 🇨🇳_中国_19
-  - 🇨🇳_中国_20
-  - 🇨🇳_中国_21
-  - 🇨🇳_中国_22
-  - 🇨🇳_中国_23
-  - 🇨🇳_中国_24
-  - 🇨🇳_中国_25
-  - 🇨🇳_中国_26
-  - 🇺🇸_美国_5
-  - 🇨🇳_中国_27
-  - 🇨🇳_中国_28
-  - 🇬🇧_英国_3
-  - 🇺🇸_美国_6
-  - 🇨🇳_中国_29
-  - 🇳🇱_荷兰_1
-  - 🇳🇱_荷兰_2
-  - 🇷🇺_俄罗斯_3
-  - 🇺🇸_美国_7
-  - 🇷🇺_俄罗斯_4
-  - 🇳🇱_荷兰_3
-  - 🇺🇸_美国_8
-  - 🇷🇺_俄罗斯_5
-  - 🇷🇺_俄罗斯_6
-  - 🇺🇸_美国_9
+  - 🇸🇬_新加坡_1
+  - 🇦🇺_澳大利亚_1
+  - 🇧🇷_巴西
+  - 🇸🇬_新加坡_2
+  - 🇯🇵_日本_1
+  - 🇯🇵_日本_2
+  - 🇯🇵_日本_3
   - 🇺🇸_美国_10
   - 🇺🇸_美国_11
+  - 🇦🇺_澳大利亚_2
   - 🇺🇸_美国_12
-  - 🇨🇳_中国_30
-  - 🇨🇳_中国_31
-  - 🇳🇱_荷兰_4
   - 🇺🇸_美国_13
+  - 🇨🇳_中国_8
+  - 🇨🇳_中国_9
   - 🇺🇸_美国_14
   - 🇺🇸_美国_15
+  - 🇷🇺_俄罗斯_2
+  - 🇰🇷_韩国_5
   - 🇺🇸_美国_16
+  - 🇷🇺_俄罗斯_3
   - 🇺🇸_美国_17
+  - 🇨🇳_中国_10
   - 🇺🇸_美国_18
   - 🇺🇸_美国_19
   - 🇺🇸_美国_20
   - 🇺🇸_美国_21
-  - 🇦🇺_澳大利亚_2
   - 🇺🇸_美国_22
   - 🇺🇸_美国_23
+  - 🇰🇷_韩国_6
+  - 🇰🇷_韩国_7
   - 🇺🇸_美国_24
   - 🇺🇸_美国_25
   - 🇺🇸_美国_26
+  - 🏳️_未知_1
   - 🇺🇸_美国_27
+  - 🇰🇷_韩国_8
+  - 🇰🇷_韩国_9
+  - 🇰🇷_韩国_10
+  - 🇰🇷_韩国_11
   - 🇺🇸_美国_28
   - 🇺🇸_美国_29
+  - 🇷🇺_俄罗斯_4
   - 🇺🇸_美国_30
+  - 🇰🇷_韩国_12
   - 🇺🇸_美国_31
   - 🇺🇸_美国_32
+  - 🇰🇷_韩国_13
   - 🇺🇸_美国_33
   - 🇺🇸_美国_34
   - 🇺🇸_美国_35
   - 🇺🇸_美国_36
   - 🇺🇸_美国_37
   - 🇺🇸_美国_38
+  - 🇵🇱_波兰
+  - 🇸🇪_瑞典
+  - 🇰🇷_韩国_14
+  - 🇳🇱_荷兰_1
   - 🇺🇸_美国_39
+  - 🇨🇳_中国_11
+  - 🇨🇳_中国_12
   - 🇺🇸_美国_40
+  - 🇳🇱_荷兰_2
+  - 🇯🇵_日本_4
+  - 🇨🇳_中国_13
   - 🇺🇸_美国_41
+  - 🇨🇳_中国_14
   - 🇺🇸_美国_42
   - 🇺🇸_美国_43
   - 🇺🇸_美国_44
@@ -1790,14 +1981,10 @@ proxy-groups:
   - 🇺🇸_美国_53
   - 🇺🇸_美国_54
   - 🇺🇸_美国_55
-  - 🇺🇸_美国_56
-  - 🇺🇸_美国_57
-  - 🇺🇸_美国_58
-  - 🇺🇸_美国_59
-  - 🇺🇸_美国_60
-  - 🇮🇳_印度
-  - 🇺🇸_美国_61
-  - 🇺🇸_美国_62
+  - 🏳️_未知_2
+  - 🏳️_未知_3
+  - 🏳️_未知_4
+  - 🏳️_未知_5
   type: select
 - name: 🍎 苹果服务
   proxies:
@@ -1805,98 +1992,96 @@ proxy-groups:
   - 🎯 全球直连
   - 电报群：https://t.me/vvkj11
   - 每天更新，请加电报群防止失联
-  - 日期：08-31
+  - 日期：09-01
   - 免费VPN：https://tt.vg/gwaAy
-  - 🇷🇺_俄罗斯_1
-  - 🇺🇸_美国_1
-  - 🇺🇸_美国_2
-  - 🇷🇺_俄罗斯_2
-  - 🇿🇦_南非
-  - 🇺🇸_美国_3
-  - 🇬🇧_英国_1
-  - 🇦🇺_澳大利亚_1
-  - 🇫🇷_法国
-  - 🇬🇧_英国_2
   - 🇨🇳_中国_1
-  - 🇯🇵_日本
+  - 🇰🇷_韩国_1
+  - 🇰🇷_韩国_2
   - 🇨🇳_中国_2
+  - 🇺🇸_美国_1
   - 🇨🇳_中国_3
+  - 🇰🇷_韩国_3
+  - 🇺🇸_美国_2
+  - 🇰🇷_韩国_4
+  - 🇺🇸_美国_3
+  - 🇺🇸_美国_4
+  - 🇺🇸_美国_5
+  - 🇷🇺_俄罗斯_1
+  - 🇮🇷_伊朗
+  - 🇺🇸_美国_6
   - 🇨🇳_中国_4
+  - 🇺🇸_美国_7
+  - 🇺🇸_美国_8
   - 🇨🇳_中国_5
+  - 🇺🇸_美国_9
   - 🇨🇳_中国_6
   - 🇨🇳_中国_7
-  - 🇨🇳_中国_8
-  - 🇨🇳_中国_9
-  - 🇨🇳_中国_10
-  - 🇨🇳_中国_11
-  - 🇨🇳_中国_12
-  - 🇨🇳_中国_13
-  - 🇨🇳_中国_14
-  - 🇨🇳_中国_15
-  - 🇨🇳_中国_16
-  - 🇨🇳_中国_17
-  - 🇺🇸_美国_4
-  - 🇨🇳_中国_18
-  - 🇨🇳_中国_19
-  - 🇨🇳_中国_20
-  - 🇨🇳_中国_21
-  - 🇨🇳_中国_22
-  - 🇨🇳_中国_23
-  - 🇨🇳_中国_24
-  - 🇨🇳_中国_25
-  - 🇨🇳_中国_26
-  - 🇺🇸_美国_5
-  - 🇨🇳_中国_27
-  - 🇨🇳_中国_28
-  - 🇬🇧_英国_3
-  - 🇺🇸_美国_6
-  - 🇨🇳_中国_29
-  - 🇳🇱_荷兰_1
-  - 🇳🇱_荷兰_2
-  - 🇷🇺_俄罗斯_3
-  - 🇺🇸_美国_7
-  - 🇷🇺_俄罗斯_4
-  - 🇳🇱_荷兰_3
-  - 🇺🇸_美国_8
-  - 🇷🇺_俄罗斯_5
-  - 🇷🇺_俄罗斯_6
-  - 🇺🇸_美国_9
+  - 🇸🇬_新加坡_1
+  - 🇦🇺_澳大利亚_1
+  - 🇧🇷_巴西
+  - 🇸🇬_新加坡_2
+  - 🇯🇵_日本_1
+  - 🇯🇵_日本_2
+  - 🇯🇵_日本_3
   - 🇺🇸_美国_10
   - 🇺🇸_美国_11
+  - 🇦🇺_澳大利亚_2
   - 🇺🇸_美国_12
-  - 🇨🇳_中国_30
-  - 🇨🇳_中国_31
-  - 🇳🇱_荷兰_4
   - 🇺🇸_美国_13
+  - 🇨🇳_中国_8
+  - 🇨🇳_中国_9
   - 🇺🇸_美国_14
   - 🇺🇸_美国_15
+  - 🇷🇺_俄罗斯_2
+  - 🇰🇷_韩国_5
   - 🇺🇸_美国_16
+  - 🇷🇺_俄罗斯_3
   - 🇺🇸_美国_17
+  - 🇨🇳_中国_10
   - 🇺🇸_美国_18
   - 🇺🇸_美国_19
   - 🇺🇸_美国_20
   - 🇺🇸_美国_21
-  - 🇦🇺_澳大利亚_2
   - 🇺🇸_美国_22
   - 🇺🇸_美国_23
+  - 🇰🇷_韩国_6
+  - 🇰🇷_韩国_7
   - 🇺🇸_美国_24
   - 🇺🇸_美国_25
   - 🇺🇸_美国_26
+  - 🏳️_未知_1
   - 🇺🇸_美国_27
+  - 🇰🇷_韩国_8
+  - 🇰🇷_韩国_9
+  - 🇰🇷_韩国_10
+  - 🇰🇷_韩国_11
   - 🇺🇸_美国_28
   - 🇺🇸_美国_29
+  - 🇷🇺_俄罗斯_4
   - 🇺🇸_美国_30
+  - 🇰🇷_韩国_12
   - 🇺🇸_美国_31
   - 🇺🇸_美国_32
+  - 🇰🇷_韩国_13
   - 🇺🇸_美国_33
   - 🇺🇸_美国_34
   - 🇺🇸_美国_35
   - 🇺🇸_美国_36
   - 🇺🇸_美国_37
   - 🇺🇸_美国_38
+  - 🇵🇱_波兰
+  - 🇸🇪_瑞典
+  - 🇰🇷_韩国_14
+  - 🇳🇱_荷兰_1
   - 🇺🇸_美国_39
+  - 🇨🇳_中国_11
+  - 🇨🇳_中国_12
   - 🇺🇸_美国_40
+  - 🇳🇱_荷兰_2
+  - 🇯🇵_日本_4
+  - 🇨🇳_中国_13
   - 🇺🇸_美国_41
+  - 🇨🇳_中国_14
   - 🇺🇸_美国_42
   - 🇺🇸_美国_43
   - 🇺🇸_美国_44
@@ -1911,14 +2096,10 @@ proxy-groups:
   - 🇺🇸_美国_53
   - 🇺🇸_美国_54
   - 🇺🇸_美国_55
-  - 🇺🇸_美国_56
-  - 🇺🇸_美国_57
-  - 🇺🇸_美国_58
-  - 🇺🇸_美国_59
-  - 🇺🇸_美国_60
-  - 🇮🇳_印度
-  - 🇺🇸_美国_61
-  - 🇺🇸_美国_62
+  - 🏳️_未知_2
+  - 🏳️_未知_3
+  - 🏳️_未知_4
+  - 🏳️_未知_5
   type: select
 - name: 🎯 全球直连
   proxies:
@@ -1943,98 +2124,96 @@ proxy-groups:
   - ♻️ 自动选择
   - 电报群：https://t.me/vvkj11
   - 每天更新，请加电报群防止失联
-  - 日期：08-31
+  - 日期：09-01
   - 免费VPN：https://tt.vg/gwaAy
-  - 🇷🇺_俄罗斯_1
-  - 🇺🇸_美国_1
-  - 🇺🇸_美国_2
-  - 🇷🇺_俄罗斯_2
-  - 🇿🇦_南非
-  - 🇺🇸_美国_3
-  - 🇬🇧_英国_1
-  - 🇦🇺_澳大利亚_1
-  - 🇫🇷_法国
-  - 🇬🇧_英国_2
   - 🇨🇳_中国_1
-  - 🇯🇵_日本
+  - 🇰🇷_韩国_1
+  - 🇰🇷_韩国_2
   - 🇨🇳_中国_2
+  - 🇺🇸_美国_1
   - 🇨🇳_中国_3
+  - 🇰🇷_韩国_3
+  - 🇺🇸_美国_2
+  - 🇰🇷_韩国_4
+  - 🇺🇸_美国_3
+  - 🇺🇸_美国_4
+  - 🇺🇸_美国_5
+  - 🇷🇺_俄罗斯_1
+  - 🇮🇷_伊朗
+  - 🇺🇸_美国_6
   - 🇨🇳_中国_4
+  - 🇺🇸_美国_7
+  - 🇺🇸_美国_8
   - 🇨🇳_中国_5
+  - 🇺🇸_美国_9
   - 🇨🇳_中国_6
   - 🇨🇳_中国_7
-  - 🇨🇳_中国_8
-  - 🇨🇳_中国_9
-  - 🇨🇳_中国_10
-  - 🇨🇳_中国_11
-  - 🇨🇳_中国_12
-  - 🇨🇳_中国_13
-  - 🇨🇳_中国_14
-  - 🇨🇳_中国_15
-  - 🇨🇳_中国_16
-  - 🇨🇳_中国_17
-  - 🇺🇸_美国_4
-  - 🇨🇳_中国_18
-  - 🇨🇳_中国_19
-  - 🇨🇳_中国_20
-  - 🇨🇳_中国_21
-  - 🇨🇳_中国_22
-  - 🇨🇳_中国_23
-  - 🇨🇳_中国_24
-  - 🇨🇳_中国_25
-  - 🇨🇳_中国_26
-  - 🇺🇸_美国_5
-  - 🇨🇳_中国_27
-  - 🇨🇳_中国_28
-  - 🇬🇧_英国_3
-  - 🇺🇸_美国_6
-  - 🇨🇳_中国_29
-  - 🇳🇱_荷兰_1
-  - 🇳🇱_荷兰_2
-  - 🇷🇺_俄罗斯_3
-  - 🇺🇸_美国_7
-  - 🇷🇺_俄罗斯_4
-  - 🇳🇱_荷兰_3
-  - 🇺🇸_美国_8
-  - 🇷🇺_俄罗斯_5
-  - 🇷🇺_俄罗斯_6
-  - 🇺🇸_美国_9
+  - 🇸🇬_新加坡_1
+  - 🇦🇺_澳大利亚_1
+  - 🇧🇷_巴西
+  - 🇸🇬_新加坡_2
+  - 🇯🇵_日本_1
+  - 🇯🇵_日本_2
+  - 🇯🇵_日本_3
   - 🇺🇸_美国_10
   - 🇺🇸_美国_11
+  - 🇦🇺_澳大利亚_2
   - 🇺🇸_美国_12
-  - 🇨🇳_中国_30
-  - 🇨🇳_中国_31
-  - 🇳🇱_荷兰_4
   - 🇺🇸_美国_13
+  - 🇨🇳_中国_8
+  - 🇨🇳_中国_9
   - 🇺🇸_美国_14
   - 🇺🇸_美国_15
+  - 🇷🇺_俄罗斯_2
+  - 🇰🇷_韩国_5
   - 🇺🇸_美国_16
+  - 🇷🇺_俄罗斯_3
   - 🇺🇸_美国_17
+  - 🇨🇳_中国_10
   - 🇺🇸_美国_18
   - 🇺🇸_美国_19
   - 🇺🇸_美国_20
   - 🇺🇸_美国_21
-  - 🇦🇺_澳大利亚_2
   - 🇺🇸_美国_22
   - 🇺🇸_美国_23
+  - 🇰🇷_韩国_6
+  - 🇰🇷_韩国_7
   - 🇺🇸_美国_24
   - 🇺🇸_美国_25
   - 🇺🇸_美国_26
+  - 🏳️_未知_1
   - 🇺🇸_美国_27
+  - 🇰🇷_韩国_8
+  - 🇰🇷_韩国_9
+  - 🇰🇷_韩国_10
+  - 🇰🇷_韩国_11
   - 🇺🇸_美国_28
   - 🇺🇸_美国_29
+  - 🇷🇺_俄罗斯_4
   - 🇺🇸_美国_30
+  - 🇰🇷_韩国_12
   - 🇺🇸_美国_31
   - 🇺🇸_美国_32
+  - 🇰🇷_韩国_13
   - 🇺🇸_美国_33
   - 🇺🇸_美国_34
   - 🇺🇸_美国_35
   - 🇺🇸_美国_36
   - 🇺🇸_美国_37
   - 🇺🇸_美国_38
+  - 🇵🇱_波兰
+  - 🇸🇪_瑞典
+  - 🇰🇷_韩国_14
+  - 🇳🇱_荷兰_1
   - 🇺🇸_美国_39
+  - 🇨🇳_中国_11
+  - 🇨🇳_中国_12
   - 🇺🇸_美国_40
+  - 🇳🇱_荷兰_2
+  - 🇯🇵_日本_4
+  - 🇨🇳_中国_13
   - 🇺🇸_美国_41
+  - 🇨🇳_中国_14
   - 🇺🇸_美国_42
   - 🇺🇸_美国_43
   - 🇺🇸_美国_44
@@ -2049,14 +2228,10 @@ proxy-groups:
   - 🇺🇸_美国_53
   - 🇺🇸_美国_54
   - 🇺🇸_美国_55
-  - 🇺🇸_美国_56
-  - 🇺🇸_美国_57
-  - 🇺🇸_美国_58
-  - 🇺🇸_美国_59
-  - 🇺🇸_美国_60
-  - 🇮🇳_印度
-  - 🇺🇸_美国_61
-  - 🇺🇸_美国_62
+  - 🏳️_未知_2
+  - 🏳️_未知_3
+  - 🏳️_未知_4
+  - 🏳️_未知_5
   type: select
 rules:
 - DOMAIN-SUFFIX,acl4.ssr,🎯 全球直连
