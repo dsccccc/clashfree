@@ -248,7 +248,17 @@ proxies:
   sni: YAPC-1.afshin.ir
   type: hysteria2
 - auth: Yet-Another-Public-Config-1
-  name: '[Hysteria2] 𝗝𝗼𝗶𝗻 ➠ 𝐓𝐞𝐥𝐞𝐠𝐫𝐚𝐦: @V2Gatee #1'
+  name: '[Hysteria2] کانال تلگرام : injastvpn@'
+  obfs: salamander
+  obfs-password: Yet-Another-Public-Config-1
+  password: Yet-Another-Public-Config-1
+  port: 36400
+  server: yapc-1.adamhayward.co.uk
+  skip-cert-verify: false
+  sni: YAPC-1.afshin.ir
+  type: hysteria2
+- auth: Yet-Another-Public-Config-1
+  name: '[Hysteria2] کانفیگ های بیشتر در چنل تلگرا... #2'
   obfs: salamander
   obfs-password: Yet-Another-Public-Config-1
   password: Yet-Another-Public-Config-1
@@ -264,6 +274,16 @@ proxies:
   server: yue-ru.yuetoto.net
   skip-cert-verify: false
   sni: yue-ru.yuetoto.net
+  type: hysteria2
+- auth: daily_configs
+  name: '[Hysteria2] @Daily_Configs IPv4'
+  obfs: salamander
+  obfs-password: 5zcstyddEr2HrwDFUGsF87IdN4eokPcN
+  password: daily_configs
+  port: 443
+  server: 176.124.204.248
+  skip-cert-verify: false
+  sni: ubuntu com
   type: hysteria2
 - auth: dailyconfigs
   name: '[Hysteria2] @Daily_Configs <-- کانال تلگرا...'
@@ -359,15 +379,20 @@ proxies:
     headers:
       Host: baidu.com
     path: /oooo
-- alterId: 0
+- alterId: 2
   cipher: auto
   name: '[VMess] 🇭🇰 香港3|@ripaojiedian'
-  port: 15778
-  server: 38.147.188.234
+  network: ws
+  port: 80
+  server: hkt.gotochinatown.net
   skip-cert-verify: false
   tls: false
   type: vmess
-  uuid: e4c54f8f-78bd-439d-8365-28f261078962
+  uuid: 93fb69fc-77cf-11ee-85ee-f23c91369f2d
+  ws-opts:
+    headers:
+      Host: hkt.gotochinatown.net
+    path: /
 - name: '[Trojan] 🇭🇰 香港4|@ripaojiedian'
   password: 253bc477d4e43c209f2d427272968280
   port: 441
@@ -375,6 +400,15 @@ proxies:
   skip-cert-verify: false
   sni: 23.45.86.28
   type: trojan
+- alterId: 0
+  cipher: auto
+  name: '[VMess] 🇭🇰 香港5|@ripaojiedian'
+  port: 28677
+  server: 43.247.134.80
+  skip-cert-verify: false
+  tls: false
+  type: vmess
+  uuid: f9575b63-7410-4c76-88db-91c24a429ea8
 - name: '[Trojan] 🇭🇰 香港6|@ripaojiedian'
   password: 253bc477d4e43c209f2d427272968280
   port: 443
@@ -398,7 +432,7 @@ proxies:
   type: trojan
 - name: '[Trojan] 🇸🇬 新加坡|@ripaojiedian'
   password: 253bc477d4e43c209f2d427272968280
-  port: 1523
+  port: 46943
   server: xingxing.jiasu123.org
   skip-cert-verify: false
   sni: 23.45.86.28
@@ -440,13 +474,13 @@ proxies:
   type: trojan
 - alterId: 0
   cipher: auto
-  name: '[VMess] 🇭🇰 香港3|@ripaojiedian 2'
-  port: 15778
-  server: 38.147.188.234
+  name: '[VMess] 🇭🇰 香港5|@ripaojiedian 2'
+  port: 28677
+  server: 43.247.134.80
   skip-cert-verify: false
   tls: false
   type: vmess
-  uuid: e4c54f8f-78bd-439d-8365-28f261078962
+  uuid: f9575b63-7410-4c76-88db-91c24a429ea8
 - name: '[Trojan] AT_speednode_0001'
   network: ws
   password: slch2024
@@ -459,19 +493,7 @@ proxies:
     headers:
       Host: ocost-dy.wmlefl.cc
     path: /Telegram🇨🇳
-- name: '[Trojan] CH_speednode_0002'
-  network: ws
-  password: slch2024
-  port: 2096
-  server: 185.18.250.195
-  skip-cert-verify: false
-  sni: ocost-dy.wmlefl.cc
-  type: trojan
-  ws-opts:
-    headers:
-      Host: ocost-dy.wmlefl.cc
-    path: /Telegram🇨🇳
-- name: '[Trojan] CY_speednode_0006'
+- name: '[Trojan] CY_speednode_0007'
   network: ws
   password: slch2024
   port: 2096
@@ -483,7 +505,7 @@ proxies:
     headers:
       Host: ocost-dy.wmlefl.cc
     path: /Telegram🇨🇳
-- name: '[Trojan] CZ_speednode_0007'
+- name: '[Trojan] CZ_speednode_0008'
   network: ws
   password: slch2024
   port: 2096
@@ -495,7 +517,7 @@ proxies:
     headers:
       Host: ocost-dy.wmlefl.cc
     path: /Telegram🇨🇳
-- name: '[Trojan] DE_speednode_0008'
+- name: '[Trojan] DE_speednode_0009'
   network: ws
   password: slch2024
   port: 2096
@@ -507,7 +529,7 @@ proxies:
     headers:
       Host: ocost-dy.wmlefl.cc
     path: /Telegram🇨🇳
-- name: '[Trojan] ES_speednode_0009'
+- name: '[Trojan] ES_speednode_0010'
   network: ws
   password: slch2024
   port: 2096
@@ -519,23 +541,11 @@ proxies:
     headers:
       Host: ocost-dy.wmlefl.cc
     path: /TelegramU0001F1E8U0001F1F3
-- name: '[Trojan] ES_speednode_0010'
-  network: ws
-  password: slch2024
-  port: 2096
-  server: 185.251.80.195
-  skip-cert-verify: false
-  sni: ocost-dy.wmlefl.cc
-  type: trojan
-  ws-opts:
-    headers:
-      Host: ocost-dy.wmlefl.cc
-    path: /Telegram%25F0%259F%2587%25A8%25F0%259F%2587%25B3
 - name: '[Trojan] ES_speednode_0011'
   network: ws
   password: slch2024
   port: 2096
-  server: 185.251.82.195
+  server: 185.251.80.195
   skip-cert-verify: false
   sni: ocost-dy.wmlefl.cc
   type: trojan
@@ -547,7 +557,7 @@ proxies:
   network: ws
   password: slch2024
   port: 2096
-  server: 185.251.83.195
+  server: 185.251.82.195
   skip-cert-verify: false
   sni: ocost-dy.wmlefl.cc
   type: trojan
@@ -559,7 +569,7 @@ proxies:
   network: ws
   password: slch2024
   port: 2096
-  server: 185.251.80.195
+  server: 185.251.83.195
   skip-cert-verify: false
   sni: ocost-dy.wmlefl.cc
   type: trojan
@@ -571,7 +581,7 @@ proxies:
   network: ws
   password: slch2024
   port: 2096
-  server: 185.251.81.195
+  server: 185.238.228.195
   skip-cert-verify: false
   sni: ocost-dy.wmlefl.cc
   type: trojan
@@ -583,7 +593,19 @@ proxies:
   network: ws
   password: slch2024
   port: 2096
-  server: 185.238.228.195
+  server: 185.251.81.195
+  skip-cert-verify: false
+  sni: ocost-dy.wmlefl.cc
+  type: trojan
+  ws-opts:
+    headers:
+      Host: ocost-dy.wmlefl.cc
+    path: /Telegram🇨🇳
+- name: '[Trojan] FR_speednode_0016'
+  network: ws
+  password: slch2024
+  port: 2096
+  server: 185.16.110.195
   skip-cert-verify: false
   sni: ocost-dy.wmlefl.cc
   type: trojan
@@ -603,11 +625,11 @@ proxies:
     headers:
       Host: ocost-dy.wmlefl.cc
     path: /Telegram🇨🇳
-- name: '[Trojan] FR_speednode_0018'
+- name: '[Trojan] GB_speednode_0018'
   network: ws
   password: slch2024
   port: 2096
-  server: 185.16.110.195
+  server: 194.36.55.195
   skip-cert-verify: false
   sni: ocost-dy.wmlefl.cc
   type: trojan
@@ -627,31 +649,22 @@ proxies:
     headers:
       Host: ocost-dy.wmlefl.cc
     path: /Telegram🇨🇳
-- name: '[Trojan] GB_speednode_0020'
+- alpn:
+  - h3%2Ch2
+  name: '[Vless] IR_speednode_0025'
   network: ws
-  password: slch2024
-  port: 2096
-  server: 194.36.55.195
+  port: 443
+  server: ftp2.tehran-park.com
+  servername: Sup.tEhran-Park.inFo.
   skip-cert-verify: false
-  sni: ocost-dy.wmlefl.cc
-  type: trojan
+  tls: true
+  type: vless
+  uuid: cbf71a74-9e18-4b6f-b4b1-28299c61a1bd
   ws-opts:
     headers:
-      Host: ocost-dy.wmlefl.cc
-    path: /Telegram🇨🇳
-- name: '[Trojan] KZ_speednode_0022'
-  network: ws
-  password: slch2024
-  port: 2096
-  server: 185.176.26.195
-  skip-cert-verify: false
-  sni: ocost-dy.wmlefl.cc
-  type: trojan
-  ws-opts:
-    headers:
-      Host: ocost-dy.wmlefl.cc
-    path: /Telegram🇨🇳
-- name: '[Trojan] KZ_speednode_0023'
+      Host: Sup.tEhran-Park.inFo.
+    path: /CANALTELEGRAM--jet_config--TELEGRAM--jet_config--CANALTELEGRAM--jet_config--TELEGRAM--jet_config--CANALTELEGRAM--jet_config--TELEGRAM--jet_config--CANALTELEGRAM--jet_config--TELEGRAM--jet_configCANALTELEGRAM--jet_config--TELEGRAM--jet_config--CANALTELEGRAM--jet_config--TELEGRAM--jet_config--CANALTELEGRAM--jet_config--TELEGRAM--jet_config--CANALTELEGRAM--jet_configfp=chrome
+- name: '[Trojan] KZ_speednode_0029'
   network: ws
   password: slch2024
   port: 2096
@@ -663,7 +676,7 @@ proxies:
     headers:
       Host: ocost-dy.wmlefl.cc
     path: /Telegram🇨🇳
-- name: '[Trojan] LU_speednode_0024'
+- name: '[Trojan] LU_speednode_0032'
   network: ws
   password: slch2024
   port: 2096
@@ -675,11 +688,11 @@ proxies:
     headers:
       Host: ocost-dy.wmlefl.cc
     path: /Telegram🇨🇳
-- name: '[Trojan] NL_speednode_0026'
+- name: '[Trojan] LU_speednode_0033'
   network: ws
   password: slch2024
   port: 2096
-  server: 185.18.184.195
+  server: 188.42.89.195
   skip-cert-verify: false
   sni: ocost-dy.wmlefl.cc
   type: trojan
@@ -687,7 +700,7 @@ proxies:
     headers:
       Host: ocost-dy.wmlefl.cc
     path: /Telegram🇨🇳
-- name: '[Trojan] NL_speednode_0028'
+- name: '[Trojan] NL_speednode_0034'
   network: ws
   password: slch2024
   port: 2096
@@ -699,43 +712,7 @@ proxies:
     headers:
       Host: ocost-dy.wmlefl.cc
     path: /Telegram🇨🇳
-- name: '[Trojan] RU_speednode_0029'
-  network: ws
-  password: slch2024
-  port: 2096
-  server: 185.148.107.195
-  skip-cert-verify: false
-  sni: ocost-dy.wmlefl.cc
-  type: trojan
-  ws-opts:
-    headers:
-      Host: ocost-dy.wmlefl.cc
-    path: /TelegramU0001F1E8U0001F1F3
-- name: '[Trojan] RU_speednode_0030'
-  network: ws
-  password: slch2024
-  port: 2096
-  server: 185.221.160.195
-  skip-cert-verify: false
-  sni: ocost-dy.wmlefl.cc
-  type: trojan
-  ws-opts:
-    headers:
-      Host: ocost-dy.wmlefl.cc
-    path: /Telegram🇨🇳
-- name: '[Trojan] RU_speednode_0031'
-  network: ws
-  password: slch2024
-  port: 2096
-  server: 185.174.138.195
-  skip-cert-verify: false
-  sni: ocost-dy.wmlefl.cc
-  type: trojan
-  ws-opts:
-    headers:
-      Host: ocost-dy.wmlefl.cc
-    path: /Telegram🇨🇳
-- name: '[Trojan] RU_speednode_0032'
+- name: '[Trojan] RU_speednode_0035'
   network: ws
   password: slch2024
   port: 2096
@@ -747,7 +724,31 @@ proxies:
     headers:
       Host: ocost-dy.wmlefl.cc
     path: /Telegram🇨🇳
-- name: '[Trojan] RU_speednode_0033'
+- name: '[Trojan] RU_speednode_0036'
+  network: ws
+  password: slch2024
+  port: 2096
+  server: 185.148.107.195
+  skip-cert-verify: false
+  sni: ocost-dy.wmlefl.cc
+  type: trojan
+  ws-opts:
+    headers:
+      Host: ocost-dy.wmlefl.cc
+    path: /TelegramU0001F1E8U0001F1F3
+- name: '[Trojan] RU_speednode_0037'
+  network: ws
+  password: slch2024
+  port: 2096
+  server: 188.42.145.195
+  skip-cert-verify: false
+  sni: ocost-dy.wmlefl.cc
+  type: trojan
+  ws-opts:
+    headers:
+      Host: ocost-dy.wmlefl.cc
+    path: /Telegram🇨🇳
+- name: '[Trojan] RU_speednode_0038'
   network: ws
   password: slch2024
   port: 2096
@@ -759,7 +760,7 @@ proxies:
     headers:
       Host: ocost-dy.wmlefl.cc
     path: /Telegram🇨🇳
-- name: '[Trojan] RU_speednode_0034'
+- name: '[Trojan] RU_speednode_0039'
   network: ws
   password: slch2024
   port: 2096
@@ -771,19 +772,7 @@ proxies:
     headers:
       Host: ocost-dy.wmlefl.cc
     path: /Telegram🇨🇳
-- name: '[Trojan] RU_speednode_0035'
-  network: ws
-  password: slch2024
-  port: 2096
-  server: 213.219.247.195
-  skip-cert-verify: false
-  sni: ocost-dy.wmlefl.cc
-  type: trojan
-  ws-opts:
-    headers:
-      Host: ocost-dy.wmlefl.cc
-    path: /Telegram🇨🇳
-- name: '[Trojan] RU_speednode_0036'
+- name: '[Trojan] RU_speednode_0040'
   network: ws
   password: slch2024
   port: 2096
@@ -795,44 +784,7 @@ proxies:
     headers:
       Host: ocost-dy.wmlefl.cc
     path: /Telegram🇨🇳
-- name: '[Trojan] US_speednode_0037'
-  network: ws
-  password: slch2024
-  port: 2096
-  server: 209.94.90.195
-  skip-cert-verify: false
-  sni: ocost-dy.wmlefl.cc
-  type: trojan
-  ws-opts:
-    headers:
-      Host: ocost-dy.wmlefl.cc
-    path: /Telegram🇨🇳
-- name: '[Vless] US_speednode_0038'
-  network: ws
-  port: 443
-  server: 198.62.62.2
-  servername: smn2.gerlemondns.info
-  skip-cert-verify: false
-  tls: false
-  type: vless
-  uuid: 598b4251-fd03-48fe-b12d-630ac3adf2e5
-  ws-opts:
-    headers:
-      Host: smn2.gerlemondns.info
-    path: /hjgfdwssecurity=tls
-- name: '[Trojan] US_speednode_0039'
-  network: ws
-  password: slch2024
-  port: 2096
-  server: 185.148.105.195
-  skip-cert-verify: false
-  sni: ocost-dy.wmlefl.cc
-  type: trojan
-  ws-opts:
-    headers:
-      Host: ocost-dy.wmlefl.cc
-    path: /Telegram🇨🇳
-- name: '[Trojan] US_speednode_0040'
+- name: '[Trojan] US_speednode_0041'
   network: ws
   password: slch2024
   port: 2096
@@ -848,7 +800,7 @@ proxies:
   network: ws
   password: slch2024
   port: 2096
-  server: 216.24.57.195
+  server: 199.34.230.195
   skip-cert-verify: false
   sni: ocost-dy.wmlefl.cc
   type: trojan
@@ -860,7 +812,7 @@ proxies:
   network: ws
   password: slch2024
   port: 2096
-  server: 192.0.54.195
+  server: 209.94.90.195
   skip-cert-verify: false
   sni: ocost-dy.wmlefl.cc
   type: trojan
@@ -872,7 +824,7 @@ proxies:
   network: ws
   password: slch2024
   port: 2096
-  server: 195.13.45.195
+  server: 185.148.106.195
   skip-cert-verify: false
   sni: ocost-dy.wmlefl.cc
   type: trojan
@@ -884,7 +836,7 @@ proxies:
   network: ws
   password: slch2024
   port: 2096
-  server: 199.181.197.195
+  server: 192.0.63.195
   skip-cert-verify: false
   sni: ocost-dy.wmlefl.cc
   type: trojan
@@ -896,7 +848,7 @@ proxies:
   network: ws
   password: slch2024
   port: 2096
-  server: 195.13.55.195
+  server: 192.0.54.195
   skip-cert-verify: false
   sni: ocost-dy.wmlefl.cc
   type: trojan
@@ -908,7 +860,7 @@ proxies:
   network: ws
   password: slch2024
   port: 2096
-  server: 195.13.44.195
+  server: 192.200.160.195
   skip-cert-verify: false
   sni: ocost-dy.wmlefl.cc
   type: trojan
@@ -932,67 +884,7 @@ proxies:
   network: ws
   password: slch2024
   port: 2096
-  server: 195.13.54.195
-  skip-cert-verify: false
-  sni: ocost-dy.wmlefl.cc
-  type: trojan
-  ws-opts:
-    headers:
-      Host: ocost-dy.wmlefl.cc
-    path: /Telegram🇨🇳
-- name: '[Trojan] US_speednode_0050'
-  network: ws
-  password: slch2024
-  port: 2096
-  server: 192.0.63.195
-  skip-cert-verify: false
-  sni: ocost-dy.wmlefl.cc
-  type: trojan
-  ws-opts:
-    headers:
-      Host: ocost-dy.wmlefl.cc
-    path: /Telegram🇨🇳
-- name: '[Trojan] US_speednode_0051'
-  network: ws
-  password: slch2024
-  port: 2096
-  server: 185.148.106.195
-  skip-cert-verify: false
-  sni: ocost-dy.wmlefl.cc
-  type: trojan
-  ws-opts:
-    headers:
-      Host: ocost-dy.wmlefl.cc
-    path: /Telegram🇨🇳
-- name: '[Trojan] US_speednode_0052'
-  network: ws
-  password: slch2024
-  port: 2096
-  server: 199.34.230.195
-  skip-cert-verify: false
-  sni: ocost-dy.wmlefl.cc
-  type: trojan
-  ws-opts:
-    headers:
-      Host: ocost-dy.wmlefl.cc
-    path: /Telegram🇨🇳
-- name: '[Trojan] US_speednode_0053'
-  network: ws
-  password: slch2024
-  port: 2096
-  server: 199.34.229.195
-  skip-cert-verify: false
-  sni: ocost-dy.wmlefl.cc
-  type: trojan
-  ws-opts:
-    headers:
-      Host: ocost-dy.wmlefl.cc
-    path: /Telegram🇨🇳
-- name: '[Trojan] US_speednode_0054'
-  network: ws
-  password: slch2024
-  port: 2096
-  server: 192.200.160.195
+  server: 195.13.45.195
   skip-cert-verify: false
   sni: ocost-dy.wmlefl.cc
   type: trojan
@@ -1032,8 +924,10 @@ proxy-groups:
   - '[Hysteria2] ☞ 𝗝𝗼𝗶𝗻 ➠ @Viturey #2'
   - '[Hysteria2] @FreakConfig #2 2'
   - '[Hysteria2] کانفیگ های بیشتر در چنل تلگرا... #1'
-  - '[Hysteria2] 𝗝𝗼𝗶𝗻 ➠ 𝐓𝐞𝐥𝐞𝐠𝐫𝐚𝐦: @V2Gatee #1'
+  - '[Hysteria2] کانال تلگرام : injastvpn@'
+  - '[Hysteria2] کانفیگ های بیشتر در چنل تلگرا... #2'
   - '[Hysteria2] @vpnserverrr👈🏻'
+  - '[Hysteria2] @Daily_Configs IPv4'
   - '[Hysteria2] @Daily_Configs <-- کانال تلگرا...'
   - '[Hysteria2] @FreakConfig 5'
   - '[Hysteria2] @FreakConfig #1'
@@ -1046,6 +940,7 @@ proxy-groups:
   - '[VMess] 🇭🇰 香港|@ripaojiedian'
   - '[VMess] 🇭🇰 香港3|@ripaojiedian'
   - '[Trojan] 🇭🇰 香港4|@ripaojiedian'
+  - '[VMess] 🇭🇰 香港5|@ripaojiedian'
   - '[Trojan] 🇭🇰 香港6|@ripaojiedian'
   - '[Trojan] 🇯🇵 日本3|@ripaojiedian'
   - '[Trojan] 🇯🇵 日本4|@ripaojiedian'
@@ -1054,40 +949,33 @@ proxy-groups:
   - '[VMess] 🇸🇬 新加坡3|@ripaojiedian'
   - '[Trojan] 🇺🇸 美国3|@ripaojiedian'
   - '[Trojan] 🇺🇸 美国4|@ripaojiedian'
-  - '[VMess] 🇭🇰 香港3|@ripaojiedian 2'
+  - '[VMess] 🇭🇰 香港5|@ripaojiedian 2'
   - '[Trojan] AT_speednode_0001'
-  - '[Trojan] CH_speednode_0002'
-  - '[Trojan] CY_speednode_0006'
-  - '[Trojan] CZ_speednode_0007'
-  - '[Trojan] DE_speednode_0008'
-  - '[Trojan] ES_speednode_0009'
+  - '[Trojan] CY_speednode_0007'
+  - '[Trojan] CZ_speednode_0008'
+  - '[Trojan] DE_speednode_0009'
   - '[Trojan] ES_speednode_0010'
   - '[Trojan] ES_speednode_0011'
   - '[Trojan] ES_speednode_0012'
   - '[Trojan] ES_speednode_0013'
   - '[Trojan] ES_speednode_0014'
   - '[Trojan] ES_speednode_0015'
+  - '[Trojan] FR_speednode_0016'
   - '[Trojan] FR_speednode_0017'
-  - '[Trojan] FR_speednode_0018'
+  - '[Trojan] GB_speednode_0018'
   - '[Trojan] GB_speednode_0019'
-  - '[Trojan] GB_speednode_0020'
-  - '[Trojan] KZ_speednode_0022'
-  - '[Trojan] KZ_speednode_0023'
-  - '[Trojan] LU_speednode_0024'
-  - '[Trojan] NL_speednode_0026'
-  - '[Trojan] NL_speednode_0028'
-  - '[Trojan] RU_speednode_0029'
-  - '[Trojan] RU_speednode_0030'
-  - '[Trojan] RU_speednode_0031'
-  - '[Trojan] RU_speednode_0032'
-  - '[Trojan] RU_speednode_0033'
-  - '[Trojan] RU_speednode_0034'
+  - '[Vless] IR_speednode_0025'
+  - '[Trojan] KZ_speednode_0029'
+  - '[Trojan] LU_speednode_0032'
+  - '[Trojan] LU_speednode_0033'
+  - '[Trojan] NL_speednode_0034'
   - '[Trojan] RU_speednode_0035'
   - '[Trojan] RU_speednode_0036'
-  - '[Trojan] US_speednode_0037'
-  - '[Vless] US_speednode_0038'
-  - '[Trojan] US_speednode_0039'
-  - '[Trojan] US_speednode_0040'
+  - '[Trojan] RU_speednode_0037'
+  - '[Trojan] RU_speednode_0038'
+  - '[Trojan] RU_speednode_0039'
+  - '[Trojan] RU_speednode_0040'
+  - '[Trojan] US_speednode_0041'
   - '[Trojan] US_speednode_0042'
   - '[Trojan] US_speednode_0043'
   - '[Trojan] US_speednode_0044'
@@ -1096,11 +984,6 @@ proxy-groups:
   - '[Trojan] US_speednode_0047'
   - '[Trojan] US_speednode_0048'
   - '[Trojan] US_speednode_0049'
-  - '[Trojan] US_speednode_0050'
-  - '[Trojan] US_speednode_0051'
-  - '[Trojan] US_speednode_0052'
-  - '[Trojan] US_speednode_0053'
-  - '[Trojan] US_speednode_0054'
   type: select
 - interval: 300
   name: ♻️ 自动选择
@@ -1132,8 +1015,10 @@ proxy-groups:
   - '[Hysteria2] ☞ 𝗝𝗼𝗶𝗻 ➠ @Viturey #2'
   - '[Hysteria2] @FreakConfig #2 2'
   - '[Hysteria2] کانفیگ های بیشتر در چنل تلگرا... #1'
-  - '[Hysteria2] 𝗝𝗼𝗶𝗻 ➠ 𝐓𝐞𝐥𝐞𝐠𝐫𝐚𝐦: @V2Gatee #1'
+  - '[Hysteria2] کانال تلگرام : injastvpn@'
+  - '[Hysteria2] کانفیگ های بیشتر در چنل تلگرا... #2'
   - '[Hysteria2] @vpnserverrr👈🏻'
+  - '[Hysteria2] @Daily_Configs IPv4'
   - '[Hysteria2] @Daily_Configs <-- کانال تلگرا...'
   - '[Hysteria2] @FreakConfig 5'
   - '[Hysteria2] @FreakConfig #1'
@@ -1146,6 +1031,7 @@ proxy-groups:
   - '[VMess] 🇭🇰 香港|@ripaojiedian'
   - '[VMess] 🇭🇰 香港3|@ripaojiedian'
   - '[Trojan] 🇭🇰 香港4|@ripaojiedian'
+  - '[VMess] 🇭🇰 香港5|@ripaojiedian'
   - '[Trojan] 🇭🇰 香港6|@ripaojiedian'
   - '[Trojan] 🇯🇵 日本3|@ripaojiedian'
   - '[Trojan] 🇯🇵 日本4|@ripaojiedian'
@@ -1154,40 +1040,33 @@ proxy-groups:
   - '[VMess] 🇸🇬 新加坡3|@ripaojiedian'
   - '[Trojan] 🇺🇸 美国3|@ripaojiedian'
   - '[Trojan] 🇺🇸 美国4|@ripaojiedian'
-  - '[VMess] 🇭🇰 香港3|@ripaojiedian 2'
+  - '[VMess] 🇭🇰 香港5|@ripaojiedian 2'
   - '[Trojan] AT_speednode_0001'
-  - '[Trojan] CH_speednode_0002'
-  - '[Trojan] CY_speednode_0006'
-  - '[Trojan] CZ_speednode_0007'
-  - '[Trojan] DE_speednode_0008'
-  - '[Trojan] ES_speednode_0009'
+  - '[Trojan] CY_speednode_0007'
+  - '[Trojan] CZ_speednode_0008'
+  - '[Trojan] DE_speednode_0009'
   - '[Trojan] ES_speednode_0010'
   - '[Trojan] ES_speednode_0011'
   - '[Trojan] ES_speednode_0012'
   - '[Trojan] ES_speednode_0013'
   - '[Trojan] ES_speednode_0014'
   - '[Trojan] ES_speednode_0015'
+  - '[Trojan] FR_speednode_0016'
   - '[Trojan] FR_speednode_0017'
-  - '[Trojan] FR_speednode_0018'
+  - '[Trojan] GB_speednode_0018'
   - '[Trojan] GB_speednode_0019'
-  - '[Trojan] GB_speednode_0020'
-  - '[Trojan] KZ_speednode_0022'
-  - '[Trojan] KZ_speednode_0023'
-  - '[Trojan] LU_speednode_0024'
-  - '[Trojan] NL_speednode_0026'
-  - '[Trojan] NL_speednode_0028'
-  - '[Trojan] RU_speednode_0029'
-  - '[Trojan] RU_speednode_0030'
-  - '[Trojan] RU_speednode_0031'
-  - '[Trojan] RU_speednode_0032'
-  - '[Trojan] RU_speednode_0033'
-  - '[Trojan] RU_speednode_0034'
+  - '[Vless] IR_speednode_0025'
+  - '[Trojan] KZ_speednode_0029'
+  - '[Trojan] LU_speednode_0032'
+  - '[Trojan] LU_speednode_0033'
+  - '[Trojan] NL_speednode_0034'
   - '[Trojan] RU_speednode_0035'
   - '[Trojan] RU_speednode_0036'
-  - '[Trojan] US_speednode_0037'
-  - '[Vless] US_speednode_0038'
-  - '[Trojan] US_speednode_0039'
-  - '[Trojan] US_speednode_0040'
+  - '[Trojan] RU_speednode_0037'
+  - '[Trojan] RU_speednode_0038'
+  - '[Trojan] RU_speednode_0039'
+  - '[Trojan] RU_speednode_0040'
+  - '[Trojan] US_speednode_0041'
   - '[Trojan] US_speednode_0042'
   - '[Trojan] US_speednode_0043'
   - '[Trojan] US_speednode_0044'
@@ -1196,11 +1075,6 @@ proxy-groups:
   - '[Trojan] US_speednode_0047'
   - '[Trojan] US_speednode_0048'
   - '[Trojan] US_speednode_0049'
-  - '[Trojan] US_speednode_0050'
-  - '[Trojan] US_speednode_0051'
-  - '[Trojan] US_speednode_0052'
-  - '[Trojan] US_speednode_0053'
-  - '[Trojan] US_speednode_0054'
   type: url-test
   url: http://www.gstatic.com/generate_204
 - name: 🎥 NETFLIX
@@ -1235,8 +1109,10 @@ proxy-groups:
   - '[Hysteria2] ☞ 𝗝𝗼𝗶𝗻 ➠ @Viturey #2'
   - '[Hysteria2] @FreakConfig #2 2'
   - '[Hysteria2] کانفیگ های بیشتر در چنل تلگرا... #1'
-  - '[Hysteria2] 𝗝𝗼𝗶𝗻 ➠ 𝐓𝐞𝐥𝐞𝐠𝐫𝐚𝐦: @V2Gatee #1'
+  - '[Hysteria2] کانال تلگرام : injastvpn@'
+  - '[Hysteria2] کانفیگ های بیشتر در چنل تلگرا... #2'
   - '[Hysteria2] @vpnserverrr👈🏻'
+  - '[Hysteria2] @Daily_Configs IPv4'
   - '[Hysteria2] @Daily_Configs <-- کانال تلگرا...'
   - '[Hysteria2] @FreakConfig 5'
   - '[Hysteria2] @FreakConfig #1'
@@ -1249,6 +1125,7 @@ proxy-groups:
   - '[VMess] 🇭🇰 香港|@ripaojiedian'
   - '[VMess] 🇭🇰 香港3|@ripaojiedian'
   - '[Trojan] 🇭🇰 香港4|@ripaojiedian'
+  - '[VMess] 🇭🇰 香港5|@ripaojiedian'
   - '[Trojan] 🇭🇰 香港6|@ripaojiedian'
   - '[Trojan] 🇯🇵 日本3|@ripaojiedian'
   - '[Trojan] 🇯🇵 日本4|@ripaojiedian'
@@ -1257,40 +1134,33 @@ proxy-groups:
   - '[VMess] 🇸🇬 新加坡3|@ripaojiedian'
   - '[Trojan] 🇺🇸 美国3|@ripaojiedian'
   - '[Trojan] 🇺🇸 美国4|@ripaojiedian'
-  - '[VMess] 🇭🇰 香港3|@ripaojiedian 2'
+  - '[VMess] 🇭🇰 香港5|@ripaojiedian 2'
   - '[Trojan] AT_speednode_0001'
-  - '[Trojan] CH_speednode_0002'
-  - '[Trojan] CY_speednode_0006'
-  - '[Trojan] CZ_speednode_0007'
-  - '[Trojan] DE_speednode_0008'
-  - '[Trojan] ES_speednode_0009'
+  - '[Trojan] CY_speednode_0007'
+  - '[Trojan] CZ_speednode_0008'
+  - '[Trojan] DE_speednode_0009'
   - '[Trojan] ES_speednode_0010'
   - '[Trojan] ES_speednode_0011'
   - '[Trojan] ES_speednode_0012'
   - '[Trojan] ES_speednode_0013'
   - '[Trojan] ES_speednode_0014'
   - '[Trojan] ES_speednode_0015'
+  - '[Trojan] FR_speednode_0016'
   - '[Trojan] FR_speednode_0017'
-  - '[Trojan] FR_speednode_0018'
+  - '[Trojan] GB_speednode_0018'
   - '[Trojan] GB_speednode_0019'
-  - '[Trojan] GB_speednode_0020'
-  - '[Trojan] KZ_speednode_0022'
-  - '[Trojan] KZ_speednode_0023'
-  - '[Trojan] LU_speednode_0024'
-  - '[Trojan] NL_speednode_0026'
-  - '[Trojan] NL_speednode_0028'
-  - '[Trojan] RU_speednode_0029'
-  - '[Trojan] RU_speednode_0030'
-  - '[Trojan] RU_speednode_0031'
-  - '[Trojan] RU_speednode_0032'
-  - '[Trojan] RU_speednode_0033'
-  - '[Trojan] RU_speednode_0034'
+  - '[Vless] IR_speednode_0025'
+  - '[Trojan] KZ_speednode_0029'
+  - '[Trojan] LU_speednode_0032'
+  - '[Trojan] LU_speednode_0033'
+  - '[Trojan] NL_speednode_0034'
   - '[Trojan] RU_speednode_0035'
   - '[Trojan] RU_speednode_0036'
-  - '[Trojan] US_speednode_0037'
-  - '[Vless] US_speednode_0038'
-  - '[Trojan] US_speednode_0039'
-  - '[Trojan] US_speednode_0040'
+  - '[Trojan] RU_speednode_0037'
+  - '[Trojan] RU_speednode_0038'
+  - '[Trojan] RU_speednode_0039'
+  - '[Trojan] RU_speednode_0040'
+  - '[Trojan] US_speednode_0041'
   - '[Trojan] US_speednode_0042'
   - '[Trojan] US_speednode_0043'
   - '[Trojan] US_speednode_0044'
@@ -1299,11 +1169,6 @@ proxy-groups:
   - '[Trojan] US_speednode_0047'
   - '[Trojan] US_speednode_0048'
   - '[Trojan] US_speednode_0049'
-  - '[Trojan] US_speednode_0050'
-  - '[Trojan] US_speednode_0051'
-  - '[Trojan] US_speednode_0052'
-  - '[Trojan] US_speednode_0053'
-  - '[Trojan] US_speednode_0054'
   type: select
 - name: ⛔️ 广告拦截
   proxies:
@@ -1349,8 +1214,10 @@ proxy-groups:
   - '[Hysteria2] ☞ 𝗝𝗼𝗶𝗻 ➠ @Viturey #2'
   - '[Hysteria2] @FreakConfig #2 2'
   - '[Hysteria2] کانفیگ های بیشتر در چنل تلگرا... #1'
-  - '[Hysteria2] 𝗝𝗼𝗶𝗻 ➠ 𝐓𝐞𝐥𝐞𝐠𝐫𝐚𝐦: @V2Gatee #1'
+  - '[Hysteria2] کانال تلگرام : injastvpn@'
+  - '[Hysteria2] کانفیگ های بیشتر در چنل تلگرا... #2'
   - '[Hysteria2] @vpnserverrr👈🏻'
+  - '[Hysteria2] @Daily_Configs IPv4'
   - '[Hysteria2] @Daily_Configs <-- کانال تلگرا...'
   - '[Hysteria2] @FreakConfig 5'
   - '[Hysteria2] @FreakConfig #1'
@@ -1363,6 +1230,7 @@ proxy-groups:
   - '[VMess] 🇭🇰 香港|@ripaojiedian'
   - '[VMess] 🇭🇰 香港3|@ripaojiedian'
   - '[Trojan] 🇭🇰 香港4|@ripaojiedian'
+  - '[VMess] 🇭🇰 香港5|@ripaojiedian'
   - '[Trojan] 🇭🇰 香港6|@ripaojiedian'
   - '[Trojan] 🇯🇵 日本3|@ripaojiedian'
   - '[Trojan] 🇯🇵 日本4|@ripaojiedian'
@@ -1371,40 +1239,33 @@ proxy-groups:
   - '[VMess] 🇸🇬 新加坡3|@ripaojiedian'
   - '[Trojan] 🇺🇸 美国3|@ripaojiedian'
   - '[Trojan] 🇺🇸 美国4|@ripaojiedian'
-  - '[VMess] 🇭🇰 香港3|@ripaojiedian 2'
+  - '[VMess] 🇭🇰 香港5|@ripaojiedian 2'
   - '[Trojan] AT_speednode_0001'
-  - '[Trojan] CH_speednode_0002'
-  - '[Trojan] CY_speednode_0006'
-  - '[Trojan] CZ_speednode_0007'
-  - '[Trojan] DE_speednode_0008'
-  - '[Trojan] ES_speednode_0009'
+  - '[Trojan] CY_speednode_0007'
+  - '[Trojan] CZ_speednode_0008'
+  - '[Trojan] DE_speednode_0009'
   - '[Trojan] ES_speednode_0010'
   - '[Trojan] ES_speednode_0011'
   - '[Trojan] ES_speednode_0012'
   - '[Trojan] ES_speednode_0013'
   - '[Trojan] ES_speednode_0014'
   - '[Trojan] ES_speednode_0015'
+  - '[Trojan] FR_speednode_0016'
   - '[Trojan] FR_speednode_0017'
-  - '[Trojan] FR_speednode_0018'
+  - '[Trojan] GB_speednode_0018'
   - '[Trojan] GB_speednode_0019'
-  - '[Trojan] GB_speednode_0020'
-  - '[Trojan] KZ_speednode_0022'
-  - '[Trojan] KZ_speednode_0023'
-  - '[Trojan] LU_speednode_0024'
-  - '[Trojan] NL_speednode_0026'
-  - '[Trojan] NL_speednode_0028'
-  - '[Trojan] RU_speednode_0029'
-  - '[Trojan] RU_speednode_0030'
-  - '[Trojan] RU_speednode_0031'
-  - '[Trojan] RU_speednode_0032'
-  - '[Trojan] RU_speednode_0033'
-  - '[Trojan] RU_speednode_0034'
+  - '[Vless] IR_speednode_0025'
+  - '[Trojan] KZ_speednode_0029'
+  - '[Trojan] LU_speednode_0032'
+  - '[Trojan] LU_speednode_0033'
+  - '[Trojan] NL_speednode_0034'
   - '[Trojan] RU_speednode_0035'
   - '[Trojan] RU_speednode_0036'
-  - '[Trojan] US_speednode_0037'
-  - '[Vless] US_speednode_0038'
-  - '[Trojan] US_speednode_0039'
-  - '[Trojan] US_speednode_0040'
+  - '[Trojan] RU_speednode_0037'
+  - '[Trojan] RU_speednode_0038'
+  - '[Trojan] RU_speednode_0039'
+  - '[Trojan] RU_speednode_0040'
+  - '[Trojan] US_speednode_0041'
   - '[Trojan] US_speednode_0042'
   - '[Trojan] US_speednode_0043'
   - '[Trojan] US_speednode_0044'
@@ -1413,11 +1274,6 @@ proxy-groups:
   - '[Trojan] US_speednode_0047'
   - '[Trojan] US_speednode_0048'
   - '[Trojan] US_speednode_0049'
-  - '[Trojan] US_speednode_0050'
-  - '[Trojan] US_speednode_0051'
-  - '[Trojan] US_speednode_0052'
-  - '[Trojan] US_speednode_0053'
-  - '[Trojan] US_speednode_0054'
   type: select
 - name: 🌏 国内媒体
   proxies:
@@ -1425,8 +1281,9 @@ proxy-groups:
   - '[VMess] 🇭🇰 香港|@ripaojiedian'
   - '[VMess] 🇭🇰 香港3|@ripaojiedian'
   - '[Trojan] 🇭🇰 香港4|@ripaojiedian'
+  - '[VMess] 🇭🇰 香港5|@ripaojiedian'
   - '[Trojan] 🇭🇰 香港6|@ripaojiedian'
-  - '[VMess] 🇭🇰 香港3|@ripaojiedian 2'
+  - '[VMess] 🇭🇰 香港5|@ripaojiedian 2'
   - 🔰 节点选择
   type: select
 - name: Ⓜ️ 微软服务
@@ -1460,8 +1317,10 @@ proxy-groups:
   - '[Hysteria2] ☞ 𝗝𝗼𝗶𝗻 ➠ @Viturey #2'
   - '[Hysteria2] @FreakConfig #2 2'
   - '[Hysteria2] کانفیگ های بیشتر در چنل تلگرا... #1'
-  - '[Hysteria2] 𝗝𝗼𝗶𝗻 ➠ 𝐓𝐞𝐥𝐞𝐠𝐫𝐚𝐦: @V2Gatee #1'
+  - '[Hysteria2] کانال تلگرام : injastvpn@'
+  - '[Hysteria2] کانفیگ های بیشتر در چنل تلگرا... #2'
   - '[Hysteria2] @vpnserverrr👈🏻'
+  - '[Hysteria2] @Daily_Configs IPv4'
   - '[Hysteria2] @Daily_Configs <-- کانال تلگرا...'
   - '[Hysteria2] @FreakConfig 5'
   - '[Hysteria2] @FreakConfig #1'
@@ -1474,6 +1333,7 @@ proxy-groups:
   - '[VMess] 🇭🇰 香港|@ripaojiedian'
   - '[VMess] 🇭🇰 香港3|@ripaojiedian'
   - '[Trojan] 🇭🇰 香港4|@ripaojiedian'
+  - '[VMess] 🇭🇰 香港5|@ripaojiedian'
   - '[Trojan] 🇭🇰 香港6|@ripaojiedian'
   - '[Trojan] 🇯🇵 日本3|@ripaojiedian'
   - '[Trojan] 🇯🇵 日本4|@ripaojiedian'
@@ -1482,40 +1342,33 @@ proxy-groups:
   - '[VMess] 🇸🇬 新加坡3|@ripaojiedian'
   - '[Trojan] 🇺🇸 美国3|@ripaojiedian'
   - '[Trojan] 🇺🇸 美国4|@ripaojiedian'
-  - '[VMess] 🇭🇰 香港3|@ripaojiedian 2'
+  - '[VMess] 🇭🇰 香港5|@ripaojiedian 2'
   - '[Trojan] AT_speednode_0001'
-  - '[Trojan] CH_speednode_0002'
-  - '[Trojan] CY_speednode_0006'
-  - '[Trojan] CZ_speednode_0007'
-  - '[Trojan] DE_speednode_0008'
-  - '[Trojan] ES_speednode_0009'
+  - '[Trojan] CY_speednode_0007'
+  - '[Trojan] CZ_speednode_0008'
+  - '[Trojan] DE_speednode_0009'
   - '[Trojan] ES_speednode_0010'
   - '[Trojan] ES_speednode_0011'
   - '[Trojan] ES_speednode_0012'
   - '[Trojan] ES_speednode_0013'
   - '[Trojan] ES_speednode_0014'
   - '[Trojan] ES_speednode_0015'
+  - '[Trojan] FR_speednode_0016'
   - '[Trojan] FR_speednode_0017'
-  - '[Trojan] FR_speednode_0018'
+  - '[Trojan] GB_speednode_0018'
   - '[Trojan] GB_speednode_0019'
-  - '[Trojan] GB_speednode_0020'
-  - '[Trojan] KZ_speednode_0022'
-  - '[Trojan] KZ_speednode_0023'
-  - '[Trojan] LU_speednode_0024'
-  - '[Trojan] NL_speednode_0026'
-  - '[Trojan] NL_speednode_0028'
-  - '[Trojan] RU_speednode_0029'
-  - '[Trojan] RU_speednode_0030'
-  - '[Trojan] RU_speednode_0031'
-  - '[Trojan] RU_speednode_0032'
-  - '[Trojan] RU_speednode_0033'
-  - '[Trojan] RU_speednode_0034'
+  - '[Vless] IR_speednode_0025'
+  - '[Trojan] KZ_speednode_0029'
+  - '[Trojan] LU_speednode_0032'
+  - '[Trojan] LU_speednode_0033'
+  - '[Trojan] NL_speednode_0034'
   - '[Trojan] RU_speednode_0035'
   - '[Trojan] RU_speednode_0036'
-  - '[Trojan] US_speednode_0037'
-  - '[Vless] US_speednode_0038'
-  - '[Trojan] US_speednode_0039'
-  - '[Trojan] US_speednode_0040'
+  - '[Trojan] RU_speednode_0037'
+  - '[Trojan] RU_speednode_0038'
+  - '[Trojan] RU_speednode_0039'
+  - '[Trojan] RU_speednode_0040'
+  - '[Trojan] US_speednode_0041'
   - '[Trojan] US_speednode_0042'
   - '[Trojan] US_speednode_0043'
   - '[Trojan] US_speednode_0044'
@@ -1524,11 +1377,6 @@ proxy-groups:
   - '[Trojan] US_speednode_0047'
   - '[Trojan] US_speednode_0048'
   - '[Trojan] US_speednode_0049'
-  - '[Trojan] US_speednode_0050'
-  - '[Trojan] US_speednode_0051'
-  - '[Trojan] US_speednode_0052'
-  - '[Trojan] US_speednode_0053'
-  - '[Trojan] US_speednode_0054'
   type: select
 - name: 📲 电报信息
   proxies:
@@ -1561,8 +1409,10 @@ proxy-groups:
   - '[Hysteria2] ☞ 𝗝𝗼𝗶𝗻 ➠ @Viturey #2'
   - '[Hysteria2] @FreakConfig #2 2'
   - '[Hysteria2] کانفیگ های بیشتر در چنل تلگرا... #1'
-  - '[Hysteria2] 𝗝𝗼𝗶𝗻 ➠ 𝐓𝐞𝐥𝐞𝐠𝐫𝐚𝐦: @V2Gatee #1'
+  - '[Hysteria2] کانال تلگرام : injastvpn@'
+  - '[Hysteria2] کانفیگ های بیشتر در چنل تلگرا... #2'
   - '[Hysteria2] @vpnserverrr👈🏻'
+  - '[Hysteria2] @Daily_Configs IPv4'
   - '[Hysteria2] @Daily_Configs <-- کانال تلگرا...'
   - '[Hysteria2] @FreakConfig 5'
   - '[Hysteria2] @FreakConfig #1'
@@ -1575,6 +1425,7 @@ proxy-groups:
   - '[VMess] 🇭🇰 香港|@ripaojiedian'
   - '[VMess] 🇭🇰 香港3|@ripaojiedian'
   - '[Trojan] 🇭🇰 香港4|@ripaojiedian'
+  - '[VMess] 🇭🇰 香港5|@ripaojiedian'
   - '[Trojan] 🇭🇰 香港6|@ripaojiedian'
   - '[Trojan] 🇯🇵 日本3|@ripaojiedian'
   - '[Trojan] 🇯🇵 日本4|@ripaojiedian'
@@ -1583,40 +1434,33 @@ proxy-groups:
   - '[VMess] 🇸🇬 新加坡3|@ripaojiedian'
   - '[Trojan] 🇺🇸 美国3|@ripaojiedian'
   - '[Trojan] 🇺🇸 美国4|@ripaojiedian'
-  - '[VMess] 🇭🇰 香港3|@ripaojiedian 2'
+  - '[VMess] 🇭🇰 香港5|@ripaojiedian 2'
   - '[Trojan] AT_speednode_0001'
-  - '[Trojan] CH_speednode_0002'
-  - '[Trojan] CY_speednode_0006'
-  - '[Trojan] CZ_speednode_0007'
-  - '[Trojan] DE_speednode_0008'
-  - '[Trojan] ES_speednode_0009'
+  - '[Trojan] CY_speednode_0007'
+  - '[Trojan] CZ_speednode_0008'
+  - '[Trojan] DE_speednode_0009'
   - '[Trojan] ES_speednode_0010'
   - '[Trojan] ES_speednode_0011'
   - '[Trojan] ES_speednode_0012'
   - '[Trojan] ES_speednode_0013'
   - '[Trojan] ES_speednode_0014'
   - '[Trojan] ES_speednode_0015'
+  - '[Trojan] FR_speednode_0016'
   - '[Trojan] FR_speednode_0017'
-  - '[Trojan] FR_speednode_0018'
+  - '[Trojan] GB_speednode_0018'
   - '[Trojan] GB_speednode_0019'
-  - '[Trojan] GB_speednode_0020'
-  - '[Trojan] KZ_speednode_0022'
-  - '[Trojan] KZ_speednode_0023'
-  - '[Trojan] LU_speednode_0024'
-  - '[Trojan] NL_speednode_0026'
-  - '[Trojan] NL_speednode_0028'
-  - '[Trojan] RU_speednode_0029'
-  - '[Trojan] RU_speednode_0030'
-  - '[Trojan] RU_speednode_0031'
-  - '[Trojan] RU_speednode_0032'
-  - '[Trojan] RU_speednode_0033'
-  - '[Trojan] RU_speednode_0034'
+  - '[Vless] IR_speednode_0025'
+  - '[Trojan] KZ_speednode_0029'
+  - '[Trojan] LU_speednode_0032'
+  - '[Trojan] LU_speednode_0033'
+  - '[Trojan] NL_speednode_0034'
   - '[Trojan] RU_speednode_0035'
   - '[Trojan] RU_speednode_0036'
-  - '[Trojan] US_speednode_0037'
-  - '[Vless] US_speednode_0038'
-  - '[Trojan] US_speednode_0039'
-  - '[Trojan] US_speednode_0040'
+  - '[Trojan] RU_speednode_0037'
+  - '[Trojan] RU_speednode_0038'
+  - '[Trojan] RU_speednode_0039'
+  - '[Trojan] RU_speednode_0040'
+  - '[Trojan] US_speednode_0041'
   - '[Trojan] US_speednode_0042'
   - '[Trojan] US_speednode_0043'
   - '[Trojan] US_speednode_0044'
@@ -1625,11 +1469,6 @@ proxy-groups:
   - '[Trojan] US_speednode_0047'
   - '[Trojan] US_speednode_0048'
   - '[Trojan] US_speednode_0049'
-  - '[Trojan] US_speednode_0050'
-  - '[Trojan] US_speednode_0051'
-  - '[Trojan] US_speednode_0052'
-  - '[Trojan] US_speednode_0053'
-  - '[Trojan] US_speednode_0054'
   type: select
 - name: 🍎 苹果服务
   proxies:
@@ -1663,8 +1502,10 @@ proxy-groups:
   - '[Hysteria2] ☞ 𝗝𝗼𝗶𝗻 ➠ @Viturey #2'
   - '[Hysteria2] @FreakConfig #2 2'
   - '[Hysteria2] کانفیگ های بیشتر در چنل تلگرا... #1'
-  - '[Hysteria2] 𝗝𝗼𝗶𝗻 ➠ 𝐓𝐞𝐥𝐞𝐠𝐫𝐚𝐦: @V2Gatee #1'
+  - '[Hysteria2] کانال تلگرام : injastvpn@'
+  - '[Hysteria2] کانفیگ های بیشتر در چنل تلگرا... #2'
   - '[Hysteria2] @vpnserverrr👈🏻'
+  - '[Hysteria2] @Daily_Configs IPv4'
   - '[Hysteria2] @Daily_Configs <-- کانال تلگرا...'
   - '[Hysteria2] @FreakConfig 5'
   - '[Hysteria2] @FreakConfig #1'
@@ -1677,6 +1518,7 @@ proxy-groups:
   - '[VMess] 🇭🇰 香港|@ripaojiedian'
   - '[VMess] 🇭🇰 香港3|@ripaojiedian'
   - '[Trojan] 🇭🇰 香港4|@ripaojiedian'
+  - '[VMess] 🇭🇰 香港5|@ripaojiedian'
   - '[Trojan] 🇭🇰 香港6|@ripaojiedian'
   - '[Trojan] 🇯🇵 日本3|@ripaojiedian'
   - '[Trojan] 🇯🇵 日本4|@ripaojiedian'
@@ -1685,40 +1527,33 @@ proxy-groups:
   - '[VMess] 🇸🇬 新加坡3|@ripaojiedian'
   - '[Trojan] 🇺🇸 美国3|@ripaojiedian'
   - '[Trojan] 🇺🇸 美国4|@ripaojiedian'
-  - '[VMess] 🇭🇰 香港3|@ripaojiedian 2'
+  - '[VMess] 🇭🇰 香港5|@ripaojiedian 2'
   - '[Trojan] AT_speednode_0001'
-  - '[Trojan] CH_speednode_0002'
-  - '[Trojan] CY_speednode_0006'
-  - '[Trojan] CZ_speednode_0007'
-  - '[Trojan] DE_speednode_0008'
-  - '[Trojan] ES_speednode_0009'
+  - '[Trojan] CY_speednode_0007'
+  - '[Trojan] CZ_speednode_0008'
+  - '[Trojan] DE_speednode_0009'
   - '[Trojan] ES_speednode_0010'
   - '[Trojan] ES_speednode_0011'
   - '[Trojan] ES_speednode_0012'
   - '[Trojan] ES_speednode_0013'
   - '[Trojan] ES_speednode_0014'
   - '[Trojan] ES_speednode_0015'
+  - '[Trojan] FR_speednode_0016'
   - '[Trojan] FR_speednode_0017'
-  - '[Trojan] FR_speednode_0018'
+  - '[Trojan] GB_speednode_0018'
   - '[Trojan] GB_speednode_0019'
-  - '[Trojan] GB_speednode_0020'
-  - '[Trojan] KZ_speednode_0022'
-  - '[Trojan] KZ_speednode_0023'
-  - '[Trojan] LU_speednode_0024'
-  - '[Trojan] NL_speednode_0026'
-  - '[Trojan] NL_speednode_0028'
-  - '[Trojan] RU_speednode_0029'
-  - '[Trojan] RU_speednode_0030'
-  - '[Trojan] RU_speednode_0031'
-  - '[Trojan] RU_speednode_0032'
-  - '[Trojan] RU_speednode_0033'
-  - '[Trojan] RU_speednode_0034'
+  - '[Vless] IR_speednode_0025'
+  - '[Trojan] KZ_speednode_0029'
+  - '[Trojan] LU_speednode_0032'
+  - '[Trojan] LU_speednode_0033'
+  - '[Trojan] NL_speednode_0034'
   - '[Trojan] RU_speednode_0035'
   - '[Trojan] RU_speednode_0036'
-  - '[Trojan] US_speednode_0037'
-  - '[Vless] US_speednode_0038'
-  - '[Trojan] US_speednode_0039'
-  - '[Trojan] US_speednode_0040'
+  - '[Trojan] RU_speednode_0037'
+  - '[Trojan] RU_speednode_0038'
+  - '[Trojan] RU_speednode_0039'
+  - '[Trojan] RU_speednode_0040'
+  - '[Trojan] US_speednode_0041'
   - '[Trojan] US_speednode_0042'
   - '[Trojan] US_speednode_0043'
   - '[Trojan] US_speednode_0044'
@@ -1727,11 +1562,6 @@ proxy-groups:
   - '[Trojan] US_speednode_0047'
   - '[Trojan] US_speednode_0048'
   - '[Trojan] US_speednode_0049'
-  - '[Trojan] US_speednode_0050'
-  - '[Trojan] US_speednode_0051'
-  - '[Trojan] US_speednode_0052'
-  - '[Trojan] US_speednode_0053'
-  - '[Trojan] US_speednode_0054'
   type: select
 - name: 🎯 全球直连
   proxies:
@@ -1774,8 +1604,10 @@ proxy-groups:
   - '[Hysteria2] ☞ 𝗝𝗼𝗶𝗻 ➠ @Viturey #2'
   - '[Hysteria2] @FreakConfig #2 2'
   - '[Hysteria2] کانفیگ های بیشتر در چنل تلگرا... #1'
-  - '[Hysteria2] 𝗝𝗼𝗶𝗻 ➠ 𝐓𝐞𝐥𝐞𝐠𝐫𝐚𝐦: @V2Gatee #1'
+  - '[Hysteria2] کانال تلگرام : injastvpn@'
+  - '[Hysteria2] کانفیگ های بیشتر در چنل تلگرا... #2'
   - '[Hysteria2] @vpnserverrr👈🏻'
+  - '[Hysteria2] @Daily_Configs IPv4'
   - '[Hysteria2] @Daily_Configs <-- کانال تلگرا...'
   - '[Hysteria2] @FreakConfig 5'
   - '[Hysteria2] @FreakConfig #1'
@@ -1788,6 +1620,7 @@ proxy-groups:
   - '[VMess] 🇭🇰 香港|@ripaojiedian'
   - '[VMess] 🇭🇰 香港3|@ripaojiedian'
   - '[Trojan] 🇭🇰 香港4|@ripaojiedian'
+  - '[VMess] 🇭🇰 香港5|@ripaojiedian'
   - '[Trojan] 🇭🇰 香港6|@ripaojiedian'
   - '[Trojan] 🇯🇵 日本3|@ripaojiedian'
   - '[Trojan] 🇯🇵 日本4|@ripaojiedian'
@@ -1796,40 +1629,33 @@ proxy-groups:
   - '[VMess] 🇸🇬 新加坡3|@ripaojiedian'
   - '[Trojan] 🇺🇸 美国3|@ripaojiedian'
   - '[Trojan] 🇺🇸 美国4|@ripaojiedian'
-  - '[VMess] 🇭🇰 香港3|@ripaojiedian 2'
+  - '[VMess] 🇭🇰 香港5|@ripaojiedian 2'
   - '[Trojan] AT_speednode_0001'
-  - '[Trojan] CH_speednode_0002'
-  - '[Trojan] CY_speednode_0006'
-  - '[Trojan] CZ_speednode_0007'
-  - '[Trojan] DE_speednode_0008'
-  - '[Trojan] ES_speednode_0009'
+  - '[Trojan] CY_speednode_0007'
+  - '[Trojan] CZ_speednode_0008'
+  - '[Trojan] DE_speednode_0009'
   - '[Trojan] ES_speednode_0010'
   - '[Trojan] ES_speednode_0011'
   - '[Trojan] ES_speednode_0012'
   - '[Trojan] ES_speednode_0013'
   - '[Trojan] ES_speednode_0014'
   - '[Trojan] ES_speednode_0015'
+  - '[Trojan] FR_speednode_0016'
   - '[Trojan] FR_speednode_0017'
-  - '[Trojan] FR_speednode_0018'
+  - '[Trojan] GB_speednode_0018'
   - '[Trojan] GB_speednode_0019'
-  - '[Trojan] GB_speednode_0020'
-  - '[Trojan] KZ_speednode_0022'
-  - '[Trojan] KZ_speednode_0023'
-  - '[Trojan] LU_speednode_0024'
-  - '[Trojan] NL_speednode_0026'
-  - '[Trojan] NL_speednode_0028'
-  - '[Trojan] RU_speednode_0029'
-  - '[Trojan] RU_speednode_0030'
-  - '[Trojan] RU_speednode_0031'
-  - '[Trojan] RU_speednode_0032'
-  - '[Trojan] RU_speednode_0033'
-  - '[Trojan] RU_speednode_0034'
+  - '[Vless] IR_speednode_0025'
+  - '[Trojan] KZ_speednode_0029'
+  - '[Trojan] LU_speednode_0032'
+  - '[Trojan] LU_speednode_0033'
+  - '[Trojan] NL_speednode_0034'
   - '[Trojan] RU_speednode_0035'
   - '[Trojan] RU_speednode_0036'
-  - '[Trojan] US_speednode_0037'
-  - '[Vless] US_speednode_0038'
-  - '[Trojan] US_speednode_0039'
-  - '[Trojan] US_speednode_0040'
+  - '[Trojan] RU_speednode_0037'
+  - '[Trojan] RU_speednode_0038'
+  - '[Trojan] RU_speednode_0039'
+  - '[Trojan] RU_speednode_0040'
+  - '[Trojan] US_speednode_0041'
   - '[Trojan] US_speednode_0042'
   - '[Trojan] US_speednode_0043'
   - '[Trojan] US_speednode_0044'
@@ -1838,11 +1664,6 @@ proxy-groups:
   - '[Trojan] US_speednode_0047'
   - '[Trojan] US_speednode_0048'
   - '[Trojan] US_speednode_0049'
-  - '[Trojan] US_speednode_0050'
-  - '[Trojan] US_speednode_0051'
-  - '[Trojan] US_speednode_0052'
-  - '[Trojan] US_speednode_0053'
-  - '[Trojan] US_speednode_0054'
   type: select
 rules:
 - DOMAIN-SUFFIX,local,🎯 全球直连
