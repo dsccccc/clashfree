@@ -8,14 +8,20 @@ log-level: info
 mixed-port: 7890
 mode: rule
 proxies:
-- name: '[Trojan] 亚太地区 V2CROSS.COM'
-  password: b1a68c97-c87c-40aa-ab36-769848ca5f86
-  port: 302
-  server: vn.ourspce.fun
+- name: '[Trojan] 🇦🇹 奥地利 V2CROSS.COM'
+  network: ws
+  password: slch2024
+  port: 2096
+  server: 212.183.88.195
   skip-cert-verify: true
+  sni: ocost-dy.wmlefl.cc
   tfo: false
   type: trojan
   udp: true
+  ws-opts:
+    headers:
+      Host: ocost-dy.wmlefl.cc
+    path: /Telegram
 - alterId: 0
   cipher: auto
   name: '[VMess] 🇨🇦 _CA_加拿大'
@@ -30,6 +36,20 @@ proxies:
   uuid: 474e8680-701f-11ee-b436-205c6d5f5d78
   ws-opts:
     path: /
+- name: '[Trojan] 🇨🇦 加拿大 V2CROSS.COM'
+  network: ws
+  password: slch2024
+  port: 2096
+  server: 205.233.181.195
+  skip-cert-verify: true
+  sni: ocost-dy.wmlefl.cc
+  tfo: false
+  type: trojan
+  udp: true
+  ws-opts:
+    headers:
+      Host: ocost-dy.wmlefl.cc
+    path: /Telegram
 - alterId: 0
   cipher: auto
   name: '[VMess] 🇨🇳 _TW_台湾->🇺🇸_US_美国'
@@ -60,48 +80,6 @@ proxies:
     headers:
       Host: flkf2.shabijichang.com
     path: /
-- name: '[Trojan] 🇩🇪 德国 V2CROSS.COM'
-  network: ws
-  password: slch2024
-  port: 2096
-  server: 194.76.18.195
-  skip-cert-verify: true
-  sni: ocost-dy.wmlefl.cc
-  tfo: false
-  type: trojan
-  udp: true
-  ws-opts:
-    headers:
-      Host: ocost-dy.wmlefl.cc
-    path: /Telegram🇨🇳
-- name: '[Trojan] 🇩🇪 德国 V2CROSS.COM 2'
-  network: ws
-  password: slch2024
-  port: 2096
-  server: 195.13.44.87
-  skip-cert-verify: true
-  sni: ocost-dy.wmlefl.cc
-  tfo: false
-  type: trojan
-  udp: true
-  ws-opts:
-    headers:
-      Host: ocost-dy.wmlefl.cc
-    path: /Telegram
-- name: '[Trojan] 🇪🇸 西班牙 V2CROSS.COM'
-  network: ws
-  password: slch2024
-  port: 2096
-  server: 185.251.80.195
-  skip-cert-verify: true
-  sni: ocost-dy.wmlefl.cc
-  tfo: false
-  type: trojan
-  udp: true
-  ws-opts:
-    headers:
-      Host: ocost-dy.wmlefl.cc
-    path: /Telegram🇨🇳
 - alterId: 0
   cipher: auto
   name: '[VMess] 🇬🇧 _US_美国->🇬🇧_GB_英国_1'
@@ -138,7 +116,7 @@ proxies:
   network: ws
   password: slch2024
   port: 2096
-  server: 185.156.19.195
+  server: 195.26.229.87
   skip-cert-verify: true
   sni: ocost-dy.wmlefl.cc
   tfo: false
@@ -147,21 +125,21 @@ proxies:
   ws-opts:
     headers:
       Host: ocost-dy.wmlefl.cc
-    path: /Telegram
-- alterId: 0
-  cipher: auto
-  name: '[VMess] 🇭🇰 香港 阿里云'
+    path: /TelegramU0001F1E8U0001F1F3
+- name: '[Trojan] 🇬🇧 英国 V2CROSS.COM 2'
   network: ws
-  port: 30298
-  server: 47.83.16.29
+  password: slch2024
+  port: 2096
+  server: 195.26.229.195
   skip-cert-verify: true
+  sni: ocost-dy.wmlefl.cc
   tfo: false
-  tls: false
-  type: vmess
+  type: trojan
   udp: true
-  uuid: 602272c0-1916-41fe-9b53-f1efd149f9bf
   ws-opts:
-    path: /
+    headers:
+      Host: ocost-dy.wmlefl.cc
+    path: /Telegram🇨🇳
 - alterId: 0
   cipher: auto
   name: '[VMess] 🇮🇳 _US_美国->🇮🇳_IN_印度_1'
@@ -236,6 +214,48 @@ proxies:
     headers:
       Host: ocost-dy.wmlefl.cc
     path: /TelegramU0001F1E8U0001F1F3
+- name: '[Trojan] 🇱🇹 立陶宛 V2CROSS.COM'
+  network: ws
+  password: slch2024
+  port: 2096
+  server: 185.148.107.195
+  skip-cert-verify: true
+  sni: ocost-dy.wmlefl.cc
+  tfo: false
+  type: trojan
+  udp: true
+  ws-opts:
+    headers:
+      Host: ocost-dy.wmlefl.cc
+    path: /Telegram@ShadowProxy66
+- name: '[Trojan] 🇱🇹 立陶宛 V2CROSS.COM 2'
+  network: ws
+  password: slch2024
+  port: 2096
+  server: 185.148.105.195
+  skip-cert-verify: true
+  sni: ocost-dy.wmlefl.cc
+  tfo: false
+  type: trojan
+  udp: true
+  ws-opts:
+    headers:
+      Host: ocost-dy.wmlefl.cc
+    path: /由零开始
+- name: '[Trojan] 🇱🇺 卢森堡 root.lu数据中心'
+  network: ws
+  password: slch2024
+  port: 2096
+  server: 188.42.145.195
+  skip-cert-verify: true
+  sni: ocost-dy.wmlefl.cc
+  tfo: false
+  type: trojan
+  udp: true
+  ws-opts:
+    headers:
+      Host: ocost-dy.wmlefl.cc
+    path: /Telegram🇨🇳
 - alterId: 64
   cipher: auto
   name: '[VMess] 🇳🇱 _US_美国->🇳🇱_NL_荷兰'
@@ -250,6 +270,20 @@ proxies:
   uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
   ws-opts:
     path: /path/1696251522438
+- name: '[Trojan] 🇳🇱 荷兰 V2CROSS.COM'
+  network: ws
+  password: slch2024
+  port: 2096
+  server: 188.164.248.195
+  skip-cert-verify: true
+  sni: ocost-dy.wmlefl.cc
+  tfo: false
+  type: trojan
+  udp: true
+  ws-opts:
+    headers:
+      Host: ocost-dy.wmlefl.cc
+    path: /由零开始
 - name: '[Trojan] 🇷🇺 俄罗斯 V2CROSS.COM'
   network: ws
   password: slch2024
@@ -264,20 +298,6 @@ proxies:
     headers:
       Host: ocost-dy.wmlefl.cc
     path: /Telegram🇨🇳
-- name: '[Trojan] 🇷🇺 俄罗斯 V2CROSS.COM 2'
-  network: ws
-  password: slch2024
-  port: 2096
-  server: 185.174.138.195
-  skip-cert-verify: true
-  sni: ocost-dy.wmlefl.cc
-  tfo: false
-  type: trojan
-  udp: true
-  ws-opts:
-    headers:
-      Host: ocost-dy.wmlefl.cc
-    path: /Telegram
 - alterId: 0
   cipher: auto
   name: '[VMess] 🇸🇦 _US_美国->🇸🇦_SA_沙特阿拉伯'
@@ -372,7 +392,7 @@ proxies:
   network: ws
   password: slch2024
   port: 2096
-  server: 192.200.160.87
+  server: 209.46.30.195
   skip-cert-verify: true
   sni: ocost-dy.wmlefl.cc
   tfo: false
@@ -381,7 +401,7 @@ proxies:
   ws-opts:
     headers:
       Host: ocost-dy.wmlefl.cc
-    path: /Telegram🇨🇳
+    path: /由零开始
 - name: '[Trojan] 🇺🇸 美国 V2CROSS.COM 2'
   network: ws
   password: slch2024
@@ -395,7 +415,49 @@ proxies:
   ws-opts:
     headers:
       Host: ocost-dy.wmlefl.cc
+    path: /由零开始
+- name: '[Trojan] 🇺🇸 美国 V2CROSS.COM 3'
+  network: ws
+  password: slch2024
+  port: 2096
+  server: 199.68.156.195
+  skip-cert-verify: true
+  sni: ocost-dy.wmlefl.cc
+  tfo: false
+  type: trojan
+  udp: true
+  ws-opts:
+    headers:
+      Host: ocost-dy.wmlefl.cc
+    path: /TelegramU0001F1EEU0001F1F7ShadowProxy66
+- name: '[Trojan] 🇺🇸 美国 V2CROSS.COM 4'
+  network: ws
+  password: slch2024
+  port: 2096
+  server: 199.181.197.195
+  skip-cert-verify: true
+  sni: ocost-dy.wmlefl.cc
+  tfo: false
+  type: trojan
+  udp: true
+  ws-opts:
+    headers:
+      Host: ocost-dy.wmlefl.cc
     path: /Telegram🇨🇳
+- name: '[Trojan] 🇺🇸 美国 加州'
+  network: ws
+  password: slch2024
+  port: 2096
+  server: 216.24.57.195
+  skip-cert-verify: true
+  sni: ocost-dy.wmlefl.cc
+  tfo: false
+  type: trojan
+  udp: true
+  ws-opts:
+    headers:
+      Host: ocost-dy.wmlefl.cc
+    path: /Telegram
 proxy-groups:
 - name: 🚀 全球互联
   proxies:
@@ -408,25 +470,26 @@ proxy-groups:
   - 🇺🇲 美国
   - 🇹🇼 台湾
   - 🇸🇬 新加坡
-  - '[Trojan] 亚太地区 V2CROSS.COM'
+  - '[Trojan] 🇦🇹 奥地利 V2CROSS.COM'
   - '[VMess] 🇨🇦 _CA_加拿大'
+  - '[Trojan] 🇨🇦 加拿大 V2CROSS.COM'
   - '[VMess] 🇨🇳 _TW_台湾->🇺🇸_US_美国'
   - '[VMess] 🇩🇪 _US_美国->🇩🇪_DE_德国'
-  - '[Trojan] 🇩🇪 德国 V2CROSS.COM'
-  - '[Trojan] 🇩🇪 德国 V2CROSS.COM 2'
-  - '[Trojan] 🇪🇸 西班牙 V2CROSS.COM'
   - '[VMess] 🇬🇧 _US_美国->🇬🇧_GB_英国_1'
   - '[VMess] 🇬🇧 _US_美国->🇬🇧_GB_英国_2'
   - '[Trojan] 🇬🇧 英国 V2CROSS.COM'
-  - '[VMess] 🇭🇰 香港 阿里云'
+  - '[Trojan] 🇬🇧 英国 V2CROSS.COM 2'
   - '[VMess] 🇮🇳 _US_美国->🇮🇳_IN_印度_1'
   - '[VMess] 🇮🇳 _US_美国->🇮🇳_IN_印度_2'
   - '[VMess] 🇮🇳 _US_美国->🇮🇳_IN_印度_3'
   - '[VMess] 🇮🇳 _US_美国->🇮🇳_IN_印度_4'
   - '[Trojan] 🇱🇹 立陶宛 NGS新闻'
+  - '[Trojan] 🇱🇹 立陶宛 V2CROSS.COM'
+  - '[Trojan] 🇱🇹 立陶宛 V2CROSS.COM 2'
+  - '[Trojan] 🇱🇺 卢森堡 root.lu数据中心'
   - '[VMess] 🇳🇱 _US_美国->🇳🇱_NL_荷兰'
+  - '[Trojan] 🇳🇱 荷兰 V2CROSS.COM'
   - '[Trojan] 🇷🇺 俄罗斯 V2CROSS.COM'
-  - '[Trojan] 🇷🇺 俄罗斯 V2CROSS.COM 2'
   - '[VMess] 🇸🇦 _US_美国->🇸🇦_SA_沙特阿拉伯'
   - '[VMess] 🇺🇸 _US_美国_1'
   - '[VMess] 🇺🇸 _US_美国_2'
@@ -435,6 +498,9 @@ proxy-groups:
   - '[VMess] 🇺🇸 _US_美国_5'
   - '[Trojan] 🇺🇸 美国 V2CROSS.COM'
   - '[Trojan] 🇺🇸 美国 V2CROSS.COM 2'
+  - '[Trojan] 🇺🇸 美国 V2CROSS.COM 3'
+  - '[Trojan] 🇺🇸 美国 V2CROSS.COM 4'
+  - '[Trojan] 🇺🇸 美国 加州'
   type: select
 - name: 🎥 Netflix
   proxies:
@@ -443,25 +509,26 @@ proxy-groups:
   - 🇺🇲 美国
   - 🇹🇼 台湾
   - 🇸🇬 新加坡
-  - '[Trojan] 亚太地区 V2CROSS.COM'
+  - '[Trojan] 🇦🇹 奥地利 V2CROSS.COM'
   - '[VMess] 🇨🇦 _CA_加拿大'
+  - '[Trojan] 🇨🇦 加拿大 V2CROSS.COM'
   - '[VMess] 🇨🇳 _TW_台湾->🇺🇸_US_美国'
   - '[VMess] 🇩🇪 _US_美国->🇩🇪_DE_德国'
-  - '[Trojan] 🇩🇪 德国 V2CROSS.COM'
-  - '[Trojan] 🇩🇪 德国 V2CROSS.COM 2'
-  - '[Trojan] 🇪🇸 西班牙 V2CROSS.COM'
   - '[VMess] 🇬🇧 _US_美国->🇬🇧_GB_英国_1'
   - '[VMess] 🇬🇧 _US_美国->🇬🇧_GB_英国_2'
   - '[Trojan] 🇬🇧 英国 V2CROSS.COM'
-  - '[VMess] 🇭🇰 香港 阿里云'
+  - '[Trojan] 🇬🇧 英国 V2CROSS.COM 2'
   - '[VMess] 🇮🇳 _US_美国->🇮🇳_IN_印度_1'
   - '[VMess] 🇮🇳 _US_美国->🇮🇳_IN_印度_2'
   - '[VMess] 🇮🇳 _US_美国->🇮🇳_IN_印度_3'
   - '[VMess] 🇮🇳 _US_美国->🇮🇳_IN_印度_4'
   - '[Trojan] 🇱🇹 立陶宛 NGS新闻'
+  - '[Trojan] 🇱🇹 立陶宛 V2CROSS.COM'
+  - '[Trojan] 🇱🇹 立陶宛 V2CROSS.COM 2'
+  - '[Trojan] 🇱🇺 卢森堡 root.lu数据中心'
   - '[VMess] 🇳🇱 _US_美国->🇳🇱_NL_荷兰'
+  - '[Trojan] 🇳🇱 荷兰 V2CROSS.COM'
   - '[Trojan] 🇷🇺 俄罗斯 V2CROSS.COM'
-  - '[Trojan] 🇷🇺 俄罗斯 V2CROSS.COM 2'
   - '[VMess] 🇸🇦 _US_美国->🇸🇦_SA_沙特阿拉伯'
   - '[VMess] 🇺🇸 _US_美国_1'
   - '[VMess] 🇺🇸 _US_美国_2'
@@ -470,6 +537,9 @@ proxy-groups:
   - '[VMess] 🇺🇸 _US_美国_5'
   - '[Trojan] 🇺🇸 美国 V2CROSS.COM'
   - '[Trojan] 🇺🇸 美国 V2CROSS.COM 2'
+  - '[Trojan] 🇺🇸 美国 V2CROSS.COM 3'
+  - '[Trojan] 🇺🇸 美国 V2CROSS.COM 4'
+  - '[Trojan] 🇺🇸 美国 加州'
   type: select
 - name: 📹 Youtube
   proxies:
@@ -478,25 +548,26 @@ proxy-groups:
   - 🇺🇲 美国
   - 🇹🇼 台湾
   - 🇸🇬 新加坡
-  - '[Trojan] 亚太地区 V2CROSS.COM'
+  - '[Trojan] 🇦🇹 奥地利 V2CROSS.COM'
   - '[VMess] 🇨🇦 _CA_加拿大'
+  - '[Trojan] 🇨🇦 加拿大 V2CROSS.COM'
   - '[VMess] 🇨🇳 _TW_台湾->🇺🇸_US_美国'
   - '[VMess] 🇩🇪 _US_美国->🇩🇪_DE_德国'
-  - '[Trojan] 🇩🇪 德国 V2CROSS.COM'
-  - '[Trojan] 🇩🇪 德国 V2CROSS.COM 2'
-  - '[Trojan] 🇪🇸 西班牙 V2CROSS.COM'
   - '[VMess] 🇬🇧 _US_美国->🇬🇧_GB_英国_1'
   - '[VMess] 🇬🇧 _US_美国->🇬🇧_GB_英国_2'
   - '[Trojan] 🇬🇧 英国 V2CROSS.COM'
-  - '[VMess] 🇭🇰 香港 阿里云'
+  - '[Trojan] 🇬🇧 英国 V2CROSS.COM 2'
   - '[VMess] 🇮🇳 _US_美国->🇮🇳_IN_印度_1'
   - '[VMess] 🇮🇳 _US_美国->🇮🇳_IN_印度_2'
   - '[VMess] 🇮🇳 _US_美国->🇮🇳_IN_印度_3'
   - '[VMess] 🇮🇳 _US_美国->🇮🇳_IN_印度_4'
   - '[Trojan] 🇱🇹 立陶宛 NGS新闻'
+  - '[Trojan] 🇱🇹 立陶宛 V2CROSS.COM'
+  - '[Trojan] 🇱🇹 立陶宛 V2CROSS.COM 2'
+  - '[Trojan] 🇱🇺 卢森堡 root.lu数据中心'
   - '[VMess] 🇳🇱 _US_美国->🇳🇱_NL_荷兰'
+  - '[Trojan] 🇳🇱 荷兰 V2CROSS.COM'
   - '[Trojan] 🇷🇺 俄罗斯 V2CROSS.COM'
-  - '[Trojan] 🇷🇺 俄罗斯 V2CROSS.COM 2'
   - '[VMess] 🇸🇦 _US_美国->🇸🇦_SA_沙特阿拉伯'
   - '[VMess] 🇺🇸 _US_美国_1'
   - '[VMess] 🇺🇸 _US_美国_2'
@@ -505,6 +576,9 @@ proxy-groups:
   - '[VMess] 🇺🇸 _US_美国_5'
   - '[Trojan] 🇺🇸 美国 V2CROSS.COM'
   - '[Trojan] 🇺🇸 美国 V2CROSS.COM 2'
+  - '[Trojan] 🇺🇸 美国 V2CROSS.COM 3'
+  - '[Trojan] 🇺🇸 美国 V2CROSS.COM 4'
+  - '[Trojan] 🇺🇸 美国 加州'
   type: select
 - name: ▶️ Disney+
   proxies:
@@ -513,25 +587,26 @@ proxy-groups:
   - 🇺🇲 美国
   - 🇹🇼 台湾
   - 🇸🇬 新加坡
-  - '[Trojan] 亚太地区 V2CROSS.COM'
+  - '[Trojan] 🇦🇹 奥地利 V2CROSS.COM'
   - '[VMess] 🇨🇦 _CA_加拿大'
+  - '[Trojan] 🇨🇦 加拿大 V2CROSS.COM'
   - '[VMess] 🇨🇳 _TW_台湾->🇺🇸_US_美国'
   - '[VMess] 🇩🇪 _US_美国->🇩🇪_DE_德国'
-  - '[Trojan] 🇩🇪 德国 V2CROSS.COM'
-  - '[Trojan] 🇩🇪 德国 V2CROSS.COM 2'
-  - '[Trojan] 🇪🇸 西班牙 V2CROSS.COM'
   - '[VMess] 🇬🇧 _US_美国->🇬🇧_GB_英国_1'
   - '[VMess] 🇬🇧 _US_美国->🇬🇧_GB_英国_2'
   - '[Trojan] 🇬🇧 英国 V2CROSS.COM'
-  - '[VMess] 🇭🇰 香港 阿里云'
+  - '[Trojan] 🇬🇧 英国 V2CROSS.COM 2'
   - '[VMess] 🇮🇳 _US_美国->🇮🇳_IN_印度_1'
   - '[VMess] 🇮🇳 _US_美国->🇮🇳_IN_印度_2'
   - '[VMess] 🇮🇳 _US_美国->🇮🇳_IN_印度_3'
   - '[VMess] 🇮🇳 _US_美国->🇮🇳_IN_印度_4'
   - '[Trojan] 🇱🇹 立陶宛 NGS新闻'
+  - '[Trojan] 🇱🇹 立陶宛 V2CROSS.COM'
+  - '[Trojan] 🇱🇹 立陶宛 V2CROSS.COM 2'
+  - '[Trojan] 🇱🇺 卢森堡 root.lu数据中心'
   - '[VMess] 🇳🇱 _US_美国->🇳🇱_NL_荷兰'
+  - '[Trojan] 🇳🇱 荷兰 V2CROSS.COM'
   - '[Trojan] 🇷🇺 俄罗斯 V2CROSS.COM'
-  - '[Trojan] 🇷🇺 俄罗斯 V2CROSS.COM 2'
   - '[VMess] 🇸🇦 _US_美国->🇸🇦_SA_沙特阿拉伯'
   - '[VMess] 🇺🇸 _US_美国_1'
   - '[VMess] 🇺🇸 _US_美国_2'
@@ -540,6 +615,9 @@ proxy-groups:
   - '[VMess] 🇺🇸 _US_美国_5'
   - '[Trojan] 🇺🇸 美国 V2CROSS.COM'
   - '[Trojan] 🇺🇸 美国 V2CROSS.COM 2'
+  - '[Trojan] 🇺🇸 美国 V2CROSS.COM 3'
+  - '[Trojan] 🇺🇸 美国 V2CROSS.COM 4'
+  - '[Trojan] 🇺🇸 美国 加州'
   type: select
 - name: 🌍 国外媒体
   proxies:
@@ -549,25 +627,26 @@ proxy-groups:
   - 🇺🇲 美国
   - 🇹🇼 台湾
   - 🇸🇬 新加坡
-  - '[Trojan] 亚太地区 V2CROSS.COM'
+  - '[Trojan] 🇦🇹 奥地利 V2CROSS.COM'
   - '[VMess] 🇨🇦 _CA_加拿大'
+  - '[Trojan] 🇨🇦 加拿大 V2CROSS.COM'
   - '[VMess] 🇨🇳 _TW_台湾->🇺🇸_US_美国'
   - '[VMess] 🇩🇪 _US_美国->🇩🇪_DE_德国'
-  - '[Trojan] 🇩🇪 德国 V2CROSS.COM'
-  - '[Trojan] 🇩🇪 德国 V2CROSS.COM 2'
-  - '[Trojan] 🇪🇸 西班牙 V2CROSS.COM'
   - '[VMess] 🇬🇧 _US_美国->🇬🇧_GB_英国_1'
   - '[VMess] 🇬🇧 _US_美国->🇬🇧_GB_英国_2'
   - '[Trojan] 🇬🇧 英国 V2CROSS.COM'
-  - '[VMess] 🇭🇰 香港 阿里云'
+  - '[Trojan] 🇬🇧 英国 V2CROSS.COM 2'
   - '[VMess] 🇮🇳 _US_美国->🇮🇳_IN_印度_1'
   - '[VMess] 🇮🇳 _US_美国->🇮🇳_IN_印度_2'
   - '[VMess] 🇮🇳 _US_美国->🇮🇳_IN_印度_3'
   - '[VMess] 🇮🇳 _US_美国->🇮🇳_IN_印度_4'
   - '[Trojan] 🇱🇹 立陶宛 NGS新闻'
+  - '[Trojan] 🇱🇹 立陶宛 V2CROSS.COM'
+  - '[Trojan] 🇱🇹 立陶宛 V2CROSS.COM 2'
+  - '[Trojan] 🇱🇺 卢森堡 root.lu数据中心'
   - '[VMess] 🇳🇱 _US_美国->🇳🇱_NL_荷兰'
+  - '[Trojan] 🇳🇱 荷兰 V2CROSS.COM'
   - '[Trojan] 🇷🇺 俄罗斯 V2CROSS.COM'
-  - '[Trojan] 🇷🇺 俄罗斯 V2CROSS.COM 2'
   - '[VMess] 🇸🇦 _US_美国->🇸🇦_SA_沙特阿拉伯'
   - '[VMess] 🇺🇸 _US_美国_1'
   - '[VMess] 🇺🇸 _US_美国_2'
@@ -576,6 +655,9 @@ proxy-groups:
   - '[VMess] 🇺🇸 _US_美国_5'
   - '[Trojan] 🇺🇸 美国 V2CROSS.COM'
   - '[Trojan] 🇺🇸 美国 V2CROSS.COM 2'
+  - '[Trojan] 🇺🇸 美国 V2CROSS.COM 3'
+  - '[Trojan] 🇺🇸 美国 V2CROSS.COM 4'
+  - '[Trojan] 🇺🇸 美国 加州'
   type: select
 - name: 📲 Telegram
   proxies:
@@ -590,7 +672,6 @@ proxy-groups:
   proxies:
   - DIRECT
   - '[VMess] 🇨🇳 _TW_台湾->🇺🇸_US_美国'
-  - '[VMess] 🇭🇰 香港 阿里云'
   type: select
 - name: Ⓜ️ 微软服务
   proxies:
@@ -600,25 +681,26 @@ proxy-groups:
   - 🇺🇲 美国
   - 🇹🇼 台湾
   - 🇸🇬 新加坡
-  - '[Trojan] 亚太地区 V2CROSS.COM'
+  - '[Trojan] 🇦🇹 奥地利 V2CROSS.COM'
   - '[VMess] 🇨🇦 _CA_加拿大'
+  - '[Trojan] 🇨🇦 加拿大 V2CROSS.COM'
   - '[VMess] 🇨🇳 _TW_台湾->🇺🇸_US_美国'
   - '[VMess] 🇩🇪 _US_美国->🇩🇪_DE_德国'
-  - '[Trojan] 🇩🇪 德国 V2CROSS.COM'
-  - '[Trojan] 🇩🇪 德国 V2CROSS.COM 2'
-  - '[Trojan] 🇪🇸 西班牙 V2CROSS.COM'
   - '[VMess] 🇬🇧 _US_美国->🇬🇧_GB_英国_1'
   - '[VMess] 🇬🇧 _US_美国->🇬🇧_GB_英国_2'
   - '[Trojan] 🇬🇧 英国 V2CROSS.COM'
-  - '[VMess] 🇭🇰 香港 阿里云'
+  - '[Trojan] 🇬🇧 英国 V2CROSS.COM 2'
   - '[VMess] 🇮🇳 _US_美国->🇮🇳_IN_印度_1'
   - '[VMess] 🇮🇳 _US_美国->🇮🇳_IN_印度_2'
   - '[VMess] 🇮🇳 _US_美国->🇮🇳_IN_印度_3'
   - '[VMess] 🇮🇳 _US_美国->🇮🇳_IN_印度_4'
   - '[Trojan] 🇱🇹 立陶宛 NGS新闻'
+  - '[Trojan] 🇱🇹 立陶宛 V2CROSS.COM'
+  - '[Trojan] 🇱🇹 立陶宛 V2CROSS.COM 2'
+  - '[Trojan] 🇱🇺 卢森堡 root.lu数据中心'
   - '[VMess] 🇳🇱 _US_美国->🇳🇱_NL_荷兰'
+  - '[Trojan] 🇳🇱 荷兰 V2CROSS.COM'
   - '[Trojan] 🇷🇺 俄罗斯 V2CROSS.COM'
-  - '[Trojan] 🇷🇺 俄罗斯 V2CROSS.COM 2'
   - '[VMess] 🇸🇦 _US_美国->🇸🇦_SA_沙特阿拉伯'
   - '[VMess] 🇺🇸 _US_美国_1'
   - '[VMess] 🇺🇸 _US_美国_2'
@@ -627,10 +709,13 @@ proxy-groups:
   - '[VMess] 🇺🇸 _US_美国_5'
   - '[Trojan] 🇺🇸 美国 V2CROSS.COM'
   - '[Trojan] 🇺🇸 美国 V2CROSS.COM 2'
+  - '[Trojan] 🇺🇸 美国 V2CROSS.COM 3'
+  - '[Trojan] 🇺🇸 美国 V2CROSS.COM 4'
+  - '[Trojan] 🇺🇸 美国 加州'
   type: select
 - name: 🇭🇰 香港
   proxies:
-  - '[VMess] 🇭🇰 香港 阿里云'
+  - DIRECT
   type: select
 - name: 🇯🇵 日本
   proxies:
@@ -655,6 +740,9 @@ proxy-groups:
   - '[VMess] 🇺🇸 _US_美国_5'
   - '[Trojan] 🇺🇸 美国 V2CROSS.COM'
   - '[Trojan] 🇺🇸 美国 V2CROSS.COM 2'
+  - '[Trojan] 🇺🇸 美国 V2CROSS.COM 3'
+  - '[Trojan] 🇺🇸 美国 V2CROSS.COM 4'
+  - '[Trojan] 🇺🇸 美国 加州'
   type: select
 - name: 🇹🇼 台湾
   proxies:
