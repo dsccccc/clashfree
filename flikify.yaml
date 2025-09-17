@@ -8,6 +8,17 @@ log-level: info
 mixed-port: 7890
 mode: rule
 proxies:
+- alterId: 64
+  cipher: auto
+  name: '[VMess] 广东省汕头市 移动'
+  port: 34141
+  server: 183.240.180.3
+  skip-cert-verify: true
+  tfo: false
+  tls: false
+  type: vmess
+  udp: true
+  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
 - alterId: 0
   cipher: auto
   name: '[VMess] 🇨🇦 _CA_加拿大'
@@ -36,22 +47,26 @@ proxies:
   uuid: efcb7d7c-c582-46f5-eeff-0e553342528d
   ws-opts:
     path: /tg@hkaa0
-- alterId: 2
+- name: '[Trojan] 🇨🇳 广东省广州市 UCloud'
+  password: 2fd0d127-266d-4d0b-b453-f94659a132fc
+  port: 12000
+  server: 106.75.134.1
+  skip-cert-verify: true
+  sni: aliyun.com
+  tfo: false
+  type: trojan
+  udp: true
+- alterId: 0
   cipher: auto
   name: '[VMess] 🇨🇳 江苏省 移动'
-  network: ws
-  port: 30839
-  server: v39.heduian.link
+  port: 47093
+  server: tunnel.gzcloud.shop
   skip-cert-verify: true
   tfo: false
   tls: false
   type: vmess
   udp: true
-  uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
-  ws-opts:
-    headers:
-      Host: baidu.com
-    path: /oooo
+  uuid: 89a62b16-a3c3-4ad7-be18-6f0266f7a2c5
 - alterId: 0
   cipher: auto
   name: '[VMess] 🇩🇪 _US_美国->🇩🇪_DE_德国'
@@ -68,6 +83,22 @@ proxies:
     headers:
       Host: flkf2.shabijichang.com
     path: /
+- alterId: 1
+  cipher: auto
+  name: '[VMess] 🇫🇷 法国 国际航空电讯集团公司(SITA)'
+  network: ws
+  port: 443
+  server: kampong.org
+  skip-cert-verify: true
+  tfo: false
+  tls: true
+  type: vmess
+  udp: true
+  uuid: 03fcc618-b93d-6796-6aed-8a38c975d581
+  ws-opts:
+    headers:
+      Host: kampong.org
+    path: linkvws
 - alterId: 0
   cipher: auto
   name: '[VMess] 🇬🇧 _US_美国->🇬🇧_GB_英国_1'
@@ -100,6 +131,30 @@ proxies:
     headers:
       Host: ld2.shabijichang.com
     path: /
+- alterId: 0
+  cipher: auto
+  name: '[VMess] 🇬🇧 英国 社会保险安全部'
+  network: ws
+  port: 8443
+  server: ov-canada3.09vpn.com
+  skip-cert-verify: true
+  tfo: false
+  tls: true
+  type: vmess
+  udp: true
+  uuid: 1a06fe60-0933-4b66-b927-937a5e015c50
+  ws-opts:
+    headers:
+      Host: ov-canada3.09vpn.com
+    path: /vmess/
+- name: '[Trojan] 🇭🇰 香港 UCloud'
+  password: 1640ef52-2db0-44ab-b3f3-8690b762ebc9
+  port: 12000
+  server: 165.154.112.107
+  skip-cert-verify: true
+  tfo: false
+  type: trojan
+  udp: true
 - alterId: 0
   cipher: auto
   name: '[VMess] 🇮🇳 _US_美国->🇮🇳_IN_印度_1'
@@ -264,15 +319,6 @@ proxies:
   uuid: c458695d-6908-45c3-9512-e0c46418454c
   ws-opts:
     path: /
-- name: '[Trojan] 🇺🇸 美国 V2CROSS.COM'
-  password: 2ee85121-31de-4581-a492-eb00f606e392
-  port: 443
-  server: 192.3.107.252
-  skip-cert-verify: true
-  sni: rc8.freeguard.org
-  tfo: false
-  type: trojan
-  udp: true
 proxy-groups:
 - name: 🚀 全球互联
   proxies:
@@ -285,12 +331,17 @@ proxy-groups:
   - 🇺🇲 美国
   - 🇹🇼 台湾
   - 🇸🇬 新加坡
+  - '[VMess] 广东省汕头市 移动'
   - '[VMess] 🇨🇦 _CA_加拿大'
   - '[VMess] 🇨🇳 _TW_台湾->🇺🇸_US_美国'
+  - '[Trojan] 🇨🇳 广东省广州市 UCloud'
   - '[VMess] 🇨🇳 江苏省 移动'
   - '[VMess] 🇩🇪 _US_美国->🇩🇪_DE_德国'
+  - '[VMess] 🇫🇷 法国 国际航空电讯集团公司(SITA)'
   - '[VMess] 🇬🇧 _US_美国->🇬🇧_GB_英国_1'
   - '[VMess] 🇬🇧 _US_美国->🇬🇧_GB_英国_2'
+  - '[VMess] 🇬🇧 英国 社会保险安全部'
+  - '[Trojan] 🇭🇰 香港 UCloud'
   - '[VMess] 🇮🇳 _US_美国->🇮🇳_IN_印度_1'
   - '[VMess] 🇮🇳 _US_美国->🇮🇳_IN_印度_2'
   - '[VMess] 🇮🇳 _US_美国->🇮🇳_IN_印度_3'
@@ -302,7 +353,6 @@ proxy-groups:
   - '[VMess] 🇺🇸 _US_美国_3'
   - '[VMess] 🇺🇸 _US_美国_4'
   - '[VMess] 🇺🇸 _US_美国_5'
-  - '[Trojan] 🇺🇸 美国 V2CROSS.COM'
   type: select
 - name: 🎥 Netflix
   proxies:
@@ -311,12 +361,17 @@ proxy-groups:
   - 🇺🇲 美国
   - 🇹🇼 台湾
   - 🇸🇬 新加坡
+  - '[VMess] 广东省汕头市 移动'
   - '[VMess] 🇨🇦 _CA_加拿大'
   - '[VMess] 🇨🇳 _TW_台湾->🇺🇸_US_美国'
+  - '[Trojan] 🇨🇳 广东省广州市 UCloud'
   - '[VMess] 🇨🇳 江苏省 移动'
   - '[VMess] 🇩🇪 _US_美国->🇩🇪_DE_德国'
+  - '[VMess] 🇫🇷 法国 国际航空电讯集团公司(SITA)'
   - '[VMess] 🇬🇧 _US_美国->🇬🇧_GB_英国_1'
   - '[VMess] 🇬🇧 _US_美国->🇬🇧_GB_英国_2'
+  - '[VMess] 🇬🇧 英国 社会保险安全部'
+  - '[Trojan] 🇭🇰 香港 UCloud'
   - '[VMess] 🇮🇳 _US_美国->🇮🇳_IN_印度_1'
   - '[VMess] 🇮🇳 _US_美国->🇮🇳_IN_印度_2'
   - '[VMess] 🇮🇳 _US_美国->🇮🇳_IN_印度_3'
@@ -328,7 +383,6 @@ proxy-groups:
   - '[VMess] 🇺🇸 _US_美国_3'
   - '[VMess] 🇺🇸 _US_美国_4'
   - '[VMess] 🇺🇸 _US_美国_5'
-  - '[Trojan] 🇺🇸 美国 V2CROSS.COM'
   type: select
 - name: 📹 Youtube
   proxies:
@@ -337,12 +391,17 @@ proxy-groups:
   - 🇺🇲 美国
   - 🇹🇼 台湾
   - 🇸🇬 新加坡
+  - '[VMess] 广东省汕头市 移动'
   - '[VMess] 🇨🇦 _CA_加拿大'
   - '[VMess] 🇨🇳 _TW_台湾->🇺🇸_US_美国'
+  - '[Trojan] 🇨🇳 广东省广州市 UCloud'
   - '[VMess] 🇨🇳 江苏省 移动'
   - '[VMess] 🇩🇪 _US_美国->🇩🇪_DE_德国'
+  - '[VMess] 🇫🇷 法国 国际航空电讯集团公司(SITA)'
   - '[VMess] 🇬🇧 _US_美国->🇬🇧_GB_英国_1'
   - '[VMess] 🇬🇧 _US_美国->🇬🇧_GB_英国_2'
+  - '[VMess] 🇬🇧 英国 社会保险安全部'
+  - '[Trojan] 🇭🇰 香港 UCloud'
   - '[VMess] 🇮🇳 _US_美国->🇮🇳_IN_印度_1'
   - '[VMess] 🇮🇳 _US_美国->🇮🇳_IN_印度_2'
   - '[VMess] 🇮🇳 _US_美国->🇮🇳_IN_印度_3'
@@ -354,7 +413,6 @@ proxy-groups:
   - '[VMess] 🇺🇸 _US_美国_3'
   - '[VMess] 🇺🇸 _US_美国_4'
   - '[VMess] 🇺🇸 _US_美国_5'
-  - '[Trojan] 🇺🇸 美国 V2CROSS.COM'
   type: select
 - name: ▶️ Disney+
   proxies:
@@ -363,12 +421,17 @@ proxy-groups:
   - 🇺🇲 美国
   - 🇹🇼 台湾
   - 🇸🇬 新加坡
+  - '[VMess] 广东省汕头市 移动'
   - '[VMess] 🇨🇦 _CA_加拿大'
   - '[VMess] 🇨🇳 _TW_台湾->🇺🇸_US_美国'
+  - '[Trojan] 🇨🇳 广东省广州市 UCloud'
   - '[VMess] 🇨🇳 江苏省 移动'
   - '[VMess] 🇩🇪 _US_美国->🇩🇪_DE_德国'
+  - '[VMess] 🇫🇷 法国 国际航空电讯集团公司(SITA)'
   - '[VMess] 🇬🇧 _US_美国->🇬🇧_GB_英国_1'
   - '[VMess] 🇬🇧 _US_美国->🇬🇧_GB_英国_2'
+  - '[VMess] 🇬🇧 英国 社会保险安全部'
+  - '[Trojan] 🇭🇰 香港 UCloud'
   - '[VMess] 🇮🇳 _US_美国->🇮🇳_IN_印度_1'
   - '[VMess] 🇮🇳 _US_美国->🇮🇳_IN_印度_2'
   - '[VMess] 🇮🇳 _US_美国->🇮🇳_IN_印度_3'
@@ -380,7 +443,6 @@ proxy-groups:
   - '[VMess] 🇺🇸 _US_美国_3'
   - '[VMess] 🇺🇸 _US_美国_4'
   - '[VMess] 🇺🇸 _US_美国_5'
-  - '[Trojan] 🇺🇸 美国 V2CROSS.COM'
   type: select
 - name: 🌍 国外媒体
   proxies:
@@ -390,12 +452,17 @@ proxy-groups:
   - 🇺🇲 美国
   - 🇹🇼 台湾
   - 🇸🇬 新加坡
+  - '[VMess] 广东省汕头市 移动'
   - '[VMess] 🇨🇦 _CA_加拿大'
   - '[VMess] 🇨🇳 _TW_台湾->🇺🇸_US_美国'
+  - '[Trojan] 🇨🇳 广东省广州市 UCloud'
   - '[VMess] 🇨🇳 江苏省 移动'
   - '[VMess] 🇩🇪 _US_美国->🇩🇪_DE_德国'
+  - '[VMess] 🇫🇷 法国 国际航空电讯集团公司(SITA)'
   - '[VMess] 🇬🇧 _US_美国->🇬🇧_GB_英国_1'
   - '[VMess] 🇬🇧 _US_美国->🇬🇧_GB_英国_2'
+  - '[VMess] 🇬🇧 英国 社会保险安全部'
+  - '[Trojan] 🇭🇰 香港 UCloud'
   - '[VMess] 🇮🇳 _US_美国->🇮🇳_IN_印度_1'
   - '[VMess] 🇮🇳 _US_美国->🇮🇳_IN_印度_2'
   - '[VMess] 🇮🇳 _US_美国->🇮🇳_IN_印度_3'
@@ -407,7 +474,6 @@ proxy-groups:
   - '[VMess] 🇺🇸 _US_美国_3'
   - '[VMess] 🇺🇸 _US_美国_4'
   - '[VMess] 🇺🇸 _US_美国_5'
-  - '[Trojan] 🇺🇸 美国 V2CROSS.COM'
   type: select
 - name: 📲 Telegram
   proxies:
@@ -422,6 +488,7 @@ proxy-groups:
   proxies:
   - DIRECT
   - '[VMess] 🇨🇳 _TW_台湾->🇺🇸_US_美国'
+  - '[Trojan] 🇭🇰 香港 UCloud'
   type: select
 - name: Ⓜ️ 微软服务
   proxies:
@@ -431,12 +498,17 @@ proxy-groups:
   - 🇺🇲 美国
   - 🇹🇼 台湾
   - 🇸🇬 新加坡
+  - '[VMess] 广东省汕头市 移动'
   - '[VMess] 🇨🇦 _CA_加拿大'
   - '[VMess] 🇨🇳 _TW_台湾->🇺🇸_US_美国'
+  - '[Trojan] 🇨🇳 广东省广州市 UCloud'
   - '[VMess] 🇨🇳 江苏省 移动'
   - '[VMess] 🇩🇪 _US_美国->🇩🇪_DE_德国'
+  - '[VMess] 🇫🇷 法国 国际航空电讯集团公司(SITA)'
   - '[VMess] 🇬🇧 _US_美国->🇬🇧_GB_英国_1'
   - '[VMess] 🇬🇧 _US_美国->🇬🇧_GB_英国_2'
+  - '[VMess] 🇬🇧 英国 社会保险安全部'
+  - '[Trojan] 🇭🇰 香港 UCloud'
   - '[VMess] 🇮🇳 _US_美国->🇮🇳_IN_印度_1'
   - '[VMess] 🇮🇳 _US_美国->🇮🇳_IN_印度_2'
   - '[VMess] 🇮🇳 _US_美国->🇮🇳_IN_印度_3'
@@ -448,11 +520,10 @@ proxy-groups:
   - '[VMess] 🇺🇸 _US_美国_3'
   - '[VMess] 🇺🇸 _US_美国_4'
   - '[VMess] 🇺🇸 _US_美国_5'
-  - '[Trojan] 🇺🇸 美国 V2CROSS.COM'
   type: select
 - name: 🇭🇰 香港
   proxies:
-  - DIRECT
+  - '[Trojan] 🇭🇰 香港 UCloud'
   type: select
 - name: 🇯🇵 日本
   proxies:
@@ -475,7 +546,6 @@ proxy-groups:
   - '[VMess] 🇺🇸 _US_美国_3'
   - '[VMess] 🇺🇸 _US_美国_4'
   - '[VMess] 🇺🇸 _US_美国_5'
-  - '[Trojan] 🇺🇸 美国 V2CROSS.COM'
   type: select
 - name: 🇹🇼 台湾
   proxies:
