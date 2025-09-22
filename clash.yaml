@@ -45,6 +45,20 @@ proxies:
   server: fra-nb-02.linlujs.pw
   skip-cert-verify: false
   type: hysteria2
+- auth: 70197404-7b40-45e4-bb9c-8bc8995012ae
+  name: '[Hysteria2] 🇩🇪 DE-telegram-@ISVvpn  🌐 لوکیشن:...'
+  password: 70197404-7b40-45e4-bb9c-8bc8995012ae
+  port: 24568
+  server: fra-nb-01.linlujs.pw
+  skip-cert-verify: false
+  type: hysteria2
+- auth: 70197404-7b40-45e4-bb9c-8bc8995012ae
+  name: '[Hysteria2] 🇺🇸 usa-telegram-@ISVvpn'
+  password: 70197404-7b40-45e4-bb9c-8bc8995012ae
+  port: 25684
+  server: us-nb-01.linlujs.pw
+  skip-cert-verify: false
+  type: hysteria2
 - auth: 79c4fe11-9787-406b-bf94-c1c1dbf59e28
   name: '[Hysteria2] کانفیگ های بیشتر در چنل تلگرا...'
   password: 79c4fe11-9787-406b-bf94-c1c1dbf59e28
@@ -149,6 +163,13 @@ proxies:
   skip-cert-verify: false
   sni: www.bing.com
   type: hysteria2
+- auth: f872db91-57c2-41c7-aad0-561b4cb674bf
+  name: '[Hysteria2] telegram-@ISVvpn #1'
+  password: f872db91-57c2-41c7-aad0-561b4cb674bf
+  port: 25684
+  server: us-nb-01.linlujs.pw
+  skip-cert-verify: false
+  type: hysteria2
 - alterId: 2
   cipher: auto
   name: '[VMess] 🇭🇰 香港|@ripaojiedian'
@@ -174,22 +195,31 @@ proxies:
   uuid: 3bff49e6-b2e2-44ce-801f-06eab407e8bd
 - name: '[Trojan] 🇭🇰 香港4|@ripaojiedian'
   password: 253bc477d4e43c209f2d427272968280
-  port: 447
-  server: 160.16.63.16
+  port: 443
+  server: 202.181.103.246
   skip-cert-verify: false
   sni: www.nintendogames.net
   type: trojan
 - name: '[Trojan] 🇭🇰 香港6|@ripaojiedian'
   password: 253bc477d4e43c209f2d427272968280
-  port: 447
-  server: 160.16.70.180
+  port: 443
+  server: 160.16.236.32
   skip-cert-verify: false
   sni: www.nintendogames.net
   type: trojan
+- alterId: 0
+  cipher: auto
+  name: '[VMess] 🇨🇳 台湾|@ripaojiedian'
+  port: 49795
+  server: 103.236.227.7
+  skip-cert-verify: false
+  tls: false
+  type: vmess
+  uuid: a9024f1d-77a1-4c56-87c7-eeee5398667e
 - name: '[Trojan] 🇯🇵 日本3|@ripaojiedian'
   password: 253bc477d4e43c209f2d427272968280
-  port: 1924
-  server: 153.121.73.102
+  port: 1802
+  server: 160.16.196.59
   skip-cert-verify: false
   sni: www.nintendogames.net
   type: trojan
@@ -200,15 +230,6 @@ proxies:
   skip-cert-verify: false
   sni: www.nintendogames.net
   type: trojan
-- alterId: 0
-  cipher: auto
-  name: '[VMess] 🇯🇵 日本5|@ripaojiedian'
-  port: 37925
-  server: nnertn.vxzjv.xyz
-  skip-cert-verify: false
-  tls: false
-  type: vmess
-  uuid: ffaf7559-d3a9-37fd-8e5b-a3abeb53d924
 - name: '[Trojan] 🇸🇬 新加坡|@ripaojiedian'
   password: 253bc477d4e43c209f2d427272968280
   port: 2045
@@ -239,15 +260,15 @@ proxies:
     path: /oooo
 - name: '[Trojan] 🇺🇸 美国3|@ripaojiedian'
   password: 253bc477d4e43c209f2d427272968280
-  port: 3294
-  server: 153.121.73.102
+  port: 1700
+  server: 153.121.45.139
   skip-cert-verify: false
   sni: www.nintendogames.net
   type: trojan
 - name: '[Trojan] 🇺🇸 美国4|@ripaojiedian'
   password: 253bc477d4e43c209f2d427272968280
-  port: 3296
-  server: 153.121.73.102
+  port: 3294
+  server: 160.16.72.33
   skip-cert-verify: false
   sni: www.nintendogames.net
   type: trojan
@@ -262,97 +283,81 @@ proxies:
   uuid: 3bff49e6-b2e2-44ce-801f-06eab407e8bd
 - alterId: 0
   cipher: auto
-  name: '[VMess] 🇯🇵 日本5|@ripaojiedian 2'
-  port: 37925
-  server: nnertn.vxzjv.xyz
+  name: '[VMess] 🇨🇳 台湾|@ripaojiedian 2'
+  port: 49795
+  server: 103.236.227.7
   skip-cert-verify: false
   tls: false
   type: vmess
-  uuid: ffaf7559-d3a9-37fd-8e5b-a3abeb53d924
-- name: '[Vless] BR_speednode_0001'
+  uuid: a9024f1d-77a1-4c56-87c7-eeee5398667e
+- name: '[Vless] GB_speednode_0012'
   network: ws
-  port: 443
-  server: 185.133.35.106
-  servername: d-de1.djwstlsweb.top
+  port: 9931
+  server: 132.145.65.20
+  servername: kejiland.freewarp.eu.org
   skip-cert-verify: false
-  tls: true
+  tls: false
   type: vless
-  uuid: e22d2366-ac58-47e0-8362-89df9aa6349f
+  uuid: b65f4df7-f6af-42b2-877a-cef33f21675e
   ws-opts:
     headers:
-      Host: d-de1.djwstlsweb.top
-    path: /djjc/de1fp=ios
-- name: '[Trojan] NL_speednode_0010'
+      Host: kejiland.freewarp.eu.org
+    path: /snippets/ip=proxyip.fxxk.dedyn.io:443security=tls
+- name: '[Vless] US_speednode_0023'
   network: ws
-  password: 02XtoczO7V
-  port: 17590
-  server: 5.255.102.41
+  port: 2082
+  server: 159.112.235.174
+  servername: workerr.schodog1.workers.dev
   skip-cert-verify: false
-  sni: mooshali.arshiacomplus.dpdns.org
-  type: trojan
+  tls: false
+  type: vless
+  uuid: 47e9a0db-50c6-4522-8819-502c55b06dde
   ws-opts:
     headers:
-      Host: mooshali.arshiacomplus.dpdns.org
-    path: /hishhhh123
-- name: '[Trojan] SE_speednode_0012'
-  password: 2ee85121-31de-4581-a492-eb00f606e392
-  port: 443
-  server: 45.91.171.116
-  skip-cert-verify: false
-  sni: sto.freeguard.org
-  type: trojan
-- name: '[Trojan] US_speednode_0013'
-  password: 3ZFDxASRw0XIcKYFlp4RSCeSwA8ap7lEAzZB7uNnO38yDYOzDe3p23CxF0OlTx6YSK3j3
-  port: 443
-  server: toaster.isquirrel.net
-  skip-cert-verify: false
-  type: trojan
-- name: '[Trojan] US_speednode_0014'
+      Host: workerr.schodog1.workers.dev
+    path: /?ed=2048
+- name: '[Trojan] US_speednode_0024'
   password: 0C3YaEDx46ODTFTcaF8lXlZ3zeqSlF33wZagexzRjIyODa8RDwp8XSCO93ygCSYcSYABA
   port: 18332
   server: blength.appagent.net
   skip-cert-verify: false
   type: trojan
-- name: '[Trojan] US_speednode_0015'
-  password: B3AO9XlcTxaIATp08S29pS6luwZ8C4qDFzaCFYEDDSA5YDeKZAy3e2ZXRe73zIpxwByN7
-  port: 18333
-  server: kasheet.appagent.net
+- name: '[Trojan] US_speednode_0025'
+  password: eYaw9xlNDu4695IF3CyY2leZOTnY8ZSOD3Xa3DClz0xqZy7Z3eaBFaTKOSwCSAOyEap4D
+  port: 28333
+  server: connect.appagent.net
   skip-cert-verify: false
+  sni: connect.appagent.net
   type: trojan
-- name: '[Trojan] US_speednode_0016'
-  password: RzFSy3laClaxnYCcO3jBEpYgDyZx2CO78IC3X46ATFD73RSSZZTx8yCOKYDOqeD8pSeRa
-  port: 28334
-  server: sirens.isquirrel.net
+- name: '[Trojan] US_speednode_0026'
+  password: CZC2eFReAwaON4nzF3zY7XC9nB3IqIaT3Eaa8S7D3B5Y3XuSEp8Z0ygl08S3SSxy6wDRC
+  port: 28332
+  server: blender.appagent.net
   skip-cert-verify: false
+  sni: blender.appagent.net
   type: trojan
-- name: '[Trojan] US_speednode_0017'
-  password: nzSaSa3SFaCNFDCjOCg8A39e53p8l2xaTFCOu7qZx2Z8px4CK3DXeZYAwRRS3zY66laOE
-  port: 28331
-  server: seginus.appagent.net
-  skip-cert-verify: false
-  type: trojan
-- name: '[Trojan] US_speednode_0018'
-  password: D0AASSpCKFjOBSwlwqylnOep8BDlgN3e3RY9S3Op2RaZZ58gID8yY3ej56CSuYacZz3EA
-  port: 443
-  server: delight.appagent.net
-  skip-cert-verify: false
-  type: trojan
-- name: '[Trojan] US_speednode_0019'
+- name: '[Trojan] US_speednode_0027'
   password: eYaw9xlNDu4695IF3CyY2leZOTnY8ZSOD3Xa3DClz0xqZy7Z3eaBFaTKOSwCSAOyEap4D
   port: 28333
   server: connect.appagent.net
   skip-cert-verify: false
   type: trojan
-- name: '[Trojan] US_speednode_0020'
-  password: 4xS33pu88RaTF37ZxRjzAZc9zxe8OaYBX9CSO3p5SSxquFOFEySnDlCleCFA2DN3gaeDl
-  port: 443
-  server: mintaka.appagent.net
+- name: '[Trojan] US_speednode_0028'
+  password: OaFFcTDe9pSlez6x3SY8AARXwClzCRRDwSN8F3OqZAEYC0SE6F8gp3wCTCSTDYllcNceagCDD2C59S3
+  port: 28332
+  server: bolster.appagent.net
   skip-cert-verify: false
   type: trojan
-- name: '[Trojan] US_speednode_0021'
-  password: Z3aK0aZqwyNcz7S3l3ncNCODYxNFnA8SCOOSOZ3y3AX8xA4a0RZ3gxn39aqYAaBOyzR43acKOCzSX3S
-  port: 28331
-  server: hanger.appagent.net
+- name: '[Trojan] US_speednode_0030'
+  password: Npgx9nO3OBaZF5yxARYl93lFX08TlR3waDla733az8SqXe3YS3zjESECSZpAw428a6SID
+  port: 443
+  server: metallic.isquirrel.net
+  skip-cert-verify: false
+  type: trojan
+- name: '[Trojan] US_speednode_0032'
+  password: F9OKESxKjSDExSeaOw7XyINxDzaOZqeKxCeIczYYED8ewZ2Yl9AppAySO3XwFNy3lCaXDDCFnlACSB0
+  port: 28334
+  server: pricey.appagent.net
   skip-cert-verify: false
   type: trojan
 proxy-groups:
@@ -365,6 +370,8 @@ proxy-groups:
   - '[Hysteria2] All--@IRAN_V2RAY1'
   - '[Hysteria2] WI-FI--@IRAN_V2RAY1'
   - '[Hysteria2] telegram-@ISVvpn'
+  - '[Hysteria2] 🇩🇪 DE-telegram-@ISVvpn  🌐 لوکیشن:...'
+  - '[Hysteria2] 🇺🇸 usa-telegram-@ISVvpn'
   - '[Hysteria2] کانفیگ های بیشتر در چنل تلگرا...'
   - '[Hysteria2] @IRAN_V2RAY1 #1'
   - '[Hysteria2] All-@IRAN_V2RAY1'
@@ -376,32 +383,30 @@ proxy-groups:
   - '[Hysteria2] Join -> Telegram: @V2Gatee #1'
   - '[Hysteria2] @vpnserverrr👈🏻'
   - '[Hysteria2] Join -> Telegram: @V2Gatee #2'
+  - '[Hysteria2] telegram-@ISVvpn #1'
   - '[VMess] 🇭🇰 香港|@ripaojiedian'
   - '[VMess] 🇭🇰 香港3|@ripaojiedian'
   - '[Trojan] 🇭🇰 香港4|@ripaojiedian'
   - '[Trojan] 🇭🇰 香港6|@ripaojiedian'
+  - '[VMess] 🇨🇳 台湾|@ripaojiedian'
   - '[Trojan] 🇯🇵 日本3|@ripaojiedian'
   - '[Trojan] 🇯🇵 日本4|@ripaojiedian'
-  - '[VMess] 🇯🇵 日本5|@ripaojiedian'
   - '[Trojan] 🇸🇬 新加坡|@ripaojiedian'
   - '[Trojan] 🇸🇬 新加坡2|@ripaojiedian'
   - '[VMess] 🇸🇬 新加坡3|@ripaojiedian'
   - '[Trojan] 🇺🇸 美国3|@ripaojiedian'
   - '[Trojan] 🇺🇸 美国4|@ripaojiedian'
   - '[VMess] 🇭🇰 香港3|@ripaojiedian 2'
-  - '[VMess] 🇯🇵 日本5|@ripaojiedian 2'
-  - '[Vless] BR_speednode_0001'
-  - '[Trojan] NL_speednode_0010'
-  - '[Trojan] SE_speednode_0012'
-  - '[Trojan] US_speednode_0013'
-  - '[Trojan] US_speednode_0014'
-  - '[Trojan] US_speednode_0015'
-  - '[Trojan] US_speednode_0016'
-  - '[Trojan] US_speednode_0017'
-  - '[Trojan] US_speednode_0018'
-  - '[Trojan] US_speednode_0019'
-  - '[Trojan] US_speednode_0020'
-  - '[Trojan] US_speednode_0021'
+  - '[VMess] 🇨🇳 台湾|@ripaojiedian 2'
+  - '[Vless] GB_speednode_0012'
+  - '[Vless] US_speednode_0023'
+  - '[Trojan] US_speednode_0024'
+  - '[Trojan] US_speednode_0025'
+  - '[Trojan] US_speednode_0026'
+  - '[Trojan] US_speednode_0027'
+  - '[Trojan] US_speednode_0028'
+  - '[Trojan] US_speednode_0030'
+  - '[Trojan] US_speednode_0032'
   type: select
 - interval: 300
   name: ♻️ 自动选择
@@ -411,6 +416,8 @@ proxy-groups:
   - '[Hysteria2] All--@IRAN_V2RAY1'
   - '[Hysteria2] WI-FI--@IRAN_V2RAY1'
   - '[Hysteria2] telegram-@ISVvpn'
+  - '[Hysteria2] 🇩🇪 DE-telegram-@ISVvpn  🌐 لوکیشن:...'
+  - '[Hysteria2] 🇺🇸 usa-telegram-@ISVvpn'
   - '[Hysteria2] کانفیگ های بیشتر در چنل تلگرا...'
   - '[Hysteria2] @IRAN_V2RAY1 #1'
   - '[Hysteria2] All-@IRAN_V2RAY1'
@@ -422,32 +429,30 @@ proxy-groups:
   - '[Hysteria2] Join -> Telegram: @V2Gatee #1'
   - '[Hysteria2] @vpnserverrr👈🏻'
   - '[Hysteria2] Join -> Telegram: @V2Gatee #2'
+  - '[Hysteria2] telegram-@ISVvpn #1'
   - '[VMess] 🇭🇰 香港|@ripaojiedian'
   - '[VMess] 🇭🇰 香港3|@ripaojiedian'
   - '[Trojan] 🇭🇰 香港4|@ripaojiedian'
   - '[Trojan] 🇭🇰 香港6|@ripaojiedian'
+  - '[VMess] 🇨🇳 台湾|@ripaojiedian'
   - '[Trojan] 🇯🇵 日本3|@ripaojiedian'
   - '[Trojan] 🇯🇵 日本4|@ripaojiedian'
-  - '[VMess] 🇯🇵 日本5|@ripaojiedian'
   - '[Trojan] 🇸🇬 新加坡|@ripaojiedian'
   - '[Trojan] 🇸🇬 新加坡2|@ripaojiedian'
   - '[VMess] 🇸🇬 新加坡3|@ripaojiedian'
   - '[Trojan] 🇺🇸 美国3|@ripaojiedian'
   - '[Trojan] 🇺🇸 美国4|@ripaojiedian'
   - '[VMess] 🇭🇰 香港3|@ripaojiedian 2'
-  - '[VMess] 🇯🇵 日本5|@ripaojiedian 2'
-  - '[Vless] BR_speednode_0001'
-  - '[Trojan] NL_speednode_0010'
-  - '[Trojan] SE_speednode_0012'
-  - '[Trojan] US_speednode_0013'
-  - '[Trojan] US_speednode_0014'
-  - '[Trojan] US_speednode_0015'
-  - '[Trojan] US_speednode_0016'
-  - '[Trojan] US_speednode_0017'
-  - '[Trojan] US_speednode_0018'
-  - '[Trojan] US_speednode_0019'
-  - '[Trojan] US_speednode_0020'
-  - '[Trojan] US_speednode_0021'
+  - '[VMess] 🇨🇳 台湾|@ripaojiedian 2'
+  - '[Vless] GB_speednode_0012'
+  - '[Vless] US_speednode_0023'
+  - '[Trojan] US_speednode_0024'
+  - '[Trojan] US_speednode_0025'
+  - '[Trojan] US_speednode_0026'
+  - '[Trojan] US_speednode_0027'
+  - '[Trojan] US_speednode_0028'
+  - '[Trojan] US_speednode_0030'
+  - '[Trojan] US_speednode_0032'
   type: url-test
   url: http://www.gstatic.com/generate_204
 - name: 🎥 NETFLIX
@@ -460,6 +465,8 @@ proxy-groups:
   - '[Hysteria2] All--@IRAN_V2RAY1'
   - '[Hysteria2] WI-FI--@IRAN_V2RAY1'
   - '[Hysteria2] telegram-@ISVvpn'
+  - '[Hysteria2] 🇩🇪 DE-telegram-@ISVvpn  🌐 لوکیشن:...'
+  - '[Hysteria2] 🇺🇸 usa-telegram-@ISVvpn'
   - '[Hysteria2] کانفیگ های بیشتر در چنل تلگرا...'
   - '[Hysteria2] @IRAN_V2RAY1 #1'
   - '[Hysteria2] All-@IRAN_V2RAY1'
@@ -471,32 +478,30 @@ proxy-groups:
   - '[Hysteria2] Join -> Telegram: @V2Gatee #1'
   - '[Hysteria2] @vpnserverrr👈🏻'
   - '[Hysteria2] Join -> Telegram: @V2Gatee #2'
+  - '[Hysteria2] telegram-@ISVvpn #1'
   - '[VMess] 🇭🇰 香港|@ripaojiedian'
   - '[VMess] 🇭🇰 香港3|@ripaojiedian'
   - '[Trojan] 🇭🇰 香港4|@ripaojiedian'
   - '[Trojan] 🇭🇰 香港6|@ripaojiedian'
+  - '[VMess] 🇨🇳 台湾|@ripaojiedian'
   - '[Trojan] 🇯🇵 日本3|@ripaojiedian'
   - '[Trojan] 🇯🇵 日本4|@ripaojiedian'
-  - '[VMess] 🇯🇵 日本5|@ripaojiedian'
   - '[Trojan] 🇸🇬 新加坡|@ripaojiedian'
   - '[Trojan] 🇸🇬 新加坡2|@ripaojiedian'
   - '[VMess] 🇸🇬 新加坡3|@ripaojiedian'
   - '[Trojan] 🇺🇸 美国3|@ripaojiedian'
   - '[Trojan] 🇺🇸 美国4|@ripaojiedian'
   - '[VMess] 🇭🇰 香港3|@ripaojiedian 2'
-  - '[VMess] 🇯🇵 日本5|@ripaojiedian 2'
-  - '[Vless] BR_speednode_0001'
-  - '[Trojan] NL_speednode_0010'
-  - '[Trojan] SE_speednode_0012'
-  - '[Trojan] US_speednode_0013'
-  - '[Trojan] US_speednode_0014'
-  - '[Trojan] US_speednode_0015'
-  - '[Trojan] US_speednode_0016'
-  - '[Trojan] US_speednode_0017'
-  - '[Trojan] US_speednode_0018'
-  - '[Trojan] US_speednode_0019'
-  - '[Trojan] US_speednode_0020'
-  - '[Trojan] US_speednode_0021'
+  - '[VMess] 🇨🇳 台湾|@ripaojiedian 2'
+  - '[Vless] GB_speednode_0012'
+  - '[Vless] US_speednode_0023'
+  - '[Trojan] US_speednode_0024'
+  - '[Trojan] US_speednode_0025'
+  - '[Trojan] US_speednode_0026'
+  - '[Trojan] US_speednode_0027'
+  - '[Trojan] US_speednode_0028'
+  - '[Trojan] US_speednode_0030'
+  - '[Trojan] US_speednode_0032'
   type: select
 - name: ⛔️ 广告拦截
   proxies:
@@ -520,6 +525,8 @@ proxy-groups:
   - '[Hysteria2] All--@IRAN_V2RAY1'
   - '[Hysteria2] WI-FI--@IRAN_V2RAY1'
   - '[Hysteria2] telegram-@ISVvpn'
+  - '[Hysteria2] 🇩🇪 DE-telegram-@ISVvpn  🌐 لوکیشن:...'
+  - '[Hysteria2] 🇺🇸 usa-telegram-@ISVvpn'
   - '[Hysteria2] کانفیگ های بیشتر در چنل تلگرا...'
   - '[Hysteria2] @IRAN_V2RAY1 #1'
   - '[Hysteria2] All-@IRAN_V2RAY1'
@@ -531,32 +538,30 @@ proxy-groups:
   - '[Hysteria2] Join -> Telegram: @V2Gatee #1'
   - '[Hysteria2] @vpnserverrr👈🏻'
   - '[Hysteria2] Join -> Telegram: @V2Gatee #2'
+  - '[Hysteria2] telegram-@ISVvpn #1'
   - '[VMess] 🇭🇰 香港|@ripaojiedian'
   - '[VMess] 🇭🇰 香港3|@ripaojiedian'
   - '[Trojan] 🇭🇰 香港4|@ripaojiedian'
   - '[Trojan] 🇭🇰 香港6|@ripaojiedian'
+  - '[VMess] 🇨🇳 台湾|@ripaojiedian'
   - '[Trojan] 🇯🇵 日本3|@ripaojiedian'
   - '[Trojan] 🇯🇵 日本4|@ripaojiedian'
-  - '[VMess] 🇯🇵 日本5|@ripaojiedian'
   - '[Trojan] 🇸🇬 新加坡|@ripaojiedian'
   - '[Trojan] 🇸🇬 新加坡2|@ripaojiedian'
   - '[VMess] 🇸🇬 新加坡3|@ripaojiedian'
   - '[Trojan] 🇺🇸 美国3|@ripaojiedian'
   - '[Trojan] 🇺🇸 美国4|@ripaojiedian'
   - '[VMess] 🇭🇰 香港3|@ripaojiedian 2'
-  - '[VMess] 🇯🇵 日本5|@ripaojiedian 2'
-  - '[Vless] BR_speednode_0001'
-  - '[Trojan] NL_speednode_0010'
-  - '[Trojan] SE_speednode_0012'
-  - '[Trojan] US_speednode_0013'
-  - '[Trojan] US_speednode_0014'
-  - '[Trojan] US_speednode_0015'
-  - '[Trojan] US_speednode_0016'
-  - '[Trojan] US_speednode_0017'
-  - '[Trojan] US_speednode_0018'
-  - '[Trojan] US_speednode_0019'
-  - '[Trojan] US_speednode_0020'
-  - '[Trojan] US_speednode_0021'
+  - '[VMess] 🇨🇳 台湾|@ripaojiedian 2'
+  - '[Vless] GB_speednode_0012'
+  - '[Vless] US_speednode_0023'
+  - '[Trojan] US_speednode_0024'
+  - '[Trojan] US_speednode_0025'
+  - '[Trojan] US_speednode_0026'
+  - '[Trojan] US_speednode_0027'
+  - '[Trojan] US_speednode_0028'
+  - '[Trojan] US_speednode_0030'
+  - '[Trojan] US_speednode_0032'
   type: select
 - name: 🌏 国内媒体
   proxies:
@@ -565,7 +570,9 @@ proxy-groups:
   - '[VMess] 🇭🇰 香港3|@ripaojiedian'
   - '[Trojan] 🇭🇰 香港4|@ripaojiedian'
   - '[Trojan] 🇭🇰 香港6|@ripaojiedian'
+  - '[VMess] 🇨🇳 台湾|@ripaojiedian'
   - '[VMess] 🇭🇰 香港3|@ripaojiedian 2'
+  - '[VMess] 🇨🇳 台湾|@ripaojiedian 2'
   - 🔰 节点选择
   type: select
 - name: Ⓜ️ 微软服务
@@ -577,6 +584,8 @@ proxy-groups:
   - '[Hysteria2] All--@IRAN_V2RAY1'
   - '[Hysteria2] WI-FI--@IRAN_V2RAY1'
   - '[Hysteria2] telegram-@ISVvpn'
+  - '[Hysteria2] 🇩🇪 DE-telegram-@ISVvpn  🌐 لوکیشن:...'
+  - '[Hysteria2] 🇺🇸 usa-telegram-@ISVvpn'
   - '[Hysteria2] کانفیگ های بیشتر در چنل تلگرا...'
   - '[Hysteria2] @IRAN_V2RAY1 #1'
   - '[Hysteria2] All-@IRAN_V2RAY1'
@@ -588,32 +597,30 @@ proxy-groups:
   - '[Hysteria2] Join -> Telegram: @V2Gatee #1'
   - '[Hysteria2] @vpnserverrr👈🏻'
   - '[Hysteria2] Join -> Telegram: @V2Gatee #2'
+  - '[Hysteria2] telegram-@ISVvpn #1'
   - '[VMess] 🇭🇰 香港|@ripaojiedian'
   - '[VMess] 🇭🇰 香港3|@ripaojiedian'
   - '[Trojan] 🇭🇰 香港4|@ripaojiedian'
   - '[Trojan] 🇭🇰 香港6|@ripaojiedian'
+  - '[VMess] 🇨🇳 台湾|@ripaojiedian'
   - '[Trojan] 🇯🇵 日本3|@ripaojiedian'
   - '[Trojan] 🇯🇵 日本4|@ripaojiedian'
-  - '[VMess] 🇯🇵 日本5|@ripaojiedian'
   - '[Trojan] 🇸🇬 新加坡|@ripaojiedian'
   - '[Trojan] 🇸🇬 新加坡2|@ripaojiedian'
   - '[VMess] 🇸🇬 新加坡3|@ripaojiedian'
   - '[Trojan] 🇺🇸 美国3|@ripaojiedian'
   - '[Trojan] 🇺🇸 美国4|@ripaojiedian'
   - '[VMess] 🇭🇰 香港3|@ripaojiedian 2'
-  - '[VMess] 🇯🇵 日本5|@ripaojiedian 2'
-  - '[Vless] BR_speednode_0001'
-  - '[Trojan] NL_speednode_0010'
-  - '[Trojan] SE_speednode_0012'
-  - '[Trojan] US_speednode_0013'
-  - '[Trojan] US_speednode_0014'
-  - '[Trojan] US_speednode_0015'
-  - '[Trojan] US_speednode_0016'
-  - '[Trojan] US_speednode_0017'
-  - '[Trojan] US_speednode_0018'
-  - '[Trojan] US_speednode_0019'
-  - '[Trojan] US_speednode_0020'
-  - '[Trojan] US_speednode_0021'
+  - '[VMess] 🇨🇳 台湾|@ripaojiedian 2'
+  - '[Vless] GB_speednode_0012'
+  - '[Vless] US_speednode_0023'
+  - '[Trojan] US_speednode_0024'
+  - '[Trojan] US_speednode_0025'
+  - '[Trojan] US_speednode_0026'
+  - '[Trojan] US_speednode_0027'
+  - '[Trojan] US_speednode_0028'
+  - '[Trojan] US_speednode_0030'
+  - '[Trojan] US_speednode_0032'
   type: select
 - name: 📲 电报信息
   proxies:
@@ -624,6 +631,8 @@ proxy-groups:
   - '[Hysteria2] All--@IRAN_V2RAY1'
   - '[Hysteria2] WI-FI--@IRAN_V2RAY1'
   - '[Hysteria2] telegram-@ISVvpn'
+  - '[Hysteria2] 🇩🇪 DE-telegram-@ISVvpn  🌐 لوکیشن:...'
+  - '[Hysteria2] 🇺🇸 usa-telegram-@ISVvpn'
   - '[Hysteria2] کانفیگ های بیشتر در چنل تلگرا...'
   - '[Hysteria2] @IRAN_V2RAY1 #1'
   - '[Hysteria2] All-@IRAN_V2RAY1'
@@ -635,32 +644,30 @@ proxy-groups:
   - '[Hysteria2] Join -> Telegram: @V2Gatee #1'
   - '[Hysteria2] @vpnserverrr👈🏻'
   - '[Hysteria2] Join -> Telegram: @V2Gatee #2'
+  - '[Hysteria2] telegram-@ISVvpn #1'
   - '[VMess] 🇭🇰 香港|@ripaojiedian'
   - '[VMess] 🇭🇰 香港3|@ripaojiedian'
   - '[Trojan] 🇭🇰 香港4|@ripaojiedian'
   - '[Trojan] 🇭🇰 香港6|@ripaojiedian'
+  - '[VMess] 🇨🇳 台湾|@ripaojiedian'
   - '[Trojan] 🇯🇵 日本3|@ripaojiedian'
   - '[Trojan] 🇯🇵 日本4|@ripaojiedian'
-  - '[VMess] 🇯🇵 日本5|@ripaojiedian'
   - '[Trojan] 🇸🇬 新加坡|@ripaojiedian'
   - '[Trojan] 🇸🇬 新加坡2|@ripaojiedian'
   - '[VMess] 🇸🇬 新加坡3|@ripaojiedian'
   - '[Trojan] 🇺🇸 美国3|@ripaojiedian'
   - '[Trojan] 🇺🇸 美国4|@ripaojiedian'
   - '[VMess] 🇭🇰 香港3|@ripaojiedian 2'
-  - '[VMess] 🇯🇵 日本5|@ripaojiedian 2'
-  - '[Vless] BR_speednode_0001'
-  - '[Trojan] NL_speednode_0010'
-  - '[Trojan] SE_speednode_0012'
-  - '[Trojan] US_speednode_0013'
-  - '[Trojan] US_speednode_0014'
-  - '[Trojan] US_speednode_0015'
-  - '[Trojan] US_speednode_0016'
-  - '[Trojan] US_speednode_0017'
-  - '[Trojan] US_speednode_0018'
-  - '[Trojan] US_speednode_0019'
-  - '[Trojan] US_speednode_0020'
-  - '[Trojan] US_speednode_0021'
+  - '[VMess] 🇨🇳 台湾|@ripaojiedian 2'
+  - '[Vless] GB_speednode_0012'
+  - '[Vless] US_speednode_0023'
+  - '[Trojan] US_speednode_0024'
+  - '[Trojan] US_speednode_0025'
+  - '[Trojan] US_speednode_0026'
+  - '[Trojan] US_speednode_0027'
+  - '[Trojan] US_speednode_0028'
+  - '[Trojan] US_speednode_0030'
+  - '[Trojan] US_speednode_0032'
   type: select
 - name: 🍎 苹果服务
   proxies:
@@ -672,6 +679,8 @@ proxy-groups:
   - '[Hysteria2] All--@IRAN_V2RAY1'
   - '[Hysteria2] WI-FI--@IRAN_V2RAY1'
   - '[Hysteria2] telegram-@ISVvpn'
+  - '[Hysteria2] 🇩🇪 DE-telegram-@ISVvpn  🌐 لوکیشن:...'
+  - '[Hysteria2] 🇺🇸 usa-telegram-@ISVvpn'
   - '[Hysteria2] کانفیگ های بیشتر در چنل تلگرا...'
   - '[Hysteria2] @IRAN_V2RAY1 #1'
   - '[Hysteria2] All-@IRAN_V2RAY1'
@@ -683,32 +692,30 @@ proxy-groups:
   - '[Hysteria2] Join -> Telegram: @V2Gatee #1'
   - '[Hysteria2] @vpnserverrr👈🏻'
   - '[Hysteria2] Join -> Telegram: @V2Gatee #2'
+  - '[Hysteria2] telegram-@ISVvpn #1'
   - '[VMess] 🇭🇰 香港|@ripaojiedian'
   - '[VMess] 🇭🇰 香港3|@ripaojiedian'
   - '[Trojan] 🇭🇰 香港4|@ripaojiedian'
   - '[Trojan] 🇭🇰 香港6|@ripaojiedian'
+  - '[VMess] 🇨🇳 台湾|@ripaojiedian'
   - '[Trojan] 🇯🇵 日本3|@ripaojiedian'
   - '[Trojan] 🇯🇵 日本4|@ripaojiedian'
-  - '[VMess] 🇯🇵 日本5|@ripaojiedian'
   - '[Trojan] 🇸🇬 新加坡|@ripaojiedian'
   - '[Trojan] 🇸🇬 新加坡2|@ripaojiedian'
   - '[VMess] 🇸🇬 新加坡3|@ripaojiedian'
   - '[Trojan] 🇺🇸 美国3|@ripaojiedian'
   - '[Trojan] 🇺🇸 美国4|@ripaojiedian'
   - '[VMess] 🇭🇰 香港3|@ripaojiedian 2'
-  - '[VMess] 🇯🇵 日本5|@ripaojiedian 2'
-  - '[Vless] BR_speednode_0001'
-  - '[Trojan] NL_speednode_0010'
-  - '[Trojan] SE_speednode_0012'
-  - '[Trojan] US_speednode_0013'
-  - '[Trojan] US_speednode_0014'
-  - '[Trojan] US_speednode_0015'
-  - '[Trojan] US_speednode_0016'
-  - '[Trojan] US_speednode_0017'
-  - '[Trojan] US_speednode_0018'
-  - '[Trojan] US_speednode_0019'
-  - '[Trojan] US_speednode_0020'
-  - '[Trojan] US_speednode_0021'
+  - '[VMess] 🇨🇳 台湾|@ripaojiedian 2'
+  - '[Vless] GB_speednode_0012'
+  - '[Vless] US_speednode_0023'
+  - '[Trojan] US_speednode_0024'
+  - '[Trojan] US_speednode_0025'
+  - '[Trojan] US_speednode_0026'
+  - '[Trojan] US_speednode_0027'
+  - '[Trojan] US_speednode_0028'
+  - '[Trojan] US_speednode_0030'
+  - '[Trojan] US_speednode_0032'
   type: select
 - name: 🎯 全球直连
   proxies:
@@ -729,6 +736,8 @@ proxy-groups:
   - '[Hysteria2] All--@IRAN_V2RAY1'
   - '[Hysteria2] WI-FI--@IRAN_V2RAY1'
   - '[Hysteria2] telegram-@ISVvpn'
+  - '[Hysteria2] 🇩🇪 DE-telegram-@ISVvpn  🌐 لوکیشن:...'
+  - '[Hysteria2] 🇺🇸 usa-telegram-@ISVvpn'
   - '[Hysteria2] کانفیگ های بیشتر در چنل تلگرا...'
   - '[Hysteria2] @IRAN_V2RAY1 #1'
   - '[Hysteria2] All-@IRAN_V2RAY1'
@@ -740,32 +749,30 @@ proxy-groups:
   - '[Hysteria2] Join -> Telegram: @V2Gatee #1'
   - '[Hysteria2] @vpnserverrr👈🏻'
   - '[Hysteria2] Join -> Telegram: @V2Gatee #2'
+  - '[Hysteria2] telegram-@ISVvpn #1'
   - '[VMess] 🇭🇰 香港|@ripaojiedian'
   - '[VMess] 🇭🇰 香港3|@ripaojiedian'
   - '[Trojan] 🇭🇰 香港4|@ripaojiedian'
   - '[Trojan] 🇭🇰 香港6|@ripaojiedian'
+  - '[VMess] 🇨🇳 台湾|@ripaojiedian'
   - '[Trojan] 🇯🇵 日本3|@ripaojiedian'
   - '[Trojan] 🇯🇵 日本4|@ripaojiedian'
-  - '[VMess] 🇯🇵 日本5|@ripaojiedian'
   - '[Trojan] 🇸🇬 新加坡|@ripaojiedian'
   - '[Trojan] 🇸🇬 新加坡2|@ripaojiedian'
   - '[VMess] 🇸🇬 新加坡3|@ripaojiedian'
   - '[Trojan] 🇺🇸 美国3|@ripaojiedian'
   - '[Trojan] 🇺🇸 美国4|@ripaojiedian'
   - '[VMess] 🇭🇰 香港3|@ripaojiedian 2'
-  - '[VMess] 🇯🇵 日本5|@ripaojiedian 2'
-  - '[Vless] BR_speednode_0001'
-  - '[Trojan] NL_speednode_0010'
-  - '[Trojan] SE_speednode_0012'
-  - '[Trojan] US_speednode_0013'
-  - '[Trojan] US_speednode_0014'
-  - '[Trojan] US_speednode_0015'
-  - '[Trojan] US_speednode_0016'
-  - '[Trojan] US_speednode_0017'
-  - '[Trojan] US_speednode_0018'
-  - '[Trojan] US_speednode_0019'
-  - '[Trojan] US_speednode_0020'
-  - '[Trojan] US_speednode_0021'
+  - '[VMess] 🇨🇳 台湾|@ripaojiedian 2'
+  - '[Vless] GB_speednode_0012'
+  - '[Vless] US_speednode_0023'
+  - '[Trojan] US_speednode_0024'
+  - '[Trojan] US_speednode_0025'
+  - '[Trojan] US_speednode_0026'
+  - '[Trojan] US_speednode_0027'
+  - '[Trojan] US_speednode_0028'
+  - '[Trojan] US_speednode_0030'
+  - '[Trojan] US_speednode_0032'
   type: select
 rules:
 - DOMAIN-SUFFIX,local,🎯 全球直连
