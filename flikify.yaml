@@ -40,6 +40,38 @@ proxies:
   cipher: auto
   name: '[VMess] 🇨🇳 江苏省 移动'
   network: ws
+  port: 30829
+  server: v29.heduian.link
+  skip-cert-verify: true
+  tfo: false
+  tls: false
+  type: vmess
+  udp: true
+  uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
+  ws-opts:
+    headers:
+      Host: v29.heduian.link
+    path: /oooo
+- alterId: 2
+  cipher: auto
+  name: '[VMess] 🇨🇳 江苏省 移动 2'
+  network: ws
+  port: 30809
+  server: v9.heduian.link
+  skip-cert-verify: true
+  tfo: false
+  tls: false
+  type: vmess
+  udp: true
+  uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
+  ws-opts:
+    headers:
+      Host: baidu.com
+    path: /oooo
+- alterId: 2
+  cipher: auto
+  name: '[VMess] 🇨🇳 江苏省 移动 3'
+  network: ws
   port: 30808
   server: v8.heduian.link
   skip-cert-verify: true
@@ -68,6 +100,20 @@ proxies:
     headers:
       Host: flkf2.shabijichang.com
     path: /
+- alterId: 0
+  cipher: auto
+  name: '[VMess] 🇫🇷 法国 国际航空电讯集团公司(SITA)'
+  network: ws
+  port: 443
+  server: 57.128.189.240
+  skip-cert-verify: true
+  tfo: false
+  tls: true
+  type: vmess
+  udp: true
+  uuid: 03fcc618-b93d-6796-6aed-8a38c975d581
+  ws-opts:
+    path: /linkvws
 - alterId: 0
   cipher: auto
   name: '[VMess] 🇬🇧 _US_美国->🇬🇧_GB_英国_1'
@@ -100,6 +146,22 @@ proxies:
     headers:
       Host: ld2.shabijichang.com
     path: /
+- alterId: 2
+  cipher: auto
+  name: '[VMess] 🇭🇰 香港 电讯盈科有限公司'
+  network: ws
+  port: 30807
+  server: v10.heduian.link
+  skip-cert-verify: true
+  tfo: false
+  tls: false
+  type: vmess
+  udp: true
+  uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
+  ws-opts:
+    headers:
+      Host: baidu.com
+    path: /oooo
 - alterId: 0
   cipher: auto
   name: '[VMess] 🇮🇳 _US_美国->🇮🇳_IN_印度_1'
@@ -160,22 +222,17 @@ proxies:
     headers:
       Host: mm3.shabijichang.com
     path: /
-- alterId: 0
+- alterId: 1
   cipher: auto
-  name: '[VMess] 🇯🇵 日本 东京Amazon数据中心'
-  network: ws
-  port: 68
-  server: awsjp2.iamlazy.vip
+  name: '[VMess] 🇯🇵 日本 V2CROSS.COM'
+  port: 28783
+  server: a54b5-g01.jp07-sh-vm0.entry.fr0528.art
   skip-cert-verify: true
   tfo: false
   tls: false
   type: vmess
   udp: true
-  uuid: f1d9d662-7fc9-4995-b047-05c98ad05286
-  ws-opts:
-    headers:
-      Host: tms.dingtalk.com
-    path: /?ed=2048
+  uuid: 91f34ad8-b60e-3955-8de4-39da56944866
 - alterId: 64
   cipher: auto
   name: '[VMess] 🇳🇱 _US_美国->🇳🇱_NL_荷兰'
@@ -282,18 +339,15 @@ proxies:
     path: /
 - alterId: 0
   cipher: auto
-  name: '[VMess] 🇺🇸 美国 华盛顿Cogent通信公司'
-  network: ws
-  port: 39700
-  server: 38.93.204.250
+  name: '[VMess] 🇺🇸 美国 V2CROSS.COM'
+  port: 45263
+  server: 216.227.168.157
   skip-cert-verify: true
   tfo: false
   tls: false
   type: vmess
   udp: true
-  uuid: 8a233049-d82d-4830-d006-f7a2b6b97c53
-  ws-opts:
-    path: /
+  uuid: 469e0b31-30c3-4dab-800d-711232634ce1
 proxy-groups:
 - name: 🚀 全球互联
   proxies:
@@ -309,14 +363,18 @@ proxy-groups:
   - '[VMess] 🇨🇦 _CA_加拿大'
   - '[VMess] 🇨🇳 _TW_台湾->🇺🇸_US_美国'
   - '[VMess] 🇨🇳 江苏省 移动'
+  - '[VMess] 🇨🇳 江苏省 移动 2'
+  - '[VMess] 🇨🇳 江苏省 移动 3'
   - '[VMess] 🇩🇪 _US_美国->🇩🇪_DE_德国'
+  - '[VMess] 🇫🇷 法国 国际航空电讯集团公司(SITA)'
   - '[VMess] 🇬🇧 _US_美国->🇬🇧_GB_英国_1'
   - '[VMess] 🇬🇧 _US_美国->🇬🇧_GB_英国_2'
+  - '[VMess] 🇭🇰 香港 电讯盈科有限公司'
   - '[VMess] 🇮🇳 _US_美国->🇮🇳_IN_印度_1'
   - '[VMess] 🇮🇳 _US_美国->🇮🇳_IN_印度_2'
   - '[VMess] 🇮🇳 _US_美国->🇮🇳_IN_印度_3'
   - '[VMess] 🇮🇳 _US_美国->🇮🇳_IN_印度_4'
-  - '[VMess] 🇯🇵 日本 东京Amazon数据中心'
+  - '[VMess] 🇯🇵 日本 V2CROSS.COM'
   - '[VMess] 🇳🇱 _US_美国->🇳🇱_NL_荷兰'
   - '[VMess] 🇸🇦 _US_美国->🇸🇦_SA_沙特阿拉伯'
   - '[VMess] 🇺🇸 _US_美国_1'
@@ -324,7 +382,7 @@ proxy-groups:
   - '[VMess] 🇺🇸 _US_美国_3'
   - '[VMess] 🇺🇸 _US_美国_4'
   - '[VMess] 🇺🇸 _US_美国_5'
-  - '[VMess] 🇺🇸 美国 华盛顿Cogent通信公司'
+  - '[VMess] 🇺🇸 美国 V2CROSS.COM'
   type: select
 - name: 🎥 Netflix
   proxies:
@@ -336,14 +394,18 @@ proxy-groups:
   - '[VMess] 🇨🇦 _CA_加拿大'
   - '[VMess] 🇨🇳 _TW_台湾->🇺🇸_US_美国'
   - '[VMess] 🇨🇳 江苏省 移动'
+  - '[VMess] 🇨🇳 江苏省 移动 2'
+  - '[VMess] 🇨🇳 江苏省 移动 3'
   - '[VMess] 🇩🇪 _US_美国->🇩🇪_DE_德国'
+  - '[VMess] 🇫🇷 法国 国际航空电讯集团公司(SITA)'
   - '[VMess] 🇬🇧 _US_美国->🇬🇧_GB_英国_1'
   - '[VMess] 🇬🇧 _US_美国->🇬🇧_GB_英国_2'
+  - '[VMess] 🇭🇰 香港 电讯盈科有限公司'
   - '[VMess] 🇮🇳 _US_美国->🇮🇳_IN_印度_1'
   - '[VMess] 🇮🇳 _US_美国->🇮🇳_IN_印度_2'
   - '[VMess] 🇮🇳 _US_美国->🇮🇳_IN_印度_3'
   - '[VMess] 🇮🇳 _US_美国->🇮🇳_IN_印度_4'
-  - '[VMess] 🇯🇵 日本 东京Amazon数据中心'
+  - '[VMess] 🇯🇵 日本 V2CROSS.COM'
   - '[VMess] 🇳🇱 _US_美国->🇳🇱_NL_荷兰'
   - '[VMess] 🇸🇦 _US_美国->🇸🇦_SA_沙特阿拉伯'
   - '[VMess] 🇺🇸 _US_美国_1'
@@ -351,7 +413,7 @@ proxy-groups:
   - '[VMess] 🇺🇸 _US_美国_3'
   - '[VMess] 🇺🇸 _US_美国_4'
   - '[VMess] 🇺🇸 _US_美国_5'
-  - '[VMess] 🇺🇸 美国 华盛顿Cogent通信公司'
+  - '[VMess] 🇺🇸 美国 V2CROSS.COM'
   type: select
 - name: 📹 Youtube
   proxies:
@@ -363,14 +425,18 @@ proxy-groups:
   - '[VMess] 🇨🇦 _CA_加拿大'
   - '[VMess] 🇨🇳 _TW_台湾->🇺🇸_US_美国'
   - '[VMess] 🇨🇳 江苏省 移动'
+  - '[VMess] 🇨🇳 江苏省 移动 2'
+  - '[VMess] 🇨🇳 江苏省 移动 3'
   - '[VMess] 🇩🇪 _US_美国->🇩🇪_DE_德国'
+  - '[VMess] 🇫🇷 法国 国际航空电讯集团公司(SITA)'
   - '[VMess] 🇬🇧 _US_美国->🇬🇧_GB_英国_1'
   - '[VMess] 🇬🇧 _US_美国->🇬🇧_GB_英国_2'
+  - '[VMess] 🇭🇰 香港 电讯盈科有限公司'
   - '[VMess] 🇮🇳 _US_美国->🇮🇳_IN_印度_1'
   - '[VMess] 🇮🇳 _US_美国->🇮🇳_IN_印度_2'
   - '[VMess] 🇮🇳 _US_美国->🇮🇳_IN_印度_3'
   - '[VMess] 🇮🇳 _US_美国->🇮🇳_IN_印度_4'
-  - '[VMess] 🇯🇵 日本 东京Amazon数据中心'
+  - '[VMess] 🇯🇵 日本 V2CROSS.COM'
   - '[VMess] 🇳🇱 _US_美国->🇳🇱_NL_荷兰'
   - '[VMess] 🇸🇦 _US_美国->🇸🇦_SA_沙特阿拉伯'
   - '[VMess] 🇺🇸 _US_美国_1'
@@ -378,7 +444,7 @@ proxy-groups:
   - '[VMess] 🇺🇸 _US_美国_3'
   - '[VMess] 🇺🇸 _US_美国_4'
   - '[VMess] 🇺🇸 _US_美国_5'
-  - '[VMess] 🇺🇸 美国 华盛顿Cogent通信公司'
+  - '[VMess] 🇺🇸 美国 V2CROSS.COM'
   type: select
 - name: ▶️ Disney+
   proxies:
@@ -390,14 +456,18 @@ proxy-groups:
   - '[VMess] 🇨🇦 _CA_加拿大'
   - '[VMess] 🇨🇳 _TW_台湾->🇺🇸_US_美国'
   - '[VMess] 🇨🇳 江苏省 移动'
+  - '[VMess] 🇨🇳 江苏省 移动 2'
+  - '[VMess] 🇨🇳 江苏省 移动 3'
   - '[VMess] 🇩🇪 _US_美国->🇩🇪_DE_德国'
+  - '[VMess] 🇫🇷 法国 国际航空电讯集团公司(SITA)'
   - '[VMess] 🇬🇧 _US_美国->🇬🇧_GB_英国_1'
   - '[VMess] 🇬🇧 _US_美国->🇬🇧_GB_英国_2'
+  - '[VMess] 🇭🇰 香港 电讯盈科有限公司'
   - '[VMess] 🇮🇳 _US_美国->🇮🇳_IN_印度_1'
   - '[VMess] 🇮🇳 _US_美国->🇮🇳_IN_印度_2'
   - '[VMess] 🇮🇳 _US_美国->🇮🇳_IN_印度_3'
   - '[VMess] 🇮🇳 _US_美国->🇮🇳_IN_印度_4'
-  - '[VMess] 🇯🇵 日本 东京Amazon数据中心'
+  - '[VMess] 🇯🇵 日本 V2CROSS.COM'
   - '[VMess] 🇳🇱 _US_美国->🇳🇱_NL_荷兰'
   - '[VMess] 🇸🇦 _US_美国->🇸🇦_SA_沙特阿拉伯'
   - '[VMess] 🇺🇸 _US_美国_1'
@@ -405,7 +475,7 @@ proxy-groups:
   - '[VMess] 🇺🇸 _US_美国_3'
   - '[VMess] 🇺🇸 _US_美国_4'
   - '[VMess] 🇺🇸 _US_美国_5'
-  - '[VMess] 🇺🇸 美国 华盛顿Cogent通信公司'
+  - '[VMess] 🇺🇸 美国 V2CROSS.COM'
   type: select
 - name: 🌍 国外媒体
   proxies:
@@ -418,14 +488,18 @@ proxy-groups:
   - '[VMess] 🇨🇦 _CA_加拿大'
   - '[VMess] 🇨🇳 _TW_台湾->🇺🇸_US_美国'
   - '[VMess] 🇨🇳 江苏省 移动'
+  - '[VMess] 🇨🇳 江苏省 移动 2'
+  - '[VMess] 🇨🇳 江苏省 移动 3'
   - '[VMess] 🇩🇪 _US_美国->🇩🇪_DE_德国'
+  - '[VMess] 🇫🇷 法国 国际航空电讯集团公司(SITA)'
   - '[VMess] 🇬🇧 _US_美国->🇬🇧_GB_英国_1'
   - '[VMess] 🇬🇧 _US_美国->🇬🇧_GB_英国_2'
+  - '[VMess] 🇭🇰 香港 电讯盈科有限公司'
   - '[VMess] 🇮🇳 _US_美国->🇮🇳_IN_印度_1'
   - '[VMess] 🇮🇳 _US_美国->🇮🇳_IN_印度_2'
   - '[VMess] 🇮🇳 _US_美国->🇮🇳_IN_印度_3'
   - '[VMess] 🇮🇳 _US_美国->🇮🇳_IN_印度_4'
-  - '[VMess] 🇯🇵 日本 东京Amazon数据中心'
+  - '[VMess] 🇯🇵 日本 V2CROSS.COM'
   - '[VMess] 🇳🇱 _US_美国->🇳🇱_NL_荷兰'
   - '[VMess] 🇸🇦 _US_美国->🇸🇦_SA_沙特阿拉伯'
   - '[VMess] 🇺🇸 _US_美国_1'
@@ -433,7 +507,7 @@ proxy-groups:
   - '[VMess] 🇺🇸 _US_美国_3'
   - '[VMess] 🇺🇸 _US_美国_4'
   - '[VMess] 🇺🇸 _US_美国_5'
-  - '[VMess] 🇺🇸 美国 华盛顿Cogent通信公司'
+  - '[VMess] 🇺🇸 美国 V2CROSS.COM'
   type: select
 - name: 📲 Telegram
   proxies:
@@ -448,6 +522,7 @@ proxy-groups:
   proxies:
   - DIRECT
   - '[VMess] 🇨🇳 _TW_台湾->🇺🇸_US_美国'
+  - '[VMess] 🇭🇰 香港 电讯盈科有限公司'
   type: select
 - name: Ⓜ️ 微软服务
   proxies:
@@ -460,14 +535,18 @@ proxy-groups:
   - '[VMess] 🇨🇦 _CA_加拿大'
   - '[VMess] 🇨🇳 _TW_台湾->🇺🇸_US_美国'
   - '[VMess] 🇨🇳 江苏省 移动'
+  - '[VMess] 🇨🇳 江苏省 移动 2'
+  - '[VMess] 🇨🇳 江苏省 移动 3'
   - '[VMess] 🇩🇪 _US_美国->🇩🇪_DE_德国'
+  - '[VMess] 🇫🇷 法国 国际航空电讯集团公司(SITA)'
   - '[VMess] 🇬🇧 _US_美国->🇬🇧_GB_英国_1'
   - '[VMess] 🇬🇧 _US_美国->🇬🇧_GB_英国_2'
+  - '[VMess] 🇭🇰 香港 电讯盈科有限公司'
   - '[VMess] 🇮🇳 _US_美国->🇮🇳_IN_印度_1'
   - '[VMess] 🇮🇳 _US_美国->🇮🇳_IN_印度_2'
   - '[VMess] 🇮🇳 _US_美国->🇮🇳_IN_印度_3'
   - '[VMess] 🇮🇳 _US_美国->🇮🇳_IN_印度_4'
-  - '[VMess] 🇯🇵 日本 东京Amazon数据中心'
+  - '[VMess] 🇯🇵 日本 V2CROSS.COM'
   - '[VMess] 🇳🇱 _US_美国->🇳🇱_NL_荷兰'
   - '[VMess] 🇸🇦 _US_美国->🇸🇦_SA_沙特阿拉伯'
   - '[VMess] 🇺🇸 _US_美国_1'
@@ -475,15 +554,15 @@ proxy-groups:
   - '[VMess] 🇺🇸 _US_美国_3'
   - '[VMess] 🇺🇸 _US_美国_4'
   - '[VMess] 🇺🇸 _US_美国_5'
-  - '[VMess] 🇺🇸 美国 华盛顿Cogent通信公司'
+  - '[VMess] 🇺🇸 美国 V2CROSS.COM'
   type: select
 - name: 🇭🇰 香港
   proxies:
-  - DIRECT
+  - '[VMess] 🇭🇰 香港 电讯盈科有限公司'
   type: select
 - name: 🇯🇵 日本
   proxies:
-  - '[VMess] 🇯🇵 日本 东京Amazon数据中心'
+  - '[VMess] 🇯🇵 日本 V2CROSS.COM'
   type: select
 - name: 🇺🇲 美国
   proxies:
@@ -502,7 +581,7 @@ proxy-groups:
   - '[VMess] 🇺🇸 _US_美国_3'
   - '[VMess] 🇺🇸 _US_美国_4'
   - '[VMess] 🇺🇸 _US_美国_5'
-  - '[VMess] 🇺🇸 美国 华盛顿Cogent通信公司'
+  - '[VMess] 🇺🇸 美国 V2CROSS.COM'
   type: select
 - name: 🇹🇼 台湾
   proxies:
