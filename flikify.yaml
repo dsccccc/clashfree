@@ -36,22 +36,15 @@ proxies:
   uuid: efcb7d7c-c582-46f5-eeff-0e553342528d
   ws-opts:
     path: /tg@hkaa0
-- alterId: 2
-  cipher: auto
-  name: '[VMess] 🇨🇳 江苏省 移动'
-  network: ws
-  port: 30808
-  server: v8.heduian.link
+- name: '[Trojan] 🇨🇳 广东省广州市 UCloud'
+  password: 2fd0d127-266d-4d0b-b453-f94659a132fc
+  port: 12000
+  server: 106.75.134.1
   skip-cert-verify: true
+  sni: aliyun.com
   tfo: false
-  tls: false
-  type: vmess
+  type: trojan
   udp: true
-  uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
-  ws-opts:
-    headers:
-      Host: v8.heduian.link
-    path: /oooo
 - alterId: 0
   cipher: auto
   name: '[VMess] 🇩🇪 _US_美国->🇩🇪_DE_德国'
@@ -104,18 +97,18 @@ proxies:
   cipher: auto
   name: '[VMess] 🇭🇰 香港 电讯盈科有限公司'
   network: ws
-  port: 80
-  server: 1e426046-t0fds0-t12cnj-1ol97.hk.p5pv.com
+  port: 30807
+  server: v10.heduian.link
   skip-cert-verify: true
   tfo: false
   tls: false
   type: vmess
   udp: true
-  uuid: 93fb69fc-77cf-11ee-85ee-f23c91369f2d
+  uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
   ws-opts:
     headers:
-      Host: broadcastlv.chat.bilibili.com
-    path: /
+      Host: baidu.com
+    path: /oooo
 - alterId: 0
   cipher: auto
   name: '[VMess] 🇮🇳 _US_美国->🇮🇳_IN_印度_1'
@@ -280,20 +273,20 @@ proxies:
   uuid: c458695d-6908-45c3-9512-e0c46418454c
   ws-opts:
     path: /
-- alterId: 0
-  cipher: auto
-  name: '[VMess] 🇺🇸 美国 纽约州伊利县威廉斯维尔村ColoCrossing有限公司'
+- name: '[Trojan] 🇺🇸 美国 CloudFlare节点'
   network: ws
-  port: 20086
-  server: 198.23.174.168
+  password: T%40_WvT8Ho%40LW%25w_%2C
+  port: 2053
+  server: nop-55q.pages.dev
   skip-cert-verify: true
+  sni: NOp-55q.pAgEs.dEv
   tfo: false
-  tls: false
-  type: vmess
+  type: trojan
   udp: true
-  uuid: 2b36304b-4f88-4ff5-9033-f4d57dbb5490
   ws-opts:
-    path: /
+    headers:
+      Host: NOp-55q.pAgEs.dEv
+    path: /trGPZDfetEwuO25SAs?ed=2560
 proxy-groups:
 - name: 🚀 全球互联
   proxies:
@@ -308,7 +301,7 @@ proxy-groups:
   - 🇸🇬 新加坡
   - '[VMess] 🇨🇦 _CA_加拿大'
   - '[VMess] 🇨🇳 _TW_台湾->🇺🇸_US_美国'
-  - '[VMess] 🇨🇳 江苏省 移动'
+  - '[Trojan] 🇨🇳 广东省广州市 UCloud'
   - '[VMess] 🇩🇪 _US_美国->🇩🇪_DE_德国'
   - '[VMess] 🇬🇧 _US_美国->🇬🇧_GB_英国_1'
   - '[VMess] 🇬🇧 _US_美国->🇬🇧_GB_英国_2'
@@ -324,7 +317,7 @@ proxy-groups:
   - '[VMess] 🇺🇸 _US_美国_3'
   - '[VMess] 🇺🇸 _US_美国_4'
   - '[VMess] 🇺🇸 _US_美国_5'
-  - '[VMess] 🇺🇸 美国 纽约州伊利县威廉斯维尔村ColoCrossing有限公司'
+  - '[Trojan] 🇺🇸 美国 CloudFlare节点'
   type: select
 - name: 🎥 Netflix
   proxies:
@@ -335,7 +328,7 @@ proxy-groups:
   - 🇸🇬 新加坡
   - '[VMess] 🇨🇦 _CA_加拿大'
   - '[VMess] 🇨🇳 _TW_台湾->🇺🇸_US_美国'
-  - '[VMess] 🇨🇳 江苏省 移动'
+  - '[Trojan] 🇨🇳 广东省广州市 UCloud'
   - '[VMess] 🇩🇪 _US_美国->🇩🇪_DE_德国'
   - '[VMess] 🇬🇧 _US_美国->🇬🇧_GB_英国_1'
   - '[VMess] 🇬🇧 _US_美国->🇬🇧_GB_英国_2'
@@ -351,7 +344,7 @@ proxy-groups:
   - '[VMess] 🇺🇸 _US_美国_3'
   - '[VMess] 🇺🇸 _US_美国_4'
   - '[VMess] 🇺🇸 _US_美国_5'
-  - '[VMess] 🇺🇸 美国 纽约州伊利县威廉斯维尔村ColoCrossing有限公司'
+  - '[Trojan] 🇺🇸 美国 CloudFlare节点'
   type: select
 - name: 📹 Youtube
   proxies:
@@ -362,7 +355,7 @@ proxy-groups:
   - 🇸🇬 新加坡
   - '[VMess] 🇨🇦 _CA_加拿大'
   - '[VMess] 🇨🇳 _TW_台湾->🇺🇸_US_美国'
-  - '[VMess] 🇨🇳 江苏省 移动'
+  - '[Trojan] 🇨🇳 广东省广州市 UCloud'
   - '[VMess] 🇩🇪 _US_美国->🇩🇪_DE_德国'
   - '[VMess] 🇬🇧 _US_美国->🇬🇧_GB_英国_1'
   - '[VMess] 🇬🇧 _US_美国->🇬🇧_GB_英国_2'
@@ -378,7 +371,7 @@ proxy-groups:
   - '[VMess] 🇺🇸 _US_美国_3'
   - '[VMess] 🇺🇸 _US_美国_4'
   - '[VMess] 🇺🇸 _US_美国_5'
-  - '[VMess] 🇺🇸 美国 纽约州伊利县威廉斯维尔村ColoCrossing有限公司'
+  - '[Trojan] 🇺🇸 美国 CloudFlare节点'
   type: select
 - name: ▶️ Disney+
   proxies:
@@ -389,7 +382,7 @@ proxy-groups:
   - 🇸🇬 新加坡
   - '[VMess] 🇨🇦 _CA_加拿大'
   - '[VMess] 🇨🇳 _TW_台湾->🇺🇸_US_美国'
-  - '[VMess] 🇨🇳 江苏省 移动'
+  - '[Trojan] 🇨🇳 广东省广州市 UCloud'
   - '[VMess] 🇩🇪 _US_美国->🇩🇪_DE_德国'
   - '[VMess] 🇬🇧 _US_美国->🇬🇧_GB_英国_1'
   - '[VMess] 🇬🇧 _US_美国->🇬🇧_GB_英国_2'
@@ -405,7 +398,7 @@ proxy-groups:
   - '[VMess] 🇺🇸 _US_美国_3'
   - '[VMess] 🇺🇸 _US_美国_4'
   - '[VMess] 🇺🇸 _US_美国_5'
-  - '[VMess] 🇺🇸 美国 纽约州伊利县威廉斯维尔村ColoCrossing有限公司'
+  - '[Trojan] 🇺🇸 美国 CloudFlare节点'
   type: select
 - name: 🌍 国外媒体
   proxies:
@@ -417,7 +410,7 @@ proxy-groups:
   - 🇸🇬 新加坡
   - '[VMess] 🇨🇦 _CA_加拿大'
   - '[VMess] 🇨🇳 _TW_台湾->🇺🇸_US_美国'
-  - '[VMess] 🇨🇳 江苏省 移动'
+  - '[Trojan] 🇨🇳 广东省广州市 UCloud'
   - '[VMess] 🇩🇪 _US_美国->🇩🇪_DE_德国'
   - '[VMess] 🇬🇧 _US_美国->🇬🇧_GB_英国_1'
   - '[VMess] 🇬🇧 _US_美国->🇬🇧_GB_英国_2'
@@ -433,7 +426,7 @@ proxy-groups:
   - '[VMess] 🇺🇸 _US_美国_3'
   - '[VMess] 🇺🇸 _US_美国_4'
   - '[VMess] 🇺🇸 _US_美国_5'
-  - '[VMess] 🇺🇸 美国 纽约州伊利县威廉斯维尔村ColoCrossing有限公司'
+  - '[Trojan] 🇺🇸 美国 CloudFlare节点'
   type: select
 - name: 📲 Telegram
   proxies:
@@ -460,7 +453,7 @@ proxy-groups:
   - 🇸🇬 新加坡
   - '[VMess] 🇨🇦 _CA_加拿大'
   - '[VMess] 🇨🇳 _TW_台湾->🇺🇸_US_美国'
-  - '[VMess] 🇨🇳 江苏省 移动'
+  - '[Trojan] 🇨🇳 广东省广州市 UCloud'
   - '[VMess] 🇩🇪 _US_美国->🇩🇪_DE_德国'
   - '[VMess] 🇬🇧 _US_美国->🇬🇧_GB_英国_1'
   - '[VMess] 🇬🇧 _US_美国->🇬🇧_GB_英国_2'
@@ -476,7 +469,7 @@ proxy-groups:
   - '[VMess] 🇺🇸 _US_美国_3'
   - '[VMess] 🇺🇸 _US_美国_4'
   - '[VMess] 🇺🇸 _US_美国_5'
-  - '[VMess] 🇺🇸 美国 纽约州伊利县威廉斯维尔村ColoCrossing有限公司'
+  - '[Trojan] 🇺🇸 美国 CloudFlare节点'
   type: select
 - name: 🇭🇰 香港
   proxies:
@@ -503,7 +496,7 @@ proxy-groups:
   - '[VMess] 🇺🇸 _US_美国_3'
   - '[VMess] 🇺🇸 _US_美国_4'
   - '[VMess] 🇺🇸 _US_美国_5'
-  - '[VMess] 🇺🇸 美国 纽约州伊利县威廉斯维尔村ColoCrossing有限公司'
+  - '[Trojan] 🇺🇸 美国 CloudFlare节点'
   type: select
 - name: 🇹🇼 台湾
   proxies:
