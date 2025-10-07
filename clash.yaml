@@ -307,14 +307,6 @@ proxies:
   skip-cert-verify: false
   type: hysteria2
 - auth: dongtaiwang.com
-  name: '[Hysteria2] @FreakConfig 3'
-  password: dongtaiwang.com
-  port: 22222
-  server: 208.87.243.187
-  skip-cert-verify: false
-  sni: www.bing.com
-  type: hysteria2
-- auth: dongtaiwang.com
   name: '[Hysteria2] WI-FI--@IRAN_V2RAY1 #2'
   password: dongtaiwang.com
   port: 5355
@@ -338,24 +330,6 @@ proxies:
   server: 103.249.133.79
   skip-cert-verify: false
   sni: microsoft.com
-  type: hysteria2
-- auth: lHoYmNZmLe
-  name: '[Hysteria2] @FreakConfig #1'
-  obfs: salamander
-  obfs-password: wcancmaocnewrivbkacmlmsvwuvdfsv
-  password: lHoYmNZmLe
-  port: 28777
-  server: pouria.3dfigures.ir
-  skip-cert-verify: false
-  type: hysteria2
-- auth: lHoYmNZmLe
-  name: '[Hysteria2] @FreakConfig #2'
-  obfs: salamander
-  obfs-password: uvahwuicbhwabhvlhv
-  password: lHoYmNZmLe
-  port: 53713
-  server: pouria.3dfigures.ir
-  skip-cert-verify: false
   type: hysteria2
 - auth: miaoge110
   name: '[Hysteria2] @Daily_Configs #14'
@@ -403,6 +377,13 @@ proxies:
   skip-cert-verify: false
   sni: www.nintendogames.net
   type: trojan
+- name: '[Trojan] 🇭🇰 香港5|@ripaojiedian'
+  password: 2338a604-dc6a-4470-bc7d-947e462a3cfd
+  port: 30002
+  server: lazy.rsqpq.cn
+  skip-cert-verify: false
+  sni: lazy.rsqpq.cn
+  type: trojan
 - name: '[Trojan] 🇭🇰 香港6|@ripaojiedian'
   password: 253bc477d4e43c209f2d427272968280
   port: 4431
@@ -410,6 +391,20 @@ proxies:
   skip-cert-verify: false
   sni: www.nintendogames.net
   type: trojan
+- alterId: 2
+  cipher: auto
+  name: '[VMess] 🇯🇵 日本|@ripaojiedian'
+  network: ws
+  port: 30806
+  server: v6.heduian.link
+  skip-cert-verify: false
+  tls: false
+  type: vmess
+  uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
+  ws-opts:
+    headers:
+      Host: ocbc.com
+    path: /oooo
 - name: '[Trojan] 🇯🇵 日本2|@ripaojiedian'
   password: 253bc477d4e43c209f2d427272968280
   port: 3271
@@ -470,6 +465,12 @@ proxies:
   tls: false
   type: vmess
   uuid: ccc37b1b-4ef0-430c-b1e1-20bf96fcff8c
+- name: '[Trojan] 🇭🇰 香港5|@ripaojiedian 2'
+  password: 2338a604-dc6a-4470-bc7d-947e462a3cfd
+  port: 30002
+  server: lazy.rsqpq.cn
+  skip-cert-verify: false
+  type: trojan
 - alterId: 0
   cipher: auto
   name: '[VMess] 🇸🇬 新加坡3|@ripaojiedian 2'
@@ -525,18 +526,17 @@ proxy-groups:
   - '[Hysteria2] @Daily_Configs #9'
   - '[Hysteria2] @Daily_Configs #10'
   - '[Hysteria2] @sunflowerplato'
-  - '[Hysteria2] @FreakConfig 3'
   - '[Hysteria2] WI-FI--@IRAN_V2RAY1 #2'
   - '[Hysteria2] telegram-@ISVvpn #2'
   - '[Hysteria2] @Daily_Configs #13'
-  - '[Hysteria2] @FreakConfig #1'
-  - '[Hysteria2] @FreakConfig #2'
   - '[Hysteria2] @Daily_Configs #14'
   - '[Hysteria2] @Daily_Configs #15'
   - '[VMess] 🇭🇰 香港|@ripaojiedian'
   - '[VMess] 🇭🇰 香港3|@ripaojiedian'
   - '[Trojan] 🇭🇰 香港4|@ripaojiedian'
+  - '[Trojan] 🇭🇰 香港5|@ripaojiedian'
   - '[Trojan] 🇭🇰 香港6|@ripaojiedian'
+  - '[VMess] 🇯🇵 日本|@ripaojiedian'
   - '[Trojan] 🇯🇵 日本2|@ripaojiedian'
   - '[Trojan] 🇯🇵 日本3|@ripaojiedian'
   - '[Trojan] 🇸🇬 新加坡|@ripaojiedian'
@@ -545,6 +545,7 @@ proxy-groups:
   - '[Trojan] 🇺🇸 美国|@ripaojiedian'
   - '[Trojan] 🇺🇸 美国2|@ripaojiedian'
   - '[VMess] 🇭🇰 香港3|@ripaojiedian 2'
+  - '[Trojan] 🇭🇰 香港5|@ripaojiedian 2'
   - '[VMess] 🇸🇬 新加坡3|@ripaojiedian 2'
   - '[Trojan] CN_speednode_0007'
   type: select
@@ -585,18 +586,17 @@ proxy-groups:
   - '[Hysteria2] @Daily_Configs #9'
   - '[Hysteria2] @Daily_Configs #10'
   - '[Hysteria2] @sunflowerplato'
-  - '[Hysteria2] @FreakConfig 3'
   - '[Hysteria2] WI-FI--@IRAN_V2RAY1 #2'
   - '[Hysteria2] telegram-@ISVvpn #2'
   - '[Hysteria2] @Daily_Configs #13'
-  - '[Hysteria2] @FreakConfig #1'
-  - '[Hysteria2] @FreakConfig #2'
   - '[Hysteria2] @Daily_Configs #14'
   - '[Hysteria2] @Daily_Configs #15'
   - '[VMess] 🇭🇰 香港|@ripaojiedian'
   - '[VMess] 🇭🇰 香港3|@ripaojiedian'
   - '[Trojan] 🇭🇰 香港4|@ripaojiedian'
+  - '[Trojan] 🇭🇰 香港5|@ripaojiedian'
   - '[Trojan] 🇭🇰 香港6|@ripaojiedian'
+  - '[VMess] 🇯🇵 日本|@ripaojiedian'
   - '[Trojan] 🇯🇵 日本2|@ripaojiedian'
   - '[Trojan] 🇯🇵 日本3|@ripaojiedian'
   - '[Trojan] 🇸🇬 新加坡|@ripaojiedian'
@@ -605,6 +605,7 @@ proxy-groups:
   - '[Trojan] 🇺🇸 美国|@ripaojiedian'
   - '[Trojan] 🇺🇸 美国2|@ripaojiedian'
   - '[VMess] 🇭🇰 香港3|@ripaojiedian 2'
+  - '[Trojan] 🇭🇰 香港5|@ripaojiedian 2'
   - '[VMess] 🇸🇬 新加坡3|@ripaojiedian 2'
   - '[Trojan] CN_speednode_0007'
   type: url-test
@@ -648,18 +649,17 @@ proxy-groups:
   - '[Hysteria2] @Daily_Configs #9'
   - '[Hysteria2] @Daily_Configs #10'
   - '[Hysteria2] @sunflowerplato'
-  - '[Hysteria2] @FreakConfig 3'
   - '[Hysteria2] WI-FI--@IRAN_V2RAY1 #2'
   - '[Hysteria2] telegram-@ISVvpn #2'
   - '[Hysteria2] @Daily_Configs #13'
-  - '[Hysteria2] @FreakConfig #1'
-  - '[Hysteria2] @FreakConfig #2'
   - '[Hysteria2] @Daily_Configs #14'
   - '[Hysteria2] @Daily_Configs #15'
   - '[VMess] 🇭🇰 香港|@ripaojiedian'
   - '[VMess] 🇭🇰 香港3|@ripaojiedian'
   - '[Trojan] 🇭🇰 香港4|@ripaojiedian'
+  - '[Trojan] 🇭🇰 香港5|@ripaojiedian'
   - '[Trojan] 🇭🇰 香港6|@ripaojiedian'
+  - '[VMess] 🇯🇵 日本|@ripaojiedian'
   - '[Trojan] 🇯🇵 日本2|@ripaojiedian'
   - '[Trojan] 🇯🇵 日本3|@ripaojiedian'
   - '[Trojan] 🇸🇬 新加坡|@ripaojiedian'
@@ -668,6 +668,7 @@ proxy-groups:
   - '[Trojan] 🇺🇸 美国|@ripaojiedian'
   - '[Trojan] 🇺🇸 美国2|@ripaojiedian'
   - '[VMess] 🇭🇰 香港3|@ripaojiedian 2'
+  - '[Trojan] 🇭🇰 香港5|@ripaojiedian 2'
   - '[VMess] 🇸🇬 新加坡3|@ripaojiedian 2'
   - '[Trojan] CN_speednode_0007'
   type: select
@@ -722,18 +723,17 @@ proxy-groups:
   - '[Hysteria2] @Daily_Configs #9'
   - '[Hysteria2] @Daily_Configs #10'
   - '[Hysteria2] @sunflowerplato'
-  - '[Hysteria2] @FreakConfig 3'
   - '[Hysteria2] WI-FI--@IRAN_V2RAY1 #2'
   - '[Hysteria2] telegram-@ISVvpn #2'
   - '[Hysteria2] @Daily_Configs #13'
-  - '[Hysteria2] @FreakConfig #1'
-  - '[Hysteria2] @FreakConfig #2'
   - '[Hysteria2] @Daily_Configs #14'
   - '[Hysteria2] @Daily_Configs #15'
   - '[VMess] 🇭🇰 香港|@ripaojiedian'
   - '[VMess] 🇭🇰 香港3|@ripaojiedian'
   - '[Trojan] 🇭🇰 香港4|@ripaojiedian'
+  - '[Trojan] 🇭🇰 香港5|@ripaojiedian'
   - '[Trojan] 🇭🇰 香港6|@ripaojiedian'
+  - '[VMess] 🇯🇵 日本|@ripaojiedian'
   - '[Trojan] 🇯🇵 日本2|@ripaojiedian'
   - '[Trojan] 🇯🇵 日本3|@ripaojiedian'
   - '[Trojan] 🇸🇬 新加坡|@ripaojiedian'
@@ -742,6 +742,7 @@ proxy-groups:
   - '[Trojan] 🇺🇸 美国|@ripaojiedian'
   - '[Trojan] 🇺🇸 美国2|@ripaojiedian'
   - '[VMess] 🇭🇰 香港3|@ripaojiedian 2'
+  - '[Trojan] 🇭🇰 香港5|@ripaojiedian 2'
   - '[VMess] 🇸🇬 新加坡3|@ripaojiedian 2'
   - '[Trojan] CN_speednode_0007'
   type: select
@@ -751,8 +752,10 @@ proxy-groups:
   - '[VMess] 🇭🇰 香港|@ripaojiedian'
   - '[VMess] 🇭🇰 香港3|@ripaojiedian'
   - '[Trojan] 🇭🇰 香港4|@ripaojiedian'
+  - '[Trojan] 🇭🇰 香港5|@ripaojiedian'
   - '[Trojan] 🇭🇰 香港6|@ripaojiedian'
   - '[VMess] 🇭🇰 香港3|@ripaojiedian 2'
+  - '[Trojan] 🇭🇰 香港5|@ripaojiedian 2'
   - 🔰 节点选择
   type: select
 - name: Ⓜ️ 微软服务
@@ -793,18 +796,17 @@ proxy-groups:
   - '[Hysteria2] @Daily_Configs #9'
   - '[Hysteria2] @Daily_Configs #10'
   - '[Hysteria2] @sunflowerplato'
-  - '[Hysteria2] @FreakConfig 3'
   - '[Hysteria2] WI-FI--@IRAN_V2RAY1 #2'
   - '[Hysteria2] telegram-@ISVvpn #2'
   - '[Hysteria2] @Daily_Configs #13'
-  - '[Hysteria2] @FreakConfig #1'
-  - '[Hysteria2] @FreakConfig #2'
   - '[Hysteria2] @Daily_Configs #14'
   - '[Hysteria2] @Daily_Configs #15'
   - '[VMess] 🇭🇰 香港|@ripaojiedian'
   - '[VMess] 🇭🇰 香港3|@ripaojiedian'
   - '[Trojan] 🇭🇰 香港4|@ripaojiedian'
+  - '[Trojan] 🇭🇰 香港5|@ripaojiedian'
   - '[Trojan] 🇭🇰 香港6|@ripaojiedian'
+  - '[VMess] 🇯🇵 日本|@ripaojiedian'
   - '[Trojan] 🇯🇵 日本2|@ripaojiedian'
   - '[Trojan] 🇯🇵 日本3|@ripaojiedian'
   - '[Trojan] 🇸🇬 新加坡|@ripaojiedian'
@@ -813,6 +815,7 @@ proxy-groups:
   - '[Trojan] 🇺🇸 美国|@ripaojiedian'
   - '[Trojan] 🇺🇸 美国2|@ripaojiedian'
   - '[VMess] 🇭🇰 香港3|@ripaojiedian 2'
+  - '[Trojan] 🇭🇰 香港5|@ripaojiedian 2'
   - '[VMess] 🇸🇬 新加坡3|@ripaojiedian 2'
   - '[Trojan] CN_speednode_0007'
   type: select
@@ -854,18 +857,17 @@ proxy-groups:
   - '[Hysteria2] @Daily_Configs #9'
   - '[Hysteria2] @Daily_Configs #10'
   - '[Hysteria2] @sunflowerplato'
-  - '[Hysteria2] @FreakConfig 3'
   - '[Hysteria2] WI-FI--@IRAN_V2RAY1 #2'
   - '[Hysteria2] telegram-@ISVvpn #2'
   - '[Hysteria2] @Daily_Configs #13'
-  - '[Hysteria2] @FreakConfig #1'
-  - '[Hysteria2] @FreakConfig #2'
   - '[Hysteria2] @Daily_Configs #14'
   - '[Hysteria2] @Daily_Configs #15'
   - '[VMess] 🇭🇰 香港|@ripaojiedian'
   - '[VMess] 🇭🇰 香港3|@ripaojiedian'
   - '[Trojan] 🇭🇰 香港4|@ripaojiedian'
+  - '[Trojan] 🇭🇰 香港5|@ripaojiedian'
   - '[Trojan] 🇭🇰 香港6|@ripaojiedian'
+  - '[VMess] 🇯🇵 日本|@ripaojiedian'
   - '[Trojan] 🇯🇵 日本2|@ripaojiedian'
   - '[Trojan] 🇯🇵 日本3|@ripaojiedian'
   - '[Trojan] 🇸🇬 新加坡|@ripaojiedian'
@@ -874,6 +876,7 @@ proxy-groups:
   - '[Trojan] 🇺🇸 美国|@ripaojiedian'
   - '[Trojan] 🇺🇸 美国2|@ripaojiedian'
   - '[VMess] 🇭🇰 香港3|@ripaojiedian 2'
+  - '[Trojan] 🇭🇰 香港5|@ripaojiedian 2'
   - '[VMess] 🇸🇬 新加坡3|@ripaojiedian 2'
   - '[Trojan] CN_speednode_0007'
   type: select
@@ -916,18 +919,17 @@ proxy-groups:
   - '[Hysteria2] @Daily_Configs #9'
   - '[Hysteria2] @Daily_Configs #10'
   - '[Hysteria2] @sunflowerplato'
-  - '[Hysteria2] @FreakConfig 3'
   - '[Hysteria2] WI-FI--@IRAN_V2RAY1 #2'
   - '[Hysteria2] telegram-@ISVvpn #2'
   - '[Hysteria2] @Daily_Configs #13'
-  - '[Hysteria2] @FreakConfig #1'
-  - '[Hysteria2] @FreakConfig #2'
   - '[Hysteria2] @Daily_Configs #14'
   - '[Hysteria2] @Daily_Configs #15'
   - '[VMess] 🇭🇰 香港|@ripaojiedian'
   - '[VMess] 🇭🇰 香港3|@ripaojiedian'
   - '[Trojan] 🇭🇰 香港4|@ripaojiedian'
+  - '[Trojan] 🇭🇰 香港5|@ripaojiedian'
   - '[Trojan] 🇭🇰 香港6|@ripaojiedian'
+  - '[VMess] 🇯🇵 日本|@ripaojiedian'
   - '[Trojan] 🇯🇵 日本2|@ripaojiedian'
   - '[Trojan] 🇯🇵 日本3|@ripaojiedian'
   - '[Trojan] 🇸🇬 新加坡|@ripaojiedian'
@@ -936,6 +938,7 @@ proxy-groups:
   - '[Trojan] 🇺🇸 美国|@ripaojiedian'
   - '[Trojan] 🇺🇸 美国2|@ripaojiedian'
   - '[VMess] 🇭🇰 香港3|@ripaojiedian 2'
+  - '[Trojan] 🇭🇰 香港5|@ripaojiedian 2'
   - '[VMess] 🇸🇬 新加坡3|@ripaojiedian 2'
   - '[Trojan] CN_speednode_0007'
   type: select
@@ -987,18 +990,17 @@ proxy-groups:
   - '[Hysteria2] @Daily_Configs #9'
   - '[Hysteria2] @Daily_Configs #10'
   - '[Hysteria2] @sunflowerplato'
-  - '[Hysteria2] @FreakConfig 3'
   - '[Hysteria2] WI-FI--@IRAN_V2RAY1 #2'
   - '[Hysteria2] telegram-@ISVvpn #2'
   - '[Hysteria2] @Daily_Configs #13'
-  - '[Hysteria2] @FreakConfig #1'
-  - '[Hysteria2] @FreakConfig #2'
   - '[Hysteria2] @Daily_Configs #14'
   - '[Hysteria2] @Daily_Configs #15'
   - '[VMess] 🇭🇰 香港|@ripaojiedian'
   - '[VMess] 🇭🇰 香港3|@ripaojiedian'
   - '[Trojan] 🇭🇰 香港4|@ripaojiedian'
+  - '[Trojan] 🇭🇰 香港5|@ripaojiedian'
   - '[Trojan] 🇭🇰 香港6|@ripaojiedian'
+  - '[VMess] 🇯🇵 日本|@ripaojiedian'
   - '[Trojan] 🇯🇵 日本2|@ripaojiedian'
   - '[Trojan] 🇯🇵 日本3|@ripaojiedian'
   - '[Trojan] 🇸🇬 新加坡|@ripaojiedian'
@@ -1007,6 +1009,7 @@ proxy-groups:
   - '[Trojan] 🇺🇸 美国|@ripaojiedian'
   - '[Trojan] 🇺🇸 美国2|@ripaojiedian'
   - '[VMess] 🇭🇰 香港3|@ripaojiedian 2'
+  - '[Trojan] 🇭🇰 香港5|@ripaojiedian 2'
   - '[VMess] 🇸🇬 新加坡3|@ripaojiedian 2'
   - '[Trojan] CN_speednode_0007'
   type: select
