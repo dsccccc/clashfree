@@ -36,6 +36,31 @@ proxies:
   uuid: efcb7d7c-c582-46f5-eeff-0e553342528d
   ws-opts:
     path: /tg@hkaa0
+- alterId: 2
+  cipher: auto
+  name: '[VMess] 🇨🇳 江苏省 移动'
+  network: ws
+  port: 30809
+  server: v9.heduian.link
+  skip-cert-verify: true
+  tfo: false
+  tls: false
+  type: vmess
+  udp: true
+  uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
+  ws-opts:
+    headers:
+      Host: baidu.com
+    path: /oooo
+- name: '[Trojan] 🇨🇳 江苏省盐城市 移动'
+  password: 253bc477d4e43c209f2d427272968280
+  port: 6752
+  server: 36.156.102.84
+  skip-cert-verify: true
+  sni: www.nintendogames.net
+  tfo: false
+  type: trojan
+  udp: true
 - alterId: 0
   cipher: auto
   name: '[VMess] 🇩🇪 _US_美国->🇩🇪_DE_德国'
@@ -144,6 +169,15 @@ proxies:
     headers:
       Host: mm3.shabijichang.com
     path: /
+- name: '[Trojan] 🇯🇵 日本 东京樱花网络数据中心'
+  password: 253bc477d4e43c209f2d427272968280
+  port: 2381
+  server: 160.16.68.250
+  skip-cert-verify: true
+  sni: www.nintendogames.net
+  tfo: false
+  type: trojan
+  udp: true
 - alterId: 64
   cipher: auto
   name: '[VMess] 🇳🇱 _US_美国->🇳🇱_NL_荷兰'
@@ -158,20 +192,6 @@ proxies:
   uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
   ws-opts:
     path: /path/1696251522438
-- name: '[Trojan] 🇷🇺 俄罗斯 V2CROSS.COM'
-  network: ws
-  password: wb6368
-  port: 2087
-  server: 92.243.75.49
-  skip-cert-verify: true
-  sni: hsdgbuys.pages.dev
-  tfo: false
-  type: trojan
-  udp: true
-  ws-opts:
-    headers:
-      Host: hsdgbuys.pages.dev
-    path: /
 - alterId: 0
   cipher: auto
   name: '[VMess] 🇸🇦 _US_美国->🇸🇦_SA_沙特阿拉伯'
@@ -188,6 +208,22 @@ proxies:
     headers:
       Host: jd3.shabijichang.com
     path: /
+- alterId: 0
+  cipher: auto
+  name: '[VMess] 🇸🇬 新加坡 DigitalOcean数据中心'
+  network: ws
+  port: 443
+  server: node4.rtxconfigz.com
+  skip-cert-verify: true
+  tfo: false
+  tls: true
+  type: vmess
+  udp: true
+  uuid: 44e57485-eccc-46ef-808f-cd17ac810018
+  ws-opts:
+    headers:
+      Host: node4.rtxconfigz.com
+    path: /@Malinda6104
 - alterId: 0
   cipher: auto
   name: '[VMess] 🇺🇸 _US_美国_1'
@@ -262,6 +298,25 @@ proxies:
   uuid: c458695d-6908-45c3-9512-e0c46418454c
   ws-opts:
     path: /
+- alterId: 0
+  cipher: auto
+  name: '[VMess] 🇺🇸 美国 V2CROSS.COM'
+  port: 51409
+  server: 155.254.35.214
+  skip-cert-verify: true
+  tfo: false
+  tls: false
+  type: vmess
+  udp: true
+  uuid: d2b794b2-3bdc-49e2-827a-1bf9fcba4b1c
+- name: '[Trojan] 🇺🇸 美国 华盛顿Cogent通信公司'
+  password: installshield
+  port: 8443
+  server: 38.180.106.124
+  skip-cert-verify: true
+  tfo: false
+  type: trojan
+  udp: true
 proxy-groups:
 - name: 🚀 全球互联
   proxies:
@@ -276,6 +331,8 @@ proxy-groups:
   - 🇸🇬 新加坡
   - '[VMess] 🇨🇦 _CA_加拿大'
   - '[VMess] 🇨🇳 _TW_台湾->🇺🇸_US_美国'
+  - '[VMess] 🇨🇳 江苏省 移动'
+  - '[Trojan] 🇨🇳 江苏省盐城市 移动'
   - '[VMess] 🇩🇪 _US_美国->🇩🇪_DE_德国'
   - '[VMess] 🇬🇧 _US_美国->🇬🇧_GB_英国_1'
   - '[VMess] 🇬🇧 _US_美国->🇬🇧_GB_英国_2'
@@ -283,14 +340,17 @@ proxy-groups:
   - '[VMess] 🇮🇳 _US_美国->🇮🇳_IN_印度_2'
   - '[VMess] 🇮🇳 _US_美国->🇮🇳_IN_印度_3'
   - '[VMess] 🇮🇳 _US_美国->🇮🇳_IN_印度_4'
+  - '[Trojan] 🇯🇵 日本 东京樱花网络数据中心'
   - '[VMess] 🇳🇱 _US_美国->🇳🇱_NL_荷兰'
-  - '[Trojan] 🇷🇺 俄罗斯 V2CROSS.COM'
   - '[VMess] 🇸🇦 _US_美国->🇸🇦_SA_沙特阿拉伯'
+  - '[VMess] 🇸🇬 新加坡 DigitalOcean数据中心'
   - '[VMess] 🇺🇸 _US_美国_1'
   - '[VMess] 🇺🇸 _US_美国_2'
   - '[VMess] 🇺🇸 _US_美国_3'
   - '[VMess] 🇺🇸 _US_美国_4'
   - '[VMess] 🇺🇸 _US_美国_5'
+  - '[VMess] 🇺🇸 美国 V2CROSS.COM'
+  - '[Trojan] 🇺🇸 美国 华盛顿Cogent通信公司'
   type: select
 - name: 🎥 Netflix
   proxies:
@@ -301,6 +361,8 @@ proxy-groups:
   - 🇸🇬 新加坡
   - '[VMess] 🇨🇦 _CA_加拿大'
   - '[VMess] 🇨🇳 _TW_台湾->🇺🇸_US_美国'
+  - '[VMess] 🇨🇳 江苏省 移动'
+  - '[Trojan] 🇨🇳 江苏省盐城市 移动'
   - '[VMess] 🇩🇪 _US_美国->🇩🇪_DE_德国'
   - '[VMess] 🇬🇧 _US_美国->🇬🇧_GB_英国_1'
   - '[VMess] 🇬🇧 _US_美国->🇬🇧_GB_英国_2'
@@ -308,14 +370,17 @@ proxy-groups:
   - '[VMess] 🇮🇳 _US_美国->🇮🇳_IN_印度_2'
   - '[VMess] 🇮🇳 _US_美国->🇮🇳_IN_印度_3'
   - '[VMess] 🇮🇳 _US_美国->🇮🇳_IN_印度_4'
+  - '[Trojan] 🇯🇵 日本 东京樱花网络数据中心'
   - '[VMess] 🇳🇱 _US_美国->🇳🇱_NL_荷兰'
-  - '[Trojan] 🇷🇺 俄罗斯 V2CROSS.COM'
   - '[VMess] 🇸🇦 _US_美国->🇸🇦_SA_沙特阿拉伯'
+  - '[VMess] 🇸🇬 新加坡 DigitalOcean数据中心'
   - '[VMess] 🇺🇸 _US_美国_1'
   - '[VMess] 🇺🇸 _US_美国_2'
   - '[VMess] 🇺🇸 _US_美国_3'
   - '[VMess] 🇺🇸 _US_美国_4'
   - '[VMess] 🇺🇸 _US_美国_5'
+  - '[VMess] 🇺🇸 美国 V2CROSS.COM'
+  - '[Trojan] 🇺🇸 美国 华盛顿Cogent通信公司'
   type: select
 - name: 📹 Youtube
   proxies:
@@ -326,6 +391,8 @@ proxy-groups:
   - 🇸🇬 新加坡
   - '[VMess] 🇨🇦 _CA_加拿大'
   - '[VMess] 🇨🇳 _TW_台湾->🇺🇸_US_美国'
+  - '[VMess] 🇨🇳 江苏省 移动'
+  - '[Trojan] 🇨🇳 江苏省盐城市 移动'
   - '[VMess] 🇩🇪 _US_美国->🇩🇪_DE_德国'
   - '[VMess] 🇬🇧 _US_美国->🇬🇧_GB_英国_1'
   - '[VMess] 🇬🇧 _US_美国->🇬🇧_GB_英国_2'
@@ -333,14 +400,17 @@ proxy-groups:
   - '[VMess] 🇮🇳 _US_美国->🇮🇳_IN_印度_2'
   - '[VMess] 🇮🇳 _US_美国->🇮🇳_IN_印度_3'
   - '[VMess] 🇮🇳 _US_美国->🇮🇳_IN_印度_4'
+  - '[Trojan] 🇯🇵 日本 东京樱花网络数据中心'
   - '[VMess] 🇳🇱 _US_美国->🇳🇱_NL_荷兰'
-  - '[Trojan] 🇷🇺 俄罗斯 V2CROSS.COM'
   - '[VMess] 🇸🇦 _US_美国->🇸🇦_SA_沙特阿拉伯'
+  - '[VMess] 🇸🇬 新加坡 DigitalOcean数据中心'
   - '[VMess] 🇺🇸 _US_美国_1'
   - '[VMess] 🇺🇸 _US_美国_2'
   - '[VMess] 🇺🇸 _US_美国_3'
   - '[VMess] 🇺🇸 _US_美国_4'
   - '[VMess] 🇺🇸 _US_美国_5'
+  - '[VMess] 🇺🇸 美国 V2CROSS.COM'
+  - '[Trojan] 🇺🇸 美国 华盛顿Cogent通信公司'
   type: select
 - name: ▶️ Disney+
   proxies:
@@ -351,6 +421,8 @@ proxy-groups:
   - 🇸🇬 新加坡
   - '[VMess] 🇨🇦 _CA_加拿大'
   - '[VMess] 🇨🇳 _TW_台湾->🇺🇸_US_美国'
+  - '[VMess] 🇨🇳 江苏省 移动'
+  - '[Trojan] 🇨🇳 江苏省盐城市 移动'
   - '[VMess] 🇩🇪 _US_美国->🇩🇪_DE_德国'
   - '[VMess] 🇬🇧 _US_美国->🇬🇧_GB_英国_1'
   - '[VMess] 🇬🇧 _US_美国->🇬🇧_GB_英国_2'
@@ -358,14 +430,17 @@ proxy-groups:
   - '[VMess] 🇮🇳 _US_美国->🇮🇳_IN_印度_2'
   - '[VMess] 🇮🇳 _US_美国->🇮🇳_IN_印度_3'
   - '[VMess] 🇮🇳 _US_美国->🇮🇳_IN_印度_4'
+  - '[Trojan] 🇯🇵 日本 东京樱花网络数据中心'
   - '[VMess] 🇳🇱 _US_美国->🇳🇱_NL_荷兰'
-  - '[Trojan] 🇷🇺 俄罗斯 V2CROSS.COM'
   - '[VMess] 🇸🇦 _US_美国->🇸🇦_SA_沙特阿拉伯'
+  - '[VMess] 🇸🇬 新加坡 DigitalOcean数据中心'
   - '[VMess] 🇺🇸 _US_美国_1'
   - '[VMess] 🇺🇸 _US_美国_2'
   - '[VMess] 🇺🇸 _US_美国_3'
   - '[VMess] 🇺🇸 _US_美国_4'
   - '[VMess] 🇺🇸 _US_美国_5'
+  - '[VMess] 🇺🇸 美国 V2CROSS.COM'
+  - '[Trojan] 🇺🇸 美国 华盛顿Cogent通信公司'
   type: select
 - name: 🌍 国外媒体
   proxies:
@@ -377,6 +452,8 @@ proxy-groups:
   - 🇸🇬 新加坡
   - '[VMess] 🇨🇦 _CA_加拿大'
   - '[VMess] 🇨🇳 _TW_台湾->🇺🇸_US_美国'
+  - '[VMess] 🇨🇳 江苏省 移动'
+  - '[Trojan] 🇨🇳 江苏省盐城市 移动'
   - '[VMess] 🇩🇪 _US_美国->🇩🇪_DE_德国'
   - '[VMess] 🇬🇧 _US_美国->🇬🇧_GB_英国_1'
   - '[VMess] 🇬🇧 _US_美国->🇬🇧_GB_英国_2'
@@ -384,14 +461,17 @@ proxy-groups:
   - '[VMess] 🇮🇳 _US_美国->🇮🇳_IN_印度_2'
   - '[VMess] 🇮🇳 _US_美国->🇮🇳_IN_印度_3'
   - '[VMess] 🇮🇳 _US_美国->🇮🇳_IN_印度_4'
+  - '[Trojan] 🇯🇵 日本 东京樱花网络数据中心'
   - '[VMess] 🇳🇱 _US_美国->🇳🇱_NL_荷兰'
-  - '[Trojan] 🇷🇺 俄罗斯 V2CROSS.COM'
   - '[VMess] 🇸🇦 _US_美国->🇸🇦_SA_沙特阿拉伯'
+  - '[VMess] 🇸🇬 新加坡 DigitalOcean数据中心'
   - '[VMess] 🇺🇸 _US_美国_1'
   - '[VMess] 🇺🇸 _US_美国_2'
   - '[VMess] 🇺🇸 _US_美国_3'
   - '[VMess] 🇺🇸 _US_美国_4'
   - '[VMess] 🇺🇸 _US_美国_5'
+  - '[VMess] 🇺🇸 美国 V2CROSS.COM'
+  - '[Trojan] 🇺🇸 美国 华盛顿Cogent通信公司'
   type: select
 - name: 📲 Telegram
   proxies:
@@ -417,6 +497,8 @@ proxy-groups:
   - 🇸🇬 新加坡
   - '[VMess] 🇨🇦 _CA_加拿大'
   - '[VMess] 🇨🇳 _TW_台湾->🇺🇸_US_美国'
+  - '[VMess] 🇨🇳 江苏省 移动'
+  - '[Trojan] 🇨🇳 江苏省盐城市 移动'
   - '[VMess] 🇩🇪 _US_美国->🇩🇪_DE_德国'
   - '[VMess] 🇬🇧 _US_美国->🇬🇧_GB_英国_1'
   - '[VMess] 🇬🇧 _US_美国->🇬🇧_GB_英国_2'
@@ -424,14 +506,17 @@ proxy-groups:
   - '[VMess] 🇮🇳 _US_美国->🇮🇳_IN_印度_2'
   - '[VMess] 🇮🇳 _US_美国->🇮🇳_IN_印度_3'
   - '[VMess] 🇮🇳 _US_美国->🇮🇳_IN_印度_4'
+  - '[Trojan] 🇯🇵 日本 东京樱花网络数据中心'
   - '[VMess] 🇳🇱 _US_美国->🇳🇱_NL_荷兰'
-  - '[Trojan] 🇷🇺 俄罗斯 V2CROSS.COM'
   - '[VMess] 🇸🇦 _US_美国->🇸🇦_SA_沙特阿拉伯'
+  - '[VMess] 🇸🇬 新加坡 DigitalOcean数据中心'
   - '[VMess] 🇺🇸 _US_美国_1'
   - '[VMess] 🇺🇸 _US_美国_2'
   - '[VMess] 🇺🇸 _US_美国_3'
   - '[VMess] 🇺🇸 _US_美国_4'
   - '[VMess] 🇺🇸 _US_美国_5'
+  - '[VMess] 🇺🇸 美国 V2CROSS.COM'
+  - '[Trojan] 🇺🇸 美国 华盛顿Cogent通信公司'
   type: select
 - name: 🇭🇰 香港
   proxies:
@@ -439,7 +524,7 @@ proxy-groups:
   type: select
 - name: 🇯🇵 日本
   proxies:
-  - DIRECT
+  - '[Trojan] 🇯🇵 日本 东京樱花网络数据中心'
   type: select
 - name: 🇺🇲 美国
   proxies:
@@ -458,6 +543,8 @@ proxy-groups:
   - '[VMess] 🇺🇸 _US_美国_3'
   - '[VMess] 🇺🇸 _US_美国_4'
   - '[VMess] 🇺🇸 _US_美国_5'
+  - '[VMess] 🇺🇸 美国 V2CROSS.COM'
+  - '[Trojan] 🇺🇸 美国 华盛顿Cogent通信公司'
   type: select
 - name: 🇹🇼 台湾
   proxies:
@@ -465,7 +552,7 @@ proxy-groups:
   type: select
 - name: 🇸🇬 新加坡
   proxies:
-  - DIRECT
+  - '[VMess] 🇸🇬 新加坡 DigitalOcean数据中心'
   type: select
 - name: 🛑 广告拦截
   proxies:
@@ -855,6 +942,7 @@ rules:
 - DOMAIN,i.111666.best,🌍 国外媒体
 - DOMAIN,image.acg.lol,🌍 国外媒体
 - DOMAIN-SUFFIX,linux.do,🌍 国外媒体
+- DOMAIN-SUFFIX,idcflare.com,🌍 国外媒体
 - DOMAIN-SUFFIX,uupdump.net,🌍 国外媒体
 - DOMAIN-SUFFIX,spacedesk.net,🌍 国外媒体
 - DOMAIN-SUFFIX,radio.garden,🌍 国外媒体
@@ -1061,6 +1149,7 @@ rules:
 - DOMAIN-SUFFIX,v2rayse.com,🚀 全球互联
 - DOMAIN-SUFFIX,hostbuf.com,🚀 全球互联
 - DOMAIN-SUFFIX,nodeseek.com,🚀 全球互联
+- DOMAIN-SUFFIX,deepflood.com,🚀 全球互联
 - DOMAIN-SUFFIX,catcat.blog,🚀 全球互联
 - DOMAIN-SUFFIX,linustechtips.com,🚀 全球互联
 - DOMAIN-SUFFIX,xh86.me,🚀 全球互联
