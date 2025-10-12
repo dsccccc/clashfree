@@ -5,89 +5,6 @@ mode: Rule
 port: 7890
 proxies:
 - name: 电报群：https://t.me/vvkj11
-  network: grpc
-  port: 8880
-  server: 638952778316592562.hamedan-drc-tusaas.info
-  skip-cert-verify: true
-  tls: true
-  type: vless
-  udp: true
-  uuid: df0680ca-e43c-498d-ed86-8e196eedd012
-- name: 每天更新，请加电报群防止失联
-  network: grpc
-  port: 8880
-  server: 638953873686410316.lahijan-drc-tusaas.info
-  skip-cert-verify: true
-  tls: true
-  type: vless
-  udp: true
-  uuid: df0680ca-e43c-498d-ed86-8e196eedd012
-- name: 日期：10-10
-  network: grpc
-  port: 8880
-  server: 638950280342842022.esfahan-drc-tusaas.info
-  skip-cert-verify: true
-  tls: true
-  type: vless
-  udp: true
-  uuid: df0680ca-e43c-498d-ed86-8e196eedd012
-- grpc-opts:
-    grpc-service-name: ZEDMODEON-ZEDMODEON-ZEDMODEON-bia-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON
-  name: 免费VPN：https://tt.vg/gwaAy
-  network: grpc
-  port: 47765
-  server: 141.227.174.234
-  servername: ZEDMODEON-ZEDMODEON-ZEDMODEON-bia-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON
-  skip-cert-verify: true
-  tls: true
-  type: vless
-  udp: true
-  uuid: 5dd4bf42-5df0-49ff-bd5b-3a4fb6f7f1db
-- grpc-opts:
-    grpc-service-name: ZEDMODEON-ZEDMODEON-ZEDMODEON-bia-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON
-  name: 🇫🇷_法国_1
-  network: grpc
-  port: 21232
-  server: 141.227.170.178
-  servername: ZEDMODEON-ZEDMODEON-ZEDMODEON-bia-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON
-  skip-cert-verify: true
-  tls: true
-  type: vless
-  udp: true
-  uuid: 5e0eddef-95cd-4109-9807-0f32062939f3
-- grpc-opts:
-    grpc-service-name: ZEDMODEON-ZEDMODEON-ZEDMODEON-bia-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON
-  name: 🇫🇷_法国_2
-  network: grpc
-  port: 59995
-  server: 141.227.162.18
-  servername: ZEDMODEON-ZEDMODEON-ZEDMODEON-bia-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON
-  skip-cert-verify: true
-  tls: true
-  type: vless
-  udp: true
-  uuid: 7467739e-fe86-43a4-93ae-1669886e80d5
-- flow: xtls-rprx-vision
-  name: 🇺🇸_美国_1
-  network: tcp
-  port: 443
-  server: 143.14.189.181
-  servername: icloud.com
-  skip-cert-verify: true
-  tls: false
-  type: vless
-  udp: true
-  uuid: 52aae58a-1d54-45a4-9d05-c36d16a6dd12
-- name: 🇺🇦_乌克兰
-  network: tcp
-  port: 443
-  server: 92.112.22.117
-  skip-cert-verify: true
-  tls: false
-  type: vless
-  udp: true
-  uuid: 6337837a-2b47-4e0d-a695-75c5a4a8ad51
-- name: 🇷🇺_俄罗斯_1
   network: tcp
   password: wb6368
   port: 2087
@@ -96,17 +13,52 @@ proxies:
   sni: hsdgbuys.pages.dev
   type: trojan
   udp: true
-- flow: xtls-rprx-vision
-  name: 🇫🇷_法国_3
+- name: 每天更新，请加电报群防止失联
   network: tcp
   port: 443
-  server: 178.20.215.2
-  servername: speed.cloudflare.com
+  server: 92.112.22.117
   skip-cert-verify: true
   tls: false
   type: vless
   udp: true
-  uuid: 192ea2c7-d7d0-6676-2929-b04a072b387d
+  uuid: 6337837a-2b47-4e0d-a695-75c5a4a8ad51
+- name: 日期：10-11
+  network: tcp
+  password: installshield
+  port: 8443
+  server: 38.180.106.124
+  skip-cert-verify: true
+  type: trojan
+  udp: true
+- flow: xtls-rprx-vision
+  name: 免费VPN：https://tt.vg/gwaAy
+  network: tcp
+  port: 443
+  server: fin01-vlr01.tcp-reset-club.net
+  servername: hls-svod.itunes.apple.com
+  skip-cert-verify: true
+  tls: false
+  type: vless
+  udp: true
+  uuid: c80bbc09-837d-495f-bebc-3e8ac5dede41
+- name: 🇩🇪_德国_1
+  network: tcp
+  password: iwangjie
+  port: 2053
+  server: 141.94.68.216
+  skip-cert-verify: true
+  sni: nodes.830901.xyz
+  type: trojan
+  udp: true
+- name: 🇺🇸_美国_1
+  network: tcp
+  password: e4cbe8b8-37db-4aaa-8469-b84f34c51ebc
+  port: 443
+  server: 104.21.14.54
+  skip-cert-verify: true
+  sni: 6666YHjU.777159.xYz
+  type: trojan
+  udp: true
 - flow: xtls-rprx-vision
   name: 🇺🇸_美国_2
   network: tcp
@@ -118,181 +70,7 @@ proxies:
   type: vless
   udp: true
   uuid: 862e90e1-2f26-4506-b8b9-0adf20da05fc
-- flow: xtls-rprx-vision
-  name: 🇷🇺_俄罗斯_2
-  network: tcp
-  port: 443
-  server: 147.45.155.144
-  servername: deepl.com
-  skip-cert-verify: true
-  tls: false
-  type: vless
-  udp: true
-  uuid: 2e532561-7a61-4fdf-a534-706682c2e209
-- name: 🇷🇺_俄罗斯_3
-  network: tcp
-  port: 8080
-  server: 84.22.150.195
-  servername: yandex.com
-  skip-cert-verify: true
-  tls: false
-  type: vless
-  udp: true
-  uuid: 1abaa2b6-ab8c-4525-8c91-b73bc2ab2b37
-- name: 🇷🇺_俄罗斯_4
-  network: tcp
-  port: 8080
-  server: 5.44.42.60
-  servername: yandex.com
-  skip-cert-verify: true
-  tls: false
-  type: vless
-  udp: true
-  uuid: 1abaa2b6-ab8c-4525-8c91-b73bc2ab2b37
 - name: 🇺🇸_美国_3
-  network: tcp
-  password: f93d5ecc-752e-4f7a-9f15-8196b9be1f9a
-  port: 443
-  server: bestcdn3.the-best-airport.top
-  skip-cert-verify: true
-  sni: tt-b3-cdn.the-best-airport.top
-  type: trojan
-  udp: true
-- flow: xtls-rprx-vision
-  name: 🇺🇸_美国_4
-  network: tcp
-  port: 26113
-  server: 150.230.28.100
-  servername: www.yahoo.com
-  skip-cert-verify: true
-  tls: false
-  type: vless
-  udp: true
-  uuid: cfe032e4-1bc3-454f-9d09-301b0aea08ff
-- name: 🇺🇸_美国_5
-  network: tcp
-  password: f93d5ecc-752e-4f7a-9f15-8196b9be1f9a
-  port: 443
-  server: bestcdn3.the-best-airport.top
-  skip-cert-verify: true
-  sni: tt-a3-cdn.the-best-airport.top
-  type: trojan
-  udp: true
-- name: 🇺🇸_美国_6
-  network: tcp
-  password: f93d5ecc-752e-4f7a-9f15-8196b9be1f9a
-  port: 443
-  server: bestcdn5.the-best-airport.top
-  skip-cert-verify: true
-  sni: tt-a5-cdn.the-best-airport.top
-  type: trojan
-  udp: true
-- flow: xtls-rprx-vision
-  name: 🇺🇸_美国_7
-  network: tcp
-  port: 8443
-  server: b1-direct.the-best-airport.top
-  servername: icloud.cdn-apple.com
-  skip-cert-verify: true
-  tls: false
-  type: vless
-  udp: true
-  uuid: f93d5ecc-752e-4f7a-9f15-8196b9be1f9a
-- name: 🇺🇸_美国_8
-  network: tcp
-  password: f93d5ecc-752e-4f7a-9f15-8196b9be1f9a
-  port: 443
-  server: bestcdn3.the-best-airport.top
-  skip-cert-verify: true
-  sni: tt-c3-cdn.the-best-airport.top
-  type: trojan
-  udp: true
-- name: 🇺🇸_美国_9
-  network: tcp
-  password: f93d5ecc-752e-4f7a-9f15-8196b9be1f9a
-  port: 443
-  server: bestcdn5.the-best-airport.top
-  skip-cert-verify: true
-  sni: tt-c5-cdn.the-best-airport.top
-  type: trojan
-  udp: true
-- flow: xtls-rprx-vision
-  name: 🇷🇺_俄罗斯_5
-  network: tcp
-  port: 443
-  server: univovh.iskra-connect.xyz
-  servername: deepl.com
-  skip-cert-verify: true
-  tls: false
-  type: vless
-  udp: true
-  uuid: 2e532561-7a61-4fdf-a534-706682c2e209
-- name: 🇷🇺_俄罗斯_6
-  network: tcp
-  port: 8080
-  server: 31.129.22.117
-  servername: yandex.com
-  skip-cert-verify: true
-  tls: false
-  type: vless
-  udp: true
-  uuid: 1abaa2b6-ab8c-4525-8c91-b73bc2ab2b37
-- flow: xtls-rprx-vision
-  name: 🇺🇸_美国_10
-  network: tcp
-  port: 9443
-  server: a1-direct.the-best-airport.top
-  servername: icloud.cdn-apple.com
-  skip-cert-verify: true
-  tls: false
-  type: vless
-  udp: true
-  uuid: f93d5ecc-752e-4f7a-9f15-8196b9be1f9a
-- flow: xtls-rprx-vision
-  name: 🇩🇪_德国
-  network: tcp
-  port: 443
-  server: fin01-vlr01.tcp-reset-club.net
-  servername: hls-svod.itunes.apple.com
-  skip-cert-verify: true
-  tls: false
-  type: vless
-  udp: true
-  uuid: c80bbc09-837d-495f-bebc-3e8ac5dede41
-- flow: xtls-rprx-vision
-  name: 🇺🇸_美国_11
-  network: tcp
-  port: 443
-  server: ilta-wzxrxkdhbjpnprhkkpplsjwawhssvollvxzdhqshiqckwdgrdm.orbnet.xyz
-  servername: i2pd.website
-  skip-cert-verify: true
-  tls: false
-  type: vless
-  udp: true
-  uuid: 0e8a6896-ad90-4a3b-89a3-77d64aa409e2
-- flow: xtls-rprx-vision
-  name: 🇮🇷_伊朗_1
-  network: tcp
-  port: 44443
-  server: hybrid.arvancloud.online
-  servername: www.speedtest.net
-  skip-cert-verify: true
-  tls: false
-  type: vless
-  udp: true
-  uuid: 53fff6cc-b4ec-43e8-ade5-e0c42972fc33
-- flow: xtls-rprx-vision
-  name: 🇺🇸_美国_12
-  network: tcp
-  port: 4443
-  server: c1-direct.the-best-airport.top
-  servername: icloud.cdn-apple.com
-  skip-cert-verify: true
-  tls: false
-  type: vless
-  udp: true
-  uuid: f93d5ecc-752e-4f7a-9f15-8196b9be1f9a
-- name: 🇺🇸_美国_13
   network: tcp
   password: e4cbe8b8-37db-4aaa-8469-b84f34c51ebc
   port: 443
@@ -301,413 +79,3265 @@ proxies:
   sni: 6666YHjU.777159.xYz
   type: trojan
   udp: true
-- name: 🇨🇳_中国_1
+- flow: xtls-rprx-vision
+  name: 🇫🇷_法国_1
+  network: tcp
+  port: 443
+  server: 178.20.215.2
+  servername: speed.cloudflare.com
+  skip-cert-verify: true
+  tls: false
+  type: vless
+  udp: true
+  uuid: 192ea2c7-d7d0-6676-2929-b04a072b387d
+- name: 🇯🇵_日本_1
   network: tcp
   password: 253bc477d4e43c209f2d427272968280
   port: 1572
-  server: 36.156.102.84
+  server: 160.16.196.59
   skip-cert-verify: true
   sni: www.nintendogames.net
   type: trojan
   udp: true
+- name: 🇯🇵_日本_2
+  network: tcp
+  password: 253bc477d4e43c209f2d427272968280
+  port: 2381
+  server: 160.16.68.250
+  skip-cert-verify: true
+  sni: www.nintendogames.net
+  type: trojan
+  udp: true
+- name: 🇯🇵_日本_3
+  network: tcp
+  password: 253bc477d4e43c209f2d427272968280
+  port: 1572
+  server: 160.16.196.59
+  skip-cert-verify: true
+  sni: www.nintendogames.net
+  type: trojan
+  udp: true
+- name: 🇯🇵_日本_4
+  network: tcp
+  password: 253bc477d4e43c209f2d427272968280
+  port: 1572
+  server: 160.16.196.59
+  skip-cert-verify: true
+  sni: www.nintendogames.net
+  type: trojan
+  udp: true
+- name: 🇯🇵_日本_5
+  network: tcp
+  password: 253bc477d4e43c209f2d427272968280
+  port: 2381
+  server: 160.16.68.250
+  skip-cert-verify: true
+  sni: www.nintendogames.net
+  type: trojan
+  udp: true
+- name: 🇯🇵_日本_6
+  network: tcp
+  password: 253bc477d4e43c209f2d427272968280
+  port: 2381
+  server: 160.16.68.250
+  skip-cert-verify: true
+  sni: www.nintendogames.net
+  type: trojan
+  udp: true
+- name: 🇯🇵_日本_7
+  network: tcp
+  password: 253bc477d4e43c209f2d427272968280
+  port: 2381
+  server: 160.16.68.250
+  skip-cert-verify: true
+  sni: www.nintendogames.net
+  type: trojan
+  udp: true
+- flow: xtls-rprx-vision
+  name: 🇺🇸_美国_4
+  network: tcp
+  port: 49852
+  server: 152.53.211.40
+  servername: aws.amazon.com
+  skip-cert-verify: true
+  tls: false
+  type: vless
+  udp: true
+  uuid: 43915568-eb7f-411d-a885-a5bb349c55c5
+- name: 🇺🇸_美国_5
+  network: ws
+  port: 8880
+  server: wangcai193.cloudflare.182682.xyz
+  servername: fei.634676.xyz
+  skip-cert-verify: true
+  tls: true
+  type: vless
+  udp: true
+  uuid: d2965257-0536-4811-a0d5-cdce54e90326
+  ws-opts:
+    headers:
+      host: fei.634676.xyz
+    path: telegram @freecodes /?ed=2560
+- name: 🇺🇸_美国_6
+  network: ws
+  port: 8880
+  server: wangcai26.cloudflare.182682.xyz
+  servername: fei.634676.xyz
+  skip-cert-verify: true
+  tls: true
+  type: vless
+  udp: true
+  uuid: d2965257-0536-4811-a0d5-cdce54e90326
+  ws-opts:
+    headers:
+      host: fei.634676.xyz
+    path: freecodes节点狂魔 /?ed=2560
+- name: 🇺🇸_美国_7
+  network: ws
+  port: 8880
+  server: wangcai220.cloudflare.182682.xyz
+  servername: fei.634676.xyz
+  skip-cert-verify: true
+  tls: true
+  type: vless
+  udp: true
+  uuid: d2965257-0536-4811-a0d5-cdce54e90326
+  ws-opts:
+    headers:
+      host: fei.634676.xyz
+    path: freecodes节点狂魔 /?ed=2560
+- name: 🇺🇸_美国_8
+  network: ws
+  port: 8880
+  server: wangcai222.cloudflare.182682.xyz
+  servername: fei.634676.xyz
+  skip-cert-verify: true
+  tls: true
+  type: vless
+  udp: true
+  uuid: d2965257-0536-4811-a0d5-cdce54e90326
+  ws-opts:
+    headers:
+      host: fei.634676.xyz
+    path: telegram @freecodes /?ed=2560
+- name: 🇺🇸_美国_9
+  network: ws
+  port: 8880
+  server: wangcai83.cloudflare.182682.xyz
+  servername: fei.634676.xyz
+  skip-cert-verify: true
+  tls: true
+  type: vless
+  udp: true
+  uuid: d2965257-0536-4811-a0d5-cdce54e90326
+  ws-opts:
+    headers:
+      host: fei.634676.xyz
+    path: freecodes节点狂魔 /?ed=2560
+- name: 🇺🇸_美国_10
+  network: ws
+  port: 8880
+  server: wangcai245.cloudflare.182682.xyz
+  servername: fei.634676.xyz
+  skip-cert-verify: true
+  tls: true
+  type: vless
+  udp: true
+  uuid: d2965257-0536-4811-a0d5-cdce54e90326
+  ws-opts:
+    headers:
+      host: fei.634676.xyz
+    path: freecodes节点狂魔 /?ed=2560
+- name: 🇺🇸_美国_11
+  network: ws
+  port: 8880
+  server: wangcai119.cloudflare.182682.xyz
+  servername: fei.634676.xyz
+  skip-cert-verify: true
+  tls: true
+  type: vless
+  udp: true
+  uuid: d2965257-0536-4811-a0d5-cdce54e90326
+  ws-opts:
+    headers:
+      host: fei.634676.xyz
+    path: freecodes节点狂魔 /?ed=2560
+- name: 🇺🇸_美国_12
+  network: ws
+  port: 8880
+  server: wangcai246.cloudflare.182682.xyz
+  servername: fei.634676.xyz
+  skip-cert-verify: true
+  tls: true
+  type: vless
+  udp: true
+  uuid: d2965257-0536-4811-a0d5-cdce54e90326
+  ws-opts:
+    headers:
+      host: fei.634676.xyz
+    path: freecodes节点狂魔 /?ed=2560
+- name: 🇺🇸_美国_13
+  network: ws
+  port: 8880
+  server: wangcai89.cloudflare.182682.xyz
+  servername: fei.634676.xyz
+  skip-cert-verify: true
+  tls: true
+  type: vless
+  udp: true
+  uuid: d2965257-0536-4811-a0d5-cdce54e90326
+  ws-opts:
+    headers:
+      host: fei.634676.xyz
+    path: freecodes节点狂魔 /?ed=2560
 - name: 🇺🇸_美国_14
-  network: tcp
-  password: f93d5ecc-752e-4f7a-9f15-8196b9be1f9a
-  port: 443
-  server: bestcdn5.the-best-airport.top
+  network: ws
+  port: 8880
+  server: wangcai215.cloudflare.182682.xyz
+  servername: fei.634676.xyz
   skip-cert-verify: true
-  sni: tt-b5-cdn.the-best-airport.top
-  type: trojan
+  tls: true
+  type: vless
   udp: true
-- name: 🇨🇳_中国_2
-  network: tcp
-  password: 253bc477d4e43c209f2d427272968280
-  port: 6752
-  server: 36.156.102.84
-  skip-cert-verify: true
-  sni: www.nintendogames.net
-  type: trojan
-  udp: true
-- name: 🇨🇳_中国_3
-  network: tcp
-  password: 253bc477d4e43c209f2d427272968280
-  port: 6752
-  server: 36.156.102.84
-  skip-cert-verify: true
-  sni: www.nintendogames.net
-  type: trojan
-  udp: true
-- name: 🇨🇳_中国_4
-  network: tcp
-  password: 253bc477d4e43c209f2d427272968280
-  port: 1572
-  server: 36.156.102.84
-  skip-cert-verify: true
-  sni: www.nintendogames.net
-  type: trojan
-  udp: true
+  uuid: d2965257-0536-4811-a0d5-cdce54e90326
+  ws-opts:
+    headers:
+      host: fei.634676.xyz
+    path: freecodes节点狂魔 /?ed=2560
 - name: 🇺🇸_美国_15
-  network: tcp
-  password: 253bc477d4e43c209f2d427272968280
-  port: 443
-  server: 23.227.194.19
-  skip-cert-verify: true
-  sni: www.nintendogames.net
-  type: trojan
-  udp: true
-- flow: xtls-rprx-vision
-  name: 🇯🇵_日本_1
-  network: tcp
-  port: 443
-  server: c8217-b2a.h2.49d2.dje11.1.b297.djjsvip.cfd
-  servername: iosapps.itunes.apple.com
-  skip-cert-verify: true
-  tls: false
-  type: vless
-  udp: true
-  uuid: f89175fa-9465-4325-8554-bb3456321f38
-- flow: xtls-rprx-vision
-  name: 🇺🇸_美国_16
-  network: tcp
-  port: 443
-  server: c8217-b2a.h2.49d2.dje11.2.b297.djjsvip.cfd
-  servername: iosapps.itunes.apple.com
-  skip-cert-verify: true
-  tls: false
-  type: vless
-  udp: true
-  uuid: f89175fa-9465-4325-8554-bb3456321f38
-- flow: xtls-rprx-vision
-  name: 🇯🇵_日本_2
-  network: tcp
-  port: 443
-  server: c8217-b2a.h2.49d2.dje11.3.b297.djjsvip.cfd
-  servername: iosapps.itunes.apple.com
-  skip-cert-verify: true
-  tls: false
-  type: vless
-  udp: true
-  uuid: f89175fa-9465-4325-8554-bb3456321f38
-- flow: xtls-rprx-vision
-  name: 🇸🇬_新加坡
-  network: tcp
-  port: 443
-  server: c8217-b2a.h2.49d2.dje11.4.b297.djjsvip.cfd
-  servername: osxapps.itunes.apple.com
-  skip-cert-verify: true
-  tls: false
-  type: vless
-  udp: true
-  uuid: f89175fa-9465-4325-8554-bb3456321f38
-- flow: xtls-rprx-vision
-  name: 🇺🇸_美国_17
-  network: tcp
-  port: 443
-  server: c8217-b2a.h2.49d2.dje11.5.b297.djjsvip.cfd
-  servername: osxapps.itunes.apple.com
-  skip-cert-verify: true
-  tls: false
-  type: vless
-  udp: true
-  uuid: f89175fa-9465-4325-8554-bb3456321f38
-- flow: xtls-rprx-vision
-  name: 🇺🇸_美国_18
-  network: tcp
-  port: 443
-  server: 129.153.210.227
-  servername: iosapps.itunes.apple.com
-  skip-cert-verify: true
-  tls: false
-  type: vless
-  udp: true
-  uuid: f89175fa-9465-4325-8554-bb3456321f38
-- flow: xtls-rprx-vision
-  name: 🇬🇧_英国
-  network: tcp
-  port: 443
-  server: 132.145.62.88
-  servername: iosapps.itunes.apple.com
-  skip-cert-verify: true
-  tls: false
-  type: vless
-  udp: true
-  uuid: f89175fa-9465-4325-8554-bb3456321f38
-- flow: xtls-rprx-vision
-  name: 🇨🇳_中国_5
-  network: tcp
-  port: 443
-  server: c8217-b2a.h1.49d2.5e11.613.b297.djjsvip.cfd
-  servername: www.microsoft.com
-  skip-cert-verify: true
-  tls: false
-  type: vless
-  udp: true
-  uuid: f89175fa-9465-4325-8554-bb3456321f38
-- flow: xtls-rprx-vision
-  name: 🇺🇸_美国_19
-  network: tcp
-  port: 443
-  server: 140.245.14.34
-  servername: musicstatus.apps.apple.com
-  skip-cert-verify: true
-  tls: false
-  type: vless
-  udp: true
-  uuid: f89175fa-9465-4325-8554-bb3456321f38
-- flow: xtls-rprx-vision
-  name: 🇮🇷_伊朗_2
-  network: tcp
-  port: 7008
-  server: d.eans.top
-  servername: addons.mozilla.org
-  skip-cert-verify: true
-  tls: false
-  type: vless
-  udp: true
-  uuid: e18e5bef-ffe7-4444-ad39-d31cc7c83927
-- flow: xtls-rprx-vision
-  name: 🇮🇷_伊朗_3
-  network: tcp
-  port: 7008
-  server: d.eans.top
-  servername: addons.mozilla.org
-  skip-cert-verify: true
-  tls: false
-  type: vless
-  udp: true
-  uuid: e18e5bef-ffe7-4444-ad39-d31cc7c83927
-- flow: xtls-rprx-vision
-  name: 🇺🇸_美国_20
-  network: tcp
-  port: 7008
-  server: h.eans.top
-  servername: addons.mozilla.org
-  skip-cert-verify: true
-  tls: false
-  type: vless
-  udp: true
-  uuid: e18e5bef-ffe7-4444-ad39-d31cc7c83927
-- flow: xtls-rprx-vision
-  name: 🇮🇷_伊朗_4
-  network: tcp
-  port: 7008
-  server: cn.eans.top
-  servername: addons.mozilla.org
-  skip-cert-verify: true
-  tls: false
-  type: vless
-  udp: true
-  uuid: e18e5bef-ffe7-4444-ad39-d31cc7c83927
-- alterId: '0'
-  cipher: auto
-  name: 🇫🇷_法国_4
   network: ws
-  port: '44579'
-  server: 2001:bc8:32d7:302::10
-  type: vmess
-  uuid: 8e34e170-13ae-4892-9d20-05962acc9f84
-  ws-opts:
-    path: /
-- alterId: '0'
-  cipher: auto
-  name: 🇺🇸_美国_21
-  network: ws
-  port: '443'
-  server: bestcdn3.the-best-airport.top
+  port: 8880
+  server: wangcai82.cloudflare.182682.xyz
+  servername: fei.634676.xyz
+  skip-cert-verify: true
   tls: true
-  type: vmess
-  uuid: f93d5ecc-752e-4f7a-9f15-8196b9be1f9a
+  type: vless
+  udp: true
+  uuid: d2965257-0536-4811-a0d5-cdce54e90326
   ws-opts:
     headers:
-      host: vv-a3-cdn.the-best-airport.top
-    path: /aejynik
-- alterId: '0'
-  cipher: auto
-  name: 🇺🇸_美国_22
+      host: fei.634676.xyz
+    path: freecodes节点狂魔 /?ed=2560
+- name: 🇺🇸_美国_16
   network: ws
-  port: '443'
-  server: bestcdn3.the-best-airport.top
+  port: 8880
+  server: wangcai165.cloudflare.182682.xyz
+  servername: fei.634676.xyz
+  skip-cert-verify: true
   tls: true
-  type: vmess
-  uuid: f93d5ecc-752e-4f7a-9f15-8196b9be1f9a
+  type: vless
+  udp: true
+  uuid: d2965257-0536-4811-a0d5-cdce54e90326
   ws-opts:
     headers:
-      host: vv-b3-cdn.the-best-airport.top
-    path: /aejynik
-- alterId: '0'
-  cipher: auto
-  name: 🇺🇸_美国_23
+      host: fei.634676.xyz
+    path: freecodes节点狂魔 /?ed=2560
+- name: 🇺🇸_美国_17
   network: ws
-  port: '443'
-  server: bestcdn5.the-best-airport.top
+  port: 8880
+  server: wangcai203.cloudflare.182682.xyz
+  servername: fei.634676.xyz
+  skip-cert-verify: true
   tls: true
-  type: vmess
-  uuid: f93d5ecc-752e-4f7a-9f15-8196b9be1f9a
+  type: vless
+  udp: true
+  uuid: d2965257-0536-4811-a0d5-cdce54e90326
   ws-opts:
     headers:
-      host: vv-c5-cdn.the-best-airport.top
-    path: /aejynik
-- alterId: '0'
-  cipher: auto
-  name: 🇺🇸_美国_24
+      host: fei.634676.xyz
+    path: telegram @freecodes /?ed=2560
+- name: 🇺🇸_美国_18
   network: ws
-  port: '443'
-  server: bestcdn5.the-best-airport.top
+  port: 8880
+  server: wangcai155.cloudflare.182682.xyz
+  servername: fei.634676.xyz
+  skip-cert-verify: true
   tls: true
-  type: vmess
-  uuid: f93d5ecc-752e-4f7a-9f15-8196b9be1f9a
+  type: vless
+  udp: true
+  uuid: d2965257-0536-4811-a0d5-cdce54e90326
   ws-opts:
     headers:
-      host: vv-b5-cdn.the-best-airport.top
-    path: /aejynik
-- alterId: '0'
-  cipher: auto
-  name: 🇺🇸_美国_25
+      host: fei.634676.xyz
+    path: freecodes节点狂魔 /?ed=2560
+- name: 🇺🇸_美国_19
   network: ws
-  port: '443'
-  server: bestcdn5.the-best-airport.top
+  port: 8880
+  server: wangcai211.cloudflare.182682.xyz
+  servername: fei.634676.xyz
+  skip-cert-verify: true
   tls: true
-  type: vmess
-  uuid: f93d5ecc-752e-4f7a-9f15-8196b9be1f9a
+  type: vless
+  udp: true
+  uuid: d2965257-0536-4811-a0d5-cdce54e90326
   ws-opts:
     headers:
-      host: vv-a5-cdn.the-best-airport.top
-    path: /aejynik
+      host: fei.634676.xyz
+    path: freecodes节点狂魔 /?ed=2560
+- name: 🇺🇸_美国_20
+  network: ws
+  port: 8880
+  server: wangcai53.cloudflare.182682.xyz
+  servername: fei.634676.xyz
+  skip-cert-verify: true
+  tls: true
+  type: vless
+  udp: true
+  uuid: d2965257-0536-4811-a0d5-cdce54e90326
+  ws-opts:
+    headers:
+      host: fei.634676.xyz
+    path: freecodes节点狂魔 /?ed=2560
+- name: 🇺🇸_美国_21
+  network: ws
+  port: 8880
+  server: wangcai54.cloudflare.182682.xyz
+  servername: fei.634676.xyz
+  skip-cert-verify: true
+  tls: true
+  type: vless
+  udp: true
+  uuid: d2965257-0536-4811-a0d5-cdce54e90326
+  ws-opts:
+    headers:
+      host: fei.634676.xyz
+    path: freecodes节点狂魔 /?ed=2560
+- name: 🇺🇸_美国_22
+  network: ws
+  port: 8880
+  server: wangcai59.cloudflare.182682.xyz
+  servername: fei.634676.xyz
+  skip-cert-verify: true
+  tls: true
+  type: vless
+  udp: true
+  uuid: d2965257-0536-4811-a0d5-cdce54e90326
+  ws-opts:
+    headers:
+      host: fei.634676.xyz
+    path: freecodes节点狂魔 /?ed=2560
+- name: 🇺🇸_美国_23
+  network: ws
+  port: 8880
+  server: wangcai27.cloudflare.182682.xyz
+  servername: fei.634676.xyz
+  skip-cert-verify: true
+  tls: true
+  type: vless
+  udp: true
+  uuid: d2965257-0536-4811-a0d5-cdce54e90326
+  ws-opts:
+    headers:
+      host: fei.634676.xyz
+    path: freecodes节点狂魔 /?ed=2560
+- name: 🇺🇸_美国_24
+  network: ws
+  port: 8880
+  server: wangcai241.cloudflare.182682.xyz
+  servername: fei.634676.xyz
+  skip-cert-verify: true
+  tls: true
+  type: vless
+  udp: true
+  uuid: d2965257-0536-4811-a0d5-cdce54e90326
+  ws-opts:
+    headers:
+      host: fei.634676.xyz
+    path: freecodes节点狂魔 /?ed=2560
+- name: 🇺🇸_美国_25
+  network: ws
+  port: 8880
+  server: wangcai220.cloudflare.182682.xyz
+  servername: fei.634676.xyz
+  skip-cert-verify: true
+  tls: true
+  type: vless
+  udp: true
+  uuid: d2965257-0536-4811-a0d5-cdce54e90326
+  ws-opts:
+    headers:
+      host: fei.634676.xyz
+    path: freecodes节点狂魔/?ed=2560
 - name: 🇺🇸_美国_26
   network: ws
-  port: 80
-  server: 172.66.156.81
-  servername: websocket.network.www.speedtest.net.flutter.dev.russia.python.vegaskala.com.
+  port: 8880
+  server: wangcai159.cloudflare.182682.xyz
+  servername: fei.634676.xyz
   skip-cert-verify: true
   tls: true
   type: vless
   udp: true
-  uuid: 358aa1d3-501e-4e2e-ada0-d844fcca1260
+  uuid: d2965257-0536-4811-a0d5-cdce54e90326
   ws-opts:
     headers:
-      host: websocket.network.www.speedtest.net.flutter.dev.russia.python.vegaskala.com.
-    path: /@shh_proxy----@shh_proxy----@shh_proxy----@shh_proxy----@shh_proxy----@shh_proxy----@shh_proxy----@shh_proxy----@shh_proxy----@shh_proxy----@shh_proxy----@shh_proxy
+      host: fei.634676.xyz
+    path: freecodes节点狂魔 /?ed=2560
 - name: 🇺🇸_美国_27
   network: ws
-  port: 80
-  server: 172.66.156.81
-  servername: websocket.network.www.speedtest.net.flutter.dev.russia.python.vegaskala.com.
+  port: 8880
+  server: wangcai134.cloudflare.182682.xyz
+  servername: fei.634676.xyz
   skip-cert-verify: true
   tls: true
   type: vless
   udp: true
-  uuid: 358aa1d3-501e-4e2e-ada0-d844fcca1260
+  uuid: d2965257-0536-4811-a0d5-cdce54e90326
   ws-opts:
     headers:
-      host: websocket.network.www.speedtest.net.flutter.dev.russia.python.vegaskala.com.
-    path: /@shh_proxy----@shh_proxy----@shh_proxy----@shh_proxy----@shh_proxy----@shh_proxy----@shh_proxy----@shh_proxy----@shh_proxy----@shh_proxy----@shh_proxy----@shh_proxy
+      host: fei.634676.xyz
+    path: freecodes节点狂魔 /?ed=2560
+- name: 🇸🇬_新加坡
+  network: ws
+  port: 443
+  server: 172.105.120.36
+  servername: fei.634676.xyz
+  skip-cert-verify: true
+  tls: true
+  type: vless
+  udp: true
+  uuid: d2965257-0536-4811-a0d5-cdce54e90326
+  ws-opts:
+    headers:
+      host: fei.634676.xyz
+    path: /?ed=2560
+- name: 🇺🇸_美国_28
+  network: ws
+  port: 8880
+  server: wangcai204.cloudflare.182682.xyz
+  servername: fei.634676.xyz
+  skip-cert-verify: true
+  tls: true
+  type: vless
+  udp: true
+  uuid: d2965257-0536-4811-a0d5-cdce54e90326
+  ws-opts:
+    headers:
+      host: fei.634676.xyz
+    path: freecodes节点狂魔 /?ed=2560
+- name: 🇺🇸_美国_29
+  network: ws
+  port: 8880
+  server: wangcai106.cloudflare.182682.xyz
+  servername: fei.634676.xyz
+  skip-cert-verify: true
+  tls: true
+  type: vless
+  udp: true
+  uuid: d2965257-0536-4811-a0d5-cdce54e90326
+  ws-opts:
+    headers:
+      host: fei.634676.xyz
+    path: freecodes节点狂魔 /?ed=2560
+- name: 🇺🇸_美国_30
+  network: ws
+  port: 8880
+  server: wangcai167.cloudflare.182682.xyz
+  servername: fei.634676.xyz
+  skip-cert-verify: true
+  tls: true
+  type: vless
+  udp: true
+  uuid: d2965257-0536-4811-a0d5-cdce54e90326
+  ws-opts:
+    headers:
+      host: fei.634676.xyz
+    path: telegram @freecodes /?ed=2560
+- name: 🇺🇸_美国_31
+  network: ws
+  port: 8880
+  server: wangcai85.cloudflare.182682.xyz
+  servername: fei.634676.xyz
+  skip-cert-verify: true
+  tls: true
+  type: vless
+  udp: true
+  uuid: d2965257-0536-4811-a0d5-cdce54e90326
+  ws-opts:
+    headers:
+      host: fei.634676.xyz
+    path: freecodes节点狂魔 /?ed=2560
+- name: 🇸🇮_斯洛文尼亚
+  network: ws
+  port: 2096
+  server: 92.53.190.61
+  servername: vless.hubp.de
+  skip-cert-verify: true
+  tls: true
+  type: vless
+  udp: true
+  uuid: 12345678-1234-1234-1234-123456789123
+  ws-opts:
+    headers:
+      host: vless.hubp.de
+    path: /snippets
+- name: 🇺🇸_美国_32
+  network: ws
+  port: 8880
+  server: wangcai243.cloudflare.182682.xyz
+  servername: fei.634676.xyz
+  skip-cert-verify: true
+  tls: true
+  type: vless
+  udp: true
+  uuid: d2965257-0536-4811-a0d5-cdce54e90326
+  ws-opts:
+    headers:
+      host: fei.634676.xyz
+    path: freecodes节点狂魔 /?ed=2560
+- name: 🇬🇧_英国_1
+  network: ws
+  port: 443
+  server: 158.180.87.165
+  servername: fei.634676.xyz
+  skip-cert-verify: true
+  tls: true
+  type: vless
+  udp: true
+  uuid: d2965257-0536-4811-a0d5-cdce54e90326
+  ws-opts:
+    headers:
+      host: fei.634676.xyz
+    path: /?ed=2560
+- name: 🇺🇸_美国_33
+  network: ws
+  port: 8880
+  server: wangcai116.cloudflare.182682.xyz
+  servername: fei.634676.xyz
+  skip-cert-verify: true
+  tls: true
+  type: vless
+  udp: true
+  uuid: d2965257-0536-4811-a0d5-cdce54e90326
+  ws-opts:
+    headers:
+      host: fei.634676.xyz
+    path: freecodes节点狂魔 /?ed=2560
+- name: 🇺🇸_美国_34
+  network: ws
+  port: 8880
+  server: wangcai91.cloudflare.182682.xyz
+  servername: fei.634676.xyz
+  skip-cert-verify: true
+  tls: true
+  type: vless
+  udp: true
+  uuid: d2965257-0536-4811-a0d5-cdce54e90326
+  ws-opts:
+    headers:
+      host: fei.634676.xyz
+    path: freecodes节点狂魔 /?ed=2560
+- name: 🇺🇸_美国_35
+  network: ws
+  port: 443
+  server: 166.1.190.51
+  servername: fei.634676.xyz
+  skip-cert-verify: true
+  tls: true
+  type: vless
+  udp: true
+  uuid: d2965257-0536-4811-a0d5-cdce54e90326
+  ws-opts:
+    headers:
+      host: fei.634676.xyz
+    path: /?ed=2560
+- name: 🇪🇸_西班牙_1
+  network: ws
+  port: 2096
+  server: 185.251.81.253
+  servername: fast01.0860852.xyz
+  skip-cert-verify: true
+  tls: true
+  type: vless
+  udp: true
+  uuid: 2456f90c-5183-476d-b069-16ae74ce120f
+  ws-opts:
+    headers:
+      host: fast01.0860852.xyz
+    path: /telegram
+- name: 🇺🇸_美国_36
+  network: ws
+  port: 2053
+  server: 162.19.243.185
+  servername: fei.634676.xyz
+  skip-cert-verify: true
+  tls: true
+  type: vless
+  udp: true
+  uuid: d2965257-0536-4811-a0d5-cdce54e90326
+  ws-opts:
+    headers:
+      host: fei.634676.xyz
+    path: /?ed=2560
+- name: 🇺🇸_美国_37
+  network: ws
+  port: 8443
+  server: 152.228.134.216
+  servername: fei.634676.xyz
+  skip-cert-verify: true
+  tls: true
+  type: vless
+  udp: true
+  uuid: d2965257-0536-4811-a0d5-cdce54e90326
+  ws-opts:
+    headers:
+      host: fei.634676.xyz
+    path: /?ed=2560
+- name: 🇺🇸_美国_38
+  network: ws
+  port: 443
+  server: 172.104.203.143
+  servername: fei.634676.xyz
+  skip-cert-verify: true
+  tls: true
+  type: vless
+  udp: true
+  uuid: d2965257-0536-4811-a0d5-cdce54e90326
+  ws-opts:
+    headers:
+      host: fei.634676.xyz
+    path: /?ed=2560
+- name: 🇺🇸_美国_39
+  network: ws
+  port: 2053
+  server: 162.19.252.222
+  servername: fei.634676.xyz
+  skip-cert-verify: true
+  tls: true
+  type: vless
+  udp: true
+  uuid: d2965257-0536-4811-a0d5-cdce54e90326
+  ws-opts:
+    headers:
+      host: fei.634676.xyz
+    path: /?ed=2560
+- name: 🇺🇸_美国_40
+  network: ws
+  port: 8443
+  server: 152.228.134.126
+  servername: fei.634676.xyz
+  skip-cert-verify: true
+  tls: true
+  type: vless
+  udp: true
+  uuid: d2965257-0536-4811-a0d5-cdce54e90326
+  ws-opts:
+    headers:
+      host: fei.634676.xyz
+    path: /?ed=2560
+- name: 🇩🇪_德国_2
+  network: ws
+  port: 2053
+  server: 89.19.44.43
+  servername: fei.634676.xyz
+  skip-cert-verify: true
+  tls: true
+  type: vless
+  udp: true
+  uuid: d2965257-0536-4811-a0d5-cdce54e90326
+  ws-opts:
+    headers:
+      host: fei.634676.xyz
+    path: /?ed=2560
+- name: 🇺🇸_美国_41
+  network: ws
+  port: 8880
+  server: wangcai152.cloudflare.182682.xyz
+  servername: fei.634676.xyz
+  skip-cert-verify: true
+  tls: true
+  type: vless
+  udp: true
+  uuid: d2965257-0536-4811-a0d5-cdce54e90326
+  ws-opts:
+    headers:
+      host: fei.634676.xyz
+    path: freecodes节点狂魔 /?ed=2560
+- name: 🇩🇪_德国_3
+  network: ws
+  port: 443
+  server: 91.107.159.91
+  servername: fei.634676.xyz
+  skip-cert-verify: true
+  tls: true
+  type: vless
+  udp: true
+  uuid: d2965257-0536-4811-a0d5-cdce54e90326
+  ws-opts:
+    headers:
+      host: fei.634676.xyz
+    path: /?ed=2560
+- name: 🇫🇷_法国_2
+  network: ws
+  port: 443
+  server: 135.125.181.144
+  servername: fei.634676.xyz
+  skip-cert-verify: true
+  tls: true
+  type: vless
+  udp: true
+  uuid: d2965257-0536-4811-a0d5-cdce54e90326
+  ws-opts:
+    headers:
+      host: fei.634676.xyz
+    path: /?ed=2560
+- name: 🇺🇸_美国_42
+  network: ws
+  port: 8880
+  server: wangcai23.cloudflare.182682.xyz
+  servername: fei.634676.xyz
+  skip-cert-verify: true
+  tls: true
+  type: vless
+  udp: true
+  uuid: d2965257-0536-4811-a0d5-cdce54e90326
+  ws-opts:
+    headers:
+      host: fei.634676.xyz
+    path: freecodes节点狂魔 /?ed=2560
+- name: 🇺🇸_美国_43
+  network: ws
+  port: 8880
+  server: wangcai216.cloudflare.182682.xyz
+  servername: fei.634676.xyz
+  skip-cert-verify: true
+  tls: true
+  type: vless
+  udp: true
+  uuid: d2965257-0536-4811-a0d5-cdce54e90326
+  ws-opts:
+    headers:
+      host: fei.634676.xyz
+    path: freecodes节点狂魔/?ed=2560
+- name: 🇩🇪_德国_4
+  network: ws
+  port: 443
+  server: 139.162.183.50
+  servername: fei.634676.xyz
+  skip-cert-verify: true
+  tls: true
+  type: vless
+  udp: true
+  uuid: d2965257-0536-4811-a0d5-cdce54e90326
+  ws-opts:
+    headers:
+      host: fei.634676.xyz
+    path: /?ed=2560
+- name: 🇺🇸_美国_44
+  network: ws
+  port: 2053
+  server: 51.195.42.9
+  servername: fei.634676.xyz
+  skip-cert-verify: true
+  tls: true
+  type: vless
+  udp: true
+  uuid: d2965257-0536-4811-a0d5-cdce54e90326
+  ws-opts:
+    headers:
+      host: fei.634676.xyz
+    path: /?ed=2560
+- name: 🇺🇸_美国_45
+  network: ws
+  port: 8443
+  server: 152.228.135.141
+  servername: fei.634676.xyz
+  skip-cert-verify: true
+  tls: true
+  type: vless
+  udp: true
+  uuid: d2965257-0536-4811-a0d5-cdce54e90326
+  ws-opts:
+    headers:
+      host: fei.634676.xyz
+    path: /?ed=2560
+- name: 🇩🇪_德国_5
+  network: ws
+  port: 443
+  server: 172.104.144.88
+  servername: fei.634676.xyz
+  skip-cert-verify: true
+  tls: true
+  type: vless
+  udp: true
+  uuid: d2965257-0536-4811-a0d5-cdce54e90326
+  ws-opts:
+    headers:
+      host: fei.634676.xyz
+    path: /?ed=2560
+- name: 🇩🇪_德国_6
+  network: ws
+  port: 8443
+  server: 91.107.245.83
+  servername: fei.634676.xyz
+  skip-cert-verify: true
+  tls: true
+  type: vless
+  udp: true
+  uuid: d2965257-0536-4811-a0d5-cdce54e90326
+  ws-opts:
+    headers:
+      host: fei.634676.xyz
+    path: /?ed=2560
+- name: 🇺🇸_美国_46
+  network: ws
+  port: 8443
+  server: 152.228.134.48
+  servername: fei.634676.xyz
+  skip-cert-verify: true
+  tls: true
+  type: vless
+  udp: true
+  uuid: d2965257-0536-4811-a0d5-cdce54e90326
+  ws-opts:
+    headers:
+      host: fei.634676.xyz
+    path: /?ed=2560
+- name: 🇺🇸_美国_47
+  network: ws
+  port: 2053
+  server: 162.19.246.53
+  servername: fei.634676.xyz
+  skip-cert-verify: true
+  tls: true
+  type: vless
+  udp: true
+  uuid: d2965257-0536-4811-a0d5-cdce54e90326
+  ws-opts:
+    headers:
+      host: fei.634676.xyz
+    path: /?ed=2560
+- name: 🇷🇺_俄罗斯_1
+  network: ws
+  port: 443
+  server: 194.87.79.223
+  servername: fei.634676.xyz
+  skip-cert-verify: true
+  tls: true
+  type: vless
+  udp: true
+  uuid: d2965257-0536-4811-a0d5-cdce54e90326
+  ws-opts:
+    headers:
+      host: fei.634676.xyz
+    path: /?ed=2560
+- name: 🇺🇸_美国_48
+  network: ws
+  port: 2053
+  server: 51.195.102.68
+  servername: fei.634676.xyz
+  skip-cert-verify: true
+  tls: true
+  type: vless
+  udp: true
+  uuid: d2965257-0536-4811-a0d5-cdce54e90326
+  ws-opts:
+    headers:
+      host: fei.634676.xyz
+    path: /?ed=2560
+- name: 🇺🇸_美国_49
+  network: ws
+  port: 2053
+  server: 162.19.243.173
+  servername: fei.634676.xyz
+  skip-cert-verify: true
+  tls: true
+  type: vless
+  udp: true
+  uuid: d2965257-0536-4811-a0d5-cdce54e90326
+  ws-opts:
+    headers:
+      host: fei.634676.xyz
+    path: /?ed=2560
+- name: 🇩🇪_德国_7
+  network: ws
+  port: 2083
+  server: 5.75.139.127
+  servername: fei.634676.xyz
+  skip-cert-verify: true
+  tls: true
+  type: vless
+  udp: true
+  uuid: d2965257-0536-4811-a0d5-cdce54e90326
+  ws-opts:
+    headers:
+      host: fei.634676.xyz
+    path: /?ed=2560
+- name: 🇩🇪_德国_8
+  network: ws
+  port: 2053
+  server: 49.12.160.221
+  servername: fei.634676.xyz
+  skip-cert-verify: true
+  tls: true
+  type: vless
+  udp: true
+  uuid: d2965257-0536-4811-a0d5-cdce54e90326
+  ws-opts:
+    headers:
+      host: fei.634676.xyz
+    path: /?ed=2560
+- name: 🇺🇸_美国_50
+  network: ws
+  port: 8443
+  server: 51.89.23.94
+  servername: fei.634676.xyz
+  skip-cert-verify: true
+  tls: true
+  type: vless
+  udp: true
+  uuid: d2965257-0536-4811-a0d5-cdce54e90326
+  ws-opts:
+    headers:
+      host: fei.634676.xyz
+    path: /?ed=2560
+- name: 🇩🇪_德国_9
+  network: ws
+  port: 2096
+  server: 5.75.207.125
+  servername: fei.634676.xyz
+  skip-cert-verify: true
+  tls: true
+  type: vless
+  udp: true
+  uuid: d2965257-0536-4811-a0d5-cdce54e90326
+  ws-opts:
+    headers:
+      host: fei.634676.xyz
+    path: /?ed=2560
+- name: 🇺🇸_美国_51
+  network: ws
+  port: 2053
+  server: 162.19.226.175
+  servername: fei.634676.xyz
+  skip-cert-verify: true
+  tls: true
+  type: vless
+  udp: true
+  uuid: d2965257-0536-4811-a0d5-cdce54e90326
+  ws-opts:
+    headers:
+      host: fei.634676.xyz
+    path: /?ed=2560
+- name: 🇺🇸_美国_52
+  network: ws
+  port: 2053
+  server: 162.19.247.5
+  servername: fei.634676.xyz
+  skip-cert-verify: true
+  tls: true
+  type: vless
+  udp: true
+  uuid: d2965257-0536-4811-a0d5-cdce54e90326
+  ws-opts:
+    headers:
+      host: fei.634676.xyz
+    path: /?ed=2560
+- name: 🇺🇸_美国_53
+  network: ws
+  port: 2053
+  server: 51.91.102.36
+  servername: fei.634676.xyz
+  skip-cert-verify: true
+  tls: true
+  type: vless
+  udp: true
+  uuid: d2965257-0536-4811-a0d5-cdce54e90326
+  ws-opts:
+    headers:
+      host: fei.634676.xyz
+    path: /?ed=2560
+- name: 🇩🇪_德国_10
+  network: ws
+  port: 443
+  server: 194.233.167.252
+  servername: fei.634676.xyz
+  skip-cert-verify: true
+  tls: true
+  type: vless
+  udp: true
+  uuid: d2965257-0536-4811-a0d5-cdce54e90326
+  ws-opts:
+    headers:
+      host: fei.634676.xyz
+    path: /?ed=2560
+- name: 🇩🇪_德国_11
+  network: ws
+  port: 443
+  server: 85.10.253.205
+  servername: fei.634676.xyz
+  skip-cert-verify: true
+  tls: true
+  type: vless
+  udp: true
+  uuid: d2965257-0536-4811-a0d5-cdce54e90326
+  ws-opts:
+    headers:
+      host: fei.634676.xyz
+    path: /?ed=2560
+- name: 🇺🇸_美国_54
+  network: ws
+  port: 8443
+  server: 152.228.135.111
+  servername: fei.634676.xyz
+  skip-cert-verify: true
+  tls: true
+  type: vless
+  udp: true
+  uuid: d2965257-0536-4811-a0d5-cdce54e90326
+  ws-opts:
+    headers:
+      host: fei.634676.xyz
+    path: /?ed=2560
+- name: 🇺🇸_美国_55
+  network: ws
+  port: 2053
+  server: 162.19.243.46
+  servername: fei.634676.xyz
+  skip-cert-verify: true
+  tls: true
+  type: vless
+  udp: true
+  uuid: d2965257-0536-4811-a0d5-cdce54e90326
+  ws-opts:
+    headers:
+      host: fei.634676.xyz
+    path: /?ed=2560
+- name: 🇩🇪_德国_12
+  network: ws
+  port: 2096
+  server: 5.75.194.120
+  servername: fei.634676.xyz
+  skip-cert-verify: true
+  tls: true
+  type: vless
+  udp: true
+  uuid: d2965257-0536-4811-a0d5-cdce54e90326
+  ws-opts:
+    headers:
+      host: fei.634676.xyz
+    path: /?ed=2560
+- name: 🇩🇪_德国_13
+  network: ws
+  port: 443
+  server: 91.107.190.144
+  servername: fei.634676.xyz
+  skip-cert-verify: true
+  tls: true
+  type: vless
+  udp: true
+  uuid: d2965257-0536-4811-a0d5-cdce54e90326
+  ws-opts:
+    headers:
+      host: fei.634676.xyz
+    path: /?ed=2560
+- name: 🇩🇪_德国_14
+  network: ws
+  port: 443
+  server: 159.69.185.118
+  servername: fei.634676.xyz
+  skip-cert-verify: true
+  tls: true
+  type: vless
+  udp: true
+  uuid: d2965257-0536-4811-a0d5-cdce54e90326
+  ws-opts:
+    headers:
+      host: fei.634676.xyz
+    path: /?ed=2560
+- name: 🏳️_未知_1
+  network: ws
+  port: 2053
+  server: 91.199.32.179
+  servername: fei.634676.xyz
+  skip-cert-verify: true
+  tls: true
+  type: vless
+  udp: true
+  uuid: d2965257-0536-4811-a0d5-cdce54e90326
+  ws-opts:
+    headers:
+      host: fei.634676.xyz
+    path: /?ed=2560
+- name: 🇺🇸_美国_56
+  network: ws
+  port: 2053
+  server: 51.195.44.12
+  servername: fei.634676.xyz
+  skip-cert-verify: true
+  tls: true
+  type: vless
+  udp: true
+  uuid: d2965257-0536-4811-a0d5-cdce54e90326
+  ws-opts:
+    headers:
+      host: fei.634676.xyz
+    path: /?ed=2560
+- name: 🇩🇪_德国_15
+  network: ws
+  port: 443
+  server: 88.198.82.155
+  servername: fei.634676.xyz
+  skip-cert-verify: true
+  tls: true
+  type: vless
+  udp: true
+  uuid: d2965257-0536-4811-a0d5-cdce54e90326
+  ws-opts:
+    headers:
+      host: fei.634676.xyz
+    path: /?ed=2560
+- name: 🇩🇪_德国_16
+  network: ws
+  port: 443
+  server: 91.107.155.13
+  servername: fei.634676.xyz
+  skip-cert-verify: true
+  tls: true
+  type: vless
+  udp: true
+  uuid: d2965257-0536-4811-a0d5-cdce54e90326
+  ws-opts:
+    headers:
+      host: fei.634676.xyz
+    path: /?ed=2560
+- name: 🇺🇸_美国_57
+  network: ws
+  port: 8443
+  server: 152.228.134.60
+  servername: fei.634676.xyz
+  skip-cert-verify: true
+  tls: true
+  type: vless
+  udp: true
+  uuid: d2965257-0536-4811-a0d5-cdce54e90326
+  ws-opts:
+    headers:
+      host: fei.634676.xyz
+    path: /?ed=2560
+- name: 🇩🇪_德国_17
+  network: ws
+  port: 2053
+  server: 91.107.187.248
+  servername: fei.634676.xyz
+  skip-cert-verify: true
+  tls: true
+  type: vless
+  udp: true
+  uuid: d2965257-0536-4811-a0d5-cdce54e90326
+  ws-opts:
+    headers:
+      host: fei.634676.xyz
+    path: /?ed=2560
+- name: 🇩🇪_德国_18
+  network: ws
+  port: 8443
+  server: 91.107.191.42
+  servername: fei.634676.xyz
+  skip-cert-verify: true
+  tls: true
+  type: vless
+  udp: true
+  uuid: d2965257-0536-4811-a0d5-cdce54e90326
+  ws-opts:
+    headers:
+      host: fei.634676.xyz
+    path: /?ed=2560
+- name: 🇩🇪_德国_19
+  network: ws
+  port: 443
+  server: 91.107.158.77
+  servername: fei.634676.xyz
+  skip-cert-verify: true
+  tls: true
+  type: vless
+  udp: true
+  uuid: d2965257-0536-4811-a0d5-cdce54e90326
+  ws-opts:
+    headers:
+      host: fei.634676.xyz
+    path: /?ed=2560
+- name: 🇩🇪_德国_20
+  network: ws
+  port: 2096
+  server: 91.107.185.49
+  servername: fei.634676.xyz
+  skip-cert-verify: true
+  tls: true
+  type: vless
+  udp: true
+  uuid: d2965257-0536-4811-a0d5-cdce54e90326
+  ws-opts:
+    headers:
+      host: fei.634676.xyz
+    path: /?ed=2560
+- name: 🇺🇸_美国_58
+  network: ws
+  port: 8880
+  server: wangcai203.cloudflare.182682.xyz
+  servername: fei.634676.xyz
+  skip-cert-verify: true
+  tls: true
+  type: vless
+  udp: true
+  uuid: d2965257-0536-4811-a0d5-cdce54e90326
+  ws-opts:
+    headers:
+      host: fei.634676.xyz
+    path: freecodes节点狂魔 /?ed=2560
+- name: 🇩🇪_德国_21
+  network: ws
+  port: 443
+  server: 91.107.189.71
+  servername: fei.634676.xyz
+  skip-cert-verify: true
+  tls: true
+  type: vless
+  udp: true
+  uuid: d2965257-0536-4811-a0d5-cdce54e90326
+  ws-opts:
+    headers:
+      host: fei.634676.xyz
+    path: /?ed=2560
+- name: 🇩🇪_德国_22
+  network: ws
+  port: 443
+  server: 91.107.163.245
+  servername: fei.634676.xyz
+  skip-cert-verify: true
+  tls: true
+  type: vless
+  udp: true
+  uuid: d2965257-0536-4811-a0d5-cdce54e90326
+  ws-opts:
+    headers:
+      host: fei.634676.xyz
+    path: /?ed=2560
+- name: 🇺🇸_美国_59
+  network: ws
+  port: 443
+  server: 51.91.254.173
+  servername: fei.634676.xyz
+  skip-cert-verify: true
+  tls: true
+  type: vless
+  udp: true
+  uuid: d2965257-0536-4811-a0d5-cdce54e90326
+  ws-opts:
+    headers:
+      host: fei.634676.xyz
+    path: /?ed=2560
+- name: 🇺🇸_美国_60
+  network: ws
+  port: 443
+  server: 51.91.253.57
+  servername: fei.634676.xyz
+  skip-cert-verify: true
+  tls: true
+  type: vless
+  udp: true
+  uuid: d2965257-0536-4811-a0d5-cdce54e90326
+  ws-opts:
+    headers:
+      host: fei.634676.xyz
+    path: /?ed=2560
+- name: 🇺🇸_美国_61
+  network: ws
+  port: 2053
+  server: 51.91.100.9
+  servername: fei.634676.xyz
+  skip-cert-verify: true
+  tls: true
+  type: vless
+  udp: true
+  uuid: d2965257-0536-4811-a0d5-cdce54e90326
+  ws-opts:
+    headers:
+      host: fei.634676.xyz
+    path: /?ed=2560
+- name: 🇩🇪_德国_23
+  network: ws
+  port: 443
+  server: 91.107.167.242
+  servername: fei.634676.xyz
+  skip-cert-verify: true
+  tls: true
+  type: vless
+  udp: true
+  uuid: d2965257-0536-4811-a0d5-cdce54e90326
+  ws-opts:
+    headers:
+      host: fei.634676.xyz
+    path: /?ed=2560
+- name: 🇩🇪_德国_24
+  network: ws
+  port: 2053
+  server: 141.94.221.119
+  servername: fei.634676.xyz
+  skip-cert-verify: true
+  tls: true
+  type: vless
+  udp: true
+  uuid: d2965257-0536-4811-a0d5-cdce54e90326
+  ws-opts:
+    headers:
+      host: fei.634676.xyz
+    path: /?ed=2560
+- name: 🇩🇪_德国_25
+  network: ws
+  port: 8443
+  server: 141.94.70.24
+  servername: fei.634676.xyz
+  skip-cert-verify: true
+  tls: true
+  type: vless
+  udp: true
+  uuid: d2965257-0536-4811-a0d5-cdce54e90326
+  ws-opts:
+    headers:
+      host: fei.634676.xyz
+    path: /?ed=2560
+- name: 🇩🇪_德国_26
+  network: ws
+  port: 2053
+  server: 141.94.206.222
+  servername: fei.634676.xyz
+  skip-cert-verify: true
+  tls: true
+  type: vless
+  udp: true
+  uuid: d2965257-0536-4811-a0d5-cdce54e90326
+  ws-opts:
+    headers:
+      host: fei.634676.xyz
+    path: /?ed=2560
+- name: 🇩🇪_德国_27
+  network: ws
+  port: 2053
+  server: 141.94.70.24
+  servername: fei.634676.xyz
+  skip-cert-verify: true
+  tls: true
+  type: vless
+  udp: true
+  uuid: d2965257-0536-4811-a0d5-cdce54e90326
+  ws-opts:
+    headers:
+      host: fei.634676.xyz
+    path: /?ed=2560
+- name: 🇺🇸_美国_62
+  network: ws
+  port: 2053
+  server: 51.195.101.75
+  servername: fei.634676.xyz
+  skip-cert-verify: true
+  tls: true
+  type: vless
+  udp: true
+  uuid: d2965257-0536-4811-a0d5-cdce54e90326
+  ws-opts:
+    headers:
+      host: fei.634676.xyz
+    path: /?ed=2560
+- name: 🇩🇪_德国_28
+  network: ws
+  port: 8443
+  server: 141.94.206.218
+  servername: fei.634676.xyz
+  skip-cert-verify: true
+  tls: true
+  type: vless
+  udp: true
+  uuid: d2965257-0536-4811-a0d5-cdce54e90326
+  ws-opts:
+    headers:
+      host: fei.634676.xyz
+    path: /?ed=2560
+- name: 🇺🇸_美国_63
+  network: ws
+  port: 2053
+  server: 51.91.102.163
+  servername: fei.634676.xyz
+  skip-cert-verify: true
+  tls: true
+  type: vless
+  udp: true
+  uuid: d2965257-0536-4811-a0d5-cdce54e90326
+  ws-opts:
+    headers:
+      host: fei.634676.xyz
+    path: /?ed=2560
+- name: 🇮🇷_伊朗_1
+  network: ws
+  port: 443
+  server: 91.99.215.214
+  servername: fei.634676.xyz
+  skip-cert-verify: true
+  tls: true
+  type: vless
+  udp: true
+  uuid: d2965257-0536-4811-a0d5-cdce54e90326
+  ws-opts:
+    headers:
+      host: fei.634676.xyz
+    path: /?ed=2560
+- name: 🇩🇪_德国_29
+  network: ws
+  port: 2053
+  server: 141.94.204.200
+  servername: fei.634676.xyz
+  skip-cert-verify: true
+  tls: true
+  type: vless
+  udp: true
+  uuid: d2965257-0536-4811-a0d5-cdce54e90326
+  ws-opts:
+    headers:
+      host: fei.634676.xyz
+    path: /?ed=2560
+- name: 🇩🇪_德国_30
+  network: ws
+  port: 2087
+  server: 5.75.192.9
+  servername: fei.634676.xyz
+  skip-cert-verify: true
+  tls: true
+  type: vless
+  udp: true
+  uuid: d2965257-0536-4811-a0d5-cdce54e90326
+  ws-opts:
+    headers:
+      host: fei.634676.xyz
+    path: /?ed=2560
+- name: 🇩🇪_德国_31
+  network: ws
+  port: 2053
+  server: 141.94.223.49
+  servername: fei.634676.xyz
+  skip-cert-verify: true
+  tls: true
+  type: vless
+  udp: true
+  uuid: d2965257-0536-4811-a0d5-cdce54e90326
+  ws-opts:
+    headers:
+      host: fei.634676.xyz
+    path: /?ed=2560
+- name: 🇩🇪_德国_32
+  network: ws
+  port: 8443
+  server: 5.9.144.250
+  servername: fei.634676.xyz
+  skip-cert-verify: true
+  tls: true
+  type: vless
+  udp: true
+  uuid: d2965257-0536-4811-a0d5-cdce54e90326
+  ws-opts:
+    headers:
+      host: fei.634676.xyz
+    path: /?ed=2560
+- name: 🇺🇸_美国_64
+  network: ws
+  port: 443
+  server: 51.91.253.245
+  servername: fei.634676.xyz
+  skip-cert-verify: true
+  tls: true
+  type: vless
+  udp: true
+  uuid: d2965257-0536-4811-a0d5-cdce54e90326
+  ws-opts:
+    headers:
+      host: fei.634676.xyz
+    path: /?ed=2560
+- name: 🇮🇷_伊朗_2
+  network: ws
+  port: 2083
+  server: 188.245.92.220
+  servername: fei.634676.xyz
+  skip-cert-verify: true
+  tls: true
+  type: vless
+  udp: true
+  uuid: d2965257-0536-4811-a0d5-cdce54e90326
+  ws-opts:
+    headers:
+      host: fei.634676.xyz
+    path: /?ed=2560
+- name: 🇩🇪_德国_33
+  network: ws
+  port: 8443
+  server: 141.94.204.206
+  servername: fei.634676.xyz
+  skip-cert-verify: true
+  tls: true
+  type: vless
+  udp: true
+  uuid: d2965257-0536-4811-a0d5-cdce54e90326
+  ws-opts:
+    headers:
+      host: fei.634676.xyz
+    path: /?ed=2560
+- name: 🇺🇸_美国_65
+  network: ws
+  port: 8443
+  server: 51.91.254.189
+  servername: fei.634676.xyz
+  skip-cert-verify: true
+  tls: true
+  type: vless
+  udp: true
+  uuid: d2965257-0536-4811-a0d5-cdce54e90326
+  ws-opts:
+    headers:
+      host: fei.634676.xyz
+    path: /?ed=2560
+- name: 🇩🇪_德国_34
+  network: ws
+  port: 8443
+  server: 141.94.204.212
+  servername: fei.634676.xyz
+  skip-cert-verify: true
+  tls: true
+  type: vless
+  udp: true
+  uuid: d2965257-0536-4811-a0d5-cdce54e90326
+  ws-opts:
+    headers:
+      host: fei.634676.xyz
+    path: /?ed=2560
+- name: 🇺🇸_美国_66
+  network: ws
+  port: 8443
+  server: 54.36.99.6
+  servername: fei.634676.xyz
+  skip-cert-verify: true
+  tls: true
+  type: vless
+  udp: true
+  uuid: d2965257-0536-4811-a0d5-cdce54e90326
+  ws-opts:
+    headers:
+      host: fei.634676.xyz
+    path: /?ed=2560
+- name: 🇩🇪_德国_35
+  network: ws
+  port: 8443
+  server: 91.107.230.41
+  servername: fei.634676.xyz
+  skip-cert-verify: true
+  tls: true
+  type: vless
+  udp: true
+  uuid: d2965257-0536-4811-a0d5-cdce54e90326
+  ws-opts:
+    headers:
+      host: fei.634676.xyz
+    path: /?ed=2560
+- name: 🇩🇪_德国_36
+  network: ws
+  port: 8443
+  server: 49.13.161.60
+  servername: fei.634676.xyz
+  skip-cert-verify: true
+  tls: true
+  type: vless
+  udp: true
+  uuid: d2965257-0536-4811-a0d5-cdce54e90326
+  ws-opts:
+    headers:
+      host: fei.634676.xyz
+    path: /?ed=2560
+- name: 🇺🇸_美国_67
+  network: ws
+  port: 443
+  server: 51.91.249.223
+  servername: fei.634676.xyz
+  skip-cert-verify: true
+  tls: true
+  type: vless
+  udp: true
+  uuid: d2965257-0536-4811-a0d5-cdce54e90326
+  ws-opts:
+    headers:
+      host: fei.634676.xyz
+    path: /?ed=2560
+- name: 🇩🇪_德国_37
+  network: ws
+  port: 2053
+  server: 141.94.222.33
+  servername: fei.634676.xyz
+  skip-cert-verify: true
+  tls: true
+  type: vless
+  udp: true
+  uuid: d2965257-0536-4811-a0d5-cdce54e90326
+  ws-opts:
+    headers:
+      host: fei.634676.xyz
+    path: /?ed=2560
+- name: 🇩🇪_德国_38
+  network: ws
+  port: 2053
+  server: 141.94.221.230
+  servername: fei.634676.xyz
+  skip-cert-verify: true
+  tls: true
+  type: vless
+  udp: true
+  uuid: d2965257-0536-4811-a0d5-cdce54e90326
+  ws-opts:
+    headers:
+      host: fei.634676.xyz
+    path: /?ed=2560
+- name: 🇩🇪_德国_39
+  network: ws
+  port: 2053
+  server: 141.95.159.211
+  servername: fei.634676.xyz
+  skip-cert-verify: true
+  tls: true
+  type: vless
+  udp: true
+  uuid: d2965257-0536-4811-a0d5-cdce54e90326
+  ws-opts:
+    headers:
+      host: fei.634676.xyz
+    path: /?ed=2560
+- name: 🇩🇪_德国_40
+  network: ws
+  port: 8443
+  server: 141.94.68.216
+  servername: fei.634676.xyz
+  skip-cert-verify: true
+  tls: true
+  type: vless
+  udp: true
+  uuid: d2965257-0536-4811-a0d5-cdce54e90326
+  ws-opts:
+    headers:
+      host: fei.634676.xyz
+    path: /?ed=2560
+- name: 🇮🇷_伊朗_3
+  network: ws
+  port: 2053
+  server: 91.99.154.12
+  servername: fei.634676.xyz
+  skip-cert-verify: true
+  tls: true
+  type: vless
+  udp: true
+  uuid: d2965257-0536-4811-a0d5-cdce54e90326
+  ws-opts:
+    headers:
+      host: fei.634676.xyz
+    path: /?ed=2560
+- name: 🇫🇷_法国_3
+  network: ws
+  port: 8443
+  server: 37.59.96.50
+  servername: fei.634676.xyz
+  skip-cert-verify: true
+  tls: true
+  type: vless
+  udp: true
+  uuid: d2965257-0536-4811-a0d5-cdce54e90326
+  ws-opts:
+    headers:
+      host: fei.634676.xyz
+    path: /?ed=2560
+- name: 🇩🇪_德国_41
+  network: ws
+  port: 8443
+  server: 141.94.207.153
+  servername: fei.634676.xyz
+  skip-cert-verify: true
+  tls: true
+  type: vless
+  udp: true
+  uuid: d2965257-0536-4811-a0d5-cdce54e90326
+  ws-opts:
+    headers:
+      host: fei.634676.xyz
+    path: /?ed=2560
+- name: 🇺🇸_美国_68
+  network: ws
+  port: 443
+  server: 51.91.255.121
+  servername: fei.634676.xyz
+  skip-cert-verify: true
+  tls: true
+  type: vless
+  udp: true
+  uuid: d2965257-0536-4811-a0d5-cdce54e90326
+  ws-opts:
+    headers:
+      host: fei.634676.xyz
+    path: /?ed=2560
+- name: 🇺🇸_美国_69
+  network: ws
+  port: 443
+  server: 51.91.251.16
+  servername: fei.634676.xyz
+  skip-cert-verify: true
+  tls: true
+  type: vless
+  udp: true
+  uuid: d2965257-0536-4811-a0d5-cdce54e90326
+  ws-opts:
+    headers:
+      host: fei.634676.xyz
+    path: /?ed=2560
+- name: 🇩🇪_德国_42
+  network: ws
+  port: 8443
+  server: 141.94.221.25
+  servername: fei.634676.xyz
+  skip-cert-verify: true
+  tls: true
+  type: vless
+  udp: true
+  uuid: d2965257-0536-4811-a0d5-cdce54e90326
+  ws-opts:
+    headers:
+      host: fei.634676.xyz
+    path: /?ed=2560
+- name: 🇺🇸_美国_70
+  network: ws
+  port: 8443
+  server: 51.91.250.33
+  servername: fei.634676.xyz
+  skip-cert-verify: true
+  tls: true
+  type: vless
+  udp: true
+  uuid: d2965257-0536-4811-a0d5-cdce54e90326
+  ws-opts:
+    headers:
+      host: fei.634676.xyz
+    path: /?ed=2560
+- name: 🇺🇸_美国_71
+  network: ws
+  port: 2053
+  server: 162.19.254.98
+  servername: fei.634676.xyz
+  skip-cert-verify: true
+  tls: true
+  type: vless
+  udp: true
+  uuid: d2965257-0536-4811-a0d5-cdce54e90326
+  ws-opts:
+    headers:
+      host: fei.634676.xyz
+    path: /?ed=2560
+- name: 🇺🇸_美国_72
+  network: ws
+  port: 443
+  server: 51.91.252.213
+  servername: fei.634676.xyz
+  skip-cert-verify: true
+  tls: true
+  type: vless
+  udp: true
+  uuid: d2965257-0536-4811-a0d5-cdce54e90326
+  ws-opts:
+    headers:
+      host: fei.634676.xyz
+    path: /?ed=2560
+- name: 🇫🇷_法国_4
+  network: ws
+  port: 2053
+  server: 146.59.159.111
+  servername: fei.634676.xyz
+  skip-cert-verify: true
+  tls: true
+  type: vless
+  udp: true
+  uuid: d2965257-0536-4811-a0d5-cdce54e90326
+  ws-opts:
+    headers:
+      host: fei.634676.xyz
+    path: /?ed=2560
+- name: 🇺🇸_美国_73
+  network: ws
+  port: 8880
+  server: wangcai12.cloudflare.182682.xyz
+  servername: fei.634676.xyz
+  skip-cert-verify: true
+  tls: true
+  type: vless
+  udp: true
+  uuid: d2965257-0536-4811-a0d5-cdce54e90326
+  ws-opts:
+    headers:
+      host: fei.634676.xyz
+    path: freecodes节点狂魔 /?ed=2560
+- name: 🇺🇸_美国_74
+  network: ws
+  port: 443
+  server: 51.91.251.144
+  servername: fei.634676.xyz
+  skip-cert-verify: true
+  tls: true
+  type: vless
+  udp: true
+  uuid: d2965257-0536-4811-a0d5-cdce54e90326
+  ws-opts:
+    headers:
+      host: fei.634676.xyz
+    path: /?ed=2560
+- name: 🏳️_未知_2
+  network: ws
+  port: 2053
+  server: 91.199.32.132
+  servername: fei.634676.xyz
+  skip-cert-verify: true
+  tls: true
+  type: vless
+  udp: true
+  uuid: d2965257-0536-4811-a0d5-cdce54e90326
+  ws-opts:
+    headers:
+      host: fei.634676.xyz
+    path: /?ed=2560
+- name: 🇺🇸_美国_75
+  network: ws
+  port: 443
+  server: 51.91.251.87
+  servername: fei.634676.xyz
+  skip-cert-verify: true
+  tls: true
+  type: vless
+  udp: true
+  uuid: d2965257-0536-4811-a0d5-cdce54e90326
+  ws-opts:
+    headers:
+      host: fei.634676.xyz
+    path: /?ed=2560
+- name: 🇩🇪_德国_43
+  network: ws
+  port: 8443
+  server: 141.94.222.188
+  servername: fei.634676.xyz
+  skip-cert-verify: true
+  tls: true
+  type: vless
+  udp: true
+  uuid: d2965257-0536-4811-a0d5-cdce54e90326
+  ws-opts:
+    headers:
+      host: fei.634676.xyz
+    path: /?ed=2560
+- name: 🇩🇪_德国_44
+  network: ws
+  port: 443
+  server: 91.107.136.150
+  servername: fei.634676.xyz
+  skip-cert-verify: true
+  tls: true
+  type: vless
+  udp: true
+  uuid: d2965257-0536-4811-a0d5-cdce54e90326
+  ws-opts:
+    headers:
+      host: fei.634676.xyz
+    path: /?ed=2560
+- name: 🇩🇪_德国_45
+  network: ws
+  port: 443
+  server: 91.107.185.226
+  servername: fei.634676.xyz
+  skip-cert-verify: true
+  tls: true
+  type: vless
+  udp: true
+  uuid: d2965257-0536-4811-a0d5-cdce54e90326
+  ws-opts:
+    headers:
+      host: fei.634676.xyz
+    path: /?ed=2560
+- name: 🇺🇸_美国_76
+  network: ws
+  port: 8443
+  server: 51.91.253.57
+  servername: fei.634676.xyz
+  skip-cert-verify: true
+  tls: true
+  type: vless
+  udp: true
+  uuid: d2965257-0536-4811-a0d5-cdce54e90326
+  ws-opts:
+    headers:
+      host: fei.634676.xyz
+    path: /?ed=2560
+- name: 🇩🇪_德国_46
+  network: ws
+  port: 8443
+  server: 141.94.77.169
+  servername: fei.634676.xyz
+  skip-cert-verify: true
+  tls: true
+  type: vless
+  udp: true
+  uuid: d2965257-0536-4811-a0d5-cdce54e90326
+  ws-opts:
+    headers:
+      host: fei.634676.xyz
+    path: /?ed=2560
+- name: 🇺🇸_美国_77
+  network: ws
+  port: 2053
+  server: 51.195.117.115
+  servername: fei.634676.xyz
+  skip-cert-verify: true
+  tls: true
+  type: vless
+  udp: true
+  uuid: d2965257-0536-4811-a0d5-cdce54e90326
+  ws-opts:
+    headers:
+      host: fei.634676.xyz
+    path: /?ed=2560
+- name: 🇺🇸_美国_78
+  network: ws
+  port: 443
+  server: 51.91.248.61
+  servername: fei.634676.xyz
+  skip-cert-verify: true
+  tls: true
+  type: vless
+  udp: true
+  uuid: d2965257-0536-4811-a0d5-cdce54e90326
+  ws-opts:
+    headers:
+      host: fei.634676.xyz
+    path: /?ed=2560
+- name: 🇩🇪_德国_47
+  network: ws
+  port: 2053
+  server: 141.94.222.46
+  servername: fei.634676.xyz
+  skip-cert-verify: true
+  tls: true
+  type: vless
+  udp: true
+  uuid: d2965257-0536-4811-a0d5-cdce54e90326
+  ws-opts:
+    headers:
+      host: fei.634676.xyz
+    path: /?ed=2560
+- name: 🇺🇸_美国_79
+  network: ws
+  port: 8443
+  server: 51.91.249.29
+  servername: fei.634676.xyz
+  skip-cert-verify: true
+  tls: true
+  type: vless
+  udp: true
+  uuid: d2965257-0536-4811-a0d5-cdce54e90326
+  ws-opts:
+    headers:
+      host: fei.634676.xyz
+    path: /?ed=2560
+- name: 🇩🇪_德国_48
+  network: ws
+  port: 2053
+  server: 5.75.201.201
+  servername: fei.634676.xyz
+  skip-cert-verify: true
+  tls: true
+  type: vless
+  udp: true
+  uuid: d2965257-0536-4811-a0d5-cdce54e90326
+  ws-opts:
+    headers:
+      host: fei.634676.xyz
+    path: /?ed=2560
+- name: 🇫🇷_法国_5
+  network: ws
+  port: 8443
+  server: 51.38.226.4
+  servername: fei.634676.xyz
+  skip-cert-verify: true
+  tls: true
+  type: vless
+  udp: true
+  uuid: d2965257-0536-4811-a0d5-cdce54e90326
+  ws-opts:
+    headers:
+      host: fei.634676.xyz
+    path: /?ed=2560
+- name: 🇩🇪_德国_49
+  network: ws
+  port: 2053
+  server: 141.94.220.64
+  servername: fei.634676.xyz
+  skip-cert-verify: true
+  tls: true
+  type: vless
+  udp: true
+  uuid: d2965257-0536-4811-a0d5-cdce54e90326
+  ws-opts:
+    headers:
+      host: fei.634676.xyz
+    path: /?ed=2560
+- name: 🇩🇪_德国_50
+  network: ws
+  port: 2053
+  server: 141.94.70.243
+  servername: fei.634676.xyz
+  skip-cert-verify: true
+  tls: true
+  type: vless
+  udp: true
+  uuid: d2965257-0536-4811-a0d5-cdce54e90326
+  ws-opts:
+    headers:
+      host: fei.634676.xyz
+    path: /?ed=2560
+- name: 🇫🇷_法国_6
+  network: ws
+  port: 2053
+  server: 91.121.40.210
+  servername: fei.634676.xyz
+  skip-cert-verify: true
+  tls: true
+  type: vless
+  udp: true
+  uuid: d2965257-0536-4811-a0d5-cdce54e90326
+  ws-opts:
+    headers:
+      host: fei.634676.xyz
+    path: /?ed=2560
+- name: 🇺🇸_美国_80
+  network: ws
+  port: 8443
+  server: 51.91.251.149
+  servername: fei.634676.xyz
+  skip-cert-verify: true
+  tls: true
+  type: vless
+  udp: true
+  uuid: d2965257-0536-4811-a0d5-cdce54e90326
+  ws-opts:
+    headers:
+      host: fei.634676.xyz
+    path: /?ed=2560
+- name: 🇺🇸_美国_81
+  network: ws
+  port: 8443
+  server: 162.19.78.179
+  servername: fei.634676.xyz
+  skip-cert-verify: true
+  tls: true
+  type: vless
+  udp: true
+  uuid: d2965257-0536-4811-a0d5-cdce54e90326
+  ws-opts:
+    headers:
+      host: fei.634676.xyz
+    path: /?ed=2560
+- name: 🇺🇸_美国_82
+  network: ws
+  port: 443
+  server: 51.91.255.152
+  servername: fei.634676.xyz
+  skip-cert-verify: true
+  tls: true
+  type: vless
+  udp: true
+  uuid: d2965257-0536-4811-a0d5-cdce54e90326
+  ws-opts:
+    headers:
+      host: fei.634676.xyz
+    path: /?ed=2560
+- name: 🇺🇸_美国_83
+  network: ws
+  port: 443
+  server: 51.91.252.191
+  servername: fei.634676.xyz
+  skip-cert-verify: true
+  tls: true
+  type: vless
+  udp: true
+  uuid: d2965257-0536-4811-a0d5-cdce54e90326
+  ws-opts:
+    headers:
+      host: fei.634676.xyz
+    path: /?ed=2560
+- name: 🇩🇪_德国_51
+  network: ws
+  port: 2053
+  server: 141.94.223.237
+  servername: fei.634676.xyz
+  skip-cert-verify: true
+  tls: true
+  type: vless
+  udp: true
+  uuid: d2965257-0536-4811-a0d5-cdce54e90326
+  ws-opts:
+    headers:
+      host: fei.634676.xyz
+    path: /?ed=2560
+- name: 🇩🇪_德国_52
+  network: ws
+  port: 8443
+  server: 141.94.221.189
+  servername: fei.634676.xyz
+  skip-cert-verify: true
+  tls: true
+  type: vless
+  udp: true
+  uuid: d2965257-0536-4811-a0d5-cdce54e90326
+  ws-opts:
+    headers:
+      host: fei.634676.xyz
+    path: /?ed=2560
+- name: 🇺🇸_美国_84
+  network: ws
+  port: 8880
+  server: wangcai21.cloudflare.182682.xyz
+  servername: fei.634676.xyz
+  skip-cert-verify: true
+  tls: true
+  type: vless
+  udp: true
+  uuid: d2965257-0536-4811-a0d5-cdce54e90326
+  ws-opts:
+    headers:
+      host: fei.634676.xyz
+    path: telegram @freecodes /?ed=2560
+- name: 🇩🇪_德国_53
+  network: ws
+  port: 443
+  server: 49.12.66.71
+  servername: fei.634676.xyz
+  skip-cert-verify: true
+  tls: true
+  type: vless
+  udp: true
+  uuid: d2965257-0536-4811-a0d5-cdce54e90326
+  ws-opts:
+    headers:
+      host: fei.634676.xyz
+    path: /?ed=2560
+- name: 🇺🇸_美国_85
+  network: ws
+  port: 8443
+  server: 51.91.251.144
+  servername: fei.634676.xyz
+  skip-cert-verify: true
+  tls: true
+  type: vless
+  udp: true
+  uuid: d2965257-0536-4811-a0d5-cdce54e90326
+  ws-opts:
+    headers:
+      host: fei.634676.xyz
+    path: /?ed=2560
+- name: 🇺🇸_美国_86
+  network: ws
+  port: 8443
+  server: 51.91.254.111
+  servername: fei.634676.xyz
+  skip-cert-verify: true
+  tls: true
+  type: vless
+  udp: true
+  uuid: d2965257-0536-4811-a0d5-cdce54e90326
+  ws-opts:
+    headers:
+      host: fei.634676.xyz
+    path: /?ed=2560
+- name: 🇺🇸_美国_87
+  network: ws
+  port: 8443
+  server: 65.109.188.1
+  servername: fei.634676.xyz
+  skip-cert-verify: true
+  tls: true
+  type: vless
+  udp: true
+  uuid: d2965257-0536-4811-a0d5-cdce54e90326
+  ws-opts:
+    headers:
+      host: fei.634676.xyz
+    path: /?ed=2560
+- name: 🇫🇷_法国_7
+  network: ws
+  port: 443
+  server: 37.59.96.23
+  servername: fei.634676.xyz
+  skip-cert-verify: true
+  tls: true
+  type: vless
+  udp: true
+  uuid: d2965257-0536-4811-a0d5-cdce54e90326
+  ws-opts:
+    headers:
+      host: fei.634676.xyz
+    path: /?ed=2560
+- name: 🇺🇸_美国_88
+  network: ws
+  port: 8443
+  server: 51.91.248.215
+  servername: fei.634676.xyz
+  skip-cert-verify: true
+  tls: true
+  type: vless
+  udp: true
+  uuid: d2965257-0536-4811-a0d5-cdce54e90326
+  ws-opts:
+    headers:
+      host: fei.634676.xyz
+    path: /?ed=2560
+- name: 🇩🇪_德国_54
+  network: ws
+  port: 2053
+  server: 141.94.220.57
+  servername: fei.634676.xyz
+  skip-cert-verify: true
+  tls: true
+  type: vless
+  udp: true
+  uuid: d2965257-0536-4811-a0d5-cdce54e90326
+  ws-opts:
+    headers:
+      host: fei.634676.xyz
+    path: /?ed=2560
+- name: 🇩🇪_德国_55
+  network: ws
+  port: 2053
+  server: 141.94.222.3
+  servername: fei.634676.xyz
+  skip-cert-verify: true
+  tls: true
+  type: vless
+  udp: true
+  uuid: d2965257-0536-4811-a0d5-cdce54e90326
+  ws-opts:
+    headers:
+      host: fei.634676.xyz
+    path: /?ed=2560
+- name: 🇩🇪_德国_56
+  network: ws
+  port: 2053
+  server: 141.94.207.7
+  servername: fei.634676.xyz
+  skip-cert-verify: true
+  tls: true
+  type: vless
+  udp: true
+  uuid: d2965257-0536-4811-a0d5-cdce54e90326
+  ws-opts:
+    headers:
+      host: fei.634676.xyz
+    path: /?ed=2560
+- name: 🇺🇸_美国_89
+  network: ws
+  port: 443
+  server: 51.91.251.31
+  servername: fei.634676.xyz
+  skip-cert-verify: true
+  tls: true
+  type: vless
+  udp: true
+  uuid: d2965257-0536-4811-a0d5-cdce54e90326
+  ws-opts:
+    headers:
+      host: fei.634676.xyz
+    path: /?ed=2560
+- name: 🇺🇸_美国_90
+  network: ws
+  port: 8443
+  server: 51.91.253.174
+  servername: fei.634676.xyz
+  skip-cert-verify: true
+  tls: true
+  type: vless
+  udp: true
+  uuid: d2965257-0536-4811-a0d5-cdce54e90326
+  ws-opts:
+    headers:
+      host: fei.634676.xyz
+    path: /?ed=2560
+- name: 🇺🇸_美国_91
+  network: ws
+  port: 8443
+  server: 51.91.249.93
+  servername: fei.634676.xyz
+  skip-cert-verify: true
+  tls: true
+  type: vless
+  udp: true
+  uuid: d2965257-0536-4811-a0d5-cdce54e90326
+  ws-opts:
+    headers:
+      host: fei.634676.xyz
+    path: /?ed=2560
+- name: 🇺🇸_美国_92
+  network: ws
+  port: 8443
+  server: 51.91.254.22
+  servername: fei.634676.xyz
+  skip-cert-verify: true
+  tls: true
+  type: vless
+  udp: true
+  uuid: d2965257-0536-4811-a0d5-cdce54e90326
+  ws-opts:
+    headers:
+      host: fei.634676.xyz
+    path: /?ed=2560
+- name: 🇺🇸_美国_93
+  network: ws
+  port: 8443
+  server: 51.91.252.61
+  servername: fei.634676.xyz
+  skip-cert-verify: true
+  tls: true
+  type: vless
+  udp: true
+  uuid: d2965257-0536-4811-a0d5-cdce54e90326
+  ws-opts:
+    headers:
+      host: fei.634676.xyz
+    path: /?ed=2560
+- name: 🇩🇪_德国_57
+  network: ws
+  port: 8443
+  server: 141.94.220.168
+  servername: fei.634676.xyz
+  skip-cert-verify: true
+  tls: true
+  type: vless
+  udp: true
+  uuid: d2965257-0536-4811-a0d5-cdce54e90326
+  ws-opts:
+    headers:
+      host: fei.634676.xyz
+    path: /?ed=2560
+- name: 🇩🇪_德国_58
+  network: ws
+  port: 2053
+  server: 95.169.162.223
+  servername: fei.634676.xyz
+  skip-cert-verify: true
+  tls: true
+  type: vless
+  udp: true
+  uuid: d2965257-0536-4811-a0d5-cdce54e90326
+  ws-opts:
+    headers:
+      host: fei.634676.xyz
+    path: /?ed=2560
+- name: 🇫🇷_法国_8
+  network: ws
+  port: 443
+  server: 37.59.96.50
+  servername: fei.634676.xyz
+  skip-cert-verify: true
+  tls: true
+  type: vless
+  udp: true
+  uuid: d2965257-0536-4811-a0d5-cdce54e90326
+  ws-opts:
+    headers:
+      host: fei.634676.xyz
+    path: /?ed=2560
+- name: 🇩🇪_德国_59
+  network: ws
+  port: 2053
+  server: 141.94.206.218
+  servername: fei.634676.xyz
+  skip-cert-verify: true
+  tls: true
+  type: vless
+  udp: true
+  uuid: d2965257-0536-4811-a0d5-cdce54e90326
+  ws-opts:
+    headers:
+      host: fei.634676.xyz
+    path: /?ed=2560
+- name: 🇫🇷_法国_9
+  network: ws
+  port: 8443
+  server: 146.59.156.154
+  servername: fei.634676.xyz
+  skip-cert-verify: true
+  tls: true
+  type: vless
+  udp: true
+  uuid: d2965257-0536-4811-a0d5-cdce54e90326
+  ws-opts:
+    headers:
+      host: fei.634676.xyz
+    path: /?ed=2560
+- name: 🇫🇷_法国_10
+  network: ws
+  port: 2053
+  server: 51.210.149.2
+  servername: fei.634676.xyz
+  skip-cert-verify: true
+  tls: true
+  type: vless
+  udp: true
+  uuid: d2965257-0536-4811-a0d5-cdce54e90326
+  ws-opts:
+    headers:
+      host: fei.634676.xyz
+    path: /?ed=2560
+- name: 🇩🇪_德国_60
+  network: ws
+  port: 8443
+  server: 141.95.161.178
+  servername: fei.634676.xyz
+  skip-cert-verify: true
+  tls: true
+  type: vless
+  udp: true
+  uuid: d2965257-0536-4811-a0d5-cdce54e90326
+  ws-opts:
+    headers:
+      host: fei.634676.xyz
+    path: /?ed=2560
+- name: 🇩🇪_德国_61
+  network: ws
+  port: 2053
+  server: 141.94.68.216
+  servername: fei.634676.xyz
+  skip-cert-verify: true
+  tls: true
+  type: vless
+  udp: true
+  uuid: d2965257-0536-4811-a0d5-cdce54e90326
+  ws-opts:
+    headers:
+      host: fei.634676.xyz
+    path: /?ed=2560
+- name: 🇫🇷_法国_11
+  network: ws
+  port: 443
+  server: 178.32.58.147
+  servername: fei.634676.xyz
+  skip-cert-verify: true
+  tls: true
+  type: vless
+  udp: true
+  uuid: d2965257-0536-4811-a0d5-cdce54e90326
+  ws-opts:
+    headers:
+      host: fei.634676.xyz
+    path: /?ed=2560
+- name: 🇩🇪_德国_62
+  network: ws
+  port: 443
+  server: 91.107.179.48
+  servername: fei.634676.xyz
+  skip-cert-verify: true
+  tls: true
+  type: vless
+  udp: true
+  uuid: d2965257-0536-4811-a0d5-cdce54e90326
+  ws-opts:
+    headers:
+      host: fei.634676.xyz
+    path: /?ed=2560
+- name: 🇺🇸_美国_94
+  network: ws
+  port: 443
+  server: 65.109.188.1
+  servername: fei.634676.xyz
+  skip-cert-verify: true
+  tls: true
+  type: vless
+  udp: true
+  uuid: d2965257-0536-4811-a0d5-cdce54e90326
+  ws-opts:
+    headers:
+      host: fei.634676.xyz
+    path: /?ed=2560
+- name: 🇷🇺_俄罗斯_2
+  network: ws
+  port: 443
+  server: 46.8.232.217
+  servername: fei.634676.xyz
+  skip-cert-verify: true
+  tls: true
+  type: vless
+  udp: true
+  uuid: d2965257-0536-4811-a0d5-cdce54e90326
+  ws-opts:
+    headers:
+      host: fei.634676.xyz
+    path: /?ed=2560
+- name: 🇺🇸_美国_95
+  network: ws
+  port: 8880
+  server: wangcai238.cloudflare.182682.xyz
+  servername: fei.634676.xyz
+  skip-cert-verify: true
+  tls: true
+  type: vless
+  udp: true
+  uuid: d2965257-0536-4811-a0d5-cdce54e90326
+  ws-opts:
+    headers:
+      host: fei.634676.xyz
+    path: freecodes节点狂魔 /?ed=2560
+- name: 🇺🇸_美国_96
+  network: ws
+  port: 443
+  server: 51.91.251.153
+  servername: fei.634676.xyz
+  skip-cert-verify: true
+  tls: true
+  type: vless
+  udp: true
+  uuid: d2965257-0536-4811-a0d5-cdce54e90326
+  ws-opts:
+    headers:
+      host: fei.634676.xyz
+    path: /?ed=2560
+- name: 🇪🇸_西班牙_2
+  network: ws
+  port: 2053
+  server: 188.130.206.82
+  servername: fei.634676.xyz
+  skip-cert-verify: true
+  tls: true
+  type: vless
+  udp: true
+  uuid: d2965257-0536-4811-a0d5-cdce54e90326
+  ws-opts:
+    headers:
+      host: fei.634676.xyz
+    path: /?ed=2560
+- name: 🇩🇪_德国_63
+  network: ws
+  port: 2053
+  server: 141.94.68.157
+  servername: fei.634676.xyz
+  skip-cert-verify: true
+  tls: true
+  type: vless
+  udp: true
+  uuid: d2965257-0536-4811-a0d5-cdce54e90326
+  ws-opts:
+    headers:
+      host: fei.634676.xyz
+    path: /?ed=2560
+- name: 🇩🇪_德国_64
+  network: ws
+  port: 8443
+  server: 135.181.198.101
+  servername: fei.634676.xyz
+  skip-cert-verify: true
+  tls: true
+  type: vless
+  udp: true
+  uuid: d2965257-0536-4811-a0d5-cdce54e90326
+  ws-opts:
+    headers:
+      host: fei.634676.xyz
+    path: /?ed=2560
+- name: 🇺🇸_美国_97
+  network: ws
+  port: 8880
+  server: wangcai154.cloudflare.182682.xyz
+  servername: fei.634676.xyz
+  skip-cert-verify: true
+  tls: true
+  type: vless
+  udp: true
+  uuid: d2965257-0536-4811-a0d5-cdce54e90326
+  ws-opts:
+    headers:
+      host: fei.634676.xyz
+    path: telegram @freecodes /?ed=2560
+- name: 🇩🇪_德国_65
+  network: ws
+  port: 8443
+  server: 141.94.204.167
+  servername: fei.634676.xyz
+  skip-cert-verify: true
+  tls: true
+  type: vless
+  udp: true
+  uuid: d2965257-0536-4811-a0d5-cdce54e90326
+  ws-opts:
+    headers:
+      host: fei.634676.xyz
+    path: /?ed=2560
+- name: 🇺🇸_美国_98
+  network: ws
+  port: 2053
+  server: 152.228.134.213
+  servername: fei.634676.xyz
+  skip-cert-verify: true
+  tls: true
+  type: vless
+  udp: true
+  uuid: d2965257-0536-4811-a0d5-cdce54e90326
+  ws-opts:
+    headers:
+      host: fei.634676.xyz
+    path: /?ed=2560
+- name: 🇺🇸_美国_99
+  network: ws
+  port: 443
+  server: 209.38.46.172
+  servername: fei.634676.xyz
+  skip-cert-verify: true
+  tls: true
+  type: vless
+  udp: true
+  uuid: d2965257-0536-4811-a0d5-cdce54e90326
+  ws-opts:
+    headers:
+      host: fei.634676.xyz
+    path: /?ed=2560
+- name: 🇩🇪_德国_66
+  network: ws
+  port: 8443
+  server: 141.94.221.241
+  servername: fei.634676.xyz
+  skip-cert-verify: true
+  tls: true
+  type: vless
+  udp: true
+  uuid: d2965257-0536-4811-a0d5-cdce54e90326
+  ws-opts:
+    headers:
+      host: fei.634676.xyz
+    path: /?ed=2560
+- name: 🇮🇷_伊朗_4
+  network: ws
+  port: 8443
+  server: 31.56.196.64
+  servername: fei.634676.xyz
+  skip-cert-verify: true
+  tls: true
+  type: vless
+  udp: true
+  uuid: d2965257-0536-4811-a0d5-cdce54e90326
+  ws-opts:
+    headers:
+      host: fei.634676.xyz
+    path: /?ed=2560
+- name: 🇫🇮_芬兰
+  network: ws
+  port: 8443
+  server: 95.216.100.16
+  servername: fei.634676.xyz
+  skip-cert-verify: true
+  tls: true
+  type: vless
+  udp: true
+  uuid: d2965257-0536-4811-a0d5-cdce54e90326
+  ws-opts:
+    headers:
+      host: fei.634676.xyz
+    path: /?ed=2560
+- name: 🇺🇸_美国_100
+  network: ws
+  port: 2053
+  server: 65.109.214.6
+  servername: fei.634676.xyz
+  skip-cert-verify: true
+  tls: true
+  type: vless
+  udp: true
+  uuid: d2965257-0536-4811-a0d5-cdce54e90326
+  ws-opts:
+    headers:
+      host: fei.634676.xyz
+    path: /?ed=2560
+- name: 🇺🇸_美国_101
+  network: ws
+  port: 8443
+  server: 65.109.200.234
+  servername: fei.634676.xyz
+  skip-cert-verify: true
+  tls: true
+  type: vless
+  udp: true
+  uuid: d2965257-0536-4811-a0d5-cdce54e90326
+  ws-opts:
+    headers:
+      host: fei.634676.xyz
+    path: /?ed=2560
+- name: 🇩🇪_德国_67
+  network: ws
+  port: 443
+  server: 148.251.134.94
+  servername: fei.634676.xyz
+  skip-cert-verify: true
+  tls: true
+  type: vless
+  udp: true
+  uuid: d2965257-0536-4811-a0d5-cdce54e90326
+  ws-opts:
+    headers:
+      host: fei.634676.xyz
+    path: /?ed=2560
+- name: 🇮🇷_伊朗_5
+  network: ws
+  port: 443
+  server: 46.62.136.118
+  servername: fei.634676.xyz
+  skip-cert-verify: true
+  tls: true
+  type: vless
+  udp: true
+  uuid: d2965257-0536-4811-a0d5-cdce54e90326
+  ws-opts:
+    headers:
+      host: fei.634676.xyz
+    path: /?ed=2560
+- name: 🇺🇸_美国_102
+  network: ws
+  port: 8443
+  server: 51.195.43.174
+  servername: fei.634676.xyz
+  skip-cert-verify: true
+  tls: true
+  type: vless
+  udp: true
+  uuid: d2965257-0536-4811-a0d5-cdce54e90326
+  ws-opts:
+    headers:
+      host: fei.634676.xyz
+    path: /?ed=2560
+- name: 🇬🇧_英国_2
+  network: ws
+  port: 443
+  server: 5.144.182.188
+  servername: fei.634676.xyz
+  skip-cert-verify: true
+  tls: true
+  type: vless
+  udp: true
+  uuid: d2965257-0536-4811-a0d5-cdce54e90326
+  ws-opts:
+    headers:
+      host: fei.634676.xyz
+    path: /?ed=2560
+- name: 🇺🇸_美国_103
+  network: ws
+  port: 2053
+  server: 162.19.66.26
+  servername: fei.634676.xyz
+  skip-cert-verify: true
+  tls: true
+  type: vless
+  udp: true
+  uuid: d2965257-0536-4811-a0d5-cdce54e90326
+  ws-opts:
+    headers:
+      host: fei.634676.xyz
+    path: /?ed=2560
+- name: 🇺🇸_美国_104
+  network: ws
+  port: 8880
+  server: wangcai218.cloudflare.182682.xyz
+  servername: fei.634676.xyz
+  skip-cert-verify: true
+  tls: true
+  type: vless
+  udp: true
+  uuid: d2965257-0536-4811-a0d5-cdce54e90326
+  ws-opts:
+    headers:
+      host: fei.634676.xyz
+    path: freecodes节点狂魔/?ed=2560
+- name: 🇺🇸_美国_105
+  network: ws
+  port: 8880
+  server: wangcai77.cloudflare.182682.xyz
+  servername: fei.634676.xyz
+  skip-cert-verify: true
+  tls: true
+  type: vless
+  udp: true
+  uuid: d2965257-0536-4811-a0d5-cdce54e90326
+  ws-opts:
+    headers:
+      host: fei.634676.xyz
+    path: telegram @freecodes /?ed=2560
+- name: 🇺🇸_美国_106
+  network: ws
+  port: 8443
+  server: 51.91.251.43
+  servername: fei.634676.xyz
+  skip-cert-verify: true
+  tls: true
+  type: vless
+  udp: true
+  uuid: d2965257-0536-4811-a0d5-cdce54e90326
+  ws-opts:
+    headers:
+      host: fei.634676.xyz
+    path: /?ed=2560
+- name: 🇺🇸_美国_107
+  network: ws
+  port: 8880
+  server: wangcai218.cloudflare.182682.xyz
+  servername: fei.634676.xyz
+  skip-cert-verify: true
+  tls: true
+  type: vless
+  udp: true
+  uuid: d2965257-0536-4811-a0d5-cdce54e90326
+  ws-opts:
+    headers:
+      host: fei.634676.xyz
+    path: freecodes节点狂魔 /?ed=2560
+- name: 🇩🇪_德国_68
+  network: ws
+  port: 8443
+  server: 141.94.222.42
+  servername: fei.634676.xyz
+  skip-cert-verify: true
+  tls: true
+  type: vless
+  udp: true
+  uuid: d2965257-0536-4811-a0d5-cdce54e90326
+  ws-opts:
+    headers:
+      host: fei.634676.xyz
+    path: /?ed=2560
+- name: 🇫🇷_法国_12
+  network: ws
+  port: 8443
+  server: 146.59.153.201
+  servername: fei.634676.xyz
+  skip-cert-verify: true
+  tls: true
+  type: vless
+  udp: true
+  uuid: d2965257-0536-4811-a0d5-cdce54e90326
+  ws-opts:
+    headers:
+      host: fei.634676.xyz
+    path: /?ed=2560
+- name: 🇺🇸_美国_108
+  network: ws
+  port: 443
+  server: 51.91.250.21
+  servername: fei.634676.xyz
+  skip-cert-verify: true
+  tls: true
+  type: vless
+  udp: true
+  uuid: d2965257-0536-4811-a0d5-cdce54e90326
+  ws-opts:
+    headers:
+      host: fei.634676.xyz
+    path: /?ed=2560
+- name: 🇩🇪_德国_69
+  network: ws
+  port: 2053
+  server: 141.94.221.163
+  servername: fei.634676.xyz
+  skip-cert-verify: true
+  tls: true
+  type: vless
+  udp: true
+  uuid: d2965257-0536-4811-a0d5-cdce54e90326
+  ws-opts:
+    headers:
+      host: fei.634676.xyz
+    path: /?ed=2560
+- name: 🇩🇪_德国_70
+  network: ws
+  port: 2053
+  server: 141.94.222.188
+  servername: fei.634676.xyz
+  skip-cert-verify: true
+  tls: true
+  type: vless
+  udp: true
+  uuid: d2965257-0536-4811-a0d5-cdce54e90326
+  ws-opts:
+    headers:
+      host: fei.634676.xyz
+    path: /?ed=2560
+- name: 🇮🇷_伊朗_6
+  network: ws
+  port: 2053
+  server: 31.58.226.57
+  servername: fei.634676.xyz
+  skip-cert-verify: true
+  tls: true
+  type: vless
+  udp: true
+  uuid: d2965257-0536-4811-a0d5-cdce54e90326
+  ws-opts:
+    headers:
+      host: fei.634676.xyz
+    path: /?ed=2560
+- name: 🇺🇸_美国_109
+  network: ws
+  port: 8880
+  server: wangcai208.cloudflare.182682.xyz
+  servername: fei.634676.xyz
+  skip-cert-verify: true
+  tls: true
+  type: vless
+  udp: true
+  uuid: d2965257-0536-4811-a0d5-cdce54e90326
+  ws-opts:
+    headers:
+      host: fei.634676.xyz
+    path: freecodes节点狂魔/?ed=2560
+- name: 🇫🇷_法国_13
+  network: ws
+  port: 443
+  server: 37.59.97.135
+  servername: fei.634676.xyz
+  skip-cert-verify: true
+  tls: true
+  type: vless
+  udp: true
+  uuid: d2965257-0536-4811-a0d5-cdce54e90326
+  ws-opts:
+    headers:
+      host: fei.634676.xyz
+    path: /?ed=2560
+- name: 🇯🇵_日本_8
+  network: ws
+  port: 443
+  server: 161.118.129.8
+  servername: fei.634676.xyz
+  skip-cert-verify: true
+  tls: true
+  type: vless
+  udp: true
+  uuid: d2965257-0536-4811-a0d5-cdce54e90326
+  ws-opts:
+    headers:
+      host: fei.634676.xyz
+    path: /?ed=2560
+- name: 🇺🇸_美国_110
+  network: ws
+  port: 443
+  server: 24.144.78.41
+  servername: fei.634676.xyz
+  skip-cert-verify: true
+  tls: true
+  type: vless
+  udp: true
+  uuid: d2965257-0536-4811-a0d5-cdce54e90326
+  ws-opts:
+    headers:
+      host: fei.634676.xyz
+    path: /?ed=2560
+- name: 🇺🇸_美国_111
+  network: ws
+  port: 8880
+  server: wangcai195.cloudflare.182682.xyz
+  servername: fei.634676.xyz
+  skip-cert-verify: true
+  tls: true
+  type: vless
+  udp: true
+  uuid: d2965257-0536-4811-a0d5-cdce54e90326
+  ws-opts:
+    headers:
+      host: fei.634676.xyz
+    path: freecodes节点狂魔 /?ed=2560
+- name: 🇺🇸_美国_112
+  network: ws
+  port: 443
+  server: 129.146.46.164
+  servername: fei.634676.xyz
+  skip-cert-verify: true
+  tls: true
+  type: vless
+  udp: true
+  uuid: d2965257-0536-4811-a0d5-cdce54e90326
+  ws-opts:
+    headers:
+      host: fei.634676.xyz
+    path: /?ed=2560
+- name: 🇺🇸_美国_113
+  network: ws
+  port: 8880
+  server: wangcai208.cloudflare.182682.xyz
+  servername: fei.634676.xyz
+  skip-cert-verify: true
+  tls: true
+  type: vless
+  udp: true
+  uuid: d2965257-0536-4811-a0d5-cdce54e90326
+  ws-opts:
+    headers:
+      host: fei.634676.xyz
+    path: freecodes节点狂魔 /?ed=2560
+- name: 🇺🇸_美国_114
+  network: ws
+  port: 8880
+  server: wangcai109.cloudflare.182682.xyz
+  servername: fei.634676.xyz
+  skip-cert-verify: true
+  tls: true
+  type: vless
+  udp: true
+  uuid: d2965257-0536-4811-a0d5-cdce54e90326
+  ws-opts:
+    headers:
+      host: fei.634676.xyz
+    path: freecodes节点狂魔 /?ed=2560
+- name: 🏳️_未知_3
+  network: ws
+  port: 2053
+  server: 91.199.32.229
+  servername: fei.634676.xyz
+  skip-cert-verify: true
+  tls: true
+  type: vless
+  udp: true
+  uuid: d2965257-0536-4811-a0d5-cdce54e90326
+  ws-opts:
+    headers:
+      host: fei.634676.xyz
+    path: /?ed=2560
+- name: 🇩🇪_德国_71
+  network: ws
+  port: 8443
+  server: 141.94.220.57
+  servername: fei.634676.xyz
+  skip-cert-verify: true
+  tls: true
+  type: vless
+  udp: true
+  uuid: d2965257-0536-4811-a0d5-cdce54e90326
+  ws-opts:
+    headers:
+      host: fei.634676.xyz
+    path: /?ed=2560
+- name: 🇮🇷_伊朗_7
+  network: ws
+  port: 2083
+  server: 46.62.139.251
+  servername: fei.634676.xyz
+  skip-cert-verify: true
+  tls: true
+  type: vless
+  udp: true
+  uuid: d2965257-0536-4811-a0d5-cdce54e90326
+  ws-opts:
+    headers:
+      host: fei.634676.xyz
+    path: /?ed=2560
+- name: 🇺🇸_美国_115
+  network: ws
+  port: 443
+  server: 51.91.248.253
+  servername: fei.634676.xyz
+  skip-cert-verify: true
+  tls: true
+  type: vless
+  udp: true
+  uuid: d2965257-0536-4811-a0d5-cdce54e90326
+  ws-opts:
+    headers:
+      host: fei.634676.xyz
+    path: /?ed=2560
+- name: 🇺🇸_美国_116
+  network: ws
+  port: 8880
+  server: wangcai125.cloudflare.182682.xyz
+  servername: fei.634676.xyz
+  skip-cert-verify: true
+  tls: true
+  type: vless
+  udp: true
+  uuid: d2965257-0536-4811-a0d5-cdce54e90326
+  ws-opts:
+    headers:
+      host: fei.634676.xyz
+    path: freecodes节点狂魔 /?ed=2560
+- name: 🇺🇸_美国_117
+  network: ws
+  port: 8880
+  server: wangcai142.cloudflare.182682.xyz
+  servername: fei.634676.xyz
+  skip-cert-verify: true
+  tls: true
+  type: vless
+  udp: true
+  uuid: d2965257-0536-4811-a0d5-cdce54e90326
+  ws-opts:
+    headers:
+      host: fei.634676.xyz
+    path: freecodes节点狂魔 /?ed=2560
+- name: 🇺🇸_美国_118
+  network: ws
+  port: 8443
+  server: 51.91.102.36
+  servername: fei.634676.xyz
+  skip-cert-verify: true
+  tls: true
+  type: vless
+  udp: true
+  uuid: d2965257-0536-4811-a0d5-cdce54e90326
+  ws-opts:
+    headers:
+      host: fei.634676.xyz
+    path: /?ed=2560
+- name: 🇺🇸_美国_119
+  network: ws
+  port: 443
+  server: 45.38.145.120
+  servername: fei.634676.xyz
+  skip-cert-verify: true
+  tls: true
+  type: vless
+  udp: true
+  uuid: d2965257-0536-4811-a0d5-cdce54e90326
+  ws-opts:
+    headers:
+      host: fei.634676.xyz
+    path: /?ed=2560
+- name: 🇺🇸_美国_120
+  network: ws
+  port: 443
+  server: 51.195.90.91
+  servername: fei.634676.xyz
+  skip-cert-verify: true
+  tls: true
+  type: vless
+  udp: true
+  uuid: d2965257-0536-4811-a0d5-cdce54e90326
+  ws-opts:
+    headers:
+      host: fei.634676.xyz
+    path: /?ed=2560
+- name: 🇺🇸_美国_121
+  network: ws
+  port: 443
+  server: 51.91.253.174
+  servername: fei.634676.xyz
+  skip-cert-verify: true
+  tls: true
+  type: vless
+  udp: true
+  uuid: d2965257-0536-4811-a0d5-cdce54e90326
+  ws-opts:
+    headers:
+      host: fei.634676.xyz
+    path: /?ed=2560
+- name: 🇺🇸_美国_122
+  network: ws
+  port: 443
+  server: 51.91.253.218
+  servername: fei.634676.xyz
+  skip-cert-verify: true
+  tls: true
+  type: vless
+  udp: true
+  uuid: d2965257-0536-4811-a0d5-cdce54e90326
+  ws-opts:
+    headers:
+      host: fei.634676.xyz
+    path: /?ed=2560
+- name: 🇺🇸_美国_123
+  network: ws
+  port: 8443
+  server: 152.228.217.69
+  servername: fei.634676.xyz
+  skip-cert-verify: true
+  tls: true
+  type: vless
+  udp: true
+  uuid: d2965257-0536-4811-a0d5-cdce54e90326
+  ws-opts:
+    headers:
+      host: fei.634676.xyz
+    path: /?ed=2560
+- name: 🇩🇪_德国_72
+  network: ws
+  port: 8443
+  server: 141.94.222.3
+  servername: fei.634676.xyz
+  skip-cert-verify: true
+  tls: true
+  type: vless
+  udp: true
+  uuid: d2965257-0536-4811-a0d5-cdce54e90326
+  ws-opts:
+    headers:
+      host: fei.634676.xyz
+    path: /?ed=2560
+- name: 🇩🇪_德国_73
+  network: ws
+  port: 8443
+  server: 141.94.206.222
+  servername: fei.634676.xyz
+  skip-cert-verify: true
+  tls: true
+  type: vless
+  udp: true
+  uuid: d2965257-0536-4811-a0d5-cdce54e90326
+  ws-opts:
+    headers:
+      host: fei.634676.xyz
+    path: /?ed=2560
+- name: 🇺🇸_美国_124
+  network: ws
+  port: 8443
+  server: 51.91.249.115
+  servername: fei.634676.xyz
+  skip-cert-verify: true
+  tls: true
+  type: vless
+  udp: true
+  uuid: d2965257-0536-4811-a0d5-cdce54e90326
+  ws-opts:
+    headers:
+      host: fei.634676.xyz
+    path: /?ed=2560
+- name: 🇺🇸_美国_125
+  network: ws
+  port: 443
+  server: 150.230.251.159
+  servername: fei.634676.xyz
+  skip-cert-verify: true
+  tls: true
+  type: vless
+  udp: true
+  uuid: d2965257-0536-4811-a0d5-cdce54e90326
+  ws-opts:
+    headers:
+      host: fei.634676.xyz
+    path: /?ed=2560
 - alterId: '2'
   cipher: auto
-  name: 🇨🇳_中国_6
+  name: 🇨🇳_中国_1
   network: ws
-  port: '30829'
-  server: v29.heduian.link
+  port: '30808'
+  server: v8.heduian.link
   type: vmess
   uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
   ws-opts:
     headers:
-      host: v29.heduian.link
+      host: v8.heduian.link
     path: /oooo
-- name: 🇺🇸_美国_28
+- alterId: '2'
+  cipher: auto
+  name: 🇨🇳_中国_2
   network: ws
-  port: 443
-  server: 65.109.208.115
-  skip-cert-verify: true
-  tls: true
-  type: vless
-  udp: true
-  uuid: 557ae2a8-23bb-4386-b220-7387c4b2108f
-  ws-opts:
-    path: /fotonvip---fotonvip---fotonvip---fotonvip---fotonvip---fotonvip---fotonvip---fotonvip---fotonvip---fotonvip---fotonvip---fotonvip---fotonvip---fotonvip---fotonvip---fotonvip---fotonvip---fotonvip---fotonvip---fotonvip---fotonvip---fotonvip?ed=2048
-- name: 🇳🇱_荷兰_1
-  network: ws
-  port: 443
-  server: 185.133.35.95
-  servername: d-us1.djwstlsweb.top
-  skip-cert-verify: true
-  tls: true
-  type: vless
-  udp: true
-  uuid: f89175fa-9465-4325-8554-bb3456321f38
+  port: '30808'
+  server: v8.heduian.link
+  type: vmess
+  uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
   ws-opts:
     headers:
-      host: d-us1.djwstlsweb.top
-    path: /djjc/us1
-- name: 🇳🇱_荷兰_2
-  network: ws
-  port: 443
-  server: 185.133.35.95
-  servername: d-us2.djwstlsweb.top
-  skip-cert-verify: true
-  tls: true
-  type: vless
-  udp: true
-  uuid: f89175fa-9465-4325-8554-bb3456321f38
-  ws-opts:
-    headers:
-      host: d-us2.djwstlsweb.top
-    path: /djjc/us2
-- name: 🇳🇱_荷兰_3
-  network: ws
-  port: 443
-  server: 185.133.35.95
-  servername: d-us3.djwstlsweb.top
-  skip-cert-verify: true
-  tls: true
-  type: vless
-  udp: true
-  uuid: f89175fa-9465-4325-8554-bb3456321f38
-  ws-opts:
-    headers:
-      host: d-us3.djwstlsweb.top
-    path: /djjc/us3
-- name: 🇳🇱_荷兰_4
-  network: ws
-  port: 443
-  server: 185.133.35.95
-  servername: d-us4.djwstlsweb.top
-  skip-cert-verify: true
-  tls: true
-  type: vless
-  udp: true
-  uuid: f89175fa-9465-4325-8554-bb3456321f38
-  ws-opts:
-    headers:
-      host: d-us4.djwstlsweb.top
-    path: /djjc/us4
-- name: 🇳🇱_荷兰_5
-  network: ws
-  port: 443
-  server: 185.133.35.95
-  servername: d-jp1.djwstlsweb.top
-  skip-cert-verify: true
-  tls: true
-  type: vless
-  udp: true
-  uuid: f89175fa-9465-4325-8554-bb3456321f38
-  ws-opts:
-    headers:
-      host: d-jp1.djwstlsweb.top
-    path: /djjc/jp1
-- name: 🇳🇱_荷兰_6
-  network: ws
-  port: 443
-  server: 185.133.35.95
-  servername: d-de1.djwstlsweb.top
-  skip-cert-verify: true
-  tls: true
-  type: vless
-  udp: true
-  uuid: f89175fa-9465-4325-8554-bb3456321f38
-  ws-opts:
-    headers:
-      host: d-de1.djwstlsweb.top
-    path: /djjc/de1
+      host: v8.heduian.link
+    path: /oooo
 proxy-groups:
 - name: 🚀 节点选择
   proxies:
@@ -715,53 +3345,37 @@ proxy-groups:
   - DIRECT
   - 电报群：https://t.me/vvkj11
   - 每天更新，请加电报群防止失联
-  - 日期：10-10
+  - 日期：10-11
   - 免费VPN：https://tt.vg/gwaAy
-  - 🇫🇷_法国_1
-  - 🇫🇷_法国_2
+  - 🇩🇪_德国_1
   - 🇺🇸_美国_1
-  - 🇺🇦_乌克兰
-  - 🇷🇺_俄罗斯_1
-  - 🇫🇷_法国_3
   - 🇺🇸_美国_2
-  - 🇷🇺_俄罗斯_2
-  - 🇷🇺_俄罗斯_3
-  - 🇷🇺_俄罗斯_4
   - 🇺🇸_美国_3
+  - 🇫🇷_法国_1
+  - 🇯🇵_日本_1
+  - 🇯🇵_日本_2
+  - 🇯🇵_日本_3
+  - 🇯🇵_日本_4
+  - 🇯🇵_日本_5
+  - 🇯🇵_日本_6
+  - 🇯🇵_日本_7
   - 🇺🇸_美国_4
   - 🇺🇸_美国_5
   - 🇺🇸_美国_6
   - 🇺🇸_美国_7
   - 🇺🇸_美国_8
   - 🇺🇸_美国_9
-  - 🇷🇺_俄罗斯_5
-  - 🇷🇺_俄罗斯_6
   - 🇺🇸_美国_10
-  - 🇩🇪_德国
   - 🇺🇸_美国_11
-  - 🇮🇷_伊朗_1
   - 🇺🇸_美国_12
   - 🇺🇸_美国_13
-  - 🇨🇳_中国_1
   - 🇺🇸_美国_14
-  - 🇨🇳_中国_2
-  - 🇨🇳_中国_3
-  - 🇨🇳_中国_4
   - 🇺🇸_美国_15
-  - 🇯🇵_日本_1
   - 🇺🇸_美国_16
-  - 🇯🇵_日本_2
-  - 🇸🇬_新加坡
   - 🇺🇸_美国_17
   - 🇺🇸_美国_18
-  - 🇬🇧_英国
-  - 🇨🇳_中国_5
   - 🇺🇸_美国_19
-  - 🇮🇷_伊朗_2
-  - 🇮🇷_伊朗_3
   - 🇺🇸_美国_20
-  - 🇮🇷_伊朗_4
-  - 🇫🇷_法国_4
   - 🇺🇸_美国_21
   - 🇺🇸_美国_22
   - 🇺🇸_美国_23
@@ -769,67 +3383,247 @@ proxy-groups:
   - 🇺🇸_美国_25
   - 🇺🇸_美国_26
   - 🇺🇸_美国_27
-  - 🇨🇳_中国_6
+  - 🇸🇬_新加坡
   - 🇺🇸_美国_28
-  - 🇳🇱_荷兰_1
-  - 🇳🇱_荷兰_2
-  - 🇳🇱_荷兰_3
-  - 🇳🇱_荷兰_4
-  - 🇳🇱_荷兰_5
-  - 🇳🇱_荷兰_6
+  - 🇺🇸_美国_29
+  - 🇺🇸_美国_30
+  - 🇺🇸_美国_31
+  - 🇸🇮_斯洛文尼亚
+  - 🇺🇸_美国_32
+  - 🇬🇧_英国_1
+  - 🇺🇸_美国_33
+  - 🇺🇸_美国_34
+  - 🇺🇸_美国_35
+  - 🇪🇸_西班牙_1
+  - 🇺🇸_美国_36
+  - 🇺🇸_美国_37
+  - 🇺🇸_美国_38
+  - 🇺🇸_美国_39
+  - 🇺🇸_美国_40
+  - 🇩🇪_德国_2
+  - 🇺🇸_美国_41
+  - 🇩🇪_德国_3
+  - 🇫🇷_法国_2
+  - 🇺🇸_美国_42
+  - 🇺🇸_美国_43
+  - 🇩🇪_德国_4
+  - 🇺🇸_美国_44
+  - 🇺🇸_美国_45
+  - 🇩🇪_德国_5
+  - 🇩🇪_德国_6
+  - 🇺🇸_美国_46
+  - 🇺🇸_美国_47
+  - 🇷🇺_俄罗斯_1
+  - 🇺🇸_美国_48
+  - 🇺🇸_美国_49
+  - 🇩🇪_德国_7
+  - 🇩🇪_德国_8
+  - 🇺🇸_美国_50
+  - 🇩🇪_德国_9
+  - 🇺🇸_美国_51
+  - 🇺🇸_美国_52
+  - 🇺🇸_美国_53
+  - 🇩🇪_德国_10
+  - 🇩🇪_德国_11
+  - 🇺🇸_美国_54
+  - 🇺🇸_美国_55
+  - 🇩🇪_德国_12
+  - 🇩🇪_德国_13
+  - 🇩🇪_德国_14
+  - 🏳️_未知_1
+  - 🇺🇸_美国_56
+  - 🇩🇪_德国_15
+  - 🇩🇪_德国_16
+  - 🇺🇸_美国_57
+  - 🇩🇪_德国_17
+  - 🇩🇪_德国_18
+  - 🇩🇪_德国_19
+  - 🇩🇪_德国_20
+  - 🇺🇸_美国_58
+  - 🇩🇪_德国_21
+  - 🇩🇪_德国_22
+  - 🇺🇸_美国_59
+  - 🇺🇸_美国_60
+  - 🇺🇸_美国_61
+  - 🇩🇪_德国_23
+  - 🇩🇪_德国_24
+  - 🇩🇪_德国_25
+  - 🇩🇪_德国_26
+  - 🇩🇪_德国_27
+  - 🇺🇸_美国_62
+  - 🇩🇪_德国_28
+  - 🇺🇸_美国_63
+  - 🇮🇷_伊朗_1
+  - 🇩🇪_德国_29
+  - 🇩🇪_德国_30
+  - 🇩🇪_德国_31
+  - 🇩🇪_德国_32
+  - 🇺🇸_美国_64
+  - 🇮🇷_伊朗_2
+  - 🇩🇪_德国_33
+  - 🇺🇸_美国_65
+  - 🇩🇪_德国_34
+  - 🇺🇸_美国_66
+  - 🇩🇪_德国_35
+  - 🇩🇪_德国_36
+  - 🇺🇸_美国_67
+  - 🇩🇪_德国_37
+  - 🇩🇪_德国_38
+  - 🇩🇪_德国_39
+  - 🇩🇪_德国_40
+  - 🇮🇷_伊朗_3
+  - 🇫🇷_法国_3
+  - 🇩🇪_德国_41
+  - 🇺🇸_美国_68
+  - 🇺🇸_美国_69
+  - 🇩🇪_德国_42
+  - 🇺🇸_美国_70
+  - 🇺🇸_美国_71
+  - 🇺🇸_美国_72
+  - 🇫🇷_法国_4
+  - 🇺🇸_美国_73
+  - 🇺🇸_美国_74
+  - 🏳️_未知_2
+  - 🇺🇸_美国_75
+  - 🇩🇪_德国_43
+  - 🇩🇪_德国_44
+  - 🇩🇪_德国_45
+  - 🇺🇸_美国_76
+  - 🇩🇪_德国_46
+  - 🇺🇸_美国_77
+  - 🇺🇸_美国_78
+  - 🇩🇪_德国_47
+  - 🇺🇸_美国_79
+  - 🇩🇪_德国_48
+  - 🇫🇷_法国_5
+  - 🇩🇪_德国_49
+  - 🇩🇪_德国_50
+  - 🇫🇷_法国_6
+  - 🇺🇸_美国_80
+  - 🇺🇸_美国_81
+  - 🇺🇸_美国_82
+  - 🇺🇸_美国_83
+  - 🇩🇪_德国_51
+  - 🇩🇪_德国_52
+  - 🇺🇸_美国_84
+  - 🇩🇪_德国_53
+  - 🇺🇸_美国_85
+  - 🇺🇸_美国_86
+  - 🇺🇸_美国_87
+  - 🇫🇷_法国_7
+  - 🇺🇸_美国_88
+  - 🇩🇪_德国_54
+  - 🇩🇪_德国_55
+  - 🇩🇪_德国_56
+  - 🇺🇸_美国_89
+  - 🇺🇸_美国_90
+  - 🇺🇸_美国_91
+  - 🇺🇸_美国_92
+  - 🇺🇸_美国_93
+  - 🇩🇪_德国_57
+  - 🇩🇪_德国_58
+  - 🇫🇷_法国_8
+  - 🇩🇪_德国_59
+  - 🇫🇷_法国_9
+  - 🇫🇷_法国_10
+  - 🇩🇪_德国_60
+  - 🇩🇪_德国_61
+  - 🇫🇷_法国_11
+  - 🇩🇪_德国_62
+  - 🇺🇸_美国_94
+  - 🇷🇺_俄罗斯_2
+  - 🇺🇸_美国_95
+  - 🇺🇸_美国_96
+  - 🇪🇸_西班牙_2
+  - 🇩🇪_德国_63
+  - 🇩🇪_德国_64
+  - 🇺🇸_美国_97
+  - 🇩🇪_德国_65
+  - 🇺🇸_美国_98
+  - 🇺🇸_美国_99
+  - 🇩🇪_德国_66
+  - 🇮🇷_伊朗_4
+  - 🇫🇮_芬兰
+  - 🇺🇸_美国_100
+  - 🇺🇸_美国_101
+  - 🇩🇪_德国_67
+  - 🇮🇷_伊朗_5
+  - 🇺🇸_美国_102
+  - 🇬🇧_英国_2
+  - 🇺🇸_美国_103
+  - 🇺🇸_美国_104
+  - 🇺🇸_美国_105
+  - 🇺🇸_美国_106
+  - 🇺🇸_美国_107
+  - 🇩🇪_德国_68
+  - 🇫🇷_法国_12
+  - 🇺🇸_美国_108
+  - 🇩🇪_德国_69
+  - 🇩🇪_德国_70
+  - 🇮🇷_伊朗_6
+  - 🇺🇸_美国_109
+  - 🇫🇷_法国_13
+  - 🇯🇵_日本_8
+  - 🇺🇸_美国_110
+  - 🇺🇸_美国_111
+  - 🇺🇸_美国_112
+  - 🇺🇸_美国_113
+  - 🇺🇸_美国_114
+  - 🏳️_未知_3
+  - 🇩🇪_德国_71
+  - 🇮🇷_伊朗_7
+  - 🇺🇸_美国_115
+  - 🇺🇸_美国_116
+  - 🇺🇸_美国_117
+  - 🇺🇸_美国_118
+  - 🇺🇸_美国_119
+  - 🇺🇸_美国_120
+  - 🇺🇸_美国_121
+  - 🇺🇸_美国_122
+  - 🇺🇸_美国_123
+  - 🇩🇪_德国_72
+  - 🇩🇪_德国_73
+  - 🇺🇸_美国_124
+  - 🇺🇸_美国_125
+  - 🇨🇳_中国_1
+  - 🇨🇳_中国_2
   type: select
 - interval: 300
   name: ♻️ 自动选择
   proxies:
   - 电报群：https://t.me/vvkj11
   - 每天更新，请加电报群防止失联
-  - 日期：10-10
+  - 日期：10-11
   - 免费VPN：https://tt.vg/gwaAy
-  - 🇫🇷_法国_1
-  - 🇫🇷_法国_2
+  - 🇩🇪_德国_1
   - 🇺🇸_美国_1
-  - 🇺🇦_乌克兰
-  - 🇷🇺_俄罗斯_1
-  - 🇫🇷_法国_3
   - 🇺🇸_美国_2
-  - 🇷🇺_俄罗斯_2
-  - 🇷🇺_俄罗斯_3
-  - 🇷🇺_俄罗斯_4
   - 🇺🇸_美国_3
+  - 🇫🇷_法国_1
+  - 🇯🇵_日本_1
+  - 🇯🇵_日本_2
+  - 🇯🇵_日本_3
+  - 🇯🇵_日本_4
+  - 🇯🇵_日本_5
+  - 🇯🇵_日本_6
+  - 🇯🇵_日本_7
   - 🇺🇸_美国_4
   - 🇺🇸_美国_5
   - 🇺🇸_美国_6
   - 🇺🇸_美国_7
   - 🇺🇸_美国_8
   - 🇺🇸_美国_9
-  - 🇷🇺_俄罗斯_5
-  - 🇷🇺_俄罗斯_6
   - 🇺🇸_美国_10
-  - 🇩🇪_德国
   - 🇺🇸_美国_11
-  - 🇮🇷_伊朗_1
   - 🇺🇸_美国_12
   - 🇺🇸_美国_13
-  - 🇨🇳_中国_1
   - 🇺🇸_美国_14
-  - 🇨🇳_中国_2
-  - 🇨🇳_中国_3
-  - 🇨🇳_中国_4
   - 🇺🇸_美国_15
-  - 🇯🇵_日本_1
   - 🇺🇸_美国_16
-  - 🇯🇵_日本_2
-  - 🇸🇬_新加坡
   - 🇺🇸_美国_17
   - 🇺🇸_美国_18
-  - 🇬🇧_英国
-  - 🇨🇳_中国_5
   - 🇺🇸_美国_19
-  - 🇮🇷_伊朗_2
-  - 🇮🇷_伊朗_3
   - 🇺🇸_美国_20
-  - 🇮🇷_伊朗_4
-  - 🇫🇷_法国_4
   - 🇺🇸_美国_21
   - 🇺🇸_美国_22
   - 🇺🇸_美国_23
@@ -837,14 +3631,210 @@ proxy-groups:
   - 🇺🇸_美国_25
   - 🇺🇸_美国_26
   - 🇺🇸_美国_27
-  - 🇨🇳_中国_6
+  - 🇸🇬_新加坡
   - 🇺🇸_美国_28
-  - 🇳🇱_荷兰_1
-  - 🇳🇱_荷兰_2
-  - 🇳🇱_荷兰_3
-  - 🇳🇱_荷兰_4
-  - 🇳🇱_荷兰_5
-  - 🇳🇱_荷兰_6
+  - 🇺🇸_美国_29
+  - 🇺🇸_美国_30
+  - 🇺🇸_美国_31
+  - 🇸🇮_斯洛文尼亚
+  - 🇺🇸_美国_32
+  - 🇬🇧_英国_1
+  - 🇺🇸_美国_33
+  - 🇺🇸_美国_34
+  - 🇺🇸_美国_35
+  - 🇪🇸_西班牙_1
+  - 🇺🇸_美国_36
+  - 🇺🇸_美国_37
+  - 🇺🇸_美国_38
+  - 🇺🇸_美国_39
+  - 🇺🇸_美国_40
+  - 🇩🇪_德国_2
+  - 🇺🇸_美国_41
+  - 🇩🇪_德国_3
+  - 🇫🇷_法国_2
+  - 🇺🇸_美国_42
+  - 🇺🇸_美国_43
+  - 🇩🇪_德国_4
+  - 🇺🇸_美国_44
+  - 🇺🇸_美国_45
+  - 🇩🇪_德国_5
+  - 🇩🇪_德国_6
+  - 🇺🇸_美国_46
+  - 🇺🇸_美国_47
+  - 🇷🇺_俄罗斯_1
+  - 🇺🇸_美国_48
+  - 🇺🇸_美国_49
+  - 🇩🇪_德国_7
+  - 🇩🇪_德国_8
+  - 🇺🇸_美国_50
+  - 🇩🇪_德国_9
+  - 🇺🇸_美国_51
+  - 🇺🇸_美国_52
+  - 🇺🇸_美国_53
+  - 🇩🇪_德国_10
+  - 🇩🇪_德国_11
+  - 🇺🇸_美国_54
+  - 🇺🇸_美国_55
+  - 🇩🇪_德国_12
+  - 🇩🇪_德国_13
+  - 🇩🇪_德国_14
+  - 🏳️_未知_1
+  - 🇺🇸_美国_56
+  - 🇩🇪_德国_15
+  - 🇩🇪_德国_16
+  - 🇺🇸_美国_57
+  - 🇩🇪_德国_17
+  - 🇩🇪_德国_18
+  - 🇩🇪_德国_19
+  - 🇩🇪_德国_20
+  - 🇺🇸_美国_58
+  - 🇩🇪_德国_21
+  - 🇩🇪_德国_22
+  - 🇺🇸_美国_59
+  - 🇺🇸_美国_60
+  - 🇺🇸_美国_61
+  - 🇩🇪_德国_23
+  - 🇩🇪_德国_24
+  - 🇩🇪_德国_25
+  - 🇩🇪_德国_26
+  - 🇩🇪_德国_27
+  - 🇺🇸_美国_62
+  - 🇩🇪_德国_28
+  - 🇺🇸_美国_63
+  - 🇮🇷_伊朗_1
+  - 🇩🇪_德国_29
+  - 🇩🇪_德国_30
+  - 🇩🇪_德国_31
+  - 🇩🇪_德国_32
+  - 🇺🇸_美国_64
+  - 🇮🇷_伊朗_2
+  - 🇩🇪_德国_33
+  - 🇺🇸_美国_65
+  - 🇩🇪_德国_34
+  - 🇺🇸_美国_66
+  - 🇩🇪_德国_35
+  - 🇩🇪_德国_36
+  - 🇺🇸_美国_67
+  - 🇩🇪_德国_37
+  - 🇩🇪_德国_38
+  - 🇩🇪_德国_39
+  - 🇩🇪_德国_40
+  - 🇮🇷_伊朗_3
+  - 🇫🇷_法国_3
+  - 🇩🇪_德国_41
+  - 🇺🇸_美国_68
+  - 🇺🇸_美国_69
+  - 🇩🇪_德国_42
+  - 🇺🇸_美国_70
+  - 🇺🇸_美国_71
+  - 🇺🇸_美国_72
+  - 🇫🇷_法国_4
+  - 🇺🇸_美国_73
+  - 🇺🇸_美国_74
+  - 🏳️_未知_2
+  - 🇺🇸_美国_75
+  - 🇩🇪_德国_43
+  - 🇩🇪_德国_44
+  - 🇩🇪_德国_45
+  - 🇺🇸_美国_76
+  - 🇩🇪_德国_46
+  - 🇺🇸_美国_77
+  - 🇺🇸_美国_78
+  - 🇩🇪_德国_47
+  - 🇺🇸_美国_79
+  - 🇩🇪_德国_48
+  - 🇫🇷_法国_5
+  - 🇩🇪_德国_49
+  - 🇩🇪_德国_50
+  - 🇫🇷_法国_6
+  - 🇺🇸_美国_80
+  - 🇺🇸_美国_81
+  - 🇺🇸_美国_82
+  - 🇺🇸_美国_83
+  - 🇩🇪_德国_51
+  - 🇩🇪_德国_52
+  - 🇺🇸_美国_84
+  - 🇩🇪_德国_53
+  - 🇺🇸_美国_85
+  - 🇺🇸_美国_86
+  - 🇺🇸_美国_87
+  - 🇫🇷_法国_7
+  - 🇺🇸_美国_88
+  - 🇩🇪_德国_54
+  - 🇩🇪_德国_55
+  - 🇩🇪_德国_56
+  - 🇺🇸_美国_89
+  - 🇺🇸_美国_90
+  - 🇺🇸_美国_91
+  - 🇺🇸_美国_92
+  - 🇺🇸_美国_93
+  - 🇩🇪_德国_57
+  - 🇩🇪_德国_58
+  - 🇫🇷_法国_8
+  - 🇩🇪_德国_59
+  - 🇫🇷_法国_9
+  - 🇫🇷_法国_10
+  - 🇩🇪_德国_60
+  - 🇩🇪_德国_61
+  - 🇫🇷_法国_11
+  - 🇩🇪_德国_62
+  - 🇺🇸_美国_94
+  - 🇷🇺_俄罗斯_2
+  - 🇺🇸_美国_95
+  - 🇺🇸_美国_96
+  - 🇪🇸_西班牙_2
+  - 🇩🇪_德国_63
+  - 🇩🇪_德国_64
+  - 🇺🇸_美国_97
+  - 🇩🇪_德国_65
+  - 🇺🇸_美国_98
+  - 🇺🇸_美国_99
+  - 🇩🇪_德国_66
+  - 🇮🇷_伊朗_4
+  - 🇫🇮_芬兰
+  - 🇺🇸_美国_100
+  - 🇺🇸_美国_101
+  - 🇩🇪_德国_67
+  - 🇮🇷_伊朗_5
+  - 🇺🇸_美国_102
+  - 🇬🇧_英国_2
+  - 🇺🇸_美国_103
+  - 🇺🇸_美国_104
+  - 🇺🇸_美国_105
+  - 🇺🇸_美国_106
+  - 🇺🇸_美国_107
+  - 🇩🇪_德国_68
+  - 🇫🇷_法国_12
+  - 🇺🇸_美国_108
+  - 🇩🇪_德国_69
+  - 🇩🇪_德国_70
+  - 🇮🇷_伊朗_6
+  - 🇺🇸_美国_109
+  - 🇫🇷_法国_13
+  - 🇯🇵_日本_8
+  - 🇺🇸_美国_110
+  - 🇺🇸_美国_111
+  - 🇺🇸_美国_112
+  - 🇺🇸_美国_113
+  - 🇺🇸_美国_114
+  - 🏳️_未知_3
+  - 🇩🇪_德国_71
+  - 🇮🇷_伊朗_7
+  - 🇺🇸_美国_115
+  - 🇺🇸_美国_116
+  - 🇺🇸_美国_117
+  - 🇺🇸_美国_118
+  - 🇺🇸_美国_119
+  - 🇺🇸_美国_120
+  - 🇺🇸_美国_121
+  - 🇺🇸_美国_122
+  - 🇺🇸_美国_123
+  - 🇩🇪_德国_72
+  - 🇩🇪_德国_73
+  - 🇺🇸_美国_124
+  - 🇺🇸_美国_125
+  - 🇨🇳_中国_1
+  - 🇨🇳_中国_2
   tolerance: 50
   type: url-test
   url: http://www.gstatic.com/generate_204
@@ -855,53 +3845,37 @@ proxy-groups:
   - 🎯 全球直连
   - 电报群：https://t.me/vvkj11
   - 每天更新，请加电报群防止失联
-  - 日期：10-10
+  - 日期：10-11
   - 免费VPN：https://tt.vg/gwaAy
-  - 🇫🇷_法国_1
-  - 🇫🇷_法国_2
+  - 🇩🇪_德国_1
   - 🇺🇸_美国_1
-  - 🇺🇦_乌克兰
-  - 🇷🇺_俄罗斯_1
-  - 🇫🇷_法国_3
   - 🇺🇸_美国_2
-  - 🇷🇺_俄罗斯_2
-  - 🇷🇺_俄罗斯_3
-  - 🇷🇺_俄罗斯_4
   - 🇺🇸_美国_3
+  - 🇫🇷_法国_1
+  - 🇯🇵_日本_1
+  - 🇯🇵_日本_2
+  - 🇯🇵_日本_3
+  - 🇯🇵_日本_4
+  - 🇯🇵_日本_5
+  - 🇯🇵_日本_6
+  - 🇯🇵_日本_7
   - 🇺🇸_美国_4
   - 🇺🇸_美国_5
   - 🇺🇸_美国_6
   - 🇺🇸_美国_7
   - 🇺🇸_美国_8
   - 🇺🇸_美国_9
-  - 🇷🇺_俄罗斯_5
-  - 🇷🇺_俄罗斯_6
   - 🇺🇸_美国_10
-  - 🇩🇪_德国
   - 🇺🇸_美国_11
-  - 🇮🇷_伊朗_1
   - 🇺🇸_美国_12
   - 🇺🇸_美国_13
-  - 🇨🇳_中国_1
   - 🇺🇸_美国_14
-  - 🇨🇳_中国_2
-  - 🇨🇳_中国_3
-  - 🇨🇳_中国_4
   - 🇺🇸_美国_15
-  - 🇯🇵_日本_1
   - 🇺🇸_美国_16
-  - 🇯🇵_日本_2
-  - 🇸🇬_新加坡
   - 🇺🇸_美国_17
   - 🇺🇸_美国_18
-  - 🇬🇧_英国
-  - 🇨🇳_中国_5
   - 🇺🇸_美国_19
-  - 🇮🇷_伊朗_2
-  - 🇮🇷_伊朗_3
   - 🇺🇸_美国_20
-  - 🇮🇷_伊朗_4
-  - 🇫🇷_法国_4
   - 🇺🇸_美国_21
   - 🇺🇸_美国_22
   - 🇺🇸_美国_23
@@ -909,14 +3883,210 @@ proxy-groups:
   - 🇺🇸_美国_25
   - 🇺🇸_美国_26
   - 🇺🇸_美国_27
-  - 🇨🇳_中国_6
+  - 🇸🇬_新加坡
   - 🇺🇸_美国_28
-  - 🇳🇱_荷兰_1
-  - 🇳🇱_荷兰_2
-  - 🇳🇱_荷兰_3
-  - 🇳🇱_荷兰_4
-  - 🇳🇱_荷兰_5
-  - 🇳🇱_荷兰_6
+  - 🇺🇸_美国_29
+  - 🇺🇸_美国_30
+  - 🇺🇸_美国_31
+  - 🇸🇮_斯洛文尼亚
+  - 🇺🇸_美国_32
+  - 🇬🇧_英国_1
+  - 🇺🇸_美国_33
+  - 🇺🇸_美国_34
+  - 🇺🇸_美国_35
+  - 🇪🇸_西班牙_1
+  - 🇺🇸_美国_36
+  - 🇺🇸_美国_37
+  - 🇺🇸_美国_38
+  - 🇺🇸_美国_39
+  - 🇺🇸_美国_40
+  - 🇩🇪_德国_2
+  - 🇺🇸_美国_41
+  - 🇩🇪_德国_3
+  - 🇫🇷_法国_2
+  - 🇺🇸_美国_42
+  - 🇺🇸_美国_43
+  - 🇩🇪_德国_4
+  - 🇺🇸_美国_44
+  - 🇺🇸_美国_45
+  - 🇩🇪_德国_5
+  - 🇩🇪_德国_6
+  - 🇺🇸_美国_46
+  - 🇺🇸_美国_47
+  - 🇷🇺_俄罗斯_1
+  - 🇺🇸_美国_48
+  - 🇺🇸_美国_49
+  - 🇩🇪_德国_7
+  - 🇩🇪_德国_8
+  - 🇺🇸_美国_50
+  - 🇩🇪_德国_9
+  - 🇺🇸_美国_51
+  - 🇺🇸_美国_52
+  - 🇺🇸_美国_53
+  - 🇩🇪_德国_10
+  - 🇩🇪_德国_11
+  - 🇺🇸_美国_54
+  - 🇺🇸_美国_55
+  - 🇩🇪_德国_12
+  - 🇩🇪_德国_13
+  - 🇩🇪_德国_14
+  - 🏳️_未知_1
+  - 🇺🇸_美国_56
+  - 🇩🇪_德国_15
+  - 🇩🇪_德国_16
+  - 🇺🇸_美国_57
+  - 🇩🇪_德国_17
+  - 🇩🇪_德国_18
+  - 🇩🇪_德国_19
+  - 🇩🇪_德国_20
+  - 🇺🇸_美国_58
+  - 🇩🇪_德国_21
+  - 🇩🇪_德国_22
+  - 🇺🇸_美国_59
+  - 🇺🇸_美国_60
+  - 🇺🇸_美国_61
+  - 🇩🇪_德国_23
+  - 🇩🇪_德国_24
+  - 🇩🇪_德国_25
+  - 🇩🇪_德国_26
+  - 🇩🇪_德国_27
+  - 🇺🇸_美国_62
+  - 🇩🇪_德国_28
+  - 🇺🇸_美国_63
+  - 🇮🇷_伊朗_1
+  - 🇩🇪_德国_29
+  - 🇩🇪_德国_30
+  - 🇩🇪_德国_31
+  - 🇩🇪_德国_32
+  - 🇺🇸_美国_64
+  - 🇮🇷_伊朗_2
+  - 🇩🇪_德国_33
+  - 🇺🇸_美国_65
+  - 🇩🇪_德国_34
+  - 🇺🇸_美国_66
+  - 🇩🇪_德国_35
+  - 🇩🇪_德国_36
+  - 🇺🇸_美国_67
+  - 🇩🇪_德国_37
+  - 🇩🇪_德国_38
+  - 🇩🇪_德国_39
+  - 🇩🇪_德国_40
+  - 🇮🇷_伊朗_3
+  - 🇫🇷_法国_3
+  - 🇩🇪_德国_41
+  - 🇺🇸_美国_68
+  - 🇺🇸_美国_69
+  - 🇩🇪_德国_42
+  - 🇺🇸_美国_70
+  - 🇺🇸_美国_71
+  - 🇺🇸_美国_72
+  - 🇫🇷_法国_4
+  - 🇺🇸_美国_73
+  - 🇺🇸_美国_74
+  - 🏳️_未知_2
+  - 🇺🇸_美国_75
+  - 🇩🇪_德国_43
+  - 🇩🇪_德国_44
+  - 🇩🇪_德国_45
+  - 🇺🇸_美国_76
+  - 🇩🇪_德国_46
+  - 🇺🇸_美国_77
+  - 🇺🇸_美国_78
+  - 🇩🇪_德国_47
+  - 🇺🇸_美国_79
+  - 🇩🇪_德国_48
+  - 🇫🇷_法国_5
+  - 🇩🇪_德国_49
+  - 🇩🇪_德国_50
+  - 🇫🇷_法国_6
+  - 🇺🇸_美国_80
+  - 🇺🇸_美国_81
+  - 🇺🇸_美国_82
+  - 🇺🇸_美国_83
+  - 🇩🇪_德国_51
+  - 🇩🇪_德国_52
+  - 🇺🇸_美国_84
+  - 🇩🇪_德国_53
+  - 🇺🇸_美国_85
+  - 🇺🇸_美国_86
+  - 🇺🇸_美国_87
+  - 🇫🇷_法国_7
+  - 🇺🇸_美国_88
+  - 🇩🇪_德国_54
+  - 🇩🇪_德国_55
+  - 🇩🇪_德国_56
+  - 🇺🇸_美国_89
+  - 🇺🇸_美国_90
+  - 🇺🇸_美国_91
+  - 🇺🇸_美国_92
+  - 🇺🇸_美国_93
+  - 🇩🇪_德国_57
+  - 🇩🇪_德国_58
+  - 🇫🇷_法国_8
+  - 🇩🇪_德国_59
+  - 🇫🇷_法国_9
+  - 🇫🇷_法国_10
+  - 🇩🇪_德国_60
+  - 🇩🇪_德国_61
+  - 🇫🇷_法国_11
+  - 🇩🇪_德国_62
+  - 🇺🇸_美国_94
+  - 🇷🇺_俄罗斯_2
+  - 🇺🇸_美国_95
+  - 🇺🇸_美国_96
+  - 🇪🇸_西班牙_2
+  - 🇩🇪_德国_63
+  - 🇩🇪_德国_64
+  - 🇺🇸_美国_97
+  - 🇩🇪_德国_65
+  - 🇺🇸_美国_98
+  - 🇺🇸_美国_99
+  - 🇩🇪_德国_66
+  - 🇮🇷_伊朗_4
+  - 🇫🇮_芬兰
+  - 🇺🇸_美国_100
+  - 🇺🇸_美国_101
+  - 🇩🇪_德国_67
+  - 🇮🇷_伊朗_5
+  - 🇺🇸_美国_102
+  - 🇬🇧_英国_2
+  - 🇺🇸_美国_103
+  - 🇺🇸_美国_104
+  - 🇺🇸_美国_105
+  - 🇺🇸_美国_106
+  - 🇺🇸_美国_107
+  - 🇩🇪_德国_68
+  - 🇫🇷_法国_12
+  - 🇺🇸_美国_108
+  - 🇩🇪_德国_69
+  - 🇩🇪_德国_70
+  - 🇮🇷_伊朗_6
+  - 🇺🇸_美国_109
+  - 🇫🇷_法国_13
+  - 🇯🇵_日本_8
+  - 🇺🇸_美国_110
+  - 🇺🇸_美国_111
+  - 🇺🇸_美国_112
+  - 🇺🇸_美国_113
+  - 🇺🇸_美国_114
+  - 🏳️_未知_3
+  - 🇩🇪_德国_71
+  - 🇮🇷_伊朗_7
+  - 🇺🇸_美国_115
+  - 🇺🇸_美国_116
+  - 🇺🇸_美国_117
+  - 🇺🇸_美国_118
+  - 🇺🇸_美国_119
+  - 🇺🇸_美国_120
+  - 🇺🇸_美国_121
+  - 🇺🇸_美国_122
+  - 🇺🇸_美国_123
+  - 🇩🇪_德国_72
+  - 🇩🇪_德国_73
+  - 🇺🇸_美国_124
+  - 🇺🇸_美国_125
+  - 🇨🇳_中国_1
+  - 🇨🇳_中国_2
   type: select
 - name: 📲 电报信息
   proxies:
@@ -924,53 +4094,37 @@ proxy-groups:
   - 🎯 全球直连
   - 电报群：https://t.me/vvkj11
   - 每天更新，请加电报群防止失联
-  - 日期：10-10
+  - 日期：10-11
   - 免费VPN：https://tt.vg/gwaAy
-  - 🇫🇷_法国_1
-  - 🇫🇷_法国_2
+  - 🇩🇪_德国_1
   - 🇺🇸_美国_1
-  - 🇺🇦_乌克兰
-  - 🇷🇺_俄罗斯_1
-  - 🇫🇷_法国_3
   - 🇺🇸_美国_2
-  - 🇷🇺_俄罗斯_2
-  - 🇷🇺_俄罗斯_3
-  - 🇷🇺_俄罗斯_4
   - 🇺🇸_美国_3
+  - 🇫🇷_法国_1
+  - 🇯🇵_日本_1
+  - 🇯🇵_日本_2
+  - 🇯🇵_日本_3
+  - 🇯🇵_日本_4
+  - 🇯🇵_日本_5
+  - 🇯🇵_日本_6
+  - 🇯🇵_日本_7
   - 🇺🇸_美国_4
   - 🇺🇸_美国_5
   - 🇺🇸_美国_6
   - 🇺🇸_美国_7
   - 🇺🇸_美国_8
   - 🇺🇸_美国_9
-  - 🇷🇺_俄罗斯_5
-  - 🇷🇺_俄罗斯_6
   - 🇺🇸_美国_10
-  - 🇩🇪_德国
   - 🇺🇸_美国_11
-  - 🇮🇷_伊朗_1
   - 🇺🇸_美国_12
   - 🇺🇸_美国_13
-  - 🇨🇳_中国_1
   - 🇺🇸_美国_14
-  - 🇨🇳_中国_2
-  - 🇨🇳_中国_3
-  - 🇨🇳_中国_4
   - 🇺🇸_美国_15
-  - 🇯🇵_日本_1
   - 🇺🇸_美国_16
-  - 🇯🇵_日本_2
-  - 🇸🇬_新加坡
   - 🇺🇸_美国_17
   - 🇺🇸_美国_18
-  - 🇬🇧_英国
-  - 🇨🇳_中国_5
   - 🇺🇸_美国_19
-  - 🇮🇷_伊朗_2
-  - 🇮🇷_伊朗_3
   - 🇺🇸_美国_20
-  - 🇮🇷_伊朗_4
-  - 🇫🇷_法国_4
   - 🇺🇸_美国_21
   - 🇺🇸_美国_22
   - 🇺🇸_美国_23
@@ -978,14 +4132,210 @@ proxy-groups:
   - 🇺🇸_美国_25
   - 🇺🇸_美国_26
   - 🇺🇸_美国_27
-  - 🇨🇳_中国_6
+  - 🇸🇬_新加坡
   - 🇺🇸_美国_28
-  - 🇳🇱_荷兰_1
-  - 🇳🇱_荷兰_2
-  - 🇳🇱_荷兰_3
-  - 🇳🇱_荷兰_4
-  - 🇳🇱_荷兰_5
-  - 🇳🇱_荷兰_6
+  - 🇺🇸_美国_29
+  - 🇺🇸_美国_30
+  - 🇺🇸_美国_31
+  - 🇸🇮_斯洛文尼亚
+  - 🇺🇸_美国_32
+  - 🇬🇧_英国_1
+  - 🇺🇸_美国_33
+  - 🇺🇸_美国_34
+  - 🇺🇸_美国_35
+  - 🇪🇸_西班牙_1
+  - 🇺🇸_美国_36
+  - 🇺🇸_美国_37
+  - 🇺🇸_美国_38
+  - 🇺🇸_美国_39
+  - 🇺🇸_美国_40
+  - 🇩🇪_德国_2
+  - 🇺🇸_美国_41
+  - 🇩🇪_德国_3
+  - 🇫🇷_法国_2
+  - 🇺🇸_美国_42
+  - 🇺🇸_美国_43
+  - 🇩🇪_德国_4
+  - 🇺🇸_美国_44
+  - 🇺🇸_美国_45
+  - 🇩🇪_德国_5
+  - 🇩🇪_德国_6
+  - 🇺🇸_美国_46
+  - 🇺🇸_美国_47
+  - 🇷🇺_俄罗斯_1
+  - 🇺🇸_美国_48
+  - 🇺🇸_美国_49
+  - 🇩🇪_德国_7
+  - 🇩🇪_德国_8
+  - 🇺🇸_美国_50
+  - 🇩🇪_德国_9
+  - 🇺🇸_美国_51
+  - 🇺🇸_美国_52
+  - 🇺🇸_美国_53
+  - 🇩🇪_德国_10
+  - 🇩🇪_德国_11
+  - 🇺🇸_美国_54
+  - 🇺🇸_美国_55
+  - 🇩🇪_德国_12
+  - 🇩🇪_德国_13
+  - 🇩🇪_德国_14
+  - 🏳️_未知_1
+  - 🇺🇸_美国_56
+  - 🇩🇪_德国_15
+  - 🇩🇪_德国_16
+  - 🇺🇸_美国_57
+  - 🇩🇪_德国_17
+  - 🇩🇪_德国_18
+  - 🇩🇪_德国_19
+  - 🇩🇪_德国_20
+  - 🇺🇸_美国_58
+  - 🇩🇪_德国_21
+  - 🇩🇪_德国_22
+  - 🇺🇸_美国_59
+  - 🇺🇸_美国_60
+  - 🇺🇸_美国_61
+  - 🇩🇪_德国_23
+  - 🇩🇪_德国_24
+  - 🇩🇪_德国_25
+  - 🇩🇪_德国_26
+  - 🇩🇪_德国_27
+  - 🇺🇸_美国_62
+  - 🇩🇪_德国_28
+  - 🇺🇸_美国_63
+  - 🇮🇷_伊朗_1
+  - 🇩🇪_德国_29
+  - 🇩🇪_德国_30
+  - 🇩🇪_德国_31
+  - 🇩🇪_德国_32
+  - 🇺🇸_美国_64
+  - 🇮🇷_伊朗_2
+  - 🇩🇪_德国_33
+  - 🇺🇸_美国_65
+  - 🇩🇪_德国_34
+  - 🇺🇸_美国_66
+  - 🇩🇪_德国_35
+  - 🇩🇪_德国_36
+  - 🇺🇸_美国_67
+  - 🇩🇪_德国_37
+  - 🇩🇪_德国_38
+  - 🇩🇪_德国_39
+  - 🇩🇪_德国_40
+  - 🇮🇷_伊朗_3
+  - 🇫🇷_法国_3
+  - 🇩🇪_德国_41
+  - 🇺🇸_美国_68
+  - 🇺🇸_美国_69
+  - 🇩🇪_德国_42
+  - 🇺🇸_美国_70
+  - 🇺🇸_美国_71
+  - 🇺🇸_美国_72
+  - 🇫🇷_法国_4
+  - 🇺🇸_美国_73
+  - 🇺🇸_美国_74
+  - 🏳️_未知_2
+  - 🇺🇸_美国_75
+  - 🇩🇪_德国_43
+  - 🇩🇪_德国_44
+  - 🇩🇪_德国_45
+  - 🇺🇸_美国_76
+  - 🇩🇪_德国_46
+  - 🇺🇸_美国_77
+  - 🇺🇸_美国_78
+  - 🇩🇪_德国_47
+  - 🇺🇸_美国_79
+  - 🇩🇪_德国_48
+  - 🇫🇷_法国_5
+  - 🇩🇪_德国_49
+  - 🇩🇪_德国_50
+  - 🇫🇷_法国_6
+  - 🇺🇸_美国_80
+  - 🇺🇸_美国_81
+  - 🇺🇸_美国_82
+  - 🇺🇸_美国_83
+  - 🇩🇪_德国_51
+  - 🇩🇪_德国_52
+  - 🇺🇸_美国_84
+  - 🇩🇪_德国_53
+  - 🇺🇸_美国_85
+  - 🇺🇸_美国_86
+  - 🇺🇸_美国_87
+  - 🇫🇷_法国_7
+  - 🇺🇸_美国_88
+  - 🇩🇪_德国_54
+  - 🇩🇪_德国_55
+  - 🇩🇪_德国_56
+  - 🇺🇸_美国_89
+  - 🇺🇸_美国_90
+  - 🇺🇸_美国_91
+  - 🇺🇸_美国_92
+  - 🇺🇸_美国_93
+  - 🇩🇪_德国_57
+  - 🇩🇪_德国_58
+  - 🇫🇷_法国_8
+  - 🇩🇪_德国_59
+  - 🇫🇷_法国_9
+  - 🇫🇷_法国_10
+  - 🇩🇪_德国_60
+  - 🇩🇪_德国_61
+  - 🇫🇷_法国_11
+  - 🇩🇪_德国_62
+  - 🇺🇸_美国_94
+  - 🇷🇺_俄罗斯_2
+  - 🇺🇸_美国_95
+  - 🇺🇸_美国_96
+  - 🇪🇸_西班牙_2
+  - 🇩🇪_德国_63
+  - 🇩🇪_德国_64
+  - 🇺🇸_美国_97
+  - 🇩🇪_德国_65
+  - 🇺🇸_美国_98
+  - 🇺🇸_美国_99
+  - 🇩🇪_德国_66
+  - 🇮🇷_伊朗_4
+  - 🇫🇮_芬兰
+  - 🇺🇸_美国_100
+  - 🇺🇸_美国_101
+  - 🇩🇪_德国_67
+  - 🇮🇷_伊朗_5
+  - 🇺🇸_美国_102
+  - 🇬🇧_英国_2
+  - 🇺🇸_美国_103
+  - 🇺🇸_美国_104
+  - 🇺🇸_美国_105
+  - 🇺🇸_美国_106
+  - 🇺🇸_美国_107
+  - 🇩🇪_德国_68
+  - 🇫🇷_法国_12
+  - 🇺🇸_美国_108
+  - 🇩🇪_德国_69
+  - 🇩🇪_德国_70
+  - 🇮🇷_伊朗_6
+  - 🇺🇸_美国_109
+  - 🇫🇷_法国_13
+  - 🇯🇵_日本_8
+  - 🇺🇸_美国_110
+  - 🇺🇸_美国_111
+  - 🇺🇸_美国_112
+  - 🇺🇸_美国_113
+  - 🇺🇸_美国_114
+  - 🏳️_未知_3
+  - 🇩🇪_德国_71
+  - 🇮🇷_伊朗_7
+  - 🇺🇸_美国_115
+  - 🇺🇸_美国_116
+  - 🇺🇸_美国_117
+  - 🇺🇸_美国_118
+  - 🇺🇸_美国_119
+  - 🇺🇸_美国_120
+  - 🇺🇸_美国_121
+  - 🇺🇸_美国_122
+  - 🇺🇸_美国_123
+  - 🇩🇪_德国_72
+  - 🇩🇪_德国_73
+  - 🇺🇸_美国_124
+  - 🇺🇸_美国_125
+  - 🇨🇳_中国_1
+  - 🇨🇳_中国_2
   type: select
 - name: Ⓜ️ 微软服务
   proxies:
@@ -993,53 +4343,37 @@ proxy-groups:
   - 🚀 节点选择
   - 电报群：https://t.me/vvkj11
   - 每天更新，请加电报群防止失联
-  - 日期：10-10
+  - 日期：10-11
   - 免费VPN：https://tt.vg/gwaAy
-  - 🇫🇷_法国_1
-  - 🇫🇷_法国_2
+  - 🇩🇪_德国_1
   - 🇺🇸_美国_1
-  - 🇺🇦_乌克兰
-  - 🇷🇺_俄罗斯_1
-  - 🇫🇷_法国_3
   - 🇺🇸_美国_2
-  - 🇷🇺_俄罗斯_2
-  - 🇷🇺_俄罗斯_3
-  - 🇷🇺_俄罗斯_4
   - 🇺🇸_美国_3
+  - 🇫🇷_法国_1
+  - 🇯🇵_日本_1
+  - 🇯🇵_日本_2
+  - 🇯🇵_日本_3
+  - 🇯🇵_日本_4
+  - 🇯🇵_日本_5
+  - 🇯🇵_日本_6
+  - 🇯🇵_日本_7
   - 🇺🇸_美国_4
   - 🇺🇸_美国_5
   - 🇺🇸_美国_6
   - 🇺🇸_美国_7
   - 🇺🇸_美国_8
   - 🇺🇸_美国_9
-  - 🇷🇺_俄罗斯_5
-  - 🇷🇺_俄罗斯_6
   - 🇺🇸_美国_10
-  - 🇩🇪_德国
   - 🇺🇸_美国_11
-  - 🇮🇷_伊朗_1
   - 🇺🇸_美国_12
   - 🇺🇸_美国_13
-  - 🇨🇳_中国_1
   - 🇺🇸_美国_14
-  - 🇨🇳_中国_2
-  - 🇨🇳_中国_3
-  - 🇨🇳_中国_4
   - 🇺🇸_美国_15
-  - 🇯🇵_日本_1
   - 🇺🇸_美国_16
-  - 🇯🇵_日本_2
-  - 🇸🇬_新加坡
   - 🇺🇸_美国_17
   - 🇺🇸_美国_18
-  - 🇬🇧_英国
-  - 🇨🇳_中国_5
   - 🇺🇸_美国_19
-  - 🇮🇷_伊朗_2
-  - 🇮🇷_伊朗_3
   - 🇺🇸_美国_20
-  - 🇮🇷_伊朗_4
-  - 🇫🇷_法国_4
   - 🇺🇸_美国_21
   - 🇺🇸_美国_22
   - 🇺🇸_美国_23
@@ -1047,14 +4381,210 @@ proxy-groups:
   - 🇺🇸_美国_25
   - 🇺🇸_美国_26
   - 🇺🇸_美国_27
-  - 🇨🇳_中国_6
+  - 🇸🇬_新加坡
   - 🇺🇸_美国_28
-  - 🇳🇱_荷兰_1
-  - 🇳🇱_荷兰_2
-  - 🇳🇱_荷兰_3
-  - 🇳🇱_荷兰_4
-  - 🇳🇱_荷兰_5
-  - 🇳🇱_荷兰_6
+  - 🇺🇸_美国_29
+  - 🇺🇸_美国_30
+  - 🇺🇸_美国_31
+  - 🇸🇮_斯洛文尼亚
+  - 🇺🇸_美国_32
+  - 🇬🇧_英国_1
+  - 🇺🇸_美国_33
+  - 🇺🇸_美国_34
+  - 🇺🇸_美国_35
+  - 🇪🇸_西班牙_1
+  - 🇺🇸_美国_36
+  - 🇺🇸_美国_37
+  - 🇺🇸_美国_38
+  - 🇺🇸_美国_39
+  - 🇺🇸_美国_40
+  - 🇩🇪_德国_2
+  - 🇺🇸_美国_41
+  - 🇩🇪_德国_3
+  - 🇫🇷_法国_2
+  - 🇺🇸_美国_42
+  - 🇺🇸_美国_43
+  - 🇩🇪_德国_4
+  - 🇺🇸_美国_44
+  - 🇺🇸_美国_45
+  - 🇩🇪_德国_5
+  - 🇩🇪_德国_6
+  - 🇺🇸_美国_46
+  - 🇺🇸_美国_47
+  - 🇷🇺_俄罗斯_1
+  - 🇺🇸_美国_48
+  - 🇺🇸_美国_49
+  - 🇩🇪_德国_7
+  - 🇩🇪_德国_8
+  - 🇺🇸_美国_50
+  - 🇩🇪_德国_9
+  - 🇺🇸_美国_51
+  - 🇺🇸_美国_52
+  - 🇺🇸_美国_53
+  - 🇩🇪_德国_10
+  - 🇩🇪_德国_11
+  - 🇺🇸_美国_54
+  - 🇺🇸_美国_55
+  - 🇩🇪_德国_12
+  - 🇩🇪_德国_13
+  - 🇩🇪_德国_14
+  - 🏳️_未知_1
+  - 🇺🇸_美国_56
+  - 🇩🇪_德国_15
+  - 🇩🇪_德国_16
+  - 🇺🇸_美国_57
+  - 🇩🇪_德国_17
+  - 🇩🇪_德国_18
+  - 🇩🇪_德国_19
+  - 🇩🇪_德国_20
+  - 🇺🇸_美国_58
+  - 🇩🇪_德国_21
+  - 🇩🇪_德国_22
+  - 🇺🇸_美国_59
+  - 🇺🇸_美国_60
+  - 🇺🇸_美国_61
+  - 🇩🇪_德国_23
+  - 🇩🇪_德国_24
+  - 🇩🇪_德国_25
+  - 🇩🇪_德国_26
+  - 🇩🇪_德国_27
+  - 🇺🇸_美国_62
+  - 🇩🇪_德国_28
+  - 🇺🇸_美国_63
+  - 🇮🇷_伊朗_1
+  - 🇩🇪_德国_29
+  - 🇩🇪_德国_30
+  - 🇩🇪_德国_31
+  - 🇩🇪_德国_32
+  - 🇺🇸_美国_64
+  - 🇮🇷_伊朗_2
+  - 🇩🇪_德国_33
+  - 🇺🇸_美国_65
+  - 🇩🇪_德国_34
+  - 🇺🇸_美国_66
+  - 🇩🇪_德国_35
+  - 🇩🇪_德国_36
+  - 🇺🇸_美国_67
+  - 🇩🇪_德国_37
+  - 🇩🇪_德国_38
+  - 🇩🇪_德国_39
+  - 🇩🇪_德国_40
+  - 🇮🇷_伊朗_3
+  - 🇫🇷_法国_3
+  - 🇩🇪_德国_41
+  - 🇺🇸_美国_68
+  - 🇺🇸_美国_69
+  - 🇩🇪_德国_42
+  - 🇺🇸_美国_70
+  - 🇺🇸_美国_71
+  - 🇺🇸_美国_72
+  - 🇫🇷_法国_4
+  - 🇺🇸_美国_73
+  - 🇺🇸_美国_74
+  - 🏳️_未知_2
+  - 🇺🇸_美国_75
+  - 🇩🇪_德国_43
+  - 🇩🇪_德国_44
+  - 🇩🇪_德国_45
+  - 🇺🇸_美国_76
+  - 🇩🇪_德国_46
+  - 🇺🇸_美国_77
+  - 🇺🇸_美国_78
+  - 🇩🇪_德国_47
+  - 🇺🇸_美国_79
+  - 🇩🇪_德国_48
+  - 🇫🇷_法国_5
+  - 🇩🇪_德国_49
+  - 🇩🇪_德国_50
+  - 🇫🇷_法国_6
+  - 🇺🇸_美国_80
+  - 🇺🇸_美国_81
+  - 🇺🇸_美国_82
+  - 🇺🇸_美国_83
+  - 🇩🇪_德国_51
+  - 🇩🇪_德国_52
+  - 🇺🇸_美国_84
+  - 🇩🇪_德国_53
+  - 🇺🇸_美国_85
+  - 🇺🇸_美国_86
+  - 🇺🇸_美国_87
+  - 🇫🇷_法国_7
+  - 🇺🇸_美国_88
+  - 🇩🇪_德国_54
+  - 🇩🇪_德国_55
+  - 🇩🇪_德国_56
+  - 🇺🇸_美国_89
+  - 🇺🇸_美国_90
+  - 🇺🇸_美国_91
+  - 🇺🇸_美国_92
+  - 🇺🇸_美国_93
+  - 🇩🇪_德国_57
+  - 🇩🇪_德国_58
+  - 🇫🇷_法国_8
+  - 🇩🇪_德国_59
+  - 🇫🇷_法国_9
+  - 🇫🇷_法国_10
+  - 🇩🇪_德国_60
+  - 🇩🇪_德国_61
+  - 🇫🇷_法国_11
+  - 🇩🇪_德国_62
+  - 🇺🇸_美国_94
+  - 🇷🇺_俄罗斯_2
+  - 🇺🇸_美国_95
+  - 🇺🇸_美国_96
+  - 🇪🇸_西班牙_2
+  - 🇩🇪_德国_63
+  - 🇩🇪_德国_64
+  - 🇺🇸_美国_97
+  - 🇩🇪_德国_65
+  - 🇺🇸_美国_98
+  - 🇺🇸_美国_99
+  - 🇩🇪_德国_66
+  - 🇮🇷_伊朗_4
+  - 🇫🇮_芬兰
+  - 🇺🇸_美国_100
+  - 🇺🇸_美国_101
+  - 🇩🇪_德国_67
+  - 🇮🇷_伊朗_5
+  - 🇺🇸_美国_102
+  - 🇬🇧_英国_2
+  - 🇺🇸_美国_103
+  - 🇺🇸_美国_104
+  - 🇺🇸_美国_105
+  - 🇺🇸_美国_106
+  - 🇺🇸_美国_107
+  - 🇩🇪_德国_68
+  - 🇫🇷_法国_12
+  - 🇺🇸_美国_108
+  - 🇩🇪_德国_69
+  - 🇩🇪_德国_70
+  - 🇮🇷_伊朗_6
+  - 🇺🇸_美国_109
+  - 🇫🇷_法国_13
+  - 🇯🇵_日本_8
+  - 🇺🇸_美国_110
+  - 🇺🇸_美国_111
+  - 🇺🇸_美国_112
+  - 🇺🇸_美国_113
+  - 🇺🇸_美国_114
+  - 🏳️_未知_3
+  - 🇩🇪_德国_71
+  - 🇮🇷_伊朗_7
+  - 🇺🇸_美国_115
+  - 🇺🇸_美国_116
+  - 🇺🇸_美国_117
+  - 🇺🇸_美国_118
+  - 🇺🇸_美国_119
+  - 🇺🇸_美国_120
+  - 🇺🇸_美国_121
+  - 🇺🇸_美国_122
+  - 🇺🇸_美国_123
+  - 🇩🇪_德国_72
+  - 🇩🇪_德国_73
+  - 🇺🇸_美国_124
+  - 🇺🇸_美国_125
+  - 🇨🇳_中国_1
+  - 🇨🇳_中国_2
   type: select
 - name: 🍎 苹果服务
   proxies:
@@ -1062,53 +4592,37 @@ proxy-groups:
   - 🎯 全球直连
   - 电报群：https://t.me/vvkj11
   - 每天更新，请加电报群防止失联
-  - 日期：10-10
+  - 日期：10-11
   - 免费VPN：https://tt.vg/gwaAy
-  - 🇫🇷_法国_1
-  - 🇫🇷_法国_2
+  - 🇩🇪_德国_1
   - 🇺🇸_美国_1
-  - 🇺🇦_乌克兰
-  - 🇷🇺_俄罗斯_1
-  - 🇫🇷_法国_3
   - 🇺🇸_美国_2
-  - 🇷🇺_俄罗斯_2
-  - 🇷🇺_俄罗斯_3
-  - 🇷🇺_俄罗斯_4
   - 🇺🇸_美国_3
+  - 🇫🇷_法国_1
+  - 🇯🇵_日本_1
+  - 🇯🇵_日本_2
+  - 🇯🇵_日本_3
+  - 🇯🇵_日本_4
+  - 🇯🇵_日本_5
+  - 🇯🇵_日本_6
+  - 🇯🇵_日本_7
   - 🇺🇸_美国_4
   - 🇺🇸_美国_5
   - 🇺🇸_美国_6
   - 🇺🇸_美国_7
   - 🇺🇸_美国_8
   - 🇺🇸_美国_9
-  - 🇷🇺_俄罗斯_5
-  - 🇷🇺_俄罗斯_6
   - 🇺🇸_美国_10
-  - 🇩🇪_德国
   - 🇺🇸_美国_11
-  - 🇮🇷_伊朗_1
   - 🇺🇸_美国_12
   - 🇺🇸_美国_13
-  - 🇨🇳_中国_1
   - 🇺🇸_美国_14
-  - 🇨🇳_中国_2
-  - 🇨🇳_中国_3
-  - 🇨🇳_中国_4
   - 🇺🇸_美国_15
-  - 🇯🇵_日本_1
   - 🇺🇸_美国_16
-  - 🇯🇵_日本_2
-  - 🇸🇬_新加坡
   - 🇺🇸_美国_17
   - 🇺🇸_美国_18
-  - 🇬🇧_英国
-  - 🇨🇳_中国_5
   - 🇺🇸_美国_19
-  - 🇮🇷_伊朗_2
-  - 🇮🇷_伊朗_3
   - 🇺🇸_美国_20
-  - 🇮🇷_伊朗_4
-  - 🇫🇷_法国_4
   - 🇺🇸_美国_21
   - 🇺🇸_美国_22
   - 🇺🇸_美国_23
@@ -1116,14 +4630,210 @@ proxy-groups:
   - 🇺🇸_美国_25
   - 🇺🇸_美国_26
   - 🇺🇸_美国_27
-  - 🇨🇳_中国_6
+  - 🇸🇬_新加坡
   - 🇺🇸_美国_28
-  - 🇳🇱_荷兰_1
-  - 🇳🇱_荷兰_2
-  - 🇳🇱_荷兰_3
-  - 🇳🇱_荷兰_4
-  - 🇳🇱_荷兰_5
-  - 🇳🇱_荷兰_6
+  - 🇺🇸_美国_29
+  - 🇺🇸_美国_30
+  - 🇺🇸_美国_31
+  - 🇸🇮_斯洛文尼亚
+  - 🇺🇸_美国_32
+  - 🇬🇧_英国_1
+  - 🇺🇸_美国_33
+  - 🇺🇸_美国_34
+  - 🇺🇸_美国_35
+  - 🇪🇸_西班牙_1
+  - 🇺🇸_美国_36
+  - 🇺🇸_美国_37
+  - 🇺🇸_美国_38
+  - 🇺🇸_美国_39
+  - 🇺🇸_美国_40
+  - 🇩🇪_德国_2
+  - 🇺🇸_美国_41
+  - 🇩🇪_德国_3
+  - 🇫🇷_法国_2
+  - 🇺🇸_美国_42
+  - 🇺🇸_美国_43
+  - 🇩🇪_德国_4
+  - 🇺🇸_美国_44
+  - 🇺🇸_美国_45
+  - 🇩🇪_德国_5
+  - 🇩🇪_德国_6
+  - 🇺🇸_美国_46
+  - 🇺🇸_美国_47
+  - 🇷🇺_俄罗斯_1
+  - 🇺🇸_美国_48
+  - 🇺🇸_美国_49
+  - 🇩🇪_德国_7
+  - 🇩🇪_德国_8
+  - 🇺🇸_美国_50
+  - 🇩🇪_德国_9
+  - 🇺🇸_美国_51
+  - 🇺🇸_美国_52
+  - 🇺🇸_美国_53
+  - 🇩🇪_德国_10
+  - 🇩🇪_德国_11
+  - 🇺🇸_美国_54
+  - 🇺🇸_美国_55
+  - 🇩🇪_德国_12
+  - 🇩🇪_德国_13
+  - 🇩🇪_德国_14
+  - 🏳️_未知_1
+  - 🇺🇸_美国_56
+  - 🇩🇪_德国_15
+  - 🇩🇪_德国_16
+  - 🇺🇸_美国_57
+  - 🇩🇪_德国_17
+  - 🇩🇪_德国_18
+  - 🇩🇪_德国_19
+  - 🇩🇪_德国_20
+  - 🇺🇸_美国_58
+  - 🇩🇪_德国_21
+  - 🇩🇪_德国_22
+  - 🇺🇸_美国_59
+  - 🇺🇸_美国_60
+  - 🇺🇸_美国_61
+  - 🇩🇪_德国_23
+  - 🇩🇪_德国_24
+  - 🇩🇪_德国_25
+  - 🇩🇪_德国_26
+  - 🇩🇪_德国_27
+  - 🇺🇸_美国_62
+  - 🇩🇪_德国_28
+  - 🇺🇸_美国_63
+  - 🇮🇷_伊朗_1
+  - 🇩🇪_德国_29
+  - 🇩🇪_德国_30
+  - 🇩🇪_德国_31
+  - 🇩🇪_德国_32
+  - 🇺🇸_美国_64
+  - 🇮🇷_伊朗_2
+  - 🇩🇪_德国_33
+  - 🇺🇸_美国_65
+  - 🇩🇪_德国_34
+  - 🇺🇸_美国_66
+  - 🇩🇪_德国_35
+  - 🇩🇪_德国_36
+  - 🇺🇸_美国_67
+  - 🇩🇪_德国_37
+  - 🇩🇪_德国_38
+  - 🇩🇪_德国_39
+  - 🇩🇪_德国_40
+  - 🇮🇷_伊朗_3
+  - 🇫🇷_法国_3
+  - 🇩🇪_德国_41
+  - 🇺🇸_美国_68
+  - 🇺🇸_美国_69
+  - 🇩🇪_德国_42
+  - 🇺🇸_美国_70
+  - 🇺🇸_美国_71
+  - 🇺🇸_美国_72
+  - 🇫🇷_法国_4
+  - 🇺🇸_美国_73
+  - 🇺🇸_美国_74
+  - 🏳️_未知_2
+  - 🇺🇸_美国_75
+  - 🇩🇪_德国_43
+  - 🇩🇪_德国_44
+  - 🇩🇪_德国_45
+  - 🇺🇸_美国_76
+  - 🇩🇪_德国_46
+  - 🇺🇸_美国_77
+  - 🇺🇸_美国_78
+  - 🇩🇪_德国_47
+  - 🇺🇸_美国_79
+  - 🇩🇪_德国_48
+  - 🇫🇷_法国_5
+  - 🇩🇪_德国_49
+  - 🇩🇪_德国_50
+  - 🇫🇷_法国_6
+  - 🇺🇸_美国_80
+  - 🇺🇸_美国_81
+  - 🇺🇸_美国_82
+  - 🇺🇸_美国_83
+  - 🇩🇪_德国_51
+  - 🇩🇪_德国_52
+  - 🇺🇸_美国_84
+  - 🇩🇪_德国_53
+  - 🇺🇸_美国_85
+  - 🇺🇸_美国_86
+  - 🇺🇸_美国_87
+  - 🇫🇷_法国_7
+  - 🇺🇸_美国_88
+  - 🇩🇪_德国_54
+  - 🇩🇪_德国_55
+  - 🇩🇪_德国_56
+  - 🇺🇸_美国_89
+  - 🇺🇸_美国_90
+  - 🇺🇸_美国_91
+  - 🇺🇸_美国_92
+  - 🇺🇸_美国_93
+  - 🇩🇪_德国_57
+  - 🇩🇪_德国_58
+  - 🇫🇷_法国_8
+  - 🇩🇪_德国_59
+  - 🇫🇷_法国_9
+  - 🇫🇷_法国_10
+  - 🇩🇪_德国_60
+  - 🇩🇪_德国_61
+  - 🇫🇷_法国_11
+  - 🇩🇪_德国_62
+  - 🇺🇸_美国_94
+  - 🇷🇺_俄罗斯_2
+  - 🇺🇸_美国_95
+  - 🇺🇸_美国_96
+  - 🇪🇸_西班牙_2
+  - 🇩🇪_德国_63
+  - 🇩🇪_德国_64
+  - 🇺🇸_美国_97
+  - 🇩🇪_德国_65
+  - 🇺🇸_美国_98
+  - 🇺🇸_美国_99
+  - 🇩🇪_德国_66
+  - 🇮🇷_伊朗_4
+  - 🇫🇮_芬兰
+  - 🇺🇸_美国_100
+  - 🇺🇸_美国_101
+  - 🇩🇪_德国_67
+  - 🇮🇷_伊朗_5
+  - 🇺🇸_美国_102
+  - 🇬🇧_英国_2
+  - 🇺🇸_美国_103
+  - 🇺🇸_美国_104
+  - 🇺🇸_美国_105
+  - 🇺🇸_美国_106
+  - 🇺🇸_美国_107
+  - 🇩🇪_德国_68
+  - 🇫🇷_法国_12
+  - 🇺🇸_美国_108
+  - 🇩🇪_德国_69
+  - 🇩🇪_德国_70
+  - 🇮🇷_伊朗_6
+  - 🇺🇸_美国_109
+  - 🇫🇷_法国_13
+  - 🇯🇵_日本_8
+  - 🇺🇸_美国_110
+  - 🇺🇸_美国_111
+  - 🇺🇸_美国_112
+  - 🇺🇸_美国_113
+  - 🇺🇸_美国_114
+  - 🏳️_未知_3
+  - 🇩🇪_德国_71
+  - 🇮🇷_伊朗_7
+  - 🇺🇸_美国_115
+  - 🇺🇸_美国_116
+  - 🇺🇸_美国_117
+  - 🇺🇸_美国_118
+  - 🇺🇸_美国_119
+  - 🇺🇸_美国_120
+  - 🇺🇸_美国_121
+  - 🇺🇸_美国_122
+  - 🇺🇸_美国_123
+  - 🇩🇪_德国_72
+  - 🇩🇪_德国_73
+  - 🇺🇸_美国_124
+  - 🇺🇸_美国_125
+  - 🇨🇳_中国_1
+  - 🇨🇳_中国_2
   type: select
 - name: 🎯 全球直连
   proxies:
@@ -1148,53 +4858,37 @@ proxy-groups:
   - ♻️ 自动选择
   - 电报群：https://t.me/vvkj11
   - 每天更新，请加电报群防止失联
-  - 日期：10-10
+  - 日期：10-11
   - 免费VPN：https://tt.vg/gwaAy
-  - 🇫🇷_法国_1
-  - 🇫🇷_法国_2
+  - 🇩🇪_德国_1
   - 🇺🇸_美国_1
-  - 🇺🇦_乌克兰
-  - 🇷🇺_俄罗斯_1
-  - 🇫🇷_法国_3
   - 🇺🇸_美国_2
-  - 🇷🇺_俄罗斯_2
-  - 🇷🇺_俄罗斯_3
-  - 🇷🇺_俄罗斯_4
   - 🇺🇸_美国_3
+  - 🇫🇷_法国_1
+  - 🇯🇵_日本_1
+  - 🇯🇵_日本_2
+  - 🇯🇵_日本_3
+  - 🇯🇵_日本_4
+  - 🇯🇵_日本_5
+  - 🇯🇵_日本_6
+  - 🇯🇵_日本_7
   - 🇺🇸_美国_4
   - 🇺🇸_美国_5
   - 🇺🇸_美国_6
   - 🇺🇸_美国_7
   - 🇺🇸_美国_8
   - 🇺🇸_美国_9
-  - 🇷🇺_俄罗斯_5
-  - 🇷🇺_俄罗斯_6
   - 🇺🇸_美国_10
-  - 🇩🇪_德国
   - 🇺🇸_美国_11
-  - 🇮🇷_伊朗_1
   - 🇺🇸_美国_12
   - 🇺🇸_美国_13
-  - 🇨🇳_中国_1
   - 🇺🇸_美国_14
-  - 🇨🇳_中国_2
-  - 🇨🇳_中国_3
-  - 🇨🇳_中国_4
   - 🇺🇸_美国_15
-  - 🇯🇵_日本_1
   - 🇺🇸_美国_16
-  - 🇯🇵_日本_2
-  - 🇸🇬_新加坡
   - 🇺🇸_美国_17
   - 🇺🇸_美国_18
-  - 🇬🇧_英国
-  - 🇨🇳_中国_5
   - 🇺🇸_美国_19
-  - 🇮🇷_伊朗_2
-  - 🇮🇷_伊朗_3
   - 🇺🇸_美国_20
-  - 🇮🇷_伊朗_4
-  - 🇫🇷_法国_4
   - 🇺🇸_美国_21
   - 🇺🇸_美国_22
   - 🇺🇸_美国_23
@@ -1202,14 +4896,210 @@ proxy-groups:
   - 🇺🇸_美国_25
   - 🇺🇸_美国_26
   - 🇺🇸_美国_27
-  - 🇨🇳_中国_6
+  - 🇸🇬_新加坡
   - 🇺🇸_美国_28
-  - 🇳🇱_荷兰_1
-  - 🇳🇱_荷兰_2
-  - 🇳🇱_荷兰_3
-  - 🇳🇱_荷兰_4
-  - 🇳🇱_荷兰_5
-  - 🇳🇱_荷兰_6
+  - 🇺🇸_美国_29
+  - 🇺🇸_美国_30
+  - 🇺🇸_美国_31
+  - 🇸🇮_斯洛文尼亚
+  - 🇺🇸_美国_32
+  - 🇬🇧_英国_1
+  - 🇺🇸_美国_33
+  - 🇺🇸_美国_34
+  - 🇺🇸_美国_35
+  - 🇪🇸_西班牙_1
+  - 🇺🇸_美国_36
+  - 🇺🇸_美国_37
+  - 🇺🇸_美国_38
+  - 🇺🇸_美国_39
+  - 🇺🇸_美国_40
+  - 🇩🇪_德国_2
+  - 🇺🇸_美国_41
+  - 🇩🇪_德国_3
+  - 🇫🇷_法国_2
+  - 🇺🇸_美国_42
+  - 🇺🇸_美国_43
+  - 🇩🇪_德国_4
+  - 🇺🇸_美国_44
+  - 🇺🇸_美国_45
+  - 🇩🇪_德国_5
+  - 🇩🇪_德国_6
+  - 🇺🇸_美国_46
+  - 🇺🇸_美国_47
+  - 🇷🇺_俄罗斯_1
+  - 🇺🇸_美国_48
+  - 🇺🇸_美国_49
+  - 🇩🇪_德国_7
+  - 🇩🇪_德国_8
+  - 🇺🇸_美国_50
+  - 🇩🇪_德国_9
+  - 🇺🇸_美国_51
+  - 🇺🇸_美国_52
+  - 🇺🇸_美国_53
+  - 🇩🇪_德国_10
+  - 🇩🇪_德国_11
+  - 🇺🇸_美国_54
+  - 🇺🇸_美国_55
+  - 🇩🇪_德国_12
+  - 🇩🇪_德国_13
+  - 🇩🇪_德国_14
+  - 🏳️_未知_1
+  - 🇺🇸_美国_56
+  - 🇩🇪_德国_15
+  - 🇩🇪_德国_16
+  - 🇺🇸_美国_57
+  - 🇩🇪_德国_17
+  - 🇩🇪_德国_18
+  - 🇩🇪_德国_19
+  - 🇩🇪_德国_20
+  - 🇺🇸_美国_58
+  - 🇩🇪_德国_21
+  - 🇩🇪_德国_22
+  - 🇺🇸_美国_59
+  - 🇺🇸_美国_60
+  - 🇺🇸_美国_61
+  - 🇩🇪_德国_23
+  - 🇩🇪_德国_24
+  - 🇩🇪_德国_25
+  - 🇩🇪_德国_26
+  - 🇩🇪_德国_27
+  - 🇺🇸_美国_62
+  - 🇩🇪_德国_28
+  - 🇺🇸_美国_63
+  - 🇮🇷_伊朗_1
+  - 🇩🇪_德国_29
+  - 🇩🇪_德国_30
+  - 🇩🇪_德国_31
+  - 🇩🇪_德国_32
+  - 🇺🇸_美国_64
+  - 🇮🇷_伊朗_2
+  - 🇩🇪_德国_33
+  - 🇺🇸_美国_65
+  - 🇩🇪_德国_34
+  - 🇺🇸_美国_66
+  - 🇩🇪_德国_35
+  - 🇩🇪_德国_36
+  - 🇺🇸_美国_67
+  - 🇩🇪_德国_37
+  - 🇩🇪_德国_38
+  - 🇩🇪_德国_39
+  - 🇩🇪_德国_40
+  - 🇮🇷_伊朗_3
+  - 🇫🇷_法国_3
+  - 🇩🇪_德国_41
+  - 🇺🇸_美国_68
+  - 🇺🇸_美国_69
+  - 🇩🇪_德国_42
+  - 🇺🇸_美国_70
+  - 🇺🇸_美国_71
+  - 🇺🇸_美国_72
+  - 🇫🇷_法国_4
+  - 🇺🇸_美国_73
+  - 🇺🇸_美国_74
+  - 🏳️_未知_2
+  - 🇺🇸_美国_75
+  - 🇩🇪_德国_43
+  - 🇩🇪_德国_44
+  - 🇩🇪_德国_45
+  - 🇺🇸_美国_76
+  - 🇩🇪_德国_46
+  - 🇺🇸_美国_77
+  - 🇺🇸_美国_78
+  - 🇩🇪_德国_47
+  - 🇺🇸_美国_79
+  - 🇩🇪_德国_48
+  - 🇫🇷_法国_5
+  - 🇩🇪_德国_49
+  - 🇩🇪_德国_50
+  - 🇫🇷_法国_6
+  - 🇺🇸_美国_80
+  - 🇺🇸_美国_81
+  - 🇺🇸_美国_82
+  - 🇺🇸_美国_83
+  - 🇩🇪_德国_51
+  - 🇩🇪_德国_52
+  - 🇺🇸_美国_84
+  - 🇩🇪_德国_53
+  - 🇺🇸_美国_85
+  - 🇺🇸_美国_86
+  - 🇺🇸_美国_87
+  - 🇫🇷_法国_7
+  - 🇺🇸_美国_88
+  - 🇩🇪_德国_54
+  - 🇩🇪_德国_55
+  - 🇩🇪_德国_56
+  - 🇺🇸_美国_89
+  - 🇺🇸_美国_90
+  - 🇺🇸_美国_91
+  - 🇺🇸_美国_92
+  - 🇺🇸_美国_93
+  - 🇩🇪_德国_57
+  - 🇩🇪_德国_58
+  - 🇫🇷_法国_8
+  - 🇩🇪_德国_59
+  - 🇫🇷_法国_9
+  - 🇫🇷_法国_10
+  - 🇩🇪_德国_60
+  - 🇩🇪_德国_61
+  - 🇫🇷_法国_11
+  - 🇩🇪_德国_62
+  - 🇺🇸_美国_94
+  - 🇷🇺_俄罗斯_2
+  - 🇺🇸_美国_95
+  - 🇺🇸_美国_96
+  - 🇪🇸_西班牙_2
+  - 🇩🇪_德国_63
+  - 🇩🇪_德国_64
+  - 🇺🇸_美国_97
+  - 🇩🇪_德国_65
+  - 🇺🇸_美国_98
+  - 🇺🇸_美国_99
+  - 🇩🇪_德国_66
+  - 🇮🇷_伊朗_4
+  - 🇫🇮_芬兰
+  - 🇺🇸_美国_100
+  - 🇺🇸_美国_101
+  - 🇩🇪_德国_67
+  - 🇮🇷_伊朗_5
+  - 🇺🇸_美国_102
+  - 🇬🇧_英国_2
+  - 🇺🇸_美国_103
+  - 🇺🇸_美国_104
+  - 🇺🇸_美国_105
+  - 🇺🇸_美国_106
+  - 🇺🇸_美国_107
+  - 🇩🇪_德国_68
+  - 🇫🇷_法国_12
+  - 🇺🇸_美国_108
+  - 🇩🇪_德国_69
+  - 🇩🇪_德国_70
+  - 🇮🇷_伊朗_6
+  - 🇺🇸_美国_109
+  - 🇫🇷_法国_13
+  - 🇯🇵_日本_8
+  - 🇺🇸_美国_110
+  - 🇺🇸_美国_111
+  - 🇺🇸_美国_112
+  - 🇺🇸_美国_113
+  - 🇺🇸_美国_114
+  - 🏳️_未知_3
+  - 🇩🇪_德国_71
+  - 🇮🇷_伊朗_7
+  - 🇺🇸_美国_115
+  - 🇺🇸_美国_116
+  - 🇺🇸_美国_117
+  - 🇺🇸_美国_118
+  - 🇺🇸_美国_119
+  - 🇺🇸_美国_120
+  - 🇺🇸_美国_121
+  - 🇺🇸_美国_122
+  - 🇺🇸_美国_123
+  - 🇩🇪_德国_72
+  - 🇩🇪_德国_73
+  - 🇺🇸_美国_124
+  - 🇺🇸_美国_125
+  - 🇨🇳_中国_1
+  - 🇨🇳_中国_2
   type: select
 rules:
 - DOMAIN-SUFFIX,acl4.ssr,🎯 全球直连
