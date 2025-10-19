@@ -6,23 +6,50 @@ port: 7890
 proxies:
 - name: 电报群：https://t.me/vvkj11
   network: tcp
-  port: 46822
-  server: 89.44.242.222
+  port: 25670
+  server: 18.193.86.253
   skip-cert-verify: true
   tls: false
   type: vless
   udp: true
-  uuid: 44aded6c-a012-452b-8e13-04d5f15a659f
+  uuid: 08cb0591-5193-4a0c-9105-ceb09fba67fe
 - name: 每天更新，请加电报群防止失联
   network: tcp
-  port: 10200
-  server: 157.180.123.212
+  port: 25670
+  server: 3.75.85.54
   skip-cert-verify: true
   tls: false
   type: vless
   udp: true
-  uuid: 026c61c2-4969-479a-9046-539af105ff4a
-- name: 日期：10-17
+  uuid: 08cb0591-5193-4a0c-9105-ceb09fba67fe
+- name: 日期：10-18
+  network: tcp
+  password: telegram-id-privatevpns
+  port: 22222
+  server: 63.178.172.63
+  skip-cert-verify: true
+  sni: trojan.burgerip.co.uk
+  type: trojan
+  udp: true
+- name: 免费VPN：https://tt.vg/gwaAy
+  network: tcp
+  port: 25670
+  server: 3.67.225.188
+  skip-cert-verify: true
+  tls: false
+  type: vless
+  udp: true
+  uuid: 08cb0591-5193-4a0c-9105-ceb09fba67fe
+- name: 🇫🇷_法国_1
+  network: tcp
+  password: telegram-id-privatevpns
+  port: 22222
+  server: 52.47.52.84
+  skip-cert-verify: true
+  sni: trojan.burgerip.co.uk
+  type: trojan
+  udp: true
+- name: 🇸🇦_沙特阿拉伯_1
   network: tcp
   port: 666
   server: 213.165.56.19
@@ -31,14 +58,131 @@ proxies:
   type: vless
   udp: true
   uuid: 13e824c8-46a7-458a-b9d5-24ab4058acae
-- alterId: '0'
-  cipher: auto
-  name: 免费VPN：https://tt.vg/gwaAy
+- flow: xtls-rprx-vision
+  name: 🇫🇷_法国_2
   network: tcp
-  port: '10100'
-  server: 157.180.123.212
-  type: vmess
-  uuid: 14fd5c56-2d55-44a5-9876-6ce27d3aec44
+  port: 22008
+  server: 212.129.5.242
+  servername: www.yahoo.com
+  skip-cert-verify: true
+  tls: false
+  type: vless
+  udp: true
+  uuid: 77a33d77-7af9-4c33-9556-d6711becca04
+- name: 🇸🇦_沙特阿拉伯_2
+  network: tcp
+  port: 666
+  server: 213.165.56.19
+  skip-cert-verify: true
+  tls: false
+  type: vless
+  udp: true
+  uuid: 13e824c8-46a7-458a-b9d5-24ab4058acae
+- flow: xtls-rprx-vision
+  name: 🇷🇺_俄罗斯_1
+  network: tcp
+  port: 443
+  server: 185.39.207.121
+  servername: vk.cc
+  skip-cert-verify: true
+  tls: false
+  type: vless
+  udp: true
+  uuid: 677615f7-87d5-5019-a44d-4fc3ff8d59d7
+- flow: xtls-rprx-vision
+  name: 🇨🇭_瑞士_1
+  network: tcp
+  port: 443
+  server: 212.18.104.19
+  servername: vk.cc
+  skip-cert-verify: true
+  tls: false
+  type: vless
+  udp: true
+  uuid: 677615f7-87d5-5019-a44d-4fc3ff8d59d7
+- flow: xtls-rprx-vision
+  name: 🇨🇭_瑞士_2
+  network: tcp
+  port: 443
+  server: 212.18.104.19
+  servername: nspk.ru
+  skip-cert-verify: true
+  tls: false
+  type: vless
+  udp: true
+  uuid: 677615f7-87d5-5019-a44d-4fc3ff8d59d7
+- flow: xtls-rprx-vision
+  name: 🇫🇷_法国_3
+  network: tcp
+  port: 443
+  server: 178.20.215.2
+  servername: speed.cloudflare.com
+  skip-cert-verify: true
+  tls: false
+  type: vless
+  udp: true
+  uuid: 192ea2c7-d7d0-6676-2929-b04a072b387d
+- flow: xtls-rprx-vision
+  name: 🇷🇺_俄罗斯_2
+  network: tcp
+  port: 443
+  server: 109.172.54.49
+  servername: vk.cc
+  skip-cert-verify: true
+  tls: false
+  type: vless
+  udp: true
+  uuid: 677615f7-87d5-5019-a44d-4fc3ff8d59d7
+- flow: xtls-rprx-vision
+  name: 🇷🇺_俄罗斯_3
+  network: tcp
+  port: 443
+  server: 81.19.140.131
+  servername: vk.cc
+  skip-cert-verify: true
+  tls: false
+  type: vless
+  udp: true
+  uuid: 677615f7-87d5-5019-a44d-4fc3ff8d59d7
+- name: 🇺🇸_美国_1
+  network: tcp
+  port: 80
+  server: mci.dl101movis.ir
+  skip-cert-verify: true
+  tls: false
+  type: vless
+  udp: true
+  uuid: 117ca567-3180-4d62-abcc-8fc0104c93ff
+- flow: xtls-rprx-vision
+  name: 🇷🇺_俄罗斯_4
+  network: tcp
+  port: 443
+  server: 185.39.204.70
+  servername: nspk.ru
+  skip-cert-verify: true
+  tls: false
+  type: vless
+  udp: true
+  uuid: 677615f7-87d5-5019-a44d-4fc3ff8d59d7
+- name: 🇯🇵_日本_1
+  network: tcp
+  port: 443
+  server: 160.187.111.222
+  servername: images-na.ssl-images-amazon.com
+  skip-cert-verify: true
+  tls: false
+  type: vless
+  udp: true
+  uuid: 3e7f67de-648e-4871-b51a-a225214d41ee
+- name: 🇺🇸_美国_2
+  network: tcp
+  port: 25670
+  server: 3.75.85.54
+  skip-cert-verify: true
+  tls: false
+  type: vless
+  udp: true
+  uuid: 08cb0591-5193-4a0c-9105-ceb09fba67fe
 - name: 🇨🇳_中国_1
   network: tcp
   port: 46822
@@ -48,90 +192,404 @@ proxies:
   type: vless
   udp: true
   uuid: 44aded6c-a012-452b-8e13-04d5f15a659f
-- name: 🇺🇸_美国_1
-  network: ws
-  port: 443
-  server: 38.180.94.205
-  servername: gaosir.unfeeling.sbs
+- name: 🇺🇸_美国_3
+  network: tcp
+  port: 25670
+  server: 3.75.85.54
   skip-cert-verify: true
-  tls: true
+  tls: false
   type: vless
   udp: true
-  uuid: f61a4285-7264-4d07-9408-7b9ba1922c26
-  ws-opts:
-    headers:
-      host: gaosir.unfeeling.sbs
-    path: telegram@freecodes/?ed=2560
+  uuid: 08cb0591-5193-4a0c-9105-ceb09fba67fe
+- name: 🇺🇸_美国_4
+  network: tcp
+  port: 25670
+  server: 3.67.225.188
+  skip-cert-verify: true
+  tls: false
+  type: vless
+  udp: true
+  uuid: 08cb0591-5193-4a0c-9105-ceb09fba67fe
 - name: 🇨🇳_中国_2
-  network: ws
-  port: 7000
-  server: 216.250.97.62
-  servername: gaosir.unfeeling.sbs
+  network: tcp
+  port: 46822
+  server: 89.44.242.222
   skip-cert-verify: true
-  tls: true
+  tls: false
   type: vless
   udp: true
-  uuid: f61a4285-7264-4d07-9408-7b9ba1922c26
+  uuid: 44aded6c-a012-452b-8e13-04d5f15a659f
+- name: 🇩🇪_德国_1
+  network: tcp
+  port: 25670
+  server: 18.193.86.253
+  skip-cert-verify: true
+  tls: false
+  type: vless
+  udp: true
+  uuid: 08cb0591-5193-4a0c-9105-ceb09fba67fe
+- name: 🇩🇪_德国_2
+  network: tcp
+  port: 25670
+  server: 18.193.86.253
+  skip-cert-verify: true
+  tls: false
+  type: vless
+  udp: true
+  uuid: 08cb0591-5193-4a0c-9105-ceb09fba67fe
+- name: 🇺🇸_美国_5
+  network: tcp
+  port: 2002
+  server: 31.40.204.182
+  skip-cert-verify: true
+  tls: false
+  type: vless
+  udp: true
+  uuid: 9ec86e00-22c6-4838-8e8e-1cf6f2a9ec4f
+- name: 🇨🇳_中国_3
+  network: tcp
+  port: 29500
+  server: 89.44.242.222
+  skip-cert-verify: true
+  tls: false
+  type: vless
+  udp: true
+  uuid: 888a20e2-fc3f-4f52-973c-36a6386225b8
+- alterId: '0'
+  cipher: auto
+  name: 🇺🇸_美国_6
+  network: ws
+  port: '29584'
+  server: 104.250.239.32
+  tls: true
+  type: vmess
+  uuid: 2bf4d922-aefb-4c98-9926-cd4def6751a0
   ws-opts:
     headers:
-      host: gaosir.unfeeling.sbs
-    path: /x@节点狂魔/
-- name: 🇺🇸_美国_2
+      host: real.getafreenode.sbs
+    path: /speedtest
+- alterId: '0'
+  cipher: auto
+  name: 🇫🇷_法国_4
+  network: ws
+  port: '44579'
+  server: 2001:bc8:32d7:302::10
+  type: vmess
+  uuid: 8e34e170-13ae-4892-9d20-05962acc9f84
+  ws-opts:
+    path: /
+- alterId: '0'
+  cipher: auto
+  name: 🇫🇷_法国_5
+  network: ws
+  port: '44579'
+  server: 2001:bc8:32d7:302::10
+  type: vmess
+  uuid: 8e34e170-13ae-4892-9d20-05962acc9f84
+  ws-opts:
+    path: /?ed=2048HiByeVPNN--HiByeVPNN--HiByeVPNN--HiByeVPNN--HiByeVPNN--HiByeVPNN--HiByeVPNN--HiByeVPNN--HiByeVPNN--HiByeVPNN--HiByeVPNN--HiByeVPNN--HiByeVPNN
+- alterId: '0'
+  cipher: auto
+  name: 🇫🇷_法国_6
+  network: ws
+  port: '44579'
+  server: 2001:bc8:32d7:302::10
+  type: vmess
+  uuid: 8e34e170-13ae-4892-9d20-05962acc9f84
+  ws-opts:
+    path: /
+- alterId: '0'
+  cipher: auto
+  name: 🇫🇷_法国_7
+  network: ws
+  port: '33200'
+  server: 2001:bc8:32d7:30b::201
+  type: vmess
+  uuid: 82dc5319-662c-4ca5-8e82-69744d2300c1
+  ws-opts:
+    headers:
+      host: www.bing.com
+    path: /github.com/Alvin9999
+- alterId: '0'
+  cipher: auto
+  name: 🇫🇷_法国_8
+  network: ws
+  port: '443'
+  server: '2001:41d0:70e:c100::'
+  tls: true
+  type: vmess
+  uuid: 03fcc618-b93d-6796-6aed-8a38c975d581
+  ws-opts:
+    headers:
+      host: serkat.org
+    path: /linkvws
+- alterId: '0'
+  cipher: auto
+  name: 🇺🇦_乌克兰
+  network: ws
+  port: '29196'
+  server: 185.126.255.78
+  tls: true
+  type: vmess
+  uuid: 2bf4d922-aefb-4c98-9926-cd4def6751a0
+  ws-opts:
+    headers:
+      host: real.getafreenode.sbs
+    path: /speedtest
+- name: 🇺🇸_美国_7
   network: ws
   port: 443
-  server: 18.167.172.112
-  servername: gaosir.unfeeling.sbs
+  server: join-raiv2mmr-telegram.koyeb.app
   skip-cert-verify: true
   tls: true
   type: vless
   udp: true
-  uuid: f61a4285-7264-4d07-9408-7b9ba1922c26
+  uuid: 5c9b6087-f955-4506-9c1d-67a5aae44bc9
   ws-opts:
-    headers:
-      host: gaosir.unfeeling.sbs
-    path: telegram@freecodes/?ed=2560
-- name: 🇦🇺_澳大利亚_1
+    path: /@raiv2mmr-@raiv2mmr-@raiv2mmr-@raiv2mmr-@raiv2mmr-@raiv2mmr-@raiv2mmr-@raiv2mmr-@raiv2mmr-@raiv2mmr-@raiv2mmr-@raiv2mmr-@raiv2mmr-@raiv2mmr-@raiv2mmr-@raiv2mmr-@raiv2mmr-@raiv2mmr-@raiv2mmr
+- name: 🇺🇸_美国_8
   network: ws
-  port: 21415
-  server: 43.132.244.52
-  servername: gaosir.unfeeling.sbs
+  port: 443
+  server: join-raiv2mmr-telegram.koyeb.app
+  servername: JOIN-RAIV2MMR-TELEGRAM.koyeb.app
   skip-cert-verify: true
   tls: true
   type: vless
   udp: true
-  uuid: f61a4285-7264-4d07-9408-7b9ba1922c26
+  uuid: 5c9b6087-f955-4506-9c1d-67a5aae44bc9
   ws-opts:
     headers:
-      host: gaosir.unfeeling.sbs
-    path: telegram@freecodes/?ed=2560
-- name: 🇦🇺_澳大利亚_2
+      host: JOIN-RAIV2MMR-TELEGRAM.koyeb.app
+    path: /@raiv2mmr-@raiv2mmr-@raiv2mmr-@raiv2mmr-@raiv2mmr-@raiv2mmr-@raiv2mmr-@raiv2mmr-@raiv2mmr-@raiv2mmr-@raiv2mmr-@raiv2mmr-@raiv2mmr-@raiv2mmr-@raiv2mmr-@raiv2mmr-@raiv2mmr-@raiv2mmr-@raiv2mmr
+- name: 🇺🇸_美国_9
   network: ws
-  port: 26666
-  server: 43.154.124.136
-  servername: gaosir.unfeeling.sbs
+  port: 443
+  server: join-raiv2mmr-telegram.koyeb.app
+  servername: JOIN-RAIV2MMR-TELEGRAM.koyeb.app
   skip-cert-verify: true
   tls: true
   type: vless
   udp: true
-  uuid: f61a4285-7264-4d07-9408-7b9ba1922c26
+  uuid: 5c9b6087-f955-4506-9c1d-67a5aae44bc9
   ws-opts:
     headers:
-      host: gaosir.unfeeling.sbs
-    path: telegram@freecodes/?ed=2560
-- name: 🇨🇳_中国_3
+      host: JOIN-RAIV2MMR-TELEGRAM.koyeb.app
+    path: /@raiv2mmr-@raiv2mmr-@raiv2mmr-@raiv2mmr-@raiv2mmr-@raiv2mmr-@raiv2mmr-@raiv2mmr-@raiv2mmr-@raiv2mmr-@raiv2mmr-@raiv2mmr-@raiv2mmr-@raiv2mmr-@raiv2mmr-@raiv2mmr-@raiv2mmr-@raiv2mmr-@raiv2mmr
+- name: 🇺🇸_美国_10
   network: ws
-  port: 41528
-  server: 8.218.245.116
-  servername: gaosir.unfeeling.sbs
+  port: 443
+  server: join-raiv2mmr-telegram.koyeb.app
+  servername: join-raiv2mmr-telegram.koyeb.app
   skip-cert-verify: true
   tls: true
   type: vless
   udp: true
-  uuid: f61a4285-7264-4d07-9408-7b9ba1922c26
+  uuid: 5c9b6087-f955-4506-9c1d-67a5aae44bc9
   ws-opts:
     headers:
-      host: gaosir.unfeeling.sbs
-    path: x@节点狂魔/?ed=2560
+      host: join-raiv2mmr-telegram.koyeb.app
+    path: /@raiv2mmr-@raiv2mmr-@raiv2mmr-@raiv2mmr-@raiv2mmr-@raiv2mmr-@raiv2mmr-@raiv2mmr-@raiv2mmr-@raiv2mmr-@raiv2mmr-@raiv2mmr-@raiv2mmr-@raiv2mmr-@raiv2mmr-@raiv2mmr-@raiv2mmr-@raiv2mmr-@raiv2mmr
+- name: 🇺🇸_美国_11
+  network: ws
+  port: 443
+  server: join-raiv2mmr-telegram.koyeb.app
+  servername: JOIN-RAIV2MMR-TELEGRAM.koyeb.app
+  skip-cert-verify: true
+  tls: true
+  type: vless
+  udp: true
+  uuid: 5c9b6087-f955-4506-9c1d-67a5aae44bc9
+  ws-opts:
+    headers:
+      host: JOIN-RAIV2MMR-TELEGRAM.koyeb.app
+    path: /@raiv2mmr-@raiv2mmr-@raiv2mmr-@raiv2mmr-@raiv2mmr-@raiv2mmr-@raiv2mmr-@raiv2mmr-@raiv2mmr-@raiv2mmr-@raiv2mmr-@raiv2mmr-@raiv2mmr-@raiv2mmr-@raiv2mmr-@raiv2mmr-@raiv2mmr-@raiv2mmr-@raiv2mmr
+- name: 🇺🇸_美国_12
+  network: ws
+  port: 443
+  server: join-raiv2mmr-telegram.koyeb.app
+  skip-cert-verify: true
+  tls: true
+  type: vless
+  udp: true
+  uuid: 5c9b6087-f955-4506-9c1d-67a5aae44bc9
+  ws-opts:
+    path: /@raiv2mmr-@raiv2mmr-@raiv2mmr-@raiv2mmr-@raiv2mmr-@raiv2mmr-@raiv2mmr-@raiv2mmr-@raiv2mmr-@raiv2mmr-@raiv2mmr-@raiv2mmr-@raiv2mmr-@raiv2mmr-@raiv2mmr-@raiv2mmr-@raiv2mmr-@raiv2mmr-@raiv2mmr
+- name: 🇺🇸_美国_13
+  network: ws
+  port: 443
+  server: join-raiv2mmr-telegram.koyeb.app
+  servername: join-raiv2mmr-telegram.koyeb.app
+  skip-cert-verify: true
+  tls: true
+  type: vless
+  udp: true
+  uuid: 5c9b6087-f955-4506-9c1d-67a5aae44bc9
+  ws-opts:
+    headers:
+      host: join-raiv2mmr-telegram.koyeb.app
+    path: /@raiv2mmr-@raiv2mmr-@raiv2mmr-@raiv2mmr-@raiv2mmr-@raiv2mmr-@raiv2mmr-@raiv2mmr-@raiv2mmr-@raiv2mmr-@raiv2mmr-@raiv2mmr-@raiv2mmr-@raiv2mmr-@raiv2mmr-@raiv2mmr-@raiv2mmr-@raiv2mmr-@raiv2mmr
+- name: 🇺🇸_美国_14
+  network: ws
+  port: 443
+  server: join-raiv2mmr-telegram.koyeb.app
+  servername: JOIN-RAIV2MMR-TELEGRAM.koyeb.app
+  skip-cert-verify: true
+  tls: true
+  type: vless
+  udp: true
+  uuid: 5c9b6087-f955-4506-9c1d-67a5aae44bc9
+  ws-opts:
+    headers:
+      host: JOIN-RAIV2MMR-TELEGRAM.koyeb.app
+    path: /@raiv2mmr-@raiv2mmr-@raiv2mmr-@raiv2mmr-@raiv2mmr-@raiv2mmr-@raiv2mmr-@raiv2mmr-@raiv2mmr-@raiv2mmr-@raiv2mmr-@raiv2mmr-@raiv2mmr-@raiv2mmr-@raiv2mmr-@raiv2mmr-@raiv2mmr-@raiv2mmr-@raiv2mmr
+- name: 🇺🇸_美国_15
+  network: ws
+  port: 443
+  server: 104.20.31.27
+  servername: JOIN-RAIV2MMR-TELEGRAM.koyeb.app
+  skip-cert-verify: true
+  tls: true
+  type: vless
+  udp: true
+  uuid: 5c9b6087-f955-4506-9c1d-67a5aae44bc9
+  ws-opts:
+    headers:
+      host: JOIN-RAIV2MMR-TELEGRAM.koyeb.app
+    path: /@raiv2mmr-@raiv2mmr-@raiv2mmr-@raiv2mmr-@raiv2mmr-@raiv2mmr-@raiv2mmr-@raiv2mmr-@raiv2mmr-@raiv2mmr-@raiv2mmr-@raiv2mmr-@raiv2mmr-@raiv2mmr-@raiv2mmr-@raiv2mmr-@raiv2mmr-@raiv2mmr-@raiv2mmr
+- name: 🇺🇸_美国_16
+  network: ws
+  port: 443
+  server: join-raiv2mmr-telegram.koyeb.app
+  servername: JOIN-RAIV2MMR-TELEGRAM.koyeb.app
+  skip-cert-verify: true
+  tls: true
+  type: vless
+  udp: true
+  uuid: 5c9b6087-f955-4506-9c1d-67a5aae44bc9
+  ws-opts:
+    headers:
+      host: JOIN-RAIV2MMR-TELEGRAM.koyeb.app
+    path: /@raiv2mmr-@raiv2mmr-@raiv2mmr-@raiv2mmr-@raiv2mmr-@raiv2mmr-@raiv2mmr-@raiv2mmr-@raiv2mmr-@raiv2mmr-@raiv2mmr-@raiv2mmr-@raiv2mmr-@raiv2mmr-@raiv2mmr-@raiv2mmr-@raiv2mmr-@raiv2mmr-@raiv2mmr
+- name: 🇺🇸_美国_17
+  network: ws
+  port: 443
+  server: join-raiv2mmr-telegram.koyeb.app
+  servername: JOIN-RAIV2MMR-TELEGRAM.koyeb.app
+  skip-cert-verify: true
+  tls: true
+  type: vless
+  udp: true
+  uuid: 5c9b6087-f955-4506-9c1d-67a5aae44bc9
+  ws-opts:
+    headers:
+      host: JOIN-RAIV2MMR-TELEGRAM.koyeb.app
+    path: /@raiv2mmr-@raiv2mmr-@raiv2mmr-@raiv2mmr-@raiv2mmr-@raiv2mmr-@raiv2mmr-@raiv2mmr-@raiv2mmr-@raiv2mmr-@raiv2mmr-@raiv2mmr-@raiv2mmr-@raiv2mmr-@raiv2mmr-@raiv2mmr-@raiv2mmr-@raiv2mmr-@raiv2mmr
+- name: 🇺🇸_美国_18
+  network: ws
+  port: 443
+  server: join-raiv2mmr-telegram.koyeb.app
+  skip-cert-verify: true
+  tls: true
+  type: vless
+  udp: true
+  uuid: 5c9b6087-f955-4506-9c1d-67a5aae44bc9
+  ws-opts:
+    path: /@raiv2mmr-@raiv2mmr-@raiv2mmr-@raiv2mmr-@raiv2mmr-@raiv2mmr-@raiv2mmr-@raiv2mmr-@raiv2mmr-@raiv2mmr-@raiv2mmr-@raiv2mmr-@raiv2mmr-@raiv2mmr-@raiv2mmr-@raiv2mmr-@raiv2mmr-@raiv2mmr-@raiv2mmr
+- name: 🇺🇸_美国_19
+  network: ws
+  port: 443
+  server: join-raiv2mmr-telegram.koyeb.app
+  servername: join-raiv2mmr-telegram.koyeb.app
+  skip-cert-verify: true
+  tls: true
+  type: vless
+  udp: true
+  uuid: 5c9b6087-f955-4506-9c1d-67a5aae44bc9
+  ws-opts:
+    headers:
+      host: join-raiv2mmr-telegram.koyeb.app
+    path: /@raiv2mmr-@raiv2mmr-@raiv2mmr-@raiv2mmr-@raiv2mmr-@raiv2mmr-@raiv2mmr-@raiv2mmr-@raiv2mmr-@raiv2mmr-@raiv2mmr-@raiv2mmr-@raiv2mmr-@raiv2mmr-@raiv2mmr-@raiv2mmr-@raiv2mmr-@raiv2mmr-@raiv2mmr
+- name: 🇺🇸_美国_20
+  network: ws
+  port: 443
+  server: join-raiv2mmr-telegram.koyeb.app
+  servername: JOIN-RAIV2MMR-TELEGRAM.koyeb.app
+  skip-cert-verify: true
+  tls: true
+  type: vless
+  udp: true
+  uuid: 5c9b6087-f955-4506-9c1d-67a5aae44bc9
+  ws-opts:
+    headers:
+      host: JOIN-RAIV2MMR-TELEGRAM.koyeb.app
+    path: /@raiv2mmr-@raiv2mmr-@raiv2mmr-@raiv2mmr-@raiv2mmr-@raiv2mmr-@raiv2mmr-@raiv2mmr-@raiv2mmr-@raiv2mmr-@raiv2mmr-@raiv2mmr-@raiv2mmr-@raiv2mmr-@raiv2mmr-@raiv2mmr-@raiv2mmr-@raiv2mmr-@raiv2mmr
+- name: 🇺🇸_美国_21
+  network: ws
+  port: 443
+  server: join-raiv2mmr-telegram.koyeb.app
+  skip-cert-verify: true
+  tls: true
+  type: vless
+  udp: true
+  uuid: 5c9b6087-f955-4506-9c1d-67a5aae44bc9
+  ws-opts:
+    path: /@raiv2mmr-@raiv2mmr-@raiv2mmr-@raiv2mmr-@raiv2mmr-@raiv2mmr-@raiv2mmr-@raiv2mmr-@raiv2mmr-@raiv2mmr-@raiv2mmr-@raiv2mmr-@raiv2mmr-@raiv2mmr-@raiv2mmr-@raiv2mmr-@raiv2mmr-@raiv2mmr-@raiv2mmr
+- name: 🇺🇸_美国_22
+  network: ws
+  port: 443
+  server: join-raiv2mmr-telegram.koyeb.app
+  servername: JOIN-RAIV2MMR-TELEGRAM.koyeb.app
+  skip-cert-verify: true
+  tls: true
+  type: vless
+  udp: true
+  uuid: 5c9b6087-f955-4506-9c1d-67a5aae44bc9
+  ws-opts:
+    headers:
+      host: JOIN-RAIV2MMR-TELEGRAM.koyeb.app
+    path: /@raiv2mmr-@raiv2mmr-@raiv2mmr-@raiv2mmr-@raiv2mmr-@raiv2mmr-@raiv2mmr-@raiv2mmr-@raiv2mmr-@raiv2mmr-@raiv2mmr-@raiv2mmr-@raiv2mmr-@raiv2mmr-@raiv2mmr-@raiv2mmr-@raiv2mmr-@raiv2mmr-@raiv2mmr
+- name: 🇺🇸_美国_23
+  network: ws
+  port: 443
+  server: join-raiv2mmr-telegram.koyeb.app
+  servername: JOIN-RAIV2MMR-TELEGRAM.koyeb.app
+  skip-cert-verify: true
+  tls: true
+  type: vless
+  udp: true
+  uuid: 5c9b6087-f955-4506-9c1d-67a5aae44bc9
+  ws-opts:
+    headers:
+      host: JOIN-RAIV2MMR-TELEGRAM.koyeb.app
+    path: /@raiv2mmr-@raiv2mmr-@raiv2mmr-@raiv2mmr-@raiv2mmr-@raiv2mmr-@raiv2mmr-@raiv2mmr-@raiv2mmr-@raiv2mmr-@raiv2mmr-@raiv2mmr-@raiv2mmr-@raiv2mmr-@raiv2mmr-@raiv2mmr-@raiv2mmr-@raiv2mmr-@raiv2mmr
+- name: 🇺🇸_美国_24
+  network: ws
+  port: 443
+  server: join-raiv2mmr-telegram.koyeb.app
+  servername: join-raiv2mmr-telegram.koyeb.app
+  skip-cert-verify: true
+  tls: true
+  type: vless
+  udp: true
+  uuid: 5c9b6087-f955-4506-9c1d-67a5aae44bc9
+  ws-opts:
+    headers:
+      host: join-raiv2mmr-telegram.koyeb.app
+    path: /@raiv2mmr-@raiv2mmr-@raiv2mmr-@raiv2mmr-@raiv2mmr-@raiv2mmr-@raiv2mmr-@raiv2mmr-@raiv2mmr-@raiv2mmr-@raiv2mmr-@raiv2mmr-@raiv2mmr-@raiv2mmr-@raiv2mmr-@raiv2mmr-@raiv2mmr-@raiv2mmr-@raiv2mmr
+- name: 🇺🇸_美国_25
+  network: ws
+  port: 8880
+  server: 104.17.147.22
+  servername: Fi.Parsashonam.CfD.
+  skip-cert-verify: true
+  tls: true
+  type: vless
+  udp: true
+  uuid: Parsashonam-Bot-31
+  ws-opts:
+    headers:
+      host: Fi.Parsashonam.CfD.
+    path: /parsashonam-parsashonam-parsashonam-parsashonam-parsashonam-parsashonam-parsashonam-parsashonam-parsashonam-parsashonam-parsashonam-parsashonam-parsashonam-parsashonam-parsashonam-parsashonam?ed=2056
 - name: 🇨🇳_中国_4
   network: ws
   port: 37021
@@ -146,24 +604,10 @@ proxies:
     headers:
       host: gaosir.unfeeling.sbs
     path: x @节点狂魔 /?ed=2560
-- name: 🇺🇸_美国_3
+- name: 🇨🇳_中国_5
   network: ws
-  port: 2095
-  server: www.wto.org
-  servername: freedom.pusytroller.cf
-  skip-cert-verify: true
-  tls: true
-  type: vless
-  udp: true
-  uuid: 86c50e3a-5b87-49dd-bd20-03c7f2735e40
-  ws-opts:
-    headers:
-      host: freedom.pusytroller.cf
-    path: /
-- name: 🇺🇸_美国_4
-  network: ws
-  port: 443
-  server: 38.180.94.97
+  port: 35951
+  server: 36.50.90.241
   servername: gaosir.unfeeling.sbs
   skip-cert-verify: true
   tls: true
@@ -173,25 +617,11 @@ proxies:
   ws-opts:
     headers:
       host: gaosir.unfeeling.sbs
-    path: /x @节点狂魔 /
-- name: 🇸🇬_新加坡_1
+    path: x@节点狂魔/?ed=2560
+- name: 🇦🇺_澳大利亚_1
   network: ws
-  port: 443
-  server: 128.199.134.152
-  servername: gaosir.unfeeling.sbs
-  skip-cert-verify: true
-  tls: true
-  type: vless
-  udp: true
-  uuid: f61a4285-7264-4d07-9408-7b9ba1922c26
-  ws-opts:
-    headers:
-      host: gaosir.unfeeling.sbs
-    path: telegram@freecodes/?ed=2560
-- name: 🇺🇸_美国_5
-  network: ws
-  port: 443
-  server: 47.79.91.168
+  port: 65121
+  server: 43.154.196.20
   servername: gaosir.unfeeling.sbs
   skip-cert-verify: true
   tls: true
@@ -202,10 +632,24 @@ proxies:
     headers:
       host: gaosir.unfeeling.sbs
     path: x @节点狂魔 /?ed=2560
-- name: 🇸🇬_新加坡_2
+- name: 🇫🇷_法国_9
+  network: ws
+  port: 8080
+  server: 141.11.78.77
+  servername: gaosir.unfeeling.sbs
+  skip-cert-verify: true
+  tls: true
+  type: vless
+  udp: true
+  uuid: f61a4285-7264-4d07-9408-7b9ba1922c26
+  ws-opts:
+    headers:
+      host: gaosir.unfeeling.sbs
+    path: x@节点狂魔/?ed=2560
+- name: 🇺🇸_美国_26
   network: ws
   port: 443
-  server: 172.105.120.36
+  server: 47.76.218.163
   servername: gaosir.unfeeling.sbs
   skip-cert-verify: true
   tls: true
@@ -215,53 +659,67 @@ proxies:
   ws-opts:
     headers:
       host: gaosir.unfeeling.sbs
-    path: telegram @freecodes /?ed=2560
-- name: 🇨🇳_中国_5
-  network: ws
-  port: 9010
-  server: 8.218.36.133
-  servername: gaosir.unfeeling.sbs
-  skip-cert-verify: true
-  tls: true
-  type: vless
-  udp: true
-  uuid: f61a4285-7264-4d07-9408-7b9ba1922c26
-  ws-opts:
-    headers:
-      host: gaosir.unfeeling.sbs
-    path: telegram@freecodes/?ed=2560
-- name: 🇺🇸_美国_6
-  network: ws
-  port: 2053
-  server: 152.42.241.71
-  servername: gaosir.unfeeling.sbs
-  skip-cert-verify: true
-  tls: true
-  type: vless
-  udp: true
-  uuid: f61a4285-7264-4d07-9408-7b9ba1922c26
-  ws-opts:
-    headers:
-      host: gaosir.unfeeling.sbs
-    path: telegram@freecodes/?ed=2560
-- name: 🇺🇸_美国_7
-  network: ws
-  port: 443
-  server: 47.238.120.134
-  servername: gaosir.unfeeling.sbs
-  skip-cert-verify: true
-  tls: true
-  type: vless
-  udp: true
-  uuid: f61a4285-7264-4d07-9408-7b9ba1922c26
-  ws-opts:
-    headers:
-      host: gaosir.unfeeling.sbs
-    path: telegram@freecodes/?ed=2560
+    path: x@节点狂魔/?ed=2560
 - name: 🇨🇳_中国_6
   network: ws
-  port: 41528
-  server: 8.218.245.116
+  port: 443
+  server: 8.212.27.131
+  servername: gaosir.unfeeling.sbs
+  skip-cert-verify: true
+  tls: true
+  type: vless
+  udp: true
+  uuid: f61a4285-7264-4d07-9408-7b9ba1922c26
+  ws-opts:
+    headers:
+      host: gaosir.unfeeling.sbs
+    path: telegram@freecodes/?ed=2560
+- name: 🇨🇳_中国_7
+  network: ws
+  port: 443
+  server: 8.212.27.131
+  servername: gaosir.unfeeling.sbs
+  skip-cert-verify: true
+  tls: true
+  type: vless
+  udp: true
+  uuid: f61a4285-7264-4d07-9408-7b9ba1922c26
+  ws-opts:
+    headers:
+      host: gaosir.unfeeling.sbs
+    path: telegram@freecodes/?ed=2560
+- name: 🇺🇸_美国_27
+  network: ws
+  port: 28983
+  server: 146.235.19.79
+  servername: gaosir.unfeeling.sbs
+  skip-cert-verify: true
+  tls: true
+  type: vless
+  udp: true
+  uuid: f61a4285-7264-4d07-9408-7b9ba1922c26
+  ws-opts:
+    headers:
+      host: gaosir.unfeeling.sbs
+    path: /x @节点狂魔 /
+- name: 🇺🇸_美国_28
+  network: ws
+  port: 443
+  server: 47.76.218.163
+  servername: vless.pengjiajin.sbs
+  skip-cert-verify: true
+  tls: true
+  type: vless
+  udp: true
+  uuid: 64bf9c97-212c-4814-ad17-f8539b53a8bd
+  ws-opts:
+    headers:
+      host: vless.pengjiajin.sbs
+    path: 节点狂魔@节点狂魔/?ed=2560
+- name: 🇬🇧_英国_1
+  network: ws
+  port: 443
+  server: 213.35.124.36
   servername: vless.pengjiajin.sbs
   skip-cert-verify: true
   tls: true
@@ -272,10 +730,66 @@ proxies:
     headers:
       host: vless.pengjiajin.sbs
     path: freecodes @节点狂魔 /?ed=2560
-- name: 🇯🇵_日本_1
+- name: 🇺🇸_美国_29
   network: ws
-  port: 18836
-  server: 139.162.84.132
+  port: 8443
+  server: 152.42.241.71
+  servername: vless.pengjiajin.sbs
+  skip-cert-verify: true
+  tls: true
+  type: vless
+  udp: true
+  uuid: 64bf9c97-212c-4814-ad17-f8539b53a8bd
+  ws-opts:
+    headers:
+      host: vless.pengjiajin.sbs
+    path: telegram@freecodes/?ed=2560
+- name: 🇯🇵_日本_2
+  network: ws
+  port: 443
+  server: 160.22.79.179
+  servername: gaosir.unfeeling.sbs
+  skip-cert-verify: true
+  tls: true
+  type: vless
+  udp: true
+  uuid: f61a4285-7264-4d07-9408-7b9ba1922c26
+  ws-opts:
+    headers:
+      host: gaosir.unfeeling.sbs
+    path: telegram@freecodes/?ed=2560
+- name: 🇬🇧_英国_2
+  network: ws
+  port: 2096
+  server: 83.142.30.4
+  servername: vless.pengjiajin.sbs
+  skip-cert-verify: true
+  tls: true
+  type: vless
+  udp: true
+  uuid: 64bf9c97-212c-4814-ad17-f8539b53a8bd
+  ws-opts:
+    headers:
+      host: vless.pengjiajin.sbs
+    path: freecodes@节点狂魔/?ed=2560
+- name: 🇺🇸_美国_30
+  network: ws
+  port: 443
+  server: 192.46.231.158
+  servername: vless.pengjiajin.sbs
+  skip-cert-verify: true
+  tls: true
+  type: vless
+  udp: true
+  uuid: 64bf9c97-212c-4814-ad17-f8539b53a8bd
+  ws-opts:
+    headers:
+      host: vless.pengjiajin.sbs
+    path: freecodes@节点狂魔/?ed=2560
+- name: 🇯🇵_日本_3
+  network: ws
+  port: 12553
+  server: 113.37.149.36
   servername: gaosir.unfeeling.sbs
   skip-cert-verify: true
   tls: true
@@ -286,10 +800,10 @@ proxies:
     headers:
       host: gaosir.unfeeling.sbs
     path: telegram @freecodes /?ed=2560
-- name: 🇸🇬_新加坡_3
+- name: 🇺🇸_美国_31
   network: ws
-  port: 443
-  server: 172.104.180.5
+  port: 28983
+  server: 146.235.19.79
   servername: gaosir.unfeeling.sbs
   skip-cert-verify: true
   tls: true
@@ -299,11 +813,11 @@ proxies:
   ws-opts:
     headers:
       host: gaosir.unfeeling.sbs
-    path: x @节点狂魔 /?ed=2560
-- name: 🇺🇸_美国_8
+    path: x@节点狂魔/?ed=2560
+- name: 🇧🇷_巴西_1
   network: ws
-  port: 443
-  server: 143.198.92.220
+  port: 23280
+  server: 168.138.171.70
   servername: gaosir.unfeeling.sbs
   skip-cert-verify: true
   tls: true
@@ -313,64 +827,8 @@ proxies:
   ws-opts:
     headers:
       host: gaosir.unfeeling.sbs
-    path: /x @节点狂魔 /
-- name: 🇸🇬_新加坡_4
-  network: ws
-  port: 443
-  server: 172.104.188.124
-  servername: gaosir.unfeeling.sbs
-  skip-cert-verify: true
-  tls: true
-  type: vless
-  udp: true
-  uuid: f61a4285-7264-4d07-9408-7b9ba1922c26
-  ws-opts:
-    headers:
-      host: gaosir.unfeeling.sbs
-    path: /x @节点狂魔 /
-- name: 🇺🇸_美国_9
-  network: ws
-  port: 8443
-  server: 64.49.14.41
-  servername: gaosir.unfeeling.sbs
-  skip-cert-verify: true
-  tls: true
-  type: vless
-  udp: true
-  uuid: f61a4285-7264-4d07-9408-7b9ba1922c26
-  ws-opts:
-    headers:
-      host: gaosir.unfeeling.sbs
-    path: /x @节点狂魔 /
-- name: 🇨🇳_中国_7
-  network: ws
-  port: 12457
-  server: 223.16.138.113
-  servername: gaosir.unfeeling.sbs
-  skip-cert-verify: true
-  tls: true
-  type: vless
-  udp: true
-  uuid: f61a4285-7264-4d07-9408-7b9ba1922c26
-  ws-opts:
-    headers:
-      host: gaosir.unfeeling.sbs
-    path: x @节点狂魔 /?ed=2560
-- name: 🇸🇬_新加坡_5
-  network: ws
-  port: 443
-  server: 172.104.180.43
-  servername: gaosir.unfeeling.sbs
-  skip-cert-verify: true
-  tls: true
-  type: vless
-  udp: true
-  uuid: f61a4285-7264-4d07-9408-7b9ba1922c26
-  ws-opts:
-    headers:
-      host: gaosir.unfeeling.sbs
-    path: /x @节点狂魔 /
-- name: 🇺🇸_美国_10
+    path: /x@节点狂魔/
+- name: 🇺🇸_美国_32
   network: ws
   port: 8443
   server: 150.230.198.31
@@ -383,8 +841,386 @@ proxies:
   ws-opts:
     headers:
       host: gaosir.unfeeling.sbs
+    path: x @节点狂魔 /?ed=2560
+- name: 🇯🇵_日本_4
+  network: ws
+  port: 8443
+  server: 158.101.71.226
+  servername: gaosir.unfeeling.sbs
+  skip-cert-verify: true
+  tls: true
+  type: vless
+  udp: true
+  uuid: f61a4285-7264-4d07-9408-7b9ba1922c26
+  ws-opts:
+    headers:
+      host: gaosir.unfeeling.sbs
+    path: telegram @freecodes /?ed=2560
+- name: 🇺🇸_美国_33
+  network: ws
+  port: 8443
+  server: 47.237.149.38
+  servername: gaosir.unfeeling.sbs
+  skip-cert-verify: true
+  tls: true
+  type: vless
+  udp: true
+  uuid: f61a4285-7264-4d07-9408-7b9ba1922c26
+  ws-opts:
+    headers:
+      host: gaosir.unfeeling.sbs
+    path: telegram @freecodes /?ed=2560
+- name: 🇦🇺_澳大利亚_2
+  network: ws
+  port: 12131
+  server: 43.156.107.236
+  servername: gaosir.unfeeling.sbs
+  skip-cert-verify: true
+  tls: true
+  type: vless
+  udp: true
+  uuid: f61a4285-7264-4d07-9408-7b9ba1922c26
+  ws-opts:
+    headers:
+      host: gaosir.unfeeling.sbs
     path: /x @节点狂魔 /
-- name: 🇺🇸_美国_11
+- name: 🇧🇷_巴西_2
+  network: ws
+  port: 23280
+  server: 168.138.171.70
+  servername: gaosir.unfeeling.sbs
+  skip-cert-verify: true
+  tls: true
+  type: vless
+  udp: true
+  uuid: f61a4285-7264-4d07-9408-7b9ba1922c26
+  ws-opts:
+    headers:
+      host: gaosir.unfeeling.sbs
+    path: telegram@freecodes/?ed=2560
+- name: 🇺🇸_美国_34
+  network: ws
+  port: 2053
+  server: 152.42.241.71
+  servername: vless.pengjiajin.sbs
+  skip-cert-verify: true
+  tls: true
+  type: vless
+  udp: true
+  uuid: 64bf9c97-212c-4814-ad17-f8539b53a8bd
+  ws-opts:
+    headers:
+      host: vless.pengjiajin.sbs
+    path: telegram@freecodes/?ed=2560
+- name: 🇺🇸_美国_35
+  network: ws
+  port: 443
+  server: 47.79.35.191
+  servername: gaosir.unfeeling.sbs
+  skip-cert-verify: true
+  tls: true
+  type: vless
+  udp: true
+  uuid: f61a4285-7264-4d07-9408-7b9ba1922c26
+  ws-opts:
+    headers:
+      host: gaosir.unfeeling.sbs
+    path: telegram@freecodes/?ed=2560
+- name: 🇺🇸_美国_36
+  network: ws
+  port: 443
+  server: 47.79.91.168
+  servername: gaosir.unfeeling.sbs
+  skip-cert-verify: true
+  tls: true
+  type: vless
+  udp: true
+  uuid: f61a4285-7264-4d07-9408-7b9ba1922c26
+  ws-opts:
+    headers:
+      host: gaosir.unfeeling.sbs
+    path: x@节点狂魔/?ed=2560
+- name: 🇺🇸_美国_37
+  network: ws
+  port: 8443
+  server: 47.79.35.64
+  servername: gaosir.unfeeling.sbs
+  skip-cert-verify: true
+  tls: true
+  type: vless
+  udp: true
+  uuid: f61a4285-7264-4d07-9408-7b9ba1922c26
+  ws-opts:
+    headers:
+      host: gaosir.unfeeling.sbs
+    path: x@节点狂魔/?ed=2560
+- name: 🇬🇧_英国_3
+  network: ws
+  port: 443
+  server: 213.35.124.36
+  servername: vless.pengjiajin.sbs
+  skip-cert-verify: true
+  tls: true
+  type: vless
+  udp: true
+  uuid: 64bf9c97-212c-4814-ad17-f8539b53a8bd
+  ws-opts:
+    headers:
+      host: vless.pengjiajin.sbs
+    path: 节点狂魔 @节点狂魔 /?ed=2560
+- name: 🇦🇺_澳大利亚_3
+  network: ws
+  port: 12131
+  server: 43.156.107.236
+  servername: gaosir.unfeeling.sbs
+  skip-cert-verify: true
+  tls: true
+  type: vless
+  udp: true
+  uuid: f61a4285-7264-4d07-9408-7b9ba1922c26
+  ws-opts:
+    headers:
+      host: gaosir.unfeeling.sbs
+    path: x@节点狂魔/?ed=2560
+- name: 🇺🇸_美国_38
+  network: ws
+  port: 443
+  server: 138.2.16.61
+  servername: gaosir.unfeeling.sbs
+  skip-cert-verify: true
+  tls: true
+  type: vless
+  udp: true
+  uuid: f61a4285-7264-4d07-9408-7b9ba1922c26
+  ws-opts:
+    headers:
+      host: gaosir.unfeeling.sbs
+    path: x@节点狂魔/?ed=2560
+- name: 🇺🇸_美国_39
+  network: ws
+  port: 2053
+  server: 152.42.241.71
+  servername: vless.pengjiajin.sbs
+  skip-cert-verify: true
+  tls: true
+  type: vless
+  udp: true
+  uuid: 64bf9c97-212c-4814-ad17-f8539b53a8bd
+  ws-opts:
+    headers:
+      host: vless.pengjiajin.sbs
+    path: x@节点狂魔/?ed=2560
+- name: 🇯🇵_日本_5
+  network: ws
+  port: 443
+  server: 160.22.79.179
+  servername: gaosir.unfeeling.sbs
+  skip-cert-verify: true
+  tls: true
+  type: vless
+  udp: true
+  uuid: f61a4285-7264-4d07-9408-7b9ba1922c26
+  ws-opts:
+    headers:
+      host: gaosir.unfeeling.sbs
+    path: telegram @freecodes /?ed=2560
+- name: 🇧🇷_巴西_3
+  network: ws
+  port: 54584
+  server: 168.138.192.16
+  servername: gaosir.unfeeling.sbs
+  skip-cert-verify: true
+  tls: true
+  type: vless
+  udp: true
+  uuid: f61a4285-7264-4d07-9408-7b9ba1922c26
+  ws-opts:
+    headers:
+      host: gaosir.unfeeling.sbs
+    path: telegram @freecodes /?ed=2560
+- name: 🇺🇸_美国_40
+  network: ws
+  port: 8443
+  server: 150.230.206.84
+  servername: gaosir.unfeeling.sbs
+  skip-cert-verify: true
+  tls: true
+  type: vless
+  udp: true
+  uuid: f61a4285-7264-4d07-9408-7b9ba1922c26
+  ws-opts:
+    headers:
+      host: gaosir.unfeeling.sbs
+    path: x @节点狂魔 /?ed=2560
+- name: 🇺🇸_美国_41
+  network: ws
+  port: 443
+  server: 158.178.229.178
+  servername: vless.pengjiajin.sbs
+  skip-cert-verify: true
+  tls: true
+  type: vless
+  udp: true
+  uuid: 64bf9c97-212c-4814-ad17-f8539b53a8bd
+  ws-opts:
+    headers:
+      host: vless.pengjiajin.sbs
+    path: telegram@freecodes/?ed=2560
+- name: 🇺🇸_美国_42
+  network: ws
+  port: 443
+  server: 192.46.231.158
+  servername: vless.pengjiajin.sbs
+  skip-cert-verify: true
+  tls: true
+  type: vless
+  udp: true
+  uuid: 64bf9c97-212c-4814-ad17-f8539b53a8bd
+  ws-opts:
+    headers:
+      host: vless.pengjiajin.sbs
+    path: x@节点狂魔/?ed=2560
+- name: 🇺🇸_美国_43
+  network: ws
+  port: 49153
+  server: 47.79.90.37
+  servername: gaosir.unfeeling.sbs
+  skip-cert-verify: true
+  tls: true
+  type: vless
+  udp: true
+  uuid: f61a4285-7264-4d07-9408-7b9ba1922c26
+  ws-opts:
+    headers:
+      host: gaosir.unfeeling.sbs
+    path: /telegram@freecodes/?ed=2560
+- name: 🇺🇸_美国_44
+  network: ws
+  port: 8443
+  server: 172.237.11.207
+  servername: gaosir.unfeeling.sbs
+  skip-cert-verify: true
+  tls: true
+  type: vless
+  udp: true
+  uuid: f61a4285-7264-4d07-9408-7b9ba1922c26
+  ws-opts:
+    headers:
+      host: gaosir.unfeeling.sbs
+    path: x @节点狂魔 /?ed=2560
+- name: 🇯🇵_日本_6
+  network: ws
+  port: 8443
+  server: 158.101.71.226
+  servername: gaosir.unfeeling.sbs
+  skip-cert-verify: true
+  tls: true
+  type: vless
+  udp: true
+  uuid: f61a4285-7264-4d07-9408-7b9ba1922c26
+  ws-opts:
+    headers:
+      host: gaosir.unfeeling.sbs
+    path: x @节点狂魔 /?ed=2560
+- name: 🇯🇵_日本_7
+  network: ws
+  port: 7002
+  server: 139.162.102.152
+  servername: gaosir.unfeeling.sbs
+  skip-cert-verify: true
+  tls: true
+  type: vless
+  udp: true
+  uuid: f61a4285-7264-4d07-9408-7b9ba1922c26
+  ws-opts:
+    headers:
+      host: gaosir.unfeeling.sbs
+    path: telegram @freecodes /?ed=2560
+- name: 🇯🇵_日本_8
+  network: ws
+  port: 443
+  server: 160.22.79.179
+  servername: vless.pengjiajin.sbs
+  skip-cert-verify: true
+  tls: true
+  type: vless
+  udp: true
+  uuid: 64bf9c97-212c-4814-ad17-f8539b53a8bd
+  ws-opts:
+    headers:
+      host: vless.pengjiajin.sbs
+    path: x@节点狂魔/?ed=2560
+- name: 🇺🇸_美国_45
+  network: ws
+  port: 2096
+  server: 150.230.196.57
+  servername: gaosir.unfeeling.sbs
+  skip-cert-verify: true
+  tls: true
+  type: vless
+  udp: true
+  uuid: f61a4285-7264-4d07-9408-7b9ba1922c26
+  ws-opts:
+    headers:
+      host: gaosir.unfeeling.sbs
+    path: x @节点狂魔 /?ed=2560
+- name: 🇧🇷_巴西_4
+  network: ws
+  port: 23280
+  server: 168.138.171.70
+  servername: gaosir.unfeeling.sbs
+  skip-cert-verify: true
+  tls: true
+  type: vless
+  udp: true
+  uuid: f61a4285-7264-4d07-9408-7b9ba1922c26
+  ws-opts:
+    headers:
+      host: gaosir.unfeeling.sbs
+    path: telegram@freecodes/?ed=2560
+- name: 🇺🇸_美国_46
+  network: ws
+  port: 8443
+  server: 172.237.11.207
+  servername: gaosir.unfeeling.sbs
+  skip-cert-verify: true
+  tls: true
+  type: vless
+  udp: true
+  uuid: f61a4285-7264-4d07-9408-7b9ba1922c26
+  ws-opts:
+    headers:
+      host: gaosir.unfeeling.sbs
+    path: telegram @freecodes /?ed=2560
+- name: 🇨🇳_中国_8
+  network: ws
+  port: 491
+  server: 8.219.126.137
+  servername: vless.pengjiajin.sbs
+  skip-cert-verify: true
+  tls: true
+  type: vless
+  udp: true
+  uuid: 64bf9c97-212c-4814-ad17-f8539b53a8bd
+  ws-opts:
+    headers:
+      host: vless.pengjiajin.sbs
+    path: freecodes @节点狂魔 /?ed=2560
+- name: 🇨🇳_中国_9
+  network: ws
+  port: 12902
+  server: 8.210.96.197
+  servername: gaosir.unfeeling.sbs
+  skip-cert-verify: true
+  tls: true
+  type: vless
+  udp: true
+  uuid: f61a4285-7264-4d07-9408-7b9ba1922c26
+  ws-opts:
+    headers:
+      host: gaosir.unfeeling.sbs
+    path: telegram@freecodes/?ed=2560
+- name: 🇺🇸_美国_47
   network: ws
   port: 8443
   server: 150.230.206.84
@@ -398,38 +1234,24 @@ proxies:
     headers:
       host: gaosir.unfeeling.sbs
     path: /x @节点狂魔 /
-- name: 🇯🇵_日本_2
+- name: 🇧🇷_巴西_5
   network: ws
-  port: 21273
-  server: 8.209.220.50
-  servername: gaosir.unfeeling.sbs
+  port: 54584
+  server: 168.138.192.16
+  servername: vless.pengjiajin.sbs
   skip-cert-verify: true
   tls: true
   type: vless
   udp: true
-  uuid: f61a4285-7264-4d07-9408-7b9ba1922c26
+  uuid: 64bf9c97-212c-4814-ad17-f8539b53a8bd
   ws-opts:
     headers:
-      host: gaosir.unfeeling.sbs
-    path: /x @节点狂魔 /
-- name: 🇨🇳_中国_8
-  network: ws
-  port: 48130
-  server: 8.219.59.132
-  servername: gaosir.unfeeling.sbs
-  skip-cert-verify: true
-  tls: true
-  type: vless
-  udp: true
-  uuid: f61a4285-7264-4d07-9408-7b9ba1922c26
-  ws-opts:
-    headers:
-      host: gaosir.unfeeling.sbs
-    path: /x @节点狂魔 /
-- name: 🇯🇵_日本_3
+      host: vless.pengjiajin.sbs
+    path: telegram@freecodes/?ed=2560
+- name: 🇯🇵_日本_9
   network: ws
   port: 443
-  server: 158.101.145.82
+  server: 132.145.115.62
   servername: gaosir.unfeeling.sbs
   skip-cert-verify: true
   tls: true
@@ -439,7 +1261,7 @@ proxies:
   ws-opts:
     headers:
       host: gaosir.unfeeling.sbs
-    path: /x @节点狂魔 /
+    path: telegram@freecodes/?ed=2560
 - name: 🇸🇪_瑞典_1
   network: ws
   port: 443
@@ -454,24 +1276,10 @@ proxies:
     headers:
       host: gaosir.unfeeling.sbs
     path: telegram @freecodes /?ed=2560
-- name: 🇧🇷_巴西_1
+- name: 🇬🇧_英国_4
   network: ws
-  port: 443
-  server: 168.138.165.174
-  servername: gaosir.unfeeling.sbs
-  skip-cert-verify: true
-  tls: true
-  type: vless
-  udp: true
-  uuid: f61a4285-7264-4d07-9408-7b9ba1922c26
-  ws-opts:
-    headers:
-      host: gaosir.unfeeling.sbs
-    path: telegram@freecodes/?ed=2560
-- name: 🇦🇺_澳大利亚_3
-  network: ws
-  port: 54322
-  server: 140.83.57.86
+  port: 2096
+  server: 83.142.30.4
   servername: gaosir.unfeeling.sbs
   skip-cert-verify: true
   tls: true
@@ -482,146 +1290,6 @@ proxies:
     headers:
       host: gaosir.unfeeling.sbs
     path: /x @节点狂魔 /
-- name: 🇨🇳_中国_9
-  network: ws
-  port: 12457
-  server: 223.16.138.113
-  servername: gaosir.unfeeling.sbs
-  skip-cert-verify: true
-  tls: true
-  type: vless
-  udp: true
-  uuid: f61a4285-7264-4d07-9408-7b9ba1922c26
-  ws-opts:
-    headers:
-      host: gaosir.unfeeling.sbs
-    path: telegram@freecodes/?ed=2560
-- name: 🇯🇵_日本_4
-  network: ws
-  port: 32498
-  server: 132.145.126.40
-  servername: gaosir.unfeeling.sbs
-  skip-cert-verify: true
-  tls: true
-  type: vless
-  udp: true
-  uuid: f61a4285-7264-4d07-9408-7b9ba1922c26
-  ws-opts:
-    headers:
-      host: gaosir.unfeeling.sbs
-    path: /x @节点狂魔 /
-- name: 🇺🇸_美国_12
-  network: ws
-  port: 443
-  server: 150.230.212.7
-  servername: gaosir.unfeeling.sbs
-  skip-cert-verify: true
-  tls: true
-  type: vless
-  udp: true
-  uuid: f61a4285-7264-4d07-9408-7b9ba1922c26
-  ws-opts:
-    headers:
-      host: gaosir.unfeeling.sbs
-    path: telegram@freecodes/?ed=2560
-- name: 🇨🇭_瑞士
-  network: ws
-  port: 55007
-  server: 64.110.101.90
-  servername: gaosir.unfeeling.sbs
-  skip-cert-verify: true
-  tls: true
-  type: vless
-  udp: true
-  uuid: f61a4285-7264-4d07-9408-7b9ba1922c26
-  ws-opts:
-    headers:
-      host: gaosir.unfeeling.sbs
-    path: /x @节点狂魔 /
-- name: 🇨🇳_中国_10
-  network: ws
-  port: 35951
-  server: 36.50.90.241
-  servername: gaosir.unfeeling.sbs
-  skip-cert-verify: true
-  tls: true
-  type: vless
-  udp: true
-  uuid: f61a4285-7264-4d07-9408-7b9ba1922c26
-  ws-opts:
-    headers:
-      host: gaosir.unfeeling.sbs
-    path: telegram@freecodes/?ed=2560
-- name: 🇺🇸_美国_13
-  network: ws
-  port: 443
-  server: 138.2.16.61
-  servername: gaosir.unfeeling.sbs
-  skip-cert-verify: true
-  tls: true
-  type: vless
-  udp: true
-  uuid: f61a4285-7264-4d07-9408-7b9ba1922c26
-  ws-opts:
-    headers:
-      host: gaosir.unfeeling.sbs
-    path: telegram@freecodes/?ed=2560
-- name: 🇯🇵_日本_5
-  network: ws
-  port: 443
-  server: 193.123.161.116
-  servername: gaosir.unfeeling.sbs
-  skip-cert-verify: true
-  tls: true
-  type: vless
-  udp: true
-  uuid: f61a4285-7264-4d07-9408-7b9ba1922c26
-  ws-opts:
-    headers:
-      host: gaosir.unfeeling.sbs
-    path: x @节点狂魔 /?ed=2560
-- name: 🇯🇵_日本_6
-  network: ws
-  port: 47001
-  server: 158.101.154.245
-  servername: gaosir.unfeeling.sbs
-  skip-cert-verify: true
-  tls: true
-  type: vless
-  udp: true
-  uuid: f61a4285-7264-4d07-9408-7b9ba1922c26
-  ws-opts:
-    headers:
-      host: gaosir.unfeeling.sbs
-    path: telegram @freecodes /?ed=2560
-- name: 🇯🇵_日本_7
-  network: ws
-  port: 43138
-  server: 168.138.46.115
-  servername: gaosir.unfeeling.sbs
-  skip-cert-verify: true
-  tls: true
-  type: vless
-  udp: true
-  uuid: f61a4285-7264-4d07-9408-7b9ba1922c26
-  ws-opts:
-    headers:
-      host: gaosir.unfeeling.sbs
-    path: x @节点狂魔 /?ed=2560
-- name: 🇺🇸_美国_14
-  network: ws
-  port: 18650
-  server: 152.70.82.101
-  servername: gaosir.unfeeling.sbs
-  skip-cert-verify: true
-  tls: true
-  type: vless
-  udp: true
-  uuid: f61a4285-7264-4d07-9408-7b9ba1922c26
-  ws-opts:
-    headers:
-      host: gaosir.unfeeling.sbs
-    path: telegram @freecodes /?ed=2560
 - name: 🇸🇪_瑞典_2
   network: ws
   port: 443
@@ -635,11 +1303,25 @@ proxies:
   ws-opts:
     headers:
       host: gaosir.unfeeling.sbs
-    path: /x @节点狂魔 /
-- name: 🇺🇸_美国_15
+    path: /x@节点狂魔/
+- name: 🇺🇸_美国_48
   network: ws
-  port: 443
-  server: 150.230.212.7
+  port: 8443
+  server: 64.49.14.41
+  servername: gaosir.unfeeling.sbs
+  skip-cert-verify: true
+  tls: true
+  type: vless
+  udp: true
+  uuid: f61a4285-7264-4d07-9408-7b9ba1922c26
+  ws-opts:
+    headers:
+      host: gaosir.unfeeling.sbs
+    path: /x@节点狂魔/
+- name: 🇦🇺_澳大利亚_4
+  network: ws
+  port: 12131
+  server: 43.156.107.236
   servername: gaosir.unfeeling.sbs
   skip-cert-verify: true
   tls: true
@@ -650,10 +1332,24 @@ proxies:
     headers:
       host: gaosir.unfeeling.sbs
     path: /x @节点狂魔 /
-- name: 🇯🇵_日本_8
+- name: 🇯🇵_日本_10
   network: ws
-  port: 19999
-  server: 202.84.53.85
+  port: 443
+  server: 139.162.106.22
+  servername: gaosir.unfeeling.sbs
+  skip-cert-verify: true
+  tls: true
+  type: vless
+  udp: true
+  uuid: f61a4285-7264-4d07-9408-7b9ba1922c26
+  ws-opts:
+    headers:
+      host: gaosir.unfeeling.sbs
+    path: telegram @freecodes /?ed=2560
+- name: 🇨🇳_中国_10
+  network: ws
+  port: 12902
+  server: 8.210.96.197
   servername: gaosir.unfeeling.sbs
   skip-cert-verify: true
   tls: true
@@ -664,567 +1360,7 @@ proxies:
     headers:
       host: gaosir.unfeeling.sbs
     path: x@节点狂魔/?ed=2560
-- name: 🇸🇬_新加坡_6
-  network: ws
-  port: 443
-  server: 128.199.216.53
-  servername: gaosir.unfeeling.sbs
-  skip-cert-verify: true
-  tls: true
-  type: vless
-  udp: true
-  uuid: f61a4285-7264-4d07-9408-7b9ba1922c26
-  ws-opts:
-    headers:
-      host: gaosir.unfeeling.sbs
-    path: telegram @freecodes /?ed=2560
-- name: 🇸🇪_瑞典_3
-  network: ws
-  port: 443
-  server: 141.147.188.120
-  servername: gaosir.unfeeling.sbs
-  skip-cert-verify: true
-  tls: true
-  type: vless
-  udp: true
-  uuid: f61a4285-7264-4d07-9408-7b9ba1922c26
-  ws-opts:
-    headers:
-      host: gaosir.unfeeling.sbs
-    path: telegram@freecodes/?ed=2560
-- name: 🇦🇺_澳大利亚_4
-  network: ws
-  port: 9872
-  server: 140.83.83.65
-  servername: gaosir.unfeeling.sbs
-  skip-cert-verify: true
-  tls: true
-  type: vless
-  udp: true
-  uuid: f61a4285-7264-4d07-9408-7b9ba1922c26
-  ws-opts:
-    headers:
-      host: gaosir.unfeeling.sbs
-    path: telegram @freecodes /?ed=2048
-- name: 🇸🇬_新加坡_7
-  network: ws
-  port: 8192
-  server: 54.255.217.120
-  servername: gaosir.unfeeling.sbs
-  skip-cert-verify: true
-  tls: true
-  type: vless
-  udp: true
-  uuid: f61a4285-7264-4d07-9408-7b9ba1922c26
-  ws-opts:
-    headers:
-      host: gaosir.unfeeling.sbs
-    path: telegram @freecodes /?ed=2560
-- name: 🇺🇸_美国_16
-  network: ws
-  port: 1111
-  server: 138.2.95.61
-  servername: gaosir.unfeeling.sbs
-  skip-cert-verify: true
-  tls: true
-  type: vless
-  udp: true
-  uuid: f61a4285-7264-4d07-9408-7b9ba1922c26
-  ws-opts:
-    headers:
-      host: gaosir.unfeeling.sbs
-    path: telegram @freecodes /?ed=2560
-- name: 🇯🇵_日本_9
-  network: ws
-  port: 443
-  server: 172.104.116.214
-  servername: gaosir.unfeeling.sbs
-  skip-cert-verify: true
-  tls: true
-  type: vless
-  udp: true
-  uuid: f61a4285-7264-4d07-9408-7b9ba1922c26
-  ws-opts:
-    headers:
-      host: gaosir.unfeeling.sbs
-    path: telegram @freecodes /?ed=2560
-- name: 🇯🇵_日本_10
-  network: ws
-  port: 443
-  server: 172.105.199.168
-  servername: gaosir.unfeeling.sbs
-  skip-cert-verify: true
-  tls: true
-  type: vless
-  udp: true
-  uuid: f61a4285-7264-4d07-9408-7b9ba1922c26
-  ws-opts:
-    headers:
-      host: gaosir.unfeeling.sbs
-    path: /x @节点狂魔 /
-- name: 🇦🇺_澳大利亚_5
-  network: ws
-  port: 34237
-  server: 140.83.54.126
-  servername: gaosir.unfeeling.sbs
-  skip-cert-verify: true
-  tls: true
-  type: vless
-  udp: true
-  uuid: f61a4285-7264-4d07-9408-7b9ba1922c26
-  ws-opts:
-    headers:
-      host: gaosir.unfeeling.sbs
-    path: /?ed=2048
-- name: 🇺🇸_美国_17
-  network: ws
-  port: 2095
-  server: developers.cloudflare.com
-  servername: freedom.pusytroller.cf
-  skip-cert-verify: true
-  tls: true
-  type: vless
-  udp: true
-  uuid: 86c50e3a-5b87-49dd-bd20-03c7f2735e40
-  ws-opts:
-    headers:
-      host: freedom.pusytroller.cf
-    path: /
-- name: 🇯🇵_日本_11
-  network: ws
-  port: 19842
-  server: 121.85.55.59
-  servername: gaosir.unfeeling.sbs
-  skip-cert-verify: true
-  tls: true
-  type: vless
-  udp: true
-  uuid: f61a4285-7264-4d07-9408-7b9ba1922c26
-  ws-opts:
-    headers:
-      host: gaosir.unfeeling.sbs
-    path: telegram @freecodes /?ed=2560
-- name: 🇰🇷_韩国_1
-  network: ws
-  port: 21244
-  server: 59.1.166.218
-  servername: gaosir.unfeeling.sbs
-  skip-cert-verify: true
-  tls: true
-  type: vless
-  udp: true
-  uuid: f61a4285-7264-4d07-9408-7b9ba1922c26
-  ws-opts:
-    headers:
-      host: gaosir.unfeeling.sbs
-    path: telegram @freecodes /?ed=2560
-- name: 🇰🇷_韩国_2
-  network: ws
-  port: 33817
-  server: 121.167.16.189
-  servername: vless.pengjiajin.sbs
-  skip-cert-verify: true
-  tls: true
-  type: vless
-  udp: true
-  uuid: 64bf9c97-212c-4814-ad17-f8539b53a8bd
-  ws-opts:
-    headers:
-      host: vless.pengjiajin.sbs
-    path: freecodes @节点狂魔 /?ed=2560
-- name: 🇯🇵_日本_12
-  network: ws
-  port: 443
-  server: 153.121.45.101
-  servername: gaosir.unfeeling.sbs
-  skip-cert-verify: true
-  tls: true
-  type: vless
-  udp: true
-  uuid: f61a4285-7264-4d07-9408-7b9ba1922c26
-  ws-opts:
-    headers:
-      host: gaosir.unfeeling.sbs
-    path: /x@节点狂魔/?ed=2560
-- name: 🇰🇷_韩国_3
-  network: ws
-  port: 10058
-  server: 59.19.192.51
-  servername: gaosir.unfeeling.sbs
-  skip-cert-verify: true
-  tls: true
-  type: vless
-  udp: true
-  uuid: f61a4285-7264-4d07-9408-7b9ba1922c26
-  ws-opts:
-    headers:
-      host: gaosir.unfeeling.sbs
-    path: telegram @freecodes /?ed=2560
-- name: 🇰🇷_韩国_4
-  network: ws
-  port: 12159
-  server: 121.183.90.210
-  servername: gaosir.unfeeling.sbs
-  skip-cert-verify: true
-  tls: true
-  type: vless
-  udp: true
-  uuid: f61a4285-7264-4d07-9408-7b9ba1922c26
-  ws-opts:
-    headers:
-      host: gaosir.unfeeling.sbs
-    path: x @节点狂魔 /?ed=2560
-- name: 🇦🇺_澳大利亚_6
-  network: ws
-  port: 22735
-  server: 140.83.57.183
-  servername: gaosir.unfeeling.sbs
-  skip-cert-verify: true
-  tls: true
-  type: vless
-  udp: true
-  uuid: f61a4285-7264-4d07-9408-7b9ba1922c26
-  ws-opts:
-    headers:
-      host: gaosir.unfeeling.sbs
-    path: x @节点狂魔 /?ed=2560
-- name: 🇰🇷_韩国_5
-  network: ws
-  port: 33817
-  server: 121.167.16.189
-  servername: gaosir.unfeeling.sbs
-  skip-cert-verify: true
-  tls: true
-  type: vless
-  udp: true
-  uuid: f61a4285-7264-4d07-9408-7b9ba1922c26
-  ws-opts:
-    headers:
-      host: gaosir.unfeeling.sbs
-    path: telegram @freecodes /?ed=2560
-- name: 🇰🇷_韩国_6
-  network: ws
-  port: 50001
-  server: 106.245.216.35
-  servername: gaosir.unfeeling.sbs
-  skip-cert-verify: true
-  tls: true
-  type: vless
-  udp: true
-  uuid: f61a4285-7264-4d07-9408-7b9ba1922c26
-  ws-opts:
-    headers:
-      host: gaosir.unfeeling.sbs
-    path: /x @节点狂魔 /
-- name: 🇰🇷_韩国_7
-  network: ws
-  port: 20880
-  server: 218.148.106.45
-  servername: gaosir.unfeeling.sbs
-  skip-cert-verify: true
-  tls: true
-  type: vless
-  udp: true
-  uuid: f61a4285-7264-4d07-9408-7b9ba1922c26
-  ws-opts:
-    headers:
-      host: gaosir.unfeeling.sbs
-    path: telegram @freecodes /?ed=2560
-- name: 🇰🇷_韩国_8
-  network: ws
-  port: 50001
-  server: 106.245.165.137
-  servername: gaosir.unfeeling.sbs
-  skip-cert-verify: true
-  tls: true
-  type: vless
-  udp: true
-  uuid: f61a4285-7264-4d07-9408-7b9ba1922c26
-  ws-opts:
-    headers:
-      host: gaosir.unfeeling.sbs
-    path: x @节点狂魔 /?ed=2560
-- name: 🇰🇷_韩国_9
-  network: ws
-  port: 30501
-  server: 175.215.205.40
-  servername: vless.pengjiajin.sbs
-  skip-cert-verify: true
-  tls: true
-  type: vless
-  udp: true
-  uuid: 64bf9c97-212c-4814-ad17-f8539b53a8bd
-  ws-opts:
-    headers:
-      host: vless.pengjiajin.sbs
-    path: freecodes @节点狂魔 /?ed=2560
-- name: 🇰🇷_韩国_10
-  network: ws
-  port: 50001
-  server: 112.219.152.250
-  servername: vless.pengjiajin.sbs
-  skip-cert-verify: true
-  tls: true
-  type: vless
-  udp: true
-  uuid: 64bf9c97-212c-4814-ad17-f8539b53a8bd
-  ws-opts:
-    headers:
-      host: vless.pengjiajin.sbs
-    path: freecodes @节点狂魔 /?ed=2560
-- name: 🇰🇷_韩国_11
-  network: ws
-  port: 50001
-  server: 118.45.150.77
-  servername: gaosir.unfeeling.sbs
-  skip-cert-verify: true
-  tls: true
-  type: vless
-  udp: true
-  uuid: f61a4285-7264-4d07-9408-7b9ba1922c26
-  ws-opts:
-    headers:
-      host: gaosir.unfeeling.sbs
-    path: /x @节点狂魔 /
-- name: 🇰🇷_韩国_12
-  network: ws
-  port: 50000
-  server: 210.99.119.3
-  servername: gaosir.unfeeling.sbs
-  skip-cert-verify: true
-  tls: true
-  type: vless
-  udp: true
-  uuid: f61a4285-7264-4d07-9408-7b9ba1922c26
-  ws-opts:
-    headers:
-      host: gaosir.unfeeling.sbs
-    path: /x @节点狂魔 /
-- name: 🇰🇷_韩国_13
-  network: ws
-  port: 10031
-  server: 202.150.185.128
-  servername: gaosir.unfeeling.sbs
-  skip-cert-verify: true
-  tls: true
-  type: vless
-  udp: true
-  uuid: f61a4285-7264-4d07-9408-7b9ba1922c26
-  ws-opts:
-    headers:
-      host: gaosir.unfeeling.sbs
-    path: telegram @freecodes /?ed=2560
-- name: 🇰🇷_韩国_14
-  network: ws
-  port: 8443
-  server: 193.122.124.215
-  servername: gaosir.unfeeling.sbs
-  skip-cert-verify: true
-  tls: true
-  type: vless
-  udp: true
-  uuid: f61a4285-7264-4d07-9408-7b9ba1922c26
-  ws-opts:
-    headers:
-      host: gaosir.unfeeling.sbs
-    path: x @节点狂魔 /?ed=2560
-- name: 🇰🇷_韩国_15
-  network: ws
-  port: 10042
-  server: 61.83.202.17
-  servername: gaosir.unfeeling.sbs
-  skip-cert-verify: true
-  tls: true
-  type: vless
-  udp: true
-  uuid: f61a4285-7264-4d07-9408-7b9ba1922c26
-  ws-opts:
-    headers:
-      host: gaosir.unfeeling.sbs
-    path: x @节点狂魔 /?ed=2560
-- name: 🇰🇷_韩国_16
-  network: ws
-  port: 30067
-  server: 112.156.154.95
-  servername: gaosir.unfeeling.sbs
-  skip-cert-verify: true
-  tls: true
-  type: vless
-  udp: true
-  uuid: f61a4285-7264-4d07-9408-7b9ba1922c26
-  ws-opts:
-    headers:
-      host: gaosir.unfeeling.sbs
-    path: x @节点狂魔 /?ed=2560
-- name: 🇰🇷_韩国_17
-  network: ws
-  port: 50001
-  server: 211.184.175.180
-  servername: gaosir.unfeeling.sbs
-  skip-cert-verify: true
-  tls: true
-  type: vless
-  udp: true
-  uuid: f61a4285-7264-4d07-9408-7b9ba1922c26
-  ws-opts:
-    headers:
-      host: gaosir.unfeeling.sbs
-    path: telegram @freecodes /?ed=2560
-- name: 🇰🇷_韩国_18
-  network: ws
-  port: 50001
-  server: 182.208.209.54
-  servername: vless.pengjiajin.sbs
-  skip-cert-verify: true
-  tls: true
-  type: vless
-  udp: true
-  uuid: 64bf9c97-212c-4814-ad17-f8539b53a8bd
-  ws-opts:
-    headers:
-      host: vless.pengjiajin.sbs
-    path: freecodes @节点狂魔 /?ed=2560
-- name: 🇰🇷_韩国_19
-  network: ws
-  port: 50000
-  server: 27.100.189.152
-  servername: gaosir.unfeeling.sbs
-  skip-cert-verify: true
-  tls: true
-  type: vless
-  udp: true
-  uuid: f61a4285-7264-4d07-9408-7b9ba1922c26
-  ws-opts:
-    headers:
-      host: gaosir.unfeeling.sbs
-    path: telegram @freecodes /?ed=2560
-- name: 🇰🇷_韩国_20
-  network: ws
-  port: 12312
-  server: 211.48.77.114
-  servername: gaosir.unfeeling.sbs
-  skip-cert-verify: true
-  tls: true
-  type: vless
-  udp: true
-  uuid: f61a4285-7264-4d07-9408-7b9ba1922c26
-  ws-opts:
-    headers:
-      host: gaosir.unfeeling.sbs
-    path: telegram @freecodes /?ed=2560
-- name: 🇦🇺_澳大利亚_7
-  network: ws
-  port: 443
-  server: 140.83.63.113
-  servername: gaosir.unfeeling.sbs
-  skip-cert-verify: true
-  tls: true
-  type: vless
-  udp: true
-  uuid: f61a4285-7264-4d07-9408-7b9ba1922c26
-  ws-opts:
-    headers:
-      host: gaosir.unfeeling.sbs
-    path: /x @节点狂魔 /
-- name: 🇰🇷_韩国_21
-  network: ws
-  port: 50001
-  server: 106.252.245.199
-  servername: gaosir.unfeeling.sbs
-  skip-cert-verify: true
-  tls: true
-  type: vless
-  udp: true
-  uuid: f61a4285-7264-4d07-9408-7b9ba1922c26
-  ws-opts:
-    headers:
-      host: gaosir.unfeeling.sbs
-    path: x @节点狂魔 /?ed=2560
-- name: 🇰🇷_韩国_22
-  network: ws
-  port: 34599
-  server: 183.106.76.116
-  servername: gaosir.unfeeling.sbs
-  skip-cert-verify: true
-  tls: true
-  type: vless
-  udp: true
-  uuid: f61a4285-7264-4d07-9408-7b9ba1922c26
-  ws-opts:
-    headers:
-      host: gaosir.unfeeling.sbs
-    path: /x @节点狂魔 /
-- name: 🇰🇷_韩国_23
-  network: ws
-  port: 50004
-  server: 221.163.173.252
-  servername: gaosir.unfeeling.sbs
-  skip-cert-verify: true
-  tls: true
-  type: vless
-  udp: true
-  uuid: f61a4285-7264-4d07-9408-7b9ba1922c26
-  ws-opts:
-    headers:
-      host: gaosir.unfeeling.sbs
-    path: /x @节点狂魔 /
-- name: 🇰🇷_韩国_24
-  network: ws
-  port: 50001
-  server: 182.210.59.164
-  servername: gaosir.unfeeling.sbs
-  skip-cert-verify: true
-  tls: true
-  type: vless
-  udp: true
-  uuid: f61a4285-7264-4d07-9408-7b9ba1922c26
-  ws-opts:
-    headers:
-      host: gaosir.unfeeling.sbs
-    path: x @节点狂魔 /?ed=2560
-- name: 🇰🇷_韩国_25
-  network: ws
-  port: 50001
-  server: 211.184.175.180
-  servername: gaosir.unfeeling.sbs
-  skip-cert-verify: true
-  tls: true
-  type: vless
-  udp: true
-  uuid: f61a4285-7264-4d07-9408-7b9ba1922c26
-  ws-opts:
-    headers:
-      host: gaosir.unfeeling.sbs
-    path: x @节点狂魔 /?ed=2560
-- name: 🇰🇷_韩国_26
-  network: ws
-  port: 16020
-  server: 121.147.108.106
-  servername: gaosir.unfeeling.sbs
-  skip-cert-verify: true
-  tls: true
-  type: vless
-  udp: true
-  uuid: f61a4285-7264-4d07-9408-7b9ba1922c26
-  ws-opts:
-    headers:
-      host: gaosir.unfeeling.sbs
-    path: x @节点狂魔 /?ed=2560
-- name: 🇰🇷_韩国_27
-  network: ws
-  port: 19120
-  server: 152.67.197.197
-  servername: gaosir.unfeeling.sbs
-  skip-cert-verify: true
-  tls: true
-  type: vless
-  udp: true
-  uuid: f61a4285-7264-4d07-9408-7b9ba1922c26
-  ws-opts:
-    headers:
-      host: gaosir.unfeeling.sbs
-    path: telegram @freecodes /?ed=2560
-- name: 🇺🇸_美国_18
+- name: 🇺🇸_美国_49
   network: ws
   port: 8443
   server: 150.230.198.31
@@ -1238,10 +1374,2362 @@ proxies:
     headers:
       host: gaosir.unfeeling.sbs
     path: telegram @freecodes /?ed=2560
-- name: 🇰🇷_韩国_28
+- name: 🇺🇸_美国_50
+  network: ws
+  port: 8443
+  server: 64.49.14.41
+  servername: gaosir.unfeeling.sbs
+  skip-cert-verify: true
+  tls: true
+  type: vless
+  udp: true
+  uuid: f61a4285-7264-4d07-9408-7b9ba1922c26
+  ws-opts:
+    headers:
+      host: gaosir.unfeeling.sbs
+    path: /x @节点狂魔 /
+- name: 🇸🇪_瑞典_3
   network: ws
   port: 443
-  server: 123.111.169.70
+  server: 141.147.147.180
+  servername: gaosir.unfeeling.sbs
+  skip-cert-verify: true
+  tls: true
+  type: vless
+  udp: true
+  uuid: f61a4285-7264-4d07-9408-7b9ba1922c26
+  ws-opts:
+    headers:
+      host: gaosir.unfeeling.sbs
+    path: telegram @freecodes /?ed=2560
+- name: 🇯🇵_日本_11
+  network: ws
+  port: 443
+  server: 172.104.116.214
+  servername: gaosir.unfeeling.sbs
+  skip-cert-verify: true
+  tls: true
+  type: vless
+  udp: true
+  uuid: f61a4285-7264-4d07-9408-7b9ba1922c26
+  ws-opts:
+    headers:
+      host: gaosir.unfeeling.sbs
+    path: telegram @freecodes /?ed=2560
+- name: 🇸🇬_新加坡_1
+  network: ws
+  port: 443
+  server: 128.199.216.53
+  servername: gaosir.unfeeling.sbs
+  skip-cert-verify: true
+  tls: true
+  type: vless
+  udp: true
+  uuid: f61a4285-7264-4d07-9408-7b9ba1922c26
+  ws-opts:
+    headers:
+      host: gaosir.unfeeling.sbs
+    path: /x @节点狂魔 /
+- name: 🇺🇸_美国_51
+  network: ws
+  port: 49153
+  server: 47.79.90.37
+  servername: gaosir.unfeeling.sbs
+  skip-cert-verify: true
+  tls: true
+  type: vless
+  udp: true
+  uuid: f61a4285-7264-4d07-9408-7b9ba1922c26
+  ws-opts:
+    headers:
+      host: gaosir.unfeeling.sbs
+    path: /telegram@freecodes/?ed=2560
+- name: 🇺🇸_美国_52
+  network: ws
+  port: 10243
+  server: 150.230.204.21
+  servername: gaosir.unfeeling.sbs
+  skip-cert-verify: true
+  tls: true
+  type: vless
+  udp: true
+  uuid: f61a4285-7264-4d07-9408-7b9ba1922c26
+  ws-opts:
+    headers:
+      host: gaosir.unfeeling.sbs
+    path: telegram @freecodes /?ed=2560
+- name: 🇸🇪_瑞典_4
+  network: ws
+  port: 443
+  server: 141.147.147.180
+  servername: gaosir.unfeeling.sbs
+  skip-cert-verify: true
+  tls: true
+  type: vless
+  udp: true
+  uuid: f61a4285-7264-4d07-9408-7b9ba1922c26
+  ws-opts:
+    headers:
+      host: gaosir.unfeeling.sbs
+    path: /x@节点狂魔/
+- name: 🇺🇸_美国_53
+  network: ws
+  port: 8443
+  server: 150.230.198.31
+  servername: gaosir.unfeeling.sbs
+  skip-cert-verify: true
+  tls: true
+  type: vless
+  udp: true
+  uuid: f61a4285-7264-4d07-9408-7b9ba1922c26
+  ws-opts:
+    headers:
+      host: gaosir.unfeeling.sbs
+    path: /x @节点狂魔 /
+- name: 🇺🇸_美国_54
+  network: ws
+  port: 443
+  server: 47.79.91.168
+  servername: gaosir.unfeeling.sbs
+  skip-cert-verify: true
+  tls: true
+  type: vless
+  udp: true
+  uuid: f61a4285-7264-4d07-9408-7b9ba1922c26
+  ws-opts:
+    headers:
+      host: gaosir.unfeeling.sbs
+    path: telegram@freecodes/?ed=2560
+- name: 🇯🇵_日本_12
+  network: ws
+  port: 19842
+  server: 121.85.55.59
+  servername: gaosir.unfeeling.sbs
+  skip-cert-verify: true
+  tls: true
+  type: vless
+  udp: true
+  uuid: f61a4285-7264-4d07-9408-7b9ba1922c26
+  ws-opts:
+    headers:
+      host: gaosir.unfeeling.sbs
+    path: telegram @freecodes /?ed=2560
+- name: 🇨🇳_中国_11
+  network: ws
+  port: 7000
+  server: 175.29.23.5
+  servername: gaosir.unfeeling.sbs
+  skip-cert-verify: true
+  tls: true
+  type: vless
+  udp: true
+  uuid: f61a4285-7264-4d07-9408-7b9ba1922c26
+  ws-opts:
+    headers:
+      host: gaosir.unfeeling.sbs
+    path: /x@节点狂魔/?ed=2560
+- name: 🇺🇸_美国_55
+  network: ws
+  port: 443
+  server: 192.46.231.158
+  servername: vless.pengjiajin.sbs
+  skip-cert-verify: true
+  tls: true
+  type: vless
+  udp: true
+  uuid: 64bf9c97-212c-4814-ad17-f8539b53a8bd
+  ws-opts:
+    headers:
+      host: vless.pengjiajin.sbs
+    path: 节点狂魔@节点狂魔/?ed=2560
+- name: 🇯🇵_日本_13
+  network: ws
+  port: 19842
+  server: 121.85.55.59
+  servername: vless.pengjiajin.sbs
+  skip-cert-verify: true
+  tls: true
+  type: vless
+  udp: true
+  uuid: 64bf9c97-212c-4814-ad17-f8539b53a8bd
+  ws-opts:
+    headers:
+      host: vless.pengjiajin.sbs
+    path: 节点狂魔 @节点狂魔 /?ed=2560
+- name: 🇯🇵_日本_14
+  network: ws
+  port: 443
+  server: 132.145.115.62
+  servername: gaosir.unfeeling.sbs
+  skip-cert-verify: true
+  tls: true
+  type: vless
+  udp: true
+  uuid: f61a4285-7264-4d07-9408-7b9ba1922c26
+  ws-opts:
+    headers:
+      host: gaosir.unfeeling.sbs
+    path: /x @节点狂魔 /
+- name: 🇯🇵_日本_15
+  network: ws
+  port: 443
+  server: 160.22.79.155
+  servername: gaosir.unfeeling.sbs
+  skip-cert-verify: true
+  tls: true
+  type: vless
+  udp: true
+  uuid: f61a4285-7264-4d07-9408-7b9ba1922c26
+  ws-opts:
+    headers:
+      host: gaosir.unfeeling.sbs
+    path: telegram@freecodes/?ed=2560
+- name: 🇨🇳_中国_12
+  network: ws
+  port: 81
+  server: 210.61.97.241
+  servername: gaosir.unfeeling.sbs
+  skip-cert-verify: true
+  tls: true
+  type: vless
+  udp: true
+  uuid: f61a4285-7264-4d07-9408-7b9ba1922c26
+  ws-opts:
+    headers:
+      host: gaosir.unfeeling.sbs
+    path: x@节点狂魔/?ed=2560
+- name: 🇺🇸_美国_56
+  network: ws
+  port: 443
+  server: 139.177.185.196
+  servername: gaosir.unfeeling.sbs
+  skip-cert-verify: true
+  tls: true
+  type: vless
+  udp: true
+  uuid: f61a4285-7264-4d07-9408-7b9ba1922c26
+  ws-opts:
+    headers:
+      host: gaosir.unfeeling.sbs
+    path: telegram @freecodes /?ed=2560
+- name: 🇯🇵_日本_16
+  network: ws
+  port: 12553
+  server: 113.37.149.36
+  servername: gaosir.unfeeling.sbs
+  skip-cert-verify: true
+  tls: true
+  type: vless
+  udp: true
+  uuid: f61a4285-7264-4d07-9408-7b9ba1922c26
+  ws-opts:
+    headers:
+      host: gaosir.unfeeling.sbs
+    path: x @节点狂魔 /?ed=2560
+- name: 🇯🇵_日本_17
+  network: ws
+  port: 443
+  server: 172.105.209.25
+  servername: gaosir.unfeeling.sbs
+  skip-cert-verify: true
+  tls: true
+  type: vless
+  udp: true
+  uuid: f61a4285-7264-4d07-9408-7b9ba1922c26
+  ws-opts:
+    headers:
+      host: gaosir.unfeeling.sbs
+    path: telegram @freecodes /?ed=2560
+- name: 🇺🇸_美国_57
+  network: ws
+  port: 27446
+  server: 138.2.10.217
+  servername: gaosir.unfeeling.sbs
+  skip-cert-verify: true
+  tls: true
+  type: vless
+  udp: true
+  uuid: f61a4285-7264-4d07-9408-7b9ba1922c26
+  ws-opts:
+    headers:
+      host: gaosir.unfeeling.sbs
+    path: /x @节点狂魔 /
+- name: 🇺🇸_美国_58
+  network: ws
+  port: 443
+  server: 155.248.181.189
+  servername: gaosir.unfeeling.sbs
+  skip-cert-verify: true
+  tls: true
+  type: vless
+  udp: true
+  uuid: f61a4285-7264-4d07-9408-7b9ba1922c26
+  ws-opts:
+    headers:
+      host: gaosir.unfeeling.sbs
+    path: /x @节点狂魔 /
+- name: 🇯🇵_日本_18
+  network: ws
+  port: 443
+  server: 172.105.199.168
+  servername: gaosir.unfeeling.sbs
+  skip-cert-verify: true
+  tls: true
+  type: vless
+  udp: true
+  uuid: f61a4285-7264-4d07-9408-7b9ba1922c26
+  ws-opts:
+    headers:
+      host: gaosir.unfeeling.sbs
+    path: /x @节点狂魔 /
+- name: 🇺🇸_美国_59
+  network: ws
+  port: 27446
+  server: 138.2.10.217
+  servername: gaosir.unfeeling.sbs
+  skip-cert-verify: true
+  tls: true
+  type: vless
+  udp: true
+  uuid: f61a4285-7264-4d07-9408-7b9ba1922c26
+  ws-opts:
+    headers:
+      host: gaosir.unfeeling.sbs
+    path: /x @节点狂魔 /
+- name: 🇸🇪_瑞典_5
+  network: ws
+  port: 443
+  server: 141.147.168.141
+  servername: gaosir.unfeeling.sbs
+  skip-cert-verify: true
+  tls: true
+  type: vless
+  udp: true
+  uuid: f61a4285-7264-4d07-9408-7b9ba1922c26
+  ws-opts:
+    headers:
+      host: gaosir.unfeeling.sbs
+    path: /x @节点狂魔 /
+- name: 🇨🇭_瑞士_3
+  network: ws
+  port: 55007
+  server: 64.110.101.90
+  servername: gaosir.unfeeling.sbs
+  skip-cert-verify: true
+  tls: true
+  type: vless
+  udp: true
+  uuid: f61a4285-7264-4d07-9408-7b9ba1922c26
+  ws-opts:
+    headers:
+      host: gaosir.unfeeling.sbs
+    path: x @节点狂魔 /?ed=2560
+- name: 🇯🇵_日本_19
+  network: ws
+  port: 443
+  server: 139.162.106.22
+  servername: gaosir.unfeeling.sbs
+  skip-cert-verify: true
+  tls: true
+  type: vless
+  udp: true
+  uuid: f61a4285-7264-4d07-9408-7b9ba1922c26
+  ws-opts:
+    headers:
+      host: gaosir.unfeeling.sbs
+    path: /x @节点狂魔 /
+- name: 🇯🇵_日本_20
+  network: ws
+  port: 443
+  server: 193.123.161.116
+  servername: gaosir.unfeeling.sbs
+  skip-cert-verify: true
+  tls: true
+  type: vless
+  udp: true
+  uuid: f61a4285-7264-4d07-9408-7b9ba1922c26
+  ws-opts:
+    headers:
+      host: gaosir.unfeeling.sbs
+    path: x @节点狂魔 /?ed=2560
+- name: 🇺🇸_美国_60
+  network: ws
+  port: 443
+  server: 47.239.183.154
+  servername: vless.pengjiajin.sbs
+  skip-cert-verify: true
+  tls: true
+  type: vless
+  udp: true
+  uuid: 64bf9c97-212c-4814-ad17-f8539b53a8bd
+  ws-opts:
+    headers:
+      host: vless.pengjiajin.sbs
+    path: telegram@freecodes/?ed=2560
+- name: 🇺🇸_美国_61
+  network: ws
+  port: 443
+  server: 47.79.35.191
+  servername: gaosir.unfeeling.sbs
+  skip-cert-verify: true
+  tls: true
+  type: vless
+  udp: true
+  uuid: f61a4285-7264-4d07-9408-7b9ba1922c26
+  ws-opts:
+    headers:
+      host: gaosir.unfeeling.sbs
+    path: /x @节点狂魔 /
+- name: 🇯🇵_日本_21
+  network: ws
+  port: 443
+  server: 158.101.80.84
+  servername: gaosir.unfeeling.sbs
+  skip-cert-verify: true
+  tls: true
+  type: vless
+  udp: true
+  uuid: f61a4285-7264-4d07-9408-7b9ba1922c26
+  ws-opts:
+    headers:
+      host: gaosir.unfeeling.sbs
+    path: telegram @freecodes /?ed=2560
+- name: 🇦🇺_澳大利亚_5
+  network: ws
+  port: 25965
+  server: 140.83.57.114
+  servername: gaosir.unfeeling.sbs
+  skip-cert-verify: true
+  tls: true
+  type: vless
+  udp: true
+  uuid: f61a4285-7264-4d07-9408-7b9ba1922c26
+  ws-opts:
+    headers:
+      host: gaosir.unfeeling.sbs
+    path: /x @节点狂魔 /
+- name: 🇯🇵_日本_22
+  network: ws
+  port: 443
+  server: 160.16.203.210
+  servername: gaosir.unfeeling.sbs
+  skip-cert-verify: true
+  tls: true
+  type: vless
+  udp: true
+  uuid: f61a4285-7264-4d07-9408-7b9ba1922c26
+  ws-opts:
+    headers:
+      host: gaosir.unfeeling.sbs
+    path: /x@节点狂魔/
+- name: 🇦🇺_澳大利亚_6
+  network: ws
+  port: 25965
+  server: 140.83.57.114
+  servername: gaosir.unfeeling.sbs
+  skip-cert-verify: true
+  tls: true
+  type: vless
+  udp: true
+  uuid: f61a4285-7264-4d07-9408-7b9ba1922c26
+  ws-opts:
+    headers:
+      host: gaosir.unfeeling.sbs
+    path: /x @节点狂魔 /
+- name: 🇰🇷_韩国_1
+  network: ws
+  port: 12180
+  server: 175.215.205.40
+  servername: vless.pengjiajin.sbs
+  skip-cert-verify: true
+  tls: true
+  type: vless
+  udp: true
+  uuid: 64bf9c97-212c-4814-ad17-f8539b53a8bd
+  ws-opts:
+    headers:
+      host: vless.pengjiajin.sbs
+    path: freecodes @节点狂魔 /?ed=2560
+- name: 🇰🇷_韩国_2
+  network: ws
+  port: 12159
+  server: 121.183.90.210
+  servername: gaosir.unfeeling.sbs
+  skip-cert-verify: true
+  tls: true
+  type: vless
+  udp: true
+  uuid: f61a4285-7264-4d07-9408-7b9ba1922c26
+  ws-opts:
+    headers:
+      host: gaosir.unfeeling.sbs
+    path: x @节点狂魔 /?ed=2560
+- name: 🇦🇺_澳大利亚_7
+  network: ws
+  port: 54322
+  server: 140.83.57.86
+  servername: gaosir.unfeeling.sbs
+  skip-cert-verify: true
+  tls: true
+  type: vless
+  udp: true
+  uuid: f61a4285-7264-4d07-9408-7b9ba1922c26
+  ws-opts:
+    headers:
+      host: gaosir.unfeeling.sbs
+    path: /x @节点狂魔 /
+- name: 🇸🇪_瑞典_6
+  network: ws
+  port: 443
+  server: 217.142.226.168
+  servername: gaosir.unfeeling.sbs
+  skip-cert-verify: true
+  tls: true
+  type: vless
+  udp: true
+  uuid: f61a4285-7264-4d07-9408-7b9ba1922c26
+  ws-opts:
+    headers:
+      host: gaosir.unfeeling.sbs
+    path: telegram @freecodes /?ed=2560
+- name: 🇰🇷_韩国_3
+  network: ws
+  port: 65432
+  server: 103.86.44.120
+  servername: gaosir.unfeeling.sbs
+  skip-cert-verify: true
+  tls: true
+  type: vless
+  udp: true
+  uuid: f61a4285-7264-4d07-9408-7b9ba1922c26
+  ws-opts:
+    headers:
+      host: gaosir.unfeeling.sbs
+    path: telegram @freecodes /?ed=2560
+- name: 🇬🇧_英国_5
+  network: ws
+  port: 443
+  server: 138.3.222.33
+  servername: gaosir.unfeeling.sbs
+  skip-cert-verify: true
+  tls: true
+  type: vless
+  udp: true
+  uuid: f61a4285-7264-4d07-9408-7b9ba1922c26
+  ws-opts:
+    headers:
+      host: gaosir.unfeeling.sbs
+    path: /telegram@freecodes/?ed=2560
+- name: 🇰🇷_韩国_4
+  network: ws
+  port: 15555
+  server: 121.181.118.220
+  servername: gaosir.unfeeling.sbs
+  skip-cert-verify: true
+  tls: true
+  type: vless
+  udp: true
+  uuid: f61a4285-7264-4d07-9408-7b9ba1922c26
+  ws-opts:
+    headers:
+      host: gaosir.unfeeling.sbs
+    path: telegram @freecodes /?ed=2560
+- name: 🇸🇪_瑞典_7
+  network: ws
+  port: 443
+  server: 217.142.236.93
+  servername: vless.pengjiajin.sbs
+  skip-cert-verify: true
+  tls: true
+  type: vless
+  udp: true
+  uuid: 64bf9c97-212c-4814-ad17-f8539b53a8bd
+  ws-opts:
+    headers:
+      host: vless.pengjiajin.sbs
+    path: telegram@freecodes/?ed=2560
+- name: 🇦🇺_澳大利亚_8
+  network: ws
+  port: 18443
+  server: 140.83.60.81
+  servername: gaosir.unfeeling.sbs
+  skip-cert-verify: true
+  tls: true
+  type: vless
+  udp: true
+  uuid: f61a4285-7264-4d07-9408-7b9ba1922c26
+  ws-opts:
+    headers:
+      host: gaosir.unfeeling.sbs
+    path: x @节点狂魔 /?ed=2560
+- name: 🇰🇷_韩国_5
+  network: ws
+  port: 20880
+  server: 218.148.106.45
+  servername: gaosir.unfeeling.sbs
+  skip-cert-verify: true
+  tls: true
+  type: vless
+  udp: true
+  uuid: f61a4285-7264-4d07-9408-7b9ba1922c26
+  ws-opts:
+    headers:
+      host: gaosir.unfeeling.sbs
+    path: telegram @freecodes /?ed=2560
+- name: 🇸🇪_瑞典_8
+  network: ws
+  port: 587
+  server: 217.142.250.195
+  servername: vless.pengjiajin.sbs
+  skip-cert-verify: true
+  tls: true
+  type: vless
+  udp: true
+  uuid: 64bf9c97-212c-4814-ad17-f8539b53a8bd
+  ws-opts:
+    headers:
+      host: vless.pengjiajin.sbs
+    path: telegram@freecodes/?ed=2560
+- name: 🇺🇸_美国_62
+  network: ws
+  port: 2096
+  server: www.speedtest.net
+  servername: jh2msivc7ik13k3brrox9pa4n0od1u06.pages.dev
+  skip-cert-verify: true
+  tls: true
+  type: vless
+  udp: true
+  uuid: 18bb1b1d-16a2-4ba7-ab27-9720c9f4a875
+  ws-opts:
+    headers:
+      host: jh2msivc7ik13k3brrox9pa4n0od1u06.pages.dev
+    path: /
+- name: 🇦🇺_澳大利亚_9
+  network: ws
+  port: 18443
+  server: 140.83.60.81
+  servername: gaosir.unfeeling.sbs
+  skip-cert-verify: true
+  tls: true
+  type: vless
+  udp: true
+  uuid: f61a4285-7264-4d07-9408-7b9ba1922c26
+  ws-opts:
+    headers:
+      host: gaosir.unfeeling.sbs
+    path: telegram @freecodes /?ed=2560
+- name: 🇰🇷_韩国_6
+  network: ws
+  port: 50001
+  server: 61.35.221.254
+  servername: vless.pengjiajin.sbs
+  skip-cert-verify: true
+  tls: true
+  type: vless
+  udp: true
+  uuid: 64bf9c97-212c-4814-ad17-f8539b53a8bd
+  ws-opts:
+    headers:
+      host: vless.pengjiajin.sbs
+    path: freecodes @节点狂魔 /?ed=2560
+- name: 🇰🇷_韩国_7
+  network: ws
+  port: 10162
+  server: 121.178.12.27
+  servername: gaosir.unfeeling.sbs
+  skip-cert-verify: true
+  tls: true
+  type: vless
+  udp: true
+  uuid: f61a4285-7264-4d07-9408-7b9ba1922c26
+  ws-opts:
+    headers:
+      host: gaosir.unfeeling.sbs
+    path: telegram @freecodes /?ed=2560
+- name: 🇺🇸_美国_63
+  network: ws
+  port: 443
+  server: 158.178.229.178
+  servername: vless.pengjiajin.sbs
+  skip-cert-verify: true
+  tls: true
+  type: vless
+  udp: true
+  uuid: 64bf9c97-212c-4814-ad17-f8539b53a8bd
+  ws-opts:
+    headers:
+      host: vless.pengjiajin.sbs
+    path: x@节点狂魔/?ed=2560
+- name: 🇰🇷_韩国_8
+  network: ws
+  port: 50001
+  server: 1.212.245.124
+  servername: gaosir.unfeeling.sbs
+  skip-cert-verify: true
+  tls: true
+  type: vless
+  udp: true
+  uuid: f61a4285-7264-4d07-9408-7b9ba1922c26
+  ws-opts:
+    headers:
+      host: gaosir.unfeeling.sbs
+    path: x @节点狂魔 /?ed=2560
+- name: 🇰🇷_韩国_9
+  network: ws
+  port: 50001
+  server: 117.20.214.102
+  servername: gaosir.unfeeling.sbs
+  skip-cert-verify: true
+  tls: true
+  type: vless
+  udp: true
+  uuid: f61a4285-7264-4d07-9408-7b9ba1922c26
+  ws-opts:
+    headers:
+      host: gaosir.unfeeling.sbs
+    path: telegram @freecodes /?ed=2560
+- name: 🇰🇷_韩国_10
+  network: ws
+  port: 10026
+  server: 220.80.75.163
+  servername: vless.pengjiajin.sbs
+  skip-cert-verify: true
+  tls: true
+  type: vless
+  udp: true
+  uuid: 64bf9c97-212c-4814-ad17-f8539b53a8bd
+  ws-opts:
+    headers:
+      host: vless.pengjiajin.sbs
+    path: freecodes@节点狂魔/?ed=2560
+- name: 🇯🇵_日本_23
+  network: ws
+  port: 443
+  server: 160.22.79.155
+  servername: gaosir.unfeeling.sbs
+  skip-cert-verify: true
+  tls: true
+  type: vless
+  udp: true
+  uuid: f61a4285-7264-4d07-9408-7b9ba1922c26
+  ws-opts:
+    headers:
+      host: gaosir.unfeeling.sbs
+    path: x@节点狂魔/?ed=2560
+- name: 🇰🇷_韩国_11
+  network: ws
+  port: 11443
+  server: 220.118.153.222
+  servername: gaosir.unfeeling.sbs
+  skip-cert-verify: true
+  tls: true
+  type: vless
+  udp: true
+  uuid: f61a4285-7264-4d07-9408-7b9ba1922c26
+  ws-opts:
+    headers:
+      host: gaosir.unfeeling.sbs
+    path: x @节点狂魔 /?ed=2560
+- name: 🇸🇪_瑞典_9
+  network: ws
+  port: 587
+  server: 217.142.250.195
+  servername: vless.pengjiajin.sbs
+  skip-cert-verify: true
+  tls: true
+  type: vless
+  udp: true
+  uuid: 64bf9c97-212c-4814-ad17-f8539b53a8bd
+  ws-opts:
+    headers:
+      host: vless.pengjiajin.sbs
+    path: freecodes @节点狂魔 /?ed=2560
+- name: 🇨🇳_中国_13
+  network: ws
+  port: 35951
+  server: 36.50.90.241
+  servername: gaosir.unfeeling.sbs
+  skip-cert-verify: true
+  tls: true
+  type: vless
+  udp: true
+  uuid: f61a4285-7264-4d07-9408-7b9ba1922c26
+  ws-opts:
+    headers:
+      host: gaosir.unfeeling.sbs
+    path: telegram@freecodes/?ed=2560
+- name: 🇨🇭_瑞士_4
+  network: ws
+  port: 443
+  server: 64.110.106.47
+  servername: vless.pengjiajin.sbs
+  skip-cert-verify: true
+  tls: true
+  type: vless
+  udp: true
+  uuid: 64bf9c97-212c-4814-ad17-f8539b53a8bd
+  ws-opts:
+    headers:
+      host: vless.pengjiajin.sbs
+    path: telegram@freecodes/?ed=2560
+- name: 🇰🇷_韩国_12
+  network: ws
+  port: 10058
+  server: 59.19.192.51
+  servername: gaosir.unfeeling.sbs
+  skip-cert-verify: true
+  tls: true
+  type: vless
+  udp: true
+  uuid: f61a4285-7264-4d07-9408-7b9ba1922c26
+  ws-opts:
+    headers:
+      host: gaosir.unfeeling.sbs
+    path: x @节点狂魔 /?ed=2560
+- name: 🇰🇷_韩国_13
+  network: ws
+  port: 33817
+  server: 121.167.16.189
+  servername: vless.pengjiajin.sbs
+  skip-cert-verify: true
+  tls: true
+  type: vless
+  udp: true
+  uuid: 64bf9c97-212c-4814-ad17-f8539b53a8bd
+  ws-opts:
+    headers:
+      host: vless.pengjiajin.sbs
+    path: 节点狂魔 @节点狂魔 /?ed=2560
+- name: 🇰🇷_韩国_14
+  network: ws
+  port: 22577
+  server: 49.174.170.115
+  servername: gaosir.unfeeling.sbs
+  skip-cert-verify: true
+  tls: true
+  type: vless
+  udp: true
+  uuid: f61a4285-7264-4d07-9408-7b9ba1922c26
+  ws-opts:
+    headers:
+      host: gaosir.unfeeling.sbs
+    path: telegram @freecodes /?ed=2560
+- name: 🇰🇷_韩国_15
+  network: ws
+  port: 10058
+  server: 59.19.192.51
+  servername: vless.pengjiajin.sbs
+  skip-cert-verify: true
+  tls: true
+  type: vless
+  udp: true
+  uuid: 64bf9c97-212c-4814-ad17-f8539b53a8bd
+  ws-opts:
+    headers:
+      host: vless.pengjiajin.sbs
+    path: telegram@freecodes/?ed=2560
+- name: 🇰🇷_韩国_16
+  network: ws
+  port: 15555
+  server: 121.181.118.220
+  servername: gaosir.unfeeling.sbs
+  skip-cert-verify: true
+  tls: true
+  type: vless
+  udp: true
+  uuid: f61a4285-7264-4d07-9408-7b9ba1922c26
+  ws-opts:
+    headers:
+      host: gaosir.unfeeling.sbs
+    path: /x @节点狂魔 /
+- name: 🇰🇷_韩国_17
+  network: ws
+  port: 16923
+  server: 183.104.0.181
+  servername: gaosir.unfeeling.sbs
+  skip-cert-verify: true
+  tls: true
+  type: vless
+  udp: true
+  uuid: f61a4285-7264-4d07-9408-7b9ba1922c26
+  ws-opts:
+    headers:
+      host: gaosir.unfeeling.sbs
+    path: /x @节点狂魔 /
+- name: 🇰🇷_韩国_18
+  network: ws
+  port: 11443
+  server: 220.118.153.222
+  servername: gaosir.unfeeling.sbs
+  skip-cert-verify: true
+  tls: true
+  type: vless
+  udp: true
+  uuid: f61a4285-7264-4d07-9408-7b9ba1922c26
+  ws-opts:
+    headers:
+      host: gaosir.unfeeling.sbs
+    path: telegram @freecodes /?ed=2560
+- name: 🇰🇷_韩国_19
+  network: ws
+  port: 24442
+  server: 58.151.107.230
+  servername: gaosir.unfeeling.sbs
+  skip-cert-verify: true
+  tls: true
+  type: vless
+  udp: true
+  uuid: f61a4285-7264-4d07-9408-7b9ba1922c26
+  ws-opts:
+    headers:
+      host: gaosir.unfeeling.sbs
+    path: x @节点狂魔 /?ed=2560
+- name: 🇰🇷_韩国_20
+  network: ws
+  port: 34599
+  server: 183.106.76.116
+  servername: gaosir.unfeeling.sbs
+  skip-cert-verify: true
+  tls: true
+  type: vless
+  udp: true
+  uuid: f61a4285-7264-4d07-9408-7b9ba1922c26
+  ws-opts:
+    headers:
+      host: gaosir.unfeeling.sbs
+    path: x @节点狂魔 /?ed=2560
+- name: 🇰🇷_韩国_21
+  network: ws
+  port: 60001
+  server: 119.65.139.101
+  servername: gaosir.unfeeling.sbs
+  skip-cert-verify: true
+  tls: true
+  type: vless
+  udp: true
+  uuid: f61a4285-7264-4d07-9408-7b9ba1922c26
+  ws-opts:
+    headers:
+      host: gaosir.unfeeling.sbs
+    path: /x@节点狂魔/?ed=2560
+- name: 🇯🇵_日本_24
+  network: ws
+  port: 12553
+  server: 113.37.149.36
+  servername: vless.pengjiajin.sbs
+  skip-cert-verify: true
+  tls: true
+  type: vless
+  udp: true
+  uuid: 64bf9c97-212c-4814-ad17-f8539b53a8bd
+  ws-opts:
+    headers:
+      host: vless.pengjiajin.sbs
+    path: freecodes @节点狂魔 /?ed=2560
+- name: 🇰🇷_韩国_22
+  network: ws
+  port: 50001
+  server: 106.240.137.36
+  servername: gaosir.unfeeling.sbs
+  skip-cert-verify: true
+  tls: true
+  type: vless
+  udp: true
+  uuid: f61a4285-7264-4d07-9408-7b9ba1922c26
+  ws-opts:
+    headers:
+      host: gaosir.unfeeling.sbs
+    path: x @节点狂魔 /?ed=2560
+- name: 🇰🇷_韩国_23
+  network: ws
+  port: 50001
+  server: 122.47.74.139
+  servername: gaosir.unfeeling.sbs
+  skip-cert-verify: true
+  tls: true
+  type: vless
+  udp: true
+  uuid: f61a4285-7264-4d07-9408-7b9ba1922c26
+  ws-opts:
+    headers:
+      host: gaosir.unfeeling.sbs
+    path: x @节点狂魔 /?ed=2560
+- name: 🇰🇷_韩国_24
+  network: ws
+  port: 50001
+  server: 61.74.149.202
+  servername: gaosir.unfeeling.sbs
+  skip-cert-verify: true
+  tls: true
+  type: vless
+  udp: true
+  uuid: f61a4285-7264-4d07-9408-7b9ba1922c26
+  ws-opts:
+    headers:
+      host: gaosir.unfeeling.sbs
+    path: x@节点狂魔/?ed=2560
+- name: 🇯🇵_日本_25
+  network: ws
+  port: 443
+  server: 160.22.79.179
+  servername: vless.pengjiajin.sbs
+  skip-cert-verify: true
+  tls: true
+  type: vless
+  udp: true
+  uuid: 64bf9c97-212c-4814-ad17-f8539b53a8bd
+  ws-opts:
+    headers:
+      host: vless.pengjiajin.sbs
+    path: telegram@freecodes/?ed=2560
+- name: 🇰🇷_韩国_25
+  network: ws
+  port: 50000
+  server: 121.167.15.173
+  servername: gaosir.unfeeling.sbs
+  skip-cert-verify: true
+  tls: true
+  type: vless
+  udp: true
+  uuid: f61a4285-7264-4d07-9408-7b9ba1922c26
+  ws-opts:
+    headers:
+      host: gaosir.unfeeling.sbs
+    path: telegram @freecodes /?ed=2560
+- name: 🇺🇸_美国_64
+  network: ws
+  port: 443
+  server: 138.2.16.61
+  servername: gaosir.unfeeling.sbs
+  skip-cert-verify: true
+  tls: true
+  type: vless
+  udp: true
+  uuid: f61a4285-7264-4d07-9408-7b9ba1922c26
+  ws-opts:
+    headers:
+      host: gaosir.unfeeling.sbs
+    path: telegram@freecodes/?ed=2560
+- name: 🇫🇷_法国_10
+  network: ws
+  port: 12082
+  server: 141.11.149.195
+  servername: gaosir.unfeeling.sbs
+  skip-cert-verify: true
+  tls: true
+  type: vless
+  udp: true
+  uuid: f61a4285-7264-4d07-9408-7b9ba1922c26
+  ws-opts:
+    headers:
+      host: gaosir.unfeeling.sbs
+    path: telegram@freecodes/?ed=2560
+- name: 🇰🇷_韩国_26
+  network: ws
+  port: 10030
+  server: 119.195.168.105
+  servername: gaosir.unfeeling.sbs
+  skip-cert-verify: true
+  tls: true
+  type: vless
+  udp: true
+  uuid: f61a4285-7264-4d07-9408-7b9ba1922c26
+  ws-opts:
+    headers:
+      host: gaosir.unfeeling.sbs
+    path: x @节点狂魔 /?ed=2560
+- name: 🇰🇷_韩国_27
+  network: ws
+  port: 12336
+  server: 119.195.168.105
+  servername: gaosir.unfeeling.sbs
+  skip-cert-verify: true
+  tls: true
+  type: vless
+  udp: true
+  uuid: f61a4285-7264-4d07-9408-7b9ba1922c26
+  ws-opts:
+    headers:
+      host: gaosir.unfeeling.sbs
+    path: telegram @freecodes /?ed=2560
+- name: 🇰🇷_韩国_28
+  network: ws
+  port: 12236
+  server: 220.118.109.204
+  servername: gaosir.unfeeling.sbs
+  skip-cert-verify: true
+  tls: true
+  type: vless
+  udp: true
+  uuid: f61a4285-7264-4d07-9408-7b9ba1922c26
+  ws-opts:
+    headers:
+      host: gaosir.unfeeling.sbs
+    path: telegram @freecodes /?ed=2560
+- name: 🇰🇷_韩国_29
+  network: ws
+  port: 50000
+  server: 14.33.140.80
+  servername: gaosir.unfeeling.sbs
+  skip-cert-verify: true
+  tls: true
+  type: vless
+  udp: true
+  uuid: f61a4285-7264-4d07-9408-7b9ba1922c26
+  ws-opts:
+    headers:
+      host: gaosir.unfeeling.sbs
+    path: telegram @freecodes /?ed=2560
+- name: 🇺🇸_美国_65
+  network: ws
+  port: 2096
+  server: 150.230.196.57
+  servername: gaosir.unfeeling.sbs
+  skip-cert-verify: true
+  tls: true
+  type: vless
+  udp: true
+  uuid: f61a4285-7264-4d07-9408-7b9ba1922c26
+  ws-opts:
+    headers:
+      host: gaosir.unfeeling.sbs
+    path: telegram @freecodes /?ed=2560
+- name: 🇰🇷_韩国_30
+  network: ws
+  port: 10200
+  server: 119.195.168.105
+  servername: vless.pengjiajin.sbs
+  skip-cert-verify: true
+  tls: true
+  type: vless
+  udp: true
+  uuid: 64bf9c97-212c-4814-ad17-f8539b53a8bd
+  ws-opts:
+    headers:
+      host: vless.pengjiajin.sbs
+    path: freecodes@节点狂魔/?ed=2560
+- name: 🇰🇷_韩国_31
+  network: ws
+  port: 30067
+  server: 112.156.154.95
+  servername: gaosir.unfeeling.sbs
+  skip-cert-verify: true
+  tls: true
+  type: vless
+  udp: true
+  uuid: f61a4285-7264-4d07-9408-7b9ba1922c26
+  ws-opts:
+    headers:
+      host: gaosir.unfeeling.sbs
+    path: telegram @freecodes /?ed=2560
+- name: 🇬🇧_英国_6
+  network: ws
+  port: 443
+  server: 158.179.173.208
+  servername: vless.pengjiajin.sbs
+  skip-cert-verify: true
+  tls: true
+  type: vless
+  udp: true
+  uuid: 64bf9c97-212c-4814-ad17-f8539b53a8bd
+  ws-opts:
+    headers:
+      host: vless.pengjiajin.sbs
+    path: freecodes @节点狂魔 /?ed=2560
+- name: 🇰🇷_韩国_32
+  network: ws
+  port: 22577
+  server: 49.174.170.115
+  servername: gaosir.unfeeling.sbs
+  skip-cert-verify: true
+  tls: true
+  type: vless
+  udp: true
+  uuid: f61a4285-7264-4d07-9408-7b9ba1922c26
+  ws-opts:
+    headers:
+      host: gaosir.unfeeling.sbs
+    path: x@节点狂魔/?ed=2560
+- name: 🇰🇷_韩国_33
+  network: ws
+  port: 50001
+  server: 220.90.247.28
+  servername: gaosir.unfeeling.sbs
+  skip-cert-verify: true
+  tls: true
+  type: vless
+  udp: true
+  uuid: f61a4285-7264-4d07-9408-7b9ba1922c26
+  ws-opts:
+    headers:
+      host: gaosir.unfeeling.sbs
+    path: telegram @freecodes /?ed=2560
+- name: 🇰🇷_韩国_34
+  network: ws
+  port: 50001
+  server: 58.76.69.164
+  servername: gaosir.unfeeling.sbs
+  skip-cert-verify: true
+  tls: true
+  type: vless
+  udp: true
+  uuid: f61a4285-7264-4d07-9408-7b9ba1922c26
+  ws-opts:
+    headers:
+      host: gaosir.unfeeling.sbs
+    path: telegram @freecodes /?ed=2560
+- name: 🇰🇷_韩国_35
+  network: ws
+  port: 50002
+  server: 121.145.253.124
+  servername: gaosir.unfeeling.sbs
+  skip-cert-verify: true
+  tls: true
+  type: vless
+  udp: true
+  uuid: f61a4285-7264-4d07-9408-7b9ba1922c26
+  ws-opts:
+    headers:
+      host: gaosir.unfeeling.sbs
+    path: telegram @freecodes /?ed=2560
+- name: 🇰🇷_韩国_36
+  network: ws
+  port: 50001
+  server: 125.141.38.50
+  servername: gaosir.unfeeling.sbs
+  skip-cert-verify: true
+  tls: true
+  type: vless
+  udp: true
+  uuid: f61a4285-7264-4d07-9408-7b9ba1922c26
+  ws-opts:
+    headers:
+      host: gaosir.unfeeling.sbs
+    path: telegram @freecodes /?ed=2560
+- name: 🇰🇷_韩国_37
+  network: ws
+  port: 50001
+  server: 58.76.69.164
+  servername: gaosir.unfeeling.sbs
+  skip-cert-verify: true
+  tls: true
+  type: vless
+  udp: true
+  uuid: f61a4285-7264-4d07-9408-7b9ba1922c26
+  ws-opts:
+    headers:
+      host: gaosir.unfeeling.sbs
+    path: telegram @freecodes /?ed=2560
+- name: 🇰🇷_韩国_38
+  network: ws
+  port: 50001
+  server: 59.3.62.251
+  servername: gaosir.unfeeling.sbs
+  skip-cert-verify: true
+  tls: true
+  type: vless
+  udp: true
+  uuid: f61a4285-7264-4d07-9408-7b9ba1922c26
+  ws-opts:
+    headers:
+      host: gaosir.unfeeling.sbs
+    path: x @节点狂魔 /?ed=2560
+- name: 🇰🇷_韩国_39
+  network: ws
+  port: 50001
+  server: 220.72.245.245
+  servername: gaosir.unfeeling.sbs
+  skip-cert-verify: true
+  tls: true
+  type: vless
+  udp: true
+  uuid: f61a4285-7264-4d07-9408-7b9ba1922c26
+  ws-opts:
+    headers:
+      host: gaosir.unfeeling.sbs
+    path: x @节点狂魔 /?ed=2560
+- name: 🇰🇷_韩国_40
+  network: ws
+  port: 12247
+  server: 59.1.166.218
+  servername: gaosir.unfeeling.sbs
+  skip-cert-verify: true
+  tls: true
+  type: vless
+  udp: true
+  uuid: f61a4285-7264-4d07-9408-7b9ba1922c26
+  ws-opts:
+    headers:
+      host: gaosir.unfeeling.sbs
+    path: telegram @freecodes /?ed=2560
+- name: 🇯🇵_日本_26
+  network: ws
+  port: 443
+  server: 160.22.79.155
+  servername: gaosir.unfeeling.sbs
+  skip-cert-verify: true
+  tls: true
+  type: vless
+  udp: true
+  uuid: f61a4285-7264-4d07-9408-7b9ba1922c26
+  ws-opts:
+    headers:
+      host: gaosir.unfeeling.sbs
+    path: x@节点狂魔/?ed=2560
+- name: 🇰🇷_韩国_41
+  network: ws
+  port: 50001
+  server: 125.141.38.50
+  servername: gaosir.unfeeling.sbs
+  skip-cert-verify: true
+  tls: true
+  type: vless
+  udp: true
+  uuid: f61a4285-7264-4d07-9408-7b9ba1922c26
+  ws-opts:
+    headers:
+      host: gaosir.unfeeling.sbs
+    path: x @节点狂魔 /?ed=2560
+- name: 🇫🇷_法国_11
+  network: ws
+  port: 12082
+  server: 141.11.149.195
+  servername: gaosir.unfeeling.sbs
+  skip-cert-verify: true
+  tls: true
+  type: vless
+  udp: true
+  uuid: f61a4285-7264-4d07-9408-7b9ba1922c26
+  ws-opts:
+    headers:
+      host: gaosir.unfeeling.sbs
+    path: telegram@freecodes/?ed=2560
+- name: 🇰🇷_韩国_42
+  network: ws
+  port: 50000
+  server: 119.206.2.42
+  servername: gaosir.unfeeling.sbs
+  skip-cert-verify: true
+  tls: true
+  type: vless
+  udp: true
+  uuid: f61a4285-7264-4d07-9408-7b9ba1922c26
+  ws-opts:
+    headers:
+      host: gaosir.unfeeling.sbs
+    path: telegram @freecodes /?ed=2560
+- name: 🇰🇷_韩国_43
+  network: ws
+  port: 22577
+  server: 49.174.170.115
+  servername: gaosir.unfeeling.sbs
+  skip-cert-verify: true
+  tls: true
+  type: vless
+  udp: true
+  uuid: f61a4285-7264-4d07-9408-7b9ba1922c26
+  ws-opts:
+    headers:
+      host: gaosir.unfeeling.sbs
+    path: /x @节点狂魔 /
+- name: 🇰🇷_韩国_44
+  network: ws
+  port: 10030
+  server: 119.195.168.105
+  servername: gaosir.unfeeling.sbs
+  skip-cert-verify: true
+  tls: true
+  type: vless
+  udp: true
+  uuid: f61a4285-7264-4d07-9408-7b9ba1922c26
+  ws-opts:
+    headers:
+      host: gaosir.unfeeling.sbs
+    path: telegram @freecodes /?ed=2560
+- name: 🇰🇷_韩国_45
+  network: ws
+  port: 50004
+  server: 121.145.201.24
+  servername: gaosir.unfeeling.sbs
+  skip-cert-verify: true
+  tls: true
+  type: vless
+  udp: true
+  uuid: f61a4285-7264-4d07-9408-7b9ba1922c26
+  ws-opts:
+    headers:
+      host: gaosir.unfeeling.sbs
+    path: telegram @freecodes /?ed=2560
+- name: 🇰🇷_韩国_46
+  network: ws
+  port: 30010
+  server: 112.173.185.16
+  servername: gaosir.unfeeling.sbs
+  skip-cert-verify: true
+  tls: true
+  type: vless
+  udp: true
+  uuid: f61a4285-7264-4d07-9408-7b9ba1922c26
+  ws-opts:
+    headers:
+      host: gaosir.unfeeling.sbs
+    path: telegram @freecodes /?ed=2560
+- name: 🇺🇸_美国_66
+  network: ws
+  port: 443
+  server: 155.248.181.189
+  servername: gaosir.unfeeling.sbs
+  skip-cert-verify: true
+  tls: true
+  type: vless
+  udp: true
+  uuid: f61a4285-7264-4d07-9408-7b9ba1922c26
+  ws-opts:
+    headers:
+      host: gaosir.unfeeling.sbs
+    path: /x@节点狂魔/
+- name: 🇰🇷_韩国_47
+  network: ws
+  port: 50001
+  server: 118.45.152.231
+  servername: gaosir.unfeeling.sbs
+  skip-cert-verify: true
+  tls: true
+  type: vless
+  udp: true
+  uuid: f61a4285-7264-4d07-9408-7b9ba1922c26
+  ws-opts:
+    headers:
+      host: gaosir.unfeeling.sbs
+    path: /x @节点狂魔 /
+- name: 🇰🇷_韩国_48
+  network: ws
+  port: 14443
+  server: 222.113.18.211
+  servername: vless.pengjiajin.sbs
+  skip-cert-verify: true
+  tls: true
+  type: vless
+  udp: true
+  uuid: 64bf9c97-212c-4814-ad17-f8539b53a8bd
+  ws-opts:
+    headers:
+      host: vless.pengjiajin.sbs
+    path: freecodes@节点狂魔/?ed=2560
+- name: 🇰🇷_韩国_49
+  network: ws
+  port: 50001
+  server: 220.72.76.25
+  servername: vless.pengjiajin.sbs
+  skip-cert-verify: true
+  tls: true
+  type: vless
+  udp: true
+  uuid: 64bf9c97-212c-4814-ad17-f8539b53a8bd
+  ws-opts:
+    headers:
+      host: vless.pengjiajin.sbs
+    path: freecodes @节点狂魔 /?ed=2560
+- name: 🇰🇷_韩国_50
+  network: ws
+  port: 16098
+  server: 111.118.118.177
+  servername: gaosir.unfeeling.sbs
+  skip-cert-verify: true
+  tls: true
+  type: vless
+  udp: true
+  uuid: f61a4285-7264-4d07-9408-7b9ba1922c26
+  ws-opts:
+    headers:
+      host: gaosir.unfeeling.sbs
+    path: telegram @freecodes /?ed=2560
+- name: 🇰🇷_韩国_51
+  network: ws
+  port: 50001
+  server: 112.218.166.156
+  servername: vless.pengjiajin.sbs
+  skip-cert-verify: true
+  tls: true
+  type: vless
+  udp: true
+  uuid: 64bf9c97-212c-4814-ad17-f8539b53a8bd
+  ws-opts:
+    headers:
+      host: vless.pengjiajin.sbs
+    path: freecodes @节点狂魔 /?ed=2560
+- name: 🇰🇷_韩国_52
+  network: ws
+  port: 33817
+  server: 121.167.16.189
+  servername: gaosir.unfeeling.sbs
+  skip-cert-verify: true
+  tls: true
+  type: vless
+  udp: true
+  uuid: f61a4285-7264-4d07-9408-7b9ba1922c26
+  ws-opts:
+    headers:
+      host: gaosir.unfeeling.sbs
+    path: telegram @freecodes /?ed=2560
+- name: 🇬🇧_英国_7
+  network: ws
+  port: 443
+  server: 144.24.73.232
+  servername: gaosir.unfeeling.sbs
+  skip-cert-verify: true
+  tls: true
+  type: vless
+  udp: true
+  uuid: f61a4285-7264-4d07-9408-7b9ba1922c26
+  ws-opts:
+    headers:
+      host: gaosir.unfeeling.sbs
+    path: /x @节点狂魔 /
+- name: 🇰🇷_韩国_53
+  network: ws
+  port: 50003
+  server: 218.154.22.99
+  servername: gaosir.unfeeling.sbs
+  skip-cert-verify: true
+  tls: true
+  type: vless
+  udp: true
+  uuid: f61a4285-7264-4d07-9408-7b9ba1922c26
+  ws-opts:
+    headers:
+      host: gaosir.unfeeling.sbs
+    path: x @节点狂魔 /?ed=2560
+- name: 🇰🇷_韩国_54
+  network: ws
+  port: 10041
+  server: 211.197.161.123
+  servername: gaosir.unfeeling.sbs
+  skip-cert-verify: true
+  tls: true
+  type: vless
+  udp: true
+  uuid: f61a4285-7264-4d07-9408-7b9ba1922c26
+  ws-opts:
+    headers:
+      host: gaosir.unfeeling.sbs
+    path: x @节点狂魔 /?ed=2560
+- name: 🇰🇷_韩国_55
+  network: ws
+  port: 50001
+  server: 106.252.245.199
+  servername: gaosir.unfeeling.sbs
+  skip-cert-verify: true
+  tls: true
+  type: vless
+  udp: true
+  uuid: f61a4285-7264-4d07-9408-7b9ba1922c26
+  ws-opts:
+    headers:
+      host: gaosir.unfeeling.sbs
+    path: x @节点狂魔 /?ed=2560
+- name: 🇰🇷_韩国_56
+  network: ws
+  port: 10013
+  server: 59.31.235.90
+  servername: gaosir.unfeeling.sbs
+  skip-cert-verify: true
+  tls: true
+  type: vless
+  udp: true
+  uuid: f61a4285-7264-4d07-9408-7b9ba1922c26
+  ws-opts:
+    headers:
+      host: gaosir.unfeeling.sbs
+    path: telegram @freecodes /?ed=2560
+- name: 🇰🇷_韩国_57
+  network: ws
+  port: 50001
+  server: 115.94.122.118
+  servername: gaosir.unfeeling.sbs
+  skip-cert-verify: true
+  tls: true
+  type: vless
+  udp: true
+  uuid: f61a4285-7264-4d07-9408-7b9ba1922c26
+  ws-opts:
+    headers:
+      host: gaosir.unfeeling.sbs
+    path: telegram @freecodes /?ed=2560
+- name: 🇰🇷_韩国_58
+  network: ws
+  port: 30051
+  server: 175.201.95.5
+  servername: gaosir.unfeeling.sbs
+  skip-cert-verify: true
+  tls: true
+  type: vless
+  udp: true
+  uuid: f61a4285-7264-4d07-9408-7b9ba1922c26
+  ws-opts:
+    headers:
+      host: gaosir.unfeeling.sbs
+    path: telegram @freecodes /?ed=2560
+- name: 🇰🇷_韩国_59
+  network: ws
+  port: 50000
+  server: 112.165.52.204
+  servername: vless.pengjiajin.sbs
+  skip-cert-verify: true
+  tls: true
+  type: vless
+  udp: true
+  uuid: 64bf9c97-212c-4814-ad17-f8539b53a8bd
+  ws-opts:
+    headers:
+      host: vless.pengjiajin.sbs
+    path: freecodes @节点狂魔 /?ed=2560
+- name: 🇰🇷_韩国_60
+  network: ws
+  port: 50001
+  server: 220.90.247.28
+  servername: gaosir.unfeeling.sbs
+  skip-cert-verify: true
+  tls: true
+  type: vless
+  udp: true
+  uuid: f61a4285-7264-4d07-9408-7b9ba1922c26
+  ws-opts:
+    headers:
+      host: gaosir.unfeeling.sbs
+    path: x@节点狂魔/?ed=2560
+- name: 🇨🇭_瑞士_5
+  network: ws
+  port: 443
+  server: 64.110.106.47
+  servername: gaosir.unfeeling.sbs
+  skip-cert-verify: true
+  tls: true
+  type: vless
+  udp: true
+  uuid: f61a4285-7264-4d07-9408-7b9ba1922c26
+  ws-opts:
+    headers:
+      host: gaosir.unfeeling.sbs
+    path: /x @节点狂魔 /
+- name: 🇰🇷_韩国_61
+  network: ws
+  port: 50000
+  server: 222.101.91.204
+  servername: gaosir.unfeeling.sbs
+  skip-cert-verify: true
+  tls: true
+  type: vless
+  udp: true
+  uuid: f61a4285-7264-4d07-9408-7b9ba1922c26
+  ws-opts:
+    headers:
+      host: gaosir.unfeeling.sbs
+    path: telegram @freecodes /?ed=2560
+- name: 🇰🇷_韩国_62
+  network: ws
+  port: 50001
+  server: 115.94.122.118
+  servername: gaosir.unfeeling.sbs
+  skip-cert-verify: true
+  tls: true
+  type: vless
+  udp: true
+  uuid: f61a4285-7264-4d07-9408-7b9ba1922c26
+  ws-opts:
+    headers:
+      host: gaosir.unfeeling.sbs
+    path: telegram @freecodes /?ed=2560
+- name: 🇰🇷_韩国_63
+  network: ws
+  port: 50001
+  server: 61.35.221.254
+  servername: gaosir.unfeeling.sbs
+  skip-cert-verify: true
+  tls: true
+  type: vless
+  udp: true
+  uuid: f61a4285-7264-4d07-9408-7b9ba1922c26
+  ws-opts:
+    headers:
+      host: gaosir.unfeeling.sbs
+    path: telegram @freecodes /?ed=2560
+- name: 🇰🇷_韩国_64
+  network: ws
+  port: 20332
+  server: 183.106.76.116
+  servername: gaosir.unfeeling.sbs
+  skip-cert-verify: true
+  tls: true
+  type: vless
+  udp: true
+  uuid: f61a4285-7264-4d07-9408-7b9ba1922c26
+  ws-opts:
+    headers:
+      host: gaosir.unfeeling.sbs
+    path: telegram @freecodes /?ed=2560
+- name: 🇰🇷_韩国_65
+  network: ws
+  port: 50003
+  server: 121.181.118.220
+  servername: gaosir.unfeeling.sbs
+  skip-cert-verify: true
+  tls: true
+  type: vless
+  udp: true
+  uuid: f61a4285-7264-4d07-9408-7b9ba1922c26
+  ws-opts:
+    headers:
+      host: gaosir.unfeeling.sbs
+    path: telegram @freecodes /?ed=2560
+- name: 🇰🇷_韩国_66
+  network: ws
+  port: 30106
+  server: 112.184.45.203
+  servername: gaosir.unfeeling.sbs
+  skip-cert-verify: true
+  tls: true
+  type: vless
+  udp: true
+  uuid: f61a4285-7264-4d07-9408-7b9ba1922c26
+  ws-opts:
+    headers:
+      host: gaosir.unfeeling.sbs
+    path: telegram @freecodes /?ed=2560
+- name: 🇰🇷_韩国_67
+  network: ws
+  port: 50000
+  server: 123.111.253.155
+  servername: gaosir.unfeeling.sbs
+  skip-cert-verify: true
+  tls: true
+  type: vless
+  udp: true
+  uuid: f61a4285-7264-4d07-9408-7b9ba1922c26
+  ws-opts:
+    headers:
+      host: gaosir.unfeeling.sbs
+    path: telegram @freecodes /?ed=2560
+- name: 🇰🇷_韩国_68
+  network: ws
+  port: 50000
+  server: 118.47.194.165
+  servername: gaosir.unfeeling.sbs
+  skip-cert-verify: true
+  tls: true
+  type: vless
+  udp: true
+  uuid: f61a4285-7264-4d07-9408-7b9ba1922c26
+  ws-opts:
+    headers:
+      host: gaosir.unfeeling.sbs
+    path: x @节点狂魔 /?ed=2560
+- name: 🇨🇳_中国_14
+  network: ws
+  port: 32003
+  server: 60.249.114.181
+  servername: gaosir.unfeeling.sbs
+  skip-cert-verify: true
+  tls: true
+  type: vless
+  udp: true
+  uuid: f61a4285-7264-4d07-9408-7b9ba1922c26
+  ws-opts:
+    headers:
+      host: gaosir.unfeeling.sbs
+    path: telegram @freecodes /?ed=2560
+- name: 🇰🇷_韩国_69
+  network: ws
+  port: 20583
+  server: 175.208.202.41
+  servername: gaosir.unfeeling.sbs
+  skip-cert-verify: true
+  tls: true
+  type: vless
+  udp: true
+  uuid: f61a4285-7264-4d07-9408-7b9ba1922c26
+  ws-opts:
+    headers:
+      host: gaosir.unfeeling.sbs
+    path: telegram @freecodes /?ed=2560
+- name: 🇰🇷_韩国_70
+  network: ws
+  port: 11413
+  server: 121.158.194.32
+  servername: gaosir.unfeeling.sbs
+  skip-cert-verify: true
+  tls: true
+  type: vless
+  udp: true
+  uuid: f61a4285-7264-4d07-9408-7b9ba1922c26
+  ws-opts:
+    headers:
+      host: gaosir.unfeeling.sbs
+    path: telegram @freecodes /?ed=2560
+- name: 🇰🇷_韩国_71
+  network: ws
+  port: 50001
+  server: 117.20.214.102
+  servername: gaosir.unfeeling.sbs
+  skip-cert-verify: true
+  tls: true
+  type: vless
+  udp: true
+  uuid: f61a4285-7264-4d07-9408-7b9ba1922c26
+  ws-opts:
+    headers:
+      host: gaosir.unfeeling.sbs
+    path: x @节点狂魔 /?ed=2560
+- name: 🇰🇷_韩国_72
+  network: ws
+  port: 50001
+  server: 61.35.221.254
+  servername: gaosir.unfeeling.sbs
+  skip-cert-verify: true
+  tls: true
+  type: vless
+  udp: true
+  uuid: f61a4285-7264-4d07-9408-7b9ba1922c26
+  ws-opts:
+    headers:
+      host: gaosir.unfeeling.sbs
+    path: x @节点狂魔 /?ed=2560
+- name: 🇸🇬_新加坡_2
+  network: ws
+  port: 2096
+  server: 185.18.184.253
+  servername: vless.muzheng.top
+  skip-cert-verify: true
+  tls: true
+  type: vless
+  udp: true
+  uuid: 7556317c-dff6-46e8-ad29-b408f2a6456e
+  ws-opts:
+    headers:
+      host: vless.muzheng.top
+    path: /telegram@freecodes/?ed=2560
+- name: 🇰🇷_韩国_73
+  network: ws
+  port: 30012
+  server: 211.105.86.219
+  servername: gaosir.unfeeling.sbs
+  skip-cert-verify: true
+  tls: true
+  type: vless
+  udp: true
+  uuid: f61a4285-7264-4d07-9408-7b9ba1922c26
+  ws-opts:
+    headers:
+      host: gaosir.unfeeling.sbs
+    path: telegram @freecodes /?ed=2560
+- name: 🇰🇷_韩国_74
+  network: ws
+  port: 30012
+  server: 211.105.86.219
+  servername: gaosir.unfeeling.sbs
+  skip-cert-verify: true
+  tls: true
+  type: vless
+  udp: true
+  uuid: f61a4285-7264-4d07-9408-7b9ba1922c26
+  ws-opts:
+    headers:
+      host: gaosir.unfeeling.sbs
+    path: x @节点狂魔 /?ed=2560
+- name: 🇰🇷_韩国_75
+  network: ws
+  port: 12312
+  server: 211.48.77.114
+  servername: gaosir.unfeeling.sbs
+  skip-cert-verify: true
+  tls: true
+  type: vless
+  udp: true
+  uuid: f61a4285-7264-4d07-9408-7b9ba1922c26
+  ws-opts:
+    headers:
+      host: gaosir.unfeeling.sbs
+    path: /x @节点狂魔 /
+- name: 🇯🇵_日本_27
+  network: ws
+  port: 20443
+  server: 146.56.99.22
+  servername: gaosir.unfeeling.sbs
+  skip-cert-verify: true
+  tls: true
+  type: vless
+  udp: true
+  uuid: f61a4285-7264-4d07-9408-7b9ba1922c26
+  ws-opts:
+    headers:
+      host: gaosir.unfeeling.sbs
+    path: telegram @freecodes /?ed=2560
+- name: 🇰🇷_韩国_76
+  network: ws
+  port: 12112
+  server: 183.106.76.116
+  servername: vless.pengjiajin.sbs
+  skip-cert-verify: true
+  tls: true
+  type: vless
+  udp: true
+  uuid: 64bf9c97-212c-4814-ad17-f8539b53a8bd
+  ws-opts:
+    headers:
+      host: vless.pengjiajin.sbs
+    path: freecodes @节点狂魔 /?ed=2560
+- name: 🇰🇷_韩国_77
+  network: ws
+  port: 50001
+  server: 211.207.97.48
+  servername: gaosir.unfeeling.sbs
+  skip-cert-verify: true
+  tls: true
+  type: vless
+  udp: true
+  uuid: f61a4285-7264-4d07-9408-7b9ba1922c26
+  ws-opts:
+    headers:
+      host: gaosir.unfeeling.sbs
+    path: telegram @freecodes /?ed=2560
+- name: 🇰🇷_韩国_78
+  network: ws
+  port: 33817
+  server: 121.167.16.189
+  servername: vless.pengjiajin.sbs
+  skip-cert-verify: true
+  tls: true
+  type: vless
+  udp: true
+  uuid: 64bf9c97-212c-4814-ad17-f8539b53a8bd
+  ws-opts:
+    headers:
+      host: vless.pengjiajin.sbs
+    path: 节点狂魔@节点狂魔/?ed=2560
+- name: 🇰🇷_韩国_79
+  network: ws
+  port: 50000
+  server: 115.93.169.180
+  servername: gaosir.unfeeling.sbs
+  skip-cert-verify: true
+  tls: true
+  type: vless
+  udp: true
+  uuid: f61a4285-7264-4d07-9408-7b9ba1922c26
+  ws-opts:
+    headers:
+      host: gaosir.unfeeling.sbs
+    path: /x @节点狂魔 /
+- name: 🇰🇷_韩国_80
+  network: ws
+  port: 10013
+  server: 59.31.235.90
+  servername: vless.pengjiajin.sbs
+  skip-cert-verify: true
+  tls: true
+  type: vless
+  udp: true
+  uuid: 64bf9c97-212c-4814-ad17-f8539b53a8bd
+  ws-opts:
+    headers:
+      host: vless.pengjiajin.sbs
+    path: freecodes @节点狂魔 /?ed=2560
+- name: 🇰🇷_韩国_81
+  network: ws
+  port: 50001
+  server: 118.223.252.190
+  servername: gaosir.unfeeling.sbs
+  skip-cert-verify: true
+  tls: true
+  type: vless
+  udp: true
+  uuid: f61a4285-7264-4d07-9408-7b9ba1922c26
+  ws-opts:
+    headers:
+      host: gaosir.unfeeling.sbs
+    path: telegram @freecodes /?ed=2560
+- name: 🇰🇷_韩国_82
+  network: ws
+  port: 50003
+  server: 121.181.118.220
+  servername: gaosir.unfeeling.sbs
+  skip-cert-verify: true
+  tls: true
+  type: vless
+  udp: true
+  uuid: f61a4285-7264-4d07-9408-7b9ba1922c26
+  ws-opts:
+    headers:
+      host: gaosir.unfeeling.sbs
+    path: x @节点狂魔 /?ed=2560
+- name: 🇰🇷_韩国_83
+  network: ws
+  port: 10090
+  server: 222.113.18.207
+  servername: gaosir.unfeeling.sbs
+  skip-cert-verify: true
+  tls: true
+  type: vless
+  udp: true
+  uuid: f61a4285-7264-4d07-9408-7b9ba1922c26
+  ws-opts:
+    headers:
+      host: gaosir.unfeeling.sbs
+    path: /x @节点狂魔 /
+- name: 🇰🇷_韩国_84
+  network: ws
+  port: 50001
+  server: 1.238.209.247
+  servername: gaosir.unfeeling.sbs
+  skip-cert-verify: true
+  tls: true
+  type: vless
+  udp: true
+  uuid: f61a4285-7264-4d07-9408-7b9ba1922c26
+  ws-opts:
+    headers:
+      host: gaosir.unfeeling.sbs
+    path: x @节点狂魔 /?ed=2560
+- name: 🇰🇷_韩国_85
+  network: ws
+  port: 12290
+  server: 220.118.236.239
+  servername: gaosir.unfeeling.sbs
+  skip-cert-verify: true
+  tls: true
+  type: vless
+  udp: true
+  uuid: f61a4285-7264-4d07-9408-7b9ba1922c26
+  ws-opts:
+    headers:
+      host: gaosir.unfeeling.sbs
+    path: telegram @freecodes /?ed=2560
+- name: 🇰🇷_韩国_86
+  network: ws
+  port: 50008
+  server: 59.25.160.141
+  servername: gaosir.unfeeling.sbs
+  skip-cert-verify: true
+  tls: true
+  type: vless
+  udp: true
+  uuid: f61a4285-7264-4d07-9408-7b9ba1922c26
+  ws-opts:
+    headers:
+      host: gaosir.unfeeling.sbs
+    path: telegram @freecodes /?ed=2560
+- name: 🇰🇷_韩国_87
+  network: ws
+  port: 50001
+  server: 61.74.149.202
+  servername: gaosir.unfeeling.sbs
+  skip-cert-verify: true
+  tls: true
+  type: vless
+  udp: true
+  uuid: f61a4285-7264-4d07-9408-7b9ba1922c26
+  ws-opts:
+    headers:
+      host: gaosir.unfeeling.sbs
+    path: telegram @freecodes /?ed=2560
+- name: 🇰🇷_韩国_88
+  network: ws
+  port: 50001
+  server: 220.72.245.245
+  servername: gaosir.unfeeling.sbs
+  skip-cert-verify: true
+  tls: true
+  type: vless
+  udp: true
+  uuid: f61a4285-7264-4d07-9408-7b9ba1922c26
+  ws-opts:
+    headers:
+      host: gaosir.unfeeling.sbs
+    path: x@节点狂魔/?ed=2560
+- name: 🇰🇷_韩国_89
+  network: ws
+  port: 12221
+  server: 49.246.69.204
+  servername: gaosir.unfeeling.sbs
+  skip-cert-verify: true
+  tls: true
+  type: vless
+  udp: true
+  uuid: f61a4285-7264-4d07-9408-7b9ba1922c26
+  ws-opts:
+    headers:
+      host: gaosir.unfeeling.sbs
+    path: telegram @freecodes /?ed=2560
+- name: 🇬🇧_英国_8
+  network: ws
+  port: 443
+  server: 144.24.73.232
+  servername: gaosir.unfeeling.sbs
+  skip-cert-verify: true
+  tls: true
+  type: vless
+  udp: true
+  uuid: f61a4285-7264-4d07-9408-7b9ba1922c26
+  ws-opts:
+    headers:
+      host: gaosir.unfeeling.sbs
+    path: telegram @freecodes /?ed=2560
+- name: 🇯🇵_日本_28
+  network: ws
+  port: 19842
+  server: 121.85.55.59
+  servername: gaosir.unfeeling.sbs
+  skip-cert-verify: true
+  tls: true
+  type: vless
+  udp: true
+  uuid: f61a4285-7264-4d07-9408-7b9ba1922c26
+  ws-opts:
+    headers:
+      host: gaosir.unfeeling.sbs
+    path: /x @节点狂魔 /
+- name: 🇬🇧_英国_9
+  network: ws
+  port: 443
+  server: 158.180.72.60
+  servername: gaosir.unfeeling.sbs
+  skip-cert-verify: true
+  tls: true
+  type: vless
+  udp: true
+  uuid: f61a4285-7264-4d07-9408-7b9ba1922c26
+  ws-opts:
+    headers:
+      host: gaosir.unfeeling.sbs
+    path: telegram @freecodes /?ed=2560
+- name: 🇰🇷_韩国_90
+  network: ws
+  port: 50001
+  server: 221.156.182.211
+  servername: gaosir.unfeeling.sbs
+  skip-cert-verify: true
+  tls: true
+  type: vless
+  udp: true
+  uuid: f61a4285-7264-4d07-9408-7b9ba1922c26
+  ws-opts:
+    headers:
+      host: gaosir.unfeeling.sbs
+    path: x @节点狂魔 /?ed=2560
+- name: 🇰🇷_韩国_91
+  network: ws
+  port: 21244
+  server: 59.1.166.218
+  servername: vless.pengjiajin.sbs
+  skip-cert-verify: true
+  tls: true
+  type: vless
+  udp: true
+  uuid: 64bf9c97-212c-4814-ad17-f8539b53a8bd
+  ws-opts:
+    headers:
+      host: vless.pengjiajin.sbs
+    path: freecodes @节点狂魔 /?ed=2560
+- name: 🇺🇸_美国_67
+  network: ws
+  port: 6443
+  server: 150.230.255.146
+  servername: gaosir.unfeeling.sbs
+  skip-cert-verify: true
+  tls: true
+  type: vless
+  udp: true
+  uuid: f61a4285-7264-4d07-9408-7b9ba1922c26
+  ws-opts:
+    headers:
+      host: gaosir.unfeeling.sbs
+    path: /x @节点狂魔 /
+- name: 🇰🇷_韩国_92
+  network: ws
+  port: 10001
+  server: 119.201.195.135
+  servername: gaosir.unfeeling.sbs
+  skip-cert-verify: true
+  tls: true
+  type: vless
+  udp: true
+  uuid: f61a4285-7264-4d07-9408-7b9ba1922c26
+  ws-opts:
+    headers:
+      host: gaosir.unfeeling.sbs
+    path: /x @节点狂魔 /
+- name: 🇰🇷_韩国_93
+  network: ws
+  port: 10030
+  server: 183.106.76.116
+  servername: gaosir.unfeeling.sbs
+  skip-cert-verify: true
+  tls: true
+  type: vless
+  udp: true
+  uuid: f61a4285-7264-4d07-9408-7b9ba1922c26
+  ws-opts:
+    headers:
+      host: gaosir.unfeeling.sbs
+    path: telegram @freecodes /?ed=2560
+- name: 🇰🇷_韩国_94
+  network: ws
+  port: 10065
+  server: 119.195.219.150
+  servername: gaosir.unfeeling.sbs
+  skip-cert-verify: true
+  tls: true
+  type: vless
+  udp: true
+  uuid: f61a4285-7264-4d07-9408-7b9ba1922c26
+  ws-opts:
+    headers:
+      host: gaosir.unfeeling.sbs
+    path: telegram @freecodes /?ed=2560
+- name: 🇰🇷_韩国_95
+  network: ws
+  port: 50001
+  server: 118.41.28.45
+  servername: gaosir.unfeeling.sbs
+  skip-cert-verify: true
+  tls: true
+  type: vless
+  udp: true
+  uuid: f61a4285-7264-4d07-9408-7b9ba1922c26
+  ws-opts:
+    headers:
+      host: gaosir.unfeeling.sbs
+    path: telegram @freecodes /?ed=2560
+- name: 🇰🇷_韩国_96
+  network: ws
+  port: 50001
+  server: 1.254.152.56
+  servername: gaosir.unfeeling.sbs
+  skip-cert-verify: true
+  tls: true
+  type: vless
+  udp: true
+  uuid: f61a4285-7264-4d07-9408-7b9ba1922c26
+  ws-opts:
+    headers:
+      host: gaosir.unfeeling.sbs
+    path: telegram @freecodes /?ed=2560
+- name: 🇯🇵_日本_29
+  network: ws
+  port: 19276
+  server: 146.56.112.139
+  servername: gaosir.unfeeling.sbs
+  skip-cert-verify: true
+  tls: true
+  type: vless
+  udp: true
+  uuid: f61a4285-7264-4d07-9408-7b9ba1922c26
+  ws-opts:
+    headers:
+      host: gaosir.unfeeling.sbs
+    path: telegram @freecodes /?ed=2560
+- name: 🇰🇷_韩国_97
+  network: ws
+  port: 12336
+  server: 182.31.70.92
+  servername: gaosir.unfeeling.sbs
+  skip-cert-verify: true
+  tls: true
+  type: vless
+  udp: true
+  uuid: f61a4285-7264-4d07-9408-7b9ba1922c26
+  ws-opts:
+    headers:
+      host: gaosir.unfeeling.sbs
+    path: telegram @freecodes /?ed=2560
+- name: 🇰🇷_韩国_98
+  network: ws
+  port: 50001
+  server: 211.228.5.119
+  servername: gaosir.unfeeling.sbs
+  skip-cert-verify: true
+  tls: true
+  type: vless
+  udp: true
+  uuid: f61a4285-7264-4d07-9408-7b9ba1922c26
+  ws-opts:
+    headers:
+      host: gaosir.unfeeling.sbs
+    path: /x @节点狂魔 /
+- name: 🇰🇷_韩国_99
+  network: ws
+  port: 50001
+  server: 182.210.59.164
+  servername: gaosir.unfeeling.sbs
+  skip-cert-verify: true
+  tls: true
+  type: vless
+  udp: true
+  uuid: f61a4285-7264-4d07-9408-7b9ba1922c26
+  ws-opts:
+    headers:
+      host: gaosir.unfeeling.sbs
+    path: telegram @freecodes /?ed=2560
+- name: 🇰🇷_韩国_100
+  network: ws
+  port: 12151
+  server: 218.151.91.131
+  servername: gaosir.unfeeling.sbs
+  skip-cert-verify: true
+  tls: true
+  type: vless
+  udp: true
+  uuid: f61a4285-7264-4d07-9408-7b9ba1922c26
+  ws-opts:
+    headers:
+      host: gaosir.unfeeling.sbs
+    path: x @节点狂魔 /?ed=2560
+- name: 🇳🇱_荷兰
+  network: ws
+  port: 2096
+  server: 188.42.145.253
+  servername: gaosir.unfeeling.sbs
+  skip-cert-verify: true
+  tls: true
+  type: vless
+  udp: true
+  uuid: f61a4285-7264-4d07-9408-7b9ba1922c26
+  ws-opts:
+    headers:
+      host: gaosir.unfeeling.sbs
+    path: /telegram@freecodes/?ed=2560
+- name: 🇰🇷_韩国_101
+  network: ws
+  port: 16923
+  server: 183.104.0.181
+  servername: vless.pengjiajin.sbs
+  skip-cert-verify: true
+  tls: true
+  type: vless
+  udp: true
+  uuid: 64bf9c97-212c-4814-ad17-f8539b53a8bd
+  ws-opts:
+    headers:
+      host: vless.pengjiajin.sbs
+    path: freecodes @节点狂魔 /?ed=2560
+- name: 🇰🇷_韩国_102
+  network: ws
+  port: 12336
+  server: 119.195.168.105
+  servername: gaosir.unfeeling.sbs
+  skip-cert-verify: true
+  tls: true
+  type: vless
+  udp: true
+  uuid: f61a4285-7264-4d07-9408-7b9ba1922c26
+  ws-opts:
+    headers:
+      host: gaosir.unfeeling.sbs
+    path: x @节点狂魔 /?ed=2560
+- name: 🇰🇷_韩国_103
+  network: ws
+  port: 50001
+  server: 211.177.114.117
   servername: gaosir.unfeeling.sbs
   skip-cert-verify: true
   tls: true
@@ -1266,1788 +3754,10 @@ proxies:
     headers:
       host: vless.muzheng.top
     path: /x @节点狂魔 /
-- name: 🇰🇷_韩国_29
-  network: ws
-  port: 12533
-  server: 222.113.18.214
-  servername: gaosir.unfeeling.sbs
-  skip-cert-verify: true
-  tls: true
-  type: vless
-  udp: true
-  uuid: f61a4285-7264-4d07-9408-7b9ba1922c26
-  ws-opts:
-    headers:
-      host: gaosir.unfeeling.sbs
-    path: telegram @freecodes /?ed=2560
-- name: 🇰🇷_韩国_30
-  network: ws
-  port: 10041
-  server: 211.197.161.123
-  servername: gaosir.unfeeling.sbs
-  skip-cert-verify: true
-  tls: true
-  type: vless
-  udp: true
-  uuid: f61a4285-7264-4d07-9408-7b9ba1922c26
-  ws-opts:
-    headers:
-      host: gaosir.unfeeling.sbs
-    path: telegram @freecodes /?ed=2560
-- name: 🇰🇷_韩国_31
-  network: ws
-  port: 50000
-  server: 27.100.229.147
-  servername: gaosir.unfeeling.sbs
-  skip-cert-verify: true
-  tls: true
-  type: vless
-  udp: true
-  uuid: f61a4285-7264-4d07-9408-7b9ba1922c26
-  ws-opts:
-    headers:
-      host: gaosir.unfeeling.sbs
-    path: x @节点狂魔 /?ed=2560
-- name: 🇰🇷_韩国_32
-  network: ws
-  port: 50001
-  server: 61.74.149.202
-  servername: gaosir.unfeeling.sbs
-  skip-cert-verify: true
-  tls: true
-  type: vless
-  udp: true
-  uuid: f61a4285-7264-4d07-9408-7b9ba1922c26
-  ws-opts:
-    headers:
-      host: gaosir.unfeeling.sbs
-    path: x@节点狂魔/?ed=2560
-- name: 🇰🇷_韩国_33
-  network: ws
-  port: 50001
-  server: 121.149.177.218
-  servername: gaosir.unfeeling.sbs
-  skip-cert-verify: true
-  tls: true
-  type: vless
-  udp: true
-  uuid: f61a4285-7264-4d07-9408-7b9ba1922c26
-  ws-opts:
-    headers:
-      host: gaosir.unfeeling.sbs
-    path: x @节点狂魔 /?ed=2560
-- name: 🇰🇷_韩国_34
-  network: ws
-  port: 50000
-  server: 222.101.91.204
-  servername: gaosir.unfeeling.sbs
-  skip-cert-verify: true
-  tls: true
-  type: vless
-  udp: true
-  uuid: f61a4285-7264-4d07-9408-7b9ba1922c26
-  ws-opts:
-    headers:
-      host: gaosir.unfeeling.sbs
-    path: telegram @freecodes /?ed=2560
-- name: 🇰🇷_韩国_35
-  network: ws
-  port: 50001
-  server: 125.141.38.50
-  servername: gaosir.unfeeling.sbs
-  skip-cert-verify: true
-  tls: true
-  type: vless
-  udp: true
-  uuid: f61a4285-7264-4d07-9408-7b9ba1922c26
-  ws-opts:
-    headers:
-      host: gaosir.unfeeling.sbs
-    path: telegram @freecodes /?ed=2560
-- name: 🇺🇸_美国_19
-  network: ws
-  port: 587
-  server: 152.69.224.246
-  servername: gaosir.unfeeling.sbs
-  skip-cert-verify: true
-  tls: true
-  type: vless
-  udp: true
-  uuid: f61a4285-7264-4d07-9408-7b9ba1922c26
-  ws-opts:
-    headers:
-      host: gaosir.unfeeling.sbs
-    path: /x @节点狂魔 /
-- name: 🇷🇺_俄罗斯_1
-  network: ws
-  port: 2096
-  server: 195.13.45.253
-  servername: gaosir.unfeeling.sbs
-  skip-cert-verify: true
-  tls: true
-  type: vless
-  udp: true
-  uuid: f61a4285-7264-4d07-9408-7b9ba1922c26
-  ws-opts:
-    headers:
-      host: gaosir.unfeeling.sbs
-    path: /x @节点狂魔 /
-- name: 🇰🇷_韩国_36
-  network: ws
-  port: 50000
-  server: 125.136.226.1
-  servername: gaosir.unfeeling.sbs
-  skip-cert-verify: true
-  tls: true
-  type: vless
-  udp: true
-  uuid: f61a4285-7264-4d07-9408-7b9ba1922c26
-  ws-opts:
-    headers:
-      host: gaosir.unfeeling.sbs
-    path: x@节点狂魔/?ed=2560
-- name: 🇰🇷_韩国_37
-  network: ws
-  port: 10001
-  server: 119.201.195.135
-  servername: gaosir.unfeeling.sbs
-  skip-cert-verify: true
-  tls: true
-  type: vless
-  udp: true
-  uuid: f61a4285-7264-4d07-9408-7b9ba1922c26
-  ws-opts:
-    headers:
-      host: gaosir.unfeeling.sbs
-    path: /x @节点狂魔 /
-- name: 🇰🇷_韩国_38
-  network: ws
-  port: 16030
-  server: 222.113.18.207
-  servername: gaosir.unfeeling.sbs
-  skip-cert-verify: true
-  tls: true
-  type: vless
-  udp: true
-  uuid: f61a4285-7264-4d07-9408-7b9ba1922c26
-  ws-opts:
-    headers:
-      host: gaosir.unfeeling.sbs
-    path: x @节点狂魔 /?ed=2560
-- name: 🇰🇷_韩国_39
-  network: ws
-  port: 50003
-  server: 175.215.175.175
-  servername: gaosir.unfeeling.sbs
-  skip-cert-verify: true
-  tls: true
-  type: vless
-  udp: true
-  uuid: f61a4285-7264-4d07-9408-7b9ba1922c26
-  ws-opts:
-    headers:
-      host: gaosir.unfeeling.sbs
-    path: telegram @freecodes /?ed=2560
-- name: 🇰🇷_韩国_40
-  network: ws
-  port: 50001
-  server: 121.131.104.228
-  servername: gaosir.unfeeling.sbs
-  skip-cert-verify: true
-  tls: true
-  type: vless
-  udp: true
-  uuid: f61a4285-7264-4d07-9408-7b9ba1922c26
-  ws-opts:
-    headers:
-      host: gaosir.unfeeling.sbs
-    path: x @节点狂魔 /?ed=2560
-- name: 🇦🇺_澳大利亚_8
-  network: ws
-  port: 15800
-  server: 129.154.223.89
-  servername: vless.pengjiajin.sbs
-  skip-cert-verify: true
-  tls: true
-  type: vless
-  udp: true
-  uuid: 64bf9c97-212c-4814-ad17-f8539b53a8bd
-  ws-opts:
-    headers:
-      host: vless.pengjiajin.sbs
-    path: freecodes @节点狂魔 /?ed=2560
-- name: 🇰🇷_韩国_41
-  network: ws
-  port: 50000
-  server: 112.184.45.203
-  servername: gaosir.unfeeling.sbs
-  skip-cert-verify: true
-  tls: true
-  type: vless
-  udp: true
-  uuid: f61a4285-7264-4d07-9408-7b9ba1922c26
-  ws-opts:
-    headers:
-      host: gaosir.unfeeling.sbs
-    path: /x @节点狂魔 /
-- name: 🇰🇷_韩国_42
-  network: ws
-  port: 50000
-  server: 14.33.140.80
-  servername: vless.pengjiajin.sbs
-  skip-cert-verify: true
-  tls: true
-  type: vless
-  udp: true
-  uuid: 64bf9c97-212c-4814-ad17-f8539b53a8bd
-  ws-opts:
-    headers:
-      host: vless.pengjiajin.sbs
-    path: freecodes @节点狂魔 /?ed=2560
-- name: 🇰🇷_韩国_43
-  network: ws
-  port: 12346
-  server: 112.172.38.246
-  servername: gaosir.unfeeling.sbs
-  skip-cert-verify: true
-  tls: true
-  type: vless
-  udp: true
-  uuid: f61a4285-7264-4d07-9408-7b9ba1922c26
-  ws-opts:
-    headers:
-      host: gaosir.unfeeling.sbs
-    path: /x @节点狂魔 /
-- name: 🇰🇷_韩国_44
-  network: ws
-  port: 50003
-  server: 218.154.22.99
-  servername: gaosir.unfeeling.sbs
-  skip-cert-verify: true
-  tls: true
-  type: vless
-  udp: true
-  uuid: f61a4285-7264-4d07-9408-7b9ba1922c26
-  ws-opts:
-    headers:
-      host: gaosir.unfeeling.sbs
-    path: x @节点狂魔 /?ed=2560
-- name: 🇰🇷_韩国_45
-  network: ws
-  port: 50001
-  server: 118.36.106.205
-  servername: gaosir.unfeeling.sbs
-  skip-cert-verify: true
-  tls: true
-  type: vless
-  udp: true
-  uuid: f61a4285-7264-4d07-9408-7b9ba1922c26
-  ws-opts:
-    headers:
-      host: gaosir.unfeeling.sbs
-    path: x@节点狂魔/?ed=2560
-- name: 🇺🇸_美国_20
-  network: ws
-  port: 587
-  server: 152.69.224.246
-  servername: gaosir.unfeeling.sbs
-  skip-cert-verify: true
-  tls: true
-  type: vless
-  udp: true
-  uuid: f61a4285-7264-4d07-9408-7b9ba1922c26
-  ws-opts:
-    headers:
-      host: gaosir.unfeeling.sbs
-    path: telegram @freecodes /?ed=2560
-- name: 🇰🇷_韩国_46
-  network: ws
-  port: 18049
-  server: 112.172.38.246
-  servername: vless.pengjiajin.sbs
-  skip-cert-verify: true
-  tls: true
-  type: vless
-  udp: true
-  uuid: 64bf9c97-212c-4814-ad17-f8539b53a8bd
-  ws-opts:
-    headers:
-      host: vless.pengjiajin.sbs
-    path: freecodes @节点狂魔 /?ed=2560
-- name: 🇰🇷_韩国_47
-  network: ws
-  port: 10911
-  server: 59.1.74.97
-  servername: gaosir.unfeeling.sbs
-  skip-cert-verify: true
-  tls: true
-  type: vless
-  udp: true
-  uuid: f61a4285-7264-4d07-9408-7b9ba1922c26
-  ws-opts:
-    headers:
-      host: gaosir.unfeeling.sbs
-    path: telegram @freecodes /?ed=2560
-- name: 🇷🇺_俄罗斯_2
-  network: ws
-  port: 2096
-  server: 195.13.45.253
-  servername: gaosir.unfeeling.sbs
-  skip-cert-verify: true
-  tls: true
-  type: vless
-  udp: true
-  uuid: f61a4285-7264-4d07-9408-7b9ba1922c26
-  ws-opts:
-    headers:
-      host: gaosir.unfeeling.sbs
-    path: /telegram@freecodes/?ed=2560
-- name: 🇬🇧_英国_1
-  network: ws
-  port: 443
-  server: 158.180.72.60
-  servername: gaosir.unfeeling.sbs
-  skip-cert-verify: true
-  tls: true
-  type: vless
-  udp: true
-  uuid: f61a4285-7264-4d07-9408-7b9ba1922c26
-  ws-opts:
-    headers:
-      host: gaosir.unfeeling.sbs
-    path: telegram @freecodes /?ed=2560
-- name: 🇰🇷_韩国_48
-  network: ws
-  port: 50001
-  server: 59.11.39.221
-  servername: gaosir.unfeeling.sbs
-  skip-cert-verify: true
-  tls: true
-  type: vless
-  udp: true
-  uuid: f61a4285-7264-4d07-9408-7b9ba1922c26
-  ws-opts:
-    headers:
-      host: gaosir.unfeeling.sbs
-    path: telegram @freecodes /?ed=2560
-- name: 🇰🇷_韩国_49
-  network: ws
-  port: 50001
-  server: 14.43.156.59
-  servername: gaosir.unfeeling.sbs
-  skip-cert-verify: true
-  tls: true
-  type: vless
-  udp: true
-  uuid: f61a4285-7264-4d07-9408-7b9ba1922c26
-  ws-opts:
-    headers:
-      host: gaosir.unfeeling.sbs
-    path: /x @节点狂魔 /
-- name: 🇰🇷_韩国_50
-  network: ws
-  port: 50001
-  server: 59.11.39.221
-  servername: gaosir.unfeeling.sbs
-  skip-cert-verify: true
-  tls: true
-  type: vless
-  udp: true
-  uuid: f61a4285-7264-4d07-9408-7b9ba1922c26
-  ws-opts:
-    headers:
-      host: gaosir.unfeeling.sbs
-    path: x@节点狂魔/?ed=2560
-- name: 🇰🇷_韩国_51
-  network: ws
-  port: 50000
-  server: 210.99.119.3
-  servername: gaosir.unfeeling.sbs
-  skip-cert-verify: true
-  tls: true
-  type: vless
-  udp: true
-  uuid: f61a4285-7264-4d07-9408-7b9ba1922c26
-  ws-opts:
-    headers:
-      host: gaosir.unfeeling.sbs
-    path: telegram @freecodes /?ed=2560
-- name: 🇬🇧_英国_2
-  network: ws
-  port: 443
-  server: 158.180.73.165
-  servername: gaosir.unfeeling.sbs
-  skip-cert-verify: true
-  tls: true
-  type: vless
-  udp: true
-  uuid: f61a4285-7264-4d07-9408-7b9ba1922c26
-  ws-opts:
-    headers:
-      host: gaosir.unfeeling.sbs
-    path: /x @节点狂魔 /
-- name: 🇰🇷_韩国_52
-  network: ws
-  port: 16030
-  server: 222.113.18.207
-  servername: gaosir.unfeeling.sbs
-  skip-cert-verify: true
-  tls: true
-  type: vless
-  udp: true
-  uuid: f61a4285-7264-4d07-9408-7b9ba1922c26
-  ws-opts:
-    headers:
-      host: gaosir.unfeeling.sbs
-    path: x@节点狂魔/?ed=2560
-- name: 🇰🇷_韩国_53
-  network: ws
-  port: 50000
-  server: 125.128.215.162
-  servername: gaosir.unfeeling.sbs
-  skip-cert-verify: true
-  tls: true
-  type: vless
-  udp: true
-  uuid: f61a4285-7264-4d07-9408-7b9ba1922c26
-  ws-opts:
-    headers:
-      host: gaosir.unfeeling.sbs
-    path: x@节点狂魔/?ed=2560
-- name: 🇦🇺_澳大利亚_9
-  network: ws
-  port: 19567
-  server: 129.154.54.67
-  servername: gaosir.unfeeling.sbs
-  skip-cert-verify: true
-  tls: true
-  type: vless
-  udp: true
-  uuid: f61a4285-7264-4d07-9408-7b9ba1922c26
-  ws-opts:
-    headers:
-      host: gaosir.unfeeling.sbs
-    path: telegram @freecodes /?ed=2560
-- name: 🇰🇷_韩国_54
-  network: ws
-  port: 50003
-  server: 218.155.245.69
-  servername: vless.pengjiajin.sbs
-  skip-cert-verify: true
-  tls: true
-  type: vless
-  udp: true
-  uuid: 64bf9c97-212c-4814-ad17-f8539b53a8bd
-  ws-opts:
-    headers:
-      host: vless.pengjiajin.sbs
-    path: freecodes@节点狂魔/?ed=2560
-- name: 🇰🇷_韩国_55
-  network: ws
-  port: 50000
-  server: 118.46.37.203
-  servername: gaosir.unfeeling.sbs
-  skip-cert-verify: true
-  tls: true
-  type: vless
-  udp: true
-  uuid: f61a4285-7264-4d07-9408-7b9ba1922c26
-  ws-opts:
-    headers:
-      host: gaosir.unfeeling.sbs
-    path: telegram @freecodes /?ed=2560
-- name: 🇩🇪_德国_1
-  network: ws
-  port: 8080
-  server: 85.208.104.34
-  servername: gaosir.unfeeling.sbs
-  skip-cert-verify: true
-  tls: true
-  type: vless
-  udp: true
-  uuid: f61a4285-7264-4d07-9408-7b9ba1922c26
-  ws-opts:
-    headers:
-      host: gaosir.unfeeling.sbs
-    path: telegram@freecodes/?ed=2560
-- name: 🇺🇸_美国_21
-  network: ws
-  port: 443
-  server: 138.2.5.136
-  servername: gaosir.unfeeling.sbs
-  skip-cert-verify: true
-  tls: true
-  type: vless
-  udp: true
-  uuid: f61a4285-7264-4d07-9408-7b9ba1922c26
-  ws-opts:
-    headers:
-      host: gaosir.unfeeling.sbs
-    path: x @节点狂魔 /?ed=2560
-- name: 🇺🇸_美国_22
-  network: ws
-  port: 8443
-  server: 45.38.42.109
-  servername: gaosir.unfeeling.sbs
-  skip-cert-verify: true
-  tls: true
-  type: vless
-  udp: true
-  uuid: f61a4285-7264-4d07-9408-7b9ba1922c26
-  ws-opts:
-    headers:
-      host: gaosir.unfeeling.sbs
-    path: telegram @freecodes /?ed=2560
-- name: 🇺🇸_美国_23
-  network: ws
-  port: 443
-  server: 47.236.21.74
-  servername: gaosir.unfeeling.sbs
-  skip-cert-verify: true
-  tls: true
-  type: vless
-  udp: true
-  uuid: f61a4285-7264-4d07-9408-7b9ba1922c26
-  ws-opts:
-    headers:
-      host: gaosir.unfeeling.sbs
-    path: telegram@freecodes/?ed=2560
-- name: 🇰🇷_韩国_56
-  network: ws
-  port: 58337
-  server: 152.67.211.114
-  servername: gaosir.unfeeling.sbs
-  skip-cert-verify: true
-  tls: true
-  type: vless
-  udp: true
-  uuid: f61a4285-7264-4d07-9408-7b9ba1922c26
-  ws-opts:
-    headers:
-      host: gaosir.unfeeling.sbs
-    path: telegram @freecodes /?ed=2560
-- name: 🇰🇷_韩国_57
-  network: ws
-  port: 50001
-  server: 106.240.137.36
-  servername: gaosir.unfeeling.sbs
-  skip-cert-verify: true
-  tls: true
-  type: vless
-  udp: true
-  uuid: f61a4285-7264-4d07-9408-7b9ba1922c26
-  ws-opts:
-    headers:
-      host: gaosir.unfeeling.sbs
-    path: x @节点狂魔 /?ed=2560
-- name: 🇰🇷_韩国_58
-  network: ws
-  port: 12112
-  server: 1.249.45.86
-  servername: gaosir.unfeeling.sbs
-  skip-cert-verify: true
-  tls: true
-  type: vless
-  udp: true
-  uuid: f61a4285-7264-4d07-9408-7b9ba1922c26
-  ws-opts:
-    headers:
-      host: gaosir.unfeeling.sbs
-    path: telegram @freecodes /?ed=2560
-- name: 🇰🇷_韩国_59
-  network: ws
-  port: 50001
-  server: 27.117.52.110
-  servername: gaosir.unfeeling.sbs
-  skip-cert-verify: true
-  tls: true
-  type: vless
-  udp: true
-  uuid: f61a4285-7264-4d07-9408-7b9ba1922c26
-  ws-opts:
-    headers:
-      host: gaosir.unfeeling.sbs
-    path: telegram @freecodes /?ed=2560
-- name: 🇺🇸_美国_24
-  network: ws
-  port: 11655
-  server: 131.186.63.89
-  servername: gaosir.unfeeling.sbs
-  skip-cert-verify: true
-  tls: true
-  type: vless
-  udp: true
-  uuid: f61a4285-7264-4d07-9408-7b9ba1922c26
-  ws-opts:
-    headers:
-      host: gaosir.unfeeling.sbs
-    path: /x @节点狂魔 /
-- name: 🇰🇷_韩国_60
-  network: ws
-  port: 10090
-  server: 222.113.18.207
-  servername: gaosir.unfeeling.sbs
-  skip-cert-verify: true
-  tls: true
-  type: vless
-  udp: true
-  uuid: f61a4285-7264-4d07-9408-7b9ba1922c26
-  ws-opts:
-    headers:
-      host: gaosir.unfeeling.sbs
-    path: x @节点狂魔 /?ed=2560
-- name: 🇨🇳_中国_11
-  network: ws
-  port: 57537
-  server: 221.125.10.8
-  servername: gaosir.unfeeling.sbs
-  skip-cert-verify: true
-  tls: true
-  type: vless
-  udp: true
-  uuid: f61a4285-7264-4d07-9408-7b9ba1922c26
-  ws-opts:
-    headers:
-      host: gaosir.unfeeling.sbs
-    path: telegram@freecodes/?ed=2560
-- name: 🇷🇺_俄罗斯_3
-  network: ws
-  port: 8443
-  server: 46.8.226.39
-  servername: gaosir.unfeeling.sbs
-  skip-cert-verify: true
-  tls: true
-  type: vless
-  udp: true
-  uuid: f61a4285-7264-4d07-9408-7b9ba1922c26
-  ws-opts:
-    headers:
-      host: gaosir.unfeeling.sbs
-    path: /x @节点狂魔 /
-- name: 🇸🇬_新加坡_8
-  network: ws
-  port: 443
-  server: 128.199.134.152
-  servername: gaosir.unfeeling.sbs
-  skip-cert-verify: true
-  tls: true
-  type: vless
-  udp: true
-  uuid: f61a4285-7264-4d07-9408-7b9ba1922c26
-  ws-opts:
-    headers:
-      host: gaosir.unfeeling.sbs
-    path: telegram @freecodes /?ed=2560
-- name: 🇰🇷_韩国_61
-  network: ws
-  port: 50001
-  server: 1.238.209.247
-  servername: gaosir.unfeeling.sbs
-  skip-cert-verify: true
-  tls: true
-  type: vless
-  udp: true
-  uuid: f61a4285-7264-4d07-9408-7b9ba1922c26
-  ws-opts:
-    headers:
-      host: gaosir.unfeeling.sbs
-    path: telegram @freecodes /?ed=2560
-- name: 🇰🇷_韩国_62
-  network: ws
-  port: 50001
-  server: 220.72.245.245
-  servername: gaosir.unfeeling.sbs
-  skip-cert-verify: true
-  tls: true
-  type: vless
-  udp: true
-  uuid: f61a4285-7264-4d07-9408-7b9ba1922c26
-  ws-opts:
-    headers:
-      host: gaosir.unfeeling.sbs
-    path: x @节点狂魔 /?ed=2560
-- name: 🇰🇷_韩国_63
-  network: ws
-  port: 30012
-  server: 211.105.86.219
-  servername: gaosir.unfeeling.sbs
-  skip-cert-verify: true
-  tls: true
-  type: vless
-  udp: true
-  uuid: f61a4285-7264-4d07-9408-7b9ba1922c26
-  ws-opts:
-    headers:
-      host: gaosir.unfeeling.sbs
-    path: x @节点狂魔 /?ed=2560
-- name: 🇰🇷_韩国_64
-  network: ws
-  port: 12357
-  server: 211.33.238.198
-  servername: gaosir.unfeeling.sbs
-  skip-cert-verify: true
-  tls: true
-  type: vless
-  udp: true
-  uuid: f61a4285-7264-4d07-9408-7b9ba1922c26
-  ws-opts:
-    headers:
-      host: gaosir.unfeeling.sbs
-    path: x @节点狂魔 /?ed=2560
-- name: 🇯🇵_日本_13
-  network: ws
-  port: 56789
-  server: 146.56.99.255
-  servername: gaosir.unfeeling.sbs
-  skip-cert-verify: true
-  tls: true
-  type: vless
-  udp: true
-  uuid: f61a4285-7264-4d07-9408-7b9ba1922c26
-  ws-opts:
-    headers:
-      host: gaosir.unfeeling.sbs
-    path: telegram @freecodes /?ed=2560
-- name: 🇰🇷_韩国_65
-  network: ws
-  port: 10283
-  server: 222.113.18.214
-  servername: gaosir.unfeeling.sbs
-  skip-cert-verify: true
-  tls: true
-  type: vless
-  udp: true
-  uuid: f61a4285-7264-4d07-9408-7b9ba1922c26
-  ws-opts:
-    headers:
-      host: gaosir.unfeeling.sbs
-    path: x @节点狂魔 /?ed=2560
-- name: 🇰🇷_韩国_66
-  network: ws
-  port: 10027
-  server: 61.78.80.72
-  servername: vless.pengjiajin.sbs
-  skip-cert-verify: true
-  tls: true
-  type: vless
-  udp: true
-  uuid: 64bf9c97-212c-4814-ad17-f8539b53a8bd
-  ws-opts:
-    headers:
-      host: vless.pengjiajin.sbs
-    path: freecodes @节点狂魔 /?ed=2560
-- name: 🇨🇳_中国_12
-  network: ws
-  port: 25435
-  server: 8.222.220.81
-  servername: gaosir.unfeeling.sbs
-  skip-cert-verify: true
-  tls: true
-  type: vless
-  udp: true
-  uuid: f61a4285-7264-4d07-9408-7b9ba1922c26
-  ws-opts:
-    headers:
-      host: gaosir.unfeeling.sbs
-    path: /x @节点狂魔 /
-- name: 🇺🇸_美国_25
-  network: ws
-  port: 32768
-  server: 134.185.106.69
-  servername: vless.pengjiajin.sbs
-  skip-cert-verify: true
-  tls: true
-  type: vless
-  udp: true
-  uuid: 64bf9c97-212c-4814-ad17-f8539b53a8bd
-  ws-opts:
-    headers:
-      host: vless.pengjiajin.sbs
-    path: /freecodes@节点狂魔/?ed=2560
-- name: 🇰🇷_韩国_67
-  network: ws
-  port: 50001
-  server: 112.219.152.250
-  servername: gaosir.unfeeling.sbs
-  skip-cert-verify: true
-  tls: true
-  type: vless
-  udp: true
-  uuid: f61a4285-7264-4d07-9408-7b9ba1922c26
-  ws-opts:
-    headers:
-      host: gaosir.unfeeling.sbs
-    path: telegram @freecodes /?ed=2560
-- name: 🇰🇷_韩国_68
-  network: ws
-  port: 12696
-  server: 115.40.244.240
-  servername: gaosir.unfeeling.sbs
-  skip-cert-verify: true
-  tls: true
-  type: vless
-  udp: true
-  uuid: f61a4285-7264-4d07-9408-7b9ba1922c26
-  ws-opts:
-    headers:
-      host: gaosir.unfeeling.sbs
-    path: /x @节点狂魔 /
-- name: 🇰🇷_韩国_69
-  network: ws
-  port: 50001
-  server: 1.212.245.124
-  servername: gaosir.unfeeling.sbs
-  skip-cert-verify: true
-  tls: true
-  type: vless
-  udp: true
-  uuid: f61a4285-7264-4d07-9408-7b9ba1922c26
-  ws-opts:
-    headers:
-      host: gaosir.unfeeling.sbs
-    path: telegram @freecodes /?ed=2560
-- name: 🇸🇬_新加坡_9
-  network: ws
-  port: 443
-  server: 172.104.180.5
-  servername: gaosir.unfeeling.sbs
-  skip-cert-verify: true
-  tls: true
-  type: vless
-  udp: true
-  uuid: f61a4285-7264-4d07-9408-7b9ba1922c26
-  ws-opts:
-    headers:
-      host: gaosir.unfeeling.sbs
-    path: /x @节点狂魔 /
-- name: 🇰🇷_韩国_70
-  network: ws
-  port: 10554
-  server: 112.172.38.246
-  servername: gaosir.unfeeling.sbs
-  skip-cert-verify: true
-  tls: true
-  type: vless
-  udp: true
-  uuid: f61a4285-7264-4d07-9408-7b9ba1922c26
-  ws-opts:
-    headers:
-      host: gaosir.unfeeling.sbs
-    path: telegram @freecodes /?ed=2560
-- name: 🇰🇷_韩国_71
-  network: ws
-  port: 50001
-  server: 222.114.57.191
-  servername: gaosir.unfeeling.sbs
-  skip-cert-verify: true
-  tls: true
-  type: vless
-  udp: true
-  uuid: f61a4285-7264-4d07-9408-7b9ba1922c26
-  ws-opts:
-    headers:
-      host: gaosir.unfeeling.sbs
-    path: telegram @freecodes /?ed=2560
-- name: 🇰🇷_韩国_72
-  network: ws
-  port: 50000
-  server: 125.135.32.13
-  servername: gaosir.unfeeling.sbs
-  skip-cert-verify: true
-  tls: true
-  type: vless
-  udp: true
-  uuid: f61a4285-7264-4d07-9408-7b9ba1922c26
-  ws-opts:
-    headers:
-      host: gaosir.unfeeling.sbs
-    path: x @节点狂魔 /?ed=2560
-- name: 🇰🇷_韩国_73
-  network: ws
-  port: 30012
-  server: 211.105.86.219
-  servername: gaosir.unfeeling.sbs
-  skip-cert-verify: true
-  tls: true
-  type: vless
-  udp: true
-  uuid: f61a4285-7264-4d07-9408-7b9ba1922c26
-  ws-opts:
-    headers:
-      host: gaosir.unfeeling.sbs
-    path: telegram @freecodes /?ed=2560
-- name: 🇰🇷_韩国_74
-  network: ws
-  port: 16064
-  server: 220.122.41.70
-  servername: gaosir.unfeeling.sbs
-  skip-cert-verify: true
-  tls: true
-  type: vless
-  udp: true
-  uuid: f61a4285-7264-4d07-9408-7b9ba1922c26
-  ws-opts:
-    headers:
-      host: gaosir.unfeeling.sbs
-    path: /x @节点狂魔 /
-- name: 🇰🇷_韩国_75
-  network: ws
-  port: 12392
-  server: 211.33.238.198
-  servername: gaosir.unfeeling.sbs
-  skip-cert-verify: true
-  tls: true
-  type: vless
-  udp: true
-  uuid: f61a4285-7264-4d07-9408-7b9ba1922c26
-  ws-opts:
-    headers:
-      host: gaosir.unfeeling.sbs
-    path: x @节点狂魔 /?ed=2560
-- name: 🇨🇳_中国_13
-  network: ws
-  port: 443
-  server: 8.219.155.21
-  servername: gaosir.unfeeling.sbs
-  skip-cert-verify: true
-  tls: true
-  type: vless
-  udp: true
-  uuid: f61a4285-7264-4d07-9408-7b9ba1922c26
-  ws-opts:
-    headers:
-      host: gaosir.unfeeling.sbs
-    path: /x @节点狂魔 /
-- name: 🇰🇷_韩国_76
-  network: ws
-  port: 50004
-  server: 121.145.201.24
-  servername: vless.pengjiajin.sbs
-  skip-cert-verify: true
-  tls: true
-  type: vless
-  udp: true
-  uuid: 64bf9c97-212c-4814-ad17-f8539b53a8bd
-  ws-opts:
-    headers:
-      host: vless.pengjiajin.sbs
-    path: freecodes@节点狂魔/?ed=2560
-- name: 🇰🇷_韩国_77
-  network: ws
-  port: 32773
-  server: 222.113.18.207
-  servername: gaosir.unfeeling.sbs
-  skip-cert-verify: true
-  tls: true
-  type: vless
-  udp: true
-  uuid: f61a4285-7264-4d07-9408-7b9ba1922c26
-  ws-opts:
-    headers:
-      host: gaosir.unfeeling.sbs
-    path: x @节点狂魔 /?ed=2560
-- name: 🇰🇷_韩国_78
-  network: ws
-  port: 12236
-  server: 220.118.109.204
-  servername: vless.pengjiajin.sbs
-  skip-cert-verify: true
-  tls: true
-  type: vless
-  udp: true
-  uuid: 64bf9c97-212c-4814-ad17-f8539b53a8bd
-  ws-opts:
-    headers:
-      host: vless.pengjiajin.sbs
-    path: freecodes @节点狂魔 /?ed=2560
-- name: 🇰🇷_韩国_79
-  network: ws
-  port: 50000
-  server: 210.99.119.3
-  servername: gaosir.unfeeling.sbs
-  skip-cert-verify: true
-  tls: true
-  type: vless
-  udp: true
-  uuid: f61a4285-7264-4d07-9408-7b9ba1922c26
-  ws-opts:
-    headers:
-      host: gaosir.unfeeling.sbs
-    path: x @节点狂魔 /?ed=2560
-- name: 🇯🇵_日本_14
-  network: ws
-  port: 12553
-  server: 113.37.149.36
-  servername: gaosir.unfeeling.sbs
-  skip-cert-verify: true
-  tls: true
-  type: vless
-  udp: true
-  uuid: f61a4285-7264-4d07-9408-7b9ba1922c26
-  ws-opts:
-    headers:
-      host: gaosir.unfeeling.sbs
-    path: telegram @freecodes /?ed=2560
-- name: 🇰🇷_韩国_80
-  network: ws
-  port: 50001
-  server: 220.72.76.25
-  servername: gaosir.unfeeling.sbs
-  skip-cert-verify: true
-  tls: true
-  type: vless
-  udp: true
-  uuid: f61a4285-7264-4d07-9408-7b9ba1922c26
-  ws-opts:
-    headers:
-      host: gaosir.unfeeling.sbs
-    path: x@节点狂魔/?ed=2560
-- name: 🇺🇸_美国_26
-  network: ws
-  port: 443
-  server: 155.248.181.189
-  servername: gaosir.unfeeling.sbs
-  skip-cert-verify: true
-  tls: true
-  type: vless
-  udp: true
-  uuid: f61a4285-7264-4d07-9408-7b9ba1922c26
-  ws-opts:
-    headers:
-      host: gaosir.unfeeling.sbs
-    path: /x @节点狂魔 /
-- name: 🇷🇺_俄罗斯_4
-  network: ws
-  port: 2053
-  server: 2.56.91.89
-  servername: gaosir.unfeeling.sbs
-  skip-cert-verify: true
-  tls: true
-  type: vless
-  udp: true
-  uuid: f61a4285-7264-4d07-9408-7b9ba1922c26
-  ws-opts:
-    headers:
-      host: gaosir.unfeeling.sbs
-    path: x @节点狂魔 /?ed=2560
-- name: 🇺🇸_美国_27
-  network: ws
-  port: 443
-  server: 47.236.71.6
-  servername: gaosir.unfeeling.sbs
-  skip-cert-verify: true
-  tls: true
-  type: vless
-  udp: true
-  uuid: f61a4285-7264-4d07-9408-7b9ba1922c26
-  ws-opts:
-    headers:
-      host: gaosir.unfeeling.sbs
-    path: /telegram@freecodes/?ed=2560
-- name: 🇰🇷_韩国_81
-  network: ws
-  port: 50001
-  server: 59.3.62.251
-  servername: gaosir.unfeeling.sbs
-  skip-cert-verify: true
-  tls: true
-  type: vless
-  udp: true
-  uuid: f61a4285-7264-4d07-9408-7b9ba1922c26
-  ws-opts:
-    headers:
-      host: gaosir.unfeeling.sbs
-    path: x @节点狂魔 /?ed=2560
-- name: 🇸🇬_新加坡_10
-  network: ws
-  port: 443
-  server: 178.128.86.3
-  servername: gaosir.unfeeling.sbs
-  skip-cert-verify: true
-  tls: true
-  type: vless
-  udp: true
-  uuid: f61a4285-7264-4d07-9408-7b9ba1922c26
-  ws-opts:
-    headers:
-      host: gaosir.unfeeling.sbs
-    path: telegram@freecodes/?ed=2560
-- name: 🇰🇷_韩国_82
-  network: ws
-  port: 12176
-  server: 218.54.55.117
-  servername: gaosir.unfeeling.sbs
-  skip-cert-verify: true
-  tls: true
-  type: vless
-  udp: true
-  uuid: f61a4285-7264-4d07-9408-7b9ba1922c26
-  ws-opts:
-    headers:
-      host: gaosir.unfeeling.sbs
-    path: x@节点狂魔/?ed=2560
-- name: 🇰🇷_韩国_83
-  network: ws
-  port: 50000
-  server: 125.136.226.1
-  servername: gaosir.unfeeling.sbs
-  skip-cert-verify: true
-  tls: true
-  type: vless
-  udp: true
-  uuid: f61a4285-7264-4d07-9408-7b9ba1922c26
-  ws-opts:
-    headers:
-      host: gaosir.unfeeling.sbs
-    path: /x @节点狂魔 /
-- name: 🇺🇸_美国_28
-  network: ws
-  port: 16387
-  server: 64.176.39.147
-  servername: gaosir.unfeeling.sbs
-  skip-cert-verify: true
-  tls: true
-  type: vless
-  udp: true
-  uuid: f61a4285-7264-4d07-9408-7b9ba1922c26
-  ws-opts:
-    headers:
-      host: gaosir.unfeeling.sbs
-    path: /x @节点狂魔 /
-- name: 🇸🇬_新加坡_11
-  network: ws
-  port: 13802
-  server: 45.32.100.46
-  servername: gaosir.unfeeling.sbs
-  skip-cert-verify: true
-  tls: true
-  type: vless
-  udp: true
-  uuid: f61a4285-7264-4d07-9408-7b9ba1922c26
-  ws-opts:
-    headers:
-      host: gaosir.unfeeling.sbs
-    path: /x @节点狂魔 /
-- name: 🇺🇸_美国_29
-  network: ws
-  port: 30001
-  server: 152.70.236.195
-  servername: gaosir.unfeeling.sbs
-  skip-cert-verify: true
-  tls: true
-  type: vless
-  udp: true
-  uuid: f61a4285-7264-4d07-9408-7b9ba1922c26
-  ws-opts:
-    headers:
-      host: gaosir.unfeeling.sbs
-    path: /x @节点狂魔 /
-- name: 🇯🇵_日本_15
-  network: ws
-  port: 32954
-  server: 198.13.42.58
-  servername: gaosir.unfeeling.sbs
-  skip-cert-verify: true
-  tls: true
-  type: vless
-  udp: true
-  uuid: f61a4285-7264-4d07-9408-7b9ba1922c26
-  ws-opts:
-    headers:
-      host: gaosir.unfeeling.sbs
-    path: x @节点狂魔 /?ed=2560
-- name: 🇰🇷_韩国_84
-  network: ws
-  port: 12295
-  server: 211.33.238.198
-  servername: gaosir.unfeeling.sbs
-  skip-cert-verify: true
-  tls: true
-  type: vless
-  udp: true
-  uuid: f61a4285-7264-4d07-9408-7b9ba1922c26
-  ws-opts:
-    headers:
-      host: gaosir.unfeeling.sbs
-    path: telegram @freecodes /?ed=2560
-- name: 🇰🇷_韩国_85
-  network: ws
-  port: 12290
-  server: 220.118.236.239
-  servername: gaosir.unfeeling.sbs
-  skip-cert-verify: true
-  tls: true
-  type: vless
-  udp: true
-  uuid: f61a4285-7264-4d07-9408-7b9ba1922c26
-  ws-opts:
-    headers:
-      host: gaosir.unfeeling.sbs
-    path: /x @节点狂魔 /
-- name: 🇰🇷_韩国_86
-  network: ws
-  port: 26257
-  server: 124.61.52.107
-  servername: gaosir.unfeeling.sbs
-  skip-cert-verify: true
-  tls: true
-  type: vless
-  udp: true
-  uuid: f61a4285-7264-4d07-9408-7b9ba1922c26
-  ws-opts:
-    headers:
-      host: gaosir.unfeeling.sbs
-    path: /x @节点狂魔 /
-- name: 🇰🇷_韩国_87
-  network: ws
-  port: 50001
-  server: 211.184.175.180
-  servername: gaosir.unfeeling.sbs
-  skip-cert-verify: true
-  tls: true
-  type: vless
-  udp: true
-  uuid: f61a4285-7264-4d07-9408-7b9ba1922c26
-  ws-opts:
-    headers:
-      host: gaosir.unfeeling.sbs
-    path: /x @节点狂魔 /
-- name: 🇰🇷_韩国_88
-  network: ws
-  port: 50001
-  server: 39.123.97.116
-  servername: gaosir.unfeeling.sbs
-  skip-cert-verify: true
-  tls: true
-  type: vless
-  udp: true
-  uuid: f61a4285-7264-4d07-9408-7b9ba1922c26
-  ws-opts:
-    headers:
-      host: gaosir.unfeeling.sbs
-    path: /x @节点狂魔 /
-- name: 🇰🇷_韩国_89
-  network: ws
-  port: 50001
-  server: 59.11.39.221
-  servername: gaosir.unfeeling.sbs
-  skip-cert-verify: true
-  tls: true
-  type: vless
-  udp: true
-  uuid: f61a4285-7264-4d07-9408-7b9ba1922c26
-  ws-opts:
-    headers:
-      host: gaosir.unfeeling.sbs
-    path: /x @节点狂魔 /
-- name: 🇷🇺_俄罗斯_5
-  network: ws
-  port: 2053
-  server: 31.192.238.71
-  servername: gaosir.unfeeling.sbs
-  skip-cert-verify: true
-  tls: true
-  type: vless
-  udp: true
-  uuid: f61a4285-7264-4d07-9408-7b9ba1922c26
-  ws-opts:
-    headers:
-      host: gaosir.unfeeling.sbs
-    path: telegram@freecodes/?ed=2560
-- name: 🇺🇸_美国_30
-  network: ws
-  port: 2053
-  server: 143.198.196.196
-  servername: gaosir.unfeeling.sbs
-  skip-cert-verify: true
-  tls: true
-  type: vless
-  udp: true
-  uuid: f61a4285-7264-4d07-9408-7b9ba1922c26
-  ws-opts:
-    headers:
-      host: gaosir.unfeeling.sbs
-    path: telegram@freecodes/?ed=2560
-- name: 🇰🇷_韩国_90
-  network: ws
-  port: 50001
-  server: 220.126.185.107
-  servername: gaosir.unfeeling.sbs
-  skip-cert-verify: true
-  tls: true
-  type: vless
-  udp: true
-  uuid: f61a4285-7264-4d07-9408-7b9ba1922c26
-  ws-opts:
-    headers:
-      host: gaosir.unfeeling.sbs
-    path: /x @节点狂魔 /
-- name: 🇰🇷_韩国_91
-  network: ws
-  port: 50000
-  server: 112.186.212.12
-  servername: gaosir.unfeeling.sbs
-  skip-cert-verify: true
-  tls: true
-  type: vless
-  udp: true
-  uuid: f61a4285-7264-4d07-9408-7b9ba1922c26
-  ws-opts:
-    headers:
-      host: gaosir.unfeeling.sbs
-    path: telegram @freecodes /?ed=2560
-- name: 🇰🇷_韩国_92
-  network: ws
-  port: 12228
-  server: 218.148.100.87
-  servername: gaosir.unfeeling.sbs
-  skip-cert-verify: true
-  tls: true
-  type: vless
-  udp: true
-  uuid: f61a4285-7264-4d07-9408-7b9ba1922c26
-  ws-opts:
-    headers:
-      host: gaosir.unfeeling.sbs
-    path: /x @节点狂魔 /
-- name: 🇦🇺_澳大利亚_10
-  network: ws
-  port: 40029
-  server: 43.128.95.110
-  servername: gaosir.unfeeling.sbs
-  skip-cert-verify: true
-  tls: true
-  type: vless
-  udp: true
-  uuid: f61a4285-7264-4d07-9408-7b9ba1922c26
-  ws-opts:
-    headers:
-      host: gaosir.unfeeling.sbs
-    path: /x @节点狂魔 /
-- name: 🇷🇺_俄罗斯_6
-  network: ws
-  port: 2053
-  server: 194.36.179.5
-  servername: gaosir.unfeeling.sbs
-  skip-cert-verify: true
-  tls: true
-  type: vless
-  udp: true
-  uuid: f61a4285-7264-4d07-9408-7b9ba1922c26
-  ws-opts:
-    headers:
-      host: gaosir.unfeeling.sbs
-    path: /x @节点狂魔 /
-- name: 🇷🇺_俄罗斯_7
-  network: ws
-  port: 2053
-  server: 91.192.81.154
-  servername: gaosir.unfeeling.sbs
-  skip-cert-verify: true
-  tls: true
-  type: vless
-  udp: true
-  uuid: f61a4285-7264-4d07-9408-7b9ba1922c26
-  ws-opts:
-    headers:
-      host: gaosir.unfeeling.sbs
-    path: /x @节点狂魔 /
-- name: 🇰🇷_韩国_93
-  network: ws
-  port: 12313
-  server: 202.150.185.128
-  servername: vless.pengjiajin.sbs
-  skip-cert-verify: true
-  tls: true
-  type: vless
-  udp: true
-  uuid: 64bf9c97-212c-4814-ad17-f8539b53a8bd
-  ws-opts:
-    headers:
-      host: vless.pengjiajin.sbs
-    path: freecodes @节点狂魔 /?ed=2560
-- name: 🇬🇧_英国_3
-  network: ws
-  port: 4443
-  server: 144.24.83.227
-  servername: gaosir.unfeeling.sbs
-  skip-cert-verify: true
-  tls: true
-  type: vless
-  udp: true
-  uuid: f61a4285-7264-4d07-9408-7b9ba1922c26
-  ws-opts:
-    headers:
-      host: gaosir.unfeeling.sbs
-    path: /telegram@freecodes/
-- name: 🇰🇷_韩国_94
-  network: ws
-  port: 4333
-  server: 193.123.253.225
-  servername: gaosir.unfeeling.sbs
-  skip-cert-verify: true
-  tls: true
-  type: vless
-  udp: true
-  uuid: f61a4285-7264-4d07-9408-7b9ba1922c26
-  ws-opts:
-    headers:
-      host: gaosir.unfeeling.sbs
-    path: x @节点狂魔 /?ed=2560
-- name: 🇺🇸_美国_31
-  network: ws
-  port: 45681
-  server: 150.230.5.34
-  servername: vless.pengjiajin.sbs
-  skip-cert-verify: true
-  tls: true
-  type: vless
-  udp: true
-  uuid: 64bf9c97-212c-4814-ad17-f8539b53a8bd
-  ws-opts:
-    headers:
-      host: vless.pengjiajin.sbs
-    path: freecodes @节点狂魔 /?ed=2560
-- name: 🇰🇷_韩国_95
-  network: ws
-  port: 50001
-  server: 221.156.182.211
-  servername: vless.pengjiajin.sbs
-  skip-cert-verify: true
-  tls: true
-  type: vless
-  udp: true
-  uuid: 64bf9c97-212c-4814-ad17-f8539b53a8bd
-  ws-opts:
-    headers:
-      host: vless.pengjiajin.sbs
-    path: freecodes @节点狂魔 /?ed=2560
-- name: 🇳🇱_荷兰_1
-  network: ws
-  port: 2096
-  server: 188.42.145.253
-  servername: gaosir.unfeeling.sbs
-  skip-cert-verify: true
-  tls: true
-  type: vless
-  udp: true
-  uuid: f61a4285-7264-4d07-9408-7b9ba1922c26
-  ws-opts:
-    headers:
-      host: gaosir.unfeeling.sbs
-    path: /telegram@freecodes/
-- name: 🇰🇷_韩国_96
-  network: ws
-  port: 50008
-  server: 59.25.160.141
-  servername: gaosir.unfeeling.sbs
-  skip-cert-verify: true
-  tls: true
-  type: vless
-  udp: true
-  uuid: f61a4285-7264-4d07-9408-7b9ba1922c26
-  ws-opts:
-    headers:
-      host: gaosir.unfeeling.sbs
-    path: telegram @freecodes /?ed=2560
-- name: 🇯🇵_日本_16
-  network: ws
-  port: 443
-  server: 132.145.115.62
-  servername: gaosir.unfeeling.sbs
-  skip-cert-verify: true
-  tls: true
-  type: vless
-  udp: true
-  uuid: f61a4285-7264-4d07-9408-7b9ba1922c26
-  ws-opts:
-    headers:
-      host: gaosir.unfeeling.sbs
-    path: /x @节点狂魔 /
-- name: 🇬🇧_英国_4
-  network: ws
-  port: 443
-  server: 158.179.174.3
-  servername: gaosir.unfeeling.sbs
-  skip-cert-verify: true
-  tls: true
-  type: vless
-  udp: true
-  uuid: f61a4285-7264-4d07-9408-7b9ba1922c26
-  ws-opts:
-    headers:
-      host: gaosir.unfeeling.sbs
-    path: /telegram @freecodes /
-- name: 🇨🇳_中国_14
-  network: ws
-  port: 8443
-  server: 156.255.90.175
-  servername: gaosir.unfeeling.sbs
-  skip-cert-verify: true
-  tls: true
-  type: vless
-  udp: true
-  uuid: f61a4285-7264-4d07-9408-7b9ba1922c26
-  ws-opts:
-    headers:
-      host: gaosir.unfeeling.sbs
-    path: /x @节点狂魔 /
-- name: 🇰🇷_韩国_97
-  network: ws
-  port: 50001
-  server: 118.45.152.231
-  servername: gaosir.unfeeling.sbs
-  skip-cert-verify: true
-  tls: true
-  type: vless
-  udp: true
-  uuid: f61a4285-7264-4d07-9408-7b9ba1922c26
-  ws-opts:
-    headers:
-      host: gaosir.unfeeling.sbs
-    path: /x @节点狂魔 /
-- name: 🇸🇪_瑞典_4
-  network: ws
-  port: 443
-  server: 141.147.188.120
-  servername: gaosir.unfeeling.sbs
-  skip-cert-verify: true
-  tls: true
-  type: vless
-  udp: true
-  uuid: f61a4285-7264-4d07-9408-7b9ba1922c26
-  ws-opts:
-    headers:
-      host: gaosir.unfeeling.sbs
-    path: /x @节点狂魔 /
-- name: 🇰🇷_韩国_98
-  network: ws
-  port: 21321
-  server: 211.33.238.198
-  servername: gaosir.unfeeling.sbs
-  skip-cert-verify: true
-  tls: true
-  type: vless
-  udp: true
-  uuid: f61a4285-7264-4d07-9408-7b9ba1922c26
-  ws-opts:
-    headers:
-      host: gaosir.unfeeling.sbs
-    path: /x @节点狂魔 /
-- name: 🇯🇵_日本_17
-  network: ws
-  port: 443
-  server: 172.105.209.25
-  servername: vless.pengjiajin.sbs
-  skip-cert-verify: true
-  tls: true
-  type: vless
-  udp: true
-  uuid: 64bf9c97-212c-4814-ad17-f8539b53a8bd
-  ws-opts:
-    headers:
-      host: vless.pengjiajin.sbs
-    path: freecodes @节点狂魔 /?ed=2560
-- name: 🇳🇱_荷兰_2
-  network: ws
-  port: 2096
-  server: 188.42.145.253
-  servername: gaosir.unfeeling.sbs
-  skip-cert-verify: true
-  tls: true
-  type: vless
-  udp: true
-  uuid: f61a4285-7264-4d07-9408-7b9ba1922c26
-  ws-opts:
-    headers:
-      host: gaosir.unfeeling.sbs
-    path: /freecodes @节点狂魔 /
-- name: 🇸🇬_新加坡_12
-  network: ws
-  port: 443
-  server: 139.180.154.158
-  servername: gaosir.unfeeling.sbs
-  skip-cert-verify: true
-  tls: true
-  type: vless
-  udp: true
-  uuid: f61a4285-7264-4d07-9408-7b9ba1922c26
-  ws-opts:
-    headers:
-      host: gaosir.unfeeling.sbs
-    path: /x @节点狂魔 /
-- name: 🇰🇷_韩国_99
-  network: ws
-  port: 12462
-  server: 59.22.140.62
-  servername: gaosir.unfeeling.sbs
-  skip-cert-verify: true
-  tls: true
-  type: vless
-  udp: true
-  uuid: f61a4285-7264-4d07-9408-7b9ba1922c26
-  ws-opts:
-    headers:
-      host: gaosir.unfeeling.sbs
-    path: /x @节点狂魔 /
-- name: 🇰🇷_韩国_100
-  network: ws
-  port: 20100
-  server: 211.33.238.198
-  servername: gaosir.unfeeling.sbs
-  skip-cert-verify: true
-  tls: true
-  type: vless
-  udp: true
-  uuid: f61a4285-7264-4d07-9408-7b9ba1922c26
-  ws-opts:
-    headers:
-      host: gaosir.unfeeling.sbs
-    path: /x @节点狂魔 /
-- name: 🇺🇸_美国_32
-  network: ws
-  port: 16387
-  server: 64.176.39.147
-  servername: gaosir.unfeeling.sbs
-  skip-cert-verify: true
-  tls: true
-  type: vless
-  udp: true
-  uuid: f61a4285-7264-4d07-9408-7b9ba1922c26
-  ws-opts:
-    headers:
-      host: gaosir.unfeeling.sbs
-    path: telegram @freecodes /?ed=2560
-- name: 🇺🇸_美国_33
-  network: ws
-  port: 1443
-  server: 47.245.95.160
-  servername: gaosir.unfeeling.sbs
-  skip-cert-verify: true
-  tls: true
-  type: vless
-  udp: true
-  uuid: f61a4285-7264-4d07-9408-7b9ba1922c26
-  ws-opts:
-    headers:
-      host: gaosir.unfeeling.sbs
-    path: /x @节点狂魔 /
-- name: 🇧🇷_巴西_2
-  network: ws
-  port: 12345
-  server: 168.138.197.147
-  servername: gaosir.unfeeling.sbs
-  skip-cert-verify: true
-  tls: true
-  type: vless
-  udp: true
-  uuid: f61a4285-7264-4d07-9408-7b9ba1922c26
-  ws-opts:
-    headers:
-      host: gaosir.unfeeling.sbs
-    path: /x @节点狂魔 /
-- name: 🇯🇵_日本_18
-  network: ws
-  port: 443
-  server: 49.212.133.94
-  servername: gaosir.unfeeling.sbs
-  skip-cert-verify: true
-  tls: true
-  type: vless
-  udp: true
-  uuid: f61a4285-7264-4d07-9408-7b9ba1922c26
-  ws-opts:
-    headers:
-      host: gaosir.unfeeling.sbs
-    path: /x @节点狂魔 /
-- name: 🇯🇵_日本_19
-  network: ws
-  port: 443
-  server: 139.162.108.5
-  servername: gaosir.unfeeling.sbs
-  skip-cert-verify: true
-  tls: true
-  type: vless
-  udp: true
-  uuid: f61a4285-7264-4d07-9408-7b9ba1922c26
-  ws-opts:
-    headers:
-      host: gaosir.unfeeling.sbs
-    path: telegram @freecodes /?ed=2560
-- name: 🇰🇷_韩国_101
-  network: ws
-  port: 23023
-  server: 121.144.160.103
-  servername: gaosir.unfeeling.sbs
-  skip-cert-verify: true
-  tls: true
-  type: vless
-  udp: true
-  uuid: f61a4285-7264-4d07-9408-7b9ba1922c26
-  ws-opts:
-    headers:
-      host: gaosir.unfeeling.sbs
-    path: telegram @freecodes /?ed=2560
-- name: 🇯🇵_日本_20
-  network: ws
-  port: 443
-  server: 13.230.34.30
-  servername: gaosir.unfeeling.sbs
-  skip-cert-verify: true
-  tls: true
-  type: vless
-  udp: true
-  uuid: f61a4285-7264-4d07-9408-7b9ba1922c26
-  ws-opts:
-    headers:
-      host: gaosir.unfeeling.sbs
-    path: x@节点狂魔/?ed=2560
-- name: 🇰🇷_韩国_102
-  network: ws
-  port: 16020
-  server: 121.147.108.106
-  servername: gaosir.unfeeling.sbs
-  skip-cert-verify: true
-  tls: true
-  type: vless
-  udp: true
-  uuid: f61a4285-7264-4d07-9408-7b9ba1922c26
-  ws-opts:
-    headers:
-      host: gaosir.unfeeling.sbs
-    path: /x @节点狂魔 /
-- name: 🇺🇸_美国_34
-  network: ws
-  port: 57005
-  server: 152.69.192.40
-  servername: gaosir.unfeeling.sbs
-  skip-cert-verify: true
-  tls: true
-  type: vless
-  udp: true
-  uuid: f61a4285-7264-4d07-9408-7b9ba1922c26
-  ws-opts:
-    headers:
-      host: gaosir.unfeeling.sbs
-    path: x @节点狂魔 /?ed=2560
-- name: 🇰🇷_韩国_103
-  network: ws
-  port: 30112
-  server: 175.202.241.130
-  servername: gaosir.unfeeling.sbs
-  skip-cert-verify: true
-  tls: true
-  type: vless
-  udp: true
-  uuid: f61a4285-7264-4d07-9408-7b9ba1922c26
-  ws-opts:
-    headers:
-      host: gaosir.unfeeling.sbs
-    path: telegram@freecodes/?ed=2560
 - name: 🇰🇷_韩国_104
   network: ws
-  port: 29850
-  server: 124.216.60.169
+  port: 30106
+  server: 112.184.45.203
   servername: gaosir.unfeeling.sbs
   skip-cert-verify: true
   tls: true
@@ -3060,64 +3770,8 @@ proxies:
     path: x @节点狂魔 /?ed=2560
 - name: 🇰🇷_韩国_105
   network: ws
-  port: 21286
-  server: 14.36.155.120
-  servername: gaosir.unfeeling.sbs
-  skip-cert-verify: true
-  tls: true
-  type: vless
-  udp: true
-  uuid: f61a4285-7264-4d07-9408-7b9ba1922c26
-  ws-opts:
-    headers:
-      host: gaosir.unfeeling.sbs
-    path: telegram@freecodes/?ed=2560
-- name: 🇷🇺_俄罗斯_8
-  network: ws
-  port: 2053
-  server: 194.36.179.5
-  servername: gaosir.unfeeling.sbs
-  skip-cert-verify: true
-  tls: true
-  type: vless
-  udp: true
-  uuid: f61a4285-7264-4d07-9408-7b9ba1922c26
-  ws-opts:
-    headers:
-      host: gaosir.unfeeling.sbs
-    path: telegram@freecodes/?ed=2560
-- name: 🇰🇷_韩国_106
-  network: ws
-  port: 22222
-  server: 111.118.118.177
-  servername: vless.pengjiajin.sbs
-  skip-cert-verify: true
-  tls: true
-  type: vless
-  udp: true
-  uuid: 64bf9c97-212c-4814-ad17-f8539b53a8bd
-  ws-opts:
-    headers:
-      host: vless.pengjiajin.sbs
-    path: freecodes @节点狂魔 /?ed=2560
-- name: 🇰🇷_韩国_107
-  network: ws
-  port: 12228
-  server: 218.148.100.87
-  servername: gaosir.unfeeling.sbs
-  skip-cert-verify: true
-  tls: true
-  type: vless
-  udp: true
-  uuid: f61a4285-7264-4d07-9408-7b9ba1922c26
-  ws-opts:
-    headers:
-      host: gaosir.unfeeling.sbs
-    path: telegram @freecodes /?ed=2560
-- name: 🇰🇷_韩国_108
-  network: ws
   port: 50001
-  server: 39.114.16.138
+  server: 59.11.39.221
   servername: gaosir.unfeeling.sbs
   skip-cert-verify: true
   tls: true
@@ -3127,217 +3781,7 @@ proxies:
   ws-opts:
     headers:
       host: gaosir.unfeeling.sbs
-    path: /x @节点狂魔 /
-- name: 🇰🇷_韩国_109
-  network: ws
-  port: 30051
-  server: 175.201.95.5
-  servername: gaosir.unfeeling.sbs
-  skip-cert-verify: true
-  tls: true
-  type: vless
-  udp: true
-  uuid: f61a4285-7264-4d07-9408-7b9ba1922c26
-  ws-opts:
-    headers:
-      host: gaosir.unfeeling.sbs
-    path: telegram @freecodes /?ed=2560
-- name: 🇸🇪_瑞典_5
-  network: ws
-  port: 443
-  server: 141.147.147.180
-  servername: gaosir.unfeeling.sbs
-  skip-cert-verify: true
-  tls: true
-  type: vless
-  udp: true
-  uuid: f61a4285-7264-4d07-9408-7b9ba1922c26
-  ws-opts:
-    headers:
-      host: gaosir.unfeeling.sbs
-    path: /x @节点狂魔 /
-- name: 🇺🇸_美国_35
-  network: ws
-  port: 49153
-  server: 47.79.90.37
-  servername: gaosir.unfeeling.sbs
-  skip-cert-verify: true
-  tls: true
-  type: vless
-  udp: true
-  uuid: f61a4285-7264-4d07-9408-7b9ba1922c26
-  ws-opts:
-    headers:
-      host: gaosir.unfeeling.sbs
-    path: /telegram@freecodes/?ed=2560
-- name: 🇰🇷_韩国_110
-  network: ws
-  port: 50001
-  server: 175.202.53.36
-  servername: gaosir.unfeeling.sbs
-  skip-cert-verify: true
-  tls: true
-  type: vless
-  udp: true
-  uuid: f61a4285-7264-4d07-9408-7b9ba1922c26
-  ws-opts:
-    headers:
-      host: gaosir.unfeeling.sbs
-    path: /x @节点狂魔 /
-- name: 🇧🇷_巴西_3
-  network: ws
-  port: 53702
-  server: 168.138.170.211
-  servername: gaosir.unfeeling.sbs
-  skip-cert-verify: true
-  tls: true
-  type: vless
-  udp: true
-  uuid: f61a4285-7264-4d07-9408-7b9ba1922c26
-  ws-opts:
-    headers:
-      host: gaosir.unfeeling.sbs
-    path: /x @节点狂魔 /
-- name: 🇰🇷_韩国_111
-  network: ws
-  port: 50001
-  server: 59.22.88.168
-  servername: vless.pengjiajin.sbs
-  skip-cert-verify: true
-  tls: true
-  type: vless
-  udp: true
-  uuid: 64bf9c97-212c-4814-ad17-f8539b53a8bd
-  ws-opts:
-    headers:
-      host: vless.pengjiajin.sbs
-    path: freecodes @节点狂魔 /?ed=2560
-- name: 🇰🇷_韩国_112
-  network: ws
-  port: 18245
-  server: 221.148.181.220
-  servername: gaosir.unfeeling.sbs
-  skip-cert-verify: true
-  tls: true
-  type: vless
-  udp: true
-  uuid: f61a4285-7264-4d07-9408-7b9ba1922c26
-  ws-opts:
-    headers:
-      host: gaosir.unfeeling.sbs
-    path: /x @节点狂魔 /
-- name: 🇺🇸_美国_36
-  network: ws
-  port: 2096
-  server: 50.62.194.253
-  servername: vless.muzheng.top
-  skip-cert-verify: true
-  tls: true
-  type: vless
-  udp: true
-  uuid: 7556317c-dff6-46e8-ad29-b408f2a6456e
-  ws-opts:
-    headers:
-      host: vless.muzheng.top
-    path: /x @节点狂魔 /
-- name: 🇸🇬_新加坡_13
-  network: ws
-  port: 443
-  server: 128.199.134.152
-  servername: gaosir.unfeeling.sbs
-  skip-cert-verify: true
-  tls: true
-  type: vless
-  udp: true
-  uuid: f61a4285-7264-4d07-9408-7b9ba1922c26
-  ws-opts:
-    headers:
-      host: gaosir.unfeeling.sbs
-    path: /x @节点狂魔 /
-- name: 🇸🇬_新加坡_14
-  network: ws
-  port: 443
-  server: 128.199.75.32
-  servername: gaosir.unfeeling.sbs
-  skip-cert-verify: true
-  tls: true
-  type: vless
-  udp: true
-  uuid: f61a4285-7264-4d07-9408-7b9ba1922c26
-  ws-opts:
-    headers:
-      host: gaosir.unfeeling.sbs
-    path: telegram@freecodes/?ed=2560
-- name: 🇰🇷_韩国_113
-  network: ws
-  port: 50001
-  server: 1.254.152.56
-  servername: gaosir.unfeeling.sbs
-  skip-cert-verify: true
-  tls: true
-  type: vless
-  udp: true
-  uuid: f61a4285-7264-4d07-9408-7b9ba1922c26
-  ws-opts:
-    headers:
-      host: gaosir.unfeeling.sbs
-    path: telegram @freecodes /?ed=2560
-- name: 🇺🇸_美国_37
-  network: ws
-  port: 587
-  server: 129.150.35.29
-  servername: gaosir.unfeeling.sbs
-  skip-cert-verify: true
-  tls: true
-  type: vless
-  udp: true
-  uuid: f61a4285-7264-4d07-9408-7b9ba1922c26
-  ws-opts:
-    headers:
-      host: gaosir.unfeeling.sbs
-    path: /x @节点狂魔 /
-- name: 🇰🇷_韩国_114
-  network: ws
-  port: 50000
-  server: 115.93.169.180
-  servername: gaosir.unfeeling.sbs
-  skip-cert-verify: true
-  tls: true
-  type: vless
-  udp: true
-  uuid: f61a4285-7264-4d07-9408-7b9ba1922c26
-  ws-opts:
-    headers:
-      host: gaosir.unfeeling.sbs
-    path: /x @节点狂魔 /
-- name: 🇺🇸_美国_38
-  network: ws
-  port: 8880
-  server: 104.17.147.22
-  servername: Fi.Parsashonam.CfD.
-  skip-cert-verify: true
-  tls: true
-  type: vless
-  udp: true
-  uuid: Parsashonam-Bot-31
-  ws-opts:
-    headers:
-      host: Fi.Parsashonam.CfD.
-    path: /parsashonam-parsashonam-parsashonam-parsashonam-parsashonam-parsashonam-parsashonam-parsashonam-parsashonam-parsashonam-parsashonam-parsashonam-parsashonam-parsashonam-parsashonam-parsashonam?ed=2056
-- name: 🇩🇪_德国_2
-  network: ws
-  port: 443
-  server: 49.13.21.6
-  servername: 49.13.21.6
-  skip-cert-verify: true
-  tls: true
-  type: vless
-  udp: true
-  uuid: b345b731-7aa1-47ff-8378-bc4762877ea9
-  ws-opts:
-    headers:
-      host: 49.13.21.6
-    path: /linkws?ed=2560
+    path: x@节点狂魔/?ed=2560
 proxy-groups:
 - name: 🚀 节点选择
   proxies:
@@ -3345,76 +3789,169 @@ proxy-groups:
   - DIRECT
   - 电报群：https://t.me/vvkj11
   - 每天更新，请加电报群防止失联
-  - 日期：10-17
+  - 日期：10-18
   - 免费VPN：https://tt.vg/gwaAy
-  - 🇨🇳_中国_1
+  - 🇫🇷_法国_1
+  - 🇸🇦_沙特阿拉伯_1
+  - 🇫🇷_法国_2
+  - 🇸🇦_沙特阿拉伯_2
+  - 🇷🇺_俄罗斯_1
+  - 🇨🇭_瑞士_1
+  - 🇨🇭_瑞士_2
+  - 🇫🇷_法国_3
+  - 🇷🇺_俄罗斯_2
+  - 🇷🇺_俄罗斯_3
   - 🇺🇸_美国_1
-  - 🇨🇳_中国_2
+  - 🇷🇺_俄罗斯_4
+  - 🇯🇵_日本_1
   - 🇺🇸_美国_2
-  - 🇦🇺_澳大利亚_1
-  - 🇦🇺_澳大利亚_2
-  - 🇨🇳_中国_3
-  - 🇨🇳_中国_4
+  - 🇨🇳_中国_1
   - 🇺🇸_美国_3
   - 🇺🇸_美国_4
-  - 🇸🇬_新加坡_1
+  - 🇨🇳_中国_2
+  - 🇩🇪_德国_1
+  - 🇩🇪_德国_2
   - 🇺🇸_美国_5
-  - 🇸🇬_新加坡_2
-  - 🇨🇳_中国_5
+  - 🇨🇳_中国_3
   - 🇺🇸_美国_6
+  - 🇫🇷_法国_4
+  - 🇫🇷_法国_5
+  - 🇫🇷_法国_6
+  - 🇫🇷_法国_7
+  - 🇫🇷_法国_8
+  - 🇺🇦_乌克兰
   - 🇺🇸_美国_7
-  - 🇨🇳_中国_6
-  - 🇯🇵_日本_1
-  - 🇸🇬_新加坡_3
   - 🇺🇸_美国_8
-  - 🇸🇬_新加坡_4
   - 🇺🇸_美国_9
-  - 🇨🇳_中国_7
-  - 🇸🇬_新加坡_5
   - 🇺🇸_美国_10
   - 🇺🇸_美国_11
-  - 🇯🇵_日本_2
-  - 🇨🇳_中国_8
-  - 🇯🇵_日本_3
-  - 🇸🇪_瑞典_1
-  - 🇧🇷_巴西_1
-  - 🇦🇺_澳大利亚_3
-  - 🇨🇳_中国_9
-  - 🇯🇵_日本_4
   - 🇺🇸_美国_12
-  - 🇨🇭_瑞士
-  - 🇨🇳_中国_10
   - 🇺🇸_美国_13
+  - 🇺🇸_美国_14
+  - 🇺🇸_美国_15
+  - 🇺🇸_美国_16
+  - 🇺🇸_美国_17
+  - 🇺🇸_美国_18
+  - 🇺🇸_美国_19
+  - 🇺🇸_美国_20
+  - 🇺🇸_美国_21
+  - 🇺🇸_美国_22
+  - 🇺🇸_美国_23
+  - 🇺🇸_美国_24
+  - 🇺🇸_美国_25
+  - 🇨🇳_中国_4
+  - 🇨🇳_中国_5
+  - 🇦🇺_澳大利亚_1
+  - 🇫🇷_法国_9
+  - 🇺🇸_美国_26
+  - 🇨🇳_中国_6
+  - 🇨🇳_中国_7
+  - 🇺🇸_美国_27
+  - 🇺🇸_美国_28
+  - 🇬🇧_英国_1
+  - 🇺🇸_美国_29
+  - 🇯🇵_日本_2
+  - 🇬🇧_英国_2
+  - 🇺🇸_美国_30
+  - 🇯🇵_日本_3
+  - 🇺🇸_美国_31
+  - 🇧🇷_巴西_1
+  - 🇺🇸_美国_32
+  - 🇯🇵_日本_4
+  - 🇺🇸_美国_33
+  - 🇦🇺_澳大利亚_2
+  - 🇧🇷_巴西_2
+  - 🇺🇸_美国_34
+  - 🇺🇸_美国_35
+  - 🇺🇸_美国_36
+  - 🇺🇸_美国_37
+  - 🇬🇧_英国_3
+  - 🇦🇺_澳大利亚_3
+  - 🇺🇸_美国_38
+  - 🇺🇸_美国_39
   - 🇯🇵_日本_5
+  - 🇧🇷_巴西_3
+  - 🇺🇸_美国_40
+  - 🇺🇸_美国_41
+  - 🇺🇸_美国_42
+  - 🇺🇸_美国_43
+  - 🇺🇸_美国_44
   - 🇯🇵_日本_6
   - 🇯🇵_日本_7
-  - 🇺🇸_美国_14
-  - 🇸🇪_瑞典_2
-  - 🇺🇸_美国_15
   - 🇯🇵_日本_8
-  - 🇸🇬_新加坡_6
-  - 🇸🇪_瑞典_3
-  - 🇦🇺_澳大利亚_4
-  - 🇸🇬_新加坡_7
-  - 🇺🇸_美国_16
+  - 🇺🇸_美国_45
+  - 🇧🇷_巴西_4
+  - 🇺🇸_美国_46
+  - 🇨🇳_中国_8
+  - 🇨🇳_中国_9
+  - 🇺🇸_美国_47
+  - 🇧🇷_巴西_5
   - 🇯🇵_日本_9
+  - 🇸🇪_瑞典_1
+  - 🇬🇧_英国_4
+  - 🇸🇪_瑞典_2
+  - 🇺🇸_美国_48
+  - 🇦🇺_澳大利亚_4
   - 🇯🇵_日本_10
-  - 🇦🇺_澳大利亚_5
-  - 🇺🇸_美国_17
+  - 🇨🇳_中国_10
+  - 🇺🇸_美国_49
+  - 🇺🇸_美国_50
+  - 🇸🇪_瑞典_3
   - 🇯🇵_日本_11
+  - 🇸🇬_新加坡_1
+  - 🇺🇸_美国_51
+  - 🇺🇸_美国_52
+  - 🇸🇪_瑞典_4
+  - 🇺🇸_美国_53
+  - 🇺🇸_美国_54
+  - 🇯🇵_日本_12
+  - 🇨🇳_中国_11
+  - 🇺🇸_美国_55
+  - 🇯🇵_日本_13
+  - 🇯🇵_日本_14
+  - 🇯🇵_日本_15
+  - 🇨🇳_中国_12
+  - 🇺🇸_美国_56
+  - 🇯🇵_日本_16
+  - 🇯🇵_日本_17
+  - 🇺🇸_美国_57
+  - 🇺🇸_美国_58
+  - 🇯🇵_日本_18
+  - 🇺🇸_美国_59
+  - 🇸🇪_瑞典_5
+  - 🇨🇭_瑞士_3
+  - 🇯🇵_日本_19
+  - 🇯🇵_日本_20
+  - 🇺🇸_美国_60
+  - 🇺🇸_美国_61
+  - 🇯🇵_日本_21
+  - 🇦🇺_澳大利亚_5
+  - 🇯🇵_日本_22
+  - 🇦🇺_澳大利亚_6
   - 🇰🇷_韩国_1
   - 🇰🇷_韩国_2
-  - 🇯🇵_日本_12
+  - 🇦🇺_澳大利亚_7
+  - 🇸🇪_瑞典_6
   - 🇰🇷_韩国_3
+  - 🇬🇧_英国_5
   - 🇰🇷_韩国_4
-  - 🇦🇺_澳大利亚_6
+  - 🇸🇪_瑞典_7
+  - 🇦🇺_澳大利亚_8
   - 🇰🇷_韩国_5
+  - 🇸🇪_瑞典_8
+  - 🇺🇸_美国_62
+  - 🇦🇺_澳大利亚_9
   - 🇰🇷_韩国_6
   - 🇰🇷_韩国_7
+  - 🇺🇸_美国_63
   - 🇰🇷_韩国_8
   - 🇰🇷_韩国_9
   - 🇰🇷_韩国_10
+  - 🇯🇵_日本_23
   - 🇰🇷_韩国_11
+  - 🇸🇪_瑞典_9
+  - 🇨🇳_中国_13
+  - 🇨🇭_瑞士_4
   - 🇰🇷_韩国_12
   - 🇰🇷_韩国_13
   - 🇰🇷_韩国_14
@@ -3424,241 +3961,281 @@ proxy-groups:
   - 🇰🇷_韩国_18
   - 🇰🇷_韩国_19
   - 🇰🇷_韩国_20
-  - 🇦🇺_澳大利亚_7
   - 🇰🇷_韩国_21
+  - 🇯🇵_日本_24
   - 🇰🇷_韩国_22
   - 🇰🇷_韩国_23
   - 🇰🇷_韩国_24
+  - 🇯🇵_日本_25
   - 🇰🇷_韩国_25
+  - 🇺🇸_美国_64
+  - 🇫🇷_法国_10
   - 🇰🇷_韩国_26
   - 🇰🇷_韩国_27
-  - 🇺🇸_美国_18
   - 🇰🇷_韩国_28
-  - 🇱🇹_立陶宛
   - 🇰🇷_韩国_29
+  - 🇺🇸_美国_65
   - 🇰🇷_韩国_30
   - 🇰🇷_韩国_31
+  - 🇬🇧_英国_6
   - 🇰🇷_韩国_32
   - 🇰🇷_韩国_33
   - 🇰🇷_韩国_34
   - 🇰🇷_韩国_35
-  - 🇺🇸_美国_19
-  - 🇷🇺_俄罗斯_1
   - 🇰🇷_韩国_36
   - 🇰🇷_韩国_37
   - 🇰🇷_韩国_38
   - 🇰🇷_韩国_39
   - 🇰🇷_韩国_40
-  - 🇦🇺_澳大利亚_8
+  - 🇯🇵_日本_26
   - 🇰🇷_韩国_41
+  - 🇫🇷_法国_11
   - 🇰🇷_韩国_42
   - 🇰🇷_韩国_43
   - 🇰🇷_韩国_44
   - 🇰🇷_韩国_45
-  - 🇺🇸_美国_20
   - 🇰🇷_韩国_46
+  - 🇺🇸_美国_66
   - 🇰🇷_韩国_47
-  - 🇷🇺_俄罗斯_2
-  - 🇬🇧_英国_1
   - 🇰🇷_韩国_48
   - 🇰🇷_韩国_49
   - 🇰🇷_韩国_50
   - 🇰🇷_韩国_51
-  - 🇬🇧_英国_2
   - 🇰🇷_韩国_52
+  - 🇬🇧_英国_7
   - 🇰🇷_韩国_53
-  - 🇦🇺_澳大利亚_9
   - 🇰🇷_韩国_54
   - 🇰🇷_韩国_55
-  - 🇩🇪_德国_1
-  - 🇺🇸_美国_21
-  - 🇺🇸_美国_22
-  - 🇺🇸_美国_23
   - 🇰🇷_韩国_56
   - 🇰🇷_韩国_57
   - 🇰🇷_韩国_58
   - 🇰🇷_韩国_59
-  - 🇺🇸_美国_24
   - 🇰🇷_韩国_60
-  - 🇨🇳_中国_11
-  - 🇷🇺_俄罗斯_3
-  - 🇸🇬_新加坡_8
+  - 🇨🇭_瑞士_5
   - 🇰🇷_韩国_61
   - 🇰🇷_韩国_62
   - 🇰🇷_韩国_63
   - 🇰🇷_韩国_64
-  - 🇯🇵_日本_13
   - 🇰🇷_韩国_65
   - 🇰🇷_韩国_66
-  - 🇨🇳_中国_12
-  - 🇺🇸_美国_25
   - 🇰🇷_韩国_67
   - 🇰🇷_韩国_68
+  - 🇨🇳_中国_14
   - 🇰🇷_韩国_69
-  - 🇸🇬_新加坡_9
   - 🇰🇷_韩国_70
   - 🇰🇷_韩国_71
   - 🇰🇷_韩国_72
+  - 🇸🇬_新加坡_2
   - 🇰🇷_韩国_73
   - 🇰🇷_韩国_74
   - 🇰🇷_韩国_75
-  - 🇨🇳_中国_13
+  - 🇯🇵_日本_27
   - 🇰🇷_韩国_76
   - 🇰🇷_韩国_77
   - 🇰🇷_韩国_78
   - 🇰🇷_韩国_79
-  - 🇯🇵_日本_14
   - 🇰🇷_韩国_80
-  - 🇺🇸_美国_26
-  - 🇷🇺_俄罗斯_4
-  - 🇺🇸_美国_27
   - 🇰🇷_韩国_81
-  - 🇸🇬_新加坡_10
   - 🇰🇷_韩国_82
   - 🇰🇷_韩国_83
-  - 🇺🇸_美国_28
-  - 🇸🇬_新加坡_11
-  - 🇺🇸_美国_29
-  - 🇯🇵_日本_15
   - 🇰🇷_韩国_84
   - 🇰🇷_韩国_85
   - 🇰🇷_韩国_86
   - 🇰🇷_韩国_87
   - 🇰🇷_韩国_88
   - 🇰🇷_韩国_89
-  - 🇷🇺_俄罗斯_5
-  - 🇺🇸_美国_30
+  - 🇬🇧_英国_8
+  - 🇯🇵_日本_28
+  - 🇬🇧_英国_9
   - 🇰🇷_韩国_90
   - 🇰🇷_韩国_91
+  - 🇺🇸_美国_67
   - 🇰🇷_韩国_92
-  - 🇦🇺_澳大利亚_10
-  - 🇷🇺_俄罗斯_6
-  - 🇷🇺_俄罗斯_7
   - 🇰🇷_韩国_93
-  - 🇬🇧_英国_3
   - 🇰🇷_韩国_94
-  - 🇺🇸_美国_31
   - 🇰🇷_韩国_95
-  - 🇳🇱_荷兰_1
   - 🇰🇷_韩国_96
-  - 🇯🇵_日本_16
-  - 🇬🇧_英国_4
-  - 🇨🇳_中国_14
+  - 🇯🇵_日本_29
   - 🇰🇷_韩国_97
-  - 🇸🇪_瑞典_4
   - 🇰🇷_韩国_98
-  - 🇯🇵_日本_17
-  - 🇳🇱_荷兰_2
-  - 🇸🇬_新加坡_12
   - 🇰🇷_韩国_99
   - 🇰🇷_韩国_100
-  - 🇺🇸_美国_32
-  - 🇺🇸_美国_33
-  - 🇧🇷_巴西_2
-  - 🇯🇵_日本_18
-  - 🇯🇵_日本_19
+  - 🇳🇱_荷兰
   - 🇰🇷_韩国_101
-  - 🇯🇵_日本_20
   - 🇰🇷_韩国_102
-  - 🇺🇸_美国_34
   - 🇰🇷_韩国_103
+  - 🇱🇹_立陶宛
   - 🇰🇷_韩国_104
   - 🇰🇷_韩国_105
-  - 🇷🇺_俄罗斯_8
-  - 🇰🇷_韩国_106
-  - 🇰🇷_韩国_107
-  - 🇰🇷_韩国_108
-  - 🇰🇷_韩国_109
-  - 🇸🇪_瑞典_5
-  - 🇺🇸_美国_35
-  - 🇰🇷_韩国_110
-  - 🇧🇷_巴西_3
-  - 🇰🇷_韩国_111
-  - 🇰🇷_韩国_112
-  - 🇺🇸_美国_36
-  - 🇸🇬_新加坡_13
-  - 🇸🇬_新加坡_14
-  - 🇰🇷_韩国_113
-  - 🇺🇸_美国_37
-  - 🇰🇷_韩国_114
-  - 🇺🇸_美国_38
-  - 🇩🇪_德国_2
   type: select
 - interval: 300
   name: ♻️ 自动选择
   proxies:
   - 电报群：https://t.me/vvkj11
   - 每天更新，请加电报群防止失联
-  - 日期：10-17
+  - 日期：10-18
   - 免费VPN：https://tt.vg/gwaAy
-  - 🇨🇳_中国_1
+  - 🇫🇷_法国_1
+  - 🇸🇦_沙特阿拉伯_1
+  - 🇫🇷_法国_2
+  - 🇸🇦_沙特阿拉伯_2
+  - 🇷🇺_俄罗斯_1
+  - 🇨🇭_瑞士_1
+  - 🇨🇭_瑞士_2
+  - 🇫🇷_法国_3
+  - 🇷🇺_俄罗斯_2
+  - 🇷🇺_俄罗斯_3
   - 🇺🇸_美国_1
-  - 🇨🇳_中国_2
+  - 🇷🇺_俄罗斯_4
+  - 🇯🇵_日本_1
   - 🇺🇸_美国_2
-  - 🇦🇺_澳大利亚_1
-  - 🇦🇺_澳大利亚_2
-  - 🇨🇳_中国_3
-  - 🇨🇳_中国_4
+  - 🇨🇳_中国_1
   - 🇺🇸_美国_3
   - 🇺🇸_美国_4
-  - 🇸🇬_新加坡_1
+  - 🇨🇳_中国_2
+  - 🇩🇪_德国_1
+  - 🇩🇪_德国_2
   - 🇺🇸_美国_5
-  - 🇸🇬_新加坡_2
-  - 🇨🇳_中国_5
+  - 🇨🇳_中国_3
   - 🇺🇸_美国_6
+  - 🇫🇷_法国_4
+  - 🇫🇷_法国_5
+  - 🇫🇷_法国_6
+  - 🇫🇷_法国_7
+  - 🇫🇷_法国_8
+  - 🇺🇦_乌克兰
   - 🇺🇸_美国_7
-  - 🇨🇳_中国_6
-  - 🇯🇵_日本_1
-  - 🇸🇬_新加坡_3
   - 🇺🇸_美国_8
-  - 🇸🇬_新加坡_4
   - 🇺🇸_美国_9
-  - 🇨🇳_中国_7
-  - 🇸🇬_新加坡_5
   - 🇺🇸_美国_10
   - 🇺🇸_美国_11
-  - 🇯🇵_日本_2
-  - 🇨🇳_中国_8
-  - 🇯🇵_日本_3
-  - 🇸🇪_瑞典_1
-  - 🇧🇷_巴西_1
-  - 🇦🇺_澳大利亚_3
-  - 🇨🇳_中国_9
-  - 🇯🇵_日本_4
   - 🇺🇸_美国_12
-  - 🇨🇭_瑞士
-  - 🇨🇳_中国_10
   - 🇺🇸_美国_13
+  - 🇺🇸_美国_14
+  - 🇺🇸_美国_15
+  - 🇺🇸_美国_16
+  - 🇺🇸_美国_17
+  - 🇺🇸_美国_18
+  - 🇺🇸_美国_19
+  - 🇺🇸_美国_20
+  - 🇺🇸_美国_21
+  - 🇺🇸_美国_22
+  - 🇺🇸_美国_23
+  - 🇺🇸_美国_24
+  - 🇺🇸_美国_25
+  - 🇨🇳_中国_4
+  - 🇨🇳_中国_5
+  - 🇦🇺_澳大利亚_1
+  - 🇫🇷_法国_9
+  - 🇺🇸_美国_26
+  - 🇨🇳_中国_6
+  - 🇨🇳_中国_7
+  - 🇺🇸_美国_27
+  - 🇺🇸_美国_28
+  - 🇬🇧_英国_1
+  - 🇺🇸_美国_29
+  - 🇯🇵_日本_2
+  - 🇬🇧_英国_2
+  - 🇺🇸_美国_30
+  - 🇯🇵_日本_3
+  - 🇺🇸_美国_31
+  - 🇧🇷_巴西_1
+  - 🇺🇸_美国_32
+  - 🇯🇵_日本_4
+  - 🇺🇸_美国_33
+  - 🇦🇺_澳大利亚_2
+  - 🇧🇷_巴西_2
+  - 🇺🇸_美国_34
+  - 🇺🇸_美国_35
+  - 🇺🇸_美国_36
+  - 🇺🇸_美国_37
+  - 🇬🇧_英国_3
+  - 🇦🇺_澳大利亚_3
+  - 🇺🇸_美国_38
+  - 🇺🇸_美国_39
   - 🇯🇵_日本_5
+  - 🇧🇷_巴西_3
+  - 🇺🇸_美国_40
+  - 🇺🇸_美国_41
+  - 🇺🇸_美国_42
+  - 🇺🇸_美国_43
+  - 🇺🇸_美国_44
   - 🇯🇵_日本_6
   - 🇯🇵_日本_7
-  - 🇺🇸_美国_14
-  - 🇸🇪_瑞典_2
-  - 🇺🇸_美国_15
   - 🇯🇵_日本_8
-  - 🇸🇬_新加坡_6
-  - 🇸🇪_瑞典_3
-  - 🇦🇺_澳大利亚_4
-  - 🇸🇬_新加坡_7
-  - 🇺🇸_美国_16
+  - 🇺🇸_美国_45
+  - 🇧🇷_巴西_4
+  - 🇺🇸_美国_46
+  - 🇨🇳_中国_8
+  - 🇨🇳_中国_9
+  - 🇺🇸_美国_47
+  - 🇧🇷_巴西_5
   - 🇯🇵_日本_9
+  - 🇸🇪_瑞典_1
+  - 🇬🇧_英国_4
+  - 🇸🇪_瑞典_2
+  - 🇺🇸_美国_48
+  - 🇦🇺_澳大利亚_4
   - 🇯🇵_日本_10
-  - 🇦🇺_澳大利亚_5
-  - 🇺🇸_美国_17
+  - 🇨🇳_中国_10
+  - 🇺🇸_美国_49
+  - 🇺🇸_美国_50
+  - 🇸🇪_瑞典_3
   - 🇯🇵_日本_11
+  - 🇸🇬_新加坡_1
+  - 🇺🇸_美国_51
+  - 🇺🇸_美国_52
+  - 🇸🇪_瑞典_4
+  - 🇺🇸_美国_53
+  - 🇺🇸_美国_54
+  - 🇯🇵_日本_12
+  - 🇨🇳_中国_11
+  - 🇺🇸_美国_55
+  - 🇯🇵_日本_13
+  - 🇯🇵_日本_14
+  - 🇯🇵_日本_15
+  - 🇨🇳_中国_12
+  - 🇺🇸_美国_56
+  - 🇯🇵_日本_16
+  - 🇯🇵_日本_17
+  - 🇺🇸_美国_57
+  - 🇺🇸_美国_58
+  - 🇯🇵_日本_18
+  - 🇺🇸_美国_59
+  - 🇸🇪_瑞典_5
+  - 🇨🇭_瑞士_3
+  - 🇯🇵_日本_19
+  - 🇯🇵_日本_20
+  - 🇺🇸_美国_60
+  - 🇺🇸_美国_61
+  - 🇯🇵_日本_21
+  - 🇦🇺_澳大利亚_5
+  - 🇯🇵_日本_22
+  - 🇦🇺_澳大利亚_6
   - 🇰🇷_韩国_1
   - 🇰🇷_韩国_2
-  - 🇯🇵_日本_12
+  - 🇦🇺_澳大利亚_7
+  - 🇸🇪_瑞典_6
   - 🇰🇷_韩国_3
+  - 🇬🇧_英国_5
   - 🇰🇷_韩国_4
-  - 🇦🇺_澳大利亚_6
+  - 🇸🇪_瑞典_7
+  - 🇦🇺_澳大利亚_8
   - 🇰🇷_韩国_5
+  - 🇸🇪_瑞典_8
+  - 🇺🇸_美国_62
+  - 🇦🇺_澳大利亚_9
   - 🇰🇷_韩国_6
   - 🇰🇷_韩国_7
+  - 🇺🇸_美国_63
   - 🇰🇷_韩国_8
   - 🇰🇷_韩国_9
   - 🇰🇷_韩国_10
+  - 🇯🇵_日本_23
   - 🇰🇷_韩国_11
+  - 🇸🇪_瑞典_9
+  - 🇨🇳_中国_13
+  - 🇨🇭_瑞士_4
   - 🇰🇷_韩国_12
   - 🇰🇷_韩国_13
   - 🇰🇷_韩国_14
@@ -3668,165 +4245,112 @@ proxy-groups:
   - 🇰🇷_韩国_18
   - 🇰🇷_韩国_19
   - 🇰🇷_韩国_20
-  - 🇦🇺_澳大利亚_7
   - 🇰🇷_韩国_21
+  - 🇯🇵_日本_24
   - 🇰🇷_韩国_22
   - 🇰🇷_韩国_23
   - 🇰🇷_韩国_24
+  - 🇯🇵_日本_25
   - 🇰🇷_韩国_25
+  - 🇺🇸_美国_64
+  - 🇫🇷_法国_10
   - 🇰🇷_韩国_26
   - 🇰🇷_韩国_27
-  - 🇺🇸_美国_18
   - 🇰🇷_韩国_28
-  - 🇱🇹_立陶宛
   - 🇰🇷_韩国_29
+  - 🇺🇸_美国_65
   - 🇰🇷_韩国_30
   - 🇰🇷_韩国_31
+  - 🇬🇧_英国_6
   - 🇰🇷_韩国_32
   - 🇰🇷_韩国_33
   - 🇰🇷_韩国_34
   - 🇰🇷_韩国_35
-  - 🇺🇸_美国_19
-  - 🇷🇺_俄罗斯_1
   - 🇰🇷_韩国_36
   - 🇰🇷_韩国_37
   - 🇰🇷_韩国_38
   - 🇰🇷_韩国_39
   - 🇰🇷_韩国_40
-  - 🇦🇺_澳大利亚_8
+  - 🇯🇵_日本_26
   - 🇰🇷_韩国_41
+  - 🇫🇷_法国_11
   - 🇰🇷_韩国_42
   - 🇰🇷_韩国_43
   - 🇰🇷_韩国_44
   - 🇰🇷_韩国_45
-  - 🇺🇸_美国_20
   - 🇰🇷_韩国_46
+  - 🇺🇸_美国_66
   - 🇰🇷_韩国_47
-  - 🇷🇺_俄罗斯_2
-  - 🇬🇧_英国_1
   - 🇰🇷_韩国_48
   - 🇰🇷_韩国_49
   - 🇰🇷_韩国_50
   - 🇰🇷_韩国_51
-  - 🇬🇧_英国_2
   - 🇰🇷_韩国_52
+  - 🇬🇧_英国_7
   - 🇰🇷_韩国_53
-  - 🇦🇺_澳大利亚_9
   - 🇰🇷_韩国_54
   - 🇰🇷_韩国_55
-  - 🇩🇪_德国_1
-  - 🇺🇸_美国_21
-  - 🇺🇸_美国_22
-  - 🇺🇸_美国_23
   - 🇰🇷_韩国_56
   - 🇰🇷_韩国_57
   - 🇰🇷_韩国_58
   - 🇰🇷_韩国_59
-  - 🇺🇸_美国_24
   - 🇰🇷_韩国_60
-  - 🇨🇳_中国_11
-  - 🇷🇺_俄罗斯_3
-  - 🇸🇬_新加坡_8
+  - 🇨🇭_瑞士_5
   - 🇰🇷_韩国_61
   - 🇰🇷_韩国_62
   - 🇰🇷_韩国_63
   - 🇰🇷_韩国_64
-  - 🇯🇵_日本_13
   - 🇰🇷_韩国_65
   - 🇰🇷_韩国_66
-  - 🇨🇳_中国_12
-  - 🇺🇸_美国_25
   - 🇰🇷_韩国_67
   - 🇰🇷_韩国_68
+  - 🇨🇳_中国_14
   - 🇰🇷_韩国_69
-  - 🇸🇬_新加坡_9
   - 🇰🇷_韩国_70
   - 🇰🇷_韩国_71
   - 🇰🇷_韩国_72
+  - 🇸🇬_新加坡_2
   - 🇰🇷_韩国_73
   - 🇰🇷_韩国_74
   - 🇰🇷_韩国_75
-  - 🇨🇳_中国_13
+  - 🇯🇵_日本_27
   - 🇰🇷_韩国_76
   - 🇰🇷_韩国_77
   - 🇰🇷_韩国_78
   - 🇰🇷_韩国_79
-  - 🇯🇵_日本_14
   - 🇰🇷_韩国_80
-  - 🇺🇸_美国_26
-  - 🇷🇺_俄罗斯_4
-  - 🇺🇸_美国_27
   - 🇰🇷_韩国_81
-  - 🇸🇬_新加坡_10
   - 🇰🇷_韩国_82
   - 🇰🇷_韩国_83
-  - 🇺🇸_美国_28
-  - 🇸🇬_新加坡_11
-  - 🇺🇸_美国_29
-  - 🇯🇵_日本_15
   - 🇰🇷_韩国_84
   - 🇰🇷_韩国_85
   - 🇰🇷_韩国_86
   - 🇰🇷_韩国_87
   - 🇰🇷_韩国_88
   - 🇰🇷_韩国_89
-  - 🇷🇺_俄罗斯_5
-  - 🇺🇸_美国_30
+  - 🇬🇧_英国_8
+  - 🇯🇵_日本_28
+  - 🇬🇧_英国_9
   - 🇰🇷_韩国_90
   - 🇰🇷_韩国_91
+  - 🇺🇸_美国_67
   - 🇰🇷_韩国_92
-  - 🇦🇺_澳大利亚_10
-  - 🇷🇺_俄罗斯_6
-  - 🇷🇺_俄罗斯_7
   - 🇰🇷_韩国_93
-  - 🇬🇧_英国_3
   - 🇰🇷_韩国_94
-  - 🇺🇸_美国_31
   - 🇰🇷_韩国_95
-  - 🇳🇱_荷兰_1
   - 🇰🇷_韩国_96
-  - 🇯🇵_日本_16
-  - 🇬🇧_英国_4
-  - 🇨🇳_中国_14
+  - 🇯🇵_日本_29
   - 🇰🇷_韩国_97
-  - 🇸🇪_瑞典_4
   - 🇰🇷_韩国_98
-  - 🇯🇵_日本_17
-  - 🇳🇱_荷兰_2
-  - 🇸🇬_新加坡_12
   - 🇰🇷_韩国_99
   - 🇰🇷_韩国_100
-  - 🇺🇸_美国_32
-  - 🇺🇸_美国_33
-  - 🇧🇷_巴西_2
-  - 🇯🇵_日本_18
-  - 🇯🇵_日本_19
+  - 🇳🇱_荷兰
   - 🇰🇷_韩国_101
-  - 🇯🇵_日本_20
   - 🇰🇷_韩国_102
-  - 🇺🇸_美国_34
   - 🇰🇷_韩国_103
+  - 🇱🇹_立陶宛
   - 🇰🇷_韩国_104
   - 🇰🇷_韩国_105
-  - 🇷🇺_俄罗斯_8
-  - 🇰🇷_韩国_106
-  - 🇰🇷_韩国_107
-  - 🇰🇷_韩国_108
-  - 🇰🇷_韩国_109
-  - 🇸🇪_瑞典_5
-  - 🇺🇸_美国_35
-  - 🇰🇷_韩国_110
-  - 🇧🇷_巴西_3
-  - 🇰🇷_韩国_111
-  - 🇰🇷_韩国_112
-  - 🇺🇸_美国_36
-  - 🇸🇬_新加坡_13
-  - 🇸🇬_新加坡_14
-  - 🇰🇷_韩国_113
-  - 🇺🇸_美国_37
-  - 🇰🇷_韩国_114
-  - 🇺🇸_美国_38
-  - 🇩🇪_德国_2
   tolerance: 50
   type: url-test
   url: http://www.gstatic.com/generate_204
@@ -3837,76 +4361,169 @@ proxy-groups:
   - 🎯 全球直连
   - 电报群：https://t.me/vvkj11
   - 每天更新，请加电报群防止失联
-  - 日期：10-17
+  - 日期：10-18
   - 免费VPN：https://tt.vg/gwaAy
-  - 🇨🇳_中国_1
+  - 🇫🇷_法国_1
+  - 🇸🇦_沙特阿拉伯_1
+  - 🇫🇷_法国_2
+  - 🇸🇦_沙特阿拉伯_2
+  - 🇷🇺_俄罗斯_1
+  - 🇨🇭_瑞士_1
+  - 🇨🇭_瑞士_2
+  - 🇫🇷_法国_3
+  - 🇷🇺_俄罗斯_2
+  - 🇷🇺_俄罗斯_3
   - 🇺🇸_美国_1
-  - 🇨🇳_中国_2
+  - 🇷🇺_俄罗斯_4
+  - 🇯🇵_日本_1
   - 🇺🇸_美国_2
-  - 🇦🇺_澳大利亚_1
-  - 🇦🇺_澳大利亚_2
-  - 🇨🇳_中国_3
-  - 🇨🇳_中国_4
+  - 🇨🇳_中国_1
   - 🇺🇸_美国_3
   - 🇺🇸_美国_4
-  - 🇸🇬_新加坡_1
+  - 🇨🇳_中国_2
+  - 🇩🇪_德国_1
+  - 🇩🇪_德国_2
   - 🇺🇸_美国_5
-  - 🇸🇬_新加坡_2
-  - 🇨🇳_中国_5
+  - 🇨🇳_中国_3
   - 🇺🇸_美国_6
+  - 🇫🇷_法国_4
+  - 🇫🇷_法国_5
+  - 🇫🇷_法国_6
+  - 🇫🇷_法国_7
+  - 🇫🇷_法国_8
+  - 🇺🇦_乌克兰
   - 🇺🇸_美国_7
-  - 🇨🇳_中国_6
-  - 🇯🇵_日本_1
-  - 🇸🇬_新加坡_3
   - 🇺🇸_美国_8
-  - 🇸🇬_新加坡_4
   - 🇺🇸_美国_9
-  - 🇨🇳_中国_7
-  - 🇸🇬_新加坡_5
   - 🇺🇸_美国_10
   - 🇺🇸_美国_11
-  - 🇯🇵_日本_2
-  - 🇨🇳_中国_8
-  - 🇯🇵_日本_3
-  - 🇸🇪_瑞典_1
-  - 🇧🇷_巴西_1
-  - 🇦🇺_澳大利亚_3
-  - 🇨🇳_中国_9
-  - 🇯🇵_日本_4
   - 🇺🇸_美国_12
-  - 🇨🇭_瑞士
-  - 🇨🇳_中国_10
   - 🇺🇸_美国_13
+  - 🇺🇸_美国_14
+  - 🇺🇸_美国_15
+  - 🇺🇸_美国_16
+  - 🇺🇸_美国_17
+  - 🇺🇸_美国_18
+  - 🇺🇸_美国_19
+  - 🇺🇸_美国_20
+  - 🇺🇸_美国_21
+  - 🇺🇸_美国_22
+  - 🇺🇸_美国_23
+  - 🇺🇸_美国_24
+  - 🇺🇸_美国_25
+  - 🇨🇳_中国_4
+  - 🇨🇳_中国_5
+  - 🇦🇺_澳大利亚_1
+  - 🇫🇷_法国_9
+  - 🇺🇸_美国_26
+  - 🇨🇳_中国_6
+  - 🇨🇳_中国_7
+  - 🇺🇸_美国_27
+  - 🇺🇸_美国_28
+  - 🇬🇧_英国_1
+  - 🇺🇸_美国_29
+  - 🇯🇵_日本_2
+  - 🇬🇧_英国_2
+  - 🇺🇸_美国_30
+  - 🇯🇵_日本_3
+  - 🇺🇸_美国_31
+  - 🇧🇷_巴西_1
+  - 🇺🇸_美国_32
+  - 🇯🇵_日本_4
+  - 🇺🇸_美国_33
+  - 🇦🇺_澳大利亚_2
+  - 🇧🇷_巴西_2
+  - 🇺🇸_美国_34
+  - 🇺🇸_美国_35
+  - 🇺🇸_美国_36
+  - 🇺🇸_美国_37
+  - 🇬🇧_英国_3
+  - 🇦🇺_澳大利亚_3
+  - 🇺🇸_美国_38
+  - 🇺🇸_美国_39
   - 🇯🇵_日本_5
+  - 🇧🇷_巴西_3
+  - 🇺🇸_美国_40
+  - 🇺🇸_美国_41
+  - 🇺🇸_美国_42
+  - 🇺🇸_美国_43
+  - 🇺🇸_美国_44
   - 🇯🇵_日本_6
   - 🇯🇵_日本_7
-  - 🇺🇸_美国_14
-  - 🇸🇪_瑞典_2
-  - 🇺🇸_美国_15
   - 🇯🇵_日本_8
-  - 🇸🇬_新加坡_6
-  - 🇸🇪_瑞典_3
-  - 🇦🇺_澳大利亚_4
-  - 🇸🇬_新加坡_7
-  - 🇺🇸_美国_16
+  - 🇺🇸_美国_45
+  - 🇧🇷_巴西_4
+  - 🇺🇸_美国_46
+  - 🇨🇳_中国_8
+  - 🇨🇳_中国_9
+  - 🇺🇸_美国_47
+  - 🇧🇷_巴西_5
   - 🇯🇵_日本_9
+  - 🇸🇪_瑞典_1
+  - 🇬🇧_英国_4
+  - 🇸🇪_瑞典_2
+  - 🇺🇸_美国_48
+  - 🇦🇺_澳大利亚_4
   - 🇯🇵_日本_10
-  - 🇦🇺_澳大利亚_5
-  - 🇺🇸_美国_17
+  - 🇨🇳_中国_10
+  - 🇺🇸_美国_49
+  - 🇺🇸_美国_50
+  - 🇸🇪_瑞典_3
   - 🇯🇵_日本_11
+  - 🇸🇬_新加坡_1
+  - 🇺🇸_美国_51
+  - 🇺🇸_美国_52
+  - 🇸🇪_瑞典_4
+  - 🇺🇸_美国_53
+  - 🇺🇸_美国_54
+  - 🇯🇵_日本_12
+  - 🇨🇳_中国_11
+  - 🇺🇸_美国_55
+  - 🇯🇵_日本_13
+  - 🇯🇵_日本_14
+  - 🇯🇵_日本_15
+  - 🇨🇳_中国_12
+  - 🇺🇸_美国_56
+  - 🇯🇵_日本_16
+  - 🇯🇵_日本_17
+  - 🇺🇸_美国_57
+  - 🇺🇸_美国_58
+  - 🇯🇵_日本_18
+  - 🇺🇸_美国_59
+  - 🇸🇪_瑞典_5
+  - 🇨🇭_瑞士_3
+  - 🇯🇵_日本_19
+  - 🇯🇵_日本_20
+  - 🇺🇸_美国_60
+  - 🇺🇸_美国_61
+  - 🇯🇵_日本_21
+  - 🇦🇺_澳大利亚_5
+  - 🇯🇵_日本_22
+  - 🇦🇺_澳大利亚_6
   - 🇰🇷_韩国_1
   - 🇰🇷_韩国_2
-  - 🇯🇵_日本_12
+  - 🇦🇺_澳大利亚_7
+  - 🇸🇪_瑞典_6
   - 🇰🇷_韩国_3
+  - 🇬🇧_英国_5
   - 🇰🇷_韩国_4
-  - 🇦🇺_澳大利亚_6
+  - 🇸🇪_瑞典_7
+  - 🇦🇺_澳大利亚_8
   - 🇰🇷_韩国_5
+  - 🇸🇪_瑞典_8
+  - 🇺🇸_美国_62
+  - 🇦🇺_澳大利亚_9
   - 🇰🇷_韩国_6
   - 🇰🇷_韩国_7
+  - 🇺🇸_美国_63
   - 🇰🇷_韩国_8
   - 🇰🇷_韩国_9
   - 🇰🇷_韩国_10
+  - 🇯🇵_日本_23
   - 🇰🇷_韩国_11
+  - 🇸🇪_瑞典_9
+  - 🇨🇳_中国_13
+  - 🇨🇭_瑞士_4
   - 🇰🇷_韩国_12
   - 🇰🇷_韩国_13
   - 🇰🇷_韩国_14
@@ -3916,165 +4533,112 @@ proxy-groups:
   - 🇰🇷_韩国_18
   - 🇰🇷_韩国_19
   - 🇰🇷_韩国_20
-  - 🇦🇺_澳大利亚_7
   - 🇰🇷_韩国_21
+  - 🇯🇵_日本_24
   - 🇰🇷_韩国_22
   - 🇰🇷_韩国_23
   - 🇰🇷_韩国_24
+  - 🇯🇵_日本_25
   - 🇰🇷_韩国_25
+  - 🇺🇸_美国_64
+  - 🇫🇷_法国_10
   - 🇰🇷_韩国_26
   - 🇰🇷_韩国_27
-  - 🇺🇸_美国_18
   - 🇰🇷_韩国_28
-  - 🇱🇹_立陶宛
   - 🇰🇷_韩国_29
+  - 🇺🇸_美国_65
   - 🇰🇷_韩国_30
   - 🇰🇷_韩国_31
+  - 🇬🇧_英国_6
   - 🇰🇷_韩国_32
   - 🇰🇷_韩国_33
   - 🇰🇷_韩国_34
   - 🇰🇷_韩国_35
-  - 🇺🇸_美国_19
-  - 🇷🇺_俄罗斯_1
   - 🇰🇷_韩国_36
   - 🇰🇷_韩国_37
   - 🇰🇷_韩国_38
   - 🇰🇷_韩国_39
   - 🇰🇷_韩国_40
-  - 🇦🇺_澳大利亚_8
+  - 🇯🇵_日本_26
   - 🇰🇷_韩国_41
+  - 🇫🇷_法国_11
   - 🇰🇷_韩国_42
   - 🇰🇷_韩国_43
   - 🇰🇷_韩国_44
   - 🇰🇷_韩国_45
-  - 🇺🇸_美国_20
   - 🇰🇷_韩国_46
+  - 🇺🇸_美国_66
   - 🇰🇷_韩国_47
-  - 🇷🇺_俄罗斯_2
-  - 🇬🇧_英国_1
   - 🇰🇷_韩国_48
   - 🇰🇷_韩国_49
   - 🇰🇷_韩国_50
   - 🇰🇷_韩国_51
-  - 🇬🇧_英国_2
   - 🇰🇷_韩国_52
+  - 🇬🇧_英国_7
   - 🇰🇷_韩国_53
-  - 🇦🇺_澳大利亚_9
   - 🇰🇷_韩国_54
   - 🇰🇷_韩国_55
-  - 🇩🇪_德国_1
-  - 🇺🇸_美国_21
-  - 🇺🇸_美国_22
-  - 🇺🇸_美国_23
   - 🇰🇷_韩国_56
   - 🇰🇷_韩国_57
   - 🇰🇷_韩国_58
   - 🇰🇷_韩国_59
-  - 🇺🇸_美国_24
   - 🇰🇷_韩国_60
-  - 🇨🇳_中国_11
-  - 🇷🇺_俄罗斯_3
-  - 🇸🇬_新加坡_8
+  - 🇨🇭_瑞士_5
   - 🇰🇷_韩国_61
   - 🇰🇷_韩国_62
   - 🇰🇷_韩国_63
   - 🇰🇷_韩国_64
-  - 🇯🇵_日本_13
   - 🇰🇷_韩国_65
   - 🇰🇷_韩国_66
-  - 🇨🇳_中国_12
-  - 🇺🇸_美国_25
   - 🇰🇷_韩国_67
   - 🇰🇷_韩国_68
+  - 🇨🇳_中国_14
   - 🇰🇷_韩国_69
-  - 🇸🇬_新加坡_9
   - 🇰🇷_韩国_70
   - 🇰🇷_韩国_71
   - 🇰🇷_韩国_72
+  - 🇸🇬_新加坡_2
   - 🇰🇷_韩国_73
   - 🇰🇷_韩国_74
   - 🇰🇷_韩国_75
-  - 🇨🇳_中国_13
+  - 🇯🇵_日本_27
   - 🇰🇷_韩国_76
   - 🇰🇷_韩国_77
   - 🇰🇷_韩国_78
   - 🇰🇷_韩国_79
-  - 🇯🇵_日本_14
   - 🇰🇷_韩国_80
-  - 🇺🇸_美国_26
-  - 🇷🇺_俄罗斯_4
-  - 🇺🇸_美国_27
   - 🇰🇷_韩国_81
-  - 🇸🇬_新加坡_10
   - 🇰🇷_韩国_82
   - 🇰🇷_韩国_83
-  - 🇺🇸_美国_28
-  - 🇸🇬_新加坡_11
-  - 🇺🇸_美国_29
-  - 🇯🇵_日本_15
   - 🇰🇷_韩国_84
   - 🇰🇷_韩国_85
   - 🇰🇷_韩国_86
   - 🇰🇷_韩国_87
   - 🇰🇷_韩国_88
   - 🇰🇷_韩国_89
-  - 🇷🇺_俄罗斯_5
-  - 🇺🇸_美国_30
+  - 🇬🇧_英国_8
+  - 🇯🇵_日本_28
+  - 🇬🇧_英国_9
   - 🇰🇷_韩国_90
   - 🇰🇷_韩国_91
+  - 🇺🇸_美国_67
   - 🇰🇷_韩国_92
-  - 🇦🇺_澳大利亚_10
-  - 🇷🇺_俄罗斯_6
-  - 🇷🇺_俄罗斯_7
   - 🇰🇷_韩国_93
-  - 🇬🇧_英国_3
   - 🇰🇷_韩国_94
-  - 🇺🇸_美国_31
   - 🇰🇷_韩国_95
-  - 🇳🇱_荷兰_1
   - 🇰🇷_韩国_96
-  - 🇯🇵_日本_16
-  - 🇬🇧_英国_4
-  - 🇨🇳_中国_14
+  - 🇯🇵_日本_29
   - 🇰🇷_韩国_97
-  - 🇸🇪_瑞典_4
   - 🇰🇷_韩国_98
-  - 🇯🇵_日本_17
-  - 🇳🇱_荷兰_2
-  - 🇸🇬_新加坡_12
   - 🇰🇷_韩国_99
   - 🇰🇷_韩国_100
-  - 🇺🇸_美国_32
-  - 🇺🇸_美国_33
-  - 🇧🇷_巴西_2
-  - 🇯🇵_日本_18
-  - 🇯🇵_日本_19
+  - 🇳🇱_荷兰
   - 🇰🇷_韩国_101
-  - 🇯🇵_日本_20
   - 🇰🇷_韩国_102
-  - 🇺🇸_美国_34
   - 🇰🇷_韩国_103
+  - 🇱🇹_立陶宛
   - 🇰🇷_韩国_104
   - 🇰🇷_韩国_105
-  - 🇷🇺_俄罗斯_8
-  - 🇰🇷_韩国_106
-  - 🇰🇷_韩国_107
-  - 🇰🇷_韩国_108
-  - 🇰🇷_韩国_109
-  - 🇸🇪_瑞典_5
-  - 🇺🇸_美国_35
-  - 🇰🇷_韩国_110
-  - 🇧🇷_巴西_3
-  - 🇰🇷_韩国_111
-  - 🇰🇷_韩国_112
-  - 🇺🇸_美国_36
-  - 🇸🇬_新加坡_13
-  - 🇸🇬_新加坡_14
-  - 🇰🇷_韩国_113
-  - 🇺🇸_美国_37
-  - 🇰🇷_韩国_114
-  - 🇺🇸_美国_38
-  - 🇩🇪_德国_2
   type: select
 - name: 📲 电报信息
   proxies:
@@ -4082,76 +4646,169 @@ proxy-groups:
   - 🎯 全球直连
   - 电报群：https://t.me/vvkj11
   - 每天更新，请加电报群防止失联
-  - 日期：10-17
+  - 日期：10-18
   - 免费VPN：https://tt.vg/gwaAy
-  - 🇨🇳_中国_1
+  - 🇫🇷_法国_1
+  - 🇸🇦_沙特阿拉伯_1
+  - 🇫🇷_法国_2
+  - 🇸🇦_沙特阿拉伯_2
+  - 🇷🇺_俄罗斯_1
+  - 🇨🇭_瑞士_1
+  - 🇨🇭_瑞士_2
+  - 🇫🇷_法国_3
+  - 🇷🇺_俄罗斯_2
+  - 🇷🇺_俄罗斯_3
   - 🇺🇸_美国_1
-  - 🇨🇳_中国_2
+  - 🇷🇺_俄罗斯_4
+  - 🇯🇵_日本_1
   - 🇺🇸_美国_2
-  - 🇦🇺_澳大利亚_1
-  - 🇦🇺_澳大利亚_2
-  - 🇨🇳_中国_3
-  - 🇨🇳_中国_4
+  - 🇨🇳_中国_1
   - 🇺🇸_美国_3
   - 🇺🇸_美国_4
-  - 🇸🇬_新加坡_1
+  - 🇨🇳_中国_2
+  - 🇩🇪_德国_1
+  - 🇩🇪_德国_2
   - 🇺🇸_美国_5
-  - 🇸🇬_新加坡_2
-  - 🇨🇳_中国_5
+  - 🇨🇳_中国_3
   - 🇺🇸_美国_6
+  - 🇫🇷_法国_4
+  - 🇫🇷_法国_5
+  - 🇫🇷_法国_6
+  - 🇫🇷_法国_7
+  - 🇫🇷_法国_8
+  - 🇺🇦_乌克兰
   - 🇺🇸_美国_7
-  - 🇨🇳_中国_6
-  - 🇯🇵_日本_1
-  - 🇸🇬_新加坡_3
   - 🇺🇸_美国_8
-  - 🇸🇬_新加坡_4
   - 🇺🇸_美国_9
-  - 🇨🇳_中国_7
-  - 🇸🇬_新加坡_5
   - 🇺🇸_美国_10
   - 🇺🇸_美国_11
-  - 🇯🇵_日本_2
-  - 🇨🇳_中国_8
-  - 🇯🇵_日本_3
-  - 🇸🇪_瑞典_1
-  - 🇧🇷_巴西_1
-  - 🇦🇺_澳大利亚_3
-  - 🇨🇳_中国_9
-  - 🇯🇵_日本_4
   - 🇺🇸_美国_12
-  - 🇨🇭_瑞士
-  - 🇨🇳_中国_10
   - 🇺🇸_美国_13
+  - 🇺🇸_美国_14
+  - 🇺🇸_美国_15
+  - 🇺🇸_美国_16
+  - 🇺🇸_美国_17
+  - 🇺🇸_美国_18
+  - 🇺🇸_美国_19
+  - 🇺🇸_美国_20
+  - 🇺🇸_美国_21
+  - 🇺🇸_美国_22
+  - 🇺🇸_美国_23
+  - 🇺🇸_美国_24
+  - 🇺🇸_美国_25
+  - 🇨🇳_中国_4
+  - 🇨🇳_中国_5
+  - 🇦🇺_澳大利亚_1
+  - 🇫🇷_法国_9
+  - 🇺🇸_美国_26
+  - 🇨🇳_中国_6
+  - 🇨🇳_中国_7
+  - 🇺🇸_美国_27
+  - 🇺🇸_美国_28
+  - 🇬🇧_英国_1
+  - 🇺🇸_美国_29
+  - 🇯🇵_日本_2
+  - 🇬🇧_英国_2
+  - 🇺🇸_美国_30
+  - 🇯🇵_日本_3
+  - 🇺🇸_美国_31
+  - 🇧🇷_巴西_1
+  - 🇺🇸_美国_32
+  - 🇯🇵_日本_4
+  - 🇺🇸_美国_33
+  - 🇦🇺_澳大利亚_2
+  - 🇧🇷_巴西_2
+  - 🇺🇸_美国_34
+  - 🇺🇸_美国_35
+  - 🇺🇸_美国_36
+  - 🇺🇸_美国_37
+  - 🇬🇧_英国_3
+  - 🇦🇺_澳大利亚_3
+  - 🇺🇸_美国_38
+  - 🇺🇸_美国_39
   - 🇯🇵_日本_5
+  - 🇧🇷_巴西_3
+  - 🇺🇸_美国_40
+  - 🇺🇸_美国_41
+  - 🇺🇸_美国_42
+  - 🇺🇸_美国_43
+  - 🇺🇸_美国_44
   - 🇯🇵_日本_6
   - 🇯🇵_日本_7
-  - 🇺🇸_美国_14
-  - 🇸🇪_瑞典_2
-  - 🇺🇸_美国_15
   - 🇯🇵_日本_8
-  - 🇸🇬_新加坡_6
-  - 🇸🇪_瑞典_3
-  - 🇦🇺_澳大利亚_4
-  - 🇸🇬_新加坡_7
-  - 🇺🇸_美国_16
+  - 🇺🇸_美国_45
+  - 🇧🇷_巴西_4
+  - 🇺🇸_美国_46
+  - 🇨🇳_中国_8
+  - 🇨🇳_中国_9
+  - 🇺🇸_美国_47
+  - 🇧🇷_巴西_5
   - 🇯🇵_日本_9
+  - 🇸🇪_瑞典_1
+  - 🇬🇧_英国_4
+  - 🇸🇪_瑞典_2
+  - 🇺🇸_美国_48
+  - 🇦🇺_澳大利亚_4
   - 🇯🇵_日本_10
-  - 🇦🇺_澳大利亚_5
-  - 🇺🇸_美国_17
+  - 🇨🇳_中国_10
+  - 🇺🇸_美国_49
+  - 🇺🇸_美国_50
+  - 🇸🇪_瑞典_3
   - 🇯🇵_日本_11
+  - 🇸🇬_新加坡_1
+  - 🇺🇸_美国_51
+  - 🇺🇸_美国_52
+  - 🇸🇪_瑞典_4
+  - 🇺🇸_美国_53
+  - 🇺🇸_美国_54
+  - 🇯🇵_日本_12
+  - 🇨🇳_中国_11
+  - 🇺🇸_美国_55
+  - 🇯🇵_日本_13
+  - 🇯🇵_日本_14
+  - 🇯🇵_日本_15
+  - 🇨🇳_中国_12
+  - 🇺🇸_美国_56
+  - 🇯🇵_日本_16
+  - 🇯🇵_日本_17
+  - 🇺🇸_美国_57
+  - 🇺🇸_美国_58
+  - 🇯🇵_日本_18
+  - 🇺🇸_美国_59
+  - 🇸🇪_瑞典_5
+  - 🇨🇭_瑞士_3
+  - 🇯🇵_日本_19
+  - 🇯🇵_日本_20
+  - 🇺🇸_美国_60
+  - 🇺🇸_美国_61
+  - 🇯🇵_日本_21
+  - 🇦🇺_澳大利亚_5
+  - 🇯🇵_日本_22
+  - 🇦🇺_澳大利亚_6
   - 🇰🇷_韩国_1
   - 🇰🇷_韩国_2
-  - 🇯🇵_日本_12
+  - 🇦🇺_澳大利亚_7
+  - 🇸🇪_瑞典_6
   - 🇰🇷_韩国_3
+  - 🇬🇧_英国_5
   - 🇰🇷_韩国_4
-  - 🇦🇺_澳大利亚_6
+  - 🇸🇪_瑞典_7
+  - 🇦🇺_澳大利亚_8
   - 🇰🇷_韩国_5
+  - 🇸🇪_瑞典_8
+  - 🇺🇸_美国_62
+  - 🇦🇺_澳大利亚_9
   - 🇰🇷_韩国_6
   - 🇰🇷_韩国_7
+  - 🇺🇸_美国_63
   - 🇰🇷_韩国_8
   - 🇰🇷_韩国_9
   - 🇰🇷_韩国_10
+  - 🇯🇵_日本_23
   - 🇰🇷_韩国_11
+  - 🇸🇪_瑞典_9
+  - 🇨🇳_中国_13
+  - 🇨🇭_瑞士_4
   - 🇰🇷_韩国_12
   - 🇰🇷_韩国_13
   - 🇰🇷_韩国_14
@@ -4161,165 +4818,112 @@ proxy-groups:
   - 🇰🇷_韩国_18
   - 🇰🇷_韩国_19
   - 🇰🇷_韩国_20
-  - 🇦🇺_澳大利亚_7
   - 🇰🇷_韩国_21
+  - 🇯🇵_日本_24
   - 🇰🇷_韩国_22
   - 🇰🇷_韩国_23
   - 🇰🇷_韩国_24
+  - 🇯🇵_日本_25
   - 🇰🇷_韩国_25
+  - 🇺🇸_美国_64
+  - 🇫🇷_法国_10
   - 🇰🇷_韩国_26
   - 🇰🇷_韩国_27
-  - 🇺🇸_美国_18
   - 🇰🇷_韩国_28
-  - 🇱🇹_立陶宛
   - 🇰🇷_韩国_29
+  - 🇺🇸_美国_65
   - 🇰🇷_韩国_30
   - 🇰🇷_韩国_31
+  - 🇬🇧_英国_6
   - 🇰🇷_韩国_32
   - 🇰🇷_韩国_33
   - 🇰🇷_韩国_34
   - 🇰🇷_韩国_35
-  - 🇺🇸_美国_19
-  - 🇷🇺_俄罗斯_1
   - 🇰🇷_韩国_36
   - 🇰🇷_韩国_37
   - 🇰🇷_韩国_38
   - 🇰🇷_韩国_39
   - 🇰🇷_韩国_40
-  - 🇦🇺_澳大利亚_8
+  - 🇯🇵_日本_26
   - 🇰🇷_韩国_41
+  - 🇫🇷_法国_11
   - 🇰🇷_韩国_42
   - 🇰🇷_韩国_43
   - 🇰🇷_韩国_44
   - 🇰🇷_韩国_45
-  - 🇺🇸_美国_20
   - 🇰🇷_韩国_46
+  - 🇺🇸_美国_66
   - 🇰🇷_韩国_47
-  - 🇷🇺_俄罗斯_2
-  - 🇬🇧_英国_1
   - 🇰🇷_韩国_48
   - 🇰🇷_韩国_49
   - 🇰🇷_韩国_50
   - 🇰🇷_韩国_51
-  - 🇬🇧_英国_2
   - 🇰🇷_韩国_52
+  - 🇬🇧_英国_7
   - 🇰🇷_韩国_53
-  - 🇦🇺_澳大利亚_9
   - 🇰🇷_韩国_54
   - 🇰🇷_韩国_55
-  - 🇩🇪_德国_1
-  - 🇺🇸_美国_21
-  - 🇺🇸_美国_22
-  - 🇺🇸_美国_23
   - 🇰🇷_韩国_56
   - 🇰🇷_韩国_57
   - 🇰🇷_韩国_58
   - 🇰🇷_韩国_59
-  - 🇺🇸_美国_24
   - 🇰🇷_韩国_60
-  - 🇨🇳_中国_11
-  - 🇷🇺_俄罗斯_3
-  - 🇸🇬_新加坡_8
+  - 🇨🇭_瑞士_5
   - 🇰🇷_韩国_61
   - 🇰🇷_韩国_62
   - 🇰🇷_韩国_63
   - 🇰🇷_韩国_64
-  - 🇯🇵_日本_13
   - 🇰🇷_韩国_65
   - 🇰🇷_韩国_66
-  - 🇨🇳_中国_12
-  - 🇺🇸_美国_25
   - 🇰🇷_韩国_67
   - 🇰🇷_韩国_68
+  - 🇨🇳_中国_14
   - 🇰🇷_韩国_69
-  - 🇸🇬_新加坡_9
   - 🇰🇷_韩国_70
   - 🇰🇷_韩国_71
   - 🇰🇷_韩国_72
+  - 🇸🇬_新加坡_2
   - 🇰🇷_韩国_73
   - 🇰🇷_韩国_74
   - 🇰🇷_韩国_75
-  - 🇨🇳_中国_13
+  - 🇯🇵_日本_27
   - 🇰🇷_韩国_76
   - 🇰🇷_韩国_77
   - 🇰🇷_韩国_78
   - 🇰🇷_韩国_79
-  - 🇯🇵_日本_14
   - 🇰🇷_韩国_80
-  - 🇺🇸_美国_26
-  - 🇷🇺_俄罗斯_4
-  - 🇺🇸_美国_27
   - 🇰🇷_韩国_81
-  - 🇸🇬_新加坡_10
   - 🇰🇷_韩国_82
   - 🇰🇷_韩国_83
-  - 🇺🇸_美国_28
-  - 🇸🇬_新加坡_11
-  - 🇺🇸_美国_29
-  - 🇯🇵_日本_15
   - 🇰🇷_韩国_84
   - 🇰🇷_韩国_85
   - 🇰🇷_韩国_86
   - 🇰🇷_韩国_87
   - 🇰🇷_韩国_88
   - 🇰🇷_韩国_89
-  - 🇷🇺_俄罗斯_5
-  - 🇺🇸_美国_30
+  - 🇬🇧_英国_8
+  - 🇯🇵_日本_28
+  - 🇬🇧_英国_9
   - 🇰🇷_韩国_90
   - 🇰🇷_韩国_91
+  - 🇺🇸_美国_67
   - 🇰🇷_韩国_92
-  - 🇦🇺_澳大利亚_10
-  - 🇷🇺_俄罗斯_6
-  - 🇷🇺_俄罗斯_7
   - 🇰🇷_韩国_93
-  - 🇬🇧_英国_3
   - 🇰🇷_韩国_94
-  - 🇺🇸_美国_31
   - 🇰🇷_韩国_95
-  - 🇳🇱_荷兰_1
   - 🇰🇷_韩国_96
-  - 🇯🇵_日本_16
-  - 🇬🇧_英国_4
-  - 🇨🇳_中国_14
+  - 🇯🇵_日本_29
   - 🇰🇷_韩国_97
-  - 🇸🇪_瑞典_4
   - 🇰🇷_韩国_98
-  - 🇯🇵_日本_17
-  - 🇳🇱_荷兰_2
-  - 🇸🇬_新加坡_12
   - 🇰🇷_韩国_99
   - 🇰🇷_韩国_100
-  - 🇺🇸_美国_32
-  - 🇺🇸_美国_33
-  - 🇧🇷_巴西_2
-  - 🇯🇵_日本_18
-  - 🇯🇵_日本_19
+  - 🇳🇱_荷兰
   - 🇰🇷_韩国_101
-  - 🇯🇵_日本_20
   - 🇰🇷_韩国_102
-  - 🇺🇸_美国_34
   - 🇰🇷_韩国_103
+  - 🇱🇹_立陶宛
   - 🇰🇷_韩国_104
   - 🇰🇷_韩国_105
-  - 🇷🇺_俄罗斯_8
-  - 🇰🇷_韩国_106
-  - 🇰🇷_韩国_107
-  - 🇰🇷_韩国_108
-  - 🇰🇷_韩国_109
-  - 🇸🇪_瑞典_5
-  - 🇺🇸_美国_35
-  - 🇰🇷_韩国_110
-  - 🇧🇷_巴西_3
-  - 🇰🇷_韩国_111
-  - 🇰🇷_韩国_112
-  - 🇺🇸_美国_36
-  - 🇸🇬_新加坡_13
-  - 🇸🇬_新加坡_14
-  - 🇰🇷_韩国_113
-  - 🇺🇸_美国_37
-  - 🇰🇷_韩国_114
-  - 🇺🇸_美国_38
-  - 🇩🇪_德国_2
   type: select
 - name: Ⓜ️ 微软服务
   proxies:
@@ -4327,76 +4931,169 @@ proxy-groups:
   - 🚀 节点选择
   - 电报群：https://t.me/vvkj11
   - 每天更新，请加电报群防止失联
-  - 日期：10-17
+  - 日期：10-18
   - 免费VPN：https://tt.vg/gwaAy
-  - 🇨🇳_中国_1
+  - 🇫🇷_法国_1
+  - 🇸🇦_沙特阿拉伯_1
+  - 🇫🇷_法国_2
+  - 🇸🇦_沙特阿拉伯_2
+  - 🇷🇺_俄罗斯_1
+  - 🇨🇭_瑞士_1
+  - 🇨🇭_瑞士_2
+  - 🇫🇷_法国_3
+  - 🇷🇺_俄罗斯_2
+  - 🇷🇺_俄罗斯_3
   - 🇺🇸_美国_1
-  - 🇨🇳_中国_2
+  - 🇷🇺_俄罗斯_4
+  - 🇯🇵_日本_1
   - 🇺🇸_美国_2
-  - 🇦🇺_澳大利亚_1
-  - 🇦🇺_澳大利亚_2
-  - 🇨🇳_中国_3
-  - 🇨🇳_中国_4
+  - 🇨🇳_中国_1
   - 🇺🇸_美国_3
   - 🇺🇸_美国_4
-  - 🇸🇬_新加坡_1
+  - 🇨🇳_中国_2
+  - 🇩🇪_德国_1
+  - 🇩🇪_德国_2
   - 🇺🇸_美国_5
-  - 🇸🇬_新加坡_2
-  - 🇨🇳_中国_5
+  - 🇨🇳_中国_3
   - 🇺🇸_美国_6
+  - 🇫🇷_法国_4
+  - 🇫🇷_法国_5
+  - 🇫🇷_法国_6
+  - 🇫🇷_法国_7
+  - 🇫🇷_法国_8
+  - 🇺🇦_乌克兰
   - 🇺🇸_美国_7
-  - 🇨🇳_中国_6
-  - 🇯🇵_日本_1
-  - 🇸🇬_新加坡_3
   - 🇺🇸_美国_8
-  - 🇸🇬_新加坡_4
   - 🇺🇸_美国_9
-  - 🇨🇳_中国_7
-  - 🇸🇬_新加坡_5
   - 🇺🇸_美国_10
   - 🇺🇸_美国_11
-  - 🇯🇵_日本_2
-  - 🇨🇳_中国_8
-  - 🇯🇵_日本_3
-  - 🇸🇪_瑞典_1
-  - 🇧🇷_巴西_1
-  - 🇦🇺_澳大利亚_3
-  - 🇨🇳_中国_9
-  - 🇯🇵_日本_4
   - 🇺🇸_美国_12
-  - 🇨🇭_瑞士
-  - 🇨🇳_中国_10
   - 🇺🇸_美国_13
+  - 🇺🇸_美国_14
+  - 🇺🇸_美国_15
+  - 🇺🇸_美国_16
+  - 🇺🇸_美国_17
+  - 🇺🇸_美国_18
+  - 🇺🇸_美国_19
+  - 🇺🇸_美国_20
+  - 🇺🇸_美国_21
+  - 🇺🇸_美国_22
+  - 🇺🇸_美国_23
+  - 🇺🇸_美国_24
+  - 🇺🇸_美国_25
+  - 🇨🇳_中国_4
+  - 🇨🇳_中国_5
+  - 🇦🇺_澳大利亚_1
+  - 🇫🇷_法国_9
+  - 🇺🇸_美国_26
+  - 🇨🇳_中国_6
+  - 🇨🇳_中国_7
+  - 🇺🇸_美国_27
+  - 🇺🇸_美国_28
+  - 🇬🇧_英国_1
+  - 🇺🇸_美国_29
+  - 🇯🇵_日本_2
+  - 🇬🇧_英国_2
+  - 🇺🇸_美国_30
+  - 🇯🇵_日本_3
+  - 🇺🇸_美国_31
+  - 🇧🇷_巴西_1
+  - 🇺🇸_美国_32
+  - 🇯🇵_日本_4
+  - 🇺🇸_美国_33
+  - 🇦🇺_澳大利亚_2
+  - 🇧🇷_巴西_2
+  - 🇺🇸_美国_34
+  - 🇺🇸_美国_35
+  - 🇺🇸_美国_36
+  - 🇺🇸_美国_37
+  - 🇬🇧_英国_3
+  - 🇦🇺_澳大利亚_3
+  - 🇺🇸_美国_38
+  - 🇺🇸_美国_39
   - 🇯🇵_日本_5
+  - 🇧🇷_巴西_3
+  - 🇺🇸_美国_40
+  - 🇺🇸_美国_41
+  - 🇺🇸_美国_42
+  - 🇺🇸_美国_43
+  - 🇺🇸_美国_44
   - 🇯🇵_日本_6
   - 🇯🇵_日本_7
-  - 🇺🇸_美国_14
-  - 🇸🇪_瑞典_2
-  - 🇺🇸_美国_15
   - 🇯🇵_日本_8
-  - 🇸🇬_新加坡_6
-  - 🇸🇪_瑞典_3
-  - 🇦🇺_澳大利亚_4
-  - 🇸🇬_新加坡_7
-  - 🇺🇸_美国_16
+  - 🇺🇸_美国_45
+  - 🇧🇷_巴西_4
+  - 🇺🇸_美国_46
+  - 🇨🇳_中国_8
+  - 🇨🇳_中国_9
+  - 🇺🇸_美国_47
+  - 🇧🇷_巴西_5
   - 🇯🇵_日本_9
+  - 🇸🇪_瑞典_1
+  - 🇬🇧_英国_4
+  - 🇸🇪_瑞典_2
+  - 🇺🇸_美国_48
+  - 🇦🇺_澳大利亚_4
   - 🇯🇵_日本_10
-  - 🇦🇺_澳大利亚_5
-  - 🇺🇸_美国_17
+  - 🇨🇳_中国_10
+  - 🇺🇸_美国_49
+  - 🇺🇸_美国_50
+  - 🇸🇪_瑞典_3
   - 🇯🇵_日本_11
+  - 🇸🇬_新加坡_1
+  - 🇺🇸_美国_51
+  - 🇺🇸_美国_52
+  - 🇸🇪_瑞典_4
+  - 🇺🇸_美国_53
+  - 🇺🇸_美国_54
+  - 🇯🇵_日本_12
+  - 🇨🇳_中国_11
+  - 🇺🇸_美国_55
+  - 🇯🇵_日本_13
+  - 🇯🇵_日本_14
+  - 🇯🇵_日本_15
+  - 🇨🇳_中国_12
+  - 🇺🇸_美国_56
+  - 🇯🇵_日本_16
+  - 🇯🇵_日本_17
+  - 🇺🇸_美国_57
+  - 🇺🇸_美国_58
+  - 🇯🇵_日本_18
+  - 🇺🇸_美国_59
+  - 🇸🇪_瑞典_5
+  - 🇨🇭_瑞士_3
+  - 🇯🇵_日本_19
+  - 🇯🇵_日本_20
+  - 🇺🇸_美国_60
+  - 🇺🇸_美国_61
+  - 🇯🇵_日本_21
+  - 🇦🇺_澳大利亚_5
+  - 🇯🇵_日本_22
+  - 🇦🇺_澳大利亚_6
   - 🇰🇷_韩国_1
   - 🇰🇷_韩国_2
-  - 🇯🇵_日本_12
+  - 🇦🇺_澳大利亚_7
+  - 🇸🇪_瑞典_6
   - 🇰🇷_韩国_3
+  - 🇬🇧_英国_5
   - 🇰🇷_韩国_4
-  - 🇦🇺_澳大利亚_6
+  - 🇸🇪_瑞典_7
+  - 🇦🇺_澳大利亚_8
   - 🇰🇷_韩国_5
+  - 🇸🇪_瑞典_8
+  - 🇺🇸_美国_62
+  - 🇦🇺_澳大利亚_9
   - 🇰🇷_韩国_6
   - 🇰🇷_韩国_7
+  - 🇺🇸_美国_63
   - 🇰🇷_韩国_8
   - 🇰🇷_韩国_9
   - 🇰🇷_韩国_10
+  - 🇯🇵_日本_23
   - 🇰🇷_韩国_11
+  - 🇸🇪_瑞典_9
+  - 🇨🇳_中国_13
+  - 🇨🇭_瑞士_4
   - 🇰🇷_韩国_12
   - 🇰🇷_韩国_13
   - 🇰🇷_韩国_14
@@ -4406,165 +5103,112 @@ proxy-groups:
   - 🇰🇷_韩国_18
   - 🇰🇷_韩国_19
   - 🇰🇷_韩国_20
-  - 🇦🇺_澳大利亚_7
   - 🇰🇷_韩国_21
+  - 🇯🇵_日本_24
   - 🇰🇷_韩国_22
   - 🇰🇷_韩国_23
   - 🇰🇷_韩国_24
+  - 🇯🇵_日本_25
   - 🇰🇷_韩国_25
+  - 🇺🇸_美国_64
+  - 🇫🇷_法国_10
   - 🇰🇷_韩国_26
   - 🇰🇷_韩国_27
-  - 🇺🇸_美国_18
   - 🇰🇷_韩国_28
-  - 🇱🇹_立陶宛
   - 🇰🇷_韩国_29
+  - 🇺🇸_美国_65
   - 🇰🇷_韩国_30
   - 🇰🇷_韩国_31
+  - 🇬🇧_英国_6
   - 🇰🇷_韩国_32
   - 🇰🇷_韩国_33
   - 🇰🇷_韩国_34
   - 🇰🇷_韩国_35
-  - 🇺🇸_美国_19
-  - 🇷🇺_俄罗斯_1
   - 🇰🇷_韩国_36
   - 🇰🇷_韩国_37
   - 🇰🇷_韩国_38
   - 🇰🇷_韩国_39
   - 🇰🇷_韩国_40
-  - 🇦🇺_澳大利亚_8
+  - 🇯🇵_日本_26
   - 🇰🇷_韩国_41
+  - 🇫🇷_法国_11
   - 🇰🇷_韩国_42
   - 🇰🇷_韩国_43
   - 🇰🇷_韩国_44
   - 🇰🇷_韩国_45
-  - 🇺🇸_美国_20
   - 🇰🇷_韩国_46
+  - 🇺🇸_美国_66
   - 🇰🇷_韩国_47
-  - 🇷🇺_俄罗斯_2
-  - 🇬🇧_英国_1
   - 🇰🇷_韩国_48
   - 🇰🇷_韩国_49
   - 🇰🇷_韩国_50
   - 🇰🇷_韩国_51
-  - 🇬🇧_英国_2
   - 🇰🇷_韩国_52
+  - 🇬🇧_英国_7
   - 🇰🇷_韩国_53
-  - 🇦🇺_澳大利亚_9
   - 🇰🇷_韩国_54
   - 🇰🇷_韩国_55
-  - 🇩🇪_德国_1
-  - 🇺🇸_美国_21
-  - 🇺🇸_美国_22
-  - 🇺🇸_美国_23
   - 🇰🇷_韩国_56
   - 🇰🇷_韩国_57
   - 🇰🇷_韩国_58
   - 🇰🇷_韩国_59
-  - 🇺🇸_美国_24
   - 🇰🇷_韩国_60
-  - 🇨🇳_中国_11
-  - 🇷🇺_俄罗斯_3
-  - 🇸🇬_新加坡_8
+  - 🇨🇭_瑞士_5
   - 🇰🇷_韩国_61
   - 🇰🇷_韩国_62
   - 🇰🇷_韩国_63
   - 🇰🇷_韩国_64
-  - 🇯🇵_日本_13
   - 🇰🇷_韩国_65
   - 🇰🇷_韩国_66
-  - 🇨🇳_中国_12
-  - 🇺🇸_美国_25
   - 🇰🇷_韩国_67
   - 🇰🇷_韩国_68
+  - 🇨🇳_中国_14
   - 🇰🇷_韩国_69
-  - 🇸🇬_新加坡_9
   - 🇰🇷_韩国_70
   - 🇰🇷_韩国_71
   - 🇰🇷_韩国_72
+  - 🇸🇬_新加坡_2
   - 🇰🇷_韩国_73
   - 🇰🇷_韩国_74
   - 🇰🇷_韩国_75
-  - 🇨🇳_中国_13
+  - 🇯🇵_日本_27
   - 🇰🇷_韩国_76
   - 🇰🇷_韩国_77
   - 🇰🇷_韩国_78
   - 🇰🇷_韩国_79
-  - 🇯🇵_日本_14
   - 🇰🇷_韩国_80
-  - 🇺🇸_美国_26
-  - 🇷🇺_俄罗斯_4
-  - 🇺🇸_美国_27
   - 🇰🇷_韩国_81
-  - 🇸🇬_新加坡_10
   - 🇰🇷_韩国_82
   - 🇰🇷_韩国_83
-  - 🇺🇸_美国_28
-  - 🇸🇬_新加坡_11
-  - 🇺🇸_美国_29
-  - 🇯🇵_日本_15
   - 🇰🇷_韩国_84
   - 🇰🇷_韩国_85
   - 🇰🇷_韩国_86
   - 🇰🇷_韩国_87
   - 🇰🇷_韩国_88
   - 🇰🇷_韩国_89
-  - 🇷🇺_俄罗斯_5
-  - 🇺🇸_美国_30
+  - 🇬🇧_英国_8
+  - 🇯🇵_日本_28
+  - 🇬🇧_英国_9
   - 🇰🇷_韩国_90
   - 🇰🇷_韩国_91
+  - 🇺🇸_美国_67
   - 🇰🇷_韩国_92
-  - 🇦🇺_澳大利亚_10
-  - 🇷🇺_俄罗斯_6
-  - 🇷🇺_俄罗斯_7
   - 🇰🇷_韩国_93
-  - 🇬🇧_英国_3
   - 🇰🇷_韩国_94
-  - 🇺🇸_美国_31
   - 🇰🇷_韩国_95
-  - 🇳🇱_荷兰_1
   - 🇰🇷_韩国_96
-  - 🇯🇵_日本_16
-  - 🇬🇧_英国_4
-  - 🇨🇳_中国_14
+  - 🇯🇵_日本_29
   - 🇰🇷_韩国_97
-  - 🇸🇪_瑞典_4
   - 🇰🇷_韩国_98
-  - 🇯🇵_日本_17
-  - 🇳🇱_荷兰_2
-  - 🇸🇬_新加坡_12
   - 🇰🇷_韩国_99
   - 🇰🇷_韩国_100
-  - 🇺🇸_美国_32
-  - 🇺🇸_美国_33
-  - 🇧🇷_巴西_2
-  - 🇯🇵_日本_18
-  - 🇯🇵_日本_19
+  - 🇳🇱_荷兰
   - 🇰🇷_韩国_101
-  - 🇯🇵_日本_20
   - 🇰🇷_韩国_102
-  - 🇺🇸_美国_34
   - 🇰🇷_韩国_103
+  - 🇱🇹_立陶宛
   - 🇰🇷_韩国_104
   - 🇰🇷_韩国_105
-  - 🇷🇺_俄罗斯_8
-  - 🇰🇷_韩国_106
-  - 🇰🇷_韩国_107
-  - 🇰🇷_韩国_108
-  - 🇰🇷_韩国_109
-  - 🇸🇪_瑞典_5
-  - 🇺🇸_美国_35
-  - 🇰🇷_韩国_110
-  - 🇧🇷_巴西_3
-  - 🇰🇷_韩国_111
-  - 🇰🇷_韩国_112
-  - 🇺🇸_美国_36
-  - 🇸🇬_新加坡_13
-  - 🇸🇬_新加坡_14
-  - 🇰🇷_韩国_113
-  - 🇺🇸_美国_37
-  - 🇰🇷_韩国_114
-  - 🇺🇸_美国_38
-  - 🇩🇪_德国_2
   type: select
 - name: 🍎 苹果服务
   proxies:
@@ -4572,76 +5216,169 @@ proxy-groups:
   - 🎯 全球直连
   - 电报群：https://t.me/vvkj11
   - 每天更新，请加电报群防止失联
-  - 日期：10-17
+  - 日期：10-18
   - 免费VPN：https://tt.vg/gwaAy
-  - 🇨🇳_中国_1
+  - 🇫🇷_法国_1
+  - 🇸🇦_沙特阿拉伯_1
+  - 🇫🇷_法国_2
+  - 🇸🇦_沙特阿拉伯_2
+  - 🇷🇺_俄罗斯_1
+  - 🇨🇭_瑞士_1
+  - 🇨🇭_瑞士_2
+  - 🇫🇷_法国_3
+  - 🇷🇺_俄罗斯_2
+  - 🇷🇺_俄罗斯_3
   - 🇺🇸_美国_1
-  - 🇨🇳_中国_2
+  - 🇷🇺_俄罗斯_4
+  - 🇯🇵_日本_1
   - 🇺🇸_美国_2
-  - 🇦🇺_澳大利亚_1
-  - 🇦🇺_澳大利亚_2
-  - 🇨🇳_中国_3
-  - 🇨🇳_中国_4
+  - 🇨🇳_中国_1
   - 🇺🇸_美国_3
   - 🇺🇸_美国_4
-  - 🇸🇬_新加坡_1
+  - 🇨🇳_中国_2
+  - 🇩🇪_德国_1
+  - 🇩🇪_德国_2
   - 🇺🇸_美国_5
-  - 🇸🇬_新加坡_2
-  - 🇨🇳_中国_5
+  - 🇨🇳_中国_3
   - 🇺🇸_美国_6
+  - 🇫🇷_法国_4
+  - 🇫🇷_法国_5
+  - 🇫🇷_法国_6
+  - 🇫🇷_法国_7
+  - 🇫🇷_法国_8
+  - 🇺🇦_乌克兰
   - 🇺🇸_美国_7
-  - 🇨🇳_中国_6
-  - 🇯🇵_日本_1
-  - 🇸🇬_新加坡_3
   - 🇺🇸_美国_8
-  - 🇸🇬_新加坡_4
   - 🇺🇸_美国_9
-  - 🇨🇳_中国_7
-  - 🇸🇬_新加坡_5
   - 🇺🇸_美国_10
   - 🇺🇸_美国_11
-  - 🇯🇵_日本_2
-  - 🇨🇳_中国_8
-  - 🇯🇵_日本_3
-  - 🇸🇪_瑞典_1
-  - 🇧🇷_巴西_1
-  - 🇦🇺_澳大利亚_3
-  - 🇨🇳_中国_9
-  - 🇯🇵_日本_4
   - 🇺🇸_美国_12
-  - 🇨🇭_瑞士
-  - 🇨🇳_中国_10
   - 🇺🇸_美国_13
+  - 🇺🇸_美国_14
+  - 🇺🇸_美国_15
+  - 🇺🇸_美国_16
+  - 🇺🇸_美国_17
+  - 🇺🇸_美国_18
+  - 🇺🇸_美国_19
+  - 🇺🇸_美国_20
+  - 🇺🇸_美国_21
+  - 🇺🇸_美国_22
+  - 🇺🇸_美国_23
+  - 🇺🇸_美国_24
+  - 🇺🇸_美国_25
+  - 🇨🇳_中国_4
+  - 🇨🇳_中国_5
+  - 🇦🇺_澳大利亚_1
+  - 🇫🇷_法国_9
+  - 🇺🇸_美国_26
+  - 🇨🇳_中国_6
+  - 🇨🇳_中国_7
+  - 🇺🇸_美国_27
+  - 🇺🇸_美国_28
+  - 🇬🇧_英国_1
+  - 🇺🇸_美国_29
+  - 🇯🇵_日本_2
+  - 🇬🇧_英国_2
+  - 🇺🇸_美国_30
+  - 🇯🇵_日本_3
+  - 🇺🇸_美国_31
+  - 🇧🇷_巴西_1
+  - 🇺🇸_美国_32
+  - 🇯🇵_日本_4
+  - 🇺🇸_美国_33
+  - 🇦🇺_澳大利亚_2
+  - 🇧🇷_巴西_2
+  - 🇺🇸_美国_34
+  - 🇺🇸_美国_35
+  - 🇺🇸_美国_36
+  - 🇺🇸_美国_37
+  - 🇬🇧_英国_3
+  - 🇦🇺_澳大利亚_3
+  - 🇺🇸_美国_38
+  - 🇺🇸_美国_39
   - 🇯🇵_日本_5
+  - 🇧🇷_巴西_3
+  - 🇺🇸_美国_40
+  - 🇺🇸_美国_41
+  - 🇺🇸_美国_42
+  - 🇺🇸_美国_43
+  - 🇺🇸_美国_44
   - 🇯🇵_日本_6
   - 🇯🇵_日本_7
-  - 🇺🇸_美国_14
-  - 🇸🇪_瑞典_2
-  - 🇺🇸_美国_15
   - 🇯🇵_日本_8
-  - 🇸🇬_新加坡_6
-  - 🇸🇪_瑞典_3
-  - 🇦🇺_澳大利亚_4
-  - 🇸🇬_新加坡_7
-  - 🇺🇸_美国_16
+  - 🇺🇸_美国_45
+  - 🇧🇷_巴西_4
+  - 🇺🇸_美国_46
+  - 🇨🇳_中国_8
+  - 🇨🇳_中国_9
+  - 🇺🇸_美国_47
+  - 🇧🇷_巴西_5
   - 🇯🇵_日本_9
+  - 🇸🇪_瑞典_1
+  - 🇬🇧_英国_4
+  - 🇸🇪_瑞典_2
+  - 🇺🇸_美国_48
+  - 🇦🇺_澳大利亚_4
   - 🇯🇵_日本_10
-  - 🇦🇺_澳大利亚_5
-  - 🇺🇸_美国_17
+  - 🇨🇳_中国_10
+  - 🇺🇸_美国_49
+  - 🇺🇸_美国_50
+  - 🇸🇪_瑞典_3
   - 🇯🇵_日本_11
+  - 🇸🇬_新加坡_1
+  - 🇺🇸_美国_51
+  - 🇺🇸_美国_52
+  - 🇸🇪_瑞典_4
+  - 🇺🇸_美国_53
+  - 🇺🇸_美国_54
+  - 🇯🇵_日本_12
+  - 🇨🇳_中国_11
+  - 🇺🇸_美国_55
+  - 🇯🇵_日本_13
+  - 🇯🇵_日本_14
+  - 🇯🇵_日本_15
+  - 🇨🇳_中国_12
+  - 🇺🇸_美国_56
+  - 🇯🇵_日本_16
+  - 🇯🇵_日本_17
+  - 🇺🇸_美国_57
+  - 🇺🇸_美国_58
+  - 🇯🇵_日本_18
+  - 🇺🇸_美国_59
+  - 🇸🇪_瑞典_5
+  - 🇨🇭_瑞士_3
+  - 🇯🇵_日本_19
+  - 🇯🇵_日本_20
+  - 🇺🇸_美国_60
+  - 🇺🇸_美国_61
+  - 🇯🇵_日本_21
+  - 🇦🇺_澳大利亚_5
+  - 🇯🇵_日本_22
+  - 🇦🇺_澳大利亚_6
   - 🇰🇷_韩国_1
   - 🇰🇷_韩国_2
-  - 🇯🇵_日本_12
+  - 🇦🇺_澳大利亚_7
+  - 🇸🇪_瑞典_6
   - 🇰🇷_韩国_3
+  - 🇬🇧_英国_5
   - 🇰🇷_韩国_4
-  - 🇦🇺_澳大利亚_6
+  - 🇸🇪_瑞典_7
+  - 🇦🇺_澳大利亚_8
   - 🇰🇷_韩国_5
+  - 🇸🇪_瑞典_8
+  - 🇺🇸_美国_62
+  - 🇦🇺_澳大利亚_9
   - 🇰🇷_韩国_6
   - 🇰🇷_韩国_7
+  - 🇺🇸_美国_63
   - 🇰🇷_韩国_8
   - 🇰🇷_韩国_9
   - 🇰🇷_韩国_10
+  - 🇯🇵_日本_23
   - 🇰🇷_韩国_11
+  - 🇸🇪_瑞典_9
+  - 🇨🇳_中国_13
+  - 🇨🇭_瑞士_4
   - 🇰🇷_韩国_12
   - 🇰🇷_韩国_13
   - 🇰🇷_韩国_14
@@ -4651,165 +5388,112 @@ proxy-groups:
   - 🇰🇷_韩国_18
   - 🇰🇷_韩国_19
   - 🇰🇷_韩国_20
-  - 🇦🇺_澳大利亚_7
   - 🇰🇷_韩国_21
+  - 🇯🇵_日本_24
   - 🇰🇷_韩国_22
   - 🇰🇷_韩国_23
   - 🇰🇷_韩国_24
+  - 🇯🇵_日本_25
   - 🇰🇷_韩国_25
+  - 🇺🇸_美国_64
+  - 🇫🇷_法国_10
   - 🇰🇷_韩国_26
   - 🇰🇷_韩国_27
-  - 🇺🇸_美国_18
   - 🇰🇷_韩国_28
-  - 🇱🇹_立陶宛
   - 🇰🇷_韩国_29
+  - 🇺🇸_美国_65
   - 🇰🇷_韩国_30
   - 🇰🇷_韩国_31
+  - 🇬🇧_英国_6
   - 🇰🇷_韩国_32
   - 🇰🇷_韩国_33
   - 🇰🇷_韩国_34
   - 🇰🇷_韩国_35
-  - 🇺🇸_美国_19
-  - 🇷🇺_俄罗斯_1
   - 🇰🇷_韩国_36
   - 🇰🇷_韩国_37
   - 🇰🇷_韩国_38
   - 🇰🇷_韩国_39
   - 🇰🇷_韩国_40
-  - 🇦🇺_澳大利亚_8
+  - 🇯🇵_日本_26
   - 🇰🇷_韩国_41
+  - 🇫🇷_法国_11
   - 🇰🇷_韩国_42
   - 🇰🇷_韩国_43
   - 🇰🇷_韩国_44
   - 🇰🇷_韩国_45
-  - 🇺🇸_美国_20
   - 🇰🇷_韩国_46
+  - 🇺🇸_美国_66
   - 🇰🇷_韩国_47
-  - 🇷🇺_俄罗斯_2
-  - 🇬🇧_英国_1
   - 🇰🇷_韩国_48
   - 🇰🇷_韩国_49
   - 🇰🇷_韩国_50
   - 🇰🇷_韩国_51
-  - 🇬🇧_英国_2
   - 🇰🇷_韩国_52
+  - 🇬🇧_英国_7
   - 🇰🇷_韩国_53
-  - 🇦🇺_澳大利亚_9
   - 🇰🇷_韩国_54
   - 🇰🇷_韩国_55
-  - 🇩🇪_德国_1
-  - 🇺🇸_美国_21
-  - 🇺🇸_美国_22
-  - 🇺🇸_美国_23
   - 🇰🇷_韩国_56
   - 🇰🇷_韩国_57
   - 🇰🇷_韩国_58
   - 🇰🇷_韩国_59
-  - 🇺🇸_美国_24
   - 🇰🇷_韩国_60
-  - 🇨🇳_中国_11
-  - 🇷🇺_俄罗斯_3
-  - 🇸🇬_新加坡_8
+  - 🇨🇭_瑞士_5
   - 🇰🇷_韩国_61
   - 🇰🇷_韩国_62
   - 🇰🇷_韩国_63
   - 🇰🇷_韩国_64
-  - 🇯🇵_日本_13
   - 🇰🇷_韩国_65
   - 🇰🇷_韩国_66
-  - 🇨🇳_中国_12
-  - 🇺🇸_美国_25
   - 🇰🇷_韩国_67
   - 🇰🇷_韩国_68
+  - 🇨🇳_中国_14
   - 🇰🇷_韩国_69
-  - 🇸🇬_新加坡_9
   - 🇰🇷_韩国_70
   - 🇰🇷_韩国_71
   - 🇰🇷_韩国_72
+  - 🇸🇬_新加坡_2
   - 🇰🇷_韩国_73
   - 🇰🇷_韩国_74
   - 🇰🇷_韩国_75
-  - 🇨🇳_中国_13
+  - 🇯🇵_日本_27
   - 🇰🇷_韩国_76
   - 🇰🇷_韩国_77
   - 🇰🇷_韩国_78
   - 🇰🇷_韩国_79
-  - 🇯🇵_日本_14
   - 🇰🇷_韩国_80
-  - 🇺🇸_美国_26
-  - 🇷🇺_俄罗斯_4
-  - 🇺🇸_美国_27
   - 🇰🇷_韩国_81
-  - 🇸🇬_新加坡_10
   - 🇰🇷_韩国_82
   - 🇰🇷_韩国_83
-  - 🇺🇸_美国_28
-  - 🇸🇬_新加坡_11
-  - 🇺🇸_美国_29
-  - 🇯🇵_日本_15
   - 🇰🇷_韩国_84
   - 🇰🇷_韩国_85
   - 🇰🇷_韩国_86
   - 🇰🇷_韩国_87
   - 🇰🇷_韩国_88
   - 🇰🇷_韩国_89
-  - 🇷🇺_俄罗斯_5
-  - 🇺🇸_美国_30
+  - 🇬🇧_英国_8
+  - 🇯🇵_日本_28
+  - 🇬🇧_英国_9
   - 🇰🇷_韩国_90
   - 🇰🇷_韩国_91
+  - 🇺🇸_美国_67
   - 🇰🇷_韩国_92
-  - 🇦🇺_澳大利亚_10
-  - 🇷🇺_俄罗斯_6
-  - 🇷🇺_俄罗斯_7
   - 🇰🇷_韩国_93
-  - 🇬🇧_英国_3
   - 🇰🇷_韩国_94
-  - 🇺🇸_美国_31
   - 🇰🇷_韩国_95
-  - 🇳🇱_荷兰_1
   - 🇰🇷_韩国_96
-  - 🇯🇵_日本_16
-  - 🇬🇧_英国_4
-  - 🇨🇳_中国_14
+  - 🇯🇵_日本_29
   - 🇰🇷_韩国_97
-  - 🇸🇪_瑞典_4
   - 🇰🇷_韩国_98
-  - 🇯🇵_日本_17
-  - 🇳🇱_荷兰_2
-  - 🇸🇬_新加坡_12
   - 🇰🇷_韩国_99
   - 🇰🇷_韩国_100
-  - 🇺🇸_美国_32
-  - 🇺🇸_美国_33
-  - 🇧🇷_巴西_2
-  - 🇯🇵_日本_18
-  - 🇯🇵_日本_19
+  - 🇳🇱_荷兰
   - 🇰🇷_韩国_101
-  - 🇯🇵_日本_20
   - 🇰🇷_韩国_102
-  - 🇺🇸_美国_34
   - 🇰🇷_韩国_103
+  - 🇱🇹_立陶宛
   - 🇰🇷_韩国_104
   - 🇰🇷_韩国_105
-  - 🇷🇺_俄罗斯_8
-  - 🇰🇷_韩国_106
-  - 🇰🇷_韩国_107
-  - 🇰🇷_韩国_108
-  - 🇰🇷_韩国_109
-  - 🇸🇪_瑞典_5
-  - 🇺🇸_美国_35
-  - 🇰🇷_韩国_110
-  - 🇧🇷_巴西_3
-  - 🇰🇷_韩国_111
-  - 🇰🇷_韩国_112
-  - 🇺🇸_美国_36
-  - 🇸🇬_新加坡_13
-  - 🇸🇬_新加坡_14
-  - 🇰🇷_韩国_113
-  - 🇺🇸_美国_37
-  - 🇰🇷_韩国_114
-  - 🇺🇸_美国_38
-  - 🇩🇪_德国_2
   type: select
 - name: 🎯 全球直连
   proxies:
@@ -4834,76 +5518,169 @@ proxy-groups:
   - ♻️ 自动选择
   - 电报群：https://t.me/vvkj11
   - 每天更新，请加电报群防止失联
-  - 日期：10-17
+  - 日期：10-18
   - 免费VPN：https://tt.vg/gwaAy
-  - 🇨🇳_中国_1
+  - 🇫🇷_法国_1
+  - 🇸🇦_沙特阿拉伯_1
+  - 🇫🇷_法国_2
+  - 🇸🇦_沙特阿拉伯_2
+  - 🇷🇺_俄罗斯_1
+  - 🇨🇭_瑞士_1
+  - 🇨🇭_瑞士_2
+  - 🇫🇷_法国_3
+  - 🇷🇺_俄罗斯_2
+  - 🇷🇺_俄罗斯_3
   - 🇺🇸_美国_1
-  - 🇨🇳_中国_2
+  - 🇷🇺_俄罗斯_4
+  - 🇯🇵_日本_1
   - 🇺🇸_美国_2
-  - 🇦🇺_澳大利亚_1
-  - 🇦🇺_澳大利亚_2
-  - 🇨🇳_中国_3
-  - 🇨🇳_中国_4
+  - 🇨🇳_中国_1
   - 🇺🇸_美国_3
   - 🇺🇸_美国_4
-  - 🇸🇬_新加坡_1
+  - 🇨🇳_中国_2
+  - 🇩🇪_德国_1
+  - 🇩🇪_德国_2
   - 🇺🇸_美国_5
-  - 🇸🇬_新加坡_2
-  - 🇨🇳_中国_5
+  - 🇨🇳_中国_3
   - 🇺🇸_美国_6
+  - 🇫🇷_法国_4
+  - 🇫🇷_法国_5
+  - 🇫🇷_法国_6
+  - 🇫🇷_法国_7
+  - 🇫🇷_法国_8
+  - 🇺🇦_乌克兰
   - 🇺🇸_美国_7
-  - 🇨🇳_中国_6
-  - 🇯🇵_日本_1
-  - 🇸🇬_新加坡_3
   - 🇺🇸_美国_8
-  - 🇸🇬_新加坡_4
   - 🇺🇸_美国_9
-  - 🇨🇳_中国_7
-  - 🇸🇬_新加坡_5
   - 🇺🇸_美国_10
   - 🇺🇸_美国_11
-  - 🇯🇵_日本_2
-  - 🇨🇳_中国_8
-  - 🇯🇵_日本_3
-  - 🇸🇪_瑞典_1
-  - 🇧🇷_巴西_1
-  - 🇦🇺_澳大利亚_3
-  - 🇨🇳_中国_9
-  - 🇯🇵_日本_4
   - 🇺🇸_美国_12
-  - 🇨🇭_瑞士
-  - 🇨🇳_中国_10
   - 🇺🇸_美国_13
+  - 🇺🇸_美国_14
+  - 🇺🇸_美国_15
+  - 🇺🇸_美国_16
+  - 🇺🇸_美国_17
+  - 🇺🇸_美国_18
+  - 🇺🇸_美国_19
+  - 🇺🇸_美国_20
+  - 🇺🇸_美国_21
+  - 🇺🇸_美国_22
+  - 🇺🇸_美国_23
+  - 🇺🇸_美国_24
+  - 🇺🇸_美国_25
+  - 🇨🇳_中国_4
+  - 🇨🇳_中国_5
+  - 🇦🇺_澳大利亚_1
+  - 🇫🇷_法国_9
+  - 🇺🇸_美国_26
+  - 🇨🇳_中国_6
+  - 🇨🇳_中国_7
+  - 🇺🇸_美国_27
+  - 🇺🇸_美国_28
+  - 🇬🇧_英国_1
+  - 🇺🇸_美国_29
+  - 🇯🇵_日本_2
+  - 🇬🇧_英国_2
+  - 🇺🇸_美国_30
+  - 🇯🇵_日本_3
+  - 🇺🇸_美国_31
+  - 🇧🇷_巴西_1
+  - 🇺🇸_美国_32
+  - 🇯🇵_日本_4
+  - 🇺🇸_美国_33
+  - 🇦🇺_澳大利亚_2
+  - 🇧🇷_巴西_2
+  - 🇺🇸_美国_34
+  - 🇺🇸_美国_35
+  - 🇺🇸_美国_36
+  - 🇺🇸_美国_37
+  - 🇬🇧_英国_3
+  - 🇦🇺_澳大利亚_3
+  - 🇺🇸_美国_38
+  - 🇺🇸_美国_39
   - 🇯🇵_日本_5
+  - 🇧🇷_巴西_3
+  - 🇺🇸_美国_40
+  - 🇺🇸_美国_41
+  - 🇺🇸_美国_42
+  - 🇺🇸_美国_43
+  - 🇺🇸_美国_44
   - 🇯🇵_日本_6
   - 🇯🇵_日本_7
-  - 🇺🇸_美国_14
-  - 🇸🇪_瑞典_2
-  - 🇺🇸_美国_15
   - 🇯🇵_日本_8
-  - 🇸🇬_新加坡_6
-  - 🇸🇪_瑞典_3
-  - 🇦🇺_澳大利亚_4
-  - 🇸🇬_新加坡_7
-  - 🇺🇸_美国_16
+  - 🇺🇸_美国_45
+  - 🇧🇷_巴西_4
+  - 🇺🇸_美国_46
+  - 🇨🇳_中国_8
+  - 🇨🇳_中国_9
+  - 🇺🇸_美国_47
+  - 🇧🇷_巴西_5
   - 🇯🇵_日本_9
+  - 🇸🇪_瑞典_1
+  - 🇬🇧_英国_4
+  - 🇸🇪_瑞典_2
+  - 🇺🇸_美国_48
+  - 🇦🇺_澳大利亚_4
   - 🇯🇵_日本_10
-  - 🇦🇺_澳大利亚_5
-  - 🇺🇸_美国_17
+  - 🇨🇳_中国_10
+  - 🇺🇸_美国_49
+  - 🇺🇸_美国_50
+  - 🇸🇪_瑞典_3
   - 🇯🇵_日本_11
+  - 🇸🇬_新加坡_1
+  - 🇺🇸_美国_51
+  - 🇺🇸_美国_52
+  - 🇸🇪_瑞典_4
+  - 🇺🇸_美国_53
+  - 🇺🇸_美国_54
+  - 🇯🇵_日本_12
+  - 🇨🇳_中国_11
+  - 🇺🇸_美国_55
+  - 🇯🇵_日本_13
+  - 🇯🇵_日本_14
+  - 🇯🇵_日本_15
+  - 🇨🇳_中国_12
+  - 🇺🇸_美国_56
+  - 🇯🇵_日本_16
+  - 🇯🇵_日本_17
+  - 🇺🇸_美国_57
+  - 🇺🇸_美国_58
+  - 🇯🇵_日本_18
+  - 🇺🇸_美国_59
+  - 🇸🇪_瑞典_5
+  - 🇨🇭_瑞士_3
+  - 🇯🇵_日本_19
+  - 🇯🇵_日本_20
+  - 🇺🇸_美国_60
+  - 🇺🇸_美国_61
+  - 🇯🇵_日本_21
+  - 🇦🇺_澳大利亚_5
+  - 🇯🇵_日本_22
+  - 🇦🇺_澳大利亚_6
   - 🇰🇷_韩国_1
   - 🇰🇷_韩国_2
-  - 🇯🇵_日本_12
+  - 🇦🇺_澳大利亚_7
+  - 🇸🇪_瑞典_6
   - 🇰🇷_韩国_3
+  - 🇬🇧_英国_5
   - 🇰🇷_韩国_4
-  - 🇦🇺_澳大利亚_6
+  - 🇸🇪_瑞典_7
+  - 🇦🇺_澳大利亚_8
   - 🇰🇷_韩国_5
+  - 🇸🇪_瑞典_8
+  - 🇺🇸_美国_62
+  - 🇦🇺_澳大利亚_9
   - 🇰🇷_韩国_6
   - 🇰🇷_韩国_7
+  - 🇺🇸_美国_63
   - 🇰🇷_韩国_8
   - 🇰🇷_韩国_9
   - 🇰🇷_韩国_10
+  - 🇯🇵_日本_23
   - 🇰🇷_韩国_11
+  - 🇸🇪_瑞典_9
+  - 🇨🇳_中国_13
+  - 🇨🇭_瑞士_4
   - 🇰🇷_韩国_12
   - 🇰🇷_韩国_13
   - 🇰🇷_韩国_14
@@ -4913,165 +5690,112 @@ proxy-groups:
   - 🇰🇷_韩国_18
   - 🇰🇷_韩国_19
   - 🇰🇷_韩国_20
-  - 🇦🇺_澳大利亚_7
   - 🇰🇷_韩国_21
+  - 🇯🇵_日本_24
   - 🇰🇷_韩国_22
   - 🇰🇷_韩国_23
   - 🇰🇷_韩国_24
+  - 🇯🇵_日本_25
   - 🇰🇷_韩国_25
+  - 🇺🇸_美国_64
+  - 🇫🇷_法国_10
   - 🇰🇷_韩国_26
   - 🇰🇷_韩国_27
-  - 🇺🇸_美国_18
   - 🇰🇷_韩国_28
-  - 🇱🇹_立陶宛
   - 🇰🇷_韩国_29
+  - 🇺🇸_美国_65
   - 🇰🇷_韩国_30
   - 🇰🇷_韩国_31
+  - 🇬🇧_英国_6
   - 🇰🇷_韩国_32
   - 🇰🇷_韩国_33
   - 🇰🇷_韩国_34
   - 🇰🇷_韩国_35
-  - 🇺🇸_美国_19
-  - 🇷🇺_俄罗斯_1
   - 🇰🇷_韩国_36
   - 🇰🇷_韩国_37
   - 🇰🇷_韩国_38
   - 🇰🇷_韩国_39
   - 🇰🇷_韩国_40
-  - 🇦🇺_澳大利亚_8
+  - 🇯🇵_日本_26
   - 🇰🇷_韩国_41
+  - 🇫🇷_法国_11
   - 🇰🇷_韩国_42
   - 🇰🇷_韩国_43
   - 🇰🇷_韩国_44
   - 🇰🇷_韩国_45
-  - 🇺🇸_美国_20
   - 🇰🇷_韩国_46
+  - 🇺🇸_美国_66
   - 🇰🇷_韩国_47
-  - 🇷🇺_俄罗斯_2
-  - 🇬🇧_英国_1
   - 🇰🇷_韩国_48
   - 🇰🇷_韩国_49
   - 🇰🇷_韩国_50
   - 🇰🇷_韩国_51
-  - 🇬🇧_英国_2
   - 🇰🇷_韩国_52
+  - 🇬🇧_英国_7
   - 🇰🇷_韩国_53
-  - 🇦🇺_澳大利亚_9
   - 🇰🇷_韩国_54
   - 🇰🇷_韩国_55
-  - 🇩🇪_德国_1
-  - 🇺🇸_美国_21
-  - 🇺🇸_美国_22
-  - 🇺🇸_美国_23
   - 🇰🇷_韩国_56
   - 🇰🇷_韩国_57
   - 🇰🇷_韩国_58
   - 🇰🇷_韩国_59
-  - 🇺🇸_美国_24
   - 🇰🇷_韩国_60
-  - 🇨🇳_中国_11
-  - 🇷🇺_俄罗斯_3
-  - 🇸🇬_新加坡_8
+  - 🇨🇭_瑞士_5
   - 🇰🇷_韩国_61
   - 🇰🇷_韩国_62
   - 🇰🇷_韩国_63
   - 🇰🇷_韩国_64
-  - 🇯🇵_日本_13
   - 🇰🇷_韩国_65
   - 🇰🇷_韩国_66
-  - 🇨🇳_中国_12
-  - 🇺🇸_美国_25
   - 🇰🇷_韩国_67
   - 🇰🇷_韩国_68
+  - 🇨🇳_中国_14
   - 🇰🇷_韩国_69
-  - 🇸🇬_新加坡_9
   - 🇰🇷_韩国_70
   - 🇰🇷_韩国_71
   - 🇰🇷_韩国_72
+  - 🇸🇬_新加坡_2
   - 🇰🇷_韩国_73
   - 🇰🇷_韩国_74
   - 🇰🇷_韩国_75
-  - 🇨🇳_中国_13
+  - 🇯🇵_日本_27
   - 🇰🇷_韩国_76
   - 🇰🇷_韩国_77
   - 🇰🇷_韩国_78
   - 🇰🇷_韩国_79
-  - 🇯🇵_日本_14
   - 🇰🇷_韩国_80
-  - 🇺🇸_美国_26
-  - 🇷🇺_俄罗斯_4
-  - 🇺🇸_美国_27
   - 🇰🇷_韩国_81
-  - 🇸🇬_新加坡_10
   - 🇰🇷_韩国_82
   - 🇰🇷_韩国_83
-  - 🇺🇸_美国_28
-  - 🇸🇬_新加坡_11
-  - 🇺🇸_美国_29
-  - 🇯🇵_日本_15
   - 🇰🇷_韩国_84
   - 🇰🇷_韩国_85
   - 🇰🇷_韩国_86
   - 🇰🇷_韩国_87
   - 🇰🇷_韩国_88
   - 🇰🇷_韩国_89
-  - 🇷🇺_俄罗斯_5
-  - 🇺🇸_美国_30
+  - 🇬🇧_英国_8
+  - 🇯🇵_日本_28
+  - 🇬🇧_英国_9
   - 🇰🇷_韩国_90
   - 🇰🇷_韩国_91
+  - 🇺🇸_美国_67
   - 🇰🇷_韩国_92
-  - 🇦🇺_澳大利亚_10
-  - 🇷🇺_俄罗斯_6
-  - 🇷🇺_俄罗斯_7
   - 🇰🇷_韩国_93
-  - 🇬🇧_英国_3
   - 🇰🇷_韩国_94
-  - 🇺🇸_美国_31
   - 🇰🇷_韩国_95
-  - 🇳🇱_荷兰_1
   - 🇰🇷_韩国_96
-  - 🇯🇵_日本_16
-  - 🇬🇧_英国_4
-  - 🇨🇳_中国_14
+  - 🇯🇵_日本_29
   - 🇰🇷_韩国_97
-  - 🇸🇪_瑞典_4
   - 🇰🇷_韩国_98
-  - 🇯🇵_日本_17
-  - 🇳🇱_荷兰_2
-  - 🇸🇬_新加坡_12
   - 🇰🇷_韩国_99
   - 🇰🇷_韩国_100
-  - 🇺🇸_美国_32
-  - 🇺🇸_美国_33
-  - 🇧🇷_巴西_2
-  - 🇯🇵_日本_18
-  - 🇯🇵_日本_19
+  - 🇳🇱_荷兰
   - 🇰🇷_韩国_101
-  - 🇯🇵_日本_20
   - 🇰🇷_韩国_102
-  - 🇺🇸_美国_34
   - 🇰🇷_韩国_103
+  - 🇱🇹_立陶宛
   - 🇰🇷_韩国_104
   - 🇰🇷_韩国_105
-  - 🇷🇺_俄罗斯_8
-  - 🇰🇷_韩国_106
-  - 🇰🇷_韩国_107
-  - 🇰🇷_韩国_108
-  - 🇰🇷_韩国_109
-  - 🇸🇪_瑞典_5
-  - 🇺🇸_美国_35
-  - 🇰🇷_韩国_110
-  - 🇧🇷_巴西_3
-  - 🇰🇷_韩国_111
-  - 🇰🇷_韩国_112
-  - 🇺🇸_美国_36
-  - 🇸🇬_新加坡_13
-  - 🇸🇬_新加坡_14
-  - 🇰🇷_韩国_113
-  - 🇺🇸_美国_37
-  - 🇰🇷_韩国_114
-  - 🇺🇸_美国_38
-  - 🇩🇪_德国_2
   type: select
 rules:
 - DOMAIN-SUFFIX,acl4.ssr,🎯 全球直连
