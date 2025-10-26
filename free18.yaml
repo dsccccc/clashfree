@@ -4,52 +4,534 @@ log-level: info
 mode: Rule
 port: 7890
 proxies:
-- alterId: '0'
-  cipher: auto
-  name: 电报群：https://t.me/vvkj11
-  network: ws
-  port: '2053'
-  server: pubg.ac
+- name: 电报群：https://t.me/vvkj11
+  network: grpc
+  port: 8880
+  server: 638966574572431911.rome-blkaft-aaau.info
+  skip-cert-verify: true
   tls: true
-  type: vmess
-  uuid: 82ba36ec-dafe-40eb-b9ad-0f8a98101020
-  ws-opts:
-    headers:
-      host: cdn-node-oss-64.paofu.de
-    path: /profile/sharenode
-- alterId: '0'
-  cipher: auto
-  name: 每天更新，请加电报群防止失联
-  network: ws
-  port: '2053'
-  server: csgo.com
+  type: vless
+  udp: true
+  uuid: df0680ca-e43c-498d-ed86-8e196eedd012
+- name: 每天更新，请加电报群防止失联
+  network: grpc
+  port: 8880
+  server: 638966574572431911.rome-blkaft-aaau.info
+  skip-cert-verify: true
   tls: true
-  type: vmess
-  uuid: 82ba36ec-dafe-40eb-b9ad-0f8a98101020
-  ws-opts:
-    headers:
-      host: cdn-node-oss-64.paofu.de
-    path: /profile/sharenode
+  type: vless
+  udp: true
+  uuid: df0680ca-e43c-498d-ed86-8e196eedd012
+- name: 日期：10-26
+  network: grpc
+  port: 8880
+  server: 638966574572431911.rome-blkaft-aaau.info
+  skip-cert-verify: true
+  tls: true
+  type: vless
+  udp: true
+  uuid: df0680ca-e43c-498d-ed86-8e196eedd012
+- name: 免费VPN：https://tt.vg/gwaAy
+  network: grpc
+  port: 8880
+  server: 638966574572431911.rome-blkaft-aaau.info
+  skip-cert-verify: true
+  tls: true
+  type: vless
+  udp: true
+  uuid: df0680ca-e43c-498d-ed86-8e196eedd012
 - alterId: '0'
   cipher: auto
-  name: 日期：10-24
-  network: ws
-  port: '44579'
-  server: 2001:bc8:32d7:302::10
+  name: 香港
+  network: tcp
+  port: '31212'
+  server: 47.242.90.210
   type: vmess
-  uuid: 8e34e170-13ae-4892-9d20-05962acc9f84
-  ws-opts:
-    path: /?ed=2048HiByeVPNN--HiByeVPNN--HiByeVPNN--HiByeVPNN--HiByeVPNN--HiByeVPNN--HiByeVPNN--HiByeVPNN--HiByeVPNN--HiByeVPNN--HiByeVPNN--HiByeVPNN--HiByeVPNN
+  uuid: 3a4271fb-2718-4489-da78-80a8e7701aa5
+- name: HK_1
+  network: tcp
+  password: BxceQaOe
+  port: 4451
+  server: 36.151.251.23
+  skip-cert-verify: true
+  type: trojan
+  udp: true
 - alterId: '0'
   cipher: auto
-  name: 免费VPN：https://tt.vg/gwaAy
-  network: ws
-  port: '44579'
-  server: 2001:bc8:32d7:302::10
+  name: HK_2
+  network: tcp
+  port: '11507'
+  server: 189.1.226.65
   type: vmess
-  uuid: 8e34e170-13ae-4892-9d20-05962acc9f84
-  ws-opts:
-    path: /?ed=2048HiByeVPNN--HiByeVPNN--HiByeVPNN--HiByeVPNN--HiByeVPNN--HiByeVPNN--HiByeVPNN--HiByeVPNN--HiByeVPNN--HiByeVPNN--HiByeVPNN--HiByeVPNN--HiByeVPNN
+  uuid: 5941c7a8-5f82-4a98-c06d-3c3f2003ef50
+- flow: xtls-rprx-vision
+  name: 美国_1
+  network: tcp
+  port: 33009
+  server: 212.129.5.242
+  servername: www.yahoo.com
+  skip-cert-verify: true
+  tls: false
+  type: vless
+  udp: true
+  uuid: 77a33d77-7af9-4c33-9556-d6711becca04
+- flow: xtls-rprx-vision
+  name: US_3
+  network: tcp
+  port: 33009
+  server: 212.129.5.242
+  servername: www.yahoo.com
+  skip-cert-verify: true
+  tls: false
+  type: vless
+  udp: true
+  uuid: 77a33d77-7af9-4c33-9556-d6711becca04
+- name: US_4
+  network: tcp
+  password: T
+  port: 2053
+  server: _WvT8Ho@LW%w_,@nop-55q.pages.dev
+  skip-cert-verify: true
+  sni: NOp-55q.pAgEs.dEv
+  type: trojan
+  udp: true
+- name: US_5
+  network: tcp
+  password: T
+  port: 2053
+  server: _WvT8Ho@LW%w_,@nop-55q.pages.dev
+  skip-cert-verify: true
+  sni: NOp-55q.pAgEs.dEv
+  type: trojan
+  udp: true
+- name: US_6
+  network: tcp
+  password: T
+  port: 2053
+  server: _WvT8Ho@LW%w_,@nop-55q.pages.dev
+  skip-cert-verify: true
+  sni: NOp-55q.pAgEs.dEv
+  type: trojan
+  udp: true
+- alterId: '0'
+  cipher: auto
+  name: 美国_2
+  network: tcp
+  port: '443'
+  server: 140.238.2.250
+  type: vmess
+  uuid: 41a7089a-040b-4538-8b8d-010902405bde
+- flow: xtls-rprx-vision
+  name: US_7
+  network: tcp
+  port: 33009
+  server: 212.129.5.242
+  servername: www.yahoo.com
+  skip-cert-verify: true
+  tls: false
+  type: vless
+  udp: true
+  uuid: 77a33d77-7af9-4c33-9556-d6711becca04
+- flow: xtls-rprx-vision
+  name: 美国_5
+  network: tcp
+  port: 4443
+  server: express-c.868863.xyz
+  servername: icloud.cdn-apple.com
+  skip-cert-verify: true
+  tls: false
+  type: vless
+  udp: true
+  uuid: f6eacf4f-1c3b-4423-be54-ff0e66a11bf1
+- flow: xtls-rprx-vision
+  name: 美国_7
+  network: tcp
+  port: 9443
+  server: express-a.868863.xyz
+  servername: icloud.cdn-apple.com
+  skip-cert-verify: true
+  tls: false
+  type: vless
+  udp: true
+  uuid: f6eacf4f-1c3b-4423-be54-ff0e66a11bf1
+- flow: xtls-rprx-vision
+  name: 美国_8
+  network: tcp
+  port: 443
+  server: 77.110.109.72
+  servername: ad.mail.ru
+  skip-cert-verify: true
+  tls: false
+  type: vless
+  udp: true
+  uuid: 045eb821-bdae-43c5-8945-9cb181e65dcb
+- flow: xtls-rprx-vision
+  name: 美国_9
+  network: tcp
+  port: 443
+  server: 77.110.109.72
+  servername: ad.mail.ru
+  skip-cert-verify: true
+  tls: false
+  type: vless
+  udp: true
+  uuid: 045eb821-bdae-43c5-8945-9cb181e65dcb
+- flow: xtls-rprx-vision
+  name: 美国_10
+  network: tcp
+  port: 443
+  server: 77.110.109.72
+  servername: ad.mail.ru
+  skip-cert-verify: true
+  tls: false
+  type: vless
+  udp: true
+  uuid: 045eb821-bdae-43c5-8945-9cb181e65dcb
+- flow: xtls-rprx-vision
+  name: 美国_11
+  network: tcp
+  port: 443
+  server: 77.110.109.72
+  servername: ad.mail.ru
+  skip-cert-verify: true
+  tls: false
+  type: vless
+  udp: true
+  uuid: 045eb821-bdae-43c5-8945-9cb181e65dcb
+- name: 美国_14
+  network: tcp
+  password: f6eacf4f-1c3b-4423-be54-ff0e66a11bf1
+  port: 443
+  server: bestcdn1.868863.xyz
+  skip-cert-verify: true
+  sni: t-a4.206356.xyz
+  type: trojan
+  udp: true
+- name: 美国_15
+  network: tcp
+  password: f6eacf4f-1c3b-4423-be54-ff0e66a11bf1
+  port: 443
+  server: bestcdn1.868863.xyz
+  skip-cert-verify: true
+  sni: t-c5.206356.xyz
+  type: trojan
+  udp: true
+- name: 美国_16
+  network: tcp
+  password: f6eacf4f-1c3b-4423-be54-ff0e66a11bf1
+  port: 443
+  server: bestcdn1.868863.xyz
+  skip-cert-verify: true
+  sni: t-a1.206356.xyz
+  type: trojan
+  udp: true
+- flow: xtls-rprx-vision
+  name: 美国_17
+  network: tcp
+  port: 443
+  server: 77.110.109.72
+  servername: ad.mail.ru
+  skip-cert-verify: true
+  tls: false
+  type: vless
+  udp: true
+  uuid: 045eb821-bdae-43c5-8945-9cb181e65dcb
+- flow: xtls-rprx-vision
+  name: 美国_18
+  network: tcp
+  port: 443
+  server: 77.110.109.72
+  servername: ad.mail.ru
+  skip-cert-verify: true
+  tls: false
+  type: vless
+  udp: true
+  uuid: 045eb821-bdae-43c5-8945-9cb181e65dcb
+- flow: xtls-rprx-vision
+  name: 美国_19
+  network: tcp
+  port: 443
+  server: 77.110.109.72
+  servername: ad.mail.ru
+  skip-cert-verify: true
+  tls: false
+  type: vless
+  udp: true
+  uuid: 045eb821-bdae-43c5-8945-9cb181e65dcb
+- name: 美国_20
+  network: tcp
+  password: f6eacf4f-1c3b-4423-be54-ff0e66a11bf1
+  port: 443
+  server: bestcdn1.868863.xyz
+  skip-cert-verify: true
+  sni: t-a2.206356.xyz
+  type: trojan
+  udp: true
+- name: 美国_21
+  network: tcp
+  password: f6eacf4f-1c3b-4423-be54-ff0e66a11bf1
+  port: 443
+  server: bestcdn1.868863.xyz
+  skip-cert-verify: true
+  sni: t-c4.206356.xyz
+  type: trojan
+  udp: true
+- name: 美国_22
+  network: tcp
+  password: f6eacf4f-1c3b-4423-be54-ff0e66a11bf1
+  port: 443
+  server: bestcdn1.868863.xyz
+  skip-cert-verify: true
+  sni: t-a1.206356.xyz
+  type: trojan
+  udp: true
+- name: 美国_23
+  network: tcp
+  password: f6eacf4f-1c3b-4423-be54-ff0e66a11bf1
+  port: 443
+  server: bestcdn1.868863.xyz
+  skip-cert-verify: true
+  sni: t-c1.206356.xyz
+  type: trojan
+  udp: true
+- name: 美国_24
+  network: tcp
+  password: f6eacf4f-1c3b-4423-be54-ff0e66a11bf1
+  port: 443
+  server: bestcdn1.868863.xyz
+  skip-cert-verify: true
+  sni: t-a1.206356.xyz
+  type: trojan
+  udp: true
+- name: 美国_25
+  network: tcp
+  password: f6eacf4f-1c3b-4423-be54-ff0e66a11bf1
+  port: 443
+  server: bestcdn1.868863.xyz
+  skip-cert-verify: true
+  sni: t-a3.206356.xyz
+  type: trojan
+  udp: true
+- flow: xtls-rprx-vision
+  name: 美国_26
+  network: tcp
+  port: 443
+  server: 77.110.109.72
+  servername: ad.mail.ru
+  skip-cert-verify: true
+  tls: false
+  type: vless
+  udp: true
+  uuid: 045eb821-bdae-43c5-8945-9cb181e65dcb
+- flow: xtls-rprx-vision
+  name: 美国_27
+  network: tcp
+  port: 443
+  server: 77.110.109.72
+  servername: ad.mail.ru
+  skip-cert-verify: true
+  tls: false
+  type: vless
+  udp: true
+  uuid: 045eb821-bdae-43c5-8945-9cb181e65dcb
+- flow: xtls-rprx-vision
+  name: 美国_28
+  network: tcp
+  port: 443
+  server: 77.110.109.72
+  servername: ad.mail.ru
+  skip-cert-verify: true
+  tls: false
+  type: vless
+  udp: true
+  uuid: 045eb821-bdae-43c5-8945-9cb181e65dcb
+- name: 美国_29
+  network: tcp
+  password: f6eacf4f-1c3b-4423-be54-ff0e66a11bf1
+  port: 443
+  server: bestcdn1.868863.xyz
+  skip-cert-verify: true
+  sni: t-c2.206356.xyz
+  type: trojan
+  udp: true
+- name: 美国_30
+  network: tcp
+  password: f6eacf4f-1c3b-4423-be54-ff0e66a11bf1
+  port: 443
+  server: bestcdn1.868863.xyz
+  skip-cert-verify: true
+  sni: t-c3.206356.xyz
+  type: trojan
+  udp: true
+- name: 美国_32
+  network: tcp
+  password: f6eacf4f-1c3b-4423-be54-ff0e66a11bf1
+  port: 443
+  server: bestcdn1.868863.xyz
+  skip-cert-verify: true
+  sni: t-a5.206356.xyz
+  type: trojan
+  udp: true
+- name: 美国_33
+  network: tcp
+  password: f6eacf4f-1c3b-4423-be54-ff0e66a11bf1
+  port: 443
+  server: bestcdn1.868863.xyz
+  skip-cert-verify: true
+  sni: t-b2.206356.xyz
+  type: trojan
+  udp: true
+- name: 美国_34
+  network: tcp
+  password: f6eacf4f-1c3b-4423-be54-ff0e66a11bf1
+  port: 443
+  server: bestcdn1.868863.xyz
+  skip-cert-verify: true
+  sni: t-b1.206356.xyz
+  type: trojan
+  udp: true
+- name: 美国_35
+  network: tcp
+  password: f6eacf4f-1c3b-4423-be54-ff0e66a11bf1
+  port: 443
+  server: bestcdn1.868863.xyz
+  skip-cert-verify: true
+  sni: t-b5.206356.xyz
+  type: trojan
+  udp: true
+- name: 美国_36
+  network: tcp
+  password: f6eacf4f-1c3b-4423-be54-ff0e66a11bf1
+  port: 443
+  server: bestcdn1.868863.xyz
+  skip-cert-verify: true
+  sni: t-b3.206356.xyz
+  type: trojan
+  udp: true
+- name: 美国_39
+  network: tcp
+  password: f6eacf4f-1c3b-4423-be54-ff0e66a11bf1
+  port: 443
+  server: bestcdn1.868863.xyz
+  skip-cert-verify: true
+  sni: t-b1.206356.xyz
+  type: trojan
+  udp: true
+- name: 美国_40
+  network: tcp
+  password: f6eacf4f-1c3b-4423-be54-ff0e66a11bf1
+  port: 443
+  server: bestcdn1.868863.xyz
+  skip-cert-verify: true
+  sni: t-b4.206356.xyz
+  type: trojan
+  udp: true
+- name: 美国_41
+  network: tcp
+  password: f6eacf4f-1c3b-4423-be54-ff0e66a11bf1
+  port: 443
+  server: bestcdn1.868863.xyz
+  skip-cert-verify: true
+  sni: t-b1.206356.xyz
+  type: trojan
+  udp: true
+- flow: xtls-rprx-vision
+  name: 美国_42
+  network: tcp
+  port: 8443
+  server: express-b.868863.xyz
+  servername: icloud.cdn-apple.com
+  skip-cert-verify: true
+  tls: false
+  type: vless
+  udp: true
+  uuid: f6eacf4f-1c3b-4423-be54-ff0e66a11bf1
+- name: 中国
+  network: tcp
+  password: BxceQaOe
+  port: 24392
+  server: 36.151.251.35
+  skip-cert-verify: true
+  type: trojan
+  udp: true
+- name: 日本_2
+  network: tcp
+  port: 443
+  server: 160.187.111.222
+  servername: images-na.ssl-images-amazon.com
+  skip-cert-verify: true
+  tls: false
+  type: vless
+  udp: true
+  uuid: 3e7f67de-648e-4871-b51a-a225214d41ee
+- name: 日本_3
+  network: tcp
+  port: 443
+  server: 160.187.111.222
+  servername: images-na.ssl-images-amazon.com
+  skip-cert-verify: true
+  tls: false
+  type: vless
+  udp: true
+  uuid: 3e7f67de-648e-4871-b51a-a225214d41ee
+- name: 日本_4
+  network: tcp
+  port: 443
+  server: 160.187.111.222
+  servername: images-na.ssl-images-amazon.com
+  skip-cert-verify: true
+  tls: false
+  type: vless
+  udp: true
+  uuid: 3e7f67de-648e-4871-b51a-a225214d41ee
+- name: 日本_5
+  network: tcp
+  port: 443
+  server: 160.187.111.222
+  servername: images-na.ssl-images-amazon.com
+  skip-cert-verify: true
+  tls: false
+  type: vless
+  udp: true
+  uuid: 3e7f67de-648e-4871-b51a-a225214d41ee
+- name: 日本_6
+  network: tcp
+  port: 443
+  server: 160.187.111.222
+  servername: images-na.ssl-images-amazon.com
+  skip-cert-verify: true
+  tls: false
+  type: vless
+  udp: true
+  uuid: 3e7f67de-648e-4871-b51a-a225214d41ee
+- name: 日本_7
+  network: tcp
+  port: 443
+  server: 160.187.111.222
+  servername: images-na.ssl-images-amazon.com
+  skip-cert-verify: true
+  tls: false
+  type: vless
+  udp: true
+  uuid: 3e7f67de-648e-4871-b51a-a225214d41ee
+- name: 日本_8
+  network: tcp
+  port: 443
+  server: 160.187.111.222
+  servername: images-na.ssl-images-amazon.com
+  skip-cert-verify: true
+  tls: false
+  type: vless
+  udp: true
+  uuid: 3e7f67de-648e-4871-b51a-a225214d41ee
+- alterId: '0'
+  cipher: auto
+  name: '|99.87Mb'
+  network: tcp
+  port: '14447'
+  server: 38.34.24.195
+  type: vmess
+  uuid: 089abe0d-b5d5-44dd-9143-5a17c6c32e7a
 - alterId: '0'
   cipher: auto
   name: 法国_1
@@ -63,6 +545,16 @@ proxies:
 - alterId: '0'
   cipher: auto
   name: 法国_2
+  network: ws
+  port: '44579'
+  server: 2001:bc8:32d7:302::10
+  type: vmess
+  uuid: 8e34e170-13ae-4892-9d20-05962acc9f84
+  ws-opts:
+    path: /
+- alterId: '0'
+  cipher: auto
+  name: 美国_3
   network: ws
   port: '44579'
   server: 2001:bc8:32d7:302::10
@@ -129,30 +621,10 @@ proxies:
   type: vmess
   uuid: 8e34e170-13ae-4892-9d20-05962acc9f84
   ws-opts:
-    path: /?ed=2048HiByeVPNN--HiByeVPNN--HiByeVPNN--HiByeVPNN--HiByeVPNN--HiByeVPNN--HiByeVPNN--HiByeVPNN--HiByeVPNN--HiByeVPNN--HiByeVPNN--HiByeVPNN--HiByeVPNN
+    path: /
 - alterId: '0'
   cipher: auto
   name: 法国_9
-  network: ws
-  port: '44579'
-  server: 2001:bc8:32d7:302::10
-  type: vmess
-  uuid: 8e34e170-13ae-4892-9d20-05962acc9f84
-  ws-opts:
-    path: /
-- alterId: '0'
-  cipher: auto
-  name: 美国_1
-  network: ws
-  port: '44579'
-  server: 2001:bc8:32d7:302::10
-  type: vmess
-  uuid: 8e34e170-13ae-4892-9d20-05962acc9f84
-  ws-opts:
-    path: /
-- alterId: '0'
-  cipher: auto
-  name: 美国_2
   network: ws
   port: '44579'
   server: 2001:bc8:32d7:302::10
@@ -182,16 +654,6 @@ proxies:
     path: /?ed=2048HiByeVPNN--HiByeVPNN--HiByeVPNN--HiByeVPNN--HiByeVPNN--HiByeVPNN--HiByeVPNN--HiByeVPNN--HiByeVPNN--HiByeVPNN--HiByeVPNN--HiByeVPNN--HiByeVPNN
 - alterId: '0'
   cipher: auto
-  name: 美国_3
-  network: ws
-  port: '44579'
-  server: 2001:bc8:32d7:302::10
-  type: vmess
-  uuid: 8e34e170-13ae-4892-9d20-05962acc9f84
-  ws-opts:
-    path: /
-- alterId: '0'
-  cipher: auto
   name: 法国_12
   network: ws
   port: '44579'
@@ -209,7 +671,7 @@ proxies:
   type: vmess
   uuid: 8e34e170-13ae-4892-9d20-05962acc9f84
   ws-opts:
-    path: /
+    path: /?ed=2048HiByeVPNN--HiByeVPNN--HiByeVPNN--HiByeVPNN--HiByeVPNN--HiByeVPNN--HiByeVPNN--HiByeVPNN--HiByeVPNN--HiByeVPNN--HiByeVPNN--HiByeVPNN--HiByeVPNN
 - alterId: '0'
   cipher: auto
   name: 法国_14
@@ -219,123 +681,17 @@ proxies:
   type: vmess
   uuid: 8e34e170-13ae-4892-9d20-05962acc9f84
   ws-opts:
+    path: /?ed=2048HiByeVPNN--HiByeVPNN--HiByeVPNN--HiByeVPNN--HiByeVPNN--HiByeVPNN--HiByeVPNN--HiByeVPNN--HiByeVPNN--HiByeVPNN--HiByeVPNN--HiByeVPNN--HiByeVPNN
+- alterId: '0'
+  cipher: auto
+  name: 美国_4
+  network: ws
+  port: '44579'
+  server: 2001:bc8:32d7:302::10
+  type: vmess
+  uuid: 8e34e170-13ae-4892-9d20-05962acc9f84
+  ws-opts:
     path: /
-- name: 美国_4
-  network: ws
-  port: 443
-  server: bestcdn1.868863.xyz
-  servername: fp-a1.168381.xyz
-  skip-cert-verify: true
-  tls: true
-  type: vless
-  udp: true
-  uuid: 47257d05-216f-4719-b808-94f9d47112fe
-  ws-opts:
-    headers:
-      host: fp-a1.168381.xyz
-    path: /ahtrhtae
-- alterId: '0'
-  cipher: auto
-  name: 美国_5
-  network: ws
-  port: '443'
-  server: bestcdn1.868863.xyz
-  tls: true
-  type: vmess
-  uuid: 47257d05-216f-4719-b808-94f9d47112fe
-  ws-opts:
-    headers:
-      host: v-a2.796812.xyz
-    path: /aejynik
-- alterId: '0'
-  cipher: auto
-  name: 美国_6
-  network: ws
-  port: '443'
-  server: bestcdn1.868863.xyz
-  tls: true
-  type: vmess
-  uuid: 47257d05-216f-4719-b808-94f9d47112fe
-  ws-opts:
-    headers:
-      host: v-a1.796812.xyz
-    path: /aejynik
-- alterId: '0'
-  cipher: auto
-  name: 美国_7
-  network: ws
-  port: '443'
-  server: bestcdn1.868863.xyz
-  tls: true
-  type: vmess
-  uuid: 47257d05-216f-4719-b808-94f9d47112fe
-  ws-opts:
-    headers:
-      host: v-a2.796812.xyz
-    path: /aejynik
-- name: 美国_8
-  network: ws
-  port: 443
-  server: bestcdn1.868863.xyz
-  servername: fp-a1.168381.xyz
-  skip-cert-verify: true
-  tls: true
-  type: vless
-  udp: true
-  uuid: 47257d05-216f-4719-b808-94f9d47112fe
-  ws-opts:
-    headers:
-      host: fp-a1.168381.xyz
-    path: /ahtrhtae
-- alterId: '0'
-  cipher: auto
-  name: 美国_9
-  network: ws
-  port: '443'
-  server: bestcdn1.868863.xyz
-  tls: true
-  type: vmess
-  uuid: 47257d05-216f-4719-b808-94f9d47112fe
-  ws-opts:
-    headers:
-      host: v-a3.796812.xyz
-    path: /aejynik
-- alterId: '0'
-  cipher: auto
-  name: 美国_10
-  network: ws
-  port: '443'
-  server: bestcdn1.868863.xyz
-  tls: true
-  type: vmess
-  uuid: 47257d05-216f-4719-b808-94f9d47112fe
-  ws-opts:
-    headers:
-      host: v-a1.796812.xyz
-    path: /aejynik
-- name: 美国_11
-  network: ws
-  port: 443
-  server: bestcdn1.868863.xyz
-  servername: fp-a3.168381.xyz
-  skip-cert-verify: true
-  tls: true
-  type: vless
-  udp: true
-  uuid: 47257d05-216f-4719-b808-94f9d47112fe
-  ws-opts:
-    headers:
-      host: fp-a3.168381.xyz
-    path: /ahtrhtae
-- name: 美国_12
-  network: tcp
-  password: 47257d05-216f-4719-b808-94f9d47112fe
-  port: 443
-  server: bestcdn1.868863.xyz
-  skip-cert-verify: true
-  sni: t-a2.206356.xyz
-  type: trojan
-  udp: true
 - alterId: '0'
   cipher: auto
   name: 法国_15
@@ -346,262 +702,16 @@ proxies:
   uuid: 8e34e170-13ae-4892-9d20-05962acc9f84
   ws-opts:
     path: /
-- name: 美国_13
-  network: ws
-  port: 443
-  server: bestcdn1.868863.xyz
-  servername: fp-a2.168381.xyz
-  skip-cert-verify: true
-  tls: true
-  type: vless
-  udp: true
-  uuid: 47257d05-216f-4719-b808-94f9d47112fe
-  ws-opts:
-    headers:
-      host: fp-a2.168381.xyz
-    path: /ahtrhtae
 - alterId: '0'
   cipher: auto
-  name: 美国_14
+  name: 美国_6
   network: ws
-  port: '443'
-  server: bestcdn1.868863.xyz
-  tls: true
+  port: '44579'
+  server: 2001:bc8:32d7:302::10
   type: vmess
-  uuid: 47257d05-216f-4719-b808-94f9d47112fe
+  uuid: 8e34e170-13ae-4892-9d20-05962acc9f84
   ws-opts:
-    headers:
-      host: v-a1.796812.xyz
-    path: /aejynik
-- alterId: '0'
-  cipher: auto
-  name: 美国_15
-  network: ws
-  port: '443'
-  server: bestcdn1.868863.xyz
-  tls: true
-  type: vmess
-  uuid: 47257d05-216f-4719-b808-94f9d47112fe
-  ws-opts:
-    headers:
-      host: v-a3.796812.xyz
-    path: /aejynik
-- alterId: '0'
-  cipher: auto
-  name: 美国_16
-  network: ws
-  port: '80'
-  server: bestcdn1.868863.xyz
-  type: vmess
-  uuid: 47257d05-216f-4719-b808-94f9d47112fe
-  ws-opts:
-    headers:
-      host: vn-a2.no.168382.xyz
-    path: /tguntu
-- alterId: '0'
-  cipher: auto
-  name: 美国_17
-  network: ws
-  port: '443'
-  server: bestcdn1.868863.xyz
-  tls: true
-  type: vmess
-  uuid: 47257d05-216f-4719-b808-94f9d47112fe
-  ws-opts:
-    headers:
-      host: v-a3.796812.xyz
-    path: /aejynik
-- name: 美国_18
-  network: ws
-  port: 443
-  server: bestcdn1.868863.xyz
-  servername: fp-a1.168381.xyz
-  skip-cert-verify: true
-  tls: true
-  type: vless
-  udp: true
-  uuid: 47257d05-216f-4719-b808-94f9d47112fe
-  ws-opts:
-    headers:
-      host: fp-a1.168381.xyz
-    path: /ahtrhtae
-- name: 美国_19
-  network: tcp
-  password: 47257d05-216f-4719-b808-94f9d47112fe
-  port: 443
-  server: bestcdn1.868863.xyz
-  skip-cert-verify: true
-  sni: t-a3.206356.xyz
-  type: trojan
-  udp: true
-- alterId: '0'
-  cipher: auto
-  name: 美国_20
-  network: ws
-  port: '80'
-  server: bestcdn1.868863.xyz
-  type: vmess
-  uuid: 47257d05-216f-4719-b808-94f9d47112fe
-  ws-opts:
-    headers:
-      host: vn-a1.no.168382.xyz
-    path: /tguntu
-- alterId: '0'
-  cipher: auto
-  name: 美国_21
-  network: ws
-  port: '443'
-  server: bestcdn1.868863.xyz
-  tls: true
-  type: vmess
-  uuid: 47257d05-216f-4719-b808-94f9d47112fe
-  ws-opts:
-    headers:
-      host: v-a2.796812.xyz
-    path: /aejynik
-- alterId: '0'
-  cipher: auto
-  name: 美国_22
-  network: ws
-  port: '443'
-  server: bestcdn1.868863.xyz
-  tls: true
-  type: vmess
-  uuid: 47257d05-216f-4719-b808-94f9d47112fe
-  ws-opts:
-    headers:
-      host: v-b3.796812.xyz
-    path: /judbarh
-- name: 美国_23
-  network: tcp
-  password: 47257d05-216f-4719-b808-94f9d47112fe
-  port: 443
-  server: bestcdn1.868863.xyz
-  skip-cert-verify: true
-  sni: t-b3.206356.xyz
-  type: trojan
-  udp: true
-- name: 美国_24
-  network: ws
-  port: 443
-  server: bestcdn1.868863.xyz
-  servername: fp-b1.168381.xyz
-  skip-cert-verify: true
-  tls: true
-  type: vless
-  udp: true
-  uuid: 47257d05-216f-4719-b808-94f9d47112fe
-  ws-opts:
-    headers:
-      host: fp-b1.168381.xyz
-    path: /etuiwer
-- alterId: '0'
-  cipher: auto
-  name: 美国_25
-  network: ws
-  port: '443'
-  server: bestcdn1.868863.xyz
-  tls: true
-  type: vmess
-  uuid: 47257d05-216f-4719-b808-94f9d47112fe
-  ws-opts:
-    headers:
-      host: v-b2.796812.xyz
-    path: /judbarh
-- name: 美国_26
-  network: ws
-  port: 443
-  server: bestcdn1.868863.xyz
-  servername: fp-b2.168381.xyz
-  skip-cert-verify: true
-  tls: true
-  type: vless
-  udp: true
-  uuid: 47257d05-216f-4719-b808-94f9d47112fe
-  ws-opts:
-    headers:
-      host: fp-b2.168381.xyz
-    path: /etuiwer
-- name: 美国_27
-  network: ws
-  port: 443
-  server: bestcdn1.868863.xyz
-  servername: fp-b3.168381.xyz
-  skip-cert-verify: true
-  tls: true
-  type: vless
-  udp: true
-  uuid: 47257d05-216f-4719-b808-94f9d47112fe
-  ws-opts:
-    headers:
-      host: fp-b3.168381.xyz
-    path: /etuiwer
-- alterId: '0'
-  cipher: auto
-  name: 美国_28
-  network: ws
-  port: '443'
-  server: bestcdn1.868863.xyz
-  tls: true
-  type: vmess
-  uuid: 47257d05-216f-4719-b808-94f9d47112fe
-  ws-opts:
-    headers:
-      host: v-b1.796812.xyz
-    path: /judbarh
-- name: 美国_29
-  network: tcp
-  password: 47257d05-216f-4719-b808-94f9d47112fe
-  port: 443
-  server: bestcdn1.868863.xyz
-  skip-cert-verify: true
-  sni: t-b2.206356.xyz
-  type: trojan
-  udp: true
-- name: 美国_30
-  network: tcp
-  password: 47257d05-216f-4719-b808-94f9d47112fe
-  port: 443
-  server: bestcdn1.868863.xyz
-  skip-cert-verify: true
-  sni: t-a1.206356.xyz
-  type: trojan
-  udp: true
-- alterId: '0'
-  cipher: auto
-  name: 美国_31
-  network: ws
-  port: '443'
-  server: bestcdn1.868863.xyz
-  tls: true
-  type: vmess
-  uuid: 47257d05-216f-4719-b808-94f9d47112fe
-  ws-opts:
-    headers:
-      host: v-b3.796812.xyz
-    path: /judbarh
-- name: 美国_32
-  network: tcp
-  password: 47257d05-216f-4719-b808-94f9d47112fe
-  port: 443
-  server: bestcdn1.868863.xyz
-  skip-cert-verify: true
-  sni: t-b1.206356.xyz
-  type: trojan
-  udp: true
-- alterId: '0'
-  cipher: auto
-  name: 美国_33
-  network: ws
-  port: '443'
-  server: bestcdn1.868863.xyz
-  tls: true
-  type: vmess
-  uuid: 47257d05-216f-4719-b808-94f9d47112fe
-  ws-opts:
-    headers:
-      host: v-b3.796812.xyz
-    path: /judbarh
+    path: /?ed=2048HiByeVPNN--HiByeVPNN--HiByeVPNN--HiByeVPNN--HiByeVPNN--HiByeVPNN--HiByeVPNN--HiByeVPNN--HiByeVPNN--HiByeVPNN--HiByeVPNN--HiByeVPNN--HiByeVPNN
 - alterId: '0'
   cipher: auto
   name: 法国_16
@@ -611,297 +721,359 @@ proxies:
   type: vmess
   uuid: 8e34e170-13ae-4892-9d20-05962acc9f84
   ws-opts:
+    path: /?ed=2048HiByeVPNN--HiByeVPNN--HiByeVPNN--HiByeVPNN--HiByeVPNN--HiByeVPNN--HiByeVPNN--HiByeVPNN--HiByeVPNN--HiByeVPNN--HiByeVPNN--HiByeVPNN--HiByeVPNN
+- alterId: '0'
+  cipher: auto
+  name: 法国_17
+  network: ws
+  port: '44579'
+  server: 2001:bc8:32d7:302::10
+  type: vmess
+  uuid: 8e34e170-13ae-4892-9d20-05962acc9f84
+  ws-opts:
     path: /
-- name: 美国_34
-  network: ws
-  port: 443
-  server: 69.84.182.108
-  servername: cdn-node-oss-63.paofu.de
-  skip-cert-verify: true
-  tls: true
-  type: vless
-  udp: true
-  uuid: 82ba36ec-dafe-40eb-b9ad-0f8a98101020
-  ws-opts:
-    headers:
-      host: cdn-node-oss-63.paofu.de
-    path: /profile/sharenode
-- name: 美国_35
-  network: ws
-  port: 443
-  server: 69.84.182.18
-  servername: cdn-node-oss-63.paofu.de
-  skip-cert-verify: true
-  tls: true
-  type: vless
-  udp: true
-  uuid: 82ba36ec-dafe-40eb-b9ad-0f8a98101020
-  ws-opts:
-    headers:
-      host: cdn-node-oss-63.paofu.de
-    path: /profile/sharenode
-- name: 美国_36
-  network: ws
-  port: 443
-  server: 69.84.182.108
-  servername: cdn-node-oss-63.paofu.de
-  skip-cert-verify: true
-  tls: true
-  type: vless
-  udp: true
-  uuid: 82ba36ec-dafe-40eb-b9ad-0f8a98101020
-  ws-opts:
-    headers:
-      host: cdn-node-oss-63.paofu.de
-    path: /profile/sharenode
-- name: 美国_37
-  network: ws
-  port: 443
-  server: 69.84.182.18
-  servername: cdn-node-oss-63.paofu.de
-  skip-cert-verify: true
-  tls: true
-  type: vless
-  udp: true
-  uuid: 82ba36ec-dafe-40eb-b9ad-0f8a98101020
-  ws-opts:
-    headers:
-      host: cdn-node-oss-63.paofu.de
-    path: /profile/sharenode
-- name: 美国_38
-  network: ws
-  port: 443
-  server: 69.84.182.108
-  servername: cdn-node-oss-63.paofu.de
-  skip-cert-verify: true
-  tls: true
-  type: vless
-  udp: true
-  uuid: 82ba36ec-dafe-40eb-b9ad-0f8a98101020
-  ws-opts:
-    headers:
-      host: cdn-node-oss-63.paofu.de
-    path: /profile/sharenode
-- name: 美国_39
-  network: tcp
-  password: 898e1dca-14b2-4371-abc8-1b9f839bff6d
-  port: 12412
-  server: 37.202.200.11
-  skip-cert-verify: true
-  sni: wjp04.weyaf9sdoh2h.space
-  type: trojan
-  udp: true
-- name: 美国_40
-  network: tcp
-  password: 898e1dca-14b2-4371-abc8-1b9f839bff6d
-  port: 15013
-  server: 37.202.200.19
-  skip-cert-verify: true
-  sni: jp02.weyaf9sdoh2h.space
-  type: trojan
-  udp: true
-- name: 美国_41
-  network: tcp
-  password: 898e1dca-14b2-4371-abc8-1b9f839bff6d
-  port: 15013
-  server: 37.202.200.19
-  skip-cert-verify: true
-  sni: jp02.weyaf9sdoh2h.space
-  type: trojan
-  udp: true
 - alterId: '0'
   cipher: auto
-  name: 香港
-  network: tcp
-  port: '31212'
-  server: 47.242.90.210
+  name: 法国_18
+  network: ws
+  port: '44579'
+  server: 2001:bc8:32d7:302::10
   type: vmess
-  uuid: 3a4271fb-2718-4489-da78-80a8e7701aa5
-- name: 美国_42
-  network: tcp
-  password: 898e1dca-14b2-4371-abc8-1b9f839bff6d
-  port: 12412
-  server: 37.202.200.11
-  skip-cert-verify: true
-  sni: wjp04.weyaf9sdoh2h.space
-  type: trojan
-  udp: true
+  uuid: 8e34e170-13ae-4892-9d20-05962acc9f84
+  ws-opts:
+    path: /
 - alterId: '0'
   cipher: auto
-  name: 美国_43
-  network: tcp
-  port: '64011'
-  server: 61.224.75.180
+  name: 美国_12
+  network: ws
+  port: '80'
+  server: bestcdn1.868863.xyz
   type: vmess
-  uuid: 74a4eec2-9937-39bb-bffc-bec95ec57af2
+  uuid: f6eacf4f-1c3b-4423-be54-ff0e66a11bf1
+  ws-opts:
+    headers:
+      host: vn-a4.no.168382.xyz
+    path: /tguntu
 - alterId: '0'
   cipher: auto
-  name: 美国_44
-  network: tcp
-  port: '64012'
-  server: 61.224.75.180
+  name: 法国_19
+  network: ws
+  port: '44579'
+  server: 2001:bc8:32d7:302::10
   type: vmess
-  uuid: 74a4eec2-9937-39bb-bffc-bec95ec57af2
+  uuid: 8e34e170-13ae-4892-9d20-05962acc9f84
+  ws-opts:
+    path: /
 - alterId: '0'
   cipher: auto
-  name: 美国_45
-  network: tcp
-  port: '64010'
-  server: 61.224.75.180
+  name: 法国_20
+  network: ws
+  port: '44579'
+  server: 2001:bc8:32d7:302::10
   type: vmess
-  uuid: 74a4eec2-9937-39bb-bffc-bec95ec57af2
+  uuid: 8e34e170-13ae-4892-9d20-05962acc9f84
+  ws-opts:
+    path: /
 - alterId: '0'
   cipher: auto
-  name: 美国_46
-  network: tcp
-  port: '443'
-  server: 140.238.2.250
+  name: 法国_21
+  network: ws
+  port: '44579'
+  server: 2001:bc8:32d7:302::10
   type: vmess
-  uuid: 41a7089a-040b-4538-8b8d-010902405bde
-- flow: xtls-rprx-vision
-  name: 美国_47
-  network: tcp
-  port: 443
-  server: 77.110.109.72
-  servername: ad.mail.ru
-  skip-cert-verify: true
-  tls: false
-  type: vless
-  udp: true
-  uuid: 045eb821-bdae-43c5-8945-9cb181e65dcb
-- flow: xtls-rprx-vision
-  name: 美国_48
-  network: tcp
-  port: 443
-  server: 77.110.109.72
-  servername: ad.mail.ru
-  skip-cert-verify: true
-  tls: false
-  type: vless
-  udp: true
-  uuid: 045eb821-bdae-43c5-8945-9cb181e65dcb
-- flow: xtls-rprx-vision
-  name: 美国_49
-  network: tcp
-  port: 443
-  server: 77.110.109.72
-  servername: ad.mail.ru
-  skip-cert-verify: true
-  tls: false
-  type: vless
-  udp: true
-  uuid: 045eb821-bdae-43c5-8945-9cb181e65dcb
-- flow: xtls-rprx-vision
-  name: 美国_50
-  network: tcp
-  port: 443
-  server: 77.110.109.72
-  servername: ad.mail.ru
-  skip-cert-verify: true
-  tls: false
-  type: vless
-  udp: true
-  uuid: 045eb821-bdae-43c5-8945-9cb181e65dcb
-- flow: xtls-rprx-vision
-  name: 美国_51
-  network: tcp
-  port: 443
-  server: 77.110.109.72
-  servername: ad.mail.ru
-  skip-cert-verify: true
-  tls: false
-  type: vless
-  udp: true
-  uuid: 045eb821-bdae-43c5-8945-9cb181e65dcb
-- flow: xtls-rprx-vision
-  name: 美国_52
-  network: tcp
-  port: 443
-  server: 77.110.109.72
-  servername: ad.mail.ru
-  skip-cert-verify: true
-  tls: false
-  type: vless
-  udp: true
-  uuid: 045eb821-bdae-43c5-8945-9cb181e65dcb
-- flow: xtls-rprx-vision
-  name: 美国_53
-  network: tcp
-  port: 443
-  server: 77.110.109.72
-  servername: ad.mail.ru
-  skip-cert-verify: true
-  tls: false
-  type: vless
-  udp: true
-  uuid: 045eb821-bdae-43c5-8945-9cb181e65dcb
-- flow: xtls-rprx-vision
-  name: 美国_54
-  network: tcp
-  port: 443
-  server: 77.110.109.72
-  servername: ad.mail.ru
-  skip-cert-verify: true
-  tls: false
-  type: vless
-  udp: true
-  uuid: 045eb821-bdae-43c5-8945-9cb181e65dcb
+  uuid: 8e34e170-13ae-4892-9d20-05962acc9f84
+  ws-opts:
+    path: /
+- alterId: '0'
+  cipher: auto
+  name: 法国_22
+  network: ws
+  port: '44579'
+  server: 2001:bc8:32d7:302::10
+  type: vmess
+  uuid: 8e34e170-13ae-4892-9d20-05962acc9f84
+  ws-opts:
+    path: /
+- alterId: '0'
+  cipher: auto
+  name: 法国_23
+  network: ws
+  port: '44579'
+  server: 2001:bc8:32d7:302::10
+  type: vmess
+  uuid: 8e34e170-13ae-4892-9d20-05962acc9f84
+  ws-opts:
+    path: /?ed=2048HiByeVPNN--HiByeVPNN--HiByeVPNN--HiByeVPNN--HiByeVPNN--HiByeVPNN--HiByeVPNN--HiByeVPNN--HiByeVPNN--HiByeVPNN--HiByeVPNN--HiByeVPNN--HiByeVPNN
+- alterId: '0'
+  cipher: auto
+  name: 法国_24
+  network: ws
+  port: '44579'
+  server: 2001:bc8:32d7:302::10
+  type: vmess
+  uuid: 8e34e170-13ae-4892-9d20-05962acc9f84
+  ws-opts:
+    path: /
+- alterId: '0'
+  cipher: auto
+  name: 美国_31
+  network: ws
+  port: '80'
+  server: bestcdn1.868863.xyz
+  type: vmess
+  uuid: f6eacf4f-1c3b-4423-be54-ff0e66a11bf1
+  ws-opts:
+    headers:
+      host: vn-c5.no.168382.xyz
+    path: /htehehehn
 - name: 日本_1
-  network: tcp
+  network: ws
   port: 443
-  server: 160.187.111.222
-  servername: images-na.ssl-images-amazon.com
+  server: 45.83.22.118
+  servername: zula.ir
   skip-cert-verify: true
-  tls: false
+  tls: true
   type: vless
   udp: true
-  uuid: 3e7f67de-648e-4871-b51a-a225214d41ee
-- name: 日本_2
-  network: tcp
-  port: 443
-  server: 160.187.111.222
-  servername: images-na.ssl-images-amazon.com
-  skip-cert-verify: true
-  tls: false
-  type: vless
-  udp: true
-  uuid: 3e7f67de-648e-4871-b51a-a225214d41ee
-- name: 日本_3
-  network: tcp
-  port: 443
-  server: 160.187.111.222
-  servername: images-na.ssl-images-amazon.com
-  skip-cert-verify: true
-  tls: false
-  type: vless
-  udp: true
-  uuid: 3e7f67de-648e-4871-b51a-a225214d41ee
+  uuid: 99f47914-23d8-4367-81bc-b4b759eb7505
+  ws-opts:
+    headers:
+      host: zula.ir
+    path: /ws
 - alterId: '0'
   cipher: auto
-  name: 美国_55
-  network: tcp
-  port: '22433'
-  server: 47.245.106.193
+  name: 美国_37
+  network: ws
+  port: '80'
+  server: bestcdn1.868863.xyz
   type: vmess
-  uuid: bfcb103f-2133-4965-8684-6b4c8ef7a774
+  uuid: f6eacf4f-1c3b-4423-be54-ff0e66a11bf1
+  ws-opts:
+    headers:
+      host: vn-b5.no.168382.xyz
+    path: /aerwiueh
+- alterId: '0'
+  cipher: auto
+  name: 美国_38
+  network: ws
+  port: '80'
+  server: bestcdn1.868863.xyz
+  type: vmess
+  uuid: f6eacf4f-1c3b-4423-be54-ff0e66a11bf1
+  ws-opts:
+    headers:
+      host: vn-b4.no.168382.xyz
+    path: /aerwiueh
+- name: 美国_51
+  network: ws
+  port: 443
+  server: 69.84.182.18
+  servername: cdn-node-oss-63.paofu.de
+  skip-cert-verify: true
+  tls: true
+  type: vless
+  udp: true
+  uuid: 82ba36ec-dafe-40eb-b9ad-0f8a98101020
+  ws-opts:
+    headers:
+      host: cdn-node-oss-63.paofu.de
+    path: /profile/sharenode
+- name: 美国_52
+  network: ws
+  port: 443
+  server: 69.84.182.108
+  servername: cdn-node-oss-63.paofu.de
+  skip-cert-verify: true
+  tls: true
+  type: vless
+  udp: true
+  uuid: 82ba36ec-dafe-40eb-b9ad-0f8a98101020
+  ws-opts:
+    headers:
+      host: cdn-node-oss-63.paofu.de
+    path: /profile/sharenode
+- name: 美国_53
+  network: ws
+  port: 443
+  server: 69.84.182.108
+  servername: cdn-node-oss-63.paofu.de
+  skip-cert-verify: true
+  tls: true
+  type: vless
+  udp: true
+  uuid: 82ba36ec-dafe-40eb-b9ad-0f8a98101020
+  ws-opts:
+    headers:
+      host: cdn-node-oss-63.paofu.de
+    path: /profile/sharenode
+- name: 美国_54
+  network: ws
+  port: 443
+  server: 69.84.182.108
+  servername: cdn-node-oss-63.paofu.de
+  skip-cert-verify: true
+  tls: true
+  type: vless
+  udp: true
+  uuid: 82ba36ec-dafe-40eb-b9ad-0f8a98101020
+  ws-opts:
+    headers:
+      host: cdn-node-oss-63.paofu.de
+    path: /profile/sharenode
+- name: 美国_55
+  network: ws
+  port: 443
+  server: 69.84.182.18
+  servername: cdn-node-oss-63.paofu.de
+  skip-cert-verify: true
+  tls: true
+  type: vless
+  udp: true
+  uuid: 82ba36ec-dafe-40eb-b9ad-0f8a98101020
+  ws-opts:
+    headers:
+      host: cdn-node-oss-63.paofu.de
+    path: /profile/sharenode
 - name: 美国_56
-  network: tcp
-  password: 3f5bc61547b1f0d9
+  network: ws
   port: 443
-  server: 60.249.14.39
+  server: 69.84.182.108
+  servername: cdn-node-oss-63.paofu.de
   skip-cert-verify: true
-  sni: TG.WangCai2
-  type: trojan
+  tls: true
+  type: vless
   udp: true
+  uuid: 82ba36ec-dafe-40eb-b9ad-0f8a98101020
+  ws-opts:
+    headers:
+      host: cdn-node-oss-63.paofu.de
+    path: /profile/sharenode
 - name: 美国_57
-  network: tcp
-  password: 3f5bc61547b1f0d9
+  network: ws
   port: 443
-  server: 60.249.14.95
+  server: 69.84.182.18
+  servername: cdn-node-oss-63.paofu.de
   skip-cert-verify: true
-  sni: TG.WangCai2
-  type: trojan
+  tls: true
+  type: vless
   udp: true
+  uuid: 82ba36ec-dafe-40eb-b9ad-0f8a98101020
+  ws-opts:
+    headers:
+      host: cdn-node-oss-63.paofu.de
+    path: /profile/sharenode
+- name: 美国_58
+  network: ws
+  port: 443
+  server: 69.84.182.108
+  servername: cdn-node-oss-63.paofu.de
+  skip-cert-verify: true
+  tls: true
+  type: vless
+  udp: true
+  uuid: 82ba36ec-dafe-40eb-b9ad-0f8a98101020
+  ws-opts:
+    headers:
+      host: cdn-node-oss-63.paofu.de
+    path: /profile/sharenode
+- name: 美国_59
+  network: ws
+  port: 443
+  server: 69.84.182.18
+  servername: cdn-node-oss-63.paofu.de
+  skip-cert-verify: true
+  tls: true
+  type: vless
+  udp: true
+  uuid: 82ba36ec-dafe-40eb-b9ad-0f8a98101020
+  ws-opts:
+    headers:
+      host: cdn-node-oss-63.paofu.de
+    path: /profile/sharenode
+- name: 美国_60
+  network: ws
+  port: 443
+  server: 69.84.182.18
+  servername: cdn-node-oss-63.paofu.de
+  skip-cert-verify: true
+  tls: true
+  type: vless
+  udp: true
+  uuid: 82ba36ec-dafe-40eb-b9ad-0f8a98101020
+  ws-opts:
+    headers:
+      host: cdn-node-oss-63.paofu.de
+    path: /profile/sharenode
+- name: 美国_61
+  network: ws
+  port: 443
+  server: 69.84.182.18
+  servername: cdn-node-oss-63.paofu.de
+  skip-cert-verify: true
+  tls: true
+  type: vless
+  udp: true
+  uuid: 82ba36ec-dafe-40eb-b9ad-0f8a98101020
+  ws-opts:
+    headers:
+      host: cdn-node-oss-63.paofu.de
+    path: /profile/sharenode
+- name: 美国_62
+  network: ws
+  port: 443
+  server: 69.84.182.108
+  servername: cdn-node-oss-63.paofu.de
+  skip-cert-verify: true
+  tls: true
+  type: vless
+  udp: true
+  uuid: 82ba36ec-dafe-40eb-b9ad-0f8a98101020
+  ws-opts:
+    headers:
+      host: cdn-node-oss-63.paofu.de
+    path: /profile/sharenode
+- name: 美国_63
+  network: ws
+  port: 443
+  server: 69.84.182.108
+  servername: cdn-node-oss-63.paofu.de
+  skip-cert-verify: true
+  tls: true
+  type: vless
+  udp: true
+  uuid: 82ba36ec-dafe-40eb-b9ad-0f8a98101020
+  ws-opts:
+    headers:
+      host: cdn-node-oss-63.paofu.de
+    path: /profile/sharenode
+- name: 美国_64
+  network: ws
+  port: 443
+  server: 69.84.182.18
+  servername: cdn-node-oss-63.paofu.de
+  skip-cert-verify: true
+  tls: true
+  type: vless
+  udp: true
+  uuid: 82ba36ec-dafe-40eb-b9ad-0f8a98101020
+  ws-opts:
+    headers:
+      host: cdn-node-oss-63.paofu.de
+    path: /profile/sharenode
+- name: 美国_65
+  network: ws
+  port: 443
+  server: 69.84.182.108
+  servername: cdn-node-oss-63.paofu.de
+  skip-cert-verify: true
+  tls: true
+  type: vless
+  udp: true
+  uuid: 82ba36ec-dafe-40eb-b9ad-0f8a98101020
+  ws-opts:
+    headers:
+      host: cdn-node-oss-63.paofu.de
+    path: /profile/sharenode
 proxy-groups:
 - name: 🚀 节点选择
   proxies:
@@ -909,36 +1081,24 @@ proxy-groups:
   - DIRECT
   - 电报群：https://t.me/vvkj11
   - 每天更新，请加电报群防止失联
-  - 日期：10-24
+  - 日期：10-26
   - 免费VPN：https://tt.vg/gwaAy
-  - 法国_1
-  - 法国_2
-  - 法国_3
-  - 法国_4
-  - 法国_5
-  - 法国_6
-  - 法国_7
-  - 法国_8
-  - 法国_9
+  - 香港
+  - HK_1
+  - HK_2
   - 美国_1
+  - US_3
+  - US_4
+  - US_5
+  - US_6
   - 美国_2
-  - 法国_10
-  - 法国_11
-  - 美国_3
-  - 法国_12
-  - 法国_13
-  - 法国_14
-  - 美国_4
+  - US_7
   - 美国_5
-  - 美国_6
   - 美国_7
   - 美国_8
   - 美国_9
   - 美国_10
   - 美国_11
-  - 美国_12
-  - 法国_15
-  - 美国_13
   - 美国_14
   - 美国_15
   - 美国_16
@@ -956,74 +1116,95 @@ proxy-groups:
   - 美国_28
   - 美国_29
   - 美国_30
-  - 美国_31
   - 美国_32
   - 美国_33
-  - 法国_16
   - 美国_34
   - 美国_35
   - 美国_36
-  - 美国_37
-  - 美国_38
   - 美国_39
   - 美国_40
   - 美国_41
-  - 香港
   - 美国_42
-  - 美国_43
-  - 美国_44
-  - 美国_45
-  - 美国_46
-  - 美国_47
-  - 美国_48
-  - 美国_49
-  - 美国_50
+  - 中国
+  - 日本_2
+  - 日本_3
+  - 日本_4
+  - 日本_5
+  - 日本_6
+  - 日本_7
+  - 日本_8
+  - '|99.87Mb'
+  - 法国_1
+  - 法国_2
+  - 美国_3
+  - 法国_3
+  - 法国_4
+  - 法国_5
+  - 法国_6
+  - 法国_7
+  - 法国_8
+  - 法国_9
+  - 法国_10
+  - 法国_11
+  - 法国_12
+  - 法国_13
+  - 法国_14
+  - 美国_4
+  - 法国_15
+  - 美国_6
+  - 法国_16
+  - 法国_17
+  - 法国_18
+  - 美国_12
+  - 法国_19
+  - 法国_20
+  - 法国_21
+  - 法国_22
+  - 法国_23
+  - 法国_24
+  - 美国_31
+  - 日本_1
+  - 美国_37
+  - 美国_38
   - 美国_51
   - 美国_52
   - 美国_53
   - 美国_54
-  - 日本_1
-  - 日本_2
-  - 日本_3
   - 美国_55
   - 美国_56
   - 美国_57
+  - 美国_58
+  - 美国_59
+  - 美国_60
+  - 美国_61
+  - 美国_62
+  - 美国_63
+  - 美国_64
+  - 美国_65
   type: select
 - interval: 300
   name: ♻️ 自动选择
   proxies:
   - 电报群：https://t.me/vvkj11
   - 每天更新，请加电报群防止失联
-  - 日期：10-24
+  - 日期：10-26
   - 免费VPN：https://tt.vg/gwaAy
-  - 法国_1
-  - 法国_2
-  - 法国_3
-  - 法国_4
-  - 法国_5
-  - 法国_6
-  - 法国_7
-  - 法国_8
-  - 法国_9
+  - 香港
+  - HK_1
+  - HK_2
   - 美国_1
+  - US_3
+  - US_4
+  - US_5
+  - US_6
   - 美国_2
-  - 法国_10
-  - 法国_11
-  - 美国_3
-  - 法国_12
-  - 法国_13
-  - 法国_14
-  - 美国_4
+  - US_7
   - 美国_5
-  - 美国_6
   - 美国_7
   - 美国_8
   - 美国_9
   - 美国_10
   - 美国_11
-  - 美国_12
-  - 法国_15
-  - 美国_13
   - 美国_14
   - 美国_15
   - 美国_16
@@ -1041,38 +1222,71 @@ proxy-groups:
   - 美国_28
   - 美国_29
   - 美国_30
-  - 美国_31
   - 美国_32
   - 美国_33
-  - 法国_16
   - 美国_34
   - 美国_35
   - 美国_36
-  - 美国_37
-  - 美国_38
   - 美国_39
   - 美国_40
   - 美国_41
-  - 香港
   - 美国_42
-  - 美国_43
-  - 美国_44
-  - 美国_45
-  - 美国_46
-  - 美国_47
-  - 美国_48
-  - 美国_49
-  - 美国_50
+  - 中国
+  - 日本_2
+  - 日本_3
+  - 日本_4
+  - 日本_5
+  - 日本_6
+  - 日本_7
+  - 日本_8
+  - '|99.87Mb'
+  - 法国_1
+  - 法国_2
+  - 美国_3
+  - 法国_3
+  - 法国_4
+  - 法国_5
+  - 法国_6
+  - 法国_7
+  - 法国_8
+  - 法国_9
+  - 法国_10
+  - 法国_11
+  - 法国_12
+  - 法国_13
+  - 法国_14
+  - 美国_4
+  - 法国_15
+  - 美国_6
+  - 法国_16
+  - 法国_17
+  - 法国_18
+  - 美国_12
+  - 法国_19
+  - 法国_20
+  - 法国_21
+  - 法国_22
+  - 法国_23
+  - 法国_24
+  - 美国_31
+  - 日本_1
+  - 美国_37
+  - 美国_38
   - 美国_51
   - 美国_52
   - 美国_53
   - 美国_54
-  - 日本_1
-  - 日本_2
-  - 日本_3
   - 美国_55
   - 美国_56
   - 美国_57
+  - 美国_58
+  - 美国_59
+  - 美国_60
+  - 美国_61
+  - 美国_62
+  - 美国_63
+  - 美国_64
+  - 美国_65
   tolerance: 50
   type: url-test
   url: http://www.gstatic.com/generate_204
@@ -1083,36 +1297,24 @@ proxy-groups:
   - 🎯 全球直连
   - 电报群：https://t.me/vvkj11
   - 每天更新，请加电报群防止失联
-  - 日期：10-24
+  - 日期：10-26
   - 免费VPN：https://tt.vg/gwaAy
-  - 法国_1
-  - 法国_2
-  - 法国_3
-  - 法国_4
-  - 法国_5
-  - 法国_6
-  - 法国_7
-  - 法国_8
-  - 法国_9
+  - 香港
+  - HK_1
+  - HK_2
   - 美国_1
+  - US_3
+  - US_4
+  - US_5
+  - US_6
   - 美国_2
-  - 法国_10
-  - 法国_11
-  - 美国_3
-  - 法国_12
-  - 法国_13
-  - 法国_14
-  - 美国_4
+  - US_7
   - 美国_5
-  - 美国_6
   - 美国_7
   - 美国_8
   - 美国_9
   - 美国_10
   - 美国_11
-  - 美国_12
-  - 法国_15
-  - 美国_13
   - 美国_14
   - 美国_15
   - 美国_16
@@ -1130,38 +1332,71 @@ proxy-groups:
   - 美国_28
   - 美国_29
   - 美国_30
-  - 美国_31
   - 美国_32
   - 美国_33
-  - 法国_16
   - 美国_34
   - 美国_35
   - 美国_36
-  - 美国_37
-  - 美国_38
   - 美国_39
   - 美国_40
   - 美国_41
-  - 香港
   - 美国_42
-  - 美国_43
-  - 美国_44
-  - 美国_45
-  - 美国_46
-  - 美国_47
-  - 美国_48
-  - 美国_49
-  - 美国_50
+  - 中国
+  - 日本_2
+  - 日本_3
+  - 日本_4
+  - 日本_5
+  - 日本_6
+  - 日本_7
+  - 日本_8
+  - '|99.87Mb'
+  - 法国_1
+  - 法国_2
+  - 美国_3
+  - 法国_3
+  - 法国_4
+  - 法国_5
+  - 法国_6
+  - 法国_7
+  - 法国_8
+  - 法国_9
+  - 法国_10
+  - 法国_11
+  - 法国_12
+  - 法国_13
+  - 法国_14
+  - 美国_4
+  - 法国_15
+  - 美国_6
+  - 法国_16
+  - 法国_17
+  - 法国_18
+  - 美国_12
+  - 法国_19
+  - 法国_20
+  - 法国_21
+  - 法国_22
+  - 法国_23
+  - 法国_24
+  - 美国_31
+  - 日本_1
+  - 美国_37
+  - 美国_38
   - 美国_51
   - 美国_52
   - 美国_53
   - 美国_54
-  - 日本_1
-  - 日本_2
-  - 日本_3
   - 美国_55
   - 美国_56
   - 美国_57
+  - 美国_58
+  - 美国_59
+  - 美国_60
+  - 美国_61
+  - 美国_62
+  - 美国_63
+  - 美国_64
+  - 美国_65
   type: select
 - name: 📲 电报信息
   proxies:
@@ -1169,36 +1404,24 @@ proxy-groups:
   - 🎯 全球直连
   - 电报群：https://t.me/vvkj11
   - 每天更新，请加电报群防止失联
-  - 日期：10-24
+  - 日期：10-26
   - 免费VPN：https://tt.vg/gwaAy
-  - 法国_1
-  - 法国_2
-  - 法国_3
-  - 法国_4
-  - 法国_5
-  - 法国_6
-  - 法国_7
-  - 法国_8
-  - 法国_9
+  - 香港
+  - HK_1
+  - HK_2
   - 美国_1
+  - US_3
+  - US_4
+  - US_5
+  - US_6
   - 美国_2
-  - 法国_10
-  - 法国_11
-  - 美国_3
-  - 法国_12
-  - 法国_13
-  - 法国_14
-  - 美国_4
+  - US_7
   - 美国_5
-  - 美国_6
   - 美国_7
   - 美国_8
   - 美国_9
   - 美国_10
   - 美国_11
-  - 美国_12
-  - 法国_15
-  - 美国_13
   - 美国_14
   - 美国_15
   - 美国_16
@@ -1216,38 +1439,71 @@ proxy-groups:
   - 美国_28
   - 美国_29
   - 美国_30
-  - 美国_31
   - 美国_32
   - 美国_33
-  - 法国_16
   - 美国_34
   - 美国_35
   - 美国_36
-  - 美国_37
-  - 美国_38
   - 美国_39
   - 美国_40
   - 美国_41
-  - 香港
   - 美国_42
-  - 美国_43
-  - 美国_44
-  - 美国_45
-  - 美国_46
-  - 美国_47
-  - 美国_48
-  - 美国_49
-  - 美国_50
+  - 中国
+  - 日本_2
+  - 日本_3
+  - 日本_4
+  - 日本_5
+  - 日本_6
+  - 日本_7
+  - 日本_8
+  - '|99.87Mb'
+  - 法国_1
+  - 法国_2
+  - 美国_3
+  - 法国_3
+  - 法国_4
+  - 法国_5
+  - 法国_6
+  - 法国_7
+  - 法国_8
+  - 法国_9
+  - 法国_10
+  - 法国_11
+  - 法国_12
+  - 法国_13
+  - 法国_14
+  - 美国_4
+  - 法国_15
+  - 美国_6
+  - 法国_16
+  - 法国_17
+  - 法国_18
+  - 美国_12
+  - 法国_19
+  - 法国_20
+  - 法国_21
+  - 法国_22
+  - 法国_23
+  - 法国_24
+  - 美国_31
+  - 日本_1
+  - 美国_37
+  - 美国_38
   - 美国_51
   - 美国_52
   - 美国_53
   - 美国_54
-  - 日本_1
-  - 日本_2
-  - 日本_3
   - 美国_55
   - 美国_56
   - 美国_57
+  - 美国_58
+  - 美国_59
+  - 美国_60
+  - 美国_61
+  - 美国_62
+  - 美国_63
+  - 美国_64
+  - 美国_65
   type: select
 - name: Ⓜ️ 微软服务
   proxies:
@@ -1255,36 +1511,24 @@ proxy-groups:
   - 🚀 节点选择
   - 电报群：https://t.me/vvkj11
   - 每天更新，请加电报群防止失联
-  - 日期：10-24
+  - 日期：10-26
   - 免费VPN：https://tt.vg/gwaAy
-  - 法国_1
-  - 法国_2
-  - 法国_3
-  - 法国_4
-  - 法国_5
-  - 法国_6
-  - 法国_7
-  - 法国_8
-  - 法国_9
+  - 香港
+  - HK_1
+  - HK_2
   - 美国_1
+  - US_3
+  - US_4
+  - US_5
+  - US_6
   - 美国_2
-  - 法国_10
-  - 法国_11
-  - 美国_3
-  - 法国_12
-  - 法国_13
-  - 法国_14
-  - 美国_4
+  - US_7
   - 美国_5
-  - 美国_6
   - 美国_7
   - 美国_8
   - 美国_9
   - 美国_10
   - 美国_11
-  - 美国_12
-  - 法国_15
-  - 美国_13
   - 美国_14
   - 美国_15
   - 美国_16
@@ -1302,38 +1546,71 @@ proxy-groups:
   - 美国_28
   - 美国_29
   - 美国_30
-  - 美国_31
   - 美国_32
   - 美国_33
-  - 法国_16
   - 美国_34
   - 美国_35
   - 美国_36
-  - 美国_37
-  - 美国_38
   - 美国_39
   - 美国_40
   - 美国_41
-  - 香港
   - 美国_42
-  - 美国_43
-  - 美国_44
-  - 美国_45
-  - 美国_46
-  - 美国_47
-  - 美国_48
-  - 美国_49
-  - 美国_50
+  - 中国
+  - 日本_2
+  - 日本_3
+  - 日本_4
+  - 日本_5
+  - 日本_6
+  - 日本_7
+  - 日本_8
+  - '|99.87Mb'
+  - 法国_1
+  - 法国_2
+  - 美国_3
+  - 法国_3
+  - 法国_4
+  - 法国_5
+  - 法国_6
+  - 法国_7
+  - 法国_8
+  - 法国_9
+  - 法国_10
+  - 法国_11
+  - 法国_12
+  - 法国_13
+  - 法国_14
+  - 美国_4
+  - 法国_15
+  - 美国_6
+  - 法国_16
+  - 法国_17
+  - 法国_18
+  - 美国_12
+  - 法国_19
+  - 法国_20
+  - 法国_21
+  - 法国_22
+  - 法国_23
+  - 法国_24
+  - 美国_31
+  - 日本_1
+  - 美国_37
+  - 美国_38
   - 美国_51
   - 美国_52
   - 美国_53
   - 美国_54
-  - 日本_1
-  - 日本_2
-  - 日本_3
   - 美国_55
   - 美国_56
   - 美国_57
+  - 美国_58
+  - 美国_59
+  - 美国_60
+  - 美国_61
+  - 美国_62
+  - 美国_63
+  - 美国_64
+  - 美国_65
   type: select
 - name: 🍎 苹果服务
   proxies:
@@ -1341,36 +1618,24 @@ proxy-groups:
   - 🎯 全球直连
   - 电报群：https://t.me/vvkj11
   - 每天更新，请加电报群防止失联
-  - 日期：10-24
+  - 日期：10-26
   - 免费VPN：https://tt.vg/gwaAy
-  - 法国_1
-  - 法国_2
-  - 法国_3
-  - 法国_4
-  - 法国_5
-  - 法国_6
-  - 法国_7
-  - 法国_8
-  - 法国_9
+  - 香港
+  - HK_1
+  - HK_2
   - 美国_1
+  - US_3
+  - US_4
+  - US_5
+  - US_6
   - 美国_2
-  - 法国_10
-  - 法国_11
-  - 美国_3
-  - 法国_12
-  - 法国_13
-  - 法国_14
-  - 美国_4
+  - US_7
   - 美国_5
-  - 美国_6
   - 美国_7
   - 美国_8
   - 美国_9
   - 美国_10
   - 美国_11
-  - 美国_12
-  - 法国_15
-  - 美国_13
   - 美国_14
   - 美国_15
   - 美国_16
@@ -1388,38 +1653,71 @@ proxy-groups:
   - 美国_28
   - 美国_29
   - 美国_30
-  - 美国_31
   - 美国_32
   - 美国_33
-  - 法国_16
   - 美国_34
   - 美国_35
   - 美国_36
-  - 美国_37
-  - 美国_38
   - 美国_39
   - 美国_40
   - 美国_41
-  - 香港
   - 美国_42
-  - 美国_43
-  - 美国_44
-  - 美国_45
-  - 美国_46
-  - 美国_47
-  - 美国_48
-  - 美国_49
-  - 美国_50
+  - 中国
+  - 日本_2
+  - 日本_3
+  - 日本_4
+  - 日本_5
+  - 日本_6
+  - 日本_7
+  - 日本_8
+  - '|99.87Mb'
+  - 法国_1
+  - 法国_2
+  - 美国_3
+  - 法国_3
+  - 法国_4
+  - 法国_5
+  - 法国_6
+  - 法国_7
+  - 法国_8
+  - 法国_9
+  - 法国_10
+  - 法国_11
+  - 法国_12
+  - 法国_13
+  - 法国_14
+  - 美国_4
+  - 法国_15
+  - 美国_6
+  - 法国_16
+  - 法国_17
+  - 法国_18
+  - 美国_12
+  - 法国_19
+  - 法国_20
+  - 法国_21
+  - 法国_22
+  - 法国_23
+  - 法国_24
+  - 美国_31
+  - 日本_1
+  - 美国_37
+  - 美国_38
   - 美国_51
   - 美国_52
   - 美国_53
   - 美国_54
-  - 日本_1
-  - 日本_2
-  - 日本_3
   - 美国_55
   - 美国_56
   - 美国_57
+  - 美国_58
+  - 美国_59
+  - 美国_60
+  - 美国_61
+  - 美国_62
+  - 美国_63
+  - 美国_64
+  - 美国_65
   type: select
 - name: 🎯 全球直连
   proxies:
@@ -1444,36 +1742,24 @@ proxy-groups:
   - ♻️ 自动选择
   - 电报群：https://t.me/vvkj11
   - 每天更新，请加电报群防止失联
-  - 日期：10-24
+  - 日期：10-26
   - 免费VPN：https://tt.vg/gwaAy
-  - 法国_1
-  - 法国_2
-  - 法国_3
-  - 法国_4
-  - 法国_5
-  - 法国_6
-  - 法国_7
-  - 法国_8
-  - 法国_9
+  - 香港
+  - HK_1
+  - HK_2
   - 美国_1
+  - US_3
+  - US_4
+  - US_5
+  - US_6
   - 美国_2
-  - 法国_10
-  - 法国_11
-  - 美国_3
-  - 法国_12
-  - 法国_13
-  - 法国_14
-  - 美国_4
+  - US_7
   - 美国_5
-  - 美国_6
   - 美国_7
   - 美国_8
   - 美国_9
   - 美国_10
   - 美国_11
-  - 美国_12
-  - 法国_15
-  - 美国_13
   - 美国_14
   - 美国_15
   - 美国_16
@@ -1491,38 +1777,71 @@ proxy-groups:
   - 美国_28
   - 美国_29
   - 美国_30
-  - 美国_31
   - 美国_32
   - 美国_33
-  - 法国_16
   - 美国_34
   - 美国_35
   - 美国_36
-  - 美国_37
-  - 美国_38
   - 美国_39
   - 美国_40
   - 美国_41
-  - 香港
   - 美国_42
-  - 美国_43
-  - 美国_44
-  - 美国_45
-  - 美国_46
-  - 美国_47
-  - 美国_48
-  - 美国_49
-  - 美国_50
+  - 中国
+  - 日本_2
+  - 日本_3
+  - 日本_4
+  - 日本_5
+  - 日本_6
+  - 日本_7
+  - 日本_8
+  - '|99.87Mb'
+  - 法国_1
+  - 法国_2
+  - 美国_3
+  - 法国_3
+  - 法国_4
+  - 法国_5
+  - 法国_6
+  - 法国_7
+  - 法国_8
+  - 法国_9
+  - 法国_10
+  - 法国_11
+  - 法国_12
+  - 法国_13
+  - 法国_14
+  - 美国_4
+  - 法国_15
+  - 美国_6
+  - 法国_16
+  - 法国_17
+  - 法国_18
+  - 美国_12
+  - 法国_19
+  - 法国_20
+  - 法国_21
+  - 法国_22
+  - 法国_23
+  - 法国_24
+  - 美国_31
+  - 日本_1
+  - 美国_37
+  - 美国_38
   - 美国_51
   - 美国_52
   - 美国_53
   - 美国_54
-  - 日本_1
-  - 日本_2
-  - 日本_3
   - 美国_55
   - 美国_56
   - 美国_57
+  - 美国_58
+  - 美国_59
+  - 美国_60
+  - 美国_61
+  - 美国_62
+  - 美国_63
+  - 美国_64
+  - 美国_65
   type: select
 rules:
 - DOMAIN-SUFFIX,acl4.ssr,🎯 全球直连
