@@ -38,10 +38,10 @@ proxies:
     path: /tg@hkaa0
 - alterId: 2
   cipher: auto
-  name: '[VMess] 🇨🇳 江苏省 移动'
+  name: '[VMess] 🇨🇳 中国 V2CROSS.COM'
   network: ws
-  port: 30809
-  server: v9.heduian.link
+  port: 30829
+  server: v29.heduian.link
   skip-cert-verify: true
   tfo: false
   tls: false
@@ -50,8 +50,16 @@ proxies:
   uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
   ws-opts:
     headers:
-      Host: baidu.com
+      Host: ocbc.com
     path: /oooo
+- name: '[Trojan] 🇨🇳 江苏省 移动'
+  password: BxceQaOe
+  port: 2088
+  server: 36.150.215.197
+  skip-cert-verify: true
+  tfo: false
+  type: trojan
+  udp: true
 - alterId: 0
   cipher: auto
   name: '[VMess] 🇩🇪 _US_美国->🇩🇪_DE_德国'
@@ -100,17 +108,22 @@ proxies:
     headers:
       Host: ld2.shabijichang.com
     path: /
-- alterId: 0
+- alterId: 2
   cipher: auto
-  name: '[VMess] 🇭🇰 香港 Cloudie数据中心'
-  port: 10086
-  server: 103.243.26.209
+  name: '[VMess] 🇭🇰 香港 电讯盈科有限公司'
+  network: ws
+  port: 80
+  server: hkt.gotochinatown.net
   skip-cert-verify: true
   tfo: false
   tls: false
   type: vmess
   udp: true
-  uuid: c5ec2e3f-c058-46a8-a148-1831824bb94b
+  uuid: 3085fcf8-a69c-11ec-bd7c-f23c913c8d2b
+  ws-opts:
+    headers:
+      Host: hkt.gotochinatown.net
+    path: /
 - alterId: 0
   cipher: auto
   name: '[VMess] 🇮🇳 _US_美国->🇮🇳_IN_印度_1'
@@ -289,11 +302,12 @@ proxy-groups:
   - 🇸🇬 新加坡
   - '[VMess] 🇨🇦 _CA_加拿大'
   - '[VMess] 🇨🇳 _TW_台湾->🇺🇸_US_美国'
-  - '[VMess] 🇨🇳 江苏省 移动'
+  - '[VMess] 🇨🇳 中国 V2CROSS.COM'
+  - '[Trojan] 🇨🇳 江苏省 移动'
   - '[VMess] 🇩🇪 _US_美国->🇩🇪_DE_德国'
   - '[VMess] 🇬🇧 _US_美国->🇬🇧_GB_英国_1'
   - '[VMess] 🇬🇧 _US_美国->🇬🇧_GB_英国_2'
-  - '[VMess] 🇭🇰 香港 Cloudie数据中心'
+  - '[VMess] 🇭🇰 香港 电讯盈科有限公司'
   - '[VMess] 🇮🇳 _US_美国->🇮🇳_IN_印度_1'
   - '[VMess] 🇮🇳 _US_美国->🇮🇳_IN_印度_2'
   - '[VMess] 🇮🇳 _US_美国->🇮🇳_IN_印度_3'
@@ -315,11 +329,12 @@ proxy-groups:
   - 🇸🇬 新加坡
   - '[VMess] 🇨🇦 _CA_加拿大'
   - '[VMess] 🇨🇳 _TW_台湾->🇺🇸_US_美国'
-  - '[VMess] 🇨🇳 江苏省 移动'
+  - '[VMess] 🇨🇳 中国 V2CROSS.COM'
+  - '[Trojan] 🇨🇳 江苏省 移动'
   - '[VMess] 🇩🇪 _US_美国->🇩🇪_DE_德国'
   - '[VMess] 🇬🇧 _US_美国->🇬🇧_GB_英国_1'
   - '[VMess] 🇬🇧 _US_美国->🇬🇧_GB_英国_2'
-  - '[VMess] 🇭🇰 香港 Cloudie数据中心'
+  - '[VMess] 🇭🇰 香港 电讯盈科有限公司'
   - '[VMess] 🇮🇳 _US_美国->🇮🇳_IN_印度_1'
   - '[VMess] 🇮🇳 _US_美国->🇮🇳_IN_印度_2'
   - '[VMess] 🇮🇳 _US_美国->🇮🇳_IN_印度_3'
@@ -341,11 +356,12 @@ proxy-groups:
   - 🇸🇬 新加坡
   - '[VMess] 🇨🇦 _CA_加拿大'
   - '[VMess] 🇨🇳 _TW_台湾->🇺🇸_US_美国'
-  - '[VMess] 🇨🇳 江苏省 移动'
+  - '[VMess] 🇨🇳 中国 V2CROSS.COM'
+  - '[Trojan] 🇨🇳 江苏省 移动'
   - '[VMess] 🇩🇪 _US_美国->🇩🇪_DE_德国'
   - '[VMess] 🇬🇧 _US_美国->🇬🇧_GB_英国_1'
   - '[VMess] 🇬🇧 _US_美国->🇬🇧_GB_英国_2'
-  - '[VMess] 🇭🇰 香港 Cloudie数据中心'
+  - '[VMess] 🇭🇰 香港 电讯盈科有限公司'
   - '[VMess] 🇮🇳 _US_美国->🇮🇳_IN_印度_1'
   - '[VMess] 🇮🇳 _US_美国->🇮🇳_IN_印度_2'
   - '[VMess] 🇮🇳 _US_美国->🇮🇳_IN_印度_3'
@@ -367,11 +383,12 @@ proxy-groups:
   - 🇸🇬 新加坡
   - '[VMess] 🇨🇦 _CA_加拿大'
   - '[VMess] 🇨🇳 _TW_台湾->🇺🇸_US_美国'
-  - '[VMess] 🇨🇳 江苏省 移动'
+  - '[VMess] 🇨🇳 中国 V2CROSS.COM'
+  - '[Trojan] 🇨🇳 江苏省 移动'
   - '[VMess] 🇩🇪 _US_美国->🇩🇪_DE_德国'
   - '[VMess] 🇬🇧 _US_美国->🇬🇧_GB_英国_1'
   - '[VMess] 🇬🇧 _US_美国->🇬🇧_GB_英国_2'
-  - '[VMess] 🇭🇰 香港 Cloudie数据中心'
+  - '[VMess] 🇭🇰 香港 电讯盈科有限公司'
   - '[VMess] 🇮🇳 _US_美国->🇮🇳_IN_印度_1'
   - '[VMess] 🇮🇳 _US_美国->🇮🇳_IN_印度_2'
   - '[VMess] 🇮🇳 _US_美国->🇮🇳_IN_印度_3'
@@ -394,11 +411,12 @@ proxy-groups:
   - 🇸🇬 新加坡
   - '[VMess] 🇨🇦 _CA_加拿大'
   - '[VMess] 🇨🇳 _TW_台湾->🇺🇸_US_美国'
-  - '[VMess] 🇨🇳 江苏省 移动'
+  - '[VMess] 🇨🇳 中国 V2CROSS.COM'
+  - '[Trojan] 🇨🇳 江苏省 移动'
   - '[VMess] 🇩🇪 _US_美国->🇩🇪_DE_德国'
   - '[VMess] 🇬🇧 _US_美国->🇬🇧_GB_英国_1'
   - '[VMess] 🇬🇧 _US_美国->🇬🇧_GB_英国_2'
-  - '[VMess] 🇭🇰 香港 Cloudie数据中心'
+  - '[VMess] 🇭🇰 香港 电讯盈科有限公司'
   - '[VMess] 🇮🇳 _US_美国->🇮🇳_IN_印度_1'
   - '[VMess] 🇮🇳 _US_美国->🇮🇳_IN_印度_2'
   - '[VMess] 🇮🇳 _US_美国->🇮🇳_IN_印度_3'
@@ -424,7 +442,7 @@ proxy-groups:
   proxies:
   - DIRECT
   - '[VMess] 🇨🇳 _TW_台湾->🇺🇸_US_美国'
-  - '[VMess] 🇭🇰 香港 Cloudie数据中心'
+  - '[VMess] 🇭🇰 香港 电讯盈科有限公司'
   type: select
 - name: Ⓜ️ 微软服务
   proxies:
@@ -436,11 +454,12 @@ proxy-groups:
   - 🇸🇬 新加坡
   - '[VMess] 🇨🇦 _CA_加拿大'
   - '[VMess] 🇨🇳 _TW_台湾->🇺🇸_US_美国'
-  - '[VMess] 🇨🇳 江苏省 移动'
+  - '[VMess] 🇨🇳 中国 V2CROSS.COM'
+  - '[Trojan] 🇨🇳 江苏省 移动'
   - '[VMess] 🇩🇪 _US_美国->🇩🇪_DE_德国'
   - '[VMess] 🇬🇧 _US_美国->🇬🇧_GB_英国_1'
   - '[VMess] 🇬🇧 _US_美国->🇬🇧_GB_英国_2'
-  - '[VMess] 🇭🇰 香港 Cloudie数据中心'
+  - '[VMess] 🇭🇰 香港 电讯盈科有限公司'
   - '[VMess] 🇮🇳 _US_美国->🇮🇳_IN_印度_1'
   - '[VMess] 🇮🇳 _US_美国->🇮🇳_IN_印度_2'
   - '[VMess] 🇮🇳 _US_美国->🇮🇳_IN_印度_3'
@@ -455,7 +474,7 @@ proxy-groups:
   type: select
 - name: 🇭🇰 香港
   proxies:
-  - '[VMess] 🇭🇰 香港 Cloudie数据中心'
+  - '[VMess] 🇭🇰 香港 电讯盈科有限公司'
   type: select
 - name: 🇯🇵 日本
   proxies:
