@@ -32,76 +32,116 @@ log-level: info
 mixed-port: 7890
 mode: rule
 proxies:
+- alterId: 0
+  cipher: auto
+  name: 🇲🇽_墨西哥
+  network: tcp
+  port: 57836
+  server: 216.238.89.53
+  type: vmess
+  uuid: 25cd6447-846c-456d-9e84-49222353b9c5
+- alterId: 0
+  cipher: auto
+  name: 🇪🇸_西班牙
+  network: tcp
+  port: 27092
+  server: 208.76.223.218
+  type: vmess
+  uuid: a0596ba6-72a3-4366-8992-77088da65bd8
+- alterId: 0
+  cipher: auto
+  name: 🇭🇰_香港
+  network: tcp
+  port: 10086
+  server: 103.243.26.209
+  type: vmess
+  uuid: c5ec2e3f-c058-46a8-a148-1831824bb94b
+- alterId: 0
+  cipher: auto
+  name: 🇭🇰_香港_1
+  network: tcp
+  port: 8080
+  server: 103.243.26.209
+  servername: 103.243.26.209
+  type: vmess
+  uuid: bc7e6840-ab83-4570-eaae-d9aff1e2da09
 - name: 🇨🇳_中国
   network: tcp
   password: adbac894-90b9-4913-b77e-a715a8d4ebc8
   port: 20021
   server: oss-cn-shanghai.letssepub.com
-  skip-cert-verify: true
-  sni: dingding-doc.com
-  tls: true
-  type: trojan
-- name: 🇨🇳_中国_1
-  network: tcp
-  password: adbac894-90b9-4913-b77e-a715a8d4ebc8
-  port: 20021
-  server: oss-cn-shanghai.letssepub.com
-  skip-cert-verify: true
-  sni: dingding-doc.com
-  tls: true
-  type: trojan
-- name: 🇨🇳_中国_2
-  network: tcp
-  password: adbac894-90b9-4913-b77e-a715a8d4ebc8
-  port: 20021
-  server: oss-cn-shanghai.letssepub.com
-  skip-cert-verify: true
-  sni: dingding-doc.com
-  tls: true
-  type: trojan
-- name: 🇨🇳_中国_3
-  network: tcp
-  password: adbac894-90b9-4913-b77e-a715a8d4ebc8
-  port: 20021
-  server: oss-cn-shanghai.letssepub.com
-  skip-cert-verify: true
   sni: dingding-doc.com
   tls: true
   type: trojan
 - alterId: 0
   cipher: auto
-  name: 🇨🇳_中国_4
+  name: 🇩🇪_德国_1
   network: tcp
-  port: 38637
-  server: tkcmi.5tk.top
+  port: 44749
+  server: 62.113.200.175
   type: vmess
-  uuid: 93058ab5-bb29-44d4-c309-d224c0967732
-- name: 🇨🇳_中国_5
-  network: tcp
-  password: e4e262d453466988575c397a30562337
-  port: 4173
-  server: 117.172.176.22
-  skip-cert-verify: true
-  sni: www.nintendogames.net
-  tls: true
-  type: trojan
+  uuid: ba1d9a12-7fb5-495e-a547-c87264db41ea
 - alterId: 0
   cipher: auto
-  name: 🇨🇳_中国_6
+  name: 🇭🇰_香港_2
   network: tcp
-  port: 38637
-  server: tkcmi.5tk.top
+  port: 8080
+  server: 103.243.26.209
   type: vmess
-  uuid: 93058ab5-bb29-44d4-c309-d224c0967732
+  uuid: bc7e6840-ab83-4570-eaae-d9aff1e2da09
+- alterId: 0
+  cipher: auto
+  name: 🇨🇳_中国_1
+  network: tcp
+  port: 11819
+  server: 36.133.73.36
+  type: vmess
+  uuid: de32752c-0661-467e-82d3-35bc740a787f
+- alterId: 0
+  cipher: auto
+  name: 🇰🇷_韩国
+  network: tcp
+  port: 80
+  server: 152.70.92.69
+  type: vmess
+  uuid: bb9c3993-a4b9-4dad-aeb9-ac86371ae68b
+- alterId: 0
+  cipher: auto
+  name: 🇪🇸_西班牙_1
+  network: tcp
+  port: 27092
+  server: 208.76.223.218
+  type: vmess
+  uuid: a0596ba6-72a3-4366-8992-77088da65bd8
+- alterId: 0
+  cipher: auto
+  name: 🇭🇰_香港_3
+  network: tcp
+  port: 59516
+  server: 43.247.134.213
+  type: vmess
+  uuid: 2906e19e-c99f-456e-bcb3-c5472fd594e5
+- alterId: 0
+  cipher: auto
+  name: 🇭🇰_香港_4
+  network: tcp
+  port: 10086
+  server: 103.243.26.209
+  servername: 103.243.26.209
+  type: vmess
+  uuid: c5ec2e3f-c058-46a8-a148-1831824bb94b
 - alterId: 0
   cipher: auto
   name: 🇫🇷_法国
   network: ws
   port: 44579
   server: 2001:bc8:32d7:302::10
+  servername: 2001:bc8:32d7:302::10
   type: vmess
   uuid: 8e34e170-13ae-4892-9d20-05962acc9f84
   ws-opts:
+    headers:
+      Host: 2001:bc8:32d7:302::10
     path: /?ed=2048HiByeVPNN--HiByeVPNN--HiByeVPNN--HiByeVPNN--HiByeVPNN--HiByeVPNN--HiByeVPNN--HiByeVPNN--HiByeVPNN--HiByeVPNN--HiByeVPNN--HiByeVPNN--HiByeVPNN
 - alterId: 0
   cipher: auto
@@ -111,8 +151,6 @@ proxies:
   server: 2001:bc8:32d7:302::10
   type: vmess
   uuid: 8e34e170-13ae-4892-9d20-05962acc9f84
-  ws-opts:
-    path: ?ed=2048
 - alterId: 0
   cipher: auto
   name: 🇫🇷_法国_2
@@ -121,8 +159,6 @@ proxies:
   server: 2001:bc8:32d7:302::10
   type: vmess
   uuid: 8e34e170-13ae-4892-9d20-05962acc9f84
-  ws-opts:
-    path: /
 - alterId: 0
   cipher: auto
   name: 🇫🇷_法国_3
@@ -137,13 +173,51 @@ proxies:
   network: ws
   port: 44579
   server: 2001:bc8:32d7:302::10
-  servername: 2001:bc8:32d7:302::10
   type: vmess
   uuid: 8e34e170-13ae-4892-9d20-05962acc9f84
   ws-opts:
+    path: /
+- alterId: 0
+  cipher: auto
+  name: 未知_1
+  network: ws
+  port: 80
+  server: 141.101.121.26
+  servername: google.whatsapp.snapp.torob.basalam.leoshopping77.ir.
+  type: vmess
+  uuid: d967ffca-de90-4daa-bd00-d527e5bae11f
+  ws-opts:
     headers:
-      Host: 2001:bc8:32d7:302::10
-    path: /?ed=2048HiByeVPNN--HiByeVPNN--HiByeVPNN--HiByeVPNN--HiByeVPNN--HiByeVPNN--HiByeVPNN--HiByeVPNN--HiByeVPNN--HiByeVPNN--HiByeVPNN--HiByeVPNN--HiByeVPNN
+      Host: google.whatsapp.snapp.torob.basalam.leoshopping77.ir.
+    path: /?BIA_TELEGRAM (@AZARBAYJAB1) TM (@AZARBAYJAB1) TM (@AZARBAYJAB1) TM (@AZARBAYJAB1)
+      TM (@AZARBAYJAB1) TM (@AZARBAYJAB1)
+- alterId: 2
+  cipher: auto
+  name: 🇭🇰_香港_5
+  network: ws
+  port: 30830
+  server: v30.heduian.link
+  servername: v30.heduian.link
+  type: vmess
+  uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
+  ws-opts:
+    headers:
+      Host: v30.heduian.link
+    path: /oooo
+- alterId: 0
+  cipher: auto
+  name: 🇸🇪_瑞典
+  network: ws
+  port: 80
+  server: 185.146.173.16
+  servername: google.whatsapp.snapp.torob.basalam.leoshopping77.ir.
+  type: vmess
+  uuid: d967ffca-de90-4daa-bd00-d527e5bae11f
+  ws-opts:
+    headers:
+      Host: google.whatsapp.snapp.torob.basalam.leoshopping77.ir.
+    path: /?BIA_TELEGRAM (@AZARBAYJAB1) TM (@AZARBAYJAB1) TM (@AZARBAYJAB1) TM (@AZARBAYJAB1)
+      TM (@AZARBAYJAB1) TM (@AZARBAYJAB1)
 - alterId: 0
   cipher: auto
   name: 🇫🇷_法国_5
@@ -153,7 +227,7 @@ proxies:
   type: vmess
   uuid: 8e34e170-13ae-4892-9d20-05962acc9f84
   ws-opts:
-    path: /
+    path: ?ed=2048
 - alterId: 0
   cipher: auto
   name: 🇫🇷_法国_6
@@ -172,6 +246,8 @@ proxies:
   server: 2001:bc8:32d7:302::10
   type: vmess
   uuid: 8e34e170-13ae-4892-9d20-05962acc9f84
+  ws-opts:
+    path: /
 - alterId: 0
   cipher: auto
   name: 🇫🇷_法国_8
@@ -180,8 +256,6 @@ proxies:
   server: 2001:bc8:32d7:302::10
   type: vmess
   uuid: 8e34e170-13ae-4892-9d20-05962acc9f84
-  ws-opts:
-    path: /?ed=2048HiByeVPNN--HiByeVPNN--HiByeVPNN--HiByeVPNN--HiByeVPNN--HiByeVPNN--HiByeVPNN--HiByeVPNN--HiByeVPNN--HiByeVPNN--HiByeVPNN--HiByeVPNN--HiByeVPNN
 - alterId: 0
   cipher: auto
   name: 🇫🇷_法国_9
@@ -202,10 +276,10 @@ proxies:
     path: /
 - alterId: 0
   cipher: auto
-  name: 🇸🇪_瑞典
+  name: 🇸🇪_瑞典_1
   network: ws
   port: 80
-  server: 185.146.173.126
+  server: 185.146.173.24
   servername: google.whatsapp.snapp.torob.basalam.leoshopping77.ir.
   type: vmess
   uuid: d967ffca-de90-4daa-bd00-d527e5bae11f
@@ -230,6 +304,8 @@ proxies:
   server: 2001:bc8:32d7:302::10
   type: vmess
   uuid: 8e34e170-13ae-4892-9d20-05962acc9f84
+  ws-opts:
+    path: /
 - alterId: 0
   cipher: auto
   name: 🇫🇷_法国_13
@@ -246,8 +322,6 @@ proxies:
   server: 2001:bc8:32d7:302::10
   type: vmess
   uuid: 8e34e170-13ae-4892-9d20-05962acc9f84
-  ws-opts:
-    path: /?ed=2048HiByeVPNN--HiByeVPNN--HiByeVPNN--HiByeVPNN--HiByeVPNN--HiByeVPNN--HiByeVPNN--HiByeVPNN--HiByeVPNN--HiByeVPNN--HiByeVPNN--HiByeVPNN--HiByeVPNN
 - alterId: 0
   cipher: auto
   name: 🇫🇷_法国_15
@@ -264,6 +338,8 @@ proxies:
   server: 2001:bc8:32d7:302::10
   type: vmess
   uuid: 8e34e170-13ae-4892-9d20-05962acc9f84
+  ws-opts:
+    path: /?ed=2048HiByeVPNN--HiByeVPNN--HiByeVPNN--HiByeVPNN--HiByeVPNN--HiByeVPNN--HiByeVPNN--HiByeVPNN--HiByeVPNN--HiByeVPNN--HiByeVPNN--HiByeVPNN--HiByeVPNN
 - alterId: 0
   cipher: auto
   name: 🇫🇷_法国_17
@@ -280,27 +356,8 @@ proxies:
   network: ws
   port: 44579
   server: 2001:bc8:32d7:302::10
-  servername: 2001:bc8:32d7:302::10
   type: vmess
   uuid: 8e34e170-13ae-4892-9d20-05962acc9f84
-  ws-opts:
-    headers:
-      Host: 2001:bc8:32d7:302::10
-    path: /
-- alterId: 32
-  cipher: auto
-  name: 🇺🇸_美国_5
-  network: ws
-  port: 443
-  server: vc.fly.dev
-  servername: vc.fly.dev
-  tls: true
-  type: vmess
-  uuid: 35379219-6535-4f2e-a4fe-3e44f61e0eee
-  ws-opts:
-    headers:
-      Host: vc.fly.dev
-    path: /vc
 - alterId: 0
   cipher: auto
   name: 🇫🇷_法国_19
@@ -309,6 +366,8 @@ proxies:
   server: 2001:bc8:32d7:302::10
   type: vmess
   uuid: 8e34e170-13ae-4892-9d20-05962acc9f84
+  ws-opts:
+    path: /?ed=2048HiByeVPNN--HiByeVPNN--HiByeVPNN--HiByeVPNN--HiByeVPNN--HiByeVPNN--HiByeVPNN--HiByeVPNN--HiByeVPNN--HiByeVPNN--HiByeVPNN--HiByeVPNN--HiByeVPNN
 - alterId: 0
   cipher: auto
   name: 🇫🇷_法国_20
@@ -321,10 +380,15 @@ proxies:
   cipher: auto
   name: 🇫🇷_法国_21
   network: ws
-  port: 44579
-  server: 2001:bc8:32d7:302::10
+  port: 23008
+  server: 2001:bc8:1203:209::50
+  servername: www.bing.com
   type: vmess
-  uuid: 8e34e170-13ae-4892-9d20-05962acc9f84
+  uuid: e994b804-345c-4e8b-a827-7e005694d146
+  ws-opts:
+    headers:
+      Host: www.bing.com
+    path: /github.com/Alvin9999
 - alterId: 0
   cipher: auto
   name: 🇫🇷_法国_22
@@ -339,9 +403,12 @@ proxies:
   network: ws
   port: 44579
   server: 2001:bc8:32d7:302::10
+  servername: 2001:bc8:32d7:302::10
   type: vmess
   uuid: 8e34e170-13ae-4892-9d20-05962acc9f84
   ws-opts:
+    headers:
+      Host: 2001:bc8:32d7:302::10
     path: /
 - alterId: 0
   cipher: auto
@@ -361,47 +428,11 @@ proxies:
   server: 2001:bc8:32d7:302::10
   type: vmess
   uuid: 8e34e170-13ae-4892-9d20-05962acc9f84
+  ws-opts:
+    path: /
 - alterId: 0
   cipher: auto
   name: 🇫🇷_法国_26
-  network: ws
-  port: 44579
-  server: 2001:bc8:32d7:302::10
-  type: vmess
-  uuid: 8e34e170-13ae-4892-9d20-05962acc9f84
-- alterId: 0
-  cipher: auto
-  name: 🇫🇷_法国_27
-  network: ws
-  port: 44579
-  server: 2001:bc8:32d7:302::10
-  type: vmess
-  uuid: 8e34e170-13ae-4892-9d20-05962acc9f84
-  ws-opts:
-    path: ?ed=2048
-- alterId: 0
-  cipher: auto
-  name: 🇫🇷_法国_28
-  network: ws
-  port: 44579
-  server: 2001:bc8:32d7:302::10
-  type: vmess
-  uuid: 8e34e170-13ae-4892-9d20-05962acc9f84
-  ws-opts:
-    path: /
-- alterId: 0
-  cipher: auto
-  name: 🇫🇷_法国_29
-  network: ws
-  port: 44579
-  server: 2001:bc8:32d7:302::10
-  type: vmess
-  uuid: 8e34e170-13ae-4892-9d20-05962acc9f84
-  ws-opts:
-    path: /
-- alterId: 0
-  cipher: auto
-  name: 🇫🇷_法国_30
   network: ws
   port: 44579
   server: 2001:bc8:32d7:302::10
@@ -411,7 +442,7 @@ proxies:
     path: /?ed=2048HiByeVPNN--HiByeVPNN--HiByeVPNN--HiByeVPNN--HiByeVPNN--HiByeVPNN--HiByeVPNN--HiByeVPNN--HiByeVPNN--HiByeVPNN--HiByeVPNN--HiByeVPNN--HiByeVPNN
 - alterId: 0
   cipher: auto
-  name: 🇫🇷_法国_31
+  name: 🇫🇷_法国_27
   network: ws
   port: 44579
   server: 2001:bc8:32d7:302::10
@@ -419,6 +450,54 @@ proxies:
   uuid: 8e34e170-13ae-4892-9d20-05962acc9f84
   ws-opts:
     path: /
+- alterId: 0
+  cipher: auto
+  name: 🇫🇷_法国_28
+  network: ws
+  port: 44579
+  server: 2001:bc8:32d7:302::10
+  type: vmess
+  uuid: 8e34e170-13ae-4892-9d20-05962acc9f84
+- alterId: 0
+  cipher: auto
+  name: 🇫🇷_法国_29
+  network: ws
+  port: 44579
+  server: 2001:bc8:32d7:302::10
+  type: vmess
+  uuid: 8e34e170-13ae-4892-9d20-05962acc9f84
+- alterId: 0
+  cipher: auto
+  name: 🇫🇷_法国_30
+  network: ws
+  port: 44579
+  server: 2001:bc8:32d7:302::10
+  type: vmess
+  uuid: 8e34e170-13ae-4892-9d20-05962acc9f84
+- alterId: 0
+  cipher: auto
+  name: 🇫🇷_法国_31
+  network: ws
+  port: 44579
+  server: 2001:bc8:32d7:302::10
+  type: vmess
+  uuid: 8e34e170-13ae-4892-9d20-05962acc9f84
+  ws-opts:
+    path: /?ed=2048HiByeVPNN--HiByeVPNN--HiByeVPNN--HiByeVPNN--HiByeVPNN--HiByeVPNN--HiByeVPNN--HiByeVPNN--HiByeVPNN--HiByeVPNN--HiByeVPNN--HiByeVPNN--HiByeVPNN
+- alterId: 0
+  cipher: auto
+  name: 未知_2
+  network: ws
+  port: 80
+  server: 141.101.121.3
+  servername: google.whatsapp.snapp.torob.basalam.leoshopping77.ir.
+  type: vmess
+  uuid: d967ffca-de90-4daa-bd00-d527e5bae11f
+  ws-opts:
+    headers:
+      Host: google.whatsapp.snapp.torob.basalam.leoshopping77.ir.
+    path: /?BIA_TELEGRAM (@AZARBAYJAB1) TM (@AZARBAYJAB1) TM (@AZARBAYJAB1) TM (@AZARBAYJAB1)
+      TM (@AZARBAYJAB1) TM (@AZARBAYJAB1)
 - alterId: 0
   cipher: auto
   name: 🇫🇷_法国_32
@@ -427,8 +506,6 @@ proxies:
   server: 2001:bc8:32d7:302::10
   type: vmess
   uuid: 8e34e170-13ae-4892-9d20-05962acc9f84
-  ws-opts:
-    path: /
 - alterId: 0
   cipher: auto
   name: 🇫🇷_法国_33
@@ -437,8 +514,6 @@ proxies:
   server: 2001:bc8:32d7:302::10
   type: vmess
   uuid: 8e34e170-13ae-4892-9d20-05962acc9f84
-  ws-opts:
-    path: /
 - alterId: 0
   cipher: auto
   name: 🇫🇷_法国_34
@@ -453,16 +528,26 @@ proxies:
   network: ws
   port: 44579
   server: 2001:bc8:32d7:302::10
+  servername: 2001:bc8:32d7:302::10
   type: vmess
   uuid: 8e34e170-13ae-4892-9d20-05962acc9f84
+  ws-opts:
+    headers:
+      Host: 2001:bc8:32d7:302::10
+    path: /
 - alterId: 0
   cipher: auto
   name: 🇫🇷_法国_36
   network: ws
   port: 44579
   server: 2001:bc8:32d7:302::10
+  servername: 2001:bc8:32d7:302::10
   type: vmess
   uuid: 8e34e170-13ae-4892-9d20-05962acc9f84
+  ws-opts:
+    headers:
+      Host: 2001:bc8:32d7:302::10
+    path: /?ed=2048HiByeVPNN--HiByeVPNN--HiByeVPNN--HiByeVPNN--HiByeVPNN--HiByeVPNN--HiByeVPNN--HiByeVPNN--HiByeVPNN--HiByeVPNN--HiByeVPNN--HiByeVPNN--HiByeVPNN
 - alterId: 0
   cipher: auto
   name: 🇫🇷_法国_37
@@ -471,6 +556,8 @@ proxies:
   server: 2001:bc8:32d7:302::10
   type: vmess
   uuid: 8e34e170-13ae-4892-9d20-05962acc9f84
+  ws-opts:
+    path: /
 - alterId: 0
   cipher: auto
   name: 🇫🇷_法国_38
@@ -479,6 +566,8 @@ proxies:
   server: 2001:bc8:32d7:302::10
   type: vmess
   uuid: 8e34e170-13ae-4892-9d20-05962acc9f84
+  ws-opts:
+    path: /
 - alterId: 0
   cipher: auto
   name: 🇫🇷_法国_39
@@ -497,8 +586,19 @@ proxies:
   server: 2001:bc8:32d7:302::10
   type: vmess
   uuid: 8e34e170-13ae-4892-9d20-05962acc9f84
+- alterId: 0
+  cipher: auto
+  name: 🇸🇪_瑞典_2
+  network: ws
+  port: 80
+  server: 185.146.173.82
+  servername: google.whatsapp.snapp.torob.basalam.leoshopping77.ir.
+  type: vmess
+  uuid: d967ffca-de90-4daa-bd00-d527e5bae11f
   ws-opts:
-    path: /
+    headers:
+      Host: google.whatsapp.snapp.torob.basalam.leoshopping77.ir.
+    path: /?BIA_TELEGRAM(@AZARBAYJAB1)TM(@AZARBAYJAB1)TM(@AZARBAYJAB1)TM(@AZARBAYJAB1)TM(@AZARBAYJAB1)TM(@AZARBAYJAB1)
 - alterId: 0
   cipher: auto
   name: 🇫🇷_法国_41
@@ -507,38 +607,149 @@ proxies:
   server: 2001:bc8:32d7:302::10
   type: vmess
   uuid: 8e34e170-13ae-4892-9d20-05962acc9f84
+  ws-opts:
+    path: /
 - alterId: 0
   cipher: auto
   name: 🇫🇷_法国_42
   network: ws
   port: 44579
   server: 2001:bc8:32d7:302::10
+  servername: 2001:bc8:32d7:302::10
   type: vmess
   uuid: 8e34e170-13ae-4892-9d20-05962acc9f84
+  ws-opts:
+    headers:
+      Host: 2001:bc8:32d7:302::10
+    path: /
+- alterId: 0
+  cipher: auto
+  name: 🇫🇷_法国_43
+  network: ws
+  port: 23008
+  server: 2001:bc8:1203:209::50
+  servername: www.bing.com
+  type: vmess
+  uuid: e994b804-345c-4e8b-a827-7e005694d146
+  ws-opts:
+    headers:
+      Host: www.bing.com
+    path: /github.com/Alvin9999
+- alterId: 0
+  cipher: auto
+  name: 🇫🇷_法国_44
+  network: ws
+  port: 44579
+  server: 2001:bc8:32d7:302::10
+  servername: 2001:bc8:32d7:302::10
+  type: vmess
+  uuid: 8e34e170-13ae-4892-9d20-05962acc9f84
+  ws-opts:
+    headers:
+      Host: 2001:bc8:32d7:302::10
+    path: /?ed=2048HiByeVPNN--HiByeVPNN--HiByeVPNN--HiByeVPNN--HiByeVPNN--HiByeVPNN--HiByeVPNN--HiByeVPNN--HiByeVPNN--HiByeVPNN--HiByeVPNN--HiByeVPNN--HiByeVPNN
+- alterId: 0
+  cipher: auto
+  name: 🇫🇷_法国_45
+  network: ws
+  port: 44579
+  server: 2001:bc8:32d7:302::10
+  type: vmess
+  uuid: 8e34e170-13ae-4892-9d20-05962acc9f84
+  ws-opts:
+    path: /?ed=2048HiByeVPNN--HiByeVPNN--HiByeVPNN--HiByeVPNN--HiByeVPNN--HiByeVPNN--HiByeVPNN--HiByeVPNN--HiByeVPNN--HiByeVPNN--HiByeVPNN--HiByeVPNN--HiByeVPNN
+- alterId: 0
+  cipher: auto
+  name: 🇫🇷_法国_46
+  network: ws
+  port: 44579
+  server: 2001:bc8:32d7:302::10
+  type: vmess
+  uuid: 8e34e170-13ae-4892-9d20-05962acc9f84
+- alterId: 0
+  cipher: auto
+  name: 未知_4
+  network: ws
+  port: 80
+  server: 141.101.121.120
+  servername: google.whatsapp.snapp.torob.basalam.leoshopping77.ir.
+  type: vmess
+  uuid: d967ffca-de90-4daa-bd00-d527e5bae11f
+  ws-opts:
+    headers:
+      Host: google.whatsapp.snapp.torob.basalam.leoshopping77.ir.
+    path: /?BIA_TELEGRAM(@AZARBAYJAB1)TM(@AZARBAYJAB1)TM(@AZARBAYJAB1)TM(@AZARBAYJAB1)TM(@AZARBAYJAB1)TM(@AZARBAYJAB1)
+- alterId: 0
+  cipher: auto
+  name: 🇸🇪_瑞典_3
+  network: ws
+  port: 80
+  server: 185.146.173.117
+  servername: google.whatsapp.snapp.torob.basalam.leoshopping77.ir.
+  type: vmess
+  uuid: d967ffca-de90-4daa-bd00-d527e5bae11f
+  ws-opts:
+    headers:
+      Host: google.whatsapp.snapp.torob.basalam.leoshopping77.ir.
+    path: /?BIA_TELEGRAM(@AZARBAYJAB1)TM(@AZARBAYJAB1)TM(@AZARBAYJAB1)TM(@AZARBAYJAB1)TM(@AZARBAYJAB1)TM(@AZARBAYJAB1)
+- alterId: 0
+  cipher: auto
+  name: 🇸🇪_瑞典_4
+  network: ws
+  port: 80
+  server: 185.146.173.16
+  servername: google.whatsapp.snapp.torob.basalam.leoshopping77.ir.
+  type: vmess
+  uuid: d967ffca-de90-4daa-bd00-d527e5bae11f
+  ws-opts:
+    headers:
+      Host: google.whatsapp.snapp.torob.basalam.leoshopping77.ir.
+    path: /?BIA_TELEGRAM(@AZARBAYJAB1)TM(@AZARBAYJAB1)TM(@AZARBAYJAB1)TM(@AZARBAYJAB1)TM(@AZARBAYJAB1)TM(@AZARBAYJAB1)
+- alterId: 0
+  cipher: auto
+  name: 未知_6
+  network: ws
+  port: 80
+  server: 141.101.121.26
+  servername: google.whatsapp.snapp.torob.basalam.leoshopping77.ir.
+  type: vmess
+  uuid: d967ffca-de90-4daa-bd00-d527e5bae11f
+  ws-opts:
+    headers:
+      Host: google.whatsapp.snapp.torob.basalam.leoshopping77.ir.
+    path: /?BIA_TELEGRAM(@AZARBAYJAB1)TM(@AZARBAYJAB1)TM(@AZARBAYJAB1)TM(@AZARBAYJAB1)TM(@AZARBAYJAB1)TM(@AZARBAYJAB1)
 proxy-groups:
 - name: 🚀 节点选择
   proxies:
   - ♻️ 自动选择
   - DIRECT
+  - 🇲🇽_墨西哥
+  - 🇪🇸_西班牙
+  - 🇭🇰_香港
+  - 🇭🇰_香港_1
   - 🇨🇳_中国
+  - 🇩🇪_德国_1
+  - 🇭🇰_香港_2
   - 🇨🇳_中国_1
-  - 🇨🇳_中国_2
-  - 🇨🇳_中国_3
-  - 🇨🇳_中国_4
-  - 🇨🇳_中国_5
-  - 🇨🇳_中国_6
+  - 🇰🇷_韩国
+  - 🇪🇸_西班牙_1
+  - 🇭🇰_香港_3
+  - 🇭🇰_香港_4
   - 🇫🇷_法国
   - 🇫🇷_法国_1
   - 🇫🇷_法国_2
   - 🇫🇷_法国_3
   - 🇫🇷_法国_4
+  - 未知_1
+  - 🇭🇰_香港_5
+  - 🇸🇪_瑞典
   - 🇫🇷_法国_5
   - 🇫🇷_法国_6
   - 🇫🇷_法国_7
   - 🇫🇷_法国_8
   - 🇫🇷_法国_9
   - 🇫🇷_法国_10
-  - 🇸🇪_瑞典
+  - 🇸🇪_瑞典_1
   - 🇫🇷_法国_11
   - 🇫🇷_法国_12
   - 🇫🇷_法国_13
@@ -547,7 +758,6 @@ proxy-groups:
   - 🇫🇷_法国_16
   - 🇫🇷_法国_17
   - 🇫🇷_法国_18
-  - 🇺🇸_美国_5
   - 🇫🇷_法国_19
   - 🇫🇷_法国_20
   - 🇫🇷_法国_21
@@ -561,6 +771,7 @@ proxy-groups:
   - 🇫🇷_法国_29
   - 🇫🇷_法国_30
   - 🇫🇷_法国_31
+  - 未知_2
   - 🇫🇷_法国_32
   - 🇫🇷_法国_33
   - 🇫🇷_法国_34
@@ -570,31 +781,48 @@ proxy-groups:
   - 🇫🇷_法国_38
   - 🇫🇷_法国_39
   - 🇫🇷_法国_40
+  - 🇸🇪_瑞典_2
   - 🇫🇷_法国_41
   - 🇫🇷_法国_42
+  - 🇫🇷_法国_43
+  - 🇫🇷_法国_44
+  - 🇫🇷_法国_45
+  - 🇫🇷_法国_46
+  - 未知_4
+  - 🇸🇪_瑞典_3
+  - 🇸🇪_瑞典_4
+  - 未知_6
   type: select
 - interval: 300
   name: ♻️ 自动选择
   proxies:
+  - 🇲🇽_墨西哥
+  - 🇪🇸_西班牙
+  - 🇭🇰_香港
+  - 🇭🇰_香港_1
   - 🇨🇳_中国
+  - 🇩🇪_德国_1
+  - 🇭🇰_香港_2
   - 🇨🇳_中国_1
-  - 🇨🇳_中国_2
-  - 🇨🇳_中国_3
-  - 🇨🇳_中国_4
-  - 🇨🇳_中国_5
-  - 🇨🇳_中国_6
+  - 🇰🇷_韩国
+  - 🇪🇸_西班牙_1
+  - 🇭🇰_香港_3
+  - 🇭🇰_香港_4
   - 🇫🇷_法国
   - 🇫🇷_法国_1
   - 🇫🇷_法国_2
   - 🇫🇷_法国_3
   - 🇫🇷_法国_4
+  - 未知_1
+  - 🇭🇰_香港_5
+  - 🇸🇪_瑞典
   - 🇫🇷_法国_5
   - 🇫🇷_法国_6
   - 🇫🇷_法国_7
   - 🇫🇷_法国_8
   - 🇫🇷_法国_9
   - 🇫🇷_法国_10
-  - 🇸🇪_瑞典
+  - 🇸🇪_瑞典_1
   - 🇫🇷_法国_11
   - 🇫🇷_法国_12
   - 🇫🇷_法国_13
@@ -603,7 +831,6 @@ proxy-groups:
   - 🇫🇷_法国_16
   - 🇫🇷_法国_17
   - 🇫🇷_法国_18
-  - 🇺🇸_美国_5
   - 🇫🇷_法国_19
   - 🇫🇷_法国_20
   - 🇫🇷_法国_21
@@ -617,6 +844,7 @@ proxy-groups:
   - 🇫🇷_法国_29
   - 🇫🇷_法国_30
   - 🇫🇷_法国_31
+  - 未知_2
   - 🇫🇷_法国_32
   - 🇫🇷_法国_33
   - 🇫🇷_法国_34
@@ -626,8 +854,17 @@ proxy-groups:
   - 🇫🇷_法国_38
   - 🇫🇷_法国_39
   - 🇫🇷_法国_40
+  - 🇸🇪_瑞典_2
   - 🇫🇷_法国_41
   - 🇫🇷_法国_42
+  - 🇫🇷_法国_43
+  - 🇫🇷_法国_44
+  - 🇫🇷_法国_45
+  - 🇫🇷_法国_46
+  - 未知_4
+  - 🇸🇪_瑞典_3
+  - 🇸🇪_瑞典_4
+  - 未知_6
   type: url-test
   url: http://www.gstatic.com/generate_204
 - name: 🎯 全球直连
@@ -646,25 +883,33 @@ proxy-groups:
   - 🚀 节点选择
   - 🎯 全球直连
   - ♻️ 自动选择
+  - 🇲🇽_墨西哥
+  - 🇪🇸_西班牙
+  - 🇭🇰_香港
+  - 🇭🇰_香港_1
   - 🇨🇳_中国
+  - 🇩🇪_德国_1
+  - 🇭🇰_香港_2
   - 🇨🇳_中国_1
-  - 🇨🇳_中国_2
-  - 🇨🇳_中国_3
-  - 🇨🇳_中国_4
-  - 🇨🇳_中国_5
-  - 🇨🇳_中国_6
+  - 🇰🇷_韩国
+  - 🇪🇸_西班牙_1
+  - 🇭🇰_香港_3
+  - 🇭🇰_香港_4
   - 🇫🇷_法国
   - 🇫🇷_法国_1
   - 🇫🇷_法国_2
   - 🇫🇷_法国_3
   - 🇫🇷_法国_4
+  - 未知_1
+  - 🇭🇰_香港_5
+  - 🇸🇪_瑞典
   - 🇫🇷_法国_5
   - 🇫🇷_法国_6
   - 🇫🇷_法国_7
   - 🇫🇷_法国_8
   - 🇫🇷_法国_9
   - 🇫🇷_法国_10
-  - 🇸🇪_瑞典
+  - 🇸🇪_瑞典_1
   - 🇫🇷_法国_11
   - 🇫🇷_法国_12
   - 🇫🇷_法国_13
@@ -673,7 +918,6 @@ proxy-groups:
   - 🇫🇷_法国_16
   - 🇫🇷_法国_17
   - 🇫🇷_法国_18
-  - 🇺🇸_美国_5
   - 🇫🇷_法国_19
   - 🇫🇷_法国_20
   - 🇫🇷_法国_21
@@ -687,6 +931,7 @@ proxy-groups:
   - 🇫🇷_法国_29
   - 🇫🇷_法国_30
   - 🇫🇷_法国_31
+  - 未知_2
   - 🇫🇷_法国_32
   - 🇫🇷_法国_33
   - 🇫🇷_法国_34
@@ -696,8 +941,17 @@ proxy-groups:
   - 🇫🇷_法国_38
   - 🇫🇷_法国_39
   - 🇫🇷_法国_40
+  - 🇸🇪_瑞典_2
   - 🇫🇷_法国_41
   - 🇫🇷_法国_42
+  - 🇫🇷_法国_43
+  - 🇫🇷_法国_44
+  - 🇫🇷_法国_45
+  - 🇫🇷_法国_46
+  - 未知_4
+  - 🇸🇪_瑞典_3
+  - 🇸🇪_瑞典_4
+  - 未知_6
   type: select
 rule-providers:
   BanAD:
