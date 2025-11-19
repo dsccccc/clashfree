@@ -95,8 +95,17 @@ proxies:
   udp: true
 - name: '[Trojan] 🇭🇰 香港 电讯盈科有限公司 2'
   password: BxceQaOe
-  port: 2673
+  port: 3127
   server: 116.49.237.130
+  skip-cert-verify: true
+  sni: t.me%2Fripaojiedian
+  tfo: false
+  type: trojan
+  udp: true
+- name: '[Trojan] 🇭🇰 香港 电讯盈科有限公司 3'
+  password: BxceQaOe
+  port: 443
+  server: 58.152.26.173
   skip-cert-verify: true
   sni: t.me%2Fripaojiedian
   tfo: false
@@ -176,28 +185,6 @@ proxies:
   uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
   ws-opts:
     path: /path/1696251522438
-- alterId: 0
-  cipher: auto
-  name: '[VMess] 🇷🇺 俄罗斯 V2CROSS.COM'
-  port: 6506
-  server: 193.124.24.247
-  skip-cert-verify: true
-  tfo: false
-  tls: false
-  type: vmess
-  udp: true
-  uuid: c53d41d1-7d56-43ce-9994-408780c6476a
-- alterId: 0
-  cipher: auto
-  name: '[VMess] 🇷🇺 俄罗斯 V2CROSS.COM 2'
-  port: 6506
-  server: 193.124.24.247
-  skip-cert-verify: true
-  tfo: false
-  tls: false
-  type: vmess
-  udp: true
-  uuid: c53d41d1-7d56-43ce-9994-408780c6476a
 - alterId: 0
   cipher: auto
   name: '[VMess] 🇸🇦 _US_美国->🇸🇦_SA_沙特阿拉伯'
@@ -307,13 +294,12 @@ proxy-groups:
   - '[VMess] 🇬🇧 _US_美国->🇬🇧_GB_英国_2'
   - '[Trojan] 🇭🇰 香港 电讯盈科有限公司'
   - '[Trojan] 🇭🇰 香港 电讯盈科有限公司 2'
+  - '[Trojan] 🇭🇰 香港 电讯盈科有限公司 3'
   - '[VMess] 🇮🇳 _US_美国->🇮🇳_IN_印度_1'
   - '[VMess] 🇮🇳 _US_美国->🇮🇳_IN_印度_2'
   - '[VMess] 🇮🇳 _US_美国->🇮🇳_IN_印度_3'
   - '[VMess] 🇮🇳 _US_美国->🇮🇳_IN_印度_4'
   - '[VMess] 🇳🇱 _US_美国->🇳🇱_NL_荷兰'
-  - '[VMess] 🇷🇺 俄罗斯 V2CROSS.COM'
-  - '[VMess] 🇷🇺 俄罗斯 V2CROSS.COM 2'
   - '[VMess] 🇸🇦 _US_美国->🇸🇦_SA_沙特阿拉伯'
   - '[VMess] 🇺🇸 _US_美国_1'
   - '[VMess] 🇺🇸 _US_美国_2'
@@ -335,13 +321,12 @@ proxy-groups:
   - '[VMess] 🇬🇧 _US_美国->🇬🇧_GB_英国_2'
   - '[Trojan] 🇭🇰 香港 电讯盈科有限公司'
   - '[Trojan] 🇭🇰 香港 电讯盈科有限公司 2'
+  - '[Trojan] 🇭🇰 香港 电讯盈科有限公司 3'
   - '[VMess] 🇮🇳 _US_美国->🇮🇳_IN_印度_1'
   - '[VMess] 🇮🇳 _US_美国->🇮🇳_IN_印度_2'
   - '[VMess] 🇮🇳 _US_美国->🇮🇳_IN_印度_3'
   - '[VMess] 🇮🇳 _US_美国->🇮🇳_IN_印度_4'
   - '[VMess] 🇳🇱 _US_美国->🇳🇱_NL_荷兰'
-  - '[VMess] 🇷🇺 俄罗斯 V2CROSS.COM'
-  - '[VMess] 🇷🇺 俄罗斯 V2CROSS.COM 2'
   - '[VMess] 🇸🇦 _US_美国->🇸🇦_SA_沙特阿拉伯'
   - '[VMess] 🇺🇸 _US_美国_1'
   - '[VMess] 🇺🇸 _US_美国_2'
@@ -363,13 +348,12 @@ proxy-groups:
   - '[VMess] 🇬🇧 _US_美国->🇬🇧_GB_英国_2'
   - '[Trojan] 🇭🇰 香港 电讯盈科有限公司'
   - '[Trojan] 🇭🇰 香港 电讯盈科有限公司 2'
+  - '[Trojan] 🇭🇰 香港 电讯盈科有限公司 3'
   - '[VMess] 🇮🇳 _US_美国->🇮🇳_IN_印度_1'
   - '[VMess] 🇮🇳 _US_美国->🇮🇳_IN_印度_2'
   - '[VMess] 🇮🇳 _US_美国->🇮🇳_IN_印度_3'
   - '[VMess] 🇮🇳 _US_美国->🇮🇳_IN_印度_4'
   - '[VMess] 🇳🇱 _US_美国->🇳🇱_NL_荷兰'
-  - '[VMess] 🇷🇺 俄罗斯 V2CROSS.COM'
-  - '[VMess] 🇷🇺 俄罗斯 V2CROSS.COM 2'
   - '[VMess] 🇸🇦 _US_美国->🇸🇦_SA_沙特阿拉伯'
   - '[VMess] 🇺🇸 _US_美国_1'
   - '[VMess] 🇺🇸 _US_美国_2'
@@ -391,13 +375,12 @@ proxy-groups:
   - '[VMess] 🇬🇧 _US_美国->🇬🇧_GB_英国_2'
   - '[Trojan] 🇭🇰 香港 电讯盈科有限公司'
   - '[Trojan] 🇭🇰 香港 电讯盈科有限公司 2'
+  - '[Trojan] 🇭🇰 香港 电讯盈科有限公司 3'
   - '[VMess] 🇮🇳 _US_美国->🇮🇳_IN_印度_1'
   - '[VMess] 🇮🇳 _US_美国->🇮🇳_IN_印度_2'
   - '[VMess] 🇮🇳 _US_美国->🇮🇳_IN_印度_3'
   - '[VMess] 🇮🇳 _US_美国->🇮🇳_IN_印度_4'
   - '[VMess] 🇳🇱 _US_美国->🇳🇱_NL_荷兰'
-  - '[VMess] 🇷🇺 俄罗斯 V2CROSS.COM'
-  - '[VMess] 🇷🇺 俄罗斯 V2CROSS.COM 2'
   - '[VMess] 🇸🇦 _US_美国->🇸🇦_SA_沙特阿拉伯'
   - '[VMess] 🇺🇸 _US_美国_1'
   - '[VMess] 🇺🇸 _US_美国_2'
@@ -420,13 +403,12 @@ proxy-groups:
   - '[VMess] 🇬🇧 _US_美国->🇬🇧_GB_英国_2'
   - '[Trojan] 🇭🇰 香港 电讯盈科有限公司'
   - '[Trojan] 🇭🇰 香港 电讯盈科有限公司 2'
+  - '[Trojan] 🇭🇰 香港 电讯盈科有限公司 3'
   - '[VMess] 🇮🇳 _US_美国->🇮🇳_IN_印度_1'
   - '[VMess] 🇮🇳 _US_美国->🇮🇳_IN_印度_2'
   - '[VMess] 🇮🇳 _US_美国->🇮🇳_IN_印度_3'
   - '[VMess] 🇮🇳 _US_美国->🇮🇳_IN_印度_4'
   - '[VMess] 🇳🇱 _US_美国->🇳🇱_NL_荷兰'
-  - '[VMess] 🇷🇺 俄罗斯 V2CROSS.COM'
-  - '[VMess] 🇷🇺 俄罗斯 V2CROSS.COM 2'
   - '[VMess] 🇸🇦 _US_美国->🇸🇦_SA_沙特阿拉伯'
   - '[VMess] 🇺🇸 _US_美国_1'
   - '[VMess] 🇺🇸 _US_美国_2'
@@ -449,6 +431,7 @@ proxy-groups:
   - '[VMess] 🇨🇳 _TW_台湾->🇺🇸_US_美国'
   - '[Trojan] 🇭🇰 香港 电讯盈科有限公司'
   - '[Trojan] 🇭🇰 香港 电讯盈科有限公司 2'
+  - '[Trojan] 🇭🇰 香港 电讯盈科有限公司 3'
   type: select
 - name: Ⓜ️ 微软服务
   proxies:
@@ -465,13 +448,12 @@ proxy-groups:
   - '[VMess] 🇬🇧 _US_美国->🇬🇧_GB_英国_2'
   - '[Trojan] 🇭🇰 香港 电讯盈科有限公司'
   - '[Trojan] 🇭🇰 香港 电讯盈科有限公司 2'
+  - '[Trojan] 🇭🇰 香港 电讯盈科有限公司 3'
   - '[VMess] 🇮🇳 _US_美国->🇮🇳_IN_印度_1'
   - '[VMess] 🇮🇳 _US_美国->🇮🇳_IN_印度_2'
   - '[VMess] 🇮🇳 _US_美国->🇮🇳_IN_印度_3'
   - '[VMess] 🇮🇳 _US_美国->🇮🇳_IN_印度_4'
   - '[VMess] 🇳🇱 _US_美国->🇳🇱_NL_荷兰'
-  - '[VMess] 🇷🇺 俄罗斯 V2CROSS.COM'
-  - '[VMess] 🇷🇺 俄罗斯 V2CROSS.COM 2'
   - '[VMess] 🇸🇦 _US_美国->🇸🇦_SA_沙特阿拉伯'
   - '[VMess] 🇺🇸 _US_美国_1'
   - '[VMess] 🇺🇸 _US_美国_2'
@@ -483,6 +465,7 @@ proxy-groups:
   proxies:
   - '[Trojan] 🇭🇰 香港 电讯盈科有限公司'
   - '[Trojan] 🇭🇰 香港 电讯盈科有限公司 2'
+  - '[Trojan] 🇭🇰 香港 电讯盈科有限公司 3'
   type: select
 - name: 🇯🇵 日本
   proxies:
