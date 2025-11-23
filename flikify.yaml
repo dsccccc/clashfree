@@ -106,24 +106,17 @@ proxies:
   type: vmess
   udp: true
   uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
-- name: '[Trojan] 🇭🇰 香港 电讯盈科有限公司'
-  password: BxceQaOe
-  port: 443
-  server: 219.79.165.55
+- alterId: 0
+  cipher: auto
+  name: '[VMess] 🇬🇧 英国 V2CROSS.COM 3'
+  port: 180
+  server: 82.198.246.97
   skip-cert-verify: true
-  sni: t.me%252Fripaojiedian
   tfo: false
-  type: trojan
+  tls: false
+  type: vmess
   udp: true
-- name: '[Trojan] 🇭🇰 香港 电讯盈科有限公司 2'
-  password: BxceQaOe
-  port: 443
-  server: 58.152.25.241
-  skip-cert-verify: true
-  sni: t.me/ripaojiedian
-  tfo: false
-  type: trojan
-  udp: true
+  uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
 - alterId: 0
   cipher: auto
   name: '[VMess] 🇮🇳 _US_美国->🇮🇳_IN_印度_1'
@@ -184,15 +177,6 @@ proxies:
     headers:
       Host: mm3.shabijichang.com
     path: /
-- name: '[Trojan] 🇯🇵 日本 东京Sakura樱花云数据中心'
-  password: BxceQaOe
-  port: 1924
-  server: 160.16.227.93
-  skip-cert-verify: true
-  sni: t.me%252Fripaojiedian
-  tfo: false
-  type: trojan
-  udp: true
 - alterId: 64
   cipher: auto
   name: '[VMess] 🇳🇱 _US_美国->🇳🇱_NL_荷兰'
@@ -297,22 +281,6 @@ proxies:
   uuid: c458695d-6908-45c3-9512-e0c46418454c
   ws-opts:
     path: /
-- alterId: 0
-  cipher: auto
-  name: '[VMess] 🇺🇸 美国 Microsoft数据中心'
-  network: ws
-  port: 443
-  server: west_a.gaogroup.bid
-  skip-cert-verify: true
-  tfo: false
-  tls: true
-  type: vmess
-  udp: true
-  uuid: ef004cfa-b463-4473-97df-4f0da4473ae0
-  ws-opts:
-    headers:
-      Host: west_a.gaogroup.bid
-    path: /ctzxvws
 proxy-groups:
 - name: 🚀 全球互联
   proxies:
@@ -332,13 +300,11 @@ proxy-groups:
   - '[VMess] 🇬🇧 _US_美国->🇬🇧_GB_英国_2'
   - '[VMess] 🇬🇧 英国 V2CROSS.COM'
   - '[VMess] 🇬🇧 英国 V2CROSS.COM 2'
-  - '[Trojan] 🇭🇰 香港 电讯盈科有限公司'
-  - '[Trojan] 🇭🇰 香港 电讯盈科有限公司 2'
+  - '[VMess] 🇬🇧 英国 V2CROSS.COM 3'
   - '[VMess] 🇮🇳 _US_美国->🇮🇳_IN_印度_1'
   - '[VMess] 🇮🇳 _US_美国->🇮🇳_IN_印度_2'
   - '[VMess] 🇮🇳 _US_美国->🇮🇳_IN_印度_3'
   - '[VMess] 🇮🇳 _US_美国->🇮🇳_IN_印度_4'
-  - '[Trojan] 🇯🇵 日本 东京Sakura樱花云数据中心'
   - '[VMess] 🇳🇱 _US_美国->🇳🇱_NL_荷兰'
   - '[VMess] 🇸🇦 _US_美国->🇸🇦_SA_沙特阿拉伯'
   - '[VMess] 🇺🇸 _US_美国_1'
@@ -346,7 +312,6 @@ proxy-groups:
   - '[VMess] 🇺🇸 _US_美国_3'
   - '[VMess] 🇺🇸 _US_美国_4'
   - '[VMess] 🇺🇸 _US_美国_5'
-  - '[VMess] 🇺🇸 美国 Microsoft数据中心'
   type: select
 - name: 🎥 Netflix
   proxies:
@@ -362,13 +327,11 @@ proxy-groups:
   - '[VMess] 🇬🇧 _US_美国->🇬🇧_GB_英国_2'
   - '[VMess] 🇬🇧 英国 V2CROSS.COM'
   - '[VMess] 🇬🇧 英国 V2CROSS.COM 2'
-  - '[Trojan] 🇭🇰 香港 电讯盈科有限公司'
-  - '[Trojan] 🇭🇰 香港 电讯盈科有限公司 2'
+  - '[VMess] 🇬🇧 英国 V2CROSS.COM 3'
   - '[VMess] 🇮🇳 _US_美国->🇮🇳_IN_印度_1'
   - '[VMess] 🇮🇳 _US_美国->🇮🇳_IN_印度_2'
   - '[VMess] 🇮🇳 _US_美国->🇮🇳_IN_印度_3'
   - '[VMess] 🇮🇳 _US_美国->🇮🇳_IN_印度_4'
-  - '[Trojan] 🇯🇵 日本 东京Sakura樱花云数据中心'
   - '[VMess] 🇳🇱 _US_美国->🇳🇱_NL_荷兰'
   - '[VMess] 🇸🇦 _US_美国->🇸🇦_SA_沙特阿拉伯'
   - '[VMess] 🇺🇸 _US_美国_1'
@@ -376,7 +339,6 @@ proxy-groups:
   - '[VMess] 🇺🇸 _US_美国_3'
   - '[VMess] 🇺🇸 _US_美国_4'
   - '[VMess] 🇺🇸 _US_美国_5'
-  - '[VMess] 🇺🇸 美国 Microsoft数据中心'
   type: select
 - name: 📹 Youtube
   proxies:
@@ -392,13 +354,11 @@ proxy-groups:
   - '[VMess] 🇬🇧 _US_美国->🇬🇧_GB_英国_2'
   - '[VMess] 🇬🇧 英国 V2CROSS.COM'
   - '[VMess] 🇬🇧 英国 V2CROSS.COM 2'
-  - '[Trojan] 🇭🇰 香港 电讯盈科有限公司'
-  - '[Trojan] 🇭🇰 香港 电讯盈科有限公司 2'
+  - '[VMess] 🇬🇧 英国 V2CROSS.COM 3'
   - '[VMess] 🇮🇳 _US_美国->🇮🇳_IN_印度_1'
   - '[VMess] 🇮🇳 _US_美国->🇮🇳_IN_印度_2'
   - '[VMess] 🇮🇳 _US_美国->🇮🇳_IN_印度_3'
   - '[VMess] 🇮🇳 _US_美国->🇮🇳_IN_印度_4'
-  - '[Trojan] 🇯🇵 日本 东京Sakura樱花云数据中心'
   - '[VMess] 🇳🇱 _US_美国->🇳🇱_NL_荷兰'
   - '[VMess] 🇸🇦 _US_美国->🇸🇦_SA_沙特阿拉伯'
   - '[VMess] 🇺🇸 _US_美国_1'
@@ -406,7 +366,6 @@ proxy-groups:
   - '[VMess] 🇺🇸 _US_美国_3'
   - '[VMess] 🇺🇸 _US_美国_4'
   - '[VMess] 🇺🇸 _US_美国_5'
-  - '[VMess] 🇺🇸 美国 Microsoft数据中心'
   type: select
 - name: ▶️ Disney+
   proxies:
@@ -422,13 +381,11 @@ proxy-groups:
   - '[VMess] 🇬🇧 _US_美国->🇬🇧_GB_英国_2'
   - '[VMess] 🇬🇧 英国 V2CROSS.COM'
   - '[VMess] 🇬🇧 英国 V2CROSS.COM 2'
-  - '[Trojan] 🇭🇰 香港 电讯盈科有限公司'
-  - '[Trojan] 🇭🇰 香港 电讯盈科有限公司 2'
+  - '[VMess] 🇬🇧 英国 V2CROSS.COM 3'
   - '[VMess] 🇮🇳 _US_美国->🇮🇳_IN_印度_1'
   - '[VMess] 🇮🇳 _US_美国->🇮🇳_IN_印度_2'
   - '[VMess] 🇮🇳 _US_美国->🇮🇳_IN_印度_3'
   - '[VMess] 🇮🇳 _US_美国->🇮🇳_IN_印度_4'
-  - '[Trojan] 🇯🇵 日本 东京Sakura樱花云数据中心'
   - '[VMess] 🇳🇱 _US_美国->🇳🇱_NL_荷兰'
   - '[VMess] 🇸🇦 _US_美国->🇸🇦_SA_沙特阿拉伯'
   - '[VMess] 🇺🇸 _US_美国_1'
@@ -436,7 +393,6 @@ proxy-groups:
   - '[VMess] 🇺🇸 _US_美国_3'
   - '[VMess] 🇺🇸 _US_美国_4'
   - '[VMess] 🇺🇸 _US_美国_5'
-  - '[VMess] 🇺🇸 美国 Microsoft数据中心'
   type: select
 - name: 🌍 国外媒体
   proxies:
@@ -453,13 +409,11 @@ proxy-groups:
   - '[VMess] 🇬🇧 _US_美国->🇬🇧_GB_英国_2'
   - '[VMess] 🇬🇧 英国 V2CROSS.COM'
   - '[VMess] 🇬🇧 英国 V2CROSS.COM 2'
-  - '[Trojan] 🇭🇰 香港 电讯盈科有限公司'
-  - '[Trojan] 🇭🇰 香港 电讯盈科有限公司 2'
+  - '[VMess] 🇬🇧 英国 V2CROSS.COM 3'
   - '[VMess] 🇮🇳 _US_美国->🇮🇳_IN_印度_1'
   - '[VMess] 🇮🇳 _US_美国->🇮🇳_IN_印度_2'
   - '[VMess] 🇮🇳 _US_美国->🇮🇳_IN_印度_3'
   - '[VMess] 🇮🇳 _US_美国->🇮🇳_IN_印度_4'
-  - '[Trojan] 🇯🇵 日本 东京Sakura樱花云数据中心'
   - '[VMess] 🇳🇱 _US_美国->🇳🇱_NL_荷兰'
   - '[VMess] 🇸🇦 _US_美国->🇸🇦_SA_沙特阿拉伯'
   - '[VMess] 🇺🇸 _US_美国_1'
@@ -467,7 +421,6 @@ proxy-groups:
   - '[VMess] 🇺🇸 _US_美国_3'
   - '[VMess] 🇺🇸 _US_美国_4'
   - '[VMess] 🇺🇸 _US_美国_5'
-  - '[VMess] 🇺🇸 美国 Microsoft数据中心'
   type: select
 - name: 📲 Telegram
   proxies:
@@ -482,8 +435,6 @@ proxy-groups:
   proxies:
   - DIRECT
   - '[VMess] 🇨🇳 _TW_台湾->🇺🇸_US_美国'
-  - '[Trojan] 🇭🇰 香港 电讯盈科有限公司'
-  - '[Trojan] 🇭🇰 香港 电讯盈科有限公司 2'
   type: select
 - name: Ⓜ️ 微软服务
   proxies:
@@ -500,13 +451,11 @@ proxy-groups:
   - '[VMess] 🇬🇧 _US_美国->🇬🇧_GB_英国_2'
   - '[VMess] 🇬🇧 英国 V2CROSS.COM'
   - '[VMess] 🇬🇧 英国 V2CROSS.COM 2'
-  - '[Trojan] 🇭🇰 香港 电讯盈科有限公司'
-  - '[Trojan] 🇭🇰 香港 电讯盈科有限公司 2'
+  - '[VMess] 🇬🇧 英国 V2CROSS.COM 3'
   - '[VMess] 🇮🇳 _US_美国->🇮🇳_IN_印度_1'
   - '[VMess] 🇮🇳 _US_美国->🇮🇳_IN_印度_2'
   - '[VMess] 🇮🇳 _US_美国->🇮🇳_IN_印度_3'
   - '[VMess] 🇮🇳 _US_美国->🇮🇳_IN_印度_4'
-  - '[Trojan] 🇯🇵 日本 东京Sakura樱花云数据中心'
   - '[VMess] 🇳🇱 _US_美国->🇳🇱_NL_荷兰'
   - '[VMess] 🇸🇦 _US_美国->🇸🇦_SA_沙特阿拉伯'
   - '[VMess] 🇺🇸 _US_美国_1'
@@ -514,16 +463,14 @@ proxy-groups:
   - '[VMess] 🇺🇸 _US_美国_3'
   - '[VMess] 🇺🇸 _US_美国_4'
   - '[VMess] 🇺🇸 _US_美国_5'
-  - '[VMess] 🇺🇸 美国 Microsoft数据中心'
   type: select
 - name: 🇭🇰 香港
   proxies:
-  - '[Trojan] 🇭🇰 香港 电讯盈科有限公司'
-  - '[Trojan] 🇭🇰 香港 电讯盈科有限公司 2'
+  - DIRECT
   type: select
 - name: 🇯🇵 日本
   proxies:
-  - '[Trojan] 🇯🇵 日本 东京Sakura樱花云数据中心'
+  - DIRECT
   type: select
 - name: 🇺🇲 美国
   proxies:
@@ -542,7 +489,6 @@ proxy-groups:
   - '[VMess] 🇺🇸 _US_美国_3'
   - '[VMess] 🇺🇸 _US_美国_4'
   - '[VMess] 🇺🇸 _US_美国_5'
-  - '[VMess] 🇺🇸 美国 Microsoft数据中心'
   type: select
 - name: 🇹🇼 台湾
   proxies:
