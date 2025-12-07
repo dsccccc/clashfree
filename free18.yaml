@@ -32,585 +32,1416 @@ log-level: info
 mixed-port: 7890
 mode: rule
 proxies:
-- name: 电报群：https://t.me/vvkj11
+- client-fingerprint: chrome
+  encryption: none
+  flow: xtls-rprx-vision
+  name: 🇨🇿_捷克
   network: tcp
-  password: telegram-id-privatevpns
-  port: 22222
-  server: 18.193.90.253
-  skip-cert-verify: true
-  sni: trojan.burgerip.co.uk
-  tls: true
-  type: trojan
-- name: 每天更新，请加电报群防止失联
-  network: tcp
-  password: telegram-id-privatevpns
-  port: 22222
-  server: 52.47.206.247
-  skip-cert-verify: true
-  sni: trojan.burgerip.co.uk
-  tls: true
-  type: trojan
-- encryption: none
-  name: 日期：12-06
-  network: ws
-  port: 443
-  server: 172.66.45.120
-  servername: www.x-aniu-h-k.netlib.re
-  tls: true
-  type: vless
-  uuid: e258977b-e413-4718-a3af-02d75492c349
-  ws-opts:
-    headers:
-      Host: www.x-aniu-h-k.netlib.re
-    path: /?ed=2560
-- encryption: none
-  name: 免费VPN：https://tt.vg/gwaAy
-  network: ws
-  port: 443
-  server: 104.21.30.206
-  servername: www.x-aniu-h-k.netlib.re
-  tls: true
-  type: vless
-  uuid: e258977b-e413-4718-a3af-02d75492c349
-  ws-opts:
-    headers:
-      Host: www.x-aniu-h-k.netlib.re
-    path: /?ed=2560
-- encryption: none
-  name: 未知
-  network: ws
-  port: 443
-  server: 104.18.191.57
-  servername: www.x-aniu-h-k.netlib.re
-  tls: true
-  type: vless
-  uuid: e258977b-e413-4718-a3af-02d75492c349
-  ws-opts:
-    headers:
-      Host: www.x-aniu-h-k.netlib.re
-    path: /?ed=2560
-- encryption: none
-  name: 🇷🇺_俄罗斯
-  network: ws
-  port: 30003
-  server: 46.3.193.14
-  servername: www.x-aniu---jp.netlib.re
-  tls: true
-  type: vless
-  uuid: e258977b-e413-4718-a3af-02d75492c349
-  ws-opts:
-    headers:
-      Host: www.x-aniu---jp.netlib.re
-    path: /?ed=2560
-- encryption: none
-  name: 未知_1
-  network: ws
-  port: 2087
-  server: 162.159.44.148
-  servername: www.x-aniu---jp.netlib.re
-  tls: true
-  type: vless
-  uuid: e258977b-e413-4718-a3af-02d75492c349
-  ws-opts:
-    headers:
-      Host: www.x-aniu---jp.netlib.re
-    path: /?ed=2560
-- encryption: none
-  name: 未知_2
-  network: ws
-  port: 2087
-  server: 162.159.7.100
-  servername: www.x-aniu---jp.netlib.re
-  tls: true
-  type: vless
-  uuid: e258977b-e413-4718-a3af-02d75492c349
-  ws-opts:
-    headers:
-      Host: www.x-aniu---jp.netlib.re
-    path: /?ed=2560
-- encryption: none
-  name: 未知_3
-  network: ws
-  port: 443
-  server: 104.18.79.54
-  servername: www.x-aniu---jp.netlib.re
-  tls: true
-  type: vless
-  uuid: e258977b-e413-4718-a3af-02d75492c349
-  ws-opts:
-    headers:
-      Host: www.x-aniu---jp.netlib.re
-    path: /?ed=2560
-- encryption: none
-  name: 未知_4
-  network: ws
-  port: 443
-  server: 104.21.239.62
-  servername: www.x-aniu---jp.netlib.re
-  tls: true
-  type: vless
-  uuid: e258977b-e413-4718-a3af-02d75492c349
-  ws-opts:
-    headers:
-      Host: www.x-aniu---jp.netlib.re
-    path: /?ed=2560
-- encryption: none
-  name: 未知_5
-  network: ws
-  port: 2087
-  server: 162.159.4.126
-  servername: www.x-aniu---jp.netlib.re
-  tls: true
-  type: vless
-  uuid: e258977b-e413-4718-a3af-02d75492c349
-  ws-opts:
-    headers:
-      Host: www.x-aniu---jp.netlib.re
-    path: /?ed=2560
-- encryption: none
-  name: 未知_6
-  network: ws
-  port: 2087
-  server: 162.159.3.210
-  servername: www.x-aniu-h-k.netlib.re
-  tls: true
-  type: vless
-  uuid: e258977b-e413-4718-a3af-02d75492c349
-  ws-opts:
-    headers:
-      Host: www.x-aniu-h-k.netlib.re
-    path: /?ed=2560
-- encryption: none
-  name: 未知_7
-  network: ws
-  port: 443
-  server: 104.19.173.47
-  servername: www.x-aniu-h-k.netlib.re
-  tls: true
-  type: vless
-  uuid: e258977b-e413-4718-a3af-02d75492c349
-  ws-opts:
-    headers:
-      Host: www.x-aniu-h-k.netlib.re
-    path: /?ed=2560
-- encryption: none
-  name: 🇯🇵_日本
-  network: ws
-  port: 443
-  server: 18.181.50.232
-  servername: www.x-aniu-h-k.netlib.re
-  tls: true
-  type: vless
-  uuid: e258977b-e413-4718-a3af-02d75492c349
-  ws-opts:
-    headers:
-      Host: www.x-aniu-h-k.netlib.re
-    path: /?ed=2560
-- encryption: none
-  name: 未知_8
-  network: ws
-  port: 443
-  server: 104.17.255.9
-  servername: www.x-aniu-h-k.netlib.re
-  tls: true
-  type: vless
-  uuid: e258977b-e413-4718-a3af-02d75492c349
-  ws-opts:
-    headers:
-      Host: www.x-aniu-h-k.netlib.re
-    path: /?ed=2560
-- encryption: none
-  name: 未知_9
-  network: ws
-  port: 2087
-  server: 162.159.38.138
-  servername: www.x-aniu---jp.netlib.re
-  tls: true
-  type: vless
-  uuid: e258977b-e413-4718-a3af-02d75492c349
-  ws-opts:
-    headers:
-      Host: www.x-aniu---jp.netlib.re
-    path: /?ed=2560
-- encryption: none
-  name: 未知_10
-  network: ws
-  port: 443
-  server: 104.16.15.121
-  servername: www.x-aniu---jp.netlib.re
-  tls: true
-  type: vless
-  uuid: e258977b-e413-4718-a3af-02d75492c349
-  ws-opts:
-    headers:
-      Host: www.x-aniu---jp.netlib.re
-    path: /?ed=2560
-- encryption: none
-  name: 未知_11
-  network: ws
-  port: 2096
-  server: x.cf.090227.xyz
-  servername: www.x-aniu-h-k.netlib.re
-  tls: true
-  type: vless
-  uuid: e258977b-e413-4718-a3af-02d75492c349
-  ws-opts:
-    headers:
-      Host: www.x-aniu-h-k.netlib.re
-    path: /?ed=2560
-- encryption: none
-  name: 未知_12
-  network: ws
-  port: 2087
-  server: 162.159.12.249
-  servername: www.x-aniu-h-k.netlib.re
-  tls: true
-  type: vless
-  uuid: e258977b-e413-4718-a3af-02d75492c349
-  ws-opts:
-    headers:
-      Host: www.x-aniu-h-k.netlib.re
-    path: /?ed=2560
-- encryption: none
-  name: 🇺🇸_美国
-  network: ws
   port: 8443
-  server: news.zoom.us
-  servername: premium.vkehi.shop
+  reality-opts:
+    public-key: QjcIcRxF6rLpMImGD9wUYmeftFwpkuwLKm9nChbD50A
+    short-id: 60a0c1f0f4c9ca63
+  server: 194.87.76.147
+  servername: shiftline.xyz
   tls: true
   type: vless
-  uuid: 353103ee-6f14-440b-b57a-b17b1f77155c
-  ws-opts:
-    headers:
-      Host: premium.vkehi.shop
-    path: /
-- encryption: none
-  name: 未知_13
-  network: ws
+  uuid: fdc3a9ca-1b77-4b06-869c-43982db07c9f
+- client-fingerprint: chrome
+  encryption: none
+  network: tcp
+  port: 42275
+  reality-opts:
+    public-key: 5Z8mktBAXgz88xCibv79NncelOS-3WAunfZNKnJRdUM
+    short-id: 08
+  server: wolfy.ufavpn.ru
+  servername: eh.vk.com
+  tls: true
+  type: vless
+  uuid: ded39de0-6d5e-426b-90e8-b7dfeced29b2
+- client-fingerprint: chrome
+  encryption: none
+  network: tcp
+  port: 35728
+  reality-opts:
+    public-key: vhUFNoFcvtZAVMo8y5K5eU2V43m5q6yjmWIhp5RkFng
+    short-id: 69a2
+  server: 178.236.16.98
+  servername: yahoo.com
+  tls: true
+  type: vless
+  uuid: a00d89f6-ab7e-4e30-a5e5-54c701d62c93
+- client-fingerprint: chrome
+  encryption: none
+  flow: xtls-rprx-vision
+  name: 🇱🇧_黎巴嫩
+  network: tcp
+  port: 8443
+  reality-opts:
+    public-key: i1XUXx_YHZJ8LiZG7yGYG-jXr1JHASvat25lf9SmnzM
+    short-id: 5626dfc4162fd4f2
+  server: plr.strelkavpn.ru
+  servername: plr.strelkavpn.ru
+  tls: true
+  type: vless
+  uuid: 0e0df131-29f5-4725-b9a3-7b1a6cac4c95
+- client-fingerprint: chrome
+  encryption: none
+  flow: xtls-rprx-vision
+  name: 🇮🇷_伊朗
+  network: tcp
   port: 443
-  server: 162.159.153.4
-  servername: rAyAn-007.mAxImA.DpDnS.OrG
+  reality-opts:
+    public-key: BkAG_uWeUj7BCHqYjrz1JyH0TMvO_KywubV7WJN17ho
+    short-id: ee6f3e8f44b1f0b6
+  server: 62.60.148.21
+  servername: st.ozone.ru
   tls: true
   type: vless
-  uuid: f2a73750-3087-48ff-a763-1348c15dce68
-  ws-opts:
-    headers:
-      Host: rAyAn-007.mAxImA.DpDnS.OrG
-    path: /?ed=2560
-- encryption: none
-  name: 未知_14
-  network: ws
+  uuid: 39e5cc2f-1294-4a42-bb58-306a8be785e1
+- client-fingerprint: chrome
+  encryption: none
+  flow: xtls-rprx-vision
+  network: tcp
+  port: 8443
+  reality-opts:
+    public-key: QjcIcRxF6rLpMImGD9wUYmeftFwpkuwLKm9nChbD50A
+    short-id: 60a0c1f0f4c9ca63
+  server: yt.connect-iskra.ru
+  servername: shiftline.xyz
+  tls: true
+  type: vless
+  uuid: fdc3a9ca-1b77-4b06-869c-43982db07c9f
+- client-fingerprint: chrome
+  encryption: none
+  network: tcp
+  port: 35728
+  reality-opts:
+    public-key: vhUFNoFcvtZAVMo8y5K5eU2V43m5q6yjmWIhp5RkFng
+    short-id: 69a2
+  server: 178.236.16.98
+  servername: yahoo.com
+  tls: true
+  type: vless
+  uuid: a00d89f6-ab7e-4e30-a5e5-54c701d62c93
+- client-fingerprint: chrome
+  encryption: none
+  network: tcp
+  port: 35728
+  reality-opts:
+    public-key: vhUFNoFcvtZAVMo8y5K5eU2V43m5q6yjmWIhp5RkFng
+    short-id: 69a2
+  server: 178.236.16.98
+  servername: yahoo.com
+  tls: true
+  type: vless
+  uuid: a00d89f6-ab7e-4e30-a5e5-54c701d62c93
+- client-fingerprint: chrome
+  encryption: none
+  flow: xtls-rprx-vision
+  name: 🇮🇷_伊朗_1
+  network: tcp
   port: 443
-  server: 104.21.237.158
-  servername: www.x-aniu---jp.netlib.re
+  reality-opts:
+    public-key: BkAG_uWeUj7BCHqYjrz1JyH0TMvO_KywubV7WJN17ho
+    short-id: ee6f3e8f44b1f0b6
+  server: 62.60.148.21
+  servername: st.ozone.ru
   tls: true
   type: vless
-  uuid: e258977b-e413-4718-a3af-02d75492c349
-  ws-opts:
-    headers:
-      Host: www.x-aniu---jp.netlib.re
-    path: /?ed=2560
-- encryption: none
+  uuid: 39e5cc2f-1294-4a42-bb58-306a8be785e1
+- client-fingerprint: chrome
+  encryption: none
+  flow: xtls-rprx-vision
+  name: 🇺🇸_美国
+  network: tcp
+  port: 443
+  reality-opts:
+    public-key: fPSR5GZpxhOV6Rh7VzMtS4AeRN7ipyNX4waG9JzJzxQ
+    short-id: 21181028b56c8702
+  server: 84.32.64.39
+  servername: www.apple.com
+  tls: true
+  type: vless
+  uuid: 793099c5-0712-4ea0-bbe1-455da88fc671
+- client-fingerprint: chrome
+  encryption: none
+  flow: xtls-rprx-vision
+  name: 🇮🇷_伊朗_2
+  network: tcp
+  port: 443
+  reality-opts:
+    public-key: BkAG_uWeUj7BCHqYjrz1JyH0TMvO_KywubV7WJN17ho
+    short-id: ee6f3e8f44b1f0b6
+  server: 62.60.148.21
+  servername: st.ozone.ru
+  tls: true
+  type: vless
+  uuid: 39e5cc2f-1294-4a42-bb58-306a8be785e1
+- client-fingerprint: chrome
+  encryption: none
+  flow: xtls-rprx-vision
+  name: 🇱🇧_黎巴嫩_1
+  network: tcp
+  port: 8443
+  reality-opts:
+    public-key: i1XUXx_YHZJ8LiZG7yGYG-jXr1JHASvat25lf9SmnzM
+    short-id: 5626dfc4162fd4f2
+  server: plr.strelkavpn.ru
+  servername: plr.strelkavpn.ru
+  tls: true
+  type: vless
+  uuid: 0e0df131-29f5-4725-b9a3-7b1a6cac4c95
+- client-fingerprint: chrome
+  encryption: none
+  flow: xtls-rprx-vision
+  name: 🇮🇷_伊朗_3
+  network: tcp
+  port: 443
+  reality-opts:
+    public-key: BkAG_uWeUj7BCHqYjrz1JyH0TMvO_KywubV7WJN17ho
+    short-id: ee6f3e8f44b1f0b6
+  server: 62.60.148.21
+  servername: st.ozone.ru
+  tls: true
+  type: vless
+  uuid: 39e5cc2f-1294-4a42-bb58-306a8be785e1
+- client-fingerprint: chrome
+  encryption: none
+  network: tcp
+  port: 35728
+  reality-opts:
+    public-key: vhUFNoFcvtZAVMo8y5K5eU2V43m5q6yjmWIhp5RkFng
+    short-id: 69a2
+  server: 178.236.16.98
+  servername: yahoo.com
+  tls: true
+  type: vless
+  uuid: a00d89f6-ab7e-4e30-a5e5-54c701d62c93
+- client-fingerprint: chrome
+  encryption: none
+  network: tcp
+  port: 52900
+  reality-opts:
+    public-key: AjYSCSFHfqOg-NbP_ngiRvJkKNKZXuHNDa1sJd4TRRQ
+    short-id: 1fbc
+  server: 62.113.42.65
+  servername: ozon.ru
+  tls: true
+  type: vless
+  uuid: 97e7c83c-9346-49b4-85a5-1e3bbf7488b9
+- client-fingerprint: chrome
+  encryption: none
+  flow: xtls-rprx-vision
+  name: 🇦🇹_奥地利
+  network: tcp
+  port: 443
+  reality-opts:
+    public-key: DJ1l1bgvwpj-SoHuC6eLVfzd3rp1zQmCV76fdVazMgc
+    short-id: 173c58
+    spider-x: /
+  server: lifestealer.fonixapp.org
+  servername: configuration.apple.com
+  tls: true
+  type: vless
+  uuid: e3af49ba-6a41-4fa1-8f21-f40d1f154c68
+- client-fingerprint: firefox
+  encryption: none
   name: 🇺🇸_美国_1
+  network: tcp
+  port: 10001
+  reality-opts:
+    public-key: kKX1o7FhJLyDaVE6sqXUcYpUIuFUgij_ueRYc_E4JhM
+    short-id: 1a24af87
+  server: 172.234.130.82
+  servername: yahoo.com
+  tls: true
+  type: vless
+  uuid: 53cd8178-2ee6-43d9-a2a7-881f287fd408
+- client-fingerprint: chrome
+  encryption: none
+  network: tcp
+  port: 35728
+  reality-opts:
+    public-key: vhUFNoFcvtZAVMo8y5K5eU2V43m5q6yjmWIhp5RkFng
+    short-id: 69a2
+  server: 178.236.16.98
+  servername: yahoo.com
+  tls: true
+  type: vless
+  uuid: a00d89f6-ab7e-4e30-a5e5-54c701d62c93
+- client-fingerprint: chrome
+  encryption: none
+  flow: xtls-rprx-vision
+  name: 🇦🇹_奥地利_1
+  network: tcp
+  port: 443
+  reality-opts:
+    public-key: MrCEmqtF6MdAfyvwu7VWipCvi_8P0RjI8TF571XT6l0
+    short-id: 209f
+    spider-x: /
+  server: greenwolf.fonixapp.org
+  servername: fonts.gstatic.com
+  tls: true
+  type: vless
+  uuid: 9fe667f5-ffea-4272-a0b6-3abd73941c52
+- client-fingerprint: chrome
+  encryption: none
+  network: tcp
+  port: 42275
+  reality-opts:
+    public-key: 5Z8mktBAXgz88xCibv79NncelOS-3WAunfZNKnJRdUM
+    short-id: 08
+  server: wolfy.ufavpn.ru
+  servername: eh.vk.com
+  tls: true
+  type: vless
+  uuid: ded39de0-6d5e-426b-90e8-b7dfeced29b2
+- client-fingerprint: chrome
+  encryption: none
+  flow: xtls-rprx-vision
+  name: 🇱🇧_黎巴嫩_2
+  network: tcp
+  port: 8443
+  reality-opts:
+    public-key: i1XUXx_YHZJ8LiZG7yGYG-jXr1JHASvat25lf9SmnzM
+    short-id: 5626dfc4162fd4f2
+  server: plr.strelkavpn.ru
+  servername: plr.strelkavpn.ru
+  tls: true
+  type: vless
+  uuid: 0e0df131-29f5-4725-b9a3-7b1a6cac4c95
+- client-fingerprint: chrome
+  encryption: none
+  network: tcp
+  port: 52900
+  reality-opts:
+    public-key: AjYSCSFHfqOg-NbP_ngiRvJkKNKZXuHNDa1sJd4TRRQ
+    short-id: 1fbc
+  server: wolfy.ufavpn.ru
+  servername: ozon.ru
+  tls: true
+  type: vless
+  uuid: 97e7c83c-9346-49b4-85a5-1e3bbf7488b9
+- client-fingerprint: chrome
+  encryption: none
+  network: tcp
+  port: 42275
+  reality-opts:
+    public-key: 5Z8mktBAXgz88xCibv79NncelOS-3WAunfZNKnJRdUM
+    short-id: 08
+  server: wolfy.ufavpn.ru
+  servername: eh.vk.com
+  tls: true
+  type: vless
+  uuid: ded39de0-6d5e-426b-90e8-b7dfeced29b2
+- client-fingerprint: chrome
+  encryption: none
+  flow: xtls-rprx-vision
+  name: 🇮🇷_伊朗_4
+  network: tcp
+  port: 443
+  reality-opts:
+    public-key: BkAG_uWeUj7BCHqYjrz1JyH0TMvO_KywubV7WJN17ho
+    short-id: ee6f3e8f44b1f0b6
+  server: 62.60.148.21
+  servername: st.ozone.ru
+  tls: true
+  type: vless
+  uuid: 39e5cc2f-1294-4a42-bb58-306a8be785e1
+- client-fingerprint: chrome
+  encryption: none
+  flow: xtls-rprx-vision
+  name: 🇺🇸_美国_2
+  network: tcp
+  port: 443
+  reality-opts:
+    public-key: fPSR5GZpxhOV6Rh7VzMtS4AeRN7ipyNX4waG9JzJzxQ
+    short-id: 21181028b56c8702
+  server: 84.32.64.39
+  servername: www.apple.com
+  tls: true
+  type: vless
+  uuid: 793099c5-0712-4ea0-bbe1-455da88fc671
+- client-fingerprint: chrome
+  encryption: none
+  flow: xtls-rprx-vision
+  network: tcp
+  port: 443
+  reality-opts:
+    public-key: v5phvruLtbRahHL0xJtl77s4sXHiuSHzUTPq2znyCF4
+    short-id: f5b76860a3c9c3f5
+  server: bg.fasssst.ru
+  servername: bg.fasssst.ru
+  tls: true
+  type: vless
+  uuid: c1853115-eb6b-4592-b01f-05037d33505d
+- client-fingerprint: qq
+  encryption: none
+  flow: xtls-rprx-vision
+  network: tcp
+  port: 8443
+  reality-opts:
+    public-key: QjcIcRxF6rLpMImGD9wUYmeftFwpkuwLKm9nChbD50A
+    short-id: 60a0c1f0f4c9ca63
+  server: yt.connect-iskra.ru
+  servername: shiftline.xyz
+  tls: true
+  type: vless
+  uuid: fdc3a9ca-1b77-4b06-869c-43982db07c9f
+- client-fingerprint: chrome
+  encryption: none
+  network: tcp
+  port: 52900
+  reality-opts:
+    public-key: AjYSCSFHfqOg-NbP_ngiRvJkKNKZXuHNDa1sJd4TRRQ
+    short-id: 1fbc
+  server: wolfy.ufavpn.ru
+  servername: ozon.ru
+  tls: true
+  type: vless
+  uuid: 97e7c83c-9346-49b4-85a5-1e3bbf7488b9
+- client-fingerprint: chrome
+  encryption: none
+  network: tcp
+  port: 42275
+  reality-opts:
+    public-key: 5Z8mktBAXgz88xCibv79NncelOS-3WAunfZNKnJRdUM
+    short-id: 08
+  server: wolfy.ufavpn.ru
+  servername: eh.vk.com
+  tls: true
+  type: vless
+  uuid: ded39de0-6d5e-426b-90e8-b7dfeced29b2
+- client-fingerprint: chrome
+  encryption: none
+  network: tcp
+  port: 42275
+  reality-opts:
+    public-key: 5Z8mktBAXgz88xCibv79NncelOS-3WAunfZNKnJRdUM
+    short-id: 08
+  server: 62.113.42.65
+  servername: eh.vk.com
+  tls: true
+  type: vless
+  uuid: ded39de0-6d5e-426b-90e8-b7dfeced29b2
+- client-fingerprint: chrome
+  encryption: none
+  network: tcp
+  port: 52900
+  reality-opts:
+    public-key: AjYSCSFHfqOg-NbP_ngiRvJkKNKZXuHNDa1sJd4TRRQ
+    short-id: 1fbc
+  server: wolfy.ufavpn.ru
+  servername: ozon.ru
+  tls: true
+  type: vless
+  uuid: 97e7c83c-9346-49b4-85a5-1e3bbf7488b9
+- client-fingerprint: qq
+  encryption: none
+  flow: xtls-rprx-vision
+  network: tcp
+  port: 8443
+  reality-opts:
+    public-key: QjcIcRxF6rLpMImGD9wUYmeftFwpkuwLKm9nChbD50A
+    short-id: 60a0c1f0f4c9ca63
+  server: yt.connect-iskra.ru
+  servername: shiftline.xyz
+  tls: true
+  type: vless
+  uuid: fdc3a9ca-1b77-4b06-869c-43982db07c9f
+- client-fingerprint: chrome
+  encryption: none
+  network: tcp
+  port: 52900
+  reality-opts:
+    public-key: AjYSCSFHfqOg-NbP_ngiRvJkKNKZXuHNDa1sJd4TRRQ
+    short-id: 1fbc
+  server: 62.113.42.65
+  servername: ozon.ru
+  tls: true
+  type: vless
+  uuid: 97e7c83c-9346-49b4-85a5-1e3bbf7488b9
+- client-fingerprint: chrome
+  encryption: none
+  network: tcp
+  port: 42275
+  reality-opts:
+    public-key: 5Z8mktBAXgz88xCibv79NncelOS-3WAunfZNKnJRdUM
+    short-id: 08
+  server: wolfy.ufavpn.ru
+  servername: eh.vk.com
+  tls: true
+  type: vless
+  uuid: ded39de0-6d5e-426b-90e8-b7dfeced29b2
+- client-fingerprint: firefox
+  encryption: none
+  name: 🇺🇸_美国_3
+  network: tcp
+  port: 10001
+  reality-opts:
+    public-key: kKX1o7FhJLyDaVE6sqXUcYpUIuFUgij_ueRYc_E4JhM
+    short-id: 1a24af87
+  server: 172.234.130.82
+  servername: yahoo.com
+  tls: true
+  type: vless
+  uuid: 53cd8178-2ee6-43d9-a2a7-881f287fd408
+- client-fingerprint: chrome
+  encryption: none
+  flow: xtls-rprx-vision
+  name: 🇮🇷_伊朗_5
+  network: tcp
+  port: 443
+  reality-opts:
+    public-key: BkAG_uWeUj7BCHqYjrz1JyH0TMvO_KywubV7WJN17ho
+    short-id: ee6f3e8f44b1f0b6
+  server: 62.60.148.21
+  servername: st.ozone.ru
+  tls: true
+  type: vless
+  uuid: 39e5cc2f-1294-4a42-bb58-306a8be785e1
+- client-fingerprint: random
+  encryption: none
+  flow: xtls-rprx-vision
+  name: 🇳🇱_荷兰
+  network: tcp
+  port: 8443
+  reality-opts:
+    public-key: CmG1fB3Ztbyt2-CpJkL1hQmPk9ywpMFnIVT5L08GOT4
+    short-id: 6a3fcffa50bffa
+  server: msk.stat-ozon.ru
+  servername: www.ozon.ru
+  tls: true
+  type: vless
+  uuid: 09a8d899-6f08-4379-8270-f3834d91e358
+- client-fingerprint: random
+  encryption: none
+  flow: xtls-rprx-vision
+  name: 🇳🇱_荷兰_1
+  network: tcp
+  port: 8443
+  reality-opts:
+    public-key: CmG1fB3Ztbyt2-CpJkL1hQmPk9ywpMFnIVT5L08GOT4
+    short-id: 6a3fcffa50bffa
+  server: msk.stat-ozon.ru
+  servername: www.ozon.ru
+  tls: true
+  type: vless
+  uuid: 09a8d899-6f08-4379-8270-f3834d91e358
+- client-fingerprint: chrome
+  encryption: none
+  flow: xtls-rprx-vision
+  name: 🇯🇵_日本
+  network: tcp
+  port: 39975
+  reality-opts:
+    public-key: qhTzYYIgBzDLNYR79oxftqdo1kzL-1_hGJKfqrOliCY
+  server: 116.80.58.239
+  servername: cloudcircus.jp
+  tls: true
+  type: vless
+  uuid: 15b84012-d261-4b4c-807a-061bb4a901fd
+- client-fingerprint: chrome
+  encryption: none
+  flow: xtls-rprx-vision
+  name: 🇮🇷_伊朗_6
+  network: tcp
+  port: 443
+  reality-opts:
+    public-key: BkAG_uWeUj7BCHqYjrz1JyH0TMvO_KywubV7WJN17ho
+    short-id: ee6f3e8f44b1f0b6
+  server: 62.60.148.21
+  servername: st.ozone.ru
+  tls: true
+  type: vless
+  uuid: 39e5cc2f-1294-4a42-bb58-306a8be785e1
+- client-fingerprint: chrome
+  encryption: none
+  network: tcp
+  port: 42275
+  reality-opts:
+    public-key: 5Z8mktBAXgz88xCibv79NncelOS-3WAunfZNKnJRdUM
+    short-id: 08
+  server: wolfy.ufavpn.ru
+  servername: eh.vk.com
+  tls: true
+  type: vless
+  uuid: ded39de0-6d5e-426b-90e8-b7dfeced29b2
+- client-fingerprint: chrome
+  encryption: none
+  flow: xtls-rprx-vision
+  name: 🇮🇱_以色列
+  network: tcp
+  port: 443
+  reality-opts:
+    public-key: YVDo7U4O-AT2fa5H9E7hyYHKgfZd1vB6UdbAf2ggWQE
+    short-id: 55e6af1a35e64a98
+  server: ilta-wzxrxkdhbjpnprhkkpplsjwawhssvollvxzdhqshiqckwdgrdm.orbnet.xyz
+  servername: i2pd.website
+  tls: true
+  type: vless
+  uuid: 0e8a6896-ad90-4a3b-89a3-77d64aa409e2
+- client-fingerprint: chrome
+  encryption: none
+  network: tcp
+  port: 42275
+  reality-opts:
+    public-key: 5Z8mktBAXgz88xCibv79NncelOS-3WAunfZNKnJRdUM
+    short-id: 08
+  server: 62.113.42.65
+  servername: eh.vk.com
+  tls: true
+  type: vless
+  uuid: ded39de0-6d5e-426b-90e8-b7dfeced29b2
+- client-fingerprint: chrome
+  encryption: none
+  flow: xtls-rprx-vision
+  name: 🇮🇱_以色列_1
+  network: tcp
+  port: 443
+  reality-opts:
+    public-key: YVDo7U4O-AT2fa5H9E7hyYHKgfZd1vB6UdbAf2ggWQE
+    short-id: 55e6af1a35e64a98
+  server: ilta-wzxrxkdhbjpnprhkkpplsjwawhssvollvxzdhqshiqckwdgrdm.orbnet.xyz
+  servername: i2pd.website
+  tls: true
+  type: vless
+  uuid: 0e8a6896-ad90-4a3b-89a3-77d64aa409e2
+- client-fingerprint: chrome
+  encryption: none
+  flow: xtls-rprx-vision
+  name: 🇮🇱_以色列_2
+  network: tcp
+  port: 443
+  reality-opts:
+    public-key: YVDo7U4O-AT2fa5H9E7hyYHKgfZd1vB6UdbAf2ggWQE
+    short-id: 55e6af1a35e64a98
+  server: ilta-wzxrxkdhbjpnprhkkpplsjwawhssvollvxzdhqshiqckwdgrdm.orbnet.xyz
+  servername: i2pd.website
+  tls: true
+  type: vless
+  uuid: 0e8a6896-ad90-4a3b-89a3-77d64aa409e2
+- client-fingerprint: chrome
+  encryption: none
+  flow: xtls-rprx-vision
+  name: 🇱🇧_黎巴嫩_3
+  network: tcp
+  port: 8443
+  reality-opts:
+    public-key: i1XUXx_YHZJ8LiZG7yGYG-jXr1JHASvat25lf9SmnzM
+    short-id: 34966c9aff53ec89
+  server: plr.strelkavpn.ru
+  servername: plr.strelkavpn.ru
+  tls: true
+  type: vless
+  uuid: 267d94c8-2fe6-4216-9ff1-4461b4e3b793
+- client-fingerprint: chrome
+  encryption: none
+  network: tcp
+  port: 35728
+  reality-opts:
+    public-key: vhUFNoFcvtZAVMo8y5K5eU2V43m5q6yjmWIhp5RkFng
+    short-id: 69a2
+  server: 178.236.16.98
+  servername: yahoo.com
+  tls: true
+  type: vless
+  uuid: a00d89f6-ab7e-4e30-a5e5-54c701d62c93
+- client-fingerprint: chrome
+  encryption: none
+  network: tcp
+  port: 42275
+  reality-opts:
+    public-key: 5Z8mktBAXgz88xCibv79NncelOS-3WAunfZNKnJRdUM
+    short-id: 08
+  server: wolfy.ufavpn.ru
+  servername: eh.vk.com
+  tls: true
+  type: vless
+  uuid: ded39de0-6d5e-426b-90e8-b7dfeced29b2
+- client-fingerprint: chrome
+  encryption: none
+  network: tcp
+  port: 42275
+  reality-opts:
+    public-key: 5Z8mktBAXgz88xCibv79NncelOS-3WAunfZNKnJRdUM
+    short-id: 08
+  server: wolfy.ufavpn.ru
+  servername: eh.vk.com
+  tls: true
+  type: vless
+  uuid: ded39de0-6d5e-426b-90e8-b7dfeced29b2
+- client-fingerprint: chrome
+  encryption: none
+  network: tcp
+  port: 42275
+  reality-opts:
+    public-key: 5Z8mktBAXgz88xCibv79NncelOS-3WAunfZNKnJRdUM
+    short-id: 08
+  server: wolfy.ufavpn.ru
+  servername: eh.vk.com
+  tls: true
+  type: vless
+  uuid: ded39de0-6d5e-426b-90e8-b7dfeced29b2
+- client-fingerprint: chrome
+  encryption: none
+  flow: xtls-rprx-vision
+  network: tcp
+  port: 8443
+  reality-opts:
+    public-key: QjcIcRxF6rLpMImGD9wUYmeftFwpkuwLKm9nChbD50A
+    short-id: 60a0c1f0f4c9ca63
+  server: yt.connect-iskra.ru
+  servername: shiftline.xyz
+  tls: true
+  type: vless
+  uuid: fdc3a9ca-1b77-4b06-869c-43982db07c9f
+- client-fingerprint: qq
+  encryption: none
+  flow: xtls-rprx-vision
+  network: tcp
+  port: 8443
+  reality-opts:
+    public-key: QjcIcRxF6rLpMImGD9wUYmeftFwpkuwLKm9nChbD50A
+    short-id: 60a0c1f0f4c9ca63
+  server: yt.connect-iskra.ru
+  servername: shiftline.xyz
+  tls: true
+  type: vless
+  uuid: fdc3a9ca-1b77-4b06-869c-43982db07c9f
+- client-fingerprint: chrome
+  encryption: none
+  network: tcp
+  port: 42275
+  reality-opts:
+    public-key: 5Z8mktBAXgz88xCibv79NncelOS-3WAunfZNKnJRdUM
+    short-id: 08
+  server: wolfy.ufavpn.ru
+  servername: eh.vk.com
+  tls: true
+  type: vless
+  uuid: ded39de0-6d5e-426b-90e8-b7dfeced29b2
+- client-fingerprint: chrome
+  encryption: none
+  flow: xtls-rprx-vision
+  name: 🇮🇷_伊朗_7
+  network: tcp
+  port: 443
+  reality-opts:
+    public-key: BkAG_uWeUj7BCHqYjrz1JyH0TMvO_KywubV7WJN17ho
+    short-id: ee6f3e8f44b1f0b6
+  server: 62.60.148.21
+  servername: st.ozone.ru
+  tls: true
+  type: vless
+  uuid: 39e5cc2f-1294-4a42-bb58-306a8be785e1
+- client-fingerprint: chrome
+  encryption: none
+  flow: xtls-rprx-vision
+  network: tcp
+  port: 443
+  reality-opts:
+    public-key: v5phvruLtbRahHL0xJtl77s4sXHiuSHzUTPq2znyCF4
+    short-id: f5b76860a3c9c3f5
+  server: bg.fasssst.ru
+  servername: bg.fasssst.ru
+  tls: true
+  type: vless
+  uuid: c1853115-eb6b-4592-b01f-05037d33505d
+- client-fingerprint: chrome
+  encryption: none
+  flow: xtls-rprx-vision
+  network: tcp
+  port: 443
+  reality-opts:
+    public-key: v5phvruLtbRahHL0xJtl77s4sXHiuSHzUTPq2znyCF4
+    short-id: f5b76860a3c9c3f5
+  server: bg.fasssst.ru
+  servername: bg.fasssst.ru
+  tls: true
+  type: vless
+  uuid: c1853115-eb6b-4592-b01f-05037d33505d
+- client-fingerprint: chrome
+  encryption: none
+  flow: xtls-rprx-vision
+  name: 🇨🇦_加拿大
+  network: tcp
+  port: 8443
+  reality-opts:
+    public-key: IBvNLerjNLpF4OpUX-wGJp8YDZrnKoh-gEItUDNT_Bg
+  server: ca.griffon-guard.com
+  servername: apple.com
+  tls: true
+  type: vless
+  uuid: 6a753f74-b279-44d7-a442-b5cbc425569f
+- client-fingerprint: chrome
+  encryption: none
+  flow: xtls-rprx-vision
+  name: 🇹🇷_土耳其
+  network: tcp
+  port: 443
+  reality-opts:
+    public-key: eS0NqJCAo6Jn4PuU3nU4A5D7RyNbn3WyhipXViddnzI
+    short-id: '5457'
+    spider-x: /
+  server: istanbul.fonixapp.org
+  servername: fonts.gstatic.com
+  tls: true
+  type: vless
+  uuid: cb7188cf-2c3a-43a5-af90-d893922e4917
+- client-fingerprint: chrome
+  encryption: none
+  flow: xtls-rprx-vision
+  network: tcp
+  port: 8443
+  reality-opts:
+    public-key: QjcIcRxF6rLpMImGD9wUYmeftFwpkuwLKm9nChbD50A
+    short-id: 60a0c1f0f4c9ca63
+  server: yt.connect-iskra.ru
+  servername: shiftline.xyz
+  tls: true
+  type: vless
+  uuid: fdc3a9ca-1b77-4b06-869c-43982db07c9f
+- client-fingerprint: chrome
+  encryption: none
+  name: 🇮🇱_以色列_3
+  network: tcp
+  port: 24170
+  reality-opts:
+    public-key: VsmNi1ZMXVOwhCWpbCp51w-D_DzrxWX4jgfpcU0S9G4
+    short-id: 2fb2106a629b
+    spider-x: /
+  server: 185.136.132.171
+  servername: speedtest.net
+  tls: true
+  type: vless
+  uuid: fe21e399-ec6f-4cb5-8441-e911178665b1
+- client-fingerprint: chrome
+  encryption: none
+  flow: xtls-rprx-vision
+  name: 🇦🇹_奥地利_2
+  network: tcp
+  port: 443
+  reality-opts:
+    public-key: WeNlf_hPscBLSwtg1PgOmurK1f7VyQSNPmOYeG0wIQw
+    short-id: 6590cb
+    spider-x: /
+  server: antimage.fonixapp.org
+  servername: ajax.cloudflare.com
+  tls: true
+  type: vless
+  uuid: f81d5b9b-c5b7-46cb-8710-0cf41ab33570
+- client-fingerprint: chrome
+  encryption: none
+  flow: xtls-rprx-vision
+  name: 🇩🇪_德国
+  network: tcp
+  port: 443
+  reality-opts:
+    public-key: bzcnjzOZCB5YwZnRVwYxaixLwFe_ENWZZeXSXckazg8
+    short-id: 2cd1
+    spider-x: /
+  server: tidehunter.fonixapp.org
+  servername: update.googleapis.com
+  tls: true
+  type: vless
+  uuid: bbb7f486-84f9-477e-a6ae-80bff136e59d
+- client-fingerprint: chrome
+  encryption: none
+  flow: xtls-rprx-vision
+  name: 🇪🇸_西班牙
+  network: tcp
+  port: 443
+  reality-opts:
+    public-key: HO6w1kV0-nVwjEbAsPFfzRc_plvZjIXB9Ut11owI3Ec
+    short-id: 066b
+    spider-x: /
+  server: bountyhunter.fonixapp.org
+  servername: fonts.gstatic.com
+  tls: true
+  type: vless
+  uuid: 7392bb3b-7b2c-4eba-b399-b5e9534c12b0
+- client-fingerprint: qq
+  encryption: none
+  flow: xtls-rprx-vision
+  name: 🇨🇿_捷克_1
+  network: tcp
+  port: 8443
+  reality-opts:
+    public-key: QjcIcRxF6rLpMImGD9wUYmeftFwpkuwLKm9nChbD50A
+    short-id: 60a0c1f0f4c9ca63
+  server: 194.87.76.23
+  servername: shiftline.xyz
+  tls: true
+  type: vless
+  uuid: fdc3a9ca-1b77-4b06-869c-43982db07c9f
+- client-fingerprint: chrome
+  encryption: none
+  flow: xtls-rprx-vision
+  network: tcp
+  port: 443
+  reality-opts:
+    public-key: v5phvruLtbRahHL0xJtl77s4sXHiuSHzUTPq2znyCF4
+    short-id: f5b76860a3c9c3f5
+  server: bg.fasssst.ru
+  servername: bg.fasssst.ru
+  tls: true
+  type: vless
+  uuid: c1853115-eb6b-4592-b01f-05037d33505d
+- client-fingerprint: chrome
+  encryption: none
+  flow: xtls-rprx-vision
+  name: 🇺🇸_美国_4
+  network: tcp
+  port: 8443
+  reality-opts:
+    public-key: IBvNLerjNLpF4OpUX-wGJp8YDZrnKoh-gEItUDNT_Bg
+  server: nl.griffon-guard.com
+  servername: apple.com
+  tls: true
+  type: vless
+  uuid: 6a753f74-b279-44d7-a442-b5cbc425569f
+- client-fingerprint: random
+  encryption: none
+  flow: xtls-rprx-vision
+  name: 🇳🇱_荷兰_2
+  network: tcp
+  port: 8443
+  reality-opts:
+    public-key: CmG1fB3Ztbyt2-CpJkL1hQmPk9ywpMFnIVT5L08GOT4
+    short-id: 6a3fcffa50bffa
+  server: msk.stat-ozon.ru
+  servername: www.ozon.ru
+  tls: true
+  type: vless
+  uuid: 09a8d899-6f08-4379-8270-f3834d91e358
+- client-fingerprint: chrome
+  encryption: none
+  flow: xtls-rprx-vision
+  name: 🇱🇧_黎巴嫩_4
+  network: tcp
+  port: 8443
+  reality-opts:
+    public-key: i1XUXx_YHZJ8LiZG7yGYG-jXr1JHASvat25lf9SmnzM
+    short-id: 5626dfc4162fd4f2
+  server: plr.strelkavpn.ru
+  servername: plr.strelkavpn.ru
+  tls: true
+  type: vless
+  uuid: 0e0df131-29f5-4725-b9a3-7b1a6cac4c95
+- client-fingerprint: chrome
+  encryption: none
+  flow: xtls-rprx-vision
+  name: 🇯🇵_日本_1
+  network: tcp
+  port: 39975
+  reality-opts:
+    public-key: qhTzYYIgBzDLNYR79oxftqdo1kzL-1_hGJKfqrOliCY
+  server: 116.80.58.239
+  servername: cloudcircus.jp
+  tls: true
+  type: vless
+  uuid: 15b84012-d261-4b4c-807a-061bb4a901fd
+- client-fingerprint: chrome
+  encryption: none
+  flow: xtls-rprx-vision
+  name: 🇮🇷_伊朗_8
+  network: tcp
+  port: 443
+  reality-opts:
+    public-key: BkAG_uWeUj7BCHqYjrz1JyH0TMvO_KywubV7WJN17ho
+    short-id: ee6f3e8f44b1f0b6
+  server: 62.60.148.21
+  servername: st.ozone.ru
+  tls: true
+  type: vless
+  uuid: 39e5cc2f-1294-4a42-bb58-306a8be785e1
+- client-fingerprint: chrome
+  encryption: none
+  flow: xtls-rprx-vision
+  name: 🇮🇷_伊朗_9
+  network: tcp
+  port: 443
+  reality-opts:
+    public-key: BkAG_uWeUj7BCHqYjrz1JyH0TMvO_KywubV7WJN17ho
+    short-id: ee6f3e8f44b1f0b6
+  server: 62.60.148.21
+  servername: st.ozone.ru
+  tls: true
+  type: vless
+  uuid: 39e5cc2f-1294-4a42-bb58-306a8be785e1
+- client-fingerprint: qq
+  encryption: none
+  flow: xtls-rprx-vision
+  network: tcp
+  port: 8443
+  reality-opts:
+    public-key: QjcIcRxF6rLpMImGD9wUYmeftFwpkuwLKm9nChbD50A
+    short-id: 60a0c1f0f4c9ca63
+  server: yt.connect-iskra.ru
+  servername: shiftline.xyz
+  tls: true
+  type: vless
+  uuid: fdc3a9ca-1b77-4b06-869c-43982db07c9f
+- client-fingerprint: firefox
+  encryption: none
+  name: 🇺🇸_美国_5
+  network: tcp
+  port: 10001
+  reality-opts:
+    public-key: kKX1o7FhJLyDaVE6sqXUcYpUIuFUgij_ueRYc_E4JhM
+    short-id: 1a24af87
+  server: 172.234.130.82
+  servername: yahoo.com
+  tls: true
+  type: vless
+  uuid: 53cd8178-2ee6-43d9-a2a7-881f287fd408
+- name: 🇨🇳_中国
+  network: tcp
+  password: Q9gofGxinwLv0TfDfdKmdttdPGxrhKQS
+  port: 5223
+  server: jp3.t.sgateway.link
+  sni: pod-jp-z1.psusercontent.com
+  tls: true
+  type: trojan
+- client-fingerprint: chrome
+  encryption: none
+  network: tcp
+  port: 42275
+  reality-opts:
+    public-key: 5Z8mktBAXgz88xCibv79NncelOS-3WAunfZNKnJRdUM
+    short-id: 08
+  server: wolfy.ufavpn.ru
+  servername: eh.vk.com
+  tls: true
+  type: vless
+  uuid: ded39de0-6d5e-426b-90e8-b7dfeced29b2
+- encryption: none
+  name: 🇹🇷_土耳其_1
+  network: tcp
+  port: 4432
+  server: 45.252.181.100
+  servername: divarcdn.com
+  type: vless
+  uuid: d35b1f7a-08d6-47ca-9501-5f6c8d35d89e
+- client-fingerprint: chrome
+  encryption: none
+  network: tcp
+  port: 42275
+  reality-opts:
+    public-key: 5Z8mktBAXgz88xCibv79NncelOS-3WAunfZNKnJRdUM
+    short-id: 08
+  server: wolfy.ufavpn.ru
+  servername: eh.vk.com
+  tls: true
+  type: vless
+  uuid: ded39de0-6d5e-426b-90e8-b7dfeced29b2
+- client-fingerprint: chrome
+  encryption: none
+  flow: xtls-rprx-vision
+  name: 🇱🇧_黎巴嫩_5
+  network: tcp
+  port: 8443
+  reality-opts:
+    public-key: i1XUXx_YHZJ8LiZG7yGYG-jXr1JHASvat25lf9SmnzM
+    short-id: 5626dfc4162fd4f2
+  server: plr.strelkavpn.ru
+  servername: plr.strelkavpn.ru
+  tls: true
+  type: vless
+  uuid: 0e0df131-29f5-4725-b9a3-7b1a6cac4c95
+- client-fingerprint: chrome
+  encryption: none
+  flow: xtls-rprx-vision
+  name: 🇮🇱_以色列_4
+  network: tcp
+  port: 443
+  reality-opts:
+    public-key: YVDo7U4O-AT2fa5H9E7hyYHKgfZd1vB6UdbAf2ggWQE
+    short-id: 55e6af1a35e64a98
+  server: ilta-wzxrxkdhbjpnprhkkpplsjwawhssvollvxzdhqshiqckwdgrdm.orbnet.xyz
+  servername: i2pd.website
+  tls: true
+  type: vless
+  uuid: 0e8a6896-ad90-4a3b-89a3-77d64aa409e2
+- client-fingerprint: chrome
+  encryption: none
+  network: tcp
+  port: 52900
+  reality-opts:
+    public-key: AjYSCSFHfqOg-NbP_ngiRvJkKNKZXuHNDa1sJd4TRRQ
+    short-id: 1fbc
+  server: wolfy.ufavpn.ru
+  servername: ozon.ru
+  tls: true
+  type: vless
+  uuid: 97e7c83c-9346-49b4-85a5-1e3bbf7488b9
+- client-fingerprint: chrome
+  encryption: none
+  network: tcp
+  port: 42275
+  reality-opts:
+    public-key: 5Z8mktBAXgz88xCibv79NncelOS-3WAunfZNKnJRdUM
+    short-id: 08
+  server: wolfy.ufavpn.ru
+  servername: eh.vk.com
+  tls: true
+  type: vless
+  uuid: ded39de0-6d5e-426b-90e8-b7dfeced29b2
+- client-fingerprint: chrome
+  encryption: none
+  flow: xtls-rprx-vision
+  name: 🇮🇷_伊朗_10
+  network: tcp
+  port: 443
+  reality-opts:
+    public-key: BkAG_uWeUj7BCHqYjrz1JyH0TMvO_KywubV7WJN17ho
+    short-id: ee6f3e8f44b1f0b6
+  server: 62.60.148.21
+  servername: st.ozone.ru
+  tls: true
+  type: vless
+  uuid: 39e5cc2f-1294-4a42-bb58-306a8be785e1
+- client-fingerprint: chrome
+  encryption: none
+  network: tcp
+  port: 42275
+  reality-opts:
+    public-key: 5Z8mktBAXgz88xCibv79NncelOS-3WAunfZNKnJRdUM
+    short-id: 08
+  server: wolfy.ufavpn.ru
+  servername: eh.vk.com
+  tls: true
+  type: vless
+  uuid: ded39de0-6d5e-426b-90e8-b7dfeced29b2
+- alterId: 0
+  cipher: auto
+  name: 🇨🇳_中国_1
+  network: tcp
+  port: 30812
+  server: v12.hdacd.com
+  servername: n1744454498.lie5d.cyou
+  type: vmess
+  uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
+- alterId: 0
+  cipher: auto
+  name: 🇨🇳_中国_2
+  network: tcp
+  port: 30812
+  server: v12.hdacd.com
+  servername: green2.cdntencentmusic.com
+  type: vmess
+  uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
+- alterId: 0
+  cipher: auto
+  name: 🇬🇧_英国
+  network: tcp
+  port: 180
+  server: 82.198.246.97
+  servername: www.alibaba.com
+  type: vmess
+  uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
+- alterId: 0
+  cipher: auto
+  name: 🇨🇳_中国_3
+  network: tcp
+  port: 30812
+  server: v12.hdacd.com
+  servername: t.me/ripaojiedian
+  type: vmess
+  uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
+- alterId: 0
+  cipher: auto
+  name: 🇨🇳_中国_4
+  network: tcp
+  port: 30830
+  server: v30.hdacd.com
+  servername: v30.hdacd.com
+  type: vmess
+  uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
+- alterId: 0
+  cipher: auto
+  name: 🇨🇳_中国_5
+  network: tcp
+  port: 30830
+  server: v30.hdacd.com
+  type: vmess
+  uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
+- alterId: 0
+  cipher: auto
+  name: 🇬🇧_英国_1
+  network: tcp
+  port: 180
+  server: 82.198.246.97
+  servername: broadcastlv.chat.bilibili.com
+  type: vmess
+  uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
+- alterId: 0
+  cipher: auto
+  name: 🇨🇳_中国_6
+  network: tcp
+  port: 30812
+  server: v12.hdacd.com
+  servername: t.me%2Fripaojiedian
+  type: vmess
+  uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
+- name: 🇭🇰_香港
+  network: tcp
+  password: 79314e99f0a473fe86efc7827942ad00
+  port: 443
+  server: 58.152.110.154
+  sni: www.nintendogames.net
+  tls: true
+  type: trojan
+- alterId: 0
+  cipher: auto
+  name: 🇬🇧_英国_2
+  network: tcp
+  port: 180
+  server: 82.198.246.97
+  type: vmess
+  uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
+- alterId: 0
+  cipher: auto
+  name: 🇬🇧_英国_3
+  network: tcp
+  port: 180
+  server: 82.198.246.97
+  servername: tianjiu.pages.dev
+  type: vmess
+  uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
+- alterId: 0
+  cipher: auto
+  name: 🇰🇷_韩国
+  network: tcp
+  port: 80
+  server: 152.70.92.69
+  type: vmess
+  uuid: bb9c3993-a4b9-4dad-aeb9-ac86371ae68b
+- alterId: 0
+  cipher: auto
+  name: 🇬🇧_英国_4
+  network: tcp
+  port: 180
+  server: 82.198.246.97
+  servername: joss.gpj1.web.id
+  type: vmess
+  uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
+- alterId: 0
+  cipher: auto
+  name: 🇬🇧_英国_5
+  network: tcp
+  port: 180
+  server: 82.198.246.97
+  servername: joss.gpj4.web.id
+  type: vmess
+  uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
+- alterId: 0
+  cipher: auto
+  name: 🇬🇧_英国_6
+  network: tcp
+  port: 180
+  server: 82.198.246.97
+  servername: trojan.burgerip.co.uk
+  type: vmess
+  uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
+- alterId: 0
+  cipher: auto
+  name: 🇬🇧_英国_7
+  network: tcp
+  port: 180
+  server: 82.198.246.97
+  servername: n1744454498.lie5d.cyou
+  type: vmess
+  uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
+- alterId: 0
+  cipher: auto
+  name: 🇬🇧_英国_8
+  network: tcp
+  port: 180
+  server: 82.198.246.97
+  servername: hk.nbee.pp.ua
+  type: vmess
+  uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
+- alterId: 0
+  cipher: auto
+  name: 🇬🇧_英国_9
+  network: tcp
+  port: 180
+  server: 82.198.246.97
+  servername: jp1.sstank.top
+  type: vmess
+  uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
+- alterId: 0
+  cipher: auto
+  name: 🇬🇧_英国_10
+  network: tcp
+  port: 180
+  server: 82.198.246.97
+  type: vmess
+  uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
+- alterId: 0
+  cipher: auto
+  name: 🇨🇳_中国_7
+  network: tcp
+  port: 30812
+  server: v12.hdacd.com
+  servername: 4bbf82ea-t0bog0-ta64ri-1qzi1.hk3.p5pv.com
+  type: vmess
+  uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
+- alterId: 0
+  cipher: auto
+  name: 🇨🇳_中国_8
+  network: tcp
+  port: 30812
+  server: v12.hdacd.com
+  servername: v12.hdacd.com
+  type: vmess
+  uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
+- alterId: 0
+  cipher: auto
+  name: 🇨🇳_中国_9
+  network: tcp
+  port: 30812
+  server: v12.hdacd.com
+  servername: 7b1dbdd1-t6ngg0-t917sa-12ach.hk3.p5pv.com
+  type: vmess
+  uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
+- alterId: 2
+  cipher: auto
+  name: 🇨🇳_中国_10
+  network: tcp
+  port: 30833
+  server: v33.hdacd.com
+  type: vmess
+  uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
+- encryption: none
+  name: 🇹🇷_土耳其_2
+  network: tcp
+  port: 4432
+  server: 45.252.181.100
+  servername: divarcdn.com
+  type: vless
+  uuid: d35b1f7a-08d6-47ca-9501-5f6c8d35d89e
+- alterId: 0
+  cipher: auto
+  name: 🇨🇳_中国_11
+  network: tcp
+  port: 30812
+  server: v12.hdacd.com
+  servername: 5e4f31de-sv0xs0-sv0wpw-17xo8.hk3.p5pv.com
+  type: vmess
+  uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
+- alterId: 0
+  cipher: auto
+  name: 🇰🇷_韩国_1
+  network: tcp
+  port: 80
+  server: 152.70.92.69
+  servername: 152.70.92.69
+  type: vmess
+  uuid: bb9c3993-a4b9-4dad-aeb9-ac86371ae68b
+- alterId: 0
+  cipher: auto
+  name: 🇨🇳_中国_12
+  network: tcp
+  port: 30812
+  server: v12.hdacd.com
+  servername: vc.fly.dev
+  type: vmess
+  uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
+- alterId: 0
+  cipher: auto
+  name: 🇨🇳_中国_13
+  network: tcp
+  port: 30812
+  server: v12.hdacd.com
+  type: vmess
+  uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
+- client-fingerprint: chrome
+  encryption: none
+  flow: xtls-rprx-vision
+  name: 🇺🇸_美国_6
+  network: tcp
+  port: 8443
+  reality-opts:
+    public-key: IBvNLerjNLpF4OpUX-wGJp8YDZrnKoh-gEItUDNT_Bg
+  server: de.griffon-guard.com
+  servername: apple.com
+  tls: true
+  type: vless
+  uuid: 6a753f74-b279-44d7-a442-b5cbc425569f
+- client-fingerprint: chrome
+  encryption: none
+  flow: xtls-rprx-vision
+  name: 🇺🇸_美国_7
+  network: tcp
+  port: 8443
+  reality-opts:
+    public-key: IBvNLerjNLpF4OpUX-wGJp8YDZrnKoh-gEItUDNT_Bg
+  server: nl.griffon-guard.com
+  servername: apple.com
+  tls: true
+  type: vless
+  uuid: 6a753f74-b279-44d7-a442-b5cbc425569f
+- client-fingerprint: chrome
+  encryption: none
+  flow: xtls-rprx-vision
+  name: 🇫🇮_芬兰
+  network: tcp
+  port: 31059
+  reality-opts:
+    public-key: E3mBvyOYAP-ZbRGTMq4zEIqjjvs-kmoKE0IHNOivxXU
+    short-id: dcdc0de6347dfe07
+  server: soft95.fastzeronet.fun
+  servername: sw.fastzero.ir
+  tls: true
+  type: vless
+  uuid: 48c06be0-91da-4eec-aae3-9e099aa79d5e
+- client-fingerprint: chrome
+  encryption: none
+  network: tcp
+  port: 52900
+  reality-opts:
+    public-key: AjYSCSFHfqOg-NbP_ngiRvJkKNKZXuHNDa1sJd4TRRQ
+    short-id: 1fbc
+  server: 62.113.42.65
+  servername: ozon.ru
+  tls: true
+  type: vless
+  uuid: 97e7c83c-9346-49b4-85a5-1e3bbf7488b9
+- client-fingerprint: chrome
+  encryption: none
+  flow: xtls-rprx-vision
+  name: 🇹🇷_土耳其_3
+  network: tcp
+  port: 443
+  reality-opts:
+    public-key: eS0NqJCAo6Jn4PuU3nU4A5D7RyNbn3WyhipXViddnzI
+    short-id: '5457'
+    spider-x: /
+  server: istanbul.fonixapp.org
+  servername: fonts.gstatic.com
+  tls: true
+  type: vless
+  uuid: cb7188cf-2c3a-43a5-af90-d893922e4917
+- client-fingerprint: chrome
+  encryption: none
+  name: 🇸🇬_新加坡
   network: ws
-  port: 1028
-  server: 154.17.24.128
-  servername: ennyfe.zipgd3vx91o.ddns-ip.net
+  port: 42841
+  server: 43.165.190.11
+  servername: mot.morisi.ggff.net
   tls: true
   type: vless
   uuid: 00000000-0000-4000-8000-000000000000
   ws-opts:
     headers:
-      Host: ennyfe.zipgd3vx91o.ddns-ip.net
+      Host: mot.morisi.ggff.net
     path: /@Marisa_kristi
-- encryption: none
-  name: 🇺🇸_美国_2
-  network: ws
-  port: 443
-  server: www.shopify.com
-  servername: www.x-aniu---jp.netlib.re
-  tls: true
-  type: vless
-  uuid: e258977b-e413-4718-a3af-02d75492c349
-  ws-opts:
-    headers:
-      Host: www.x-aniu---jp.netlib.re
-    path: /?ed=2560
-- encryption: none
-  name: 未知_15
-  network: ws
-  port: 443
-  server: 104.21.31.17
-  servername: www.x-aniu-h-k.netlib.re
-  tls: true
-  type: vless
-  uuid: e258977b-e413-4718-a3af-02d75492c349
-  ws-opts:
-    headers:
-      Host: www.x-aniu-h-k.netlib.re
-    path: /?ed=2560
-- encryption: none
-  name: 🇯🇵_日本_1
-  network: ws
-  port: 443
-  server: 116.206.93.131
-  servername: www.x-aniu-h-k.netlib.re
-  tls: true
-  type: vless
-  uuid: e258977b-e413-4718-a3af-02d75492c349
-  ws-opts:
-    headers:
-      Host: www.x-aniu-h-k.netlib.re
-    path: /?ed=2560
-- encryption: none
-  name: 未知_16
-  network: ws
-  port: 443
-  server: 104.21.238.187
-  servername: www.x-aniu-h-k.netlib.re
-  tls: true
-  type: vless
-  uuid: e258977b-e413-4718-a3af-02d75492c349
-  ws-opts:
-    headers:
-      Host: www.x-aniu-h-k.netlib.re
-    path: /?ed=2560
-- encryption: none
-  name: 🇭🇰_香港
-  network: ws
-  port: 443
-  server: 43.161.222.233
-  servername: www.x-aniu---jp.netlib.re
-  tls: true
-  type: vless
-  uuid: e258977b-e413-4718-a3af-02d75492c349
-  ws-opts:
-    headers:
-      Host: www.x-aniu---jp.netlib.re
-    path: /?ed=2560
-- encryption: none
-  name: 🇭🇰_香港_1
-  network: ws
-  port: 443
-  server: 34.92.187.216
-  servername: www.x-aniu-h-k.netlib.re
-  tls: true
-  type: vless
-  uuid: e258977b-e413-4718-a3af-02d75492c349
-  ws-opts:
-    headers:
-      Host: www.x-aniu-h-k.netlib.re
-    path: /?ed=2560
-- encryption: none
-  name: 未知_17
-  network: ws
-  port: 2087
-  server: 162.159.19.30
-  servername: www.x-aniu-h-k.netlib.re
-  tls: true
-  type: vless
-  uuid: e258977b-e413-4718-a3af-02d75492c349
-  ws-opts:
-    headers:
-      Host: www.x-aniu-h-k.netlib.re
-    path: /?ed=2560
-- encryption: none
-  name: 未知_18
-  network: ws
-  port: 2087
-  server: download.yunzhongzhuan.com
-  servername: www.x-aniu---jp.netlib.re
-  tls: true
-  type: vless
-  uuid: e258977b-e413-4718-a3af-02d75492c349
-  ws-opts:
-    headers:
-      Host: www.x-aniu---jp.netlib.re
-    path: /?ed=2560
-- encryption: none
-  name: 未知_19
-  network: ws
-  port: 443
-  server: 104.16.45.135
-  servername: www.x-aniu-h-k.netlib.re
-  tls: true
-  type: vless
-  uuid: e258977b-e413-4718-a3af-02d75492c349
-  ws-opts:
-    headers:
-      Host: www.x-aniu-h-k.netlib.re
-    path: /?ed=2560
-- encryption: none
-  name: 🇺🇸_美国_3
-  network: ws
-  port: 8443
-  server: 154.21.203.45
-  servername: www.x-aniu-h-k.netlib.re
-  tls: true
-  type: vless
-  uuid: e258977b-e413-4718-a3af-02d75492c349
-  ws-opts:
-    headers:
-      Host: www.x-aniu-h-k.netlib.re
-    path: /?ed=2560
-- encryption: none
-  name: 🇺🇸_美国_4
-  network: ws
-  port: 2096
-  server: news.zoom.us
-  servername: lordgrim.qzz.io
-  tls: true
-  type: vless
-  uuid: 57c35f0a-8c6c-4eb1-8a91-35f133de432c
-  ws-opts:
-    headers:
-      Host: lordgrim.qzz.io
-    path: /
-- encryption: none
-  name: 🇯🇵_日本_2
-  network: ws
-  port: 443
-  server: 54.248.56.163
-  servername: www.x-aniu-h-k.netlib.re
-  tls: true
-  type: vless
-  uuid: e258977b-e413-4718-a3af-02d75492c349
-  ws-opts:
-    headers:
-      Host: www.x-aniu-h-k.netlib.re
-    path: /?ed=2560
-- encryption: none
-  name: 未知_20
-  network: ws
-  port: 443
-  server: 104.17.254.251
-  servername: www.x-aniu-h-k.netlib.re
-  tls: true
-  type: vless
-  uuid: e258977b-e413-4718-a3af-02d75492c349
-  ws-opts:
-    headers:
-      Host: www.x-aniu-h-k.netlib.re
-    path: /?ed=2560
-- encryption: none
-  name: 🇸🇬_新加坡
-  network: ws
-  port: 443
-  server: 20.247.137.183
-  servername: www.x-aniu---jp.netlib.re
-  tls: true
-  type: vless
-  uuid: e258977b-e413-4718-a3af-02d75492c349
-  ws-opts:
-    headers:
-      Host: www.x-aniu---jp.netlib.re
-    path: /?ed=2560
-- encryption: none
-  name: 未知_21
-  network: ws
-  port: 8443
-  server: www.udacity.com
-  servername: www.x-aniu-h-k.netlib.re
-  tls: true
-  type: vless
-  uuid: e258977b-e413-4718-a3af-02d75492c349
-  ws-opts:
-    headers:
-      Host: www.x-aniu-h-k.netlib.re
-    path: /?ed=2560
-- encryption: none
-  name: 🇺🇸_美国_5
-  network: ws
-  port: 443
-  server: 172.67.174.112
-  servername: www.x-aniu-h-k.netlib.re
-  tls: true
-  type: vless
-  uuid: e258977b-e413-4718-a3af-02d75492c349
-  ws-opts:
-    headers:
-      Host: www.x-aniu-h-k.netlib.re
-    path: /?ed=2560
-- encryption: none
-  name: 🇷🇺_俄罗斯_1
-  network: ws
-  port: 9999
-  server: 46.3.193.56
-  servername: www.x-aniu-h-k.netlib.re
-  tls: true
-  type: vless
-  uuid: e258977b-e413-4718-a3af-02d75492c349
-  ws-opts:
-    headers:
-      Host: www.x-aniu-h-k.netlib.re
-    path: /?ed=2560
-- encryption: none
-  name: 🇺🇸_美国_6
-  network: ws
-  port: 2087
-  server: 172.64.229.167
-  servername: www.x-aniu---jp.netlib.re
-  tls: true
-  type: vless
-  uuid: e258977b-e413-4718-a3af-02d75492c349
-  ws-opts:
-    headers:
-      Host: www.x-aniu---jp.netlib.re
-    path: /?ed=2560
-- encryption: none
-  name: 未知_22
-  network: ws
-  port: 443
-  server: 104.18.63.16
-  servername: www.x-aniu-h-k.netlib.re
-  tls: true
-  type: vless
-  uuid: e258977b-e413-4718-a3af-02d75492c349
-  ws-opts:
-    headers:
-      Host: www.x-aniu-h-k.netlib.re
-    path: /?ed=2560
-- encryption: none
-  name: 未知_23
-  network: ws
-  port: 443
-  server: 104.18.77.53
-  servername: www.x-aniu-h-k.netlib.re
-  tls: true
-  type: vless
-  uuid: e258977b-e413-4718-a3af-02d75492c349
-  ws-opts:
-    headers:
-      Host: www.x-aniu-h-k.netlib.re
-    path: /?ed=2560
-- encryption: none
-  name: 🇺🇸_美国_7
-  network: ws
-  port: 443
-  server: 69.84.182.13
-  servername: fr-1-fr-1.aiopen.sbs
-  tls: true
-  type: vless
-  uuid: 04f3ed37-bfd4-46d3-b4eb-e62d1f32b6f9
-  ws-opts:
-    headers:
-      Host: fr-1-fr-1.aiopen.sbs
-    path: /kbjc/fr1
-- encryption: none
-  name: 未知_24
-  network: ws
-  port: 443
-  server: 104.21.30.29
-  servername: www.x-aniu---jp.netlib.re
-  tls: true
-  type: vless
-  uuid: e258977b-e413-4718-a3af-02d75492c349
-  ws-opts:
-    headers:
-      Host: www.x-aniu---jp.netlib.re
-    path: /?ed=2560
-- encryption: none
-  name: 🇬🇧_英国
+- client-fingerprint: chrome
+  encryption: none
+  name: 🇬🇧_英国_11
   network: ws
   port: 700
   server: 185.138.164.228
@@ -623,98 +1454,34 @@ proxies:
       Host: zybs.worker.ddns-ip.net
     path: /@Marisa_kristi
 - encryption: none
-  name: 未知_25
-  network: ws
-  port: 443
-  server: 104.17.254.180
-  servername: www.x-aniu---jp.netlib.re
-  tls: true
-  type: vless
-  uuid: e258977b-e413-4718-a3af-02d75492c349
-  ws-opts:
-    headers:
-      Host: www.x-aniu---jp.netlib.re
-    path: /?ed=2560
-- encryption: none
-  name: 🇺🇸_美国_8
-  network: ws
-  port: 2087
-  server: 172.64.50.7
-  servername: www.x-aniu---jp.netlib.re
-  tls: true
-  type: vless
-  uuid: e258977b-e413-4718-a3af-02d75492c349
-  ws-opts:
-    headers:
-      Host: www.x-aniu---jp.netlib.re
-    path: /?ed=2560
-- encryption: none
-  name: 未知_26
-  network: ws
-  port: 443
-  server: 104.17.254.180
-  servername: www.x-aniu---jp.netlib.re
-  tls: true
-  type: vless
-  uuid: e258977b-e413-4718-a3af-02d75492c349
-  ws-opts:
-    headers:
-      Host: www.x-aniu---jp.netlib.re
-    path: /?ed=2560
-- encryption: none
-  name: 🇺🇸_美国_9
-  network: ws
-  port: 2087
-  server: 172.64.50.7
-  servername: www.x-aniu---jp.netlib.re
-  tls: true
-  type: vless
-  uuid: e258977b-e413-4718-a3af-02d75492c349
-  ws-opts:
-    headers:
-      Host: www.x-aniu---jp.netlib.re
-    path: /?ed=2560
-- encryption: none
-  name: 🇺🇸_美国_10
-  network: ws
-  port: 2087
-  server: 172.64.35.201
-  servername: www.x-aniu---jp.netlib.re
-  tls: true
-  type: vless
-  uuid: e258977b-e413-4718-a3af-02d75492c349
-  ws-opts:
-    headers:
-      Host: www.x-aniu---jp.netlib.re
-    path: /?ed=2560
-- encryption: none
-  name: 🇺🇸_美国_11
-  network: ws
-  port: 443
-  server: 172.67.79.85
-  servername: www.x-aniu---jp.netlib.re
-  tls: true
-  type: vless
-  uuid: e258977b-e413-4718-a3af-02d75492c349
-  ws-opts:
-    headers:
-      Host: www.x-aniu---jp.netlib.re
-    path: /?ed=2560
-- encryption: none
-  name: 未知_27
-  network: ws
-  port: 443
-  server: 104.18.15.207
-  servername: www.x-aniu---jp.netlib.re
-  tls: true
-  type: vless
-  uuid: e258977b-e413-4718-a3af-02d75492c349
-  ws-opts:
-    headers:
-      Host: www.x-aniu---jp.netlib.re
-    path: /?ed=2560
-- encryption: none
   name: 🇸🇬_新加坡_1
+  network: ws
+  port: 42841
+  server: 43.165.190.11
+  servername: mot.luyuju.dpdns.org
+  tls: true
+  type: vless
+  uuid: 00000000-0000-4000-8000-000000000000
+  ws-opts:
+    headers:
+      Host: mot.luyuju.dpdns.org
+    path: /@Marisa_kristi
+- encryption: none
+  name: 🇰🇷_韩国_2
+  network: ws
+  port: 18788
+  server: 112.186.67.102
+  servername: mot.luyuju.dpdns.org
+  tls: true
+  type: vless
+  uuid: 00000000-0000-4000-8000-000000000000
+  ws-opts:
+    headers:
+      Host: mot.luyuju.dpdns.org
+    path: /@Marisa_kristi
+- client-fingerprint: chrome
+  encryption: none
+  name: 🇸🇬_新加坡_2
   network: ws
   port: 42841
   server: 43.165.190.11
@@ -726,86 +1493,138 @@ proxies:
     headers:
       Host: mot.morisi.ggff.net
     path: /@Marisa_kristi
-- encryption: none
-  name: 🇭🇰_香港_2
+- client-fingerprint: chrome
+  encryption: none
+  name: 🇬🇧_英国_12
   network: ws
-  port: 443
-  server: 8.218.189.27
-  servername: www.x-aniu-h-k.netlib.re
+  port: 700
+  server: 185.138.164.228
+  servername: zybs.worker.ddns-ip.net
   tls: true
   type: vless
-  uuid: e258977b-e413-4718-a3af-02d75492c349
+  uuid: 00000000-0000-4000-8000-000000000000
   ws-opts:
     headers:
-      Host: www.x-aniu-h-k.netlib.re
-    path: /?ed=2560
+      Host: zybs.worker.ddns-ip.net
+    path: /@Marisa_kristi
 - encryption: none
-  name: 🇭🇰_香港_3
+  name: 🇸🇬_新加坡_3
   network: ws
-  port: 443
-  server: 8.212.57.67
-  servername: www.x-aniu-h-k.netlib.re
+  port: 42841
+  server: 43.165.190.11
+  servername: mot.luyuju.dpdns.org
   tls: true
   type: vless
-  uuid: e258977b-e413-4718-a3af-02d75492c349
+  uuid: 00000000-0000-4000-8000-000000000000
   ws-opts:
     headers:
-      Host: www.x-aniu-h-k.netlib.re
-    path: /?ed=2560
+      Host: mot.luyuju.dpdns.org
+    path: /@Marisa_kristi
 - encryption: none
-  name: 🇯🇵_日本_3
-  network: ws
-  port: 443
-  server: 35.73.93.31
-  servername: www.x-aniu---jp.netlib.re
-  tls: true
-  type: vless
-  uuid: e258977b-e413-4718-a3af-02d75492c349
-  ws-opts:
-    headers:
-      Host: www.x-aniu---jp.netlib.re
-    path: /?ed=2560
-- encryption: none
-  name: 🇰🇷_韩国
-  network: ws
-  port: 50001
-  server: 175.205.95.168
-  servername: act12.sni565.netlib.re
-  tls: true
-  type: vless
-  uuid: 69310d96-7045-c206-a2d0-f8ae6e49b726
-  ws-opts:
-    headers:
-      Host: act12.sni565.netlib.re
-    path: /proxyip=tw.sni2025.netlib.re
-- encryption: none
-  name: 🇺🇸_美国_12
-  network: ws
-  port: 10210
-  server: 154.21.85.156
-  servername: act12.sni565.netlib.re
-  tls: true
-  type: vless
-  uuid: 69310d96-7045-c206-a2d0-f8ae6e49b726
-  ws-opts:
-    headers:
-      Host: act12.sni565.netlib.re
-    path: /proxyip=tw.sni2025.netlib.re
-- encryption: none
-  name: 未知_28
+  name: 🇺🇸_美国_8
   network: ws
   port: 2087
-  server: 162.159.62.132
-  servername: www.x-aniu---jp.netlib.re
+  server: yg12.ygkkk.dpdns.org
+  servername: yongge.xiaoli.xyz
   tls: true
   type: vless
-  uuid: e258977b-e413-4718-a3af-02d75492c349
+  uuid: a346a6cc-5252-405f-a011-6115c19d869d
   ws-opts:
     headers:
-      Host: www.x-aniu---jp.netlib.re
+      Host: yongge.xiaoli.xyz
     path: /?ed=2560
+- alterId: 0
+  cipher: auto
+  name: 🇫🇷_法国
+  network: ws
+  port: 44579
+  server: 2001:bc8:32d7:302::10
+  servername: 2001:bc8:32d7:302::10
+  type: vmess
+  uuid: 8e34e170-13ae-4892-9d20-05962acc9f84
+  ws-opts:
+    headers:
+      Host: 2001:bc8:32d7:302::10
+    path: /?ed=2048
 - encryption: none
-  name: 🇺🇸_美国_13
+  name: 🏳️_未知
+  network: ws
+  port: 39738
+  server: 210.87.111.61
+  servername: vless3.datatestvless.click
+  tls: true
+  type: vless
+  uuid: aa7f42cc-616f-4550-9a87-4b85bb409121
+  ws-opts:
+    headers:
+      Host: vless3.datatestvless.click
+    path: /
+- encryption: none
+  name: 🏳️_未知_1
+  network: ws
+  port: 39738
+  server: 210.87.111.61
+  servername: vless3.datatestvless.click
+  tls: true
+  type: vless
+  uuid: aa7f42cc-616f-4550-9a87-4b85bb409121
+  ws-opts:
+    headers:
+      Host: vless3.datatestvless.click
+    path: /?ed=2560&telegram@wangcai2
+- encryption: none
+  name: 🇺🇸_美国_9
+  network: ws
+  port: 80
+  server: 14.102.228.75
+  servername: ov-canada1.09vpn.com
+  type: vless
+  uuid: b49d8a13-12f6-4613-bb0d-3e2f6244f29c
+  ws-opts:
+    headers:
+      Host: ov-canada1.09vpn.com
+    path: /vless/
+- encryption: none
+  name: 未知
+  network: ws
+  port: 80
+  server: www.speedtest.net
+  servername: www.speedtest.net
+  type: vless
+  uuid: 026d15a6-0b97-4883-a229-ec4325afb0de
+  ws-opts:
+    headers:
+      Host: 023.electrocellco-cf-023.workers.dev
+    path: /eyJqdW5rIjoiV25Ed09oeVp4TU8iLCJwcm90b2NvbCI6InZsIiwibW9kZSI6InByb3h5aXAiLCJwYW5lbElQcyI6W119?ed=2560
+- encryption: none
+  name: 🏳️_未知_2
+  network: ws
+  port: 39738
+  server: 210.87.111.61
+  servername: vless3.datatestvless.click
+  tls: true
+  type: vless
+  uuid: aa7f42cc-616f-4550-9a87-4b85bb409121
+  ws-opts:
+    headers:
+      Host: vless3.datatestvless.click
+    path: /?ed=2560&telegram@freecodes
+- alterId: 32
+  cipher: auto
+  name: 🇺🇸_美国_10
+  network: ws
+  port: 443
+  server: vc.fly.dev
+  servername: vc.fly.dev
+  tls: true
+  type: vmess
+  uuid: 35379219-6535-4f2e-a4fe-3e44f61e0eee
+  ws-opts:
+    headers:
+      Host: vc.fly.dev
+    path: /vc
+- encryption: none
+  name: 🇺🇸_美国_11
   network: ws
   port: 2087
   server: 172.64.144.36
@@ -817,24 +1636,50 @@ proxies:
     headers:
       Host: www.x-aniu-h-k.netlib.re
     path: /?ed=2560
-- encryption: none
-  name: 未知_29
+- alterId: 0
+  cipher: auto
+  name: 🇫🇷_法国_1
   network: ws
-  port: 443
-  server: 104.21.30.124
-  servername: www.x-aniu-s-g.netlib.re
+  port: 44579
+  server: 2001:bc8:32d7:302::10
+  servername: TURK1.NET.NET
+  type: vmess
+  uuid: 8e34e170-13ae-4892-9d20-05962acc9f84
+  ws-opts:
+    headers:
+      Host: TURK1.NET.NET
+    path: /?BIA_TELEGRAM@AZARBAYJAB1_AZARBAYJAB1_AZARBAYJAB1_AZARBAYJAB1
+- alterId: 0
+  cipher: auto
+  name: 🇫🇷_法国_2
+  network: ws
+  port: 44579
+  server: 2001:bc8:32d7:302::10
+  servername: 2001:bc8:32d7:302::10
+  type: vmess
+  uuid: 8e34e170-13ae-4892-9d20-05962acc9f84
+  ws-opts:
+    headers:
+      Host: 2001:bc8:32d7:302::10
+    path: /?ed=2048HiByeVPNN--HiByeVPNN--HiByeVPNN--HiByeVPNN--HiByeVPNN--HiByeVPNN--HiByeVPNN--HiByeVPNN--HiByeVPNN--HiByeVPNN--HiByeVPNN--HiByeVPNN--HiByeVPNN
+- encryption: none
+  name: 🇺🇸_美国_12
+  network: ws
+  port: 2087
+  server: hj.xmm1993.top
+  servername: www.x-aniu-h-k.netlib.re
   tls: true
   type: vless
   uuid: e258977b-e413-4718-a3af-02d75492c349
   ws-opts:
     headers:
-      Host: www.x-aniu-s-g.netlib.re
+      Host: www.x-aniu-h-k.netlib.re
     path: /?ed=2560
 - encryption: none
-  name: 🇺🇸_美国_14
+  name: 🇭🇰_香港_1
   network: ws
   port: 443
-  server: 38.59.241.155
+  server: 43.161.222.233
   servername: act12.sni565.netlib.re
   tls: true
   type: vless
@@ -844,23 +1689,164 @@ proxies:
       Host: act12.sni565.netlib.re
     path: /proxyip=tw.sni2025.netlib.re
 - encryption: none
-  name: 未知_30
+  name: 未知_1
   network: ws
   port: 443
-  server: 104.19.175.74
-  servername: www.x-aniu-s-g.netlib.re
+  server: e581-c1438ccadd39.007770777.xyz
+  servername: e581-c1438ccadd39.007770777.xyz
   tls: true
   type: vless
-  uuid: e258977b-e413-4718-a3af-02d75492c349
+  uuid: 7f45c040-d0d8-4738-af88-f7eeb1b115ac
   ws-opts:
     headers:
-      Host: www.x-aniu-s-g.netlib.re
+      Host: e581-c1438ccadd39.007770777.xyz
+    path: /1wmMoyLhZyYLc4tF
+- encryption: none
+  name: 🇺🇸_美国_13
+  network: ws
+  port: 2083
+  server: yg11.ygkkk.dpdns.org
+  servername: yongge.xiaoli.xyz
+  tls: true
+  type: vless
+  uuid: a346a6cc-5252-405f-a011-6115c19d869d
+  ws-opts:
+    headers:
+      Host: yongge.xiaoli.xyz
     path: /?ed=2560
 - encryption: none
-  name: 🇭🇰_香港_4
+  name: 🇰🇷_韩国_3
+  network: ws
+  port: 18788
+  server: 112.186.67.102
+  servername: zybs.worker.ddns-ip.net
+  tls: true
+  type: vless
+  uuid: 00000000-0000-4000-8000-000000000000
+  ws-opts:
+    headers:
+      Host: zybs.worker.ddns-ip.net
+    path: /@Marisa_kristi
+- encryption: none
+  name: 🇬🇧_英国_13
+  network: ws
+  port: 700
+  server: 185.138.164.228
+  servername: zybs.worker.ddns-ip.net
+  tls: true
+  type: vless
+  uuid: 00000000-0000-4000-8000-000000000000
+  ws-opts:
+    headers:
+      Host: zybs.worker.ddns-ip.net
+    path: /@Marisa_kristi
+- encryption: none
+  name: 🇺🇸_美国_14
+  network: ws
+  port: 2096
+  server: 172.64.32.176
+  servername: yongge.xiaoli.xyz
+  tls: true
+  type: vless
+  uuid: a346a6cc-5252-405f-a011-6115c19d869d
+  ws-opts:
+    headers:
+      Host: yongge.xiaoli.xyz
+    path: /?ed=2560
+- alterId: 0
+  cipher: auto
+  name: 🇫🇷_法国_3
+  network: ws
+  port: 44579
+  server: 2001:bc8:32d7:302::10
+  type: vmess
+  uuid: 8e34e170-13ae-4892-9d20-05962acc9f84
+  ws-opts:
+    path: ?ed=2048
+- encryption: none
+  name: 🏳️_未知_3
+  network: ws
+  port: 39738
+  server: 210.87.111.61
+  servername: vless3.datatestvless.click
+  tls: true
+  type: vless
+  uuid: aa7f42cc-616f-4550-9a87-4b85bb409121
+  ws-opts:
+    headers:
+      Host: vless3.datatestvless.click
+    path: /?ed=2560&Telegram@freecodes
+- alpn:
+  - http/1.1
+  encryption: none
+  name: 未知_2
   network: ws
   port: 443
-  server: 43.161.222.97
+  server: 104.21.71.83
+  servername: a32e1893-496a-5d3e-d34f-a8674b22b993.777162.xyz
+  tls: true
+  type: vless
+  uuid: 3c2f5010-bc17-46d7-a5d3-7489f3a8dded
+  ws-opts:
+    headers:
+      Host: a32e1893-496a-5d3e-d34f-a8674b22b993.777162.xyz
+    path: /GJuqYfsZSA3HxKLVmdalbjJm7kb1B
+- encryption: none
+  name: 未知_3
+  network: ws
+  port: 443
+  server: visa.com
+  servername: ziyong.boringdad.netlib.re
+  tls: true
+  type: vless
+  uuid: 495c0dad-3268-4470-ac57-887c5089db0d
+  ws-opts:
+    headers:
+      Host: ziyong.boringdad.netlib.re
+    path: /
+- encryption: none
+  name: 🏳️_未知_4
+  network: ws
+  port: 39738
+  server: 210.87.111.61
+  servername: vless3.datatestvless.click
+  tls: true
+  type: vless
+  uuid: aa7f42cc-616f-4550-9a87-4b85bb409121
+  ws-opts:
+    headers:
+      Host: vless3.datatestvless.click
+    path: /?ed=2560&Telegram🇨🇳@WangCai2
+- encryption: none
+  name: 🇸🇬_新加坡_4
+  network: ws
+  port: 42841
+  server: 43.165.190.11
+  servername: mot.luyuju.dpdns.org
+  tls: true
+  type: vless
+  uuid: 00000000-0000-4000-8000-000000000000
+  ws-opts:
+    headers:
+      Host: mot.luyuju.dpdns.org
+    path: /@Marisa_kristi
+- encryption: none
+  name: 未知_4
+  network: ws
+  port: 8880
+  server: 104.21.31.4
+  servername: underthegun.cfd.
+  type: vless
+  uuid: 0a5ab719-2407-4398-b507-8437ef365023
+  ws-opts:
+    headers:
+      Host: underthegun.cfd.
+    path: /FCHANNEL---ELiV2-RAY---ELiV2-RAY---ELiV2-RAY---ELiV2-RAY---ELiV2-RAY---ELiV2-RAY---ELiV2-RAY---ELiV2-RAY---ELiV2-RAY---ELiV2-RAY---ELiV2-RAY---ELiV2-RAY---ELiV2-RAY---ELiV2-RAY---ELiV2-RAY---ELiV2-RAY---ELiV2-RAY---ELiV2-RAY
+- encryption: none
+  name: 🇸🇬_新加坡_5
+  network: ws
+  port: 443
+  server: 20.247.137.183
   servername: www.x-aniu---jp.netlib.re
   tls: true
   type: vless
@@ -869,665 +1855,598 @@ proxies:
     headers:
       Host: www.x-aniu---jp.netlib.re
     path: /?ed=2560
-- encryption: none
-  name: 未知_31
+- name: 🇫🇷_法国_4
   network: ws
-  port: 443
-  server: 104.17.238.33
-  servername: www.x-aniu-s-g.netlib.re
+  password: iwangjie
+  port: 2053
+  server: 135.125.232.253
+  sni: nodes.830901.xyz
   tls: true
-  type: vless
-  uuid: e258977b-e413-4718-a3af-02d75492c349
+  type: trojan
   ws-opts:
     headers:
-      Host: www.x-aniu-s-g.netlib.re
+      Host: nodes.830901.xyz
     path: /?ed=2560
 - encryption: none
   name: 🇺🇸_美国_15
   network: ws
-  port: 443
-  server: clyde.ns.cloudflare.com
-  servername: redlabell.info
-  tls: true
+  port: 80
+  server: 172.66.40.99
+  servername: bibil.dibdibini.dpdns.org
   type: vless
-  uuid: 02e46039-200d-4ae4-ac90-b0d619f72034
+  uuid: 8f702ebc-aa7e-41ad-ba7c-c778ae54daa6
   ws-opts:
     headers:
-      Host: redlabell.info
-    path: /aafeuws
+      Host: bibil.dibdibini.dpdns.org
+    path: /eyJqdW5rIjoib2RpbmZBNzJtUmlJIiwicHJvdG9jb2wiOiJ2bCIsIm1vZGUiOiJwcm94eWlwIiwicGFuZWxJUHMiOltdfQ==?ed=2560
+- encryption: none
+  name: 🇳🇱_荷兰_3
+  network: ws
+  port: 80
+  server: 188.114.97.3
+  servername: 188.114.97.3
+  type: vless
+  uuid: c3f75f0e-3fe6-4037-95be-ec869c453dfc
+  ws-opts:
+    headers:
+      Host: 024.electrocellco-cf-024.workers.dev
+    path: /eyJqdW5rIjoiZUtoUTZYaXU3TmIiLCJwcm90b2NvbCI6InZsIiwibW9kZSI6InByb3h5aXAiLCJwYW5lbElQcyI6W119?ed=2560
 - encryption: none
   name: 🇺🇸_美国_16
   network: ws
-  port: 443
-  server: 69.84.182.13
-  servername: fr-1-fr-1.aiopen.sbs
-  tls: true
-  type: vless
-  uuid: 04f3ed37-bfd4-46d3-b4eb-e62d1f32b6f9
-  ws-opts:
-    headers:
-      Host: fr-1-fr-1.aiopen.sbs
-    path: /kbjc/fr1
-- name: 🇨🇳_中国
-  network: tcp
-  password: 8c018342-4bad-4d88-a753-f0798c5ac48c
-  port: 11185
-  server: 183.240.138.159
-  skip-cert-verify: true
-  tls: true
-  type: trojan
-- name: 🇭🇰_香港_6
-  network: tcp
-  password: 79314e99f0a473fe86efc7827942ad00
-  port: 443
-  server: 58.152.110.154
-  skip-cert-verify: true
-  sni: www.nintendogames.net
-  tls: true
-  type: trojan
-- name: 🇨🇳_中国_1
-  network: tcp
-  password: 8c018342-4bad-4d88-a753-f0798c5ac48c
-  port: 11183
-  server: 183.240.138.159
-  skip-cert-verify: true
-  tls: true
-  type: trojan
-- name: 🇭🇰_香港_7
-  network: tcp
-  password: BxceQaOe
-  port: 443
-  server: 58.152.25.242
-  skip-cert-verify: true
-  tls: true
-  type: trojan
-- name: 🇭🇰_香港_8
-  network: tcp
-  password: BxceQaOe
-  port: 443
-  server: 58.152.25.242
-  skip-cert-verify: true
-  sni: t.me/ripaojiedian
-  tls: true
-  type: trojan
-- name: 🇭🇰_香港_9
-  network: tcp
-  password: BxceQaOe
-  port: 443
-  server: 58.152.25.242
-  skip-cert-verify: true
-  sni: t.me/ripaojiedian
-  tls: true
-  type: trojan
-- name: 🇭🇰_香港_10
-  network: tcp
-  password: BxceQaOe
-  port: 443
-  server: 58.152.30.120
-  skip-cert-verify: true
-  sni: t.me/ripaojiedian
-  tls: true
-  type: trojan
-- name: 🇭🇰_香港_11
-  network: tcp
-  password: BxceQaOe
-  port: 443
-  server: 58.152.25.20
-  skip-cert-verify: true
-  sni: t.me/ripaojiedian
-  tls: true
-  type: trojan
-- name: 🇨🇳_中国_2
-  network: tcp
-  password: 8c018342-4bad-4d88-a753-f0798c5ac48c
-  port: 11191
-  server: 183.240.138.159
-  skip-cert-verify: true
-  tls: true
-  type: trojan
-- name: 🇨🇳_中国_3
-  network: tcp
-  password: 8c018342-4bad-4d88-a753-f0798c5ac48c
-  port: 11182
-  server: 183.240.138.159
-  skip-cert-verify: true
-  tls: true
-  type: trojan
-- name: 🇭🇰_香港_12
-  network: tcp
-  password: BxceQaOe
-  port: 443
-  server: 58.152.30.120
-  skip-cert-verify: true
-  sni: t.me/ripaojiedian
-  tls: true
-  type: trojan
-- name: 🇨🇳_中国_4
-  network: tcp
-  password: 8c018342-4bad-4d88-a753-f0798c5ac48c
-  port: 11184
-  server: 183.240.138.159
-  skip-cert-verify: true
-  tls: true
-  type: trojan
-- name: 🇨🇳_中国_5
-  network: tcp
-  password: 8c018342-4bad-4d88-a753-f0798c5ac48c
-  port: 11184
-  server: 183.240.138.159
-  skip-cert-verify: true
-  tls: true
-  type: trojan
-- name: 🇭🇰_香港_13
-  network: tcp
-  password: BxceQaOe
-  port: 443
-  server: 219.79.186.107
-  skip-cert-verify: true
-  sni: t.me/ripaojiedian
-  tls: true
-  type: trojan
-- name: 🇭🇰_香港_14
-  network: tcp
-  password: BxceQaOe
-  port: 443
-  server: 58.152.25.20
-  skip-cert-verify: true
-  sni: t.me/ripaojiedian
-  tls: true
-  type: trojan
-- name: 🇭🇰_香港_15
-  network: tcp
-  password: BxceQaOe
-  port: 443
-  server: 219.79.186.107
-  skip-cert-verify: true
-  sni: t.me/ripaojiedian
-  tls: true
-  type: trojan
-- alterId: 0
-  cipher: auto
-  name: 🇬🇧_英国_1
-  network: tcp
-  port: 180
-  server: 82.198.246.97
-  servername: t.me%2Fripaojiedian
-  type: vmess
-  uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
-- alterId: 0
-  cipher: auto
-  name: 🇬🇧_英国_2
-  network: tcp
-  port: 180
-  server: 82.198.246.97
-  servername: trojan.burgerip.co.uk
-  type: vmess
-  uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
-- alterId: 0
-  cipher: auto
-  name: 🇬🇧_英国_3
-  network: tcp
-  port: 180
-  server: 82.198.246.97
-  type: vmess
-  uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
-- alterId: 0
-  cipher: auto
-  name: 🇸🇬_新加坡_2
-  network: tcp
-  port: 18241
-  server: 54.255.89.114
-  servername: 54.255.89.114
-  type: vmess
-  uuid: c5d45d2b-c425-4b24-8794-613b831d5f0c
-- alterId: 0
-  cipher: auto
-  name: 🇨🇳_中国_6
-  network: tcp
-  port: 30830
-  server: v30.hdacd.com
-  type: vmess
-  uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
-- alterId: 0
-  cipher: auto
-  name: 🇨🇳_中国_7
-  network: tcp
-  port: 30812
-  server: v12.hdacd.com
-  servername: v12.hdacd.com
-  type: vmess
-  uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
-- alterId: 0
-  cipher: auto
-  name: 🇨🇳_中国_8
-  network: tcp
-  port: 30812
-  server: v12.hdacd.com
-  servername: 5e4f31de-sv0xs0-sv0wpw-17xo8.hk3.p5pv.com
-  type: vmess
-  uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
-- alterId: 0
-  cipher: auto
-  name: 🇬🇧_英国_4
-  network: tcp
-  port: 180
-  server: 82.198.246.97
-  servername: 82.198.246.97
-  type: vmess
-  uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
-- alterId: 2
-  cipher: auto
-  name: 🇭🇰_香港_16
-  network: tcp
-  port: 30807
-  server: v10.hdacd.com
-  type: vmess
-  uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
-- encryption: none
-  name: 未知_32
-  network: ws
   port: 80
-  server: www.speedtest.net
-  servername: websocket.network.www.speedtest.net.flutter.dev.russia.pyt.digitalcity5.xyz.
+  server: 172.66.40.99
+  servername: bibil.dibdibini.dpdns.org
   type: vless
-  uuid: 76cc986c-8e30-4f81-91bb-2bd66fb4e713
+  uuid: 8f702ebc-aa7e-41ad-ba7c-c778ae54daa6
   ws-opts:
     headers:
-      Host: websocket.network.www.speedtest.net.flutter.dev.russia.pyt.digitalcity5.xyz.
-    path: /@Shh_Proxy----@Shh_Proxy----@Shh_Proxy----@Shh_Proxy----@Shh_Proxy----@Shh_Proxy----@Shh_Proxy----@Shh_Proxy----@Shh_Proxy----@Shh_Proxy----@Shh_Proxy----@Shh_Proxy
+      Host: bibil.dibdibini.dpdns.org
+    path: /eyJqdW5rIjoib2RpbmZBNzJtUmlJIiwicHJvdG9jb2wiOiJ2bCIsIm1vZGUiOiJwcm94eWlwIiwicGFuZWxJUHMiOltdfQ==?ed=2560
 - encryption: none
+  name: 未知_5
+  network: ws
+  port: 2082
+  server: www.visaeurope.at
+  servername: amiroo-l43dac88-v2.amiroo-d8b.workers.dev
+  type: vless
+  uuid: cb213db5-803d-49dd-a7e2-46d938af0751
+  ws-opts:
+    headers:
+      Host: amiroo-l43dac88-v2.amiroo-d8b.workers.dev
+    path: /?ed=2560
+- name: 🇫🇷_法国_5
+  network: ws
+  password: iwangjie
+  port: 2053
+  server: 141.94.68.216
+  sni: nodes.830901.xyz
+  tls: true
+  type: trojan
+  ws-opts:
+    headers:
+      Host: nodes.830901.xyz
+    path: /?ed=2560
+- alterId: 0
+  cipher: auto
   name: 🇺🇸_美国_17
   network: ws
-  port: 80
-  server: 172.66.156.81
-  servername: websocket.network.www.speedtest.net.flutter.dev.russia.pyt.digitalcity5.xyz.
-  type: vless
-  uuid: 76cc986c-8e30-4f81-91bb-2bd66fb4e713
-  ws-opts:
-    headers:
-      Host: websocket.network.www.speedtest.net.flutter.dev.russia.pyt.digitalcity5.xyz.
-    path: /@Shh_Proxy----@Shh_Proxy----@Shh_Proxy----@Shh_Proxy----@Shh_Proxy----@Shh_Proxy----@Shh_Proxy----@Shh_Proxy----@Shh_Proxy----@Shh_Proxy----@Shh_Proxy----@Shh_Proxy
-- alterId: 0
-  cipher: auto
-  name: 🇸🇬_新加坡_3
-  network: ws
-  port: 40000
-  server: 18.143.168.50
-  servername: ml02.3332100.xyz
+  port: 443
+  server: n1749032917.kzxds.cn
+  servername: n1749032917.kzxds.cn
+  tls: true
   type: vmess
-  uuid: f478b334-f612-427d-bd2b-ac6cb4552ba0
+  uuid: cd66eeea-643f-4826-a4f3-0d2f57a5ad06
   ws-opts:
     headers:
-      Host: ml02.3332100.xyz
-    path: /bby
-- encryption: none
-  name: 未知_33
-  network: ws
-  port: 8080
-  server: fbi.gov
-  servername: dawn-hill-7bc8.exhume-skirt-smirk.workers.dev
-  type: vless
-  uuid: 379e6e2a-761b-4e4d-8c9b-00e020acb051
-  ws-opts:
-    headers:
-      Host: dawn-hill-7bc8.exhume-skirt-smirk.workers.dev
-    path: /WeSC6uBZUBAU3UhXT0
-- encryption: none
-  name: 🇺🇸_美国_18
-  network: ws
-  port: 2086
-  server: 172.67.203.94
-  servername: iioo.iioou.workers.dev
-  type: vless
-  uuid: 7890ce31-9a25-4fd4-90e7-80e5823ff510
-  ws-opts:
-    headers:
-      Host: iioo.iioou.workers.dev
-    path: /?ed=2560
-- encryption: none
-  name: 未知_34
-  network: ws
-  port: 80
-  server: npmjs.com
-  servername: fragrant-star-ebf2.daheg47484.workers.dev
-  type: vless
-  uuid: 82de262c-cd5e-402f-a709-f6979fc7c93e
-  ws-opts:
-    headers:
-      Host: fragrant-star-ebf2.daheg47484.workers.dev
+      Host: n1749032917.kzxds.cn
     path: /
 - alterId: 0
   cipher: auto
-  name: 🇺🇸_美国_19
+  name: 🇫🇷_法国_6
   network: ws
-  port: 80
-  server: NnnNNNnNnNNNNN.222769.xYZ
-  servername: nnnnnnnnnnnnnn.222769.xyz
+  port: 55009
+  server: 2001:bc8:32d7:13a::2
+  servername: www.bing.com
   type: vmess
-  uuid: 2e65577e-8fdb-4bb1-a495-96f3122099a7
+  uuid: 093e2946-aa16-492a-a139-4c6038ad3e1c
   ws-opts:
     headers:
-      Host: nnnnnnnnnnnnnn.222769.xyz
-    path: /f6taOMcOSZb9TPR
+      Host: www.bing.com
+    path: /github.com/Alvin9999
+- alterId: 0
+  cipher: auto
+  name: 🇫🇷_法国_7
+  network: ws
+  port: 44579
+  server: 2001:bc8:32d7:302::10
+  type: vmess
+  uuid: 8e34e170-13ae-4892-9d20-05962acc9f84
+  ws-opts:
+    path: /
+- alterId: 0
+  cipher: auto
+  name: 🇫🇷_法国_8
+  network: ws
+  port: 44579
+  server: 2001:bc8:32d7:302::10
+  type: vmess
+  uuid: 8e34e170-13ae-4892-9d20-05962acc9f84
+  ws-opts:
+    path: /?ed=2048HiByeVPNN--HiByeVPNN--HiByeVPNN--HiByeVPNN--HiByeVPNN--HiByeVPNN--HiByeVPNN--HiByeVPNN--HiByeVPNN--HiByeVPNN--HiByeVPNN--HiByeVPNN--HiByeVPNN
+- alterId: 0
+  cipher: auto
+  name: 🇫🇷_法国_9
+  network: ws
+  port: 44579
+  server: 2001:bc8:32d7:302::10
+  type: vmess
+  uuid: 8e34e170-13ae-4892-9d20-05962acc9f84
+  ws-opts:
+    path: /?ed=2048@V2Ray_hiddify10--https://t.me/V2Ray_hiddify10--V2Ray_hiddify10--V2Ray_hiddify10--V2Ray_hiddify10--V2Ray_hiddify10--V2Ray_hiddify10--V2Ray_hiddify10--V2Ray_hiddify10--V2Ray_hiddify10--V2Ray_hiddify10--V2Ray_hiddify10--V2Ray_hiddify10--V2Ray_hiddify10--V2Ray_hiddify10--V2Ray_hiddify10--V2Ray_hiddify10--V2Ray_hiddify10--V2Ray_hiddify10--V2Ray_hiddify10--V2Ray_hiddify10--V2Ray_hiddify10--V2Ray_hiddify10--V2Ray_hiddify10--V2Ray_hiddify10--V2Ray_hiddify10--V2Ray_hiddify10--V2Ray_hiddify10--V2Ray_hiddify10--V2Ray_hiddify10--https://t.me/V2Ray_hiddify10
+- alterId: 0
+  cipher: auto
+  name: 🇫🇷_法国_10
+  network: ws
+  port: 44579
+  server: 2001:bc8:32d7:302::10
+  servername: 2001:bc8:32d7:302::10
+  type: vmess
+  uuid: 8e34e170-13ae-4892-9d20-05962acc9f84
+  ws-opts:
+    headers:
+      Host: 2001:bc8:32d7:302::10
+    path: /
+- alterId: 0
+  cipher: auto
+  name: 🇫🇷_法国_11
+  network: ws
+  port: 44579
+  server: 2001:bc8:32d7:302::10
+  type: vmess
+  uuid: 8e34e170-13ae-4892-9d20-05962acc9f84
+- alterId: 0
+  cipher: auto
+  name: 🇫🇷_法国_12
+  network: ws
+  port: 44579
+  server: 2001:bc8:32d7:302::10
+  servername: 2001:bc8:32d7:302::10
+  type: vmess
+  uuid: 8e34e170-13ae-4892-9d20-05962acc9f84
+  ws-opts:
+    headers:
+      Host: 2001:bc8:32d7:302::10
+    path: /?ed=2048HiByeVPNN--HiByeVPNN--HiByeVPNN--HiByeVPNN--HiByeVPNN--HiByeVPNN--HiByeVPNN--HiByeVPNN--HiByeVPNN--HiByeVPNN--HiByeVPNN--HiByeVPNN--HiByeVPNN
+- alterId: 0
+  cipher: auto
+  name: 🇫🇷_法国_13
+  network: ws
+  port: 44579
+  server: 2001:bc8:32d7:302::10
+  servername: AZERB.NET
+  type: vmess
+  uuid: 8e34e170-13ae-4892-9d20-05962acc9f84
+  ws-opts:
+    headers:
+      Host: AZERB.NET
+    path: /?BIA_TELEGRAM@AZARBAYJAB1_AZARBAYJAB1_AZARBAYJAB1_AZARBAYJAB1?ed=2560
+- alterId: 0
+  cipher: auto
+  name: 🇫🇷_法国_14
+  network: ws
+  port: 44579
+  server: 2001:bc8:32d7:302::10
+  servername: AZERB.NET
+  type: vmess
+  uuid: 8e34e170-13ae-4892-9d20-05962acc9f84
+  ws-opts:
+    headers:
+      Host: AZERB.NET
+    path: /?BIA_TELEGRAM@AZARBAYJAB1_AZARBAYJAB1_AZARBAYJAB1_AZARBAYJAB1
 - encryption: none
-  name: 未知_35
+  name: 未知_6
+  network: ws
+  port: 8880
+  server: 104.21.31.4
+  servername: underthegun.cfd.
+  type: vless
+  uuid: 0a5ab719-2407-4398-b507-8437ef365023
+  ws-opts:
+    headers:
+      Host: underthegun.cfd.
+    path: /FCHANNEL---ELiV2-RAY---ELiV2-RAY---ELiV2-RAY---ELiV2-RAY---ELiV2-RAY---ELiV2-RAY---ELiV2-RAY---ELiV2-RAY---ELiV2-RAY---ELiV2-RAY---ELiV2-RAY---ELiV2-RAY---ELiV2-RAY---ELiV2-RAY---ELiV2-RAY---ELiV2-RAY---ELiV2-RAY---ELiV2-RAY
+- encryption: none
+  name: 🇰🇷_韩国_4
+  network: ws
+  port: 18788
+  server: 112.186.67.102
+  servername: mot.luyuju.dpdns.org
+  tls: true
+  type: vless
+  uuid: 00000000-0000-4000-8000-000000000000
+  ws-opts:
+    headers:
+      Host: mot.luyuju.dpdns.org
+    path: /@Marisa_kristi
+- encryption: none
+  name: 🇳🇱_荷兰_4
   network: ws
   port: 80
-  server: www.speedtest.net
-  servername: websocket.network.www.speedtest.net.flutter.dev.russia.pyt.digitalcity5.xyz.
+  server: 188.114.97.3
+  servername: 024.electrocellco-cf-024.workers.dev
   type: vless
-  uuid: 76cc986c-8e30-4f81-91bb-2bd66fb4e713
+  uuid: c3f75f0e-3fe6-4037-95be-ec869c453dfc
   ws-opts:
     headers:
-      Host: websocket.network.www.speedtest.net.flutter.dev.russia.pyt.digitalcity5.xyz.
-    path: /@Shh_Proxy----@Shh_Proxy----@Shh_Proxy----@Shh_Proxy----@Shh_Proxy----@Shh_Proxy----@Shh_Proxy----@Shh_Proxy----@Shh_Proxy----@Shh_Proxy----@Shh_Proxy----@Shh_Proxy
-- encryption: none
-  name: 🇺🇸_美国_20
+      Host: 024.electrocellco-cf-024.workers.dev
+    path: /eyJqdW5rIjoiZUtoUTZYaXU3TmIiLCJwcm90b2NvbCI6InZsIiwibW9kZSI6InByb3h5aXAiLCJwYW5lbElQcyI6W119
+- alterId: 0
+  cipher: auto
+  name: 未知_7
   network: ws
-  port: 80
-  server: 172.66.156.81
-  servername: websocket.network.www.speedtest.net.flutter.dev.russia.pyt.digitalcity5.xyz.
-  type: vless
-  uuid: 76cc986c-8e30-4f81-91bb-2bd66fb4e713
-  ws-opts:
-    headers:
-      Host: websocket.network.www.speedtest.net.flutter.dev.russia.pyt.digitalcity5.xyz.
-    path: /@Shh_Proxy----@Shh_Proxy----@Shh_Proxy----@Shh_Proxy----@Shh_Proxy----@Shh_Proxy----@Shh_Proxy----@Shh_Proxy----@Shh_Proxy----@Shh_Proxy----@Shh_Proxy----@Shh_Proxy
-- encryption: none
-  name: 🇩🇪_德国
-  network: tcp
   port: 8443
-  server: tst.speed1.space
+  server: fn.130519.xyz
+  servername: deji.186507.xyz
+  tls: true
+  type: vmess
+  uuid: 19aebb35-b458-4d0c-b767-2adb39e6bb02
+  ws-opts:
+    headers:
+      Host: deji.186507.xyz
+    path: /19aebb35-b458-4d0c-b767-2adb39e6bb02-vm
+- alterId: 0
+  cipher: auto
+  name: 未知_8
+  network: ws
+  port: 8443
+  server: fn.130519.xyz
+  servername: deji.186507.xyz
+  tls: true
+  type: vmess
+  uuid: 19aebb35-b458-4d0c-b767-2adb39e6bb02
+  ws-opts:
+    headers:
+      Host: deji.186507.xyz
+    path: /19aebb35-b458-4d0c-b767-2adb39e6bb02-vm
+- encryption: none
+  name: 🏳️_未知_5
+  network: ws
+  port: 39738
+  server: 210.87.111.61
+  servername: vless3.datatestvless.click
+  tls: true
   type: vless
-  uuid: c8e85b36-1f7a-4574-b48e-d2099372ce3c
+  uuid: aa7f42cc-616f-4550-9a87-4b85bb409121
+  ws-opts:
+    headers:
+      Host: vless3.datatestvless.click
+    path: /?ed=2560&telegram🇨🇳@wangcai2
 - alterId: 0
   cipher: auto
-  name: 🇨🇳_中国_9
-  network: tcp
-  port: 30812
-  server: v12.hdacd.com
+  name: 🇫🇷_法国_15
+  network: ws
+  port: 44579
+  server: 2001:bc8:32d7:302::10
   type: vmess
-  uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
+  uuid: 8e34e170-13ae-4892-9d20-05962acc9f84
+  ws-opts:
+    path: /?ed=2048
 - alterId: 0
   cipher: auto
-  name: 🇨🇳_中国_10
-  network: tcp
-  port: 30812
-  server: v12.hdacd.com
+  name: 🇫🇷_法国_16
+  network: ws
+  port: 44579
+  server: 2001:bc8:32d7:302::10
   type: vmess
-  uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
-- alterId: 0
+  uuid: 8e34e170-13ae-4892-9d20-05962acc9f84
+  ws-opts:
+    path: /?BIA_TELEGRAM@AZARBAYJAB1_AZARBAYJAB1_AZARBAYJAB1_AZARBAYJAB1
+- alterId: 2
   cipher: auto
-  name: 🇬🇧_英国_5
-  network: tcp
-  port: 180
-  server: 82.198.246.97
-  servername: broadcastlv.chat.bilibili.com
+  name: 🇭🇰_香港_2
+  network: ws
+  port: 80
+  server: f409bfe3-t6r5s0-tk30wc-eyem.hkt.gotochinatown.net
+  servername: f409bfe3-t6r5s0-tk30wc-eyem.hkt.gotochinatown.net
   type: vmess
-  uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
-- name: 🇯🇵_日本_4
-  network: tcp
-  password: 79314e99f0a473fe86efc7827942ad00
-  port: 3093
-  server: 160.16.72.33
-  skip-cert-verify: true
-  sni: www.nintendogames.net
-  tls: true
-  type: trojan
-- name: 🇨🇳_中国_11
-  network: tcp
-  password: 8c018342-4bad-4d88-a753-f0798c5ac48c
-  port: 11186
-  server: 183.240.138.159
-  skip-cert-verify: true
-  tls: true
-  type: trojan
-- name: 🇭🇰_香港_17
-  network: tcp
-  password: BxceQaOe
-  port: 443
-  server: 58.152.53.8
-  skip-cert-verify: true
-  sni: t.me/ripaojiedian
-  tls: true
-  type: trojan
-- name: 🇭🇰_香港_18
-  network: tcp
-  password: BxceQaOe
-  port: 443
-  server: 58.152.53.8
-  skip-cert-verify: true
-  tls: true
-  type: trojan
+  uuid: 64617ed2-4823-11ef-9f2d-f23c9164ca5d
+  ws-opts:
+    headers:
+      Host: f409bfe3-t6r5s0-tk30wc-eyem.hkt.gotochinatown.net
+    path: /
+- alterId: 2
+  cipher: auto
+  name: 🇭🇰_香港_3
+  network: ws
+  port: 80
+  server: hkt.gotochinatown.net
+  servername: hkt.gotochinatown.net
+  type: vmess
+  uuid: a664d16a-4e47-11ef-9d7e-f23c9164ca5d
+  ws-opts:
+    headers:
+      Host: hkt.gotochinatown.net
+    path: /
 proxy-groups:
 - name: 🚀 节点选择
   proxies:
   - ♻️ 自动选择
   - DIRECT
-  - 电报群：https://t.me/vvkj11
-  - 每天更新，请加电报群防止失联
-  - 日期：12-06
-  - 免费VPN：https://tt.vg/gwaAy
-  - 未知
-  - 🇷🇺_俄罗斯
-  - 未知_1
-  - 未知_2
-  - 未知_3
-  - 未知_4
-  - 未知_5
-  - 未知_6
-  - 未知_7
-  - 🇯🇵_日本
-  - 未知_8
-  - 未知_9
-  - 未知_10
-  - 未知_11
-  - 未知_12
+  - 🇨🇿_捷克
+  - 🇱🇧_黎巴嫩
+  - 🇮🇷_伊朗
+  - 🇮🇷_伊朗_1
   - 🇺🇸_美国
-  - 未知_13
-  - 未知_14
+  - 🇮🇷_伊朗_2
+  - 🇱🇧_黎巴嫩_1
+  - 🇮🇷_伊朗_3
+  - 🇦🇹_奥地利
   - 🇺🇸_美国_1
+  - 🇦🇹_奥地利_1
+  - 🇱🇧_黎巴嫩_2
+  - 🇮🇷_伊朗_4
   - 🇺🇸_美国_2
-  - 未知_15
-  - 🇯🇵_日本_1
-  - 未知_16
-  - 🇭🇰_香港
-  - 🇭🇰_香港_1
-  - 未知_17
-  - 未知_18
-  - 未知_19
   - 🇺🇸_美国_3
+  - 🇮🇷_伊朗_5
+  - 🇳🇱_荷兰
+  - 🇳🇱_荷兰_1
+  - 🇯🇵_日本
+  - 🇮🇷_伊朗_6
+  - 🇮🇱_以色列
+  - 🇮🇱_以色列_1
+  - 🇮🇱_以色列_2
+  - 🇱🇧_黎巴嫩_3
+  - 🇮🇷_伊朗_7
+  - 🇨🇦_加拿大
+  - 🇹🇷_土耳其
+  - 🇮🇱_以色列_3
+  - 🇦🇹_奥地利_2
+  - 🇩🇪_德国
+  - 🇪🇸_西班牙
+  - 🇨🇿_捷克_1
   - 🇺🇸_美国_4
-  - 🇯🇵_日本_2
-  - 未知_20
-  - 🇸🇬_新加坡
-  - 未知_21
+  - 🇳🇱_荷兰_2
+  - 🇱🇧_黎巴嫩_4
+  - 🇯🇵_日本_1
+  - 🇮🇷_伊朗_8
+  - 🇮🇷_伊朗_9
   - 🇺🇸_美国_5
-  - 🇷🇺_俄罗斯_1
-  - 🇺🇸_美国_6
-  - 未知_22
-  - 未知_23
-  - 🇺🇸_美国_7
-  - 未知_24
-  - 🇬🇧_英国
-  - 未知_25
-  - 🇺🇸_美国_8
-  - 未知_26
-  - 🇺🇸_美国_9
-  - 🇺🇸_美国_10
-  - 🇺🇸_美国_11
-  - 未知_27
-  - 🇸🇬_新加坡_1
-  - 🇭🇰_香港_2
-  - 🇭🇰_香港_3
-  - 🇯🇵_日本_3
-  - 🇰🇷_韩国
-  - 🇺🇸_美国_12
-  - 未知_28
-  - 🇺🇸_美国_13
-  - 未知_29
-  - 🇺🇸_美国_14
-  - 未知_30
-  - 🇭🇰_香港_4
-  - 未知_31
-  - 🇺🇸_美国_15
-  - 🇺🇸_美国_16
   - 🇨🇳_中国
-  - 🇭🇰_香港_6
+  - 🇹🇷_土耳其_1
+  - 🇱🇧_黎巴嫩_5
+  - 🇮🇱_以色列_4
+  - 🇮🇷_伊朗_10
   - 🇨🇳_中国_1
-  - 🇭🇰_香港_7
-  - 🇭🇰_香港_8
-  - 🇭🇰_香港_9
-  - 🇭🇰_香港_10
-  - 🇭🇰_香港_11
   - 🇨🇳_中国_2
+  - 🇬🇧_英国
   - 🇨🇳_中国_3
-  - 🇭🇰_香港_12
   - 🇨🇳_中国_4
   - 🇨🇳_中国_5
-  - 🇭🇰_香港_13
-  - 🇭🇰_香港_14
-  - 🇭🇰_香港_15
   - 🇬🇧_英国_1
+  - 🇨🇳_中国_6
+  - 🇭🇰_香港
   - 🇬🇧_英国_2
   - 🇬🇧_英国_3
-  - 🇸🇬_新加坡_2
-  - 🇨🇳_中国_6
+  - 🇰🇷_韩国
+  - 🇬🇧_英国_4
+  - 🇬🇧_英国_5
+  - 🇬🇧_英国_6
+  - 🇬🇧_英国_7
+  - 🇬🇧_英国_8
+  - 🇬🇧_英国_9
+  - 🇬🇧_英国_10
   - 🇨🇳_中国_7
   - 🇨🇳_中国_8
-  - 🇬🇧_英国_4
-  - 🇭🇰_香港_16
-  - 未知_32
-  - 🇺🇸_美国_17
-  - 🇸🇬_新加坡_3
-  - 未知_33
-  - 🇺🇸_美国_18
-  - 未知_34
-  - 🇺🇸_美国_19
-  - 未知_35
-  - 🇺🇸_美国_20
-  - 🇩🇪_德国
   - 🇨🇳_中国_9
   - 🇨🇳_中国_10
-  - 🇬🇧_英国_5
-  - 🇯🇵_日本_4
+  - 🇹🇷_土耳其_2
   - 🇨🇳_中国_11
-  - 🇭🇰_香港_17
-  - 🇭🇰_香港_18
+  - 🇰🇷_韩国_1
+  - 🇨🇳_中国_12
+  - 🇨🇳_中国_13
+  - 🇺🇸_美国_6
+  - 🇺🇸_美国_7
+  - 🇫🇮_芬兰
+  - 🇹🇷_土耳其_3
+  - 🇸🇬_新加坡
+  - 🇬🇧_英国_11
+  - 🇸🇬_新加坡_1
+  - 🇰🇷_韩国_2
+  - 🇸🇬_新加坡_2
+  - 🇬🇧_英国_12
+  - 🇸🇬_新加坡_3
+  - 🇺🇸_美国_8
+  - 🇫🇷_法国
+  - 🏳️_未知
+  - 🏳️_未知_1
+  - 🇺🇸_美国_9
+  - 未知
+  - 🏳️_未知_2
+  - 🇺🇸_美国_10
+  - 🇺🇸_美国_11
+  - 🇫🇷_法国_1
+  - 🇫🇷_法国_2
+  - 🇺🇸_美国_12
+  - 🇭🇰_香港_1
+  - 未知_1
+  - 🇺🇸_美国_13
+  - 🇰🇷_韩国_3
+  - 🇬🇧_英国_13
+  - 🇺🇸_美国_14
+  - 🇫🇷_法国_3
+  - 🏳️_未知_3
+  - 未知_2
+  - 未知_3
+  - 🏳️_未知_4
+  - 🇸🇬_新加坡_4
+  - 未知_4
+  - 🇸🇬_新加坡_5
+  - 🇫🇷_法国_4
+  - 🇺🇸_美国_15
+  - 🇳🇱_荷兰_3
+  - 🇺🇸_美国_16
+  - 未知_5
+  - 🇫🇷_法国_5
+  - 🇺🇸_美国_17
+  - 🇫🇷_法国_6
+  - 🇫🇷_法国_7
+  - 🇫🇷_法国_8
+  - 🇫🇷_法国_9
+  - 🇫🇷_法国_10
+  - 🇫🇷_法国_11
+  - 🇫🇷_法国_12
+  - 🇫🇷_法国_13
+  - 🇫🇷_法国_14
+  - 未知_6
+  - 🇰🇷_韩国_4
+  - 🇳🇱_荷兰_4
+  - 未知_7
+  - 未知_8
+  - 🏳️_未知_5
+  - 🇫🇷_法国_15
+  - 🇫🇷_法国_16
+  - 🇭🇰_香港_2
+  - 🇭🇰_香港_3
   type: select
 - interval: 300
   name: ♻️ 自动选择
   proxies:
-  - 电报群：https://t.me/vvkj11
-  - 每天更新，请加电报群防止失联
-  - 日期：12-06
-  - 免费VPN：https://tt.vg/gwaAy
-  - 未知
-  - 🇷🇺_俄罗斯
-  - 未知_1
-  - 未知_2
-  - 未知_3
-  - 未知_4
-  - 未知_5
-  - 未知_6
-  - 未知_7
-  - 🇯🇵_日本
-  - 未知_8
-  - 未知_9
-  - 未知_10
-  - 未知_11
-  - 未知_12
+  - 🇨🇿_捷克
+  - 🇱🇧_黎巴嫩
+  - 🇮🇷_伊朗
+  - 🇮🇷_伊朗_1
   - 🇺🇸_美国
-  - 未知_13
-  - 未知_14
+  - 🇮🇷_伊朗_2
+  - 🇱🇧_黎巴嫩_1
+  - 🇮🇷_伊朗_3
+  - 🇦🇹_奥地利
   - 🇺🇸_美国_1
+  - 🇦🇹_奥地利_1
+  - 🇱🇧_黎巴嫩_2
+  - 🇮🇷_伊朗_4
   - 🇺🇸_美国_2
-  - 未知_15
-  - 🇯🇵_日本_1
-  - 未知_16
-  - 🇭🇰_香港
-  - 🇭🇰_香港_1
-  - 未知_17
-  - 未知_18
-  - 未知_19
   - 🇺🇸_美国_3
+  - 🇮🇷_伊朗_5
+  - 🇳🇱_荷兰
+  - 🇳🇱_荷兰_1
+  - 🇯🇵_日本
+  - 🇮🇷_伊朗_6
+  - 🇮🇱_以色列
+  - 🇮🇱_以色列_1
+  - 🇮🇱_以色列_2
+  - 🇱🇧_黎巴嫩_3
+  - 🇮🇷_伊朗_7
+  - 🇨🇦_加拿大
+  - 🇹🇷_土耳其
+  - 🇮🇱_以色列_3
+  - 🇦🇹_奥地利_2
+  - 🇩🇪_德国
+  - 🇪🇸_西班牙
+  - 🇨🇿_捷克_1
   - 🇺🇸_美国_4
-  - 🇯🇵_日本_2
-  - 未知_20
-  - 🇸🇬_新加坡
-  - 未知_21
+  - 🇳🇱_荷兰_2
+  - 🇱🇧_黎巴嫩_4
+  - 🇯🇵_日本_1
+  - 🇮🇷_伊朗_8
+  - 🇮🇷_伊朗_9
   - 🇺🇸_美国_5
-  - 🇷🇺_俄罗斯_1
-  - 🇺🇸_美国_6
-  - 未知_22
-  - 未知_23
-  - 🇺🇸_美国_7
-  - 未知_24
-  - 🇬🇧_英国
-  - 未知_25
-  - 🇺🇸_美国_8
-  - 未知_26
-  - 🇺🇸_美国_9
-  - 🇺🇸_美国_10
-  - 🇺🇸_美国_11
-  - 未知_27
-  - 🇸🇬_新加坡_1
-  - 🇭🇰_香港_2
-  - 🇭🇰_香港_3
-  - 🇯🇵_日本_3
-  - 🇰🇷_韩国
-  - 🇺🇸_美国_12
-  - 未知_28
-  - 🇺🇸_美国_13
-  - 未知_29
-  - 🇺🇸_美国_14
-  - 未知_30
-  - 🇭🇰_香港_4
-  - 未知_31
-  - 🇺🇸_美国_15
-  - 🇺🇸_美国_16
   - 🇨🇳_中国
-  - 🇭🇰_香港_6
+  - 🇹🇷_土耳其_1
+  - 🇱🇧_黎巴嫩_5
+  - 🇮🇱_以色列_4
+  - 🇮🇷_伊朗_10
   - 🇨🇳_中国_1
-  - 🇭🇰_香港_7
-  - 🇭🇰_香港_8
-  - 🇭🇰_香港_9
-  - 🇭🇰_香港_10
-  - 🇭🇰_香港_11
   - 🇨🇳_中国_2
+  - 🇬🇧_英国
   - 🇨🇳_中国_3
-  - 🇭🇰_香港_12
   - 🇨🇳_中国_4
   - 🇨🇳_中国_5
-  - 🇭🇰_香港_13
-  - 🇭🇰_香港_14
-  - 🇭🇰_香港_15
   - 🇬🇧_英国_1
+  - 🇨🇳_中国_6
+  - 🇭🇰_香港
   - 🇬🇧_英国_2
   - 🇬🇧_英国_3
-  - 🇸🇬_新加坡_2
-  - 🇨🇳_中国_6
+  - 🇰🇷_韩国
+  - 🇬🇧_英国_4
+  - 🇬🇧_英国_5
+  - 🇬🇧_英国_6
+  - 🇬🇧_英国_7
+  - 🇬🇧_英国_8
+  - 🇬🇧_英国_9
+  - 🇬🇧_英国_10
   - 🇨🇳_中国_7
   - 🇨🇳_中国_8
-  - 🇬🇧_英国_4
-  - 🇭🇰_香港_16
-  - 未知_32
-  - 🇺🇸_美国_17
-  - 🇸🇬_新加坡_3
-  - 未知_33
-  - 🇺🇸_美国_18
-  - 未知_34
-  - 🇺🇸_美国_19
-  - 未知_35
-  - 🇺🇸_美国_20
-  - 🇩🇪_德国
   - 🇨🇳_中国_9
   - 🇨🇳_中国_10
-  - 🇬🇧_英国_5
-  - 🇯🇵_日本_4
+  - 🇹🇷_土耳其_2
   - 🇨🇳_中国_11
-  - 🇭🇰_香港_17
-  - 🇭🇰_香港_18
+  - 🇰🇷_韩国_1
+  - 🇨🇳_中国_12
+  - 🇨🇳_中国_13
+  - 🇺🇸_美国_6
+  - 🇺🇸_美国_7
+  - 🇫🇮_芬兰
+  - 🇹🇷_土耳其_3
+  - 🇸🇬_新加坡
+  - 🇬🇧_英国_11
+  - 🇸🇬_新加坡_1
+  - 🇰🇷_韩国_2
+  - 🇸🇬_新加坡_2
+  - 🇬🇧_英国_12
+  - 🇸🇬_新加坡_3
+  - 🇺🇸_美国_8
+  - 🇫🇷_法国
+  - 🏳️_未知
+  - 🏳️_未知_1
+  - 🇺🇸_美国_9
+  - 未知
+  - 🏳️_未知_2
+  - 🇺🇸_美国_10
+  - 🇺🇸_美国_11
+  - 🇫🇷_法国_1
+  - 🇫🇷_法国_2
+  - 🇺🇸_美国_12
+  - 🇭🇰_香港_1
+  - 未知_1
+  - 🇺🇸_美国_13
+  - 🇰🇷_韩国_3
+  - 🇬🇧_英国_13
+  - 🇺🇸_美国_14
+  - 🇫🇷_法国_3
+  - 🏳️_未知_3
+  - 未知_2
+  - 未知_3
+  - 🏳️_未知_4
+  - 🇸🇬_新加坡_4
+  - 未知_4
+  - 🇸🇬_新加坡_5
+  - 🇫🇷_法国_4
+  - 🇺🇸_美国_15
+  - 🇳🇱_荷兰_3
+  - 🇺🇸_美国_16
+  - 未知_5
+  - 🇫🇷_法国_5
+  - 🇺🇸_美国_17
+  - 🇫🇷_法国_6
+  - 🇫🇷_法国_7
+  - 🇫🇷_法国_8
+  - 🇫🇷_法国_9
+  - 🇫🇷_法国_10
+  - 🇫🇷_法国_11
+  - 🇫🇷_法国_12
+  - 🇫🇷_法国_13
+  - 🇫🇷_法国_14
+  - 未知_6
+  - 🇰🇷_韩国_4
+  - 🇳🇱_荷兰_4
+  - 未知_7
+  - 未知_8
+  - 🏳️_未知_5
+  - 🇫🇷_法国_15
+  - 🇫🇷_法国_16
+  - 🇭🇰_香港_2
+  - 🇭🇰_香港_3
   type: url-test
   url: http://www.gstatic.com/generate_204
 - name: 🎯 全球直连
@@ -1546,116 +2465,141 @@ proxy-groups:
   - 🚀 节点选择
   - 🎯 全球直连
   - ♻️ 自动选择
-  - 电报群：https://t.me/vvkj11
-  - 每天更新，请加电报群防止失联
-  - 日期：12-06
-  - 免费VPN：https://tt.vg/gwaAy
-  - 未知
-  - 🇷🇺_俄罗斯
-  - 未知_1
-  - 未知_2
-  - 未知_3
-  - 未知_4
-  - 未知_5
-  - 未知_6
-  - 未知_7
-  - 🇯🇵_日本
-  - 未知_8
-  - 未知_9
-  - 未知_10
-  - 未知_11
-  - 未知_12
+  - 🇨🇿_捷克
+  - 🇱🇧_黎巴嫩
+  - 🇮🇷_伊朗
+  - 🇮🇷_伊朗_1
   - 🇺🇸_美国
-  - 未知_13
-  - 未知_14
+  - 🇮🇷_伊朗_2
+  - 🇱🇧_黎巴嫩_1
+  - 🇮🇷_伊朗_3
+  - 🇦🇹_奥地利
   - 🇺🇸_美国_1
+  - 🇦🇹_奥地利_1
+  - 🇱🇧_黎巴嫩_2
+  - 🇮🇷_伊朗_4
   - 🇺🇸_美国_2
-  - 未知_15
-  - 🇯🇵_日本_1
-  - 未知_16
-  - 🇭🇰_香港
-  - 🇭🇰_香港_1
-  - 未知_17
-  - 未知_18
-  - 未知_19
   - 🇺🇸_美国_3
+  - 🇮🇷_伊朗_5
+  - 🇳🇱_荷兰
+  - 🇳🇱_荷兰_1
+  - 🇯🇵_日本
+  - 🇮🇷_伊朗_6
+  - 🇮🇱_以色列
+  - 🇮🇱_以色列_1
+  - 🇮🇱_以色列_2
+  - 🇱🇧_黎巴嫩_3
+  - 🇮🇷_伊朗_7
+  - 🇨🇦_加拿大
+  - 🇹🇷_土耳其
+  - 🇮🇱_以色列_3
+  - 🇦🇹_奥地利_2
+  - 🇩🇪_德国
+  - 🇪🇸_西班牙
+  - 🇨🇿_捷克_1
   - 🇺🇸_美国_4
-  - 🇯🇵_日本_2
-  - 未知_20
-  - 🇸🇬_新加坡
-  - 未知_21
+  - 🇳🇱_荷兰_2
+  - 🇱🇧_黎巴嫩_4
+  - 🇯🇵_日本_1
+  - 🇮🇷_伊朗_8
+  - 🇮🇷_伊朗_9
   - 🇺🇸_美国_5
-  - 🇷🇺_俄罗斯_1
-  - 🇺🇸_美国_6
-  - 未知_22
-  - 未知_23
-  - 🇺🇸_美国_7
-  - 未知_24
-  - 🇬🇧_英国
-  - 未知_25
-  - 🇺🇸_美国_8
-  - 未知_26
-  - 🇺🇸_美国_9
-  - 🇺🇸_美国_10
-  - 🇺🇸_美国_11
-  - 未知_27
-  - 🇸🇬_新加坡_1
-  - 🇭🇰_香港_2
-  - 🇭🇰_香港_3
-  - 🇯🇵_日本_3
-  - 🇰🇷_韩国
-  - 🇺🇸_美国_12
-  - 未知_28
-  - 🇺🇸_美国_13
-  - 未知_29
-  - 🇺🇸_美国_14
-  - 未知_30
-  - 🇭🇰_香港_4
-  - 未知_31
-  - 🇺🇸_美国_15
-  - 🇺🇸_美国_16
   - 🇨🇳_中国
-  - 🇭🇰_香港_6
+  - 🇹🇷_土耳其_1
+  - 🇱🇧_黎巴嫩_5
+  - 🇮🇱_以色列_4
+  - 🇮🇷_伊朗_10
   - 🇨🇳_中国_1
-  - 🇭🇰_香港_7
-  - 🇭🇰_香港_8
-  - 🇭🇰_香港_9
-  - 🇭🇰_香港_10
-  - 🇭🇰_香港_11
   - 🇨🇳_中国_2
+  - 🇬🇧_英国
   - 🇨🇳_中国_3
-  - 🇭🇰_香港_12
   - 🇨🇳_中国_4
   - 🇨🇳_中国_5
-  - 🇭🇰_香港_13
-  - 🇭🇰_香港_14
-  - 🇭🇰_香港_15
   - 🇬🇧_英国_1
+  - 🇨🇳_中国_6
+  - 🇭🇰_香港
   - 🇬🇧_英国_2
   - 🇬🇧_英国_3
-  - 🇸🇬_新加坡_2
-  - 🇨🇳_中国_6
+  - 🇰🇷_韩国
+  - 🇬🇧_英国_4
+  - 🇬🇧_英国_5
+  - 🇬🇧_英国_6
+  - 🇬🇧_英国_7
+  - 🇬🇧_英国_8
+  - 🇬🇧_英国_9
+  - 🇬🇧_英国_10
   - 🇨🇳_中国_7
   - 🇨🇳_中国_8
-  - 🇬🇧_英国_4
-  - 🇭🇰_香港_16
-  - 未知_32
-  - 🇺🇸_美国_17
-  - 🇸🇬_新加坡_3
-  - 未知_33
-  - 🇺🇸_美国_18
-  - 未知_34
-  - 🇺🇸_美国_19
-  - 未知_35
-  - 🇺🇸_美国_20
-  - 🇩🇪_德国
   - 🇨🇳_中国_9
   - 🇨🇳_中国_10
-  - 🇬🇧_英国_5
-  - 🇯🇵_日本_4
+  - 🇹🇷_土耳其_2
   - 🇨🇳_中国_11
-  - 🇭🇰_香港_17
-  - 🇭🇰_香港_18
+  - 🇰🇷_韩国_1
+  - 🇨🇳_中国_12
+  - 🇨🇳_中国_13
+  - 🇺🇸_美国_6
+  - 🇺🇸_美国_7
+  - 🇫🇮_芬兰
+  - 🇹🇷_土耳其_3
+  - 🇸🇬_新加坡
+  - 🇬🇧_英国_11
+  - 🇸🇬_新加坡_1
+  - 🇰🇷_韩国_2
+  - 🇸🇬_新加坡_2
+  - 🇬🇧_英国_12
+  - 🇸🇬_新加坡_3
+  - 🇺🇸_美国_8
+  - 🇫🇷_法国
+  - 🏳️_未知
+  - 🏳️_未知_1
+  - 🇺🇸_美国_9
+  - 未知
+  - 🏳️_未知_2
+  - 🇺🇸_美国_10
+  - 🇺🇸_美国_11
+  - 🇫🇷_法国_1
+  - 🇫🇷_法国_2
+  - 🇺🇸_美国_12
+  - 🇭🇰_香港_1
+  - 未知_1
+  - 🇺🇸_美国_13
+  - 🇰🇷_韩国_3
+  - 🇬🇧_英国_13
+  - 🇺🇸_美国_14
+  - 🇫🇷_法国_3
+  - 🏳️_未知_3
+  - 未知_2
+  - 未知_3
+  - 🏳️_未知_4
+  - 🇸🇬_新加坡_4
+  - 未知_4
+  - 🇸🇬_新加坡_5
+  - 🇫🇷_法国_4
+  - 🇺🇸_美国_15
+  - 🇳🇱_荷兰_3
+  - 🇺🇸_美国_16
+  - 未知_5
+  - 🇫🇷_法国_5
+  - 🇺🇸_美国_17
+  - 🇫🇷_法国_6
+  - 🇫🇷_法国_7
+  - 🇫🇷_法国_8
+  - 🇫🇷_法国_9
+  - 🇫🇷_法国_10
+  - 🇫🇷_法国_11
+  - 🇫🇷_法国_12
+  - 🇫🇷_法国_13
+  - 🇫🇷_法国_14
+  - 未知_6
+  - 🇰🇷_韩国_4
+  - 🇳🇱_荷兰_4
+  - 未知_7
+  - 未知_8
+  - 🏳️_未知_5
+  - 🇫🇷_法国_15
+  - 🇫🇷_法国_16
+  - 🇭🇰_香港_2
+  - 🇭🇰_香港_3
   type: select
 rule-providers:
   BanAD:
