@@ -22,14 +22,6 @@ proxies:
   uuid: 474e8680-701f-11ee-b436-205c6d5f5d78
   ws-opts:
     path: /
-- name: '[Trojan] 🇨🇦 加拿大多伦多 V2CROSS.COM'
-  password: 6pRjKQJ0CWyFtG.9
-  port: 12990
-  server: 198.57.27.27
-  skip-cert-verify: true
-  tfo: false
-  type: trojan
-  udp: true
 - alterId: 0
   cipher: auto
   name: '[VMess] 🇨🇳 _TW_台湾->🇺🇸_US_美国'
@@ -92,20 +84,6 @@ proxies:
     headers:
       Host: ld2.shabijichang.com
     path: /
-- alterId: 0
-  cipher: auto
-  name: '[VMess] 🇬🇧 英国 伦敦Choopa数据中心'
-  network: ws
-  port: 51205
-  server: 108.61.197.235
-  skip-cert-verify: true
-  tfo: false
-  tls: false
-  type: vmess
-  udp: true
-  uuid: cc0e6914-ca7a-44c0-8a1d-dd2d36df44c4
-  ws-opts:
-    path: /cc0e6914-ca7a-44c0-8a1d-dd2d36df44c4
 - name: '[Trojan] 🇭🇰 香港 电讯盈科有限公司'
   password: BxceQaOe
   port: 443
@@ -118,18 +96,27 @@ proxies:
 - name: '[Trojan] 🇭🇰 香港 电讯盈科有限公司 2'
   password: BxceQaOe
   port: 443
-  server: 58.152.25.20
+  server: 58.152.25.242
   skip-cert-verify: true
-  sni: t.me%252Fripaojiedian
+  sni: t.me%2Fripaojiedian
   tfo: false
   type: trojan
   udp: true
 - name: '[Trojan] 🇭🇰 香港 电讯盈科有限公司 3'
   password: BxceQaOe
   port: 443
-  server: 58.152.25.242
+  server: 58.152.53.174
   skip-cert-verify: true
-  sni: t.me%252Fripaojiedian
+  sni: t.me%2Fripaojiedian
+  tfo: false
+  type: trojan
+  udp: true
+- name: '[Trojan] 🇭🇰 香港 电讯盈科有限公司 4'
+  password: BxceQaOe
+  port: 443
+  server: 58.152.30.120
+  skip-cert-verify: true
+  sni: t.me%2Fripaojiedian
   tfo: false
   type: trojan
   udp: true
@@ -310,15 +297,14 @@ proxy-groups:
   - 🇹🇼 台湾
   - 🇸🇬 新加坡
   - '[VMess] 🇨🇦 _CA_加拿大'
-  - '[Trojan] 🇨🇦 加拿大多伦多 V2CROSS.COM'
   - '[VMess] 🇨🇳 _TW_台湾->🇺🇸_US_美国'
   - '[VMess] 🇩🇪 _US_美国->🇩🇪_DE_德国'
   - '[VMess] 🇬🇧 _US_美国->🇬🇧_GB_英国_1'
   - '[VMess] 🇬🇧 _US_美国->🇬🇧_GB_英国_2'
-  - '[VMess] 🇬🇧 英国 伦敦Choopa数据中心'
   - '[Trojan] 🇭🇰 香港 电讯盈科有限公司'
   - '[Trojan] 🇭🇰 香港 电讯盈科有限公司 2'
   - '[Trojan] 🇭🇰 香港 电讯盈科有限公司 3'
+  - '[Trojan] 🇭🇰 香港 电讯盈科有限公司 4'
   - '[VMess] 🇮🇳 _US_美国->🇮🇳_IN_印度_1'
   - '[VMess] 🇮🇳 _US_美国->🇮🇳_IN_印度_2'
   - '[VMess] 🇮🇳 _US_美国->🇮🇳_IN_印度_3'
@@ -339,15 +325,14 @@ proxy-groups:
   - 🇹🇼 台湾
   - 🇸🇬 新加坡
   - '[VMess] 🇨🇦 _CA_加拿大'
-  - '[Trojan] 🇨🇦 加拿大多伦多 V2CROSS.COM'
   - '[VMess] 🇨🇳 _TW_台湾->🇺🇸_US_美国'
   - '[VMess] 🇩🇪 _US_美国->🇩🇪_DE_德国'
   - '[VMess] 🇬🇧 _US_美国->🇬🇧_GB_英国_1'
   - '[VMess] 🇬🇧 _US_美国->🇬🇧_GB_英国_2'
-  - '[VMess] 🇬🇧 英国 伦敦Choopa数据中心'
   - '[Trojan] 🇭🇰 香港 电讯盈科有限公司'
   - '[Trojan] 🇭🇰 香港 电讯盈科有限公司 2'
   - '[Trojan] 🇭🇰 香港 电讯盈科有限公司 3'
+  - '[Trojan] 🇭🇰 香港 电讯盈科有限公司 4'
   - '[VMess] 🇮🇳 _US_美国->🇮🇳_IN_印度_1'
   - '[VMess] 🇮🇳 _US_美国->🇮🇳_IN_印度_2'
   - '[VMess] 🇮🇳 _US_美国->🇮🇳_IN_印度_3'
@@ -368,15 +353,14 @@ proxy-groups:
   - 🇹🇼 台湾
   - 🇸🇬 新加坡
   - '[VMess] 🇨🇦 _CA_加拿大'
-  - '[Trojan] 🇨🇦 加拿大多伦多 V2CROSS.COM'
   - '[VMess] 🇨🇳 _TW_台湾->🇺🇸_US_美国'
   - '[VMess] 🇩🇪 _US_美国->🇩🇪_DE_德国'
   - '[VMess] 🇬🇧 _US_美国->🇬🇧_GB_英国_1'
   - '[VMess] 🇬🇧 _US_美国->🇬🇧_GB_英国_2'
-  - '[VMess] 🇬🇧 英国 伦敦Choopa数据中心'
   - '[Trojan] 🇭🇰 香港 电讯盈科有限公司'
   - '[Trojan] 🇭🇰 香港 电讯盈科有限公司 2'
   - '[Trojan] 🇭🇰 香港 电讯盈科有限公司 3'
+  - '[Trojan] 🇭🇰 香港 电讯盈科有限公司 4'
   - '[VMess] 🇮🇳 _US_美国->🇮🇳_IN_印度_1'
   - '[VMess] 🇮🇳 _US_美国->🇮🇳_IN_印度_2'
   - '[VMess] 🇮🇳 _US_美国->🇮🇳_IN_印度_3'
@@ -397,15 +381,14 @@ proxy-groups:
   - 🇹🇼 台湾
   - 🇸🇬 新加坡
   - '[VMess] 🇨🇦 _CA_加拿大'
-  - '[Trojan] 🇨🇦 加拿大多伦多 V2CROSS.COM'
   - '[VMess] 🇨🇳 _TW_台湾->🇺🇸_US_美国'
   - '[VMess] 🇩🇪 _US_美国->🇩🇪_DE_德国'
   - '[VMess] 🇬🇧 _US_美国->🇬🇧_GB_英国_1'
   - '[VMess] 🇬🇧 _US_美国->🇬🇧_GB_英国_2'
-  - '[VMess] 🇬🇧 英国 伦敦Choopa数据中心'
   - '[Trojan] 🇭🇰 香港 电讯盈科有限公司'
   - '[Trojan] 🇭🇰 香港 电讯盈科有限公司 2'
   - '[Trojan] 🇭🇰 香港 电讯盈科有限公司 3'
+  - '[Trojan] 🇭🇰 香港 电讯盈科有限公司 4'
   - '[VMess] 🇮🇳 _US_美国->🇮🇳_IN_印度_1'
   - '[VMess] 🇮🇳 _US_美国->🇮🇳_IN_印度_2'
   - '[VMess] 🇮🇳 _US_美国->🇮🇳_IN_印度_3'
@@ -427,15 +410,14 @@ proxy-groups:
   - 🇹🇼 台湾
   - 🇸🇬 新加坡
   - '[VMess] 🇨🇦 _CA_加拿大'
-  - '[Trojan] 🇨🇦 加拿大多伦多 V2CROSS.COM'
   - '[VMess] 🇨🇳 _TW_台湾->🇺🇸_US_美国'
   - '[VMess] 🇩🇪 _US_美国->🇩🇪_DE_德国'
   - '[VMess] 🇬🇧 _US_美国->🇬🇧_GB_英国_1'
   - '[VMess] 🇬🇧 _US_美国->🇬🇧_GB_英国_2'
-  - '[VMess] 🇬🇧 英国 伦敦Choopa数据中心'
   - '[Trojan] 🇭🇰 香港 电讯盈科有限公司'
   - '[Trojan] 🇭🇰 香港 电讯盈科有限公司 2'
   - '[Trojan] 🇭🇰 香港 电讯盈科有限公司 3'
+  - '[Trojan] 🇭🇰 香港 电讯盈科有限公司 4'
   - '[VMess] 🇮🇳 _US_美国->🇮🇳_IN_印度_1'
   - '[VMess] 🇮🇳 _US_美国->🇮🇳_IN_印度_2'
   - '[VMess] 🇮🇳 _US_美国->🇮🇳_IN_印度_3'
@@ -464,6 +446,7 @@ proxy-groups:
   - '[Trojan] 🇭🇰 香港 电讯盈科有限公司'
   - '[Trojan] 🇭🇰 香港 电讯盈科有限公司 2'
   - '[Trojan] 🇭🇰 香港 电讯盈科有限公司 3'
+  - '[Trojan] 🇭🇰 香港 电讯盈科有限公司 4'
   type: select
 - name: Ⓜ️ 微软服务
   proxies:
@@ -474,15 +457,14 @@ proxy-groups:
   - 🇹🇼 台湾
   - 🇸🇬 新加坡
   - '[VMess] 🇨🇦 _CA_加拿大'
-  - '[Trojan] 🇨🇦 加拿大多伦多 V2CROSS.COM'
   - '[VMess] 🇨🇳 _TW_台湾->🇺🇸_US_美国'
   - '[VMess] 🇩🇪 _US_美国->🇩🇪_DE_德国'
   - '[VMess] 🇬🇧 _US_美国->🇬🇧_GB_英国_1'
   - '[VMess] 🇬🇧 _US_美国->🇬🇧_GB_英国_2'
-  - '[VMess] 🇬🇧 英国 伦敦Choopa数据中心'
   - '[Trojan] 🇭🇰 香港 电讯盈科有限公司'
   - '[Trojan] 🇭🇰 香港 电讯盈科有限公司 2'
   - '[Trojan] 🇭🇰 香港 电讯盈科有限公司 3'
+  - '[Trojan] 🇭🇰 香港 电讯盈科有限公司 4'
   - '[VMess] 🇮🇳 _US_美国->🇮🇳_IN_印度_1'
   - '[VMess] 🇮🇳 _US_美国->🇮🇳_IN_印度_2'
   - '[VMess] 🇮🇳 _US_美国->🇮🇳_IN_印度_3'
@@ -500,6 +482,7 @@ proxy-groups:
   - '[Trojan] 🇭🇰 香港 电讯盈科有限公司'
   - '[Trojan] 🇭🇰 香港 电讯盈科有限公司 2'
   - '[Trojan] 🇭🇰 香港 电讯盈科有限公司 3'
+  - '[Trojan] 🇭🇰 香港 电讯盈科有限公司 4'
   type: select
 - name: 🇯🇵 日本
   proxies:
