@@ -38,17 +38,6 @@ proxies:
     path: /tg@hkaa0
 - alterId: 0
   cipher: auto
-  name: '[VMess] 🇨🇳 中国 V2CROSS.COM'
-  port: 30830
-  server: v30.hdacd.com
-  skip-cert-verify: true
-  tfo: false
-  tls: false
-  type: vmess
-  udp: true
-  uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
-- alterId: 0
-  cipher: auto
   name: '[VMess] 🇩🇪 _US_美国->🇩🇪_DE_德国'
   network: ws
   port: 80
@@ -108,33 +97,15 @@ proxies:
   uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
 - alterId: 0
   cipher: auto
-  name: '[VMess] 🇬🇧 英国 V2CROSS.COM 2'
-  port: 180
-  server: 82.198.246.97
+  name: '[VMess] 🇭🇰 香港 电讯盈科有限公司'
+  port: 30830
+  server: v30.hdacd.com
   skip-cert-verify: true
   tfo: false
   tls: false
   type: vmess
   udp: true
-  uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
-- name: '[Trojan] 🇭🇰 香港 电讯盈科有限公司'
-  password: BxceQaOe
-  port: 443
-  server: 219.79.214.159
-  skip-cert-verify: true
-  sni: t.me%25252Fripaojiedian
-  tfo: false
-  type: trojan
-  udp: true
-- name: '[Trojan] 🇭🇰 香港 电讯盈科有限公司 2'
-  password: BxceQaOe
-  port: 443
-  server: 58.152.30.31
-  skip-cert-verify: true
-  sni: t.me%2Fripaojiedian
-  tfo: false
-  type: trojan
-  udp: true
+  uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
 - alterId: 0
   cipher: auto
   name: '[VMess] 🇮🇳 _US_美国->🇮🇳_IN_印度_1'
@@ -195,6 +166,28 @@ proxies:
     headers:
       Host: mm3.shabijichang.com
     path: /
+- alterId: 0
+  cipher: auto
+  name: '[VMess] 🇮🇳 印度 V2CROSS.COM'
+  port: 550
+  server: 103.97.203.220
+  skip-cert-verify: true
+  tfo: false
+  tls: false
+  type: vmess
+  udp: true
+  uuid: 9e0e83ca-0fbc-44b1-8024-0eb8f9414156
+- alterId: 0
+  cipher: auto
+  name: '[VMess] 🇮🇳 印度 V2CROSS.COM 2'
+  port: 550
+  server: 103.97.203.220
+  skip-cert-verify: true
+  tfo: false
+  tls: false
+  type: vmess
+  udp: true
+  uuid: 9e0e83ca-0fbc-44b1-8024-0eb8f9414156
 - alterId: 64
   cipher: auto
   name: '[VMess] 🇳🇱 _US_美国->🇳🇱_NL_荷兰'
@@ -299,15 +292,6 @@ proxies:
   uuid: c458695d-6908-45c3-9512-e0c46418454c
   ws-opts:
     path: /
-- name: '[Trojan] 🇺🇸 美国 华盛顿Cogent通信公司'
-  password: .ie4rghJuMkcf0oF
-  port: 18509
-  server: 38.96.254.102
-  skip-cert-verify: true
-  sni: shoppingmall.electricbanana.click
-  tfo: false
-  type: trojan
-  udp: true
 proxy-groups:
 - name: 🚀 全球互联
   proxies:
@@ -322,18 +306,17 @@ proxy-groups:
   - 🇸🇬 新加坡
   - '[VMess] 🇨🇦 _CA_加拿大'
   - '[VMess] 🇨🇳 _TW_台湾->🇺🇸_US_美国'
-  - '[VMess] 🇨🇳 中国 V2CROSS.COM'
   - '[VMess] 🇩🇪 _US_美国->🇩🇪_DE_德国'
   - '[VMess] 🇬🇧 _US_美国->🇬🇧_GB_英国_1'
   - '[VMess] 🇬🇧 _US_美国->🇬🇧_GB_英国_2'
   - '[VMess] 🇬🇧 英国 V2CROSS.COM'
-  - '[VMess] 🇬🇧 英国 V2CROSS.COM 2'
-  - '[Trojan] 🇭🇰 香港 电讯盈科有限公司'
-  - '[Trojan] 🇭🇰 香港 电讯盈科有限公司 2'
+  - '[VMess] 🇭🇰 香港 电讯盈科有限公司'
   - '[VMess] 🇮🇳 _US_美国->🇮🇳_IN_印度_1'
   - '[VMess] 🇮🇳 _US_美国->🇮🇳_IN_印度_2'
   - '[VMess] 🇮🇳 _US_美国->🇮🇳_IN_印度_3'
   - '[VMess] 🇮🇳 _US_美国->🇮🇳_IN_印度_4'
+  - '[VMess] 🇮🇳 印度 V2CROSS.COM'
+  - '[VMess] 🇮🇳 印度 V2CROSS.COM 2'
   - '[VMess] 🇳🇱 _US_美国->🇳🇱_NL_荷兰'
   - '[VMess] 🇸🇦 _US_美国->🇸🇦_SA_沙特阿拉伯'
   - '[VMess] 🇺🇸 _US_美国_1'
@@ -341,7 +324,6 @@ proxy-groups:
   - '[VMess] 🇺🇸 _US_美国_3'
   - '[VMess] 🇺🇸 _US_美国_4'
   - '[VMess] 🇺🇸 _US_美国_5'
-  - '[Trojan] 🇺🇸 美国 华盛顿Cogent通信公司'
   type: select
 - name: 🎥 Netflix
   proxies:
@@ -352,18 +334,17 @@ proxy-groups:
   - 🇸🇬 新加坡
   - '[VMess] 🇨🇦 _CA_加拿大'
   - '[VMess] 🇨🇳 _TW_台湾->🇺🇸_US_美国'
-  - '[VMess] 🇨🇳 中国 V2CROSS.COM'
   - '[VMess] 🇩🇪 _US_美国->🇩🇪_DE_德国'
   - '[VMess] 🇬🇧 _US_美国->🇬🇧_GB_英国_1'
   - '[VMess] 🇬🇧 _US_美国->🇬🇧_GB_英国_2'
   - '[VMess] 🇬🇧 英国 V2CROSS.COM'
-  - '[VMess] 🇬🇧 英国 V2CROSS.COM 2'
-  - '[Trojan] 🇭🇰 香港 电讯盈科有限公司'
-  - '[Trojan] 🇭🇰 香港 电讯盈科有限公司 2'
+  - '[VMess] 🇭🇰 香港 电讯盈科有限公司'
   - '[VMess] 🇮🇳 _US_美国->🇮🇳_IN_印度_1'
   - '[VMess] 🇮🇳 _US_美国->🇮🇳_IN_印度_2'
   - '[VMess] 🇮🇳 _US_美国->🇮🇳_IN_印度_3'
   - '[VMess] 🇮🇳 _US_美国->🇮🇳_IN_印度_4'
+  - '[VMess] 🇮🇳 印度 V2CROSS.COM'
+  - '[VMess] 🇮🇳 印度 V2CROSS.COM 2'
   - '[VMess] 🇳🇱 _US_美国->🇳🇱_NL_荷兰'
   - '[VMess] 🇸🇦 _US_美国->🇸🇦_SA_沙特阿拉伯'
   - '[VMess] 🇺🇸 _US_美国_1'
@@ -371,7 +352,6 @@ proxy-groups:
   - '[VMess] 🇺🇸 _US_美国_3'
   - '[VMess] 🇺🇸 _US_美国_4'
   - '[VMess] 🇺🇸 _US_美国_5'
-  - '[Trojan] 🇺🇸 美国 华盛顿Cogent通信公司'
   type: select
 - name: 📹 Youtube
   proxies:
@@ -382,18 +362,17 @@ proxy-groups:
   - 🇸🇬 新加坡
   - '[VMess] 🇨🇦 _CA_加拿大'
   - '[VMess] 🇨🇳 _TW_台湾->🇺🇸_US_美国'
-  - '[VMess] 🇨🇳 中国 V2CROSS.COM'
   - '[VMess] 🇩🇪 _US_美国->🇩🇪_DE_德国'
   - '[VMess] 🇬🇧 _US_美国->🇬🇧_GB_英国_1'
   - '[VMess] 🇬🇧 _US_美国->🇬🇧_GB_英国_2'
   - '[VMess] 🇬🇧 英国 V2CROSS.COM'
-  - '[VMess] 🇬🇧 英国 V2CROSS.COM 2'
-  - '[Trojan] 🇭🇰 香港 电讯盈科有限公司'
-  - '[Trojan] 🇭🇰 香港 电讯盈科有限公司 2'
+  - '[VMess] 🇭🇰 香港 电讯盈科有限公司'
   - '[VMess] 🇮🇳 _US_美国->🇮🇳_IN_印度_1'
   - '[VMess] 🇮🇳 _US_美国->🇮🇳_IN_印度_2'
   - '[VMess] 🇮🇳 _US_美国->🇮🇳_IN_印度_3'
   - '[VMess] 🇮🇳 _US_美国->🇮🇳_IN_印度_4'
+  - '[VMess] 🇮🇳 印度 V2CROSS.COM'
+  - '[VMess] 🇮🇳 印度 V2CROSS.COM 2'
   - '[VMess] 🇳🇱 _US_美国->🇳🇱_NL_荷兰'
   - '[VMess] 🇸🇦 _US_美国->🇸🇦_SA_沙特阿拉伯'
   - '[VMess] 🇺🇸 _US_美国_1'
@@ -401,7 +380,6 @@ proxy-groups:
   - '[VMess] 🇺🇸 _US_美国_3'
   - '[VMess] 🇺🇸 _US_美国_4'
   - '[VMess] 🇺🇸 _US_美国_5'
-  - '[Trojan] 🇺🇸 美国 华盛顿Cogent通信公司'
   type: select
 - name: ▶️ Disney+
   proxies:
@@ -412,18 +390,17 @@ proxy-groups:
   - 🇸🇬 新加坡
   - '[VMess] 🇨🇦 _CA_加拿大'
   - '[VMess] 🇨🇳 _TW_台湾->🇺🇸_US_美国'
-  - '[VMess] 🇨🇳 中国 V2CROSS.COM'
   - '[VMess] 🇩🇪 _US_美国->🇩🇪_DE_德国'
   - '[VMess] 🇬🇧 _US_美国->🇬🇧_GB_英国_1'
   - '[VMess] 🇬🇧 _US_美国->🇬🇧_GB_英国_2'
   - '[VMess] 🇬🇧 英国 V2CROSS.COM'
-  - '[VMess] 🇬🇧 英国 V2CROSS.COM 2'
-  - '[Trojan] 🇭🇰 香港 电讯盈科有限公司'
-  - '[Trojan] 🇭🇰 香港 电讯盈科有限公司 2'
+  - '[VMess] 🇭🇰 香港 电讯盈科有限公司'
   - '[VMess] 🇮🇳 _US_美国->🇮🇳_IN_印度_1'
   - '[VMess] 🇮🇳 _US_美国->🇮🇳_IN_印度_2'
   - '[VMess] 🇮🇳 _US_美国->🇮🇳_IN_印度_3'
   - '[VMess] 🇮🇳 _US_美国->🇮🇳_IN_印度_4'
+  - '[VMess] 🇮🇳 印度 V2CROSS.COM'
+  - '[VMess] 🇮🇳 印度 V2CROSS.COM 2'
   - '[VMess] 🇳🇱 _US_美国->🇳🇱_NL_荷兰'
   - '[VMess] 🇸🇦 _US_美国->🇸🇦_SA_沙特阿拉伯'
   - '[VMess] 🇺🇸 _US_美国_1'
@@ -431,7 +408,6 @@ proxy-groups:
   - '[VMess] 🇺🇸 _US_美国_3'
   - '[VMess] 🇺🇸 _US_美国_4'
   - '[VMess] 🇺🇸 _US_美国_5'
-  - '[Trojan] 🇺🇸 美国 华盛顿Cogent通信公司'
   type: select
 - name: 🌍 国外媒体
   proxies:
@@ -443,18 +419,17 @@ proxy-groups:
   - 🇸🇬 新加坡
   - '[VMess] 🇨🇦 _CA_加拿大'
   - '[VMess] 🇨🇳 _TW_台湾->🇺🇸_US_美国'
-  - '[VMess] 🇨🇳 中国 V2CROSS.COM'
   - '[VMess] 🇩🇪 _US_美国->🇩🇪_DE_德国'
   - '[VMess] 🇬🇧 _US_美国->🇬🇧_GB_英国_1'
   - '[VMess] 🇬🇧 _US_美国->🇬🇧_GB_英国_2'
   - '[VMess] 🇬🇧 英国 V2CROSS.COM'
-  - '[VMess] 🇬🇧 英国 V2CROSS.COM 2'
-  - '[Trojan] 🇭🇰 香港 电讯盈科有限公司'
-  - '[Trojan] 🇭🇰 香港 电讯盈科有限公司 2'
+  - '[VMess] 🇭🇰 香港 电讯盈科有限公司'
   - '[VMess] 🇮🇳 _US_美国->🇮🇳_IN_印度_1'
   - '[VMess] 🇮🇳 _US_美国->🇮🇳_IN_印度_2'
   - '[VMess] 🇮🇳 _US_美国->🇮🇳_IN_印度_3'
   - '[VMess] 🇮🇳 _US_美国->🇮🇳_IN_印度_4'
+  - '[VMess] 🇮🇳 印度 V2CROSS.COM'
+  - '[VMess] 🇮🇳 印度 V2CROSS.COM 2'
   - '[VMess] 🇳🇱 _US_美国->🇳🇱_NL_荷兰'
   - '[VMess] 🇸🇦 _US_美国->🇸🇦_SA_沙特阿拉伯'
   - '[VMess] 🇺🇸 _US_美国_1'
@@ -462,7 +437,6 @@ proxy-groups:
   - '[VMess] 🇺🇸 _US_美国_3'
   - '[VMess] 🇺🇸 _US_美国_4'
   - '[VMess] 🇺🇸 _US_美国_5'
-  - '[Trojan] 🇺🇸 美国 华盛顿Cogent通信公司'
   type: select
 - name: 📲 Telegram
   proxies:
@@ -477,8 +451,7 @@ proxy-groups:
   proxies:
   - DIRECT
   - '[VMess] 🇨🇳 _TW_台湾->🇺🇸_US_美国'
-  - '[Trojan] 🇭🇰 香港 电讯盈科有限公司'
-  - '[Trojan] 🇭🇰 香港 电讯盈科有限公司 2'
+  - '[VMess] 🇭🇰 香港 电讯盈科有限公司'
   type: select
 - name: Ⓜ️ 微软服务
   proxies:
@@ -490,18 +463,17 @@ proxy-groups:
   - 🇸🇬 新加坡
   - '[VMess] 🇨🇦 _CA_加拿大'
   - '[VMess] 🇨🇳 _TW_台湾->🇺🇸_US_美国'
-  - '[VMess] 🇨🇳 中国 V2CROSS.COM'
   - '[VMess] 🇩🇪 _US_美国->🇩🇪_DE_德国'
   - '[VMess] 🇬🇧 _US_美国->🇬🇧_GB_英国_1'
   - '[VMess] 🇬🇧 _US_美国->🇬🇧_GB_英国_2'
   - '[VMess] 🇬🇧 英国 V2CROSS.COM'
-  - '[VMess] 🇬🇧 英国 V2CROSS.COM 2'
-  - '[Trojan] 🇭🇰 香港 电讯盈科有限公司'
-  - '[Trojan] 🇭🇰 香港 电讯盈科有限公司 2'
+  - '[VMess] 🇭🇰 香港 电讯盈科有限公司'
   - '[VMess] 🇮🇳 _US_美国->🇮🇳_IN_印度_1'
   - '[VMess] 🇮🇳 _US_美国->🇮🇳_IN_印度_2'
   - '[VMess] 🇮🇳 _US_美国->🇮🇳_IN_印度_3'
   - '[VMess] 🇮🇳 _US_美国->🇮🇳_IN_印度_4'
+  - '[VMess] 🇮🇳 印度 V2CROSS.COM'
+  - '[VMess] 🇮🇳 印度 V2CROSS.COM 2'
   - '[VMess] 🇳🇱 _US_美国->🇳🇱_NL_荷兰'
   - '[VMess] 🇸🇦 _US_美国->🇸🇦_SA_沙特阿拉伯'
   - '[VMess] 🇺🇸 _US_美国_1'
@@ -509,12 +481,10 @@ proxy-groups:
   - '[VMess] 🇺🇸 _US_美国_3'
   - '[VMess] 🇺🇸 _US_美国_4'
   - '[VMess] 🇺🇸 _US_美国_5'
-  - '[Trojan] 🇺🇸 美国 华盛顿Cogent通信公司'
   type: select
 - name: 🇭🇰 香港
   proxies:
-  - '[Trojan] 🇭🇰 香港 电讯盈科有限公司'
-  - '[Trojan] 🇭🇰 香港 电讯盈科有限公司 2'
+  - '[VMess] 🇭🇰 香港 电讯盈科有限公司'
   type: select
 - name: 🇯🇵 日本
   proxies:
@@ -537,7 +507,6 @@ proxy-groups:
   - '[VMess] 🇺🇸 _US_美国_3'
   - '[VMess] 🇺🇸 _US_美国_4'
   - '[VMess] 🇺🇸 _US_美国_5'
-  - '[Trojan] 🇺🇸 美国 华盛顿Cogent通信公司'
   type: select
 - name: 🇹🇼 台湾
   proxies:
