@@ -17,206 +17,174 @@ log-level: info
 mixed-port: 7890
 mode: rule
 proxies:
-- client-fingerprint: firefox
-  flow: xtls-rprx-vision
+- client-fingerprint: chrome
   name: 每天更新，请加电报群防止失联
-  port: 7443
-  reality-opts:
-    public-key: 5QAO98ot2U7TcGs_f6EEaQjCzNOJLNHqPf6smYsdFVI
-    short-id: d82fb387
-  server: 31.76.91.89
-  servername: mi.com
+  port: 22231
+  server: 85.234.114.53
+  servername: r1.mizulina.top
   skip-cert-verify: true
   tls: true
   type: vless
   udp: true
-  uuid: 6ca8ea5b-e47f-4c19-adee-365456e1e87c
-- client-fingerprint: firefox
-  flow: xtls-rprx-vision
+  uuid: afcac633-0e1a-46c3-bef2-cc01cc0097c8
+- alterId: 0
+  cipher: auto
   name: 电报群：https://t.me/vvkj11
-  port: 37478
-  reality-opts:
-    public-key: gwRoOSyzoJalrmAP6BWUUC1s7jfqBRS9LhIrYvibFlg
-    short-id: cc0b9c5e3dde06
-  server: 13.115.231.90
-  servername: www.tesla.com
+  port: 56972
+  server: 154.37.223.19
   skip-cert-verify: true
-  tls: true
-  type: vless
+  tls: false
+  type: vmess
   udp: true
-  uuid: 22f1726b-0a24-414b-8901-3c1d053c1adb
-- client-fingerprint: firefox
-  flow: xtls-rprx-vision
-  name: 日期：06-09
-  port: 47381
-  reality-opts:
-    public-key: kiMGo34R7wN3bHFbY_6MqIHePd7rlnOkxGCt-Ek1Ej0
-    short-id: 67e2075367998314
-  server: 13.231.185.74
-  servername: www.yahoo.com
+  uuid: ae225455-5e8c-491d-d931-c06ac56f4aee
+- alterId: 2
+  cipher: auto
+  name: 日期：06-10
+  port: 30807
+  server: v10.hdacd.com
   skip-cert-verify: true
-  tls: true
-  type: vless
+  tls: false
+  type: vmess
   udp: true
-  uuid: c6508e59-dd68-4dc0-b14f-3192e84ef843
-- client-fingerprint: firefox
-  flow: xtls-rprx-vision
+  uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
+- alterId: 2
+  cipher: auto
   name: 免费VPN：https://tt.vg/OWeaF
-  port: 29746
-  reality-opts:
-    public-key: s1u_Iy1x_b1Ph9Tp3a7xdekHcbcqGy7VA4BpQtJ-mE0
-    short-id: 86c4bf418676a6e2
-  server: 54.169.248.107
-  servername: www.intel.com
+  port: 30806
+  server: 103.182.97.12
   skip-cert-verify: true
-  tls: true
-  type: vless
+  tls: false
+  type: vmess
   udp: true
-  uuid: 3fd28704-112e-4451-8c5f-d6657f8ecf44
-- client-fingerprint: firefox
-  flow: xtls-rprx-vision
-  name: 美国
-  port: 32946
-  reality-opts:
-    public-key: zdEghV1Mt50wCSUBZSd601DSMoX4KBTfcKWZ2_mYTBk
-    short-id: 984d9ea72b9e81
-  server: 46.137.225.209
-  servername: www.amd.com
-  skip-cert-verify: true
-  tls: true
-  type: vless
-  udp: true
-  uuid: 0ff7989d-59b3-4cbd-a2e4-960ac02fb2f1
-- client-fingerprint: firefox
-  flow: xtls-rprx-vision
-  name: 美国_1
-  port: 45075
-  reality-opts:
-    public-key: l6Z-68Q2EJ8nZ5mzWSAB53lp1-_nOHwV2Z18y3DT7xQ
-    short-id: 7185b14179922a5c
-  server: 122.248.202.201
-  servername: www.tesla.com
-  skip-cert-verify: true
-  tls: true
-  type: vless
-  udp: true
-  uuid: 452da0f8-3034-4e5d-9e7f-9c3f58abb8ff
-- client-fingerprint: firefox
-  flow: xtls-rprx-vision
-  name: 美国_2
-  port: 57496
-  reality-opts:
-    public-key: JPIs_p8SFL4U4duZZkAjuatv2gnEAw-iGG6eNAayQl8
-    short-id: 86d1653b7de555a2
-  server: 47.129.160.222
-  servername: www.sony.com
-  skip-cert-verify: true
-  tls: true
-  type: vless
-  udp: true
-  uuid: fdb04591-c75e-441a-a154-a4928f83de4c
-- client-fingerprint: firefox
-  flow: xtls-rprx-vision
-  name: 美国_3
-  port: 59597
-  reality-opts:
-    public-key: pAg7gxX-dDZ68kwy3mEj9vyDrieu-kTvIAhxSRMJQ1w
-    short-id: be3e57dff1279a7d
-  server: 47.131.12.238
-  servername: www.tesla.com
-  skip-cert-verify: true
-  tls: true
-  type: vless
-  udp: true
-  uuid: ba6c3fe7-19ba-4346-8ae3-41d6a2065f19
-- client-fingerprint: firefox
-  flow: xtls-rprx-vision
-  name: 美国_4
-  port: 51182
-  reality-opts:
-    public-key: 7MC_kyGYEV7nG0zqKnfwUmvXsoA0fGG4g4chkqqSRGI
-    short-id: 5ac35e1cd8ce6720
-  server: 13.212.10.113
-  servername: www.tesla.com
-  skip-cert-verify: true
-  tls: true
-  type: vless
-  udp: true
-  uuid: 2a222b39-411e-4d6d-800a-5d067199b6ec
-- client-fingerprint: firefox
-  flow: xtls-rprx-vision
-  name: 美国_5
-  port: 46799
-  reality-opts:
-    public-key: inxRtKQbaiuz18TGXqdYu0dyO_RplIhR7MDZ6rL42UA
-    short-id: af0d579034a74916
-  server: 54.151.254.107
-  servername: www.tesla.com
-  skip-cert-verify: true
-  tls: true
-  type: vless
-  udp: true
-  uuid: f232a803-ff05-4219-b16f-b4dc8497b938
-- client-fingerprint: firefox
-  flow: xtls-rprx-vision
-  name: 美国_6
-  port: 23123
-  reality-opts:
-    public-key: RMDp_xrYjgNV5VATfzCgADH32U4k_jISDCBw7G97x04
-    short-id: f9f213fbc392
-  server: 47.129.152.131
-  servername: www.nvidia.com
-  skip-cert-verify: true
-  tls: true
-  type: vless
-  udp: true
-  uuid: 982ea8d2-d430-4e19-a12c-f69f2e3047a2
-- client-fingerprint: chrome
-  flow: xtls-rprx-vision
-  name: 美国_7
-  port: 7443
-  reality-opts:
-    public-key: 5QAO98ot2U7TcGs_f6EEaQjCzNOJLNHqPf6smYsdFVI
-    short-id: be0ce047
-  server: 167.104.223.58
-  servername: www.microsoft.com
-  skip-cert-verify: true
-  tls: true
-  type: vless
-  udp: true
-  uuid: 6ca8ea5b-e47f-4c19-adee-365456e1e87c
-- client-fingerprint: edge
-  name: 美国_8
-  port: 22231
-  server: 85.234.114.53
-  servername: r1.mizulina.top
-  skip-cert-verify: true
-  tls: true
-  type: vless
-  udp: true
-  uuid: afcac633-0e1a-46c3-bef2-cc01cc0097c8
-- name: 美国_9
-  port: 22231
-  server: 85.234.114.53
-  servername: r1.mizulina.top
-  skip-cert-verify: true
-  tls: true
-  type: vless
-  udp: true
-  uuid: afcac633-0e1a-46c3-bef2-cc01cc0097c8
-- client-fingerprint: chrome
-  name: 美国_10
-  port: 22231
-  server: 85.234.114.53
-  servername: r1.mizulina.top
-  skip-cert-verify: true
-  tls: true
-  type: vless
-  udp: true
-  uuid: afcac633-0e1a-46c3-bef2-cc01cc0097c8
-- client-fingerprint: edge
-  flow: xtls-rprx-vision
+  uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
+- alterId: 2
+  cipher: auto
   name: 德国
+  port: 30833
+  server: v33.hdacd.com
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  udp: true
+  uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
+- alterId: 2
+  cipher: auto
+  name: 法国
+  port: 30835
+  server: v35.hdacd.com
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  udp: true
+  uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
+- client-fingerprint: chrome
+  flow: xtls-rprx-vision
+  name: 日本
+  port: 5454
+  reality-opts:
+    public-key: 7Mb18pl7fH3NvhVevIVTgRdPlAorUucOWMlUaTrDV0o
+    short-id: 4265cc8365
+  server: 1.sdwan.realm-sync.com
+  servername: swcdn.apple.com
+  skip-cert-verify: true
+  tls: true
+  type: vless
+  udp: true
+  uuid: 8faf6e38-0531-4d63-91f0-2aba5b9ff864
+- alterId: 2
+  cipher: auto
+  name: 中国香港
+  port: 30809
+  server: v9.hdacd.com
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  udp: true
+  uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
+- alterId: 2
+  cipher: auto
+  name: 日本_1
+  port: 30806
+  server: v6.hdacd.com
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  udp: true
+  uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
+- client-fingerprint: chrome
+  name: 荷兰
+  port: 22231
+  server: r1.mizulina.top
+  servername: r1.mizulina.top
+  skip-cert-verify: true
+  tls: true
+  type: vless
+  udp: true
+  uuid: afcac633-0e1a-46c3-bef2-cc01cc0097c8
+- alterId: 0
+  cipher: aes-128-gcm
+  name: 美国
+  port: 180
+  server: 82.198.246.214
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  udp: true
+  uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
+- alterId: 0
+  cipher: auto
+  name: 美国_1
+  port: 180
+  server: 82.198.246.250
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  udp: true
+  uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
+- alterId: 0
+  cipher: auto
+  name: 美国_2
+  port: 180
+  server: 82.198.246.214
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  udp: true
+  uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
+- alterId: 0
+  cipher: auto
+  name: 美国_3
+  network: ws
+  port: 22047
+  server: 103.179.142.212
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  udp: true
+  uuid: 948763b5-a064-453c-a015-185cb183bbfe
+- client-fingerprint: chrome
+  flow: xtls-rprx-vision
+  name: 德国_1
+  port: 22231
+  server: 85.234.114.53
+  servername: r1.mizulina.top
+  skip-cert-verify: true
+  tls: true
+  type: vless
+  udp: true
+  uuid: afcac633-0e1a-46c3-bef2-cc01cc0097c8
+- name: 德国_2
+  password: telegram-id-privatevpns
+  port: 22222
+  server: 3.70.90.66
+  skip-cert-verify: true
+  sni: trojan.burgerip.co.uk
+  tls: true
+  type: trojan
+  udp: true
+- client-fingerprint: edge
+  flow: xtls-rprx-vision
+  name: 德国_3
   port: 443
   server: 85.234.114.53
   servername: r1.mizulina.top
@@ -225,365 +193,32 @@ proxies:
   type: vless
   udp: true
   uuid: afcac633-0e1a-46c3-bef2-cc01cc0097c8
-- alterId: 0
-  cipher: auto
-  name: 美国_11
-  port: 180
-  server: 82.198.246.214
+- name: 德国_4
+  password: telegram-id-privatevpns
+  port: 22222
+  server: 18.196.209.211
   skip-cert-verify: true
-  tls: false
-  type: vmess
-  udp: true
-  uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
-- client-fingerprint: chrome
-  flow: xtls-rprx-vision
-  name: 芬兰
-  port: 8443
-  reality-opts:
-    public-key: KYlgK96xPZJq10GbhF-BaCXRxXc9XzxzfICdooYvMlg
-    short-id: d020b987f84eb78a
-  server: bypass.fi-m247-01.com
-  servername: storage.yandex.net
-  skip-cert-verify: true
-  tls: true
-  type: vless
-  udp: true
-  uuid: 51be7e89-0c3c-4414-83c0-63c2eef13a91
-- client-fingerprint: firefox
-  flow: xtls-rprx-vision
-  name: 美国_12
-  port: 22189
-  reality-opts:
-    public-key: 5tUZskKOCKpjz3j7hmuYaQHNfE1QRtZI9P62qvSs1GY
-    short-id: 47b6d14ff477fe59
-  server: 34.213.172.16
-  servername: www.tesla.com
-  skip-cert-verify: true
-  tls: true
-  type: vless
-  udp: true
-  uuid: 4889ee33-74e5-4819-86d8-b2a1a5bc8f46
-- client-fingerprint: firefox
-  flow: xtls-rprx-vision
-  name: 美国_13
-  port: 53887
-  reality-opts:
-    public-key: U8LtEUIKwyRlOQnuyXwaOHW540WuYC2SFHY8VvER3Wk
-    short-id: d7e4c1b7cd86e462
-  server: 16.176.222.48
-  servername: yahoo.com
-  skip-cert-verify: true
-  tls: true
-  type: vless
-  udp: true
-  uuid: 777d639d-48b7-4070-9215-48191a8edc4c
-- client-fingerprint: firefox
-  flow: xtls-rprx-vision
-  name: 美国_14
-  port: 7443
-  reality-opts:
-    public-key: 5QAO98ot2U7TcGs_f6EEaQjCzNOJLNHqPf6smYsdFVI
-    short-id: d82fb387
-  server: 194.58.41.121
-  servername: stackoverflow.com
-  skip-cert-verify: true
-  tls: true
-  type: vless
-  udp: true
-  uuid: 10484bee-8516-400a-9b1e-efb5144ad324
-- client-fingerprint: firefox
-  flow: xtls-rprx-vision
-  name: 美国_15
-  port: 58981
-  reality-opts:
-    public-key: 4pGooKDmjXPxY0u7IJoYAfj6fw2sf6Tbhi_tW0n34zw
-    short-id: 4333dc36
-  server: 16.176.5.2
-  servername: yahoo.com
-  skip-cert-verify: true
-  tls: true
-  type: vless
-  udp: true
-  uuid: 649dcb36-db0c-41b0-ad50-26ec755bee55
-- client-fingerprint: chrome
-  flow: xtls-rprx-vision
-  name: 俄罗斯
-  port: 8443
-  reality-opts:
-    public-key: rZgu2lJcC2yrYnx66znee-Z75mW6m4TRfWt7_neoEVI
-    short-id: 1c74cf626ef50bb3
-  server: ru-selectel-01.com
-  servername: sni.ru-selectel-01.com
-  skip-cert-verify: true
-  tls: true
-  type: vless
-  udp: true
-  uuid: 8cd00214-09da-48d9-8004-8281ff918d36
-- client-fingerprint: chrome
-  flow: xtls-rprx-vision
-  name: 美国_16
-  port: 993
-  reality-opts:
-    public-key: UvQ2HZFkQXrBiaprbcmks-aFo1dvnfPlHXcUKcl-i04
-  server: 122.8.44.3
-  servername: dl.google.com
-  skip-cert-verify: true
-  tls: true
-  type: vless
-  udp: true
-  uuid: 2703cda8-5cf4-019d-c4bd-6cf0c2261946
-- client-fingerprint: chrome
-  name: 美国_17
-  port: 8443
-  server: 95.173.199.80
-  servername: buh-ro-01.fromblancwithlove.com
-  skip-cert-verify: true
-  tls: true
-  type: vless
-  udp: true
-  uuid: 394f6981-a782-4779-9a85-e6cf22935d93
-- name: 德国_1
-  password: 4f4d1167-ef14-4304-9bce-0740472503ef
-  port: 46424
-  server: 155.117.198.83
-  skip-cert-verify: true
-  sni: de.01.naiun.bilibili.com
+  sni: trojan.burgerip.co.uk
   tls: true
   type: trojan
   udp: true
-- name: 美国_18
-  password: 4f4d1167-ef14-4304-9bce-0740472503ef
-  port: 45553
-  server: 155.117.198.86
-  skip-cert-verify: true
-  sni: ch.01.naiun.bilibili.com
-  tls: true
-  type: trojan
-  udp: true
-- name: 美国_19
-  password: 4f4d1167-ef14-4304-9bce-0740472503ef
-  port: 45619
-  server: 155.117.198.82
-  skip-cert-verify: true
-  sni: fr.01.naiun.bilibili.com
-  tls: true
-  type: trojan
-  udp: true
-- name: 法国
-  password: 4f4d1167-ef14-4304-9bce-0740472503ef
-  port: 45619
-  server: 155.117.198.83
-  skip-cert-verify: true
-  sni: fr.01.naiun.bilibili.com
-  tls: true
-  type: trojan
-  udp: true
-- client-fingerprint: firefox
-  flow: xtls-rprx-vision
-  name: 日本
-  port: 20312
-  reality-opts:
-    public-key: 0rtwJI2LRYd35hN1SsoG5tAiH0sasbxBs230lcCmSHE
-    short-id: 1a124fe241cd9fab
-  server: 13.159.91.226
-  servername: www.amd.com
+- client-fingerprint: chrome
+  name: 德国_5
+  network: ws
+  port: 443
+  server: cloudflare-ip.mofashi.ltd
+  servername: qsiim.jfpct.sbs
   skip-cert-verify: true
   tls: true
   type: vless
   udp: true
-  uuid: 5cbdfbb1-cdcc-4448-95c2-b1f3aed8d9c5
-- alterId: 0
-  cipher: auto
-  name: 英国
-  port: 180
-  server: 82.198.246.250
-  skip-cert-verify: true
-  tls: false
-  type: vmess
-  udp: true
-  uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
-- alterId: 0
-  cipher: auto
-  name: 英国_1
-  port: 180
-  server: 82.198.246.250
-  skip-cert-verify: true
-  tls: false
-  type: vmess
-  udp: true
-  uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
-- alterId: 0
-  cipher: auto
-  name: 英国_2
-  port: 180
-  server: 82.198.246.250
-  skip-cert-verify: true
-  tls: false
-  type: vmess
-  udp: true
-  uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
-- alterId: 0
-  cipher: auto
-  name: 英国_3
-  port: 180
-  server: 82.198.246.250
-  skip-cert-verify: true
-  tls: false
-  type: vmess
-  udp: true
-  uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
-- alterId: 0
-  cipher: auto
-  name: 英国_4
-  port: 180
-  server: 82.198.246.250
-  skip-cert-verify: true
-  tls: false
-  type: vmess
-  udp: true
-  uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
-- alterId: 0
-  cipher: auto
-  name: 英国_5
-  port: 180
-  server: 82.198.246.250
-  skip-cert-verify: true
-  tls: false
-  type: vmess
-  udp: true
-  uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
-- alterId: 0
-  cipher: auto
-  name: 英国_6
-  port: 180
-  server: 82.198.246.250
-  skip-cert-verify: true
-  tls: false
-  type: vmess
-  udp: true
-  uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
-- alterId: 0
-  cipher: auto
-  name: 英国_7
-  port: 180
-  server: 82.198.246.250
-  skip-cert-verify: true
-  tls: false
-  type: vmess
-  udp: true
-  uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
-- alterId: 0
-  cipher: auto
-  name: 英国_8
-  port: 180
-  server: 82.198.246.250
-  skip-cert-verify: true
-  tls: false
-  type: vmess
-  udp: true
-  uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
-- alterId: 0
-  cipher: auto
-  name: 英国_9
-  port: 180
-  server: 82.198.246.250
-  skip-cert-verify: true
-  tls: false
-  type: vmess
-  udp: true
-  uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
-- alterId: 0
-  cipher: auto
-  name: 英国_10
-  port: 180
-  server: 82.198.246.250
-  skip-cert-verify: true
-  tls: false
-  type: vmess
-  udp: true
-  uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
-- alterId: 0
-  cipher: auto
-  name: 英国_11
-  port: 180
-  server: 82.198.246.250
-  skip-cert-verify: true
-  tls: false
-  type: vmess
-  udp: true
-  uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
-- alterId: 0
-  cipher: auto
-  name: 英国_12
-  port: 180
-  server: 82.198.246.250
-  skip-cert-verify: true
-  tls: false
-  type: vmess
-  udp: true
-  uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
-- alterId: 0
-  cipher: auto
-  name: 英国_13
-  port: 180
-  server: 82.198.246.250
-  skip-cert-verify: true
-  tls: false
-  type: vmess
-  udp: true
-  uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
-- alterId: 0
-  cipher: auto
-  name: 英国_14
-  port: 180
-  server: 82.198.246.250
-  skip-cert-verify: true
-  tls: false
-  type: vmess
-  udp: true
-  uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
-- alterId: 0
-  cipher: auto
-  name: 英国_15
-  port: 180
-  server: 82.198.246.250
-  skip-cert-verify: true
-  tls: false
-  type: vmess
-  udp: true
-  uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
-- alterId: 0
-  cipher: auto
-  name: 英国_16
-  port: 180
-  server: 82.198.246.250
-  skip-cert-verify: true
-  tls: false
-  type: vmess
-  udp: true
-  uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
-- alterId: 0
-  cipher: auto
-  name: 英国_17
-  port: 180
-  server: 82.198.246.250
-  skip-cert-verify: true
-  tls: false
-  type: vmess
-  udp: true
-  uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
-- alterId: 0
-  cipher: auto
-  name: 英国_18
-  port: 180
-  server: 82.198.246.250
-  skip-cert-verify: true
-  tls: false
-  type: vmess
-  udp: true
-  uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
+  uuid: 6bff4694-7f3a-4062-81c6-ea224fd86078
+  ws-opts:
+    headers:
+      Host: qsiim.jfpct.sbs
+    path: /
 - flow: xtls-rprx-vision
-  name: 俄罗斯_1
+  name: 俄罗斯
   port: 443
   server: cloud.cdnru.net
   servername: cloud.cdnru.net
@@ -593,46 +228,37 @@ proxies:
   udp: true
   uuid: 33612cbf-0639-4285-81da-f88eba1d4f85
 - client-fingerprint: edge
-  name: 南非
-  port: 443
-  server: 156.244.43.22
+  flow: xtls-rprx-vision
+  name: 俄罗斯_1
+  port: 22231
+  server: r1.mizulina.top
   servername: r1.mizulina.top
   skip-cert-verify: true
   tls: true
   type: vless
   udp: true
   uuid: afcac633-0e1a-46c3-bef2-cc01cc0097c8
-- name: 澳大利亚
-  password: 4f4d1167-ef14-4304-9bce-0740472503ef
-  port: 46424
-  server: 90081bb25c.node.tro.cac.cab
-  skip-cert-verify: true
-  sni: de.01.naiun.bilibili.com
-  tls: true
-  type: trojan
-  udp: true
-- client-fingerprint: chrome
-  flow: xtls-rprx-vision
-  name: 俄罗斯_2
+- name: 俄罗斯_2
   port: 22231
-  server: r1.mizulina.top
+  server: 85.234.114.53
+  servername: r1.mizulina.top
   skip-cert-verify: true
   tls: true
   type: vless
   udp: true
   uuid: afcac633-0e1a-46c3-bef2-cc01cc0097c8
 - client-fingerprint: edge
-  flow: xtls-rprx-vision
   name: 俄罗斯_3
-  port: 22231
-  server: r1.mizulina.top
+  port: 443
+  server: 85.234.114.53
   servername: r1.mizulina.top
   skip-cert-verify: true
   tls: true
   type: vless
   udp: true
   uuid: afcac633-0e1a-46c3-bef2-cc01cc0097c8
-- flow: xtls-rprx-vision
+- client-fingerprint: chrome
+  flow: xtls-rprx-vision
   name: 俄罗斯_4
   port: 22231
   server: r1.mizulina.top
@@ -642,31 +268,7 @@ proxies:
   type: vless
   udp: true
   uuid: afcac633-0e1a-46c3-bef2-cc01cc0097c8
-- client-fingerprint: chrome
-  flow: xtls-rprx-vision
-  name: 俄罗斯_5
-  port: 22231
-  server: r1.mizulina.top
-  servername: r1.mizulina.top
-  skip-cert-verify: true
-  tls: true
-  type: vless
-  udp: true
-  uuid: afcac633-0e1a-46c3-bef2-cc01cc0097c8
-- client-fingerprint: chrome
-  flow: xtls-rprx-vision
-  name: 巴基斯坦
-  port: 993
-  reality-opts:
-    public-key: UvQ2HZFkQXrBiaprbcmks-aFo1dvnfPlHXcUKcl-i04
-  server: 122.8.44.3
-  servername: dl.google.com
-  skip-cert-verify: true
-  tls: true
-  type: vless
-  udp: true
-  uuid: 2703cda8-5cf4-019d-c4bd-6cf0c2261946
-- name: 澳大利亚_1
+- name: 法国_1
   password: 4f4d1167-ef14-4304-9bce-0740472503ef
   port: 45619
   server: 90081bb25c.node.tro.cac.cab
@@ -675,97 +277,284 @@ proxies:
   tls: true
   type: trojan
   udp: true
-- name: 澳大利亚_2
+- client-fingerprint: chrome
+  name: 刚果(金)
+  network: ws
+  port: 443
+  server: cf.008500.xyz
+  servername: qsiim.jfpct.sbs
+  skip-cert-verify: true
+  tls: true
+  type: vless
+  udp: true
+  uuid: 6bff4694-7f3a-4062-81c6-ea224fd86078
+  ws-opts:
+    headers:
+      Host: qsiim.jfpct.sbs
+    path: /
+- client-fingerprint: chrome
+  name: 韩国
+  network: ws
+  port: 443
+  server: 15.164.84.61
+  servername: qsiim.jfpct.sbs
+  skip-cert-verify: true
+  tls: true
+  type: vless
+  udp: true
+  uuid: 6bff4694-7f3a-4062-81c6-ea224fd86078
+  ws-opts:
+    headers:
+      Host: qsiim.jfpct.sbs
+    path: /
+- client-fingerprint: chrome
+  name: 韩国_1
+  network: ws
+  port: 443
+  server: 54.180.151.15
+  servername: qsiim.jfpct.sbs
+  skip-cert-verify: true
+  tls: true
+  type: vless
+  udp: true
+  uuid: 6bff4694-7f3a-4062-81c6-ea224fd86078
+  ws-opts:
+    headers:
+      Host: qsiim.jfpct.sbs
+    path: /
+- name: 加拿大
+  network: ws
+  port: 8443
+  server: p.nooshindns.com
+  servername: p.nooshindns.com
+  skip-cert-verify: true
+  tls: true
+  type: vless
+  udp: true
+  uuid: b9e32788-348d-4b38-ab6f-e999a8443dfd
+  ws-opts:
+    headers:
+      Host: p.nooshindns.com
+    path: /
+- name: 加拿大_1
+  network: ws
+  port: 80
+  server: speedtest.net
+  skip-cert-verify: true
+  tls: false
+  type: vless
+  udp: true
+  uuid: cabbfe13-038b-4dbb-9c45-5079c829abfa
+  ws-opts:
+    headers:
+      Host: max-gb1.global.ssl.fastly.net
+    path: /
+- name: 加拿大_2
+  network: ws
+  port: 80
+  server: 199.232.197.131
+  skip-cert-verify: true
+  tls: false
+  type: vless
+  udp: true
+  uuid: 0058c215-ab1e-400c-a403-b5b2fda7e846
+  ws-opts:
+    headers:
+      Host: max-gb1.global.ssl.fastly.net
+    path: /
+- name: 加拿大_3
+  network: ws
+  port: 80
+  server: 151.101.0.1
+  skip-cert-verify: true
+  tls: false
+  type: vless
+  udp: true
+  uuid: cabbfe13-038b-4dbb-9c45-5079c829abfa
+  ws-opts:
+    headers:
+      Host: max-gb1.global.ssl.fastly.net
+    path: /
+- name: 加拿大_4
+  network: ws
+  port: 80
+  server: 151.101.66.219
+  skip-cert-verify: true
+  tls: false
+  type: vless
+  udp: true
+  uuid: cabbfe13-038b-4dbb-9c45-5079c829abfa
+  ws-opts:
+    headers:
+      Host: max-gb1.global.ssl.fastly.net
+    path: /
+- name: 美国_4
   password: 4f4d1167-ef14-4304-9bce-0740472503ef
   port: 47909
-  server: 90081bb25c.node.tro.cac.cab
+  server: 103.177.136.45
+  skip-cert-verify: true
+  sni: is.01.naiun.bilibili.com
+  tls: true
+  type: trojan
+  udp: true
+- name: 美国_5
+  password: 4f4d1167-ef14-4304-9bce-0740472503ef
+  port: 47909
+  server: 103.177.136.43
+  skip-cert-verify: true
+  sni: is.01.naiun.bilibili.com
+  tls: true
+  type: trojan
+  udp: true
+- name: 美国_6
+  password: 4f4d1167-ef14-4304-9bce-0740472503ef
+  port: 41943
+  server: 103.177.136.44
+  skip-cert-verify: true
+  sni: az.01.naiun.bilibili.com
+  tls: true
+  type: trojan
+  udp: true
+- client-fingerprint: chrome
+  flow: xtls-rprx-vision
+  name: 美国_7
+  port: 22231
+  server: 85.234.114.53
+  servername: r1.mizulina.top
+  skip-cert-verify: true
+  tls: true
+  type: vless
+  udp: true
+  uuid: afcac633-0e1a-46c3-bef2-cc01cc0097c8
+- name: 美国_8
+  password: 4f4d1167-ef14-4304-9bce-0740472503ef
+  port: 46424
+  server: 188.253.12.90
+  skip-cert-verify: true
+  sni: de.01.naiun.bilibili.com
+  tls: true
+  type: trojan
+  udp: true
+- name: 美国_9
+  password: 4f4d1167-ef14-4304-9bce-0740472503ef
+  port: 48697
+  server: 188.253.12.90
+  skip-cert-verify: true
+  sni: gh.01.naiun.bilibili.com
+  tls: true
+  type: trojan
+  udp: true
+- flow: xtls-rprx-vision
+  name: 美国_10
+  port: 22231
+  server: 85.234.114.53
+  servername: r1.mizulina.top
+  skip-cert-verify: true
+  tls: true
+  type: vless
+  udp: true
+  uuid: afcac633-0e1a-46c3-bef2-cc01cc0097c8
+- flow: xtls-rprx-vision
+  name: 美国_11
+  port: 443
+  server: 85.234.114.53
+  servername: r1.mizulina.top
+  skip-cert-verify: true
+  tls: true
+  type: vless
+  udp: true
+  uuid: afcac633-0e1a-46c3-bef2-cc01cc0097c8
+- name: 美国_12
+  password: 4f4d1167-ef14-4304-9bce-0740472503ef
+  port: 46424
+  server: 155.117.198.85
+  skip-cert-verify: true
+  sni: de.01.naiun.bilibili.com
+  tls: true
+  type: trojan
+  udp: true
+- name: 美国_13
+  password: 4f4d1167-ef14-4304-9bce-0740472503ef
+  port: 48697
+  server: 188.253.12.93
+  skip-cert-verify: true
+  sni: gh.01.naiun.bilibili.com
+  tls: true
+  type: trojan
+  udp: true
+- name: 美国_14
+  password: 4f4d1167-ef14-4304-9bce-0740472503ef
+  port: 47909
+  server: 188.253.12.96
   skip-cert-verify: true
   sni: is.01.naiun.bilibili.com
   tls: true
   type: trojan
   udp: true
 - flow: xtls-rprx-vision
-  name: 俄罗斯_6
+  name: 美国_15
   port: 22231
   server: r1.mizulina.top
+  servername: r1.mizulina.top
   skip-cert-verify: true
   tls: true
   type: vless
   udp: true
   uuid: afcac633-0e1a-46c3-bef2-cc01cc0097c8
-- name: 澳大利亚_3
-  password: 4f4d1167-ef14-4304-9bce-0740472503ef
-  port: 45553
-  server: 90081bb25c.node.tro.cac.cab
+- name: 美国_16
+  port: 443
+  server: 85.234.114.53
+  servername: r1.mizulina.top
   skip-cert-verify: true
-  sni: ch.01.naiun.bilibili.com
+  tls: true
+  type: vless
+  udp: true
+  uuid: afcac633-0e1a-46c3-bef2-cc01cc0097c8
+- client-fingerprint: firefox
+  flow: xtls-rprx-vision
+  name: 美国_17
+  port: 7443
+  reality-opts:
+    public-key: 5QAO98ot2U7TcGs_f6EEaQjCzNOJLNHqPf6smYsdFVI
+    short-id: be0ce047
+  server: 31.56.188.90
+  servername: mi.com
+  skip-cert-verify: true
+  tls: true
+  type: vless
+  udp: true
+  uuid: adea61c0-0bb2-4ad3-8dba-7766eebd50f8
+- name: 美国_18
+  password: 4f4d1167-ef14-4304-9bce-0740472503ef
+  port: 46424
+  server: 188.253.12.99
+  skip-cert-verify: true
+  sni: de.01.naiun.bilibili.com
   tls: true
   type: trojan
   udp: true
-- client-fingerprint: chrome
-  name: 俄罗斯_7
-  port: 22231
-  server: r1.mizulina.top
-  servername: r1.mizulina.top
+- name: 美国_19
+  password: 4f4d1167-ef14-4304-9bce-0740472503ef
+  port: 46424
+  server: 155.117.198.84
   skip-cert-verify: true
+  sni: de.01.naiun.bilibili.com
   tls: true
-  type: vless
+  type: trojan
   udp: true
-  uuid: afcac633-0e1a-46c3-bef2-cc01cc0097c8
-- client-fingerprint: edge
-  name: 俄罗斯_8
-  port: 22231
-  server: r1.mizulina.top
-  servername: r1.mizulina.top
-  skip-cert-verify: true
-  tls: true
-  type: vless
-  udp: true
-  uuid: afcac633-0e1a-46c3-bef2-cc01cc0097c8
-- client-fingerprint: edge
-  flow: xtls-rprx-vision
-  name: 南非_1
-  port: 443
-  server: 156.244.43.22
-  servername: r1.mizulina.top
-  skip-cert-verify: true
-  tls: true
-  type: vless
-  udp: true
-  uuid: afcac633-0e1a-46c3-bef2-cc01cc0097c8
-- client-fingerprint: chrome
-  flow: xtls-rprx-vision
-  name: 俄罗斯_9
-  port: 22231
-  server: r1.mizulina.top
-  servername: r1.mizulina.top
-  skip-cert-verify: true
-  tls: true
-  type: vless
-  udp: true
-  uuid: afcac633-0e1a-46c3-bef2-cc01cc0097c8
 - name: 美国_20
   password: 4f4d1167-ef14-4304-9bce-0740472503ef
-  port: 45619
-  server: 155.117.198.87
+  port: 47909
+  server: 155.117.198.3
   skip-cert-verify: true
-  sni: fr.01.naiun.bilibili.com
+  sni: is.01.naiun.bilibili.com
   tls: true
   type: trojan
   udp: true
-- name: 俄罗斯_10
-  port: 22231
-  server: r1.mizulina.top
-  servername: r1.mizulina.top
-  skip-cert-verify: true
-  tls: true
-  type: vless
-  udp: true
-  uuid: afcac633-0e1a-46c3-bef2-cc01cc0097c8
 - name: 美国_21
   password: 4f4d1167-ef14-4304-9bce-0740472503ef
   port: 48697
-  server: 155.117.198.87
+  server: 155.117.198.89
   skip-cert-verify: true
   sni: gh.01.naiun.bilibili.com
   tls: true
@@ -773,186 +562,329 @@ proxies:
   udp: true
 - name: 美国_22
   password: 4f4d1167-ef14-4304-9bce-0740472503ef
-  port: 41943
-  server: 155.117.198.87
+  port: 46424
+  server: 90081bb25c.node.tro.cac.cab
   skip-cert-verify: true
-  sni: az.01.naiun.bilibili.com
+  sni: de.01.naiun.bilibili.com
   tls: true
   type: trojan
   udp: true
 - name: 美国_23
   password: 4f4d1167-ef14-4304-9bce-0740472503ef
-  port: 47909
-  server: 155.117.198.82
+  port: 48697
+  server: 155.117.198.84
   skip-cert-verify: true
-  sni: is.01.naiun.bilibili.com
+  sni: gh.01.naiun.bilibili.com
   tls: true
   type: trojan
   udp: true
 - name: 美国_24
   password: 4f4d1167-ef14-4304-9bce-0740472503ef
-  port: 45553
-  server: 155.117.198.82
-  skip-cert-verify: true
-  sni: ch.01.naiun.bilibili.com
-  tls: true
-  type: trojan
-  udp: true
-- name: 美国_25
-  password: 4f4d1167-ef14-4304-9bce-0740472503ef
   port: 47909
-  server: 155.117.198.87
+  server: 188.253.12.93
   skip-cert-verify: true
   sni: is.01.naiun.bilibili.com
   tls: true
   type: trojan
   udp: true
-- name: 美国_26
+- name: 美国_25
   password: 4f4d1167-ef14-4304-9bce-0740472503ef
-  port: 45619
-  server: 155.117.198.86
+  port: 41943
+  server: 188.253.12.98
   skip-cert-verify: true
-  sni: fr.01.naiun.bilibili.com
+  sni: az.01.naiun.bilibili.com
   tls: true
   type: trojan
   udp: true
-- client-fingerprint: chrome
-  flow: xtls-rprx-vision
-  name: 俄罗斯_11
-  port: 443
-  server: 85.234.114.53
-  servername: r1.mizulina.top
-  skip-cert-verify: true
-  tls: true
-  type: vless
-  udp: true
-  uuid: afcac633-0e1a-46c3-bef2-cc01cc0097c8
-- name: 俄罗斯_12
-  port: 443
-  server: 85.234.114.53
-  servername: r1.mizulina.top
-  skip-cert-verify: true
-  tls: true
-  type: vless
-  udp: true
-  uuid: afcac633-0e1a-46c3-bef2-cc01cc0097c8
-- flow: xtls-rprx-vision
-  name: 俄罗斯_13
-  port: 443
-  server: 85.234.114.53
-  servername: r1.mizulina.top
-  skip-cert-verify: true
-  tls: true
-  type: vless
-  udp: true
-  uuid: afcac633-0e1a-46c3-bef2-cc01cc0097c8
-- name: 美国_27
+- name: 美国_26
   password: 4f4d1167-ef14-4304-9bce-0740472503ef
   port: 41943
-  server: 155.117.198.86
+  server: 188.253.12.92
   skip-cert-verify: true
   sni: az.01.naiun.bilibili.com
+  tls: true
+  type: trojan
+  udp: true
+- name: 美国_27
+  password: 4f4d1167-ef14-4304-9bce-0740472503ef
+  port: 45619
+  server: 188.253.12.92
+  skip-cert-verify: true
+  sni: fr.01.naiun.bilibili.com
   tls: true
   type: trojan
   udp: true
 - name: 美国_28
   password: 4f4d1167-ef14-4304-9bce-0740472503ef
+  port: 48697
+  server: 188.253.12.94
+  skip-cert-verify: true
+  sni: gh.01.naiun.bilibili.com
+  tls: true
+  type: trojan
+  udp: true
+- name: 美国_29
+  password: 4f4d1167-ef14-4304-9bce-0740472503ef
   port: 41943
-  server: 155.117.198.83
+  server: 188.253.12.93
   skip-cert-verify: true
   sni: az.01.naiun.bilibili.com
   tls: true
   type: trojan
   udp: true
-- flow: xtls-rprx-vision
-  name: 俄罗斯_14
-  port: 22231
-  server: 85.234.114.53
-  servername: r1.mizulina.top
-  skip-cert-verify: true
-  tls: true
-  type: vless
-  udp: true
-  uuid: afcac633-0e1a-46c3-bef2-cc01cc0097c8
-- client-fingerprint: edge
-  name: 俄罗斯_15
-  port: 443
-  server: 85.234.114.53
-  servername: r1.mizulina.top
-  skip-cert-verify: true
-  tls: true
-  type: vless
-  udp: true
-  uuid: afcac633-0e1a-46c3-bef2-cc01cc0097c8
-- name: 捷克共和国
-  port: 8443
-  server: 95.173.199.80
-  servername: buh-ro-01.fromblancwithlove.com
-  skip-cert-verify: true
-  tls: true
-  type: vless
-  udp: true
-  uuid: 394f6981-a782-4779-9a85-e6cf22935d93
-- name: 美国_29
+- name: 美国_30
   password: 4f4d1167-ef14-4304-9bce-0740472503ef
   port: 45619
-  server: 155.117.198.83
+  server: 188.253.12.99
   skip-cert-verify: true
   sni: fr.01.naiun.bilibili.com
   tls: true
   type: trojan
   udp: true
-- client-fingerprint: chrome
-  flow: xtls-rprx-vision
-  name: 俄罗斯_16
-  port: 22231
-  server: 85.234.114.53
-  servername: r1.mizulina.top
-  skip-cert-verify: true
-  tls: true
-  type: vless
-  udp: true
-  uuid: afcac633-0e1a-46c3-bef2-cc01cc0097c8
-- name: 美国_30
+- name: 美国_31
   password: 4f4d1167-ef14-4304-9bce-0740472503ef
-  port: 48697
-  server: 155.117.198.86
+  port: 41943
+  server: 188.253.12.94
   skip-cert-verify: true
-  sni: gh.01.naiun.bilibili.com
+  sni: az.01.naiun.bilibili.com
   tls: true
   type: trojan
   udp: true
-- alterId: 0
-  cipher: auto
-  name: 美国_31
-  port: 180
-  server: 82.198.246.214
-  skip-cert-verify: true
-  tls: false
-  type: vmess
-  udp: true
-  uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
-- client-fingerprint: edge
-  flow: xtls-rprx-vision
-  name: 格鲁吉亚
-  port: 22231
-  server: r1.mizulina.top
-  servername: r1.mizulina.top
-  skip-cert-verify: true
-  tls: true
-  type: vless
-  udp: true
-  uuid: afcac633-0e1a-46c3-bef2-cc01cc0097c8
 - name: 美国_32
   password: 4f4d1167-ef14-4304-9bce-0740472503ef
+  port: 45619
+  server: 188.253.12.93
+  skip-cert-verify: true
+  sni: fr.01.naiun.bilibili.com
+  tls: true
+  type: trojan
+  udp: true
+- name: 美国_33
+  password: 4f4d1167-ef14-4304-9bce-0740472503ef
+  port: 41943
+  server: 188.253.12.90
+  skip-cert-verify: true
+  sni: az.01.naiun.bilibili.com
+  tls: true
+  type: trojan
+  udp: true
+- name: 美国_34
+  password: 4f4d1167-ef14-4304-9bce-0740472503ef
   port: 48697
-  server: 90081bb25c.node.tro.cac.cab
+  server: 188.253.12.96
   skip-cert-verify: true
   sni: gh.01.naiun.bilibili.com
   tls: true
   type: trojan
   udp: true
-- name: 阿塞拜疆
+- name: 美国_35
+  password: 4f4d1167-ef14-4304-9bce-0740472503ef
+  port: 45619
+  server: 188.253.12.90
+  skip-cert-verify: true
+  sni: fr.01.naiun.bilibili.com
+  tls: true
+  type: trojan
+  udp: true
+- name: 美国_36
+  password: 4f4d1167-ef14-4304-9bce-0740472503ef
+  port: 45553
+  server: 188.253.12.96
+  skip-cert-verify: true
+  sni: ch.01.naiun.bilibili.com
+  tls: true
+  type: trojan
+  udp: true
+- name: 美国_37
+  password: 4f4d1167-ef14-4304-9bce-0740472503ef
+  port: 47909
+  server: 188.253.12.98
+  skip-cert-verify: true
+  sni: is.01.naiun.bilibili.com
+  tls: true
+  type: trojan
+  udp: true
+- name: 美国_38
+  password: 4f4d1167-ef14-4304-9bce-0740472503ef
+  port: 46424
+  server: 188.253.12.96
+  skip-cert-verify: true
+  sni: de.01.naiun.bilibili.com
+  tls: true
+  type: trojan
+  udp: true
+- name: 美国_39
+  password: 4f4d1167-ef14-4304-9bce-0740472503ef
+  port: 47909
+  server: 188.253.12.94
+  skip-cert-verify: true
+  sni: is.01.naiun.bilibili.com
+  tls: true
+  type: trojan
+  udp: true
+- name: 美国_40
+  password: 4f4d1167-ef14-4304-9bce-0740472503ef
+  port: 45553
+  server: 188.253.12.93
+  skip-cert-verify: true
+  sni: ch.01.naiun.bilibili.com
+  tls: true
+  type: trojan
+  udp: true
+- name: 美国_41
+  password: 4f4d1167-ef14-4304-9bce-0740472503ef
+  port: 45553
+  server: 188.253.12.90
+  skip-cert-verify: true
+  sni: ch.01.naiun.bilibili.com
+  tls: true
+  type: trojan
+  udp: true
+- name: 美国_42
+  password: 4f4d1167-ef14-4304-9bce-0740472503ef
+  port: 45553
+  server: 188.253.12.99
+  skip-cert-verify: true
+  sni: ch.01.naiun.bilibili.com
+  tls: true
+  type: trojan
+  udp: true
+- name: 美国_43
+  password: 4f4d1167-ef14-4304-9bce-0740472503ef
+  port: 45619
+  server: 188.253.12.98
+  skip-cert-verify: true
+  sni: fr.01.naiun.bilibili.com
+  tls: true
+  type: trojan
+  udp: true
+- name: 美国_44
+  password: 4f4d1167-ef14-4304-9bce-0740472503ef
+  port: 47909
+  server: 188.253.12.90
+  skip-cert-verify: true
+  sni: is.01.naiun.bilibili.com
+  tls: true
+  type: trojan
+  udp: true
+- name: 美国_45
+  password: 4f4d1167-ef14-4304-9bce-0740472503ef
+  port: 41943
+  server: 188.253.12.99
+  skip-cert-verify: true
+  sni: az.01.naiun.bilibili.com
+  tls: true
+  type: trojan
+  udp: true
+- name: 美国_46
+  password: 4f4d1167-ef14-4304-9bce-0740472503ef
+  port: 45553
+  server: 188.253.12.94
+  skip-cert-verify: true
+  sni: ch.01.naiun.bilibili.com
+  tls: true
+  type: trojan
+  udp: true
+- name: 美国_47
+  password: 4f4d1167-ef14-4304-9bce-0740472503ef
+  port: 41943
+  server: 188.253.12.96
+  skip-cert-verify: true
+  sni: az.01.naiun.bilibili.com
+  tls: true
+  type: trojan
+  udp: true
+- name: 美国_48
+  password: 4f4d1167-ef14-4304-9bce-0740472503ef
+  port: 45553
+  server: 155.117.198.90
+  skip-cert-verify: true
+  sni: ch.01.naiun.bilibili.com
+  tls: true
+  type: trojan
+  udp: true
+- name: 美国_49
+  password: 4f4d1167-ef14-4304-9bce-0740472503ef
+  port: 45619
+  server: 155.117.198.89
+  skip-cert-verify: true
+  sni: fr.01.naiun.bilibili.com
+  tls: true
+  type: trojan
+  udp: true
+- name: 美国_50
+  password: 4f4d1167-ef14-4304-9bce-0740472503ef
+  port: 41943
+  server: 155.117.198.89
+  skip-cert-verify: true
+  sni: az.01.naiun.bilibili.com
+  tls: true
+  type: trojan
+  udp: true
+- name: 美国_51
+  password: 4f4d1167-ef14-4304-9bce-0740472503ef
+  port: 41943
+  server: 155.117.198.85
+  skip-cert-verify: true
+  sni: az.01.naiun.bilibili.com
+  tls: true
+  type: trojan
+  udp: true
+- name: 美国_52
+  password: 4f4d1167-ef14-4304-9bce-0740472503ef
+  port: 45553
+  server: 155.117.198.85
+  skip-cert-verify: true
+  sni: ch.01.naiun.bilibili.com
+  tls: true
+  type: trojan
+  udp: true
+- name: 美国_53
+  password: 4f4d1167-ef14-4304-9bce-0740472503ef
+  port: 45619
+  server: 155.117.198.90
+  skip-cert-verify: true
+  sni: fr.01.naiun.bilibili.com
+  tls: true
+  type: trojan
+  udp: true
+- name: 美国_54
+  password: 4f4d1167-ef14-4304-9bce-0740472503ef
+  port: 45553
+  server: 155.117.198.84
+  skip-cert-verify: true
+  sni: ch.01.naiun.bilibili.com
+  tls: true
+  type: trojan
+  udp: true
+- name: 美国_55
+  password: 4f4d1167-ef14-4304-9bce-0740472503ef
+  port: 45553
+  server: 155.117.198.89
+  skip-cert-verify: true
+  sni: ch.01.naiun.bilibili.com
+  tls: true
+  type: trojan
+  udp: true
+- name: 美国_56
+  password: 4f4d1167-ef14-4304-9bce-0740472503ef
+  port: 47909
+  server: 155.117.198.90
+  skip-cert-verify: true
+  sni: is.01.naiun.bilibili.com
+  tls: true
+  type: trojan
+  udp: true
+- name: 美国_57
+  password: 4f4d1167-ef14-4304-9bce-0740472503ef
+  port: 45619
+  server: 155.117.198.3
+  skip-cert-verify: true
+  sni: fr.01.naiun.bilibili.com
+  tls: true
+  type: trojan
+  udp: true
+- name: 美国_58
   password: 4f4d1167-ef14-4304-9bce-0740472503ef
   port: 41943
   server: 90081bb25c.node.tro.cac.cab
@@ -961,90 +893,17 @@ proxies:
   tls: true
   type: trojan
   udp: true
-- name: 日本_1
-  password: 825929f4-c702-35ce-9124-00d3f95b8c32
-  port: 34470
-  server: adak.sonofthewinds.com
+- name: 美国_59
+  password: 4f4d1167-ef14-4304-9bce-0740472503ef
+  port: 48697
+  server: 90081bb25c.node.tro.cac.cab
   skip-cert-verify: true
-  sni: gj1.sonofthewinds.com
+  sni: gh.01.naiun.bilibili.com
   tls: true
   type: trojan
   udp: true
-- client-fingerprint: edge
-  flow: xtls-rprx-vision
-  name: 格鲁吉亚_1
-  port: 22231
-  server: 85.234.114.53
-  servername: r1.mizulina.top
-  skip-cert-verify: true
-  tls: true
-  type: vless
-  udp: true
-  uuid: afcac633-0e1a-46c3-bef2-cc01cc0097c8
-- alterId: 0
-  cipher: auto
-  name: 德国_2
-  port: 1020
-  server: nlt.reata.ir
-  skip-cert-verify: true
-  tls: false
-  type: vmess
-  udp: true
-  uuid: 6244c41a-f4c1-4733-a654-c38f7729b13c
-- alterId: 2
-  cipher: auto
-  name: 中国香港
-  port: 30807
-  server: v10.hdacd.com
-  skip-cert-verify: true
-  tls: false
-  type: vmess
-  udp: true
-  uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
-- name: 中国台湾
-  password: 825929f4-c702-35ce-9124-00d3f95b8c32
-  port: 34450
-  server: adak.sonofthewinds.com
-  skip-cert-verify: true
-  sni: tt1.sonofthewinds.com
-  tls: true
-  type: trojan
-  udp: true
-- name: 中国香港_1
-  password: 825929f4-c702-35ce-9124-00d3f95b8c32
-  port: 34436
-  server: adak.sonofthewinds.com
-  skip-cert-verify: true
-  sni: hh4.sonofthewinds.com
-  tls: true
-  type: trojan
-  udp: true
-- client-fingerprint: edge
-  flow: xtls-rprx-vision
-  name: 格鲁吉亚_2
-  port: 443
-  server: 85.234.114.53
-  servername: r1.mizulina.top
-  skip-cert-verify: true
-  tls: true
-  type: vless
-  udp: true
-  uuid: afcac633-0e1a-46c3-bef2-cc01cc0097c8
 - client-fingerprint: chrome
-  name: 美国_33
-  network: ws
-  port: 4443
-  server: 54.178.110.17
-  servername: nn9jdg-k7yewrrk.acg.xx.kg
-  skip-cert-verify: true
-  tls: true
-  type: vless
-  udp: true
-  uuid: 00000000-0000-4000-8000-000000000000
-  ws-opts:
-    path: /@Marisa_kristi
-- client-fingerprint: chrome
-  name: 美国_34
+  name: 美国_60
   network: ws
   port: 443
   server: mfa.gov.ua
@@ -1057,7 +916,7 @@ proxies:
   ws-opts:
     path: /@Marisa_kristi
 - client-fingerprint: chrome
-  name: 美国_35
+  name: 美国_61
   network: ws
   port: 30715
   server: 166.88.167.206
@@ -1069,7 +928,37 @@ proxies:
   uuid: 00000000-0000-4000-8000-000000000000
   ws-opts:
     path: /@Marisa_kristi
-- name: 美国_36
+- client-fingerprint: chrome
+  name: 美国_62
+  network: ws
+  port: 443
+  server: 69.63.216.10
+  servername: qsiim.jfpct.sbs
+  skip-cert-verify: true
+  tls: true
+  type: vless
+  udp: true
+  uuid: 6bff4694-7f3a-4062-81c6-ea224fd86078
+  ws-opts:
+    headers:
+      Host: qsiim.jfpct.sbs
+    path: /
+- client-fingerprint: chrome
+  name: 美国_63
+  network: ws
+  port: 8443
+  server: 154.26.176.148
+  servername: qsiim.jfpct.sbs
+  skip-cert-verify: true
+  tls: true
+  type: vless
+  udp: true
+  uuid: 6bff4694-7f3a-4062-81c6-ea224fd86078
+  ws-opts:
+    headers:
+      Host: qsiim.jfpct.sbs
+    path: /
+- name: 美国_64
   password: humanity
   port: 443
   server: 165.215.250.14
@@ -1083,20 +972,7 @@ proxies:
       Host: www.ignitelimit.com
     path: /assignment
 - client-fingerprint: chrome
-  name: 美国_37
-  network: ws
-  port: 10101
-  server: 69.63.218.168
-  servername: vfn-6o8h-kht7rpd.zipgd3vx91o.ddns-ip.net
-  skip-cert-verify: true
-  tls: true
-  type: vless
-  udp: true
-  uuid: 00000000-0000-4000-8000-000000000000
-  ws-opts:
-    path: /@Marisa_kristi
-- client-fingerprint: chrome
-  name: 美国_38
+  name: 美国_65
   network: ws
   port: 20205
   server: 146.70.20.110
@@ -1108,20 +984,20 @@ proxies:
   uuid: 00000000-0000-4000-8000-000000000000
   ws-opts:
     path: /@Marisa_kristi
-- name: 美国_39
-  password: humanity
-  port: 443
-  server: 165.215.250.14
+- client-fingerprint: chrome
+  name: 美国_66
+  network: ws
+  port: 777
+  server: 93.179.99.130
+  servername: nn9jdg-k7yewrrk.acg.xx.kg
   skip-cert-verify: true
-  sni: www.calmlunch.com
   tls: true
-  type: trojan
+  type: vless
   udp: true
+  uuid: 00000000-0000-4000-8000-000000000000
   ws-opts:
-    headers:
-      Host: www.calmlunch.com
-    path: /assignment
-- name: 美国_40
+    path: /@Marisa_kristi
+- name: 美国_67
   password: humanity
   port: 443
   server: 165.215.250.14
@@ -1135,20 +1011,22 @@ proxies:
       Host: www.creationlong.org
     path: /assignment
 - client-fingerprint: chrome
-  name: 美国_41
+  name: 美国_68
   network: ws
-  port: 777
-  server: 93.179.99.130
-  servername: nn9jdg-k7yewrrk.acg.xx.kg
+  port: 443
+  server: 64.186.229.189
+  servername: qsiim.jfpct.sbs
   skip-cert-verify: true
   tls: true
   type: vless
   udp: true
-  uuid: 00000000-0000-4000-8000-000000000000
+  uuid: 6bff4694-7f3a-4062-81c6-ea224fd86078
   ws-opts:
-    path: /@Marisa_kristi
+    headers:
+      Host: qsiim.jfpct.sbs
+    path: /
 - client-fingerprint: chrome
-  name: 美国_42
+  name: 美国_69
   network: ws
   port: 74
   server: 209.97.170.177
@@ -1161,7 +1039,7 @@ proxies:
   ws-opts:
     path: /@Marisa_kristi
 - client-fingerprint: chrome
-  name: 美国_43
+  name: 美国_70
   network: ws
   port: 20742
   server: 45.32.103.8
@@ -1174,20 +1052,22 @@ proxies:
   ws-opts:
     path: /@Marisa_kristi
 - client-fingerprint: chrome
-  name: 美国_44
+  name: 美国_71
   network: ws
-  port: 15429
-  server: 91.149.203.13
-  servername: nn9jdg-k7yewrrk.acg.xx.kg
+  port: 443
+  server: 154.17.13.158
+  servername: qsiim.jfpct.sbs
   skip-cert-verify: true
   tls: true
   type: vless
   udp: true
-  uuid: 00000000-0000-4000-8000-000000000000
+  uuid: 6bff4694-7f3a-4062-81c6-ea224fd86078
   ws-opts:
-    path: /@Marisa_kristi
+    headers:
+      Host: qsiim.jfpct.sbs
+    path: /
 - client-fingerprint: chrome
-  name: 美国_45
+  name: 美国_72
   network: ws
   port: 35130
   server: 213.179.69.150
@@ -1200,7 +1080,7 @@ proxies:
   ws-opts:
     path: /@Marisa_kristi
 - client-fingerprint: chrome
-  name: 美国_46
+  name: 美国_73
   network: ws
   port: 433
   server: 91.184.240.106
@@ -1213,1719 +1093,1384 @@ proxies:
   ws-opts:
     path: /@Marisa_kristi
 - client-fingerprint: chrome
-  name: 德国_3
+  name: 美国_74
   network: ws
-  port: 443
-  server: 80.90.182.93
-  servername: linek.perry.us.kg
+  port: 15429
+  server: 91.149.203.13
+  servername: nn9jdg-k7yewrrk.acg.xx.kg
   skip-cert-verify: true
   tls: true
   type: vless
   udp: true
-  uuid: 36af4874-d6a3-4f7c-82a7-1cb724961b52
+  uuid: 00000000-0000-4000-8000-000000000000
   ws-opts:
-    headers:
-      Host: linek.perry.us.kg
-    path: /tool/act/blog
-- name: 俄罗斯_17
-  network: ws
-  port: 443
-  server: 147.45.70.221
-  servername: linek.perry.us.kg
-  skip-cert-verify: true
-  tls: true
-  type: vless
-  udp: true
-  uuid: 36af4874-d6a3-4f7c-82a7-1cb724961b52
-  ws-opts:
-    headers:
-      Host: linek.perry.us.kg
-    path: /app
+    path: /@Marisa_kristi
 - client-fingerprint: chrome
-  name: Nofound
+  name: 美国_75
   network: ws
   port: 443
-  server: 178.255.222.148
-  servername: linek.perry.us.kg
+  server: 69.63.212.251
+  servername: qsiim.jfpct.sbs
   skip-cert-verify: true
   tls: true
   type: vless
   udp: true
-  uuid: 36af4874-d6a3-4f7c-82a7-1cb724961b52
+  uuid: 6bff4694-7f3a-4062-81c6-ea224fd86078
   ws-opts:
     headers:
-      Host: linek.perry.us.kg
-    path: /mobile/about/friends
-- name: Nofound_1
-  network: ws
-  port: 443
-  server: 178.255.222.148
-  servername: linek.perry.us.kg
-  skip-cert-verify: true
-  tls: true
-  type: vless
-  udp: true
-  uuid: 36af4874-d6a3-4f7c-82a7-1cb724961b52
-  ws-opts:
-    headers:
-      Host: linek.perry.us.kg
-    path: /mobile/about/friends
+      Host: qsiim.jfpct.sbs
+    path: /
 - client-fingerprint: chrome
-  name: 保加利亚
+  name: 美国_76
+  network: ws
+  port: 443
+  server: 154.21.87.223
+  servername: qsiim.jfpct.sbs
+  skip-cert-verify: true
+  tls: true
+  type: vless
+  udp: true
+  uuid: 6bff4694-7f3a-4062-81c6-ea224fd86078
+  ws-opts:
+    headers:
+      Host: qsiim.jfpct.sbs
+    path: /
+- client-fingerprint: chrome
+  name: 美国_77
+  network: ws
+  port: 443
+  server: yx.cloudflare.182682.xyz
+  servername: qsiim.jfpct.sbs
+  skip-cert-verify: true
+  tls: true
+  type: vless
+  udp: true
+  uuid: 6bff4694-7f3a-4062-81c6-ea224fd86078
+  ws-opts:
+    headers:
+      Host: qsiim.jfpct.sbs
+    path: /
+- client-fingerprint: chrome
+  name: 美国_78
+  network: ws
+  port: 443
+  server: cf.877774.xyz
+  servername: qsiim.jfpct.sbs
+  skip-cert-verify: true
+  tls: true
+  type: vless
+  udp: true
+  uuid: 6bff4694-7f3a-4062-81c6-ea224fd86078
+  ws-opts:
+    headers:
+      Host: qsiim.jfpct.sbs
+    path: /
+- client-fingerprint: chrome
+  name: 美国_79
+  network: ws
+  port: 443
+  server: www.shopify.com
+  servername: qsiim.jfpct.sbs
+  skip-cert-verify: true
+  tls: true
+  type: vless
+  udp: true
+  uuid: 6bff4694-7f3a-4062-81c6-ea224fd86078
+  ws-opts:
+    headers:
+      Host: qsiim.jfpct.sbs
+    path: /
+- client-fingerprint: chrome
+  name: 美国_80
+  network: ws
+  port: 443
+  server: 64.186.227.87
+  servername: qsiim.jfpct.sbs
+  skip-cert-verify: true
+  tls: true
+  type: vless
+  udp: true
+  uuid: 6bff4694-7f3a-4062-81c6-ea224fd86078
+  ws-opts:
+    headers:
+      Host: qsiim.jfpct.sbs
+    path: /
+- client-fingerprint: chrome
+  name: 美国_81
+  network: ws
+  port: 443
+  server: 64.186.252.166
+  servername: qsiim.jfpct.sbs
+  skip-cert-verify: true
+  tls: true
+  type: vless
+  udp: true
+  uuid: 6bff4694-7f3a-4062-81c6-ea224fd86078
+  ws-opts:
+    headers:
+      Host: qsiim.jfpct.sbs
+    path: /
+- client-fingerprint: chrome
+  name: 美国_82
+  network: ws
+  port: 443
+  server: 69.63.214.61
+  servername: qsiim.jfpct.sbs
+  skip-cert-verify: true
+  tls: true
+  type: vless
+  udp: true
+  uuid: 6bff4694-7f3a-4062-81c6-ea224fd86078
+  ws-opts:
+    headers:
+      Host: qsiim.jfpct.sbs
+    path: /
+- client-fingerprint: chrome
+  name: 美国_83
+  network: ws
+  port: 443
+  server: 154.17.22.207
+  servername: qsiim.jfpct.sbs
+  skip-cert-verify: true
+  tls: true
+  type: vless
+  udp: true
+  uuid: 6bff4694-7f3a-4062-81c6-ea224fd86078
+  ws-opts:
+    headers:
+      Host: qsiim.jfpct.sbs
+    path: /
+- client-fingerprint: chrome
+  name: 美国_84
+  network: ws
+  port: 443
+  server: 154.21.82.135
+  servername: qsiim.jfpct.sbs
+  skip-cert-verify: true
+  tls: true
+  type: vless
+  udp: true
+  uuid: 6bff4694-7f3a-4062-81c6-ea224fd86078
+  ws-opts:
+    headers:
+      Host: qsiim.jfpct.sbs
+    path: /
+- client-fingerprint: chrome
+  name: 美国_85
+  network: ws
+  port: 443
+  server: 64.186.232.60
+  servername: qsiim.jfpct.sbs
+  skip-cert-verify: true
+  tls: true
+  type: vless
+  udp: true
+  uuid: 6bff4694-7f3a-4062-81c6-ea224fd86078
+  ws-opts:
+    headers:
+      Host: qsiim.jfpct.sbs
+    path: /
+- client-fingerprint: chrome
+  name: 美国_86
+  network: ws
+  port: 443
+  server: 154.26.180.8
+  servername: qsiim.jfpct.sbs
+  skip-cert-verify: true
+  tls: true
+  type: vless
+  udp: true
+  uuid: 6bff4694-7f3a-4062-81c6-ea224fd86078
+  ws-opts:
+    headers:
+      Host: qsiim.jfpct.sbs
+    path: /
+- client-fingerprint: chrome
+  name: 美国_87
+  network: ws
+  port: 443
+  server: 154.17.23.239
+  servername: qsiim.jfpct.sbs
+  skip-cert-verify: true
+  tls: true
+  type: vless
+  udp: true
+  uuid: 6bff4694-7f3a-4062-81c6-ea224fd86078
+  ws-opts:
+    headers:
+      Host: qsiim.jfpct.sbs
+    path: /
+- client-fingerprint: chrome
+  name: 美国_88
+  network: ws
+  port: 443
+  server: 154.17.26.200
+  servername: qsiim.jfpct.sbs
+  skip-cert-verify: true
+  tls: true
+  type: vless
+  udp: true
+  uuid: 6bff4694-7f3a-4062-81c6-ea224fd86078
+  ws-opts:
+    headers:
+      Host: qsiim.jfpct.sbs
+    path: /
+- client-fingerprint: chrome
+  name: 美国_89
+  network: ws
+  port: 443
+  server: 69.63.212.192
+  servername: qsiim.jfpct.sbs
+  skip-cert-verify: true
+  tls: true
+  type: vless
+  udp: true
+  uuid: 6bff4694-7f3a-4062-81c6-ea224fd86078
+  ws-opts:
+    headers:
+      Host: qsiim.jfpct.sbs
+    path: /
+- client-fingerprint: chrome
+  name: 美国_90
+  network: ws
+  port: 443
+  server: 154.17.26.148
+  servername: qsiim.jfpct.sbs
+  skip-cert-verify: true
+  tls: true
+  type: vless
+  udp: true
+  uuid: 6bff4694-7f3a-4062-81c6-ea224fd86078
+  ws-opts:
+    headers:
+      Host: qsiim.jfpct.sbs
+    path: /
+- client-fingerprint: chrome
+  name: 美国_91
+  network: ws
+  port: 443
+  server: 154.26.187.69
+  servername: qsiim.jfpct.sbs
+  skip-cert-verify: true
+  tls: true
+  type: vless
+  udp: true
+  uuid: 6bff4694-7f3a-4062-81c6-ea224fd86078
+  ws-opts:
+    headers:
+      Host: qsiim.jfpct.sbs
+    path: /
+- client-fingerprint: chrome
+  name: 美国_92
+  network: ws
+  port: 443
+  server: 154.26.186.78
+  servername: qsiim.jfpct.sbs
+  skip-cert-verify: true
+  tls: true
+  type: vless
+  udp: true
+  uuid: 6bff4694-7f3a-4062-81c6-ea224fd86078
+  ws-opts:
+    headers:
+      Host: qsiim.jfpct.sbs
+    path: /
+- client-fingerprint: chrome
+  name: 美国_93
+  network: ws
+  port: 443
+  server: 154.21.94.7
+  servername: qsiim.jfpct.sbs
+  skip-cert-verify: true
+  tls: true
+  type: vless
+  udp: true
+  uuid: 6bff4694-7f3a-4062-81c6-ea224fd86078
+  ws-opts:
+    headers:
+      Host: qsiim.jfpct.sbs
+    path: /
+- client-fingerprint: chrome
+  name: 美国_94
+  network: ws
+  port: 443
+  server: 69.63.213.250
+  servername: qsiim.jfpct.sbs
+  skip-cert-verify: true
+  tls: true
+  type: vless
+  udp: true
+  uuid: 6bff4694-7f3a-4062-81c6-ea224fd86078
+  ws-opts:
+    headers:
+      Host: qsiim.jfpct.sbs
+    path: /
+- client-fingerprint: chrome
+  name: 美国_95
+  network: ws
+  port: 443
+  server: 154.21.95.59
+  servername: qsiim.jfpct.sbs
+  skip-cert-verify: true
+  tls: true
+  type: vless
+  udp: true
+  uuid: 6bff4694-7f3a-4062-81c6-ea224fd86078
+  ws-opts:
+    headers:
+      Host: qsiim.jfpct.sbs
+    path: /
+- client-fingerprint: chrome
+  name: 美国_96
+  network: ws
+  port: 443
+  server: 154.17.1.231
+  servername: qsiim.jfpct.sbs
+  skip-cert-verify: true
+  tls: true
+  type: vless
+  udp: true
+  uuid: 6bff4694-7f3a-4062-81c6-ea224fd86078
+  ws-opts:
+    headers:
+      Host: qsiim.jfpct.sbs
+    path: /
+- client-fingerprint: chrome
+  name: 美国_97
+  network: ws
+  port: 443
+  server: 154.17.24.174
+  servername: qsiim.jfpct.sbs
+  skip-cert-verify: true
+  tls: true
+  type: vless
+  udp: true
+  uuid: 6bff4694-7f3a-4062-81c6-ea224fd86078
+  ws-opts:
+    headers:
+      Host: qsiim.jfpct.sbs
+    path: /
+- client-fingerprint: chrome
+  name: 美国_98
+  network: ws
+  port: 443
+  server: 154.17.12.91
+  servername: qsiim.jfpct.sbs
+  skip-cert-verify: true
+  tls: true
+  type: vless
+  udp: true
+  uuid: 6bff4694-7f3a-4062-81c6-ea224fd86078
+  ws-opts:
+    headers:
+      Host: qsiim.jfpct.sbs
+    path: /
+- client-fingerprint: chrome
+  name: 美国_99
+  network: ws
+  port: 443
+  server: 64.186.225.82
+  servername: qsiim.jfpct.sbs
+  skip-cert-verify: true
+  tls: true
+  type: vless
+  udp: true
+  uuid: 6bff4694-7f3a-4062-81c6-ea224fd86078
+  ws-opts:
+    headers:
+      Host: qsiim.jfpct.sbs
+    path: /
+- client-fingerprint: chrome
+  name: 美国_100
+  network: ws
+  port: 443
+  server: 64.186.236.167
+  servername: qsiim.jfpct.sbs
+  skip-cert-verify: true
+  tls: true
+  type: vless
+  udp: true
+  uuid: 6bff4694-7f3a-4062-81c6-ea224fd86078
+  ws-opts:
+    headers:
+      Host: qsiim.jfpct.sbs
+    path: /
+- client-fingerprint: chrome
+  name: 美国_101
+  network: ws
+  port: 443
+  server: 154.17.22.175
+  servername: qsiim.jfpct.sbs
+  skip-cert-verify: true
+  tls: true
+  type: vless
+  udp: true
+  uuid: 6bff4694-7f3a-4062-81c6-ea224fd86078
+  ws-opts:
+    headers:
+      Host: qsiim.jfpct.sbs
+    path: /
+- client-fingerprint: chrome
+  name: 美国_102
+  network: ws
+  port: 443
+  server: 154.17.9.145
+  servername: qsiim.jfpct.sbs
+  skip-cert-verify: true
+  tls: true
+  type: vless
+  udp: true
+  uuid: 6bff4694-7f3a-4062-81c6-ea224fd86078
+  ws-opts:
+    headers:
+      Host: qsiim.jfpct.sbs
+    path: /
+- client-fingerprint: chrome
+  name: 美国_103
+  network: ws
+  port: 443
+  server: 154.26.181.85
+  servername: qsiim.jfpct.sbs
+  skip-cert-verify: true
+  tls: true
+  type: vless
+  udp: true
+  uuid: 6bff4694-7f3a-4062-81c6-ea224fd86078
+  ws-opts:
+    headers:
+      Host: qsiim.jfpct.sbs
+    path: /
+- client-fingerprint: chrome
+  name: 美国_104
+  network: ws
+  port: 443
+  server: 64.186.241.154
+  servername: qsiim.jfpct.sbs
+  skip-cert-verify: true
+  tls: true
+  type: vless
+  udp: true
+  uuid: 6bff4694-7f3a-4062-81c6-ea224fd86078
+  ws-opts:
+    headers:
+      Host: qsiim.jfpct.sbs
+    path: /
+- client-fingerprint: chrome
+  name: 美国_105
+  network: ws
+  port: 443
+  server: 69.63.217.6
+  servername: qsiim.jfpct.sbs
+  skip-cert-verify: true
+  tls: true
+  type: vless
+  udp: true
+  uuid: 6bff4694-7f3a-4062-81c6-ea224fd86078
+  ws-opts:
+    headers:
+      Host: qsiim.jfpct.sbs
+    path: /
+- client-fingerprint: chrome
+  name: 美国_106
+  network: ws
+  port: 443
+  server: 154.21.95.165
+  servername: qsiim.jfpct.sbs
+  skip-cert-verify: true
+  tls: true
+  type: vless
+  udp: true
+  uuid: 6bff4694-7f3a-4062-81c6-ea224fd86078
+  ws-opts:
+    headers:
+      Host: qsiim.jfpct.sbs
+    path: /
+- client-fingerprint: chrome
+  name: 美国_107
+  network: ws
+  port: 8443
+  server: 154.26.187.44
+  servername: qsiim.jfpct.sbs
+  skip-cert-verify: true
+  tls: true
+  type: vless
+  udp: true
+  uuid: 6bff4694-7f3a-4062-81c6-ea224fd86078
+  ws-opts:
+    headers:
+      Host: qsiim.jfpct.sbs
+    path: /
+- client-fingerprint: chrome
+  name: 美国_108
+  network: ws
+  port: 443
+  server: 154.17.6.235
+  servername: qsiim.jfpct.sbs
+  skip-cert-verify: true
+  tls: true
+  type: vless
+  udp: true
+  uuid: 6bff4694-7f3a-4062-81c6-ea224fd86078
+  ws-opts:
+    headers:
+      Host: qsiim.jfpct.sbs
+    path: /
+- client-fingerprint: chrome
+  name: 美国_109
+  network: ws
+  port: 443
+  server: 64.186.230.172
+  servername: qsiim.jfpct.sbs
+  skip-cert-verify: true
+  tls: true
+  type: vless
+  udp: true
+  uuid: 6bff4694-7f3a-4062-81c6-ea224fd86078
+  ws-opts:
+    headers:
+      Host: qsiim.jfpct.sbs
+    path: /
+- client-fingerprint: chrome
+  name: 美国_110
+  network: ws
+  port: 443
+  server: 154.17.8.84
+  servername: qsiim.jfpct.sbs
+  skip-cert-verify: true
+  tls: true
+  type: vless
+  udp: true
+  uuid: 6bff4694-7f3a-4062-81c6-ea224fd86078
+  ws-opts:
+    headers:
+      Host: qsiim.jfpct.sbs
+    path: /
+- client-fingerprint: chrome
+  name: 美国_111
+  network: ws
+  port: 8443
+  server: 64.186.238.108
+  servername: qsiim.jfpct.sbs
+  skip-cert-verify: true
+  tls: true
+  type: vless
+  udp: true
+  uuid: 6bff4694-7f3a-4062-81c6-ea224fd86078
+  ws-opts:
+    headers:
+      Host: qsiim.jfpct.sbs
+    path: /
+- client-fingerprint: chrome
+  name: 美国_112
+  network: ws
+  port: 443
+  server: 64.186.236.235
+  servername: qsiim.jfpct.sbs
+  skip-cert-verify: true
+  tls: true
+  type: vless
+  udp: true
+  uuid: 6bff4694-7f3a-4062-81c6-ea224fd86078
+  ws-opts:
+    headers:
+      Host: qsiim.jfpct.sbs
+    path: /
+- client-fingerprint: chrome
+  name: 美国_113
+  network: ws
+  port: 443
+  server: 64.186.228.41
+  servername: qsiim.jfpct.sbs
+  skip-cert-verify: true
+  tls: true
+  type: vless
+  udp: true
+  uuid: 6bff4694-7f3a-4062-81c6-ea224fd86078
+  ws-opts:
+    headers:
+      Host: qsiim.jfpct.sbs
+    path: /
+- client-fingerprint: chrome
+  name: 美国_114
+  network: ws
+  port: 443
+  server: 64.186.226.62
+  servername: qsiim.jfpct.sbs
+  skip-cert-verify: true
+  tls: true
+  type: vless
+  udp: true
+  uuid: 6bff4694-7f3a-4062-81c6-ea224fd86078
+  ws-opts:
+    headers:
+      Host: qsiim.jfpct.sbs
+    path: /
+- client-fingerprint: chrome
+  name: 美国_115
+  network: ws
+  port: 8443
+  server: 154.17.25.156
+  servername: qsiim.jfpct.sbs
+  skip-cert-verify: true
+  tls: true
+  type: vless
+  udp: true
+  uuid: 6bff4694-7f3a-4062-81c6-ea224fd86078
+  ws-opts:
+    headers:
+      Host: qsiim.jfpct.sbs
+    path: /
+- client-fingerprint: chrome
+  name: 美国_116
+  network: ws
+  port: 443
+  server: 69.63.212.210
+  servername: qsiim.jfpct.sbs
+  skip-cert-verify: true
+  tls: true
+  type: vless
+  udp: true
+  uuid: 6bff4694-7f3a-4062-81c6-ea224fd86078
+  ws-opts:
+    headers:
+      Host: qsiim.jfpct.sbs
+    path: /
+- client-fingerprint: chrome
+  name: 美国_117
+  network: ws
+  port: 443
+  server: 64.186.239.202
+  servername: qsiim.jfpct.sbs
+  skip-cert-verify: true
+  tls: true
+  type: vless
+  udp: true
+  uuid: 6bff4694-7f3a-4062-81c6-ea224fd86078
+  ws-opts:
+    headers:
+      Host: qsiim.jfpct.sbs
+    path: /
+- client-fingerprint: chrome
+  name: 美国_118
+  network: ws
+  port: 443
+  server: 64.186.235.57
+  servername: qsiim.jfpct.sbs
+  skip-cert-verify: true
+  tls: true
+  type: vless
+  udp: true
+  uuid: 6bff4694-7f3a-4062-81c6-ea224fd86078
+  ws-opts:
+    headers:
+      Host: qsiim.jfpct.sbs
+    path: /
+- client-fingerprint: chrome
+  name: 美国_119
+  network: ws
+  port: 443
+  server: 69.63.211.169
+  servername: qsiim.jfpct.sbs
+  skip-cert-verify: true
+  tls: true
+  type: vless
+  udp: true
+  uuid: 6bff4694-7f3a-4062-81c6-ea224fd86078
+  ws-opts:
+    headers:
+      Host: qsiim.jfpct.sbs
+    path: /
+- client-fingerprint: chrome
+  name: 美国_120
+  network: ws
+  port: 443
+  server: 64.186.232.37
+  servername: qsiim.jfpct.sbs
+  skip-cert-verify: true
+  tls: true
+  type: vless
+  udp: true
+  uuid: 6bff4694-7f3a-4062-81c6-ea224fd86078
+  ws-opts:
+    headers:
+      Host: qsiim.jfpct.sbs
+    path: /
+- client-fingerprint: chrome
+  name: 美国_121
+  network: ws
+  port: 443
+  server: 154.17.4.26
+  servername: qsiim.jfpct.sbs
+  skip-cert-verify: true
+  tls: true
+  type: vless
+  udp: true
+  uuid: 6bff4694-7f3a-4062-81c6-ea224fd86078
+  ws-opts:
+    headers:
+      Host: qsiim.jfpct.sbs
+    path: /
+- client-fingerprint: chrome
+  name: 美国_122
+  network: ws
+  port: 443
+  server: 154.17.13.184
+  servername: qsiim.jfpct.sbs
+  skip-cert-verify: true
+  tls: true
+  type: vless
+  udp: true
+  uuid: 6bff4694-7f3a-4062-81c6-ea224fd86078
+  ws-opts:
+    headers:
+      Host: qsiim.jfpct.sbs
+    path: /
+- client-fingerprint: chrome
+  name: 美国_123
   network: ws
   port: 2053
-  server: 193.37.212.56
-  servername: linek.perry.us.kg
+  server: 154.17.4.159
+  servername: qsiim.jfpct.sbs
   skip-cert-verify: true
   tls: true
   type: vless
   udp: true
-  uuid: 36af4874-d6a3-4f7c-82a7-1cb724961b52
+  uuid: 6bff4694-7f3a-4062-81c6-ea224fd86078
   ws-opts:
     headers:
-      Host: linek.perry.us.kg
-    path: /data
+      Host: qsiim.jfpct.sbs
+    path: /
 - client-fingerprint: chrome
-  name: 美国_47
+  name: 美国_124
   network: ws
   port: 443
-  server: 144.31.4.235
-  servername: linek.perry.us.kg
+  server: 64.186.231.175
+  servername: qsiim.jfpct.sbs
   skip-cert-verify: true
   tls: true
   type: vless
   udp: true
-  uuid: 36af4874-d6a3-4f7c-82a7-1cb724961b52
+  uuid: 6bff4694-7f3a-4062-81c6-ea224fd86078
   ws-opts:
     headers:
-      Host: linek.perry.us.kg
-    path: /pdf
-- name: 新加坡
-  network: ws
-  port: 2053
-  server: 149.28.129.157
-  servername: linek.perry.us.kg
-  skip-cert-verify: true
-  tls: true
-  type: vless
-  udp: true
-  uuid: 36af4874-d6a3-4f7c-82a7-1cb724961b52
-  ws-opts:
-    headers:
-      Host: linek.perry.us.kg
-    path: /thread/forum/res
+      Host: qsiim.jfpct.sbs
+    path: /
 - client-fingerprint: chrome
-  name: 保加利亚_1
+  name: 美国_125
   network: ws
-  port: 2053
-  server: 185.177.59.153
-  servername: linek.perry.us.kg
+  port: 443
+  server: 69.63.223.47
+  servername: qsiim.jfpct.sbs
   skip-cert-verify: true
   tls: true
   type: vless
   udp: true
-  uuid: 36af4874-d6a3-4f7c-82a7-1cb724961b52
+  uuid: 6bff4694-7f3a-4062-81c6-ea224fd86078
   ws-opts:
     headers:
-      Host: linek.perry.us.kg
-    path: /pics/downloads
-- name: 英国_19
+      Host: qsiim.jfpct.sbs
+    path: /
+- client-fingerprint: chrome
+  name: 美国_126
+  network: ws
+  port: 443
+  server: 69.63.223.42
+  servername: qsiim.jfpct.sbs
+  skip-cert-verify: true
+  tls: true
+  type: vless
+  udp: true
+  uuid: 6bff4694-7f3a-4062-81c6-ea224fd86078
+  ws-opts:
+    headers:
+      Host: qsiim.jfpct.sbs
+    path: /
+- client-fingerprint: chrome
+  name: 美国_127
+  network: ws
+  port: 443
+  server: 154.17.11.153
+  servername: qsiim.jfpct.sbs
+  skip-cert-verify: true
+  tls: true
+  type: vless
+  udp: true
+  uuid: 6bff4694-7f3a-4062-81c6-ea224fd86078
+  ws-opts:
+    headers:
+      Host: qsiim.jfpct.sbs
+    path: /
+- client-fingerprint: chrome
+  name: 美国_128
+  network: ws
+  port: 443
+  server: 64.186.233.224
+  servername: qsiim.jfpct.sbs
+  skip-cert-verify: true
+  tls: true
+  type: vless
+  udp: true
+  uuid: 6bff4694-7f3a-4062-81c6-ea224fd86078
+  ws-opts:
+    headers:
+      Host: qsiim.jfpct.sbs
+    path: /
+- client-fingerprint: chrome
+  name: 美国_129
+  network: ws
+  port: 443
+  server: 154.26.183.243
+  servername: qsiim.jfpct.sbs
+  skip-cert-verify: true
+  tls: true
+  type: vless
+  udp: true
+  uuid: 6bff4694-7f3a-4062-81c6-ea224fd86078
+  ws-opts:
+    headers:
+      Host: qsiim.jfpct.sbs
+    path: /
+- client-fingerprint: chrome
+  name: 美国_130
+  network: ws
+  port: 443
+  server: 69.63.193.64
+  servername: qsiim.jfpct.sbs
+  skip-cert-verify: true
+  tls: true
+  type: vless
+  udp: true
+  uuid: 6bff4694-7f3a-4062-81c6-ea224fd86078
+  ws-opts:
+    headers:
+      Host: qsiim.jfpct.sbs
+    path: /
+- client-fingerprint: chrome
+  name: 美国_131
+  network: ws
+  port: 443
+  server: 154.21.81.140
+  servername: qsiim.jfpct.sbs
+  skip-cert-verify: true
+  tls: true
+  type: vless
+  udp: true
+  uuid: 6bff4694-7f3a-4062-81c6-ea224fd86078
+  ws-opts:
+    headers:
+      Host: qsiim.jfpct.sbs
+    path: /
+- client-fingerprint: chrome
+  name: 美国_132
+  network: ws
+  port: 443
+  server: 64.186.232.121
+  servername: qsiim.jfpct.sbs
+  skip-cert-verify: true
+  tls: true
+  type: vless
+  udp: true
+  uuid: 6bff4694-7f3a-4062-81c6-ea224fd86078
+  ws-opts:
+    headers:
+      Host: qsiim.jfpct.sbs
+    path: /
+- client-fingerprint: chrome
+  name: 美国_133
+  network: ws
+  port: 443
+  server: 154.17.14.241
+  servername: qsiim.jfpct.sbs
+  skip-cert-verify: true
+  tls: true
+  type: vless
+  udp: true
+  uuid: 6bff4694-7f3a-4062-81c6-ea224fd86078
+  ws-opts:
+    headers:
+      Host: qsiim.jfpct.sbs
+    path: /
+- client-fingerprint: chrome
+  name: 美国_134
+  network: ws
+  port: 443
+  server: 64.186.248.118
+  servername: qsiim.jfpct.sbs
+  skip-cert-verify: true
+  tls: true
+  type: vless
+  udp: true
+  uuid: 6bff4694-7f3a-4062-81c6-ea224fd86078
+  ws-opts:
+    headers:
+      Host: qsiim.jfpct.sbs
+    path: /
+- client-fingerprint: chrome
+  name: 美国_135
+  network: ws
+  port: 10101
+  server: 69.63.218.168
+  servername: vfn-6o8h-kht7rpd.zipgd3vx91o.ddns-ip.net
+  skip-cert-verify: true
+  tls: true
+  type: vless
+  udp: true
+  uuid: 00000000-0000-4000-8000-000000000000
+  ws-opts:
+    path: /@Marisa_kristi
+- client-fingerprint: chrome
+  name: 美国_136
+  network: ws
+  port: 443
+  server: 69.63.206.96
+  servername: qsiim.jfpct.sbs
+  skip-cert-verify: true
+  tls: true
+  type: vless
+  udp: true
+  uuid: 6bff4694-7f3a-4062-81c6-ea224fd86078
+  ws-opts:
+    headers:
+      Host: qsiim.jfpct.sbs
+    path: /
+- client-fingerprint: chrome
+  name: 美国_137
+  network: ws
+  port: 443
+  server: 69.63.222.124
+  servername: qsiim.jfpct.sbs
+  skip-cert-verify: true
+  tls: true
+  type: vless
+  udp: true
+  uuid: 6bff4694-7f3a-4062-81c6-ea224fd86078
+  ws-opts:
+    headers:
+      Host: qsiim.jfpct.sbs
+    path: /
+- client-fingerprint: chrome
+  name: 美国_138
   network: ws
   port: 8443
-  server: 45.89.244.103
-  servername: linek.perry.us.kg
+  server: 154.26.184.229
+  servername: qsiim.jfpct.sbs
   skip-cert-verify: true
   tls: true
   type: vless
   udp: true
-  uuid: 36af4874-d6a3-4f7c-82a7-1cb724961b52
+  uuid: 6bff4694-7f3a-4062-81c6-ea224fd86078
   ws-opts:
     headers:
-      Host: linek.perry.us.kg
-    path: /html
-- name: 英国_20
+      Host: qsiim.jfpct.sbs
+    path: /
+- client-fingerprint: chrome
+  name: 美国_139
+  network: ws
+  port: 443
+  server: 64.186.225.11
+  servername: qsiim.jfpct.sbs
+  skip-cert-verify: true
+  tls: true
+  type: vless
+  udp: true
+  uuid: 6bff4694-7f3a-4062-81c6-ea224fd86078
+  ws-opts:
+    headers:
+      Host: qsiim.jfpct.sbs
+    path: /
+- client-fingerprint: chrome
+  name: 美国_140
+  network: ws
+  port: 443
+  server: 154.17.2.59
+  servername: qsiim.jfpct.sbs
+  skip-cert-verify: true
+  tls: true
+  type: vless
+  udp: true
+  uuid: 6bff4694-7f3a-4062-81c6-ea224fd86078
+  ws-opts:
+    headers:
+      Host: qsiim.jfpct.sbs
+    path: /
+- name: 美国_141
+  network: ws
+  port: 8880
+  server: 31.185.108.30
+  skip-cert-verify: true
+  tls: false
+  type: vless
+  udp: true
+  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
+  ws-opts:
+    headers:
+      Host: vms.lifetime23.workers.dev
+    path: /
+- client-fingerprint: chrome
+  name: 美国_142
+  network: ws
+  port: 443
+  server: 64.186.229.220
+  servername: qsiim.jfpct.sbs
+  skip-cert-verify: true
+  tls: true
+  type: vless
+  udp: true
+  uuid: 6bff4694-7f3a-4062-81c6-ea224fd86078
+  ws-opts:
+    headers:
+      Host: qsiim.jfpct.sbs
+    path: /
+- client-fingerprint: chrome
+  name: 美国_143
+  network: ws
+  port: 443
+  server: www.ntu.edu.sg
+  servername: qsiim.jfpct.sbs
+  skip-cert-verify: true
+  tls: true
+  type: vless
+  udp: true
+  uuid: 6bff4694-7f3a-4062-81c6-ea224fd86078
+  ws-opts:
+    headers:
+      Host: qsiim.jfpct.sbs
+    path: /
+- client-fingerprint: chrome
+  name: 美国_144
+  network: ws
+  port: 443
+  server: 154.26.189.70
+  servername: qsiim.jfpct.sbs
+  skip-cert-verify: true
+  tls: true
+  type: vless
+  udp: true
+  uuid: 6bff4694-7f3a-4062-81c6-ea224fd86078
+  ws-opts:
+    headers:
+      Host: qsiim.jfpct.sbs
+    path: /
+- client-fingerprint: chrome
+  name: 美国_145
   network: ws
   port: 8443
-  server: 89.28.236.192
-  servername: linek.perry.us.kg
+  server: 174.136.205.24
+  servername: qsiim.jfpct.sbs
   skip-cert-verify: true
   tls: true
   type: vless
   udp: true
-  uuid: 36af4874-d6a3-4f7c-82a7-1cb724961b52
+  uuid: 6bff4694-7f3a-4062-81c6-ea224fd86078
   ws-opts:
     headers:
-      Host: linek.perry.us.kg
-    path: /programs
+      Host: qsiim.jfpct.sbs
+    path: /
 - client-fingerprint: chrome
-  name: 英国_21
+  name: 美国_146
   network: ws
   port: 8443
-  server: 89.28.236.192
-  servername: linek.perry.us.kg
+  server: 136.175.179.113
+  servername: qsiim.jfpct.sbs
   skip-cert-verify: true
   tls: true
   type: vless
   udp: true
-  uuid: 36af4874-d6a3-4f7c-82a7-1cb724961b52
+  uuid: 6bff4694-7f3a-4062-81c6-ea224fd86078
   ws-opts:
     headers:
-      Host: linek.perry.us.kg
-    path: /programs
+      Host: qsiim.jfpct.sbs
+    path: /
 - client-fingerprint: chrome
-  name: 荷兰
-  network: ws
-  port: 8443
-  server: 194.5.98.105
-  servername: linek.perry.us.kg
-  skip-cert-verify: true
-  tls: true
-  type: vless
-  udp: true
-  uuid: 36af4874-d6a3-4f7c-82a7-1cb724961b52
-  ws-opts:
-    headers:
-      Host: linek.perry.us.kg
-    path: /contact
-- name: 保加利亚_2
-  network: ws
-  port: 2053
-  server: 193.37.212.56
-  servername: linek.perry.us.kg
-  skip-cert-verify: true
-  tls: true
-  type: vless
-  udp: true
-  uuid: 36af4874-d6a3-4f7c-82a7-1cb724961b52
-  ws-opts:
-    headers:
-      Host: linek.perry.us.kg
-    path: /data
-- client-fingerprint: chrome
-  name: 新加坡_1
-  network: ws
-  port: 2053
-  server: 149.28.129.157
-  servername: linek.perry.us.kg
-  skip-cert-verify: true
-  tls: true
-  type: vless
-  udp: true
-  uuid: 36af4874-d6a3-4f7c-82a7-1cb724961b52
-  ws-opts:
-    headers:
-      Host: linek.perry.us.kg
-    path: /thread/forum/res
-- name: 荷兰_1
-  network: ws
-  port: 2053
-  server: 194.5.98.105
-  servername: linek.perry.us.kg
-  skip-cert-verify: true
-  tls: true
-  type: vless
-  udp: true
-  uuid: 36af4874-d6a3-4f7c-82a7-1cb724961b52
-  ws-opts:
-    headers:
-      Host: linek.perry.us.kg
-    path: /intro/chat
-- client-fingerprint: chrome
-  name: 罗马尼亚
-  network: ws
-  port: 8443
-  server: 5.252.178.146
-  servername: linek.perry.us.kg
-  skip-cert-verify: true
-  tls: true
-  type: vless
-  udp: true
-  uuid: 36af4874-d6a3-4f7c-82a7-1cb724961b52
-  ws-opts:
-    headers:
-      Host: linek.perry.us.kg
-    path: /clip/shop
-- client-fingerprint: chrome
-  name: 瑞典
-  network: ws
-  port: 2083
-  server: 193.181.214.98
-  servername: linek.perry.us.kg
-  skip-cert-verify: true
-  tls: true
-  type: vless
-  udp: true
-  uuid: 36af4874-d6a3-4f7c-82a7-1cb724961b52
-  ws-opts:
-    headers:
-      Host: linek.perry.us.kg
-    path: /dh/favorite/docs
-- client-fingerprint: chrome
-  name: 英国_22
-  network: ws
-  port: 8443
-  server: 45.89.244.103
-  servername: linek.perry.us.kg
-  skip-cert-verify: true
-  tls: true
-  type: vless
-  udp: true
-  uuid: 36af4874-d6a3-4f7c-82a7-1cb724961b52
-  ws-opts:
-    headers:
-      Host: linek.perry.us.kg
-    path: /html
-- name: 法国_1
+  name: 美国_147
   network: ws
   port: 443
-  server: 194.32.76.242
-  servername: linek.perry.us.kg
+  server: 154.17.225.54
+  servername: qsiim.jfpct.sbs
   skip-cert-verify: true
   tls: true
   type: vless
   udp: true
-  uuid: 36af4874-d6a3-4f7c-82a7-1cb724961b52
+  uuid: 6bff4694-7f3a-4062-81c6-ea224fd86078
   ws-opts:
     headers:
-      Host: linek.perry.us.kg
-    path: /travel
+      Host: qsiim.jfpct.sbs
+    path: /
 - client-fingerprint: chrome
-  name: 瑞士
-  network: ws
-  port: 8443
-  server: 83.228.217.38
-  servername: linek.perry.us.kg
+  flow: xtls-rprx-vision
+  name: 美国_148
+  port: 51700
+  reality-opts:
+    public-key: cJ0oDse0aPBi7c4UCxQgMP1UNoBPZ2NDB8aL_17G0HQ
+    short-id: d18340
+  server: 23.141.52.196
+  servername: www.amd.com
   skip-cert-verify: true
   tls: true
   type: vless
   udp: true
-  uuid: 36af4874-d6a3-4f7c-82a7-1cb724961b52
-  ws-opts:
-    headers:
-      Host: linek.perry.us.kg
-    path: /star/ads/files
+  uuid: e6082798-61ab-4167-9653-67883f5f0166
+- name: 美国_149
+  port: 22231
+  server: r1.mizulina.top
+  servername: r1.mizulina.top
+  skip-cert-verify: true
+  tls: true
+  type: vless
+  udp: true
+  uuid: afcac633-0e1a-46c3-bef2-cc01cc0097c8
 - client-fingerprint: chrome
-  name: 美国_48
+  name: 日本_2
   network: ws
   port: 443
-  server: 45.83.20.29
-  servername: linek.perry.us.kg
+  server: 8.209.231.3
+  servername: qsiim.jfpct.sbs
   skip-cert-verify: true
   tls: true
   type: vless
   udp: true
-  uuid: 36af4874-d6a3-4f7c-82a7-1cb724961b52
+  uuid: 6bff4694-7f3a-4062-81c6-ea224fd86078
   ws-opts:
     headers:
-      Host: linek.perry.us.kg
-    path: /member/community
-- name: 保加利亚_3
-  network: ws
-  port: 2053
-  server: 185.177.59.153
-  servername: linek.perry.us.kg
-  skip-cert-verify: true
-  tls: true
-  type: vless
-  udp: true
-  uuid: 36af4874-d6a3-4f7c-82a7-1cb724961b52
-  ws-opts:
-    headers:
-      Host: linek.perry.us.kg
-    path: /pics/downloads
+      Host: qsiim.jfpct.sbs
+    path: /
 - client-fingerprint: chrome
-  name: 白俄罗斯
+  name: 日本_3
   network: ws
-  port: 2053
-  server: 93.85.88.60
-  servername: linek.perry.us.kg
+  port: 443
+  server: 54.199.97.220
+  servername: qsiim.jfpct.sbs
   skip-cert-verify: true
   tls: true
   type: vless
   udp: true
-  uuid: 36af4874-d6a3-4f7c-82a7-1cb724961b52
+  uuid: 6bff4694-7f3a-4062-81c6-ea224fd86078
   ws-opts:
     headers:
-      Host: linek.perry.us.kg
-    path: /uploads/clips/drama
-- name: 瑞士_1
-  network: ws
-  port: 8443
-  server: 45.90.57.139
-  servername: linek.perry.us.kg
-  skip-cert-verify: true
-  tls: true
-  type: vless
-  udp: true
-  uuid: 36af4874-d6a3-4f7c-82a7-1cb724961b52
-  ws-opts:
-    headers:
-      Host: linek.perry.us.kg
-    path: /mall/collect
-- name: 美国_49
-  network: ws
-  port: 8443
-  server: 132.243.203.218
-  servername: linek.perry.us.kg
-  skip-cert-verify: true
-  tls: true
-  type: vless
-  udp: true
-  uuid: 36af4874-d6a3-4f7c-82a7-1cb724961b52
-  ws-opts:
-    headers:
-      Host: linek.perry.us.kg
-    path: /seller/novel
+      Host: qsiim.jfpct.sbs
+    path: /
 - client-fingerprint: chrome
-  name: 比利时
+  name: 日本_4
   network: ws
   port: 443
-  server: 104.155.124.198
-  servername: linek.perry.us.kg
+  server: 8.211.161.198
+  servername: qsiim.jfpct.sbs
   skip-cert-verify: true
   tls: true
   type: vless
   udp: true
-  uuid: 36af4874-d6a3-4f7c-82a7-1cb724961b52
+  uuid: 6bff4694-7f3a-4062-81c6-ea224fd86078
   ws-opts:
     headers:
-      Host: linek.perry.us.kg
-    path: /account
-- name: 波兰
-  network: ws
-  port: 2053
-  server: 31.133.0.133
-  servername: linek.perry.us.kg
-  skip-cert-verify: true
-  tls: true
-  type: vless
-  udp: true
-  uuid: 36af4874-d6a3-4f7c-82a7-1cb724961b52
-  ws-opts:
-    headers:
-      Host: linek.perry.us.kg
-    path: /forum/star/season
-- name: 白俄罗斯_1
-  network: ws
-  port: 2053
-  server: 93.85.88.60
-  servername: linek.perry.us.kg
-  skip-cert-verify: true
-  tls: true
-  type: vless
-  udp: true
-  uuid: 36af4874-d6a3-4f7c-82a7-1cb724961b52
-  ws-opts:
-    headers:
-      Host: linek.perry.us.kg
-    path: /uploads/clips/drama
+      Host: qsiim.jfpct.sbs
+    path: /
 - client-fingerprint: chrome
-  name: 美国_50
+  name: 日本_5
   network: ws
-  port: 8443
-  server: 132.243.203.221
-  servername: linek.perry.us.kg
+  port: 443
+  server: 54.248.143.139
+  servername: qsiim.jfpct.sbs
   skip-cert-verify: true
   tls: true
   type: vless
   udp: true
-  uuid: 36af4874-d6a3-4f7c-82a7-1cb724961b52
+  uuid: 6bff4694-7f3a-4062-81c6-ea224fd86078
   ws-opts:
     headers:
-      Host: linek.perry.us.kg
-    path: /uploads/events
+      Host: qsiim.jfpct.sbs
+    path: /
 - client-fingerprint: chrome
-  name: 美国_51
+  name: 日本_6
   network: ws
-  port: 8443
-  server: 208.85.19.254
-  servername: linek.perry.us.kg
+  port: 443
+  server: 35.74.74.6
+  servername: qsiim.jfpct.sbs
   skip-cert-verify: true
   tls: true
   type: vless
   udp: true
-  uuid: 36af4874-d6a3-4f7c-82a7-1cb724961b52
+  uuid: 6bff4694-7f3a-4062-81c6-ea224fd86078
   ws-opts:
     headers:
-      Host: linek.perry.us.kg
-    path: /version/directory/list
+      Host: qsiim.jfpct.sbs
+    path: /
 - client-fingerprint: chrome
-  name: 白俄罗斯_2
-  network: ws
-  port: 8443
-  server: 93.85.88.60
-  servername: linek.perry.us.kg
-  skip-cert-verify: true
-  tls: true
-  type: vless
-  udp: true
-  uuid: 36af4874-d6a3-4f7c-82a7-1cb724961b52
-  ws-opts:
-    headers:
-      Host: linek.perry.us.kg
-    path: /urls/photos/mag
-- name: 阿联酋
-  network: ws
-  port: 8443
-  server: 193.123.74.174
-  servername: linek.perry.us.kg
-  skip-cert-verify: true
-  tls: true
-  type: vless
-  udp: true
-  uuid: 36af4874-d6a3-4f7c-82a7-1cb724961b52
-  ws-opts:
-    headers:
-      Host: linek.perry.us.kg
-    path: /help/f
-- name: 罗马尼亚_1
-  network: ws
-  port: 8443
-  server: 5.252.178.146
-  servername: linek.perry.us.kg
-  skip-cert-verify: true
-  tls: true
-  type: vless
-  udp: true
-  uuid: 36af4874-d6a3-4f7c-82a7-1cb724961b52
-  ws-opts:
-    headers:
-      Host: linek.perry.us.kg
-    path: /clip/shop
-- name: 美国_52
+  name: 日本_7
   network: ws
   port: 443
-  server: 45.83.20.29
-  servername: linek.perry.us.kg
+  server: 52.194.99.211
+  servername: qsiim.jfpct.sbs
   skip-cert-verify: true
   tls: true
   type: vless
   udp: true
-  uuid: 36af4874-d6a3-4f7c-82a7-1cb724961b52
+  uuid: 6bff4694-7f3a-4062-81c6-ea224fd86078
   ws-opts:
     headers:
-      Host: linek.perry.us.kg
-    path: /member/community
-- name: 葡萄牙
-  network: ws
-  port: 8443
-  server: 45.92.70.176
-  servername: linek.perry.us.kg
-  skip-cert-verify: true
-  tls: true
-  type: vless
-  udp: true
-  uuid: 36af4874-d6a3-4f7c-82a7-1cb724961b52
-  ws-opts:
-    headers:
-      Host: linek.perry.us.kg
-    path: /blogs/clip/contact
+      Host: qsiim.jfpct.sbs
+    path: /
 - client-fingerprint: chrome
-  name: 荷兰_2
+  name: 日本_8
   network: ws
-  port: 2053
-  server: 194.5.98.105
-  servername: linek.perry.us.kg
+  port: 443
+  server: 52.193.174.161
+  servername: qsiim.jfpct.sbs
   skip-cert-verify: true
   tls: true
   type: vless
   udp: true
-  uuid: 36af4874-d6a3-4f7c-82a7-1cb724961b52
+  uuid: 6bff4694-7f3a-4062-81c6-ea224fd86078
   ws-opts:
     headers:
-      Host: linek.perry.us.kg
-    path: /intro/chat
+      Host: qsiim.jfpct.sbs
+    path: /
 - client-fingerprint: chrome
-  name: 瑞典_1
+  name: 日本_9
   network: ws
   port: 443
-  server: 193.180.215.69
-  servername: linek.perry.us.kg
+  server: 16.76.68.102
+  servername: qsiim.jfpct.sbs
   skip-cert-verify: true
   tls: true
   type: vless
   udp: true
-  uuid: 36af4874-d6a3-4f7c-82a7-1cb724961b52
+  uuid: 6bff4694-7f3a-4062-81c6-ea224fd86078
   ws-opts:
     headers:
-      Host: linek.perry.us.kg
-    path: /picture
-- name: 白俄罗斯_3
-  network: ws
-  port: 8443
-  server: 93.85.88.60
-  servername: linek.perry.us.kg
-  skip-cert-verify: true
-  tls: true
-  type: vless
-  udp: true
-  uuid: 36af4874-d6a3-4f7c-82a7-1cb724961b52
-  ws-opts:
-    headers:
-      Host: linek.perry.us.kg
-    path: /urls/photos/mag
+      Host: qsiim.jfpct.sbs
+    path: /
 - client-fingerprint: chrome
-  name: 瑞士_2
-  network: ws
-  port: 8443
-  server: 45.90.57.139
-  servername: linek.perry.us.kg
-  skip-cert-verify: true
-  tls: true
-  type: vless
-  udp: true
-  uuid: 36af4874-d6a3-4f7c-82a7-1cb724961b52
-  ws-opts:
-    headers:
-      Host: linek.perry.us.kg
-    path: /mall/collect
-- name: 美国_53
-  network: ws
-  port: 8443
-  server: 132.243.203.223
-  servername: linek.perry.us.kg
-  skip-cert-verify: true
-  tls: true
-  type: vless
-  udp: true
-  uuid: 36af4874-d6a3-4f7c-82a7-1cb724961b52
-  ws-opts:
-    headers:
-      Host: linek.perry.us.kg
-    path: /tools/channels
-- name: 瑞典_2
-  network: ws
-  port: 2083
-  server: 193.181.214.98
-  servername: linek.perry.us.kg
-  skip-cert-verify: true
-  tls: true
-  type: vless
-  udp: true
-  uuid: 36af4874-d6a3-4f7c-82a7-1cb724961b52
-  ws-opts:
-    headers:
-      Host: linek.perry.us.kg
-    path: /dh/favorite/docs
-- name: 荷兰_3
-  network: ws
-  port: 8443
-  server: 194.5.98.105
-  servername: linek.perry.us.kg
-  skip-cert-verify: true
-  tls: true
-  type: vless
-  udp: true
-  uuid: 36af4874-d6a3-4f7c-82a7-1cb724961b52
-  ws-opts:
-    headers:
-      Host: linek.perry.us.kg
-    path: /contact
-- name: 美国_54
-  network: ws
-  port: 8443
-  server: 132.243.203.211
-  servername: linek.perry.us.kg
-  skip-cert-verify: true
-  tls: true
-  type: vless
-  udp: true
-  uuid: 36af4874-d6a3-4f7c-82a7-1cb724961b52
-  ws-opts:
-    headers:
-      Host: linek.perry.us.kg
-    path: /programs
-- name: 印度
-  network: ws
-  port: 8443
-  server: 180.149.37.38
-  servername: linek.perry.us.kg
-  skip-cert-verify: true
-  tls: true
-  type: vless
-  udp: true
-  uuid: 36af4874-d6a3-4f7c-82a7-1cb724961b52
-  ws-opts:
-    headers:
-      Host: linek.perry.us.kg
-    path: /doc/favorite
-- name: 美国_55
+  name: 日本_10
   network: ws
   port: 443
-  server: 94.131.123.74
-  servername: linek.perry.us.kg
+  server: 54.65.58.58
+  servername: qsiim.jfpct.sbs
   skip-cert-verify: true
   tls: true
   type: vless
   udp: true
-  uuid: 36af4874-d6a3-4f7c-82a7-1cb724961b52
+  uuid: 6bff4694-7f3a-4062-81c6-ea224fd86078
   ws-opts:
     headers:
-      Host: linek.perry.us.kg
-    path: /mall/seasons
+      Host: qsiim.jfpct.sbs
+    path: /
 - client-fingerprint: chrome
-  name: 俄罗斯_18
+  name: 日本_11
   network: ws
   port: 443
-  server: 147.45.70.221
-  servername: linek.perry.us.kg
+  server: 8.216.5.125
+  servername: qsiim.jfpct.sbs
   skip-cert-verify: true
   tls: true
   type: vless
   udp: true
-  uuid: 36af4874-d6a3-4f7c-82a7-1cb724961b52
+  uuid: 6bff4694-7f3a-4062-81c6-ea224fd86078
   ws-opts:
     headers:
-      Host: linek.perry.us.kg
-    path: /app
-- name: 保加利亚_4
-  network: ws
-  port: 2053
-  server: 94.156.35.128
-  servername: linek.perry.us.kg
-  skip-cert-verify: true
-  tls: true
-  type: vless
-  udp: true
-  uuid: 36af4874-d6a3-4f7c-82a7-1cb724961b52
-  ws-opts:
-    headers:
-      Host: linek.perry.us.kg
-    path: /clip/library/favorite
-- name: 美国_56
-  network: ws
-  port: 8443
-  server: 132.243.203.120
-  servername: linek.perry.us.kg
-  skip-cert-verify: true
-  tls: true
-  type: vless
-  udp: true
-  uuid: 36af4874-d6a3-4f7c-82a7-1cb724961b52
-  ws-opts:
-    headers:
-      Host: linek.perry.us.kg
-    path: /home
+      Host: qsiim.jfpct.sbs
+    path: /
 - client-fingerprint: chrome
-  name: 伊朗
+  name: 日本_12
   network: ws
   port: 443
-  server: 31.57.190.22
-  servername: linek.perry.us.kg
+  server: 8.219.195.31
+  servername: qsiim.jfpct.sbs
   skip-cert-verify: true
   tls: true
   type: vless
   udp: true
-  uuid: 36af4874-d6a3-4f7c-82a7-1cb724961b52
+  uuid: 6bff4694-7f3a-4062-81c6-ea224fd86078
   ws-opts:
     headers:
-      Host: linek.perry.us.kg
-    path: /go.php/task/content
-- name: 美国_57
-  network: ws
-  port: 8443
-  server: 132.243.203.244
-  servername: linek.perry.us.kg
-  skip-cert-verify: true
-  tls: true
-  type: vless
-  udp: true
-  uuid: 36af4874-d6a3-4f7c-82a7-1cb724961b52
-  ws-opts:
-    headers:
-      Host: linek.perry.us.kg
-    path: /zh-cn
+      Host: qsiim.jfpct.sbs
+    path: /
 - client-fingerprint: chrome
-  name: 奥地利
+  name: 日本_13
   network: ws
   port: 443
-  server: 46.183.184.60
-  servername: linek.perry.us.kg
+  server: 8.219.155.125
+  servername: qsiim.jfpct.sbs
   skip-cert-verify: true
   tls: true
   type: vless
   udp: true
-  uuid: 36af4874-d6a3-4f7c-82a7-1cb724961b52
+  uuid: 6bff4694-7f3a-4062-81c6-ea224fd86078
   ws-opts:
     headers:
-      Host: linek.perry.us.kg
-    path: /read
-- name: 瑞典_3
-  network: ws
-  port: 443
-  server: 193.180.215.69
-  servername: linek.perry.us.kg
-  skip-cert-verify: true
-  tls: true
-  type: vless
-  udp: true
-  uuid: 36af4874-d6a3-4f7c-82a7-1cb724961b52
-  ws-opts:
-    headers:
-      Host: linek.perry.us.kg
-    path: /picture
+      Host: qsiim.jfpct.sbs
+    path: /
 - client-fingerprint: chrome
-  name: 俄罗斯_19
+  name: 日本_14
   network: ws
   port: 443
-  server: 147.45.245.15
-  servername: linek.perry.us.kg
+  server: 8.222.193.153
+  servername: qsiim.jfpct.sbs
   skip-cert-verify: true
   tls: true
   type: vless
   udp: true
-  uuid: 36af4874-d6a3-4f7c-82a7-1cb724961b52
+  uuid: 6bff4694-7f3a-4062-81c6-ea224fd86078
   ws-opts:
     headers:
-      Host: linek.perry.us.kg
-    path: /task
+      Host: qsiim.jfpct.sbs
+    path: /
 - client-fingerprint: chrome
-  name: 美国_58
-  network: ws
-  port: 8443
-  server: 132.243.203.120
-  servername: linek.perry.us.kg
-  skip-cert-verify: true
-  tls: true
-  type: vless
-  udp: true
-  uuid: 36af4874-d6a3-4f7c-82a7-1cb724961b52
-  ws-opts:
-    headers:
-      Host: linek.perry.us.kg
-    path: /home
-- name: 乌克兰
+  name: 日本_15
   network: ws
   port: 443
-  server: 92.113.146.87
-  servername: linek.perry.us.kg
+  server: 8.222.185.236
+  servername: qsiim.jfpct.sbs
   skip-cert-verify: true
   tls: true
   type: vless
   udp: true
-  uuid: 36af4874-d6a3-4f7c-82a7-1cb724961b52
+  uuid: 6bff4694-7f3a-4062-81c6-ea224fd86078
   ws-opts:
     headers:
-      Host: linek.perry.us.kg
-    path: /trade
-- name: 比利时_1
-  network: ws
+      Host: qsiim.jfpct.sbs
+    path: /
+- name: 未知
+  password: humanity
   port: 443
-  server: 104.155.124.198
-  servername: linek.perry.us.kg
+  server: 165.215.250.14
   skip-cert-verify: true
+  sni: www.calmlunch.com
   tls: true
-  type: vless
+  type: trojan
   udp: true
-  uuid: 36af4874-d6a3-4f7c-82a7-1cb724961b52
   ws-opts:
     headers:
-      Host: linek.perry.us.kg
-    path: /account
-- client-fingerprint: chrome
-  name: 美国_59
-  network: ws
-  port: 8443
-  server: 132.243.203.223
-  servername: linek.perry.us.kg
-  skip-cert-verify: true
-  tls: true
-  type: vless
-  udp: true
-  uuid: 36af4874-d6a3-4f7c-82a7-1cb724961b52
-  ws-opts:
-    headers:
-      Host: linek.perry.us.kg
-    path: /tools/channels
-- name: 俄罗斯_20
-  network: ws
+      Host: www.calmlunch.com
+    path: /assignment
+- name: 未知_1
+  password: humanity
   port: 443
-  server: 45.89.52.124
-  servername: linek.perry.us.kg
+  server: 104.20.6.134
   skip-cert-verify: true
+  sni: www.calmloud.com
   tls: true
-  type: vless
+  type: trojan
   udp: true
-  uuid: 36af4874-d6a3-4f7c-82a7-1cb724961b52
   ws-opts:
     headers:
-      Host: linek.perry.us.kg
-    path: /resource/comics/live
-- client-fingerprint: chrome
-  name: 匈牙利
-  network: ws
+      Host: www.calmloud.com
+    path: /assignment
+- name: 未知_2
+  password: humanity
   port: 443
-  server: 91.219.237.49
-  servername: linek.perry.us.kg
+  server: 45.130.125.96
   skip-cert-verify: true
+  sni: www.calmloud.com
   tls: true
-  type: vless
+  type: trojan
   udp: true
-  uuid: 36af4874-d6a3-4f7c-82a7-1cb724961b52
   ws-opts:
     headers:
-      Host: linek.perry.us.kg
-    path: /html/teacher
-- client-fingerprint: chrome
-  name: 乌克兰_1
-  network: ws
-  port: 443
-  server: 92.113.146.87
-  servername: linek.perry.us.kg
-  skip-cert-verify: true
-  tls: true
-  type: vless
-  udp: true
-  uuid: 36af4874-d6a3-4f7c-82a7-1cb724961b52
-  ws-opts:
-    headers:
-      Host: linek.perry.us.kg
-    path: /trade
-- client-fingerprint: chrome
-  name: 美国_60
-  network: ws
-  port: 443
-  server: 38.180.100.80
-  servername: linek.perry.us.kg
-  skip-cert-verify: true
-  tls: true
-  type: vless
-  udp: true
-  uuid: 36af4874-d6a3-4f7c-82a7-1cb724961b52
-  ws-opts:
-    headers:
-      Host: linek.perry.us.kg
-    path: /lives/topic/ads
-- name: 保加利亚_5
-  network: ws
-  port: 443
-  server: 87.121.38.57
-  servername: linek.perry.us.kg
-  skip-cert-verify: true
-  tls: true
-  type: vless
-  udp: true
-  uuid: 36af4874-d6a3-4f7c-82a7-1cb724961b52
-  ws-opts:
-    headers:
-      Host: linek.perry.us.kg
-    path: /out/my/clips
-- client-fingerprint: chrome
-  name: 法国_2
-  network: ws
-  port: 443
-  server: 194.32.76.242
-  servername: linek.perry.us.kg
-  skip-cert-verify: true
-  tls: true
-  type: vless
-  udp: true
-  uuid: 36af4874-d6a3-4f7c-82a7-1cb724961b52
-  ws-opts:
-    headers:
-      Host: linek.perry.us.kg
-    path: /travel
-- client-fingerprint: chrome
-  name: 以色列
-  network: ws
-  port: 8443
-  server: 185.47.172.172
-  servername: linek.perry.us.kg
-  skip-cert-verify: true
-  tls: true
-  type: vless
-  udp: true
-  uuid: 36af4874-d6a3-4f7c-82a7-1cb724961b52
-  ws-opts:
-    headers:
-      Host: linek.perry.us.kg
-    path: /outbound/categories/doc
-- name: 俄罗斯_21
-  network: ws
-  port: 443
-  server: 185.125.100.160
-  servername: linek.perry.us.kg
-  skip-cert-verify: true
-  tls: true
-  type: vless
-  udp: true
-  uuid: 36af4874-d6a3-4f7c-82a7-1cb724961b52
-  ws-opts:
-    headers:
-      Host: linek.perry.us.kg
-    path: /retrieve
-- client-fingerprint: chrome
-  name: 俄罗斯_22
-  network: ws
-  port: 443
-  server: 185.125.100.160
-  servername: linek.perry.us.kg
-  skip-cert-verify: true
-  tls: true
-  type: vless
-  udp: true
-  uuid: 36af4874-d6a3-4f7c-82a7-1cb724961b52
-  ws-opts:
-    headers:
-      Host: linek.perry.us.kg
-    path: /retrieve
-- name: 美国_61
-  network: ws
-  port: 443
-  server: 38.180.100.80
-  servername: linek.perry.us.kg
-  skip-cert-verify: true
-  tls: true
-  type: vless
-  udp: true
-  uuid: 36af4874-d6a3-4f7c-82a7-1cb724961b52
-  ws-opts:
-    headers:
-      Host: linek.perry.us.kg
-    path: /lives/topic/ads
-- name: 美国_62
-  network: ws
-  port: 8443
-  server: 208.85.19.254
-  servername: linek.perry.us.kg
-  skip-cert-verify: true
-  tls: true
-  type: vless
-  udp: true
-  uuid: 36af4874-d6a3-4f7c-82a7-1cb724961b52
-  ws-opts:
-    headers:
-      Host: linek.perry.us.kg
-    path: /version/directory/list
-- name: 美国_63
-  network: ws
-  port: 8443
-  server: 132.243.203.221
-  servername: linek.perry.us.kg
-  skip-cert-verify: true
-  tls: true
-  type: vless
-  udp: true
-  uuid: 36af4874-d6a3-4f7c-82a7-1cb724961b52
-  ws-opts:
-    headers:
-      Host: linek.perry.us.kg
-    path: /uploads/events
-- client-fingerprint: chrome
-  name: 印度_1
-  network: ws
-  port: 8443
-  server: 180.149.37.38
-  servername: linek.perry.us.kg
-  skip-cert-verify: true
-  tls: true
-  type: vless
-  udp: true
-  uuid: 36af4874-d6a3-4f7c-82a7-1cb724961b52
-  ws-opts:
-    headers:
-      Host: linek.perry.us.kg
-    path: /doc/favorite
-- client-fingerprint: chrome
-  name: 美国_64
-  network: ws
-  port: 8443
-  server: 132.243.203.211
-  servername: linek.perry.us.kg
-  skip-cert-verify: true
-  tls: true
-  type: vless
-  udp: true
-  uuid: 36af4874-d6a3-4f7c-82a7-1cb724961b52
-  ws-opts:
-    headers:
-      Host: linek.perry.us.kg
-    path: /programs
-- client-fingerprint: chrome
-  name: 匈牙利_1
-  network: ws
-  port: 2053
-  server: 91.219.236.202
-  servername: linek.perry.us.kg
-  skip-cert-verify: true
-  tls: true
-  type: vless
-  udp: true
-  uuid: 36af4874-d6a3-4f7c-82a7-1cb724961b52
-  ws-opts:
-    headers:
-      Host: linek.perry.us.kg
-    path: /download/study
-- client-fingerprint: chrome
-  name: 南非_2
-  network: ws
-  port: 8443
-  server: 156.38.157.171
-  servername: linek.perry.us.kg
-  skip-cert-verify: true
-  tls: true
-  type: vless
-  udp: true
-  uuid: 36af4874-d6a3-4f7c-82a7-1cb724961b52
-  ws-opts:
-    headers:
-      Host: linek.perry.us.kg
-    path: /pdf/register/teacher
-- client-fingerprint: chrome
-  name: 保加利亚_6
-  network: ws
-  port: 443
-  server: 87.121.38.57
-  servername: linek.perry.us.kg
-  skip-cert-verify: true
-  tls: true
-  type: vless
-  udp: true
-  uuid: 36af4874-d6a3-4f7c-82a7-1cb724961b52
-  ws-opts:
-    headers:
-      Host: linek.perry.us.kg
-    path: /out/my/clips
-- name: 奥地利_1
-  network: ws
-  port: 443
-  server: 46.183.184.60
-  servername: linek.perry.us.kg
-  skip-cert-verify: true
-  tls: true
-  type: vless
-  udp: true
-  uuid: 36af4874-d6a3-4f7c-82a7-1cb724961b52
-  ws-opts:
-    headers:
-      Host: linek.perry.us.kg
-    path: /read
-- name: Nofound_2
-  network: ws
-  port: 443
-  server: 195.16.74.73
-  servername: linek.perry.us.kg
-  skip-cert-verify: true
-  tls: true
-  type: vless
-  udp: true
-  uuid: 36af4874-d6a3-4f7c-82a7-1cb724961b52
-  ws-opts:
-    headers:
-      Host: linek.perry.us.kg
-    path: /picture
-- client-fingerprint: chrome
-  name: 保加利亚_7
-  network: ws
-  port: 443
-  server: 185.82.218.224
-  servername: linek.perry.us.kg
-  skip-cert-verify: true
-  tls: true
-  type: vless
-  udp: true
-  uuid: 36af4874-d6a3-4f7c-82a7-1cb724961b52
-  ws-opts:
-    headers:
-      Host: linek.perry.us.kg
-    path: /temp/jump.html
-- name: 美国_65
-  network: ws
-  port: 443
-  server: 144.31.4.235
-  servername: linek.perry.us.kg
-  skip-cert-verify: true
-  tls: true
-  type: vless
-  udp: true
-  uuid: 36af4874-d6a3-4f7c-82a7-1cb724961b52
-  ws-opts:
-    headers:
-      Host: linek.perry.us.kg
-    path: /pdf
-- name: 以色列_1
-  network: ws
-  port: 8443
-  server: 185.47.172.172
-  servername: linek.perry.us.kg
-  skip-cert-verify: true
-  tls: true
-  type: vless
-  udp: true
-  uuid: 36af4874-d6a3-4f7c-82a7-1cb724961b52
-  ws-opts:
-    headers:
-      Host: linek.perry.us.kg
-    path: /outbound/categories/doc
-- client-fingerprint: chrome
-  name: 罗马尼亚_2
-  network: ws
-  port: 443
-  server: 185.247.226.138
-  servername: linek.perry.us.kg
-  skip-cert-verify: true
-  tls: true
-  type: vless
-  udp: true
-  uuid: 36af4874-d6a3-4f7c-82a7-1cb724961b52
-  ws-opts:
-    headers:
-      Host: linek.perry.us.kg
-    path: /jp
-- name: 南非_3
-  network: ws
-  port: 2053
-  server: 156.38.157.171
-  servername: linek.perry.us.kg
-  skip-cert-verify: true
-  tls: true
-  type: vless
-  udp: true
-  uuid: 36af4874-d6a3-4f7c-82a7-1cb724961b52
-  ws-opts:
-    headers:
-      Host: linek.perry.us.kg
-    path: /out
-- name: 美国_66
-  network: ws
-  port: 8443
-  server: 132.243.203.210
-  servername: linek.perry.us.kg
-  skip-cert-verify: true
-  tls: true
-  type: vless
-  udp: true
-  uuid: 36af4874-d6a3-4f7c-82a7-1cb724961b52
-  ws-opts:
-    headers:
-      Host: linek.perry.us.kg
-    path: /app/city
-- name: 亚美尼亚
-  network: ws
-  port: 443
-  server: 2.56.204.183
-  servername: linek.perry.us.kg
-  skip-cert-verify: true
-  tls: true
-  type: vless
-  udp: true
-  uuid: 36af4874-d6a3-4f7c-82a7-1cb724961b52
-  ws-opts:
-    headers:
-      Host: linek.perry.us.kg
-    path: /feedback/forums
-- client-fingerprint: chrome
-  name: 美国_67
-  network: ws
-  port: 8443
-  server: 132.243.203.193
-  servername: linek.perry.us.kg
-  skip-cert-verify: true
-  tls: true
-  type: vless
-  udp: true
-  uuid: 36af4874-d6a3-4f7c-82a7-1cb724961b52
-  ws-opts:
-    headers:
-      Host: linek.perry.us.kg
-    path: /show
-- client-fingerprint: chrome
-  name: 南非_4
-  network: ws
-  port: 2053
-  server: 156.38.157.171
-  servername: linek.perry.us.kg
-  skip-cert-verify: true
-  tls: true
-  type: vless
-  udp: true
-  uuid: 36af4874-d6a3-4f7c-82a7-1cb724961b52
-  ws-opts:
-    headers:
-      Host: linek.perry.us.kg
-    path: /out
-- client-fingerprint: chrome
-  name: 意大利
-  network: ws
-  port: 443
-  server: 89.46.70.46
-  servername: linek.perry.us.kg
-  skip-cert-verify: true
-  tls: true
-  type: vless
-  udp: true
-  uuid: 36af4874-d6a3-4f7c-82a7-1cb724961b52
-  ws-opts:
-    headers:
-      Host: linek.perry.us.kg
-    path: /book/team
-- client-fingerprint: chrome
-  name: 阿联酋_1
-  network: ws
-  port: 8443
-  server: 193.123.74.174
-  servername: linek.perry.us.kg
-  skip-cert-verify: true
-  tls: true
-  type: vless
-  udp: true
-  uuid: 36af4874-d6a3-4f7c-82a7-1cb724961b52
-  ws-opts:
-    headers:
-      Host: linek.perry.us.kg
-    path: /help/f
-- name: 美国_68
-  network: ws
-  port: 8443
-  server: 132.243.203.193
-  servername: linek.perry.us.kg
-  skip-cert-verify: true
-  tls: true
-  type: vless
-  udp: true
-  uuid: 36af4874-d6a3-4f7c-82a7-1cb724961b52
-  ws-opts:
-    headers:
-      Host: linek.perry.us.kg
-    path: /show
-- name: 德国_4
-  network: ws
-  port: 8443
-  server: 195.245.229.66
-  servername: linek.perry.us.kg
-  skip-cert-verify: true
-  tls: true
-  type: vless
-  udp: true
-  uuid: 36af4874-d6a3-4f7c-82a7-1cb724961b52
-  ws-opts:
-    headers:
-      Host: linek.perry.us.kg
-    path: /act
-- client-fingerprint: chrome
-  name: 美国_69
-  network: ws
-  port: 8443
-  server: 132.243.203.210
-  servername: linek.perry.us.kg
-  skip-cert-verify: true
-  tls: true
-  type: vless
-  udp: true
-  uuid: 36af4874-d6a3-4f7c-82a7-1cb724961b52
-  ws-opts:
-    headers:
-      Host: linek.perry.us.kg
-    path: /app/city
-- name: 法国_3
-  network: ws
-  port: 443
-  server: 195.246.230.125
-  servername: linek.perry.us.kg
-  skip-cert-verify: true
-  tls: true
-  type: vless
-  udp: true
-  uuid: 36af4874-d6a3-4f7c-82a7-1cb724961b52
-  ws-opts:
-    headers:
-      Host: linek.perry.us.kg
-    path: /p/url
-- name: 美国_70
-  network: ws
-  port: 443
-  server: 94.131.123.173
-  servername: linek.perry.us.kg
-  skip-cert-verify: true
-  tls: true
-  type: vless
-  udp: true
-  uuid: 36af4874-d6a3-4f7c-82a7-1cb724961b52
-  ws-opts:
-    headers:
-      Host: linek.perry.us.kg
-    path: /pay/html
-- name: 尼日利亚
-  network: ws
-  port: 443
-  server: 83.229.6.134
-  servername: linek.perry.us.kg
-  skip-cert-verify: true
-  tls: true
-  type: vless
-  udp: true
-  uuid: 36af4874-d6a3-4f7c-82a7-1cb724961b52
-  ws-opts:
-    headers:
-      Host: linek.perry.us.kg
-    path: /doc/vod/archive
-- name: 俄罗斯_23
-  network: ws
-  port: 443
-  server: 147.45.245.15
-  servername: linek.perry.us.kg
-  skip-cert-verify: true
-  tls: true
-  type: vless
-  udp: true
-  uuid: 36af4874-d6a3-4f7c-82a7-1cb724961b52
-  ws-opts:
-    headers:
-      Host: linek.perry.us.kg
-    path: /task
-- name: 土耳其
-  network: ws
-  port: 443
-  server: 82.117.84.47
-  servername: linek.perry.us.kg
-  skip-cert-verify: true
-  tls: true
-  type: vless
-  udp: true
-  uuid: 36af4874-d6a3-4f7c-82a7-1cb724961b52
-  ws-opts:
-    headers:
-      Host: linek.perry.us.kg
-    path: /details
-- name: 美国_71
-  network: ws
-  port: 443
-  server: 38.79.154.92
-  servername: linek.perry.us.kg
-  skip-cert-verify: true
-  tls: true
-  type: vless
-  udp: true
-  uuid: 36af4874-d6a3-4f7c-82a7-1cb724961b52
-  ws-opts:
-    headers:
-      Host: linek.perry.us.kg
-    path: /downloads
-- client-fingerprint: chrome
-  name: 美国_72
-  network: ws
-  port: 8443
-  server: 132.243.203.244
-  servername: linek.perry.us.kg
-  skip-cert-verify: true
-  tls: true
-  type: vless
-  udp: true
-  uuid: 36af4874-d6a3-4f7c-82a7-1cb724961b52
-  ws-opts:
-    headers:
-      Host: linek.perry.us.kg
-    path: /zh-cn
-- client-fingerprint: chrome
-  name: 葡萄牙_1
-  network: ws
-  port: 8443
-  server: 45.92.70.176
-  servername: linek.perry.us.kg
-  skip-cert-verify: true
-  tls: true
-  type: vless
-  udp: true
-  uuid: 36af4874-d6a3-4f7c-82a7-1cb724961b52
-  ws-opts:
-    headers:
-      Host: linek.perry.us.kg
-    path: /blogs/clip/contact
-- name: 保加利亚_8
-  network: ws
-  port: 443
-  server: 185.82.218.224
-  servername: linek.perry.us.kg
-  skip-cert-verify: true
-  tls: true
-  type: vless
-  udp: true
-  uuid: 36af4874-d6a3-4f7c-82a7-1cb724961b52
-  ws-opts:
-    headers:
-      Host: linek.perry.us.kg
-    path: /temp/jump.html
-- name: 匈牙利_2
-  network: ws
-  port: 2053
-  server: 89.147.111.223
-  servername: linek.perry.us.kg
-  skip-cert-verify: true
-  tls: true
-  type: vless
-  udp: true
-  uuid: 36af4874-d6a3-4f7c-82a7-1cb724961b52
-  ws-opts:
-    headers:
-      Host: linek.perry.us.kg
-    path: /pictures
-- name: 新加坡_2
-  network: ws
-  port: 8443
-  server: 45.76.185.254
-  servername: linek.perry.us.kg
-  skip-cert-verify: true
-  tls: true
-  type: vless
-  udp: true
-  uuid: 36af4874-d6a3-4f7c-82a7-1cb724961b52
-  ws-opts:
-    headers:
-      Host: linek.perry.us.kg
-    path: /item/code/dh
-- name: 瑞士_3
-  network: ws
-  port: 8443
-  server: 83.228.217.38
-  servername: linek.perry.us.kg
-  skip-cert-verify: true
-  tls: true
-  type: vless
-  udp: true
-  uuid: 36af4874-d6a3-4f7c-82a7-1cb724961b52
-  ws-opts:
-    headers:
-      Host: linek.perry.us.kg
-    path: /star/ads/files
-- client-fingerprint: chrome
-  name: 亚美尼亚_1
-  network: ws
-  port: 443
-  server: 91.198.108.191
-  servername: linek.perry.us.kg
-  skip-cert-verify: true
-  tls: true
-  type: vless
-  udp: true
-  uuid: 36af4874-d6a3-4f7c-82a7-1cb724961b52
-  ws-opts:
-    headers:
-      Host: linek.perry.us.kg
-    path: /member/clips
-- client-fingerprint: chrome
-  name: 俄罗斯_24
-  network: ws
-  port: 443
-  server: 176.124.220.32
-  servername: linek.perry.us.kg
-  skip-cert-verify: true
-  tls: true
-  type: vless
-  udp: true
-  uuid: 36af4874-d6a3-4f7c-82a7-1cb724961b52
-  ws-opts:
-    headers:
-      Host: linek.perry.us.kg
-    path: /acg/class
-- name: 多米尼加共和国
-  network: ws
-  port: 2096
-  server: 181.36.229.212
-  servername: linek.perry.us.kg
-  skip-cert-verify: true
-  tls: true
-  type: vless
-  udp: true
-  uuid: 36af4874-d6a3-4f7c-82a7-1cb724961b52
-  ws-opts:
-    headers:
-      Host: linek.perry.us.kg
-    path: /m/articles
-- name: 意大利_1
-  network: ws
-  port: 443
-  server: 89.46.70.46
-  servername: linek.perry.us.kg
-  skip-cert-verify: true
-  tls: true
-  type: vless
-  udp: true
-  uuid: 36af4874-d6a3-4f7c-82a7-1cb724961b52
-  ws-opts:
-    headers:
-      Host: linek.perry.us.kg
-    path: /book/team
-- client-fingerprint: chrome
-  name: 匈牙利_3
-  network: ws
-  port: 443
-  server: 89.147.109.212
-  servername: linek.perry.us.kg
-  skip-cert-verify: true
-  tls: true
-  type: vless
-  udp: true
-  uuid: 36af4874-d6a3-4f7c-82a7-1cb724961b52
-  ws-opts:
-    headers:
-      Host: linek.perry.us.kg
-    path: /trade
-- name: 意大利_2
-  network: ws
-  port: 443
-  server: 80.211.48.113
-  servername: linek.perry.us.kg
-  skip-cert-verify: true
-  tls: true
-  type: vless
-  udp: true
-  uuid: 36af4874-d6a3-4f7c-82a7-1cb724961b52
-  ws-opts:
-    headers:
-      Host: linek.perry.us.kg
-    path: /doujin/music
-- client-fingerprint: chrome
-  name: 亚美尼亚_2
-  network: ws
-  port: 443
-  server: 2.56.204.183
-  servername: linek.perry.us.kg
-  skip-cert-verify: true
-  tls: true
-  type: vless
-  udp: true
-  uuid: 36af4874-d6a3-4f7c-82a7-1cb724961b52
-  ws-opts:
-    headers:
-      Host: linek.perry.us.kg
-    path: /feedback/forums
-- client-fingerprint: chrome
-  name: 乌克兰_2
-  network: ws
-  port: 8443
-  server: 185.86.77.181
-  servername: linek.perry.us.kg
-  skip-cert-verify: true
-  tls: true
-  type: vless
-  udp: true
-  uuid: 36af4874-d6a3-4f7c-82a7-1cb724961b52
-  ws-opts:
-    headers:
-      Host: linek.perry.us.kg
-    path: /album
-- client-fingerprint: chrome
-  name: 法国_4
-  network: ws
-  port: 443
-  server: 195.246.230.125
-  servername: linek.perry.us.kg
-  skip-cert-verify: true
-  tls: true
-  type: vless
-  udp: true
-  uuid: 36af4874-d6a3-4f7c-82a7-1cb724961b52
-  ws-opts:
-    headers:
-      Host: linek.perry.us.kg
-    path: /p/url
-- client-fingerprint: chrome
-  name: 瑞士_4
-  network: ws
-  port: 8443
-  server: 81.29.149.219
-  servername: linek.perry.us.kg
-  skip-cert-verify: true
-  tls: true
-  type: vless
-  udp: true
-  uuid: 36af4874-d6a3-4f7c-82a7-1cb724961b52
-  ws-opts:
-    headers:
-      Host: linek.perry.us.kg
-    path: /files/edu
-- name: 荷兰_4
-  network: ws
-  port: 443
-  server: 151.236.29.97
-  servername: linek.perry.us.kg
-  skip-cert-verify: true
-  tls: true
-  type: vless
-  udp: true
-  uuid: 36af4874-d6a3-4f7c-82a7-1cb724961b52
-  ws-opts:
-    headers:
-      Host: linek.perry.us.kg
-    path: /programs/share/buy
-- client-fingerprint: chrome
-  name: 德国_5
-  network: ws
-  port: 443
-  server: 207.180.252.131
-  servername: linek.perry.us.kg
-  skip-cert-verify: true
-  tls: true
-  type: vless
-  udp: true
-  uuid: 36af4874-d6a3-4f7c-82a7-1cb724961b52
-  ws-opts:
-    headers:
-      Host: linek.perry.us.kg
-    path: /topics
+      Host: www.calmloud.com
+    path: /assignment
 - alterId: 0
   cipher: auto
-  name: 俄罗斯_25
-  network: ws
-  port: 443
-  server: renderer-stream-1-411.mirra.now
-  skip-cert-verify: true
-  tls: true
-  type: vmess
-  udp: true
-  uuid: df9c9355-b02c-4c12-909d-0dbeb725d52b
-  ws-opts:
-    headers:
-      Host: renderer-stream-1-411.mirra.now
-    path: /api/v1/gpu-stream/socket
-- client-fingerprint: chrome
-  name: 多米尼加共和国_1
-  network: ws
-  port: 2096
-  server: 181.36.229.212
-  servername: linek.perry.us.kg
-  skip-cert-verify: true
-  tls: true
-  type: vless
-  udp: true
-  uuid: 36af4874-d6a3-4f7c-82a7-1cb724961b52
-  ws-opts:
-    headers:
-      Host: linek.perry.us.kg
-    path: /m/articles
-- client-fingerprint: chrome
-  name: 美国_73
-  network: ws
-  port: 443
-  server: 38.79.154.92
-  servername: linek.perry.us.kg
-  skip-cert-verify: true
-  tls: true
-  type: vless
-  udp: true
-  uuid: 36af4874-d6a3-4f7c-82a7-1cb724961b52
-  ws-opts:
-    headers:
-      Host: linek.perry.us.kg
-    path: /downloads
-- client-fingerprint: chrome
-  name: 多米尼加共和国_2
-  network: ws
-  port: 443
-  server: 181.36.229.212
-  servername: linek.perry.us.kg
-  skip-cert-verify: true
-  tls: true
-  type: vless
-  udp: true
-  uuid: 36af4874-d6a3-4f7c-82a7-1cb724961b52
-  ws-opts:
-    headers:
-      Host: linek.perry.us.kg
-    path: /urls
-- alterId: 0
-  cipher: auto
-  name: 俄罗斯_26
+  name: 未知_3
   network: ws
   port: 443
   server: renderer-stream-1-411.mirra.now
@@ -2939,874 +2484,164 @@ proxies:
     headers:
       Host: renderer-stream-1-411.mirra.now
     path: /api/v1/gpu-stream/socket
-- name: 乌克兰_3
-  network: ws
-  port: 8443
-  server: 185.86.77.181
-  servername: linek.perry.us.kg
-  skip-cert-verify: true
-  tls: true
-  type: vless
-  udp: true
-  uuid: 36af4874-d6a3-4f7c-82a7-1cb724961b52
-  ws-opts:
-    headers:
-      Host: linek.perry.us.kg
-    path: /album
 - client-fingerprint: chrome
-  name: 多米尼加共和国_3
-  network: ws
-  port: 2087
-  server: 181.36.229.212
-  servername: linek.perry.us.kg
+  flow: xtls-rprx-vision
+  name: 香港
+  port: 8448
+  reality-opts:
+    public-key: cynncQk7kKzEQaExg-FN7pMqFaZPSXEi_Ggy7AXXmVg
+    short-id: bb44cc55
+  server: releases.capitaledge.blog
+  servername: aliusfilms.ru
   skip-cert-verify: true
   tls: true
   type: vless
   udp: true
-  uuid: 36af4874-d6a3-4f7c-82a7-1cb724961b52
-  ws-opts:
-    headers:
-      Host: linek.perry.us.kg
-    path: /playlist/about/jump.php
-- name: 立陶宛
-  network: ws
-  port: 443
-  server: 195.238.126.150
-  servername: linek.perry.us.kg
+  uuid: af2e1391-e1df-4939-906f-93ee993c940e
+- name: 香港_1
+  password: 4f4d1167-ef14-4304-9bce-0740472503ef
+  port: 47909
+  server: 90081bb25c.node.tro.cac.cab
   skip-cert-verify: true
+  sni: is.01.naiun.bilibili.com
   tls: true
-  type: vless
+  type: trojan
   udp: true
-  uuid: 36af4874-d6a3-4f7c-82a7-1cb724961b52
-  ws-opts:
-    headers:
-      Host: linek.perry.us.kg
-    path: /messages
-- name: 加拿大
-  network: ws
-  port: 443
-  server: 206.53.48.65
-  servername: linek.perry.us.kg
+- name: 香港_2
+  password: 4f4d1167-ef14-4304-9bce-0740472503ef
+  port: 45553
+  server: 90081bb25c.node.tro.cac.cab
   skip-cert-verify: true
+  sni: ch.01.naiun.bilibili.com
   tls: true
-  type: vless
+  type: trojan
   udp: true
-  uuid: 36af4874-d6a3-4f7c-82a7-1cb724961b52
-  ws-opts:
-    headers:
-      Host: linek.perry.us.kg
-    path: /archives/products/seller
 - client-fingerprint: chrome
-  name: 多米尼加共和国_4
-  network: ws
-  port: 2083
-  server: 181.36.229.212
-  servername: linek.perry.us.kg
-  skip-cert-verify: true
-  tls: true
-  type: vless
-  udp: true
-  uuid: 36af4874-d6a3-4f7c-82a7-1cb724961b52
-  ws-opts:
-    headers:
-      Host: linek.perry.us.kg
-    path: /go.php
-- client-fingerprint: chrome
-  name: 加拿大_1
+  name: 新加坡
   network: ws
   port: 443
-  server: 206.53.48.65
-  servername: linek.perry.us.kg
+  server: 13.250.131.37
+  servername: qsiim.jfpct.sbs
   skip-cert-verify: true
   tls: true
   type: vless
   udp: true
-  uuid: 36af4874-d6a3-4f7c-82a7-1cb724961b52
+  uuid: 6bff4694-7f3a-4062-81c6-ea224fd86078
   ws-opts:
     headers:
-      Host: linek.perry.us.kg
-    path: /archives/products/seller
-- client-fingerprint: chrome
-  name: 冰岛
-  network: ws
-  port: 443
-  server: 151.236.24.54
-  servername: linek.perry.us.kg
-  skip-cert-verify: true
-  tls: true
-  type: vless
-  udp: true
-  uuid: 36af4874-d6a3-4f7c-82a7-1cb724961b52
-  ws-opts:
-    headers:
-      Host: linek.perry.us.kg
-    path: /files/ad/collect
-- client-fingerprint: chrome
-  name: 俄罗斯_27
-  network: ws
-  port: 443
-  server: 45.129.141.188
-  servername: linek.perry.us.kg
-  skip-cert-verify: true
-  tls: true
-  type: vless
-  udp: true
-  uuid: 36af4874-d6a3-4f7c-82a7-1cb724961b52
-  ws-opts:
-    headers:
-      Host: linek.perry.us.kg
-    path: /seller
-- client-fingerprint: chrome
-  name: 多米尼加共和国_5
-  network: ws
-  port: 8443
-  server: 181.36.229.212
-  servername: linek.perry.us.kg
-  skip-cert-verify: true
-  tls: true
-  type: vless
-  udp: true
-  uuid: 36af4874-d6a3-4f7c-82a7-1cb724961b52
-  ws-opts:
-    headers:
-      Host: linek.perry.us.kg
-    path: /games/m/mag
-- client-fingerprint: chrome
-  name: 波兰_1
-  network: ws
-  port: 2053
-  server: 31.133.0.133
-  servername: linek.perry.us.kg
-  skip-cert-verify: true
-  tls: true
-  type: vless
-  udp: true
-  uuid: 36af4874-d6a3-4f7c-82a7-1cb724961b52
-  ws-opts:
-    headers:
-      Host: linek.perry.us.kg
-    path: /forum/star/season
-- client-fingerprint: chrome
-  name: Nofound_3
-  network: ws
-  port: 443
-  server: 195.16.74.73
-  servername: linek.perry.us.kg
-  skip-cert-verify: true
-  tls: true
-  type: vless
-  udp: true
-  uuid: 36af4874-d6a3-4f7c-82a7-1cb724961b52
-  ws-opts:
-    headers:
-      Host: linek.perry.us.kg
-    path: /picture
-- name: 多米尼加共和国_6
-  network: ws
-  port: 8443
-  server: 181.36.229.212
-  servername: linek.perry.us.kg
-  skip-cert-verify: true
-  tls: true
-  type: vless
-  udp: true
-  uuid: 36af4874-d6a3-4f7c-82a7-1cb724961b52
-  ws-opts:
-    headers:
-      Host: linek.perry.us.kg
-    path: /games/m/mag
-- name: 罗马尼亚_3
-  network: ws
-  port: 443
-  server: 185.247.226.138
-  servername: linek.perry.us.kg
-  skip-cert-verify: true
-  tls: true
-  type: vless
-  udp: true
-  uuid: 36af4874-d6a3-4f7c-82a7-1cb724961b52
-  ws-opts:
-    headers:
-      Host: linek.perry.us.kg
-    path: /jp
-- name: 俄罗斯_28
-  network: ws
-  port: 443
-  server: 45.129.141.188
-  servername: linek.perry.us.kg
-  skip-cert-verify: true
-  tls: true
-  type: vless
-  udp: true
-  uuid: 36af4874-d6a3-4f7c-82a7-1cb724961b52
-  ws-opts:
-    headers:
-      Host: linek.perry.us.kg
-    path: /seller
-- name: 瑞士_5
-  network: ws
-  port: 8443
-  server: 81.29.149.219
-  servername: linek.perry.us.kg
-  skip-cert-verify: true
-  tls: true
-  type: vless
-  udp: true
-  uuid: 36af4874-d6a3-4f7c-82a7-1cb724961b52
-  ws-opts:
-    headers:
-      Host: linek.perry.us.kg
-    path: /files/edu
-- client-fingerprint: chrome
-  name: 多米尼加共和国_7
-  network: ws
-  port: 2053
-  server: 181.36.229.212
-  servername: linek.perry.us.kg
-  skip-cert-verify: true
-  tls: true
-  type: vless
-  udp: true
-  uuid: 36af4874-d6a3-4f7c-82a7-1cb724961b52
-  ws-opts:
-    headers:
-      Host: linek.perry.us.kg
-    path: /uploads/item
-- client-fingerprint: chrome
-  name: 塞浦路斯
-  network: ws
-  port: 443
-  server: 185.205.187.139
-  servername: linek.perry.us.kg
-  skip-cert-verify: true
-  tls: true
-  type: vless
-  udp: true
-  uuid: 36af4874-d6a3-4f7c-82a7-1cb724961b52
-  ws-opts:
-    headers:
-      Host: linek.perry.us.kg
-    path: /pic
-- name: 匈牙利_4
-  network: ws
-  port: 443
-  server: 89.147.109.212
-  servername: linek.perry.us.kg
-  skip-cert-verify: true
-  tls: true
-  type: vless
-  udp: true
-  uuid: 36af4874-d6a3-4f7c-82a7-1cb724961b52
-  ws-opts:
-    headers:
-      Host: linek.perry.us.kg
-    path: /trade
-- client-fingerprint: chrome
-  name: 美国_74
-  network: ws
-  port: 443
-  server: 64.176.10.195
-  servername: linek.perry.us.kg
-  skip-cert-verify: true
-  tls: true
-  type: vless
-  udp: true
-  uuid: 36af4874-d6a3-4f7c-82a7-1cb724961b52
-  ws-opts:
-    headers:
-      Host: linek.perry.us.kg
-    path: /documents/stream/photos
-- client-fingerprint: chrome
-  name: 美国_75
-  network: ws
-  port: 443
-  server: 94.131.123.74
-  servername: linek.perry.us.kg
-  skip-cert-verify: true
-  tls: true
-  type: vless
-  udp: true
-  uuid: 36af4874-d6a3-4f7c-82a7-1cb724961b52
-  ws-opts:
-    headers:
-      Host: linek.perry.us.kg
-    path: /mall/seasons
-- alterId: 0
-  cipher: auto
-  name: 日本_2
-  network: ws
-  port: 24202
-  server: 2a02:6ea0:d32f::f8fe:349b
-  skip-cert-verify: true
-  tls: false
-  type: vmess
-  udp: true
-  uuid: b20a7042-70ff-4376-a79f-b68f9edb7519
-  ws-opts:
-    path: /github.com/Alvin9999-newpac/fanqiang
-- client-fingerprint: chrome
-  name: 意大利_3
-  network: ws
-  port: 443
-  server: 80.211.48.113
-  servername: linek.perry.us.kg
-  skip-cert-verify: true
-  tls: true
-  type: vless
-  udp: true
-  uuid: 36af4874-d6a3-4f7c-82a7-1cb724961b52
-  ws-opts:
-    headers:
-      Host: linek.perry.us.kg
-    path: /doujin/music
-- client-fingerprint: chrome
-  name: 英国_23
-  network: ws
-  port: 443
-  server: 31.76.113.157
-  servername: linek.perry.us.kg
-  skip-cert-verify: true
-  tls: true
-  type: vless
-  udp: true
-  uuid: 36af4874-d6a3-4f7c-82a7-1cb724961b52
-  ws-opts:
-    headers:
-      Host: linek.perry.us.kg
-    path: /city
-- name: 多米尼加共和国_8
-  network: ws
-  port: 2053
-  server: 181.36.229.212
-  servername: linek.perry.us.kg
-  skip-cert-verify: true
-  tls: true
-  type: vless
-  udp: true
-  uuid: 36af4874-d6a3-4f7c-82a7-1cb724961b52
-  ws-opts:
-    headers:
-      Host: linek.perry.us.kg
-    path: /uploads/item
-- name: 英国_24
-  network: ws
-  port: 443
-  server: 31.76.113.157
-  servername: linek.perry.us.kg
-  skip-cert-verify: true
-  tls: true
-  type: vless
-  udp: true
-  uuid: 36af4874-d6a3-4f7c-82a7-1cb724961b52
-  ws-opts:
-    headers:
-      Host: linek.perry.us.kg
-    path: /city
-- name: 亚美尼亚_3
-  network: ws
-  port: 443
-  server: 91.198.108.191
-  servername: linek.perry.us.kg
-  skip-cert-verify: true
-  tls: true
-  type: vless
-  udp: true
-  uuid: 36af4874-d6a3-4f7c-82a7-1cb724961b52
-  ws-opts:
-    headers:
-      Host: linek.perry.us.kg
-    path: /member/clips
-- name: 美国_76
-  network: ws
-  port: 443
-  server: 139.84.235.99
-  servername: linek.perry.us.kg
-  skip-cert-verify: true
-  tls: true
-  type: vless
-  udp: true
-  uuid: 36af4874-d6a3-4f7c-82a7-1cb724961b52
-  ws-opts:
-    headers:
-      Host: linek.perry.us.kg
-    path: /ep/tech
-- client-fingerprint: chrome
-  name: 土耳其_1
-  network: ws
-  port: 443
-  server: 82.117.84.47
-  servername: linek.perry.us.kg
-  skip-cert-verify: true
-  tls: true
-  type: vless
-  udp: true
-  uuid: 36af4874-d6a3-4f7c-82a7-1cb724961b52
-  ws-opts:
-    headers:
-      Host: linek.perry.us.kg
-    path: /details
-- name: 美国_77
-  network: ws
-  port: 443
-  server: 139.84.236.69
-  servername: linek.perry.us.kg
-  skip-cert-verify: true
-  tls: true
-  type: vless
-  udp: true
-  uuid: 36af4874-d6a3-4f7c-82a7-1cb724961b52
-  ws-opts:
-    headers:
-      Host: linek.perry.us.kg
-    path: /vip
-- client-fingerprint: chrome
-  name: 罗马尼亚_4
-  network: ws
-  port: 443
-  server: 217.156.67.40
-  servername: linek.perry.us.kg
-  skip-cert-verify: true
-  tls: true
-  type: vless
-  udp: true
-  uuid: 36af4874-d6a3-4f7c-82a7-1cb724961b52
-  ws-opts:
-    headers:
-      Host: linek.perry.us.kg
-    path: /magnet/cn
-- name: 冰岛_1
-  network: ws
-  port: 443
-  server: 151.236.24.54
-  servername: linek.perry.us.kg
-  skip-cert-verify: true
-  tls: true
-  type: vless
-  udp: true
-  uuid: 36af4874-d6a3-4f7c-82a7-1cb724961b52
-  ws-opts:
-    headers:
-      Host: linek.perry.us.kg
-    path: /files/ad/collect
-- name: 美国_78
-  network: ws
-  port: 2053
-  server: 94.131.19.19
-  servername: linek.perry.us.kg
-  skip-cert-verify: true
-  tls: true
-  type: vless
-  udp: true
-  uuid: 36af4874-d6a3-4f7c-82a7-1cb724961b52
-  ws-opts:
-    headers:
-      Host: linek.perry.us.kg
-    path: /ajax/cp
-- name: 南非_5
-  network: ws
-  port: 8443
-  server: 156.38.157.171
-  servername: linek.perry.us.kg
-  skip-cert-verify: true
-  tls: true
-  type: vless
-  udp: true
-  uuid: 36af4874-d6a3-4f7c-82a7-1cb724961b52
-  ws-opts:
-    headers:
-      Host: linek.perry.us.kg
-    path: /pdf/register/teacher
-- name: 俄罗斯_29
-  network: ws
-  port: 443
-  server: 176.124.220.32
-  servername: linek.perry.us.kg
-  skip-cert-verify: true
-  tls: true
-  type: vless
-  udp: true
-  uuid: 36af4874-d6a3-4f7c-82a7-1cb724961b52
-  ws-opts:
-    headers:
-      Host: linek.perry.us.kg
-    path: /acg/class
-- client-fingerprint: chrome
-  name: 俄罗斯_30
-  network: ws
-  port: 443
-  server: 94.141.97.10
-  servername: linek.perry.us.kg
-  skip-cert-verify: true
-  tls: true
-  type: vless
-  udp: true
-  uuid: 36af4874-d6a3-4f7c-82a7-1cb724961b52
-  ws-opts:
-    headers:
-      Host: linek.perry.us.kg
-    path: /help/tag
-- client-fingerprint: chrome
-  name: 美国_79
-  network: ws
-  port: 2053
-  server: 64.176.15.110
-  servername: linek.perry.us.kg
-  skip-cert-verify: true
-  tls: true
-  type: vless
-  udp: true
-  uuid: 36af4874-d6a3-4f7c-82a7-1cb724961b52
-  ws-opts:
-    headers:
-      Host: linek.perry.us.kg
-    path: /store/favorite/ads
-- client-fingerprint: chrome
-  name: 韩国
-  network: ws
-  port: 2083
-  server: 123.111.169.70
-  servername: linek.perry.us.kg
-  skip-cert-verify: true
-  tls: true
-  type: vless
-  udp: true
-  uuid: 36af4874-d6a3-4f7c-82a7-1cb724961b52
-  ws-opts:
-    headers:
-      Host: linek.perry.us.kg
-    path: /jumping
-- client-fingerprint: chrome
-  name: 奥地利_2
-  network: ws
-  port: 443
-  server: 46.183.185.142
-  servername: linek.perry.us.kg
-  skip-cert-verify: true
-  tls: true
-  type: vless
-  udp: true
-  uuid: 36af4874-d6a3-4f7c-82a7-1cb724961b52
-  ws-opts:
-    headers:
-      Host: linek.perry.us.kg
-    path: /page
-- name: 美国_80
-  network: ws
-  port: 2053
-  server: 64.176.15.110
-  servername: linek.perry.us.kg
-  skip-cert-verify: true
-  tls: true
-  type: vless
-  udp: true
-  uuid: 36af4874-d6a3-4f7c-82a7-1cb724961b52
-  ws-opts:
-    headers:
-      Host: linek.perry.us.kg
-    path: /store/favorite/ads
-- client-fingerprint: chrome
-  name: 美国_81
-  network: ws
-  port: 8443
-  server: 216.238.110.198
-  servername: linek.perry.us.kg
-  skip-cert-verify: true
-  tls: true
-  type: vless
-  udp: true
-  uuid: 36af4874-d6a3-4f7c-82a7-1cb724961b52
-  ws-opts:
-    headers:
-      Host: linek.perry.us.kg
-    path: /temp/study/streaming
-- name: 罗马尼亚_5
-  network: ws
-  port: 443
-  server: 217.156.67.40
-  servername: linek.perry.us.kg
-  skip-cert-verify: true
-  tls: true
-  type: vless
-  udp: true
-  uuid: 36af4874-d6a3-4f7c-82a7-1cb724961b52
-  ws-opts:
-    headers:
-      Host: linek.perry.us.kg
-    path: /magnet/cn
-- client-fingerprint: chrome
-  name: 美国_82
-  network: ws
-  port: 443
-  server: 139.84.236.69
-  servername: linek.perry.us.kg
-  skip-cert-verify: true
-  tls: true
-  type: vless
-  udp: true
-  uuid: 36af4874-d6a3-4f7c-82a7-1cb724961b52
-  ws-opts:
-    headers:
-      Host: linek.perry.us.kg
-    path: /vip
-- name: 以色列_2
-  network: ws
-  port: 443
-  server: 80.178.58.56
-  servername: linek.perry.us.kg
-  skip-cert-verify: true
-  tls: true
-  type: vless
-  udp: true
-  uuid: 36af4874-d6a3-4f7c-82a7-1cb724961b52
-  ws-opts:
-    headers:
-      Host: linek.perry.us.kg
-    path: /reg/torrent/products
-- name: 美国_83
-  network: ws
-  port: 8443
-  server: 216.238.110.198
-  servername: linek.perry.us.kg
-  skip-cert-verify: true
-  tls: true
-  type: vless
-  udp: true
-  uuid: 36af4874-d6a3-4f7c-82a7-1cb724961b52
-  ws-opts:
-    headers:
-      Host: linek.perry.us.kg
-    path: /temp/study/streaming
-- client-fingerprint: chrome
-  name: 英国_25
-  network: ws
-  port: 443
-  server: 84.8.142.203
-  servername: linek.perry.us.kg
-  skip-cert-verify: true
-  tls: true
-  type: vless
-  udp: true
-  uuid: 36af4874-d6a3-4f7c-82a7-1cb724961b52
-  ws-opts:
-    headers:
-      Host: linek.perry.us.kg
-    path: /playlist
-- client-fingerprint: chrome
-  name: 美国_84
-  network: ws
-  port: 8443
-  server: 132.243.203.218
-  servername: linek.perry.us.kg
-  skip-cert-verify: true
-  tls: true
-  type: vless
-  udp: true
-  uuid: 36af4874-d6a3-4f7c-82a7-1cb724961b52
-  ws-opts:
-    headers:
-      Host: linek.perry.us.kg
-    path: /seller/novel
-- name: 哈萨克斯坦
-  network: ws
-  port: 8443
-  server: 195.49.215.254
-  servername: linek.perry.us.kg
-  skip-cert-verify: true
-  tls: true
-  type: vless
-  udp: true
-  uuid: 36af4874-d6a3-4f7c-82a7-1cb724961b52
-  ws-opts:
-    headers:
-      Host: linek.perry.us.kg
-    path: /thread/apps
-- name: 俄罗斯_31
-  network: ws
-  port: 443
-  server: 80.90.182.93
-  servername: linek.perry.us.kg
-  skip-cert-verify: true
-  tls: true
-  type: vless
-  udp: true
-  uuid: 36af4874-d6a3-4f7c-82a7-1cb724961b52
-  ws-opts:
-    headers:
-      Host: linek.perry.us.kg
-    path: /tool/act/blog
-- name: 哈萨克斯坦_1
-  network: ws
-  port: 8443
-  server: 195.210.47.233
-  servername: linek.perry.us.kg
-  skip-cert-verify: true
-  tls: true
-  type: vless
-  udp: true
-  uuid: 36af4874-d6a3-4f7c-82a7-1cb724961b52
-  ws-opts:
-    headers:
-      Host: linek.perry.us.kg
-    path: /games/go.php
-- client-fingerprint: chrome
-  name: 美国_85
-  network: ws
-  port: 2053
-  server: 94.131.19.19
-  servername: linek.perry.us.kg
-  skip-cert-verify: true
-  tls: true
-  type: vless
-  udp: true
-  uuid: 36af4874-d6a3-4f7c-82a7-1cb724961b52
-  ws-opts:
-    headers:
-      Host: linek.perry.us.kg
-    path: /ajax/cp
-- client-fingerprint: chrome
-  name: 哈萨克斯坦_2
-  network: ws
-  port: 8443
-  server: 195.210.47.233
-  servername: linek.perry.us.kg
-  skip-cert-verify: true
-  tls: true
-  type: vless
-  udp: true
-  uuid: 36af4874-d6a3-4f7c-82a7-1cb724961b52
-  ws-opts:
-    headers:
-      Host: linek.perry.us.kg
-    path: /games/go.php
-- client-fingerprint: chrome
-  name: 俄罗斯_32
-  network: ws
-  port: 443
-  server: 95.139.91.132
-  servername: linek.perry.us.kg
-  skip-cert-verify: true
-  tls: true
-  type: vless
-  udp: true
-  uuid: 36af4874-d6a3-4f7c-82a7-1cb724961b52
-  ws-opts:
-    headers:
-      Host: linek.perry.us.kg
-    path: /course/anime/event
-- name: 俄罗斯_33
-  network: ws
-  port: 443
-  server: 94.141.97.10
-  servername: linek.perry.us.kg
-  skip-cert-verify: true
-  tls: true
-  type: vless
-  udp: true
-  uuid: 36af4874-d6a3-4f7c-82a7-1cb724961b52
-  ws-opts:
-    headers:
-      Host: linek.perry.us.kg
-    path: /help/tag
-- name: 俄罗斯_34
-  network: ws
-  port: 443
-  server: 95.139.91.132
-  servername: linek.perry.us.kg
-  skip-cert-verify: true
-  tls: true
-  type: vless
-  udp: true
-  uuid: 36af4874-d6a3-4f7c-82a7-1cb724961b52
-  ws-opts:
-    headers:
-      Host: linek.perry.us.kg
-    path: /course/anime/event
-- client-fingerprint: chrome
-  name: 美国_86
-  network: ws
-  port: 443
-  server: 139.84.235.99
-  servername: linek.perry.us.kg
-  skip-cert-verify: true
-  tls: true
-  type: vless
-  udp: true
-  uuid: 36af4874-d6a3-4f7c-82a7-1cb724961b52
-  ws-opts:
-    headers:
-      Host: linek.perry.us.kg
-    path: /ep/tech
-- alterId: 0
-  cipher: auto
-  name: 日本_3
-  network: ws
-  port: 24202
-  server: 2a02:6ea0:d32f::f8fe:349b
-  skip-cert-verify: true
-  tls: false
-  type: vmess
-  udp: true
-  uuid: b20a7042-70ff-4376-a79f-b68f9edb7519
-  ws-opts:
-    headers:
-      Host: 2a02:6ea0:d32f::f8fe:349b
-    path: /github.com/Alvin9999-newpac/fanqiang
-- client-fingerprint: chrome
-  name: 美国_87
-  network: ws
-  port: 8443
-  server: 64.176.4.154
-  servername: linek.perry.us.kg
-  skip-cert-verify: true
-  tls: true
-  type: vless
-  udp: true
-  uuid: 36af4874-d6a3-4f7c-82a7-1cb724961b52
-  ws-opts:
-    headers:
-      Host: linek.perry.us.kg
-    path: /games
-- name: 多米尼加共和国_9
-  network: ws
-  port: 443
-  server: 181.36.229.212
-  servername: linek.perry.us.kg
-  skip-cert-verify: true
-  tls: true
-  type: vless
-  udp: true
-  uuid: 36af4874-d6a3-4f7c-82a7-1cb724961b52
-  ws-opts:
-    headers:
-      Host: linek.perry.us.kg
-    path: /urls
-- client-fingerprint: chrome
-  name: 以色列_3
-  network: ws
-  port: 443
-  server: 80.178.58.56
-  servername: linek.perry.us.kg
-  skip-cert-verify: true
-  tls: true
-  type: vless
-  udp: true
-  uuid: 36af4874-d6a3-4f7c-82a7-1cb724961b52
-  ws-opts:
-    headers:
-      Host: linek.perry.us.kg
-    path: /reg/torrent/products
-- encryption: mlkem768x25519plus.native.0rtt.YyVrNotrEWp_bh51QLFk6SO3RKktew5c1ewRnRUvB08
-  name: 德国_6
-  network: ws
-  port: 10443
-  server: 194.5.206.20
-  skip-cert-verify: true
-  tls: false
-  type: vless
-  udp: true
-  uuid: c08309ad-4671-43af-882b-b022f3a171a0
-  ws-opts:
+      Host: qsiim.jfpct.sbs
     path: /
+- client-fingerprint: chrome
+  name: 新加坡_1
+  network: ws
+  port: 443
+  server: 52.76.97.123
+  servername: qsiim.jfpct.sbs
+  skip-cert-verify: true
+  tls: true
+  type: vless
+  udp: true
+  uuid: 6bff4694-7f3a-4062-81c6-ea224fd86078
+  ws-opts:
+    headers:
+      Host: qsiim.jfpct.sbs
+    path: /
+- client-fingerprint: chrome
+  name: 新加坡_2
+  network: ws
+  port: 8443
+  server: 8.219.154.217
+  servername: qsiim.jfpct.sbs
+  skip-cert-verify: true
+  tls: true
+  type: vless
+  udp: true
+  uuid: 6bff4694-7f3a-4062-81c6-ea224fd86078
+  ws-opts:
+    headers:
+      Host: qsiim.jfpct.sbs
+    path: /
+- client-fingerprint: chrome
+  name: 新加坡_3
+  network: ws
+  port: 443
+  server: 47.82.155.79
+  servername: qsiim.jfpct.sbs
+  skip-cert-verify: true
+  tls: true
+  type: vless
+  udp: true
+  uuid: 6bff4694-7f3a-4062-81c6-ea224fd86078
+  ws-opts:
+    headers:
+      Host: qsiim.jfpct.sbs
+    path: /
+- client-fingerprint: chrome
+  name: 新加坡_4
+  network: ws
+  port: 443
+  server: 47.82.178.58
+  servername: qsiim.jfpct.sbs
+  skip-cert-verify: true
+  tls: true
+  type: vless
+  udp: true
+  uuid: 6bff4694-7f3a-4062-81c6-ea224fd86078
+  ws-opts:
+    headers:
+      Host: qsiim.jfpct.sbs
+    path: /
+- client-fingerprint: edge
+  flow: xtls-rprx-vision
+  name: 英国
+  port: 22231
+  server: 85.234.114.53
+  servername: r1.mizulina.top
+  skip-cert-verify: true
+  tls: true
+  type: vless
+  udp: true
+  uuid: afcac633-0e1a-46c3-bef2-cc01cc0097c8
+- client-fingerprint: edge
+  flow: xtls-rprx-vision
+  name: 英国_1
+  port: 443
+  server: 85.234.114.53
+  servername: r1.mizulina.top
+  skip-cert-verify: true
+  tls: true
+  type: vless
+  udp: true
+  uuid: afcac633-0e1a-46c3-bef2-cc01cc0097c8
+- client-fingerprint: edge
+  flow: xtls-rprx-vision
+  name: 英国_2
+  port: 22231
+  server: r1.mizulina.top
+  servername: r1.mizulina.top
+  skip-cert-verify: true
+  tls: true
+  type: vless
+  udp: true
+  uuid: afcac633-0e1a-46c3-bef2-cc01cc0097c8
+- alterId: 0
+  cipher: auto
+  name: 英國_4
+  port: 180
+  server: 82.198.246.214
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  udp: true
+  uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
+- name: 中国香港_1
+  port: 19321
+  server: 47.86.55.200
+  skip-cert-verify: true
+  tls: false
+  type: vless
+  udp: true
+  uuid: 394086c4-d8a4-4298-9b62-f70fa711082d
 proxy-groups:
 - name: 🚀 节点选择
   proxies:
@@ -3814,12 +2649,37 @@ proxy-groups:
   - DIRECT
   - 每天更新，请加电报群防止失联
   - 电报群：https://t.me/vvkj11
-  - 日期：06-09
+  - 日期：06-10
   - 免费VPN：https://tt.vg/OWeaF
+  - 德国
+  - 法国
+  - 日本
+  - 中国香港
+  - 日本_1
+  - 荷兰
   - 美国
   - 美国_1
   - 美国_2
   - 美国_3
+  - 德国_1
+  - 德国_2
+  - 德国_3
+  - 德国_4
+  - 德国_5
+  - 俄罗斯
+  - 俄罗斯_1
+  - 俄罗斯_2
+  - 俄罗斯_3
+  - 俄罗斯_4
+  - 法国_1
+  - 刚果(金)
+  - 韩国
+  - 韩国_1
+  - 加拿大
+  - 加拿大_1
+  - 加拿大_2
+  - 加拿大_3
+  - 加拿大_4
   - 美国_4
   - 美国_5
   - 美国_6
@@ -3827,86 +2687,28 @@ proxy-groups:
   - 美国_8
   - 美国_9
   - 美国_10
-  - 德国
   - 美国_11
-  - 芬兰
   - 美国_12
   - 美国_13
   - 美国_14
   - 美国_15
-  - 俄罗斯
   - 美国_16
   - 美国_17
-  - 德国_1
   - 美国_18
   - 美国_19
-  - 法国
-  - 日本
-  - 英国
-  - 英国_1
-  - 英国_2
-  - 英国_3
-  - 英国_4
-  - 英国_5
-  - 英国_6
-  - 英国_7
-  - 英国_8
-  - 英国_9
-  - 英国_10
-  - 英国_11
-  - 英国_12
-  - 英国_13
-  - 英国_14
-  - 英国_15
-  - 英国_16
-  - 英国_17
-  - 英国_18
-  - 俄罗斯_1
-  - 南非
-  - 澳大利亚
-  - 俄罗斯_2
-  - 俄罗斯_3
-  - 俄罗斯_4
-  - 俄罗斯_5
-  - 巴基斯坦
-  - 澳大利亚_1
-  - 澳大利亚_2
-  - 俄罗斯_6
-  - 澳大利亚_3
-  - 俄罗斯_7
-  - 俄罗斯_8
-  - 南非_1
-  - 俄罗斯_9
   - 美国_20
-  - 俄罗斯_10
   - 美国_21
   - 美国_22
   - 美国_23
   - 美国_24
   - 美国_25
   - 美国_26
-  - 俄罗斯_11
-  - 俄罗斯_12
-  - 俄罗斯_13
   - 美国_27
   - 美国_28
-  - 俄罗斯_14
-  - 俄罗斯_15
-  - 捷克共和国
   - 美国_29
-  - 俄罗斯_16
   - 美国_30
   - 美国_31
-  - 格鲁吉亚
   - 美国_32
-  - 阿塞拜疆
-  - 日本_1
-  - 格鲁吉亚_1
-  - 德国_2
-  - 中国香港
-  - 中国台湾
-  - 中国香港_1
-  - 格鲁吉亚_2
   - 美国_33
   - 美国_34
   - 美国_35
@@ -3921,197 +2723,177 @@ proxy-groups:
   - 美国_44
   - 美国_45
   - 美国_46
-  - 德国_3
-  - 俄罗斯_17
-  - Nofound
-  - Nofound_1
-  - 保加利亚
   - 美国_47
-  - 新加坡
-  - 保加利亚_1
-  - 英国_19
-  - 英国_20
-  - 英国_21
-  - 荷兰
-  - 保加利亚_2
-  - 新加坡_1
-  - 荷兰_1
-  - 罗马尼亚
-  - 瑞典
-  - 英国_22
-  - 法国_1
-  - 瑞士
   - 美国_48
-  - 保加利亚_3
-  - 白俄罗斯
-  - 瑞士_1
   - 美国_49
-  - 比利时
-  - 波兰
-  - 白俄罗斯_1
   - 美国_50
   - 美国_51
-  - 白俄罗斯_2
-  - 阿联酋
-  - 罗马尼亚_1
   - 美国_52
-  - 葡萄牙
-  - 荷兰_2
-  - 瑞典_1
-  - 白俄罗斯_3
-  - 瑞士_2
   - 美国_53
-  - 瑞典_2
-  - 荷兰_3
   - 美国_54
-  - 印度
   - 美国_55
-  - 俄罗斯_18
-  - 保加利亚_4
   - 美国_56
-  - 伊朗
   - 美国_57
-  - 奥地利
-  - 瑞典_3
-  - 俄罗斯_19
   - 美国_58
-  - 乌克兰
-  - 比利时_1
   - 美国_59
-  - 俄罗斯_20
-  - 匈牙利
-  - 乌克兰_1
   - 美国_60
-  - 保加利亚_5
-  - 法国_2
-  - 以色列
-  - 俄罗斯_21
-  - 俄罗斯_22
   - 美国_61
   - 美国_62
   - 美国_63
-  - 印度_1
   - 美国_64
-  - 匈牙利_1
-  - 南非_2
-  - 保加利亚_6
-  - 奥地利_1
-  - Nofound_2
-  - 保加利亚_7
   - 美国_65
-  - 以色列_1
-  - 罗马尼亚_2
-  - 南非_3
   - 美国_66
-  - 亚美尼亚
   - 美国_67
-  - 南非_4
-  - 意大利
-  - 阿联酋_1
   - 美国_68
-  - 德国_4
   - 美国_69
-  - 法国_3
   - 美国_70
-  - 尼日利亚
-  - 俄罗斯_23
-  - 土耳其
   - 美国_71
   - 美国_72
-  - 葡萄牙_1
-  - 保加利亚_8
-  - 匈牙利_2
-  - 新加坡_2
-  - 瑞士_3
-  - 亚美尼亚_1
-  - 俄罗斯_24
-  - 多米尼加共和国
-  - 意大利_1
-  - 匈牙利_3
-  - 意大利_2
-  - 亚美尼亚_2
-  - 乌克兰_2
-  - 法国_4
-  - 瑞士_4
-  - 荷兰_4
-  - 德国_5
-  - 俄罗斯_25
-  - 多米尼加共和国_1
   - 美国_73
-  - 多米尼加共和国_2
-  - 俄罗斯_26
-  - 乌克兰_3
-  - 多米尼加共和国_3
-  - 立陶宛
-  - 加拿大
-  - 多米尼加共和国_4
-  - 加拿大_1
-  - 冰岛
-  - 俄罗斯_27
-  - 多米尼加共和国_5
-  - 波兰_1
-  - Nofound_3
-  - 多米尼加共和国_6
-  - 罗马尼亚_3
-  - 俄罗斯_28
-  - 瑞士_5
-  - 多米尼加共和国_7
-  - 塞浦路斯
-  - 匈牙利_4
   - 美国_74
   - 美国_75
-  - 日本_2
-  - 意大利_3
-  - 英国_23
-  - 多米尼加共和国_8
-  - 英国_24
-  - 亚美尼亚_3
   - 美国_76
-  - 土耳其_1
   - 美国_77
-  - 罗马尼亚_4
-  - 冰岛_1
   - 美国_78
-  - 南非_5
-  - 俄罗斯_29
-  - 俄罗斯_30
   - 美国_79
-  - 韩国
-  - 奥地利_2
   - 美国_80
   - 美国_81
-  - 罗马尼亚_5
   - 美国_82
-  - 以色列_2
   - 美国_83
-  - 英国_25
   - 美国_84
-  - 哈萨克斯坦
-  - 俄罗斯_31
-  - 哈萨克斯坦_1
   - 美国_85
-  - 哈萨克斯坦_2
-  - 俄罗斯_32
-  - 俄罗斯_33
-  - 俄罗斯_34
   - 美国_86
-  - 日本_3
   - 美国_87
-  - 多米尼加共和国_9
-  - 以色列_3
-  - 德国_6
+  - 美国_88
+  - 美国_89
+  - 美国_90
+  - 美国_91
+  - 美国_92
+  - 美国_93
+  - 美国_94
+  - 美国_95
+  - 美国_96
+  - 美国_97
+  - 美国_98
+  - 美国_99
+  - 美国_100
+  - 美国_101
+  - 美国_102
+  - 美国_103
+  - 美国_104
+  - 美国_105
+  - 美国_106
+  - 美国_107
+  - 美国_108
+  - 美国_109
+  - 美国_110
+  - 美国_111
+  - 美国_112
+  - 美国_113
+  - 美国_114
+  - 美国_115
+  - 美国_116
+  - 美国_117
+  - 美国_118
+  - 美国_119
+  - 美国_120
+  - 美国_121
+  - 美国_122
+  - 美国_123
+  - 美国_124
+  - 美国_125
+  - 美国_126
+  - 美国_127
+  - 美国_128
+  - 美国_129
+  - 美国_130
+  - 美国_131
+  - 美国_132
+  - 美国_133
+  - 美国_134
+  - 美国_135
+  - 美国_136
+  - 美国_137
+  - 美国_138
+  - 美国_139
+  - 美国_140
+  - 美国_141
+  - 美国_142
+  - 美国_143
+  - 美国_144
+  - 美国_145
+  - 美国_146
+  - 美国_147
+  - 美国_148
+  - 美国_149
+  - 日本_2
+  - 日本_3
+  - 日本_4
+  - 日本_5
+  - 日本_6
+  - 日本_7
+  - 日本_8
+  - 日本_9
+  - 日本_10
+  - 日本_11
+  - 日本_12
+  - 日本_13
+  - 日本_14
+  - 日本_15
+  - 未知
+  - 未知_1
+  - 未知_2
+  - 未知_3
+  - 香港
+  - 香港_1
+  - 香港_2
+  - 新加坡
+  - 新加坡_1
+  - 新加坡_2
+  - 新加坡_3
+  - 新加坡_4
+  - 英国
+  - 英国_1
+  - 英国_2
+  - 英國_4
+  - 中国香港_1
   type: select
 - interval: 300
   name: ♻️ 自动选择
   proxies:
   - 每天更新，请加电报群防止失联
   - 电报群：https://t.me/vvkj11
-  - 日期：06-09
+  - 日期：06-10
   - 免费VPN：https://tt.vg/OWeaF
+  - 德国
+  - 法国
+  - 日本
+  - 中国香港
+  - 日本_1
+  - 荷兰
   - 美国
   - 美国_1
   - 美国_2
   - 美国_3
+  - 德国_1
+  - 德国_2
+  - 德国_3
+  - 德国_4
+  - 德国_5
+  - 俄罗斯
+  - 俄罗斯_1
+  - 俄罗斯_2
+  - 俄罗斯_3
+  - 俄罗斯_4
+  - 法国_1
+  - 刚果(金)
+  - 韩国
+  - 韩国_1
+  - 加拿大
+  - 加拿大_1
+  - 加拿大_2
+  - 加拿大_3
+  - 加拿大_4
   - 美国_4
   - 美国_5
   - 美国_6
@@ -4119,86 +2901,28 @@ proxy-groups:
   - 美国_8
   - 美国_9
   - 美国_10
-  - 德国
   - 美国_11
-  - 芬兰
   - 美国_12
   - 美国_13
   - 美国_14
   - 美国_15
-  - 俄罗斯
   - 美国_16
   - 美国_17
-  - 德国_1
   - 美国_18
   - 美国_19
-  - 法国
-  - 日本
-  - 英国
-  - 英国_1
-  - 英国_2
-  - 英国_3
-  - 英国_4
-  - 英国_5
-  - 英国_6
-  - 英国_7
-  - 英国_8
-  - 英国_9
-  - 英国_10
-  - 英国_11
-  - 英国_12
-  - 英国_13
-  - 英国_14
-  - 英国_15
-  - 英国_16
-  - 英国_17
-  - 英国_18
-  - 俄罗斯_1
-  - 南非
-  - 澳大利亚
-  - 俄罗斯_2
-  - 俄罗斯_3
-  - 俄罗斯_4
-  - 俄罗斯_5
-  - 巴基斯坦
-  - 澳大利亚_1
-  - 澳大利亚_2
-  - 俄罗斯_6
-  - 澳大利亚_3
-  - 俄罗斯_7
-  - 俄罗斯_8
-  - 南非_1
-  - 俄罗斯_9
   - 美国_20
-  - 俄罗斯_10
   - 美国_21
   - 美国_22
   - 美国_23
   - 美国_24
   - 美国_25
   - 美国_26
-  - 俄罗斯_11
-  - 俄罗斯_12
-  - 俄罗斯_13
   - 美国_27
   - 美国_28
-  - 俄罗斯_14
-  - 俄罗斯_15
-  - 捷克共和国
   - 美国_29
-  - 俄罗斯_16
   - 美国_30
   - 美国_31
-  - 格鲁吉亚
   - 美国_32
-  - 阿塞拜疆
-  - 日本_1
-  - 格鲁吉亚_1
-  - 德国_2
-  - 中国香港
-  - 中国台湾
-  - 中国香港_1
-  - 格鲁吉亚_2
   - 美国_33
   - 美国_34
   - 美国_35
@@ -4213,185 +2937,140 @@ proxy-groups:
   - 美国_44
   - 美国_45
   - 美国_46
-  - 德国_3
-  - 俄罗斯_17
-  - Nofound
-  - Nofound_1
-  - 保加利亚
   - 美国_47
-  - 新加坡
-  - 保加利亚_1
-  - 英国_19
-  - 英国_20
-  - 英国_21
-  - 荷兰
-  - 保加利亚_2
-  - 新加坡_1
-  - 荷兰_1
-  - 罗马尼亚
-  - 瑞典
-  - 英国_22
-  - 法国_1
-  - 瑞士
   - 美国_48
-  - 保加利亚_3
-  - 白俄罗斯
-  - 瑞士_1
   - 美国_49
-  - 比利时
-  - 波兰
-  - 白俄罗斯_1
   - 美国_50
   - 美国_51
-  - 白俄罗斯_2
-  - 阿联酋
-  - 罗马尼亚_1
   - 美国_52
-  - 葡萄牙
-  - 荷兰_2
-  - 瑞典_1
-  - 白俄罗斯_3
-  - 瑞士_2
   - 美国_53
-  - 瑞典_2
-  - 荷兰_3
   - 美国_54
-  - 印度
   - 美国_55
-  - 俄罗斯_18
-  - 保加利亚_4
   - 美国_56
-  - 伊朗
   - 美国_57
-  - 奥地利
-  - 瑞典_3
-  - 俄罗斯_19
   - 美国_58
-  - 乌克兰
-  - 比利时_1
   - 美国_59
-  - 俄罗斯_20
-  - 匈牙利
-  - 乌克兰_1
   - 美国_60
-  - 保加利亚_5
-  - 法国_2
-  - 以色列
-  - 俄罗斯_21
-  - 俄罗斯_22
   - 美国_61
   - 美国_62
   - 美国_63
-  - 印度_1
   - 美国_64
-  - 匈牙利_1
-  - 南非_2
-  - 保加利亚_6
-  - 奥地利_1
-  - Nofound_2
-  - 保加利亚_7
   - 美国_65
-  - 以色列_1
-  - 罗马尼亚_2
-  - 南非_3
   - 美国_66
-  - 亚美尼亚
   - 美国_67
-  - 南非_4
-  - 意大利
-  - 阿联酋_1
   - 美国_68
-  - 德国_4
   - 美国_69
-  - 法国_3
   - 美国_70
-  - 尼日利亚
-  - 俄罗斯_23
-  - 土耳其
   - 美国_71
   - 美国_72
-  - 葡萄牙_1
-  - 保加利亚_8
-  - 匈牙利_2
-  - 新加坡_2
-  - 瑞士_3
-  - 亚美尼亚_1
-  - 俄罗斯_24
-  - 多米尼加共和国
-  - 意大利_1
-  - 匈牙利_3
-  - 意大利_2
-  - 亚美尼亚_2
-  - 乌克兰_2
-  - 法国_4
-  - 瑞士_4
-  - 荷兰_4
-  - 德国_5
-  - 俄罗斯_25
-  - 多米尼加共和国_1
   - 美国_73
-  - 多米尼加共和国_2
-  - 俄罗斯_26
-  - 乌克兰_3
-  - 多米尼加共和国_3
-  - 立陶宛
-  - 加拿大
-  - 多米尼加共和国_4
-  - 加拿大_1
-  - 冰岛
-  - 俄罗斯_27
-  - 多米尼加共和国_5
-  - 波兰_1
-  - Nofound_3
-  - 多米尼加共和国_6
-  - 罗马尼亚_3
-  - 俄罗斯_28
-  - 瑞士_5
-  - 多米尼加共和国_7
-  - 塞浦路斯
-  - 匈牙利_4
   - 美国_74
   - 美国_75
-  - 日本_2
-  - 意大利_3
-  - 英国_23
-  - 多米尼加共和国_8
-  - 英国_24
-  - 亚美尼亚_3
   - 美国_76
-  - 土耳其_1
   - 美国_77
-  - 罗马尼亚_4
-  - 冰岛_1
   - 美国_78
-  - 南非_5
-  - 俄罗斯_29
-  - 俄罗斯_30
   - 美国_79
-  - 韩国
-  - 奥地利_2
   - 美国_80
   - 美国_81
-  - 罗马尼亚_5
   - 美国_82
-  - 以色列_2
   - 美国_83
-  - 英国_25
   - 美国_84
-  - 哈萨克斯坦
-  - 俄罗斯_31
-  - 哈萨克斯坦_1
   - 美国_85
-  - 哈萨克斯坦_2
-  - 俄罗斯_32
-  - 俄罗斯_33
-  - 俄罗斯_34
   - 美国_86
-  - 日本_3
   - 美国_87
-  - 多米尼加共和国_9
-  - 以色列_3
-  - 德国_6
+  - 美国_88
+  - 美国_89
+  - 美国_90
+  - 美国_91
+  - 美国_92
+  - 美国_93
+  - 美国_94
+  - 美国_95
+  - 美国_96
+  - 美国_97
+  - 美国_98
+  - 美国_99
+  - 美国_100
+  - 美国_101
+  - 美国_102
+  - 美国_103
+  - 美国_104
+  - 美国_105
+  - 美国_106
+  - 美国_107
+  - 美国_108
+  - 美国_109
+  - 美国_110
+  - 美国_111
+  - 美国_112
+  - 美国_113
+  - 美国_114
+  - 美国_115
+  - 美国_116
+  - 美国_117
+  - 美国_118
+  - 美国_119
+  - 美国_120
+  - 美国_121
+  - 美国_122
+  - 美国_123
+  - 美国_124
+  - 美国_125
+  - 美国_126
+  - 美国_127
+  - 美国_128
+  - 美国_129
+  - 美国_130
+  - 美国_131
+  - 美国_132
+  - 美国_133
+  - 美国_134
+  - 美国_135
+  - 美国_136
+  - 美国_137
+  - 美国_138
+  - 美国_139
+  - 美国_140
+  - 美国_141
+  - 美国_142
+  - 美国_143
+  - 美国_144
+  - 美国_145
+  - 美国_146
+  - 美国_147
+  - 美国_148
+  - 美国_149
+  - 日本_2
+  - 日本_3
+  - 日本_4
+  - 日本_5
+  - 日本_6
+  - 日本_7
+  - 日本_8
+  - 日本_9
+  - 日本_10
+  - 日本_11
+  - 日本_12
+  - 日本_13
+  - 日本_14
+  - 日本_15
+  - 未知
+  - 未知_1
+  - 未知_2
+  - 未知_3
+  - 香港
+  - 香港_1
+  - 香港_2
+  - 新加坡
+  - 新加坡_1
+  - 新加坡_2
+  - 新加坡_3
+  - 新加坡_4
+  - 英国
+  - 英国_1
+  - 英国_2
+  - 英國_4
+  - 中国香港_1
   tolerance: 50
   type: url-test
   url: http://www.gstatic.com/generate_204
@@ -4402,12 +3081,37 @@ proxy-groups:
   - 🎯 全球直连
   - 每天更新，请加电报群防止失联
   - 电报群：https://t.me/vvkj11
-  - 日期：06-09
+  - 日期：06-10
   - 免费VPN：https://tt.vg/OWeaF
+  - 德国
+  - 法国
+  - 日本
+  - 中国香港
+  - 日本_1
+  - 荷兰
   - 美国
   - 美国_1
   - 美国_2
   - 美国_3
+  - 德国_1
+  - 德国_2
+  - 德国_3
+  - 德国_4
+  - 德国_5
+  - 俄罗斯
+  - 俄罗斯_1
+  - 俄罗斯_2
+  - 俄罗斯_3
+  - 俄罗斯_4
+  - 法国_1
+  - 刚果(金)
+  - 韩国
+  - 韩国_1
+  - 加拿大
+  - 加拿大_1
+  - 加拿大_2
+  - 加拿大_3
+  - 加拿大_4
   - 美国_4
   - 美国_5
   - 美国_6
@@ -4415,86 +3119,28 @@ proxy-groups:
   - 美国_8
   - 美国_9
   - 美国_10
-  - 德国
   - 美国_11
-  - 芬兰
   - 美国_12
   - 美国_13
   - 美国_14
   - 美国_15
-  - 俄罗斯
   - 美国_16
   - 美国_17
-  - 德国_1
   - 美国_18
   - 美国_19
-  - 法国
-  - 日本
-  - 英国
-  - 英国_1
-  - 英国_2
-  - 英国_3
-  - 英国_4
-  - 英国_5
-  - 英国_6
-  - 英国_7
-  - 英国_8
-  - 英国_9
-  - 英国_10
-  - 英国_11
-  - 英国_12
-  - 英国_13
-  - 英国_14
-  - 英国_15
-  - 英国_16
-  - 英国_17
-  - 英国_18
-  - 俄罗斯_1
-  - 南非
-  - 澳大利亚
-  - 俄罗斯_2
-  - 俄罗斯_3
-  - 俄罗斯_4
-  - 俄罗斯_5
-  - 巴基斯坦
-  - 澳大利亚_1
-  - 澳大利亚_2
-  - 俄罗斯_6
-  - 澳大利亚_3
-  - 俄罗斯_7
-  - 俄罗斯_8
-  - 南非_1
-  - 俄罗斯_9
   - 美国_20
-  - 俄罗斯_10
   - 美国_21
   - 美国_22
   - 美国_23
   - 美国_24
   - 美国_25
   - 美国_26
-  - 俄罗斯_11
-  - 俄罗斯_12
-  - 俄罗斯_13
   - 美国_27
   - 美国_28
-  - 俄罗斯_14
-  - 俄罗斯_15
-  - 捷克共和国
   - 美国_29
-  - 俄罗斯_16
   - 美国_30
   - 美国_31
-  - 格鲁吉亚
   - 美国_32
-  - 阿塞拜疆
-  - 日本_1
-  - 格鲁吉亚_1
-  - 德国_2
-  - 中国香港
-  - 中国台湾
-  - 中国香港_1
-  - 格鲁吉亚_2
   - 美国_33
   - 美国_34
   - 美国_35
@@ -4509,185 +3155,140 @@ proxy-groups:
   - 美国_44
   - 美国_45
   - 美国_46
-  - 德国_3
-  - 俄罗斯_17
-  - Nofound
-  - Nofound_1
-  - 保加利亚
   - 美国_47
-  - 新加坡
-  - 保加利亚_1
-  - 英国_19
-  - 英国_20
-  - 英国_21
-  - 荷兰
-  - 保加利亚_2
-  - 新加坡_1
-  - 荷兰_1
-  - 罗马尼亚
-  - 瑞典
-  - 英国_22
-  - 法国_1
-  - 瑞士
   - 美国_48
-  - 保加利亚_3
-  - 白俄罗斯
-  - 瑞士_1
   - 美国_49
-  - 比利时
-  - 波兰
-  - 白俄罗斯_1
   - 美国_50
   - 美国_51
-  - 白俄罗斯_2
-  - 阿联酋
-  - 罗马尼亚_1
   - 美国_52
-  - 葡萄牙
-  - 荷兰_2
-  - 瑞典_1
-  - 白俄罗斯_3
-  - 瑞士_2
   - 美国_53
-  - 瑞典_2
-  - 荷兰_3
   - 美国_54
-  - 印度
   - 美国_55
-  - 俄罗斯_18
-  - 保加利亚_4
   - 美国_56
-  - 伊朗
   - 美国_57
-  - 奥地利
-  - 瑞典_3
-  - 俄罗斯_19
   - 美国_58
-  - 乌克兰
-  - 比利时_1
   - 美国_59
-  - 俄罗斯_20
-  - 匈牙利
-  - 乌克兰_1
   - 美国_60
-  - 保加利亚_5
-  - 法国_2
-  - 以色列
-  - 俄罗斯_21
-  - 俄罗斯_22
   - 美国_61
   - 美国_62
   - 美国_63
-  - 印度_1
   - 美国_64
-  - 匈牙利_1
-  - 南非_2
-  - 保加利亚_6
-  - 奥地利_1
-  - Nofound_2
-  - 保加利亚_7
   - 美国_65
-  - 以色列_1
-  - 罗马尼亚_2
-  - 南非_3
   - 美国_66
-  - 亚美尼亚
   - 美国_67
-  - 南非_4
-  - 意大利
-  - 阿联酋_1
   - 美国_68
-  - 德国_4
   - 美国_69
-  - 法国_3
   - 美国_70
-  - 尼日利亚
-  - 俄罗斯_23
-  - 土耳其
   - 美国_71
   - 美国_72
-  - 葡萄牙_1
-  - 保加利亚_8
-  - 匈牙利_2
-  - 新加坡_2
-  - 瑞士_3
-  - 亚美尼亚_1
-  - 俄罗斯_24
-  - 多米尼加共和国
-  - 意大利_1
-  - 匈牙利_3
-  - 意大利_2
-  - 亚美尼亚_2
-  - 乌克兰_2
-  - 法国_4
-  - 瑞士_4
-  - 荷兰_4
-  - 德国_5
-  - 俄罗斯_25
-  - 多米尼加共和国_1
   - 美国_73
-  - 多米尼加共和国_2
-  - 俄罗斯_26
-  - 乌克兰_3
-  - 多米尼加共和国_3
-  - 立陶宛
-  - 加拿大
-  - 多米尼加共和国_4
-  - 加拿大_1
-  - 冰岛
-  - 俄罗斯_27
-  - 多米尼加共和国_5
-  - 波兰_1
-  - Nofound_3
-  - 多米尼加共和国_6
-  - 罗马尼亚_3
-  - 俄罗斯_28
-  - 瑞士_5
-  - 多米尼加共和国_7
-  - 塞浦路斯
-  - 匈牙利_4
   - 美国_74
   - 美国_75
-  - 日本_2
-  - 意大利_3
-  - 英国_23
-  - 多米尼加共和国_8
-  - 英国_24
-  - 亚美尼亚_3
   - 美国_76
-  - 土耳其_1
   - 美国_77
-  - 罗马尼亚_4
-  - 冰岛_1
   - 美国_78
-  - 南非_5
-  - 俄罗斯_29
-  - 俄罗斯_30
   - 美国_79
-  - 韩国
-  - 奥地利_2
   - 美国_80
   - 美国_81
-  - 罗马尼亚_5
   - 美国_82
-  - 以色列_2
   - 美国_83
-  - 英国_25
   - 美国_84
-  - 哈萨克斯坦
-  - 俄罗斯_31
-  - 哈萨克斯坦_1
   - 美国_85
-  - 哈萨克斯坦_2
-  - 俄罗斯_32
-  - 俄罗斯_33
-  - 俄罗斯_34
   - 美国_86
-  - 日本_3
   - 美国_87
-  - 多米尼加共和国_9
-  - 以色列_3
-  - 德国_6
+  - 美国_88
+  - 美国_89
+  - 美国_90
+  - 美国_91
+  - 美国_92
+  - 美国_93
+  - 美国_94
+  - 美国_95
+  - 美国_96
+  - 美国_97
+  - 美国_98
+  - 美国_99
+  - 美国_100
+  - 美国_101
+  - 美国_102
+  - 美国_103
+  - 美国_104
+  - 美国_105
+  - 美国_106
+  - 美国_107
+  - 美国_108
+  - 美国_109
+  - 美国_110
+  - 美国_111
+  - 美国_112
+  - 美国_113
+  - 美国_114
+  - 美国_115
+  - 美国_116
+  - 美国_117
+  - 美国_118
+  - 美国_119
+  - 美国_120
+  - 美国_121
+  - 美国_122
+  - 美国_123
+  - 美国_124
+  - 美国_125
+  - 美国_126
+  - 美国_127
+  - 美国_128
+  - 美国_129
+  - 美国_130
+  - 美国_131
+  - 美国_132
+  - 美国_133
+  - 美国_134
+  - 美国_135
+  - 美国_136
+  - 美国_137
+  - 美国_138
+  - 美国_139
+  - 美国_140
+  - 美国_141
+  - 美国_142
+  - 美国_143
+  - 美国_144
+  - 美国_145
+  - 美国_146
+  - 美国_147
+  - 美国_148
+  - 美国_149
+  - 日本_2
+  - 日本_3
+  - 日本_4
+  - 日本_5
+  - 日本_6
+  - 日本_7
+  - 日本_8
+  - 日本_9
+  - 日本_10
+  - 日本_11
+  - 日本_12
+  - 日本_13
+  - 日本_14
+  - 日本_15
+  - 未知
+  - 未知_1
+  - 未知_2
+  - 未知_3
+  - 香港
+  - 香港_1
+  - 香港_2
+  - 新加坡
+  - 新加坡_1
+  - 新加坡_2
+  - 新加坡_3
+  - 新加坡_4
+  - 英国
+  - 英国_1
+  - 英国_2
+  - 英國_4
+  - 中国香港_1
   type: select
 - name: 📲 电报信息
   proxies:
@@ -4695,12 +3296,37 @@ proxy-groups:
   - 🎯 全球直连
   - 每天更新，请加电报群防止失联
   - 电报群：https://t.me/vvkj11
-  - 日期：06-09
+  - 日期：06-10
   - 免费VPN：https://tt.vg/OWeaF
+  - 德国
+  - 法国
+  - 日本
+  - 中国香港
+  - 日本_1
+  - 荷兰
   - 美国
   - 美国_1
   - 美国_2
   - 美国_3
+  - 德国_1
+  - 德国_2
+  - 德国_3
+  - 德国_4
+  - 德国_5
+  - 俄罗斯
+  - 俄罗斯_1
+  - 俄罗斯_2
+  - 俄罗斯_3
+  - 俄罗斯_4
+  - 法国_1
+  - 刚果(金)
+  - 韩国
+  - 韩国_1
+  - 加拿大
+  - 加拿大_1
+  - 加拿大_2
+  - 加拿大_3
+  - 加拿大_4
   - 美国_4
   - 美国_5
   - 美国_6
@@ -4708,86 +3334,28 @@ proxy-groups:
   - 美国_8
   - 美国_9
   - 美国_10
-  - 德国
   - 美国_11
-  - 芬兰
   - 美国_12
   - 美国_13
   - 美国_14
   - 美国_15
-  - 俄罗斯
   - 美国_16
   - 美国_17
-  - 德国_1
   - 美国_18
   - 美国_19
-  - 法国
-  - 日本
-  - 英国
-  - 英国_1
-  - 英国_2
-  - 英国_3
-  - 英国_4
-  - 英国_5
-  - 英国_6
-  - 英国_7
-  - 英国_8
-  - 英国_9
-  - 英国_10
-  - 英国_11
-  - 英国_12
-  - 英国_13
-  - 英国_14
-  - 英国_15
-  - 英国_16
-  - 英国_17
-  - 英国_18
-  - 俄罗斯_1
-  - 南非
-  - 澳大利亚
-  - 俄罗斯_2
-  - 俄罗斯_3
-  - 俄罗斯_4
-  - 俄罗斯_5
-  - 巴基斯坦
-  - 澳大利亚_1
-  - 澳大利亚_2
-  - 俄罗斯_6
-  - 澳大利亚_3
-  - 俄罗斯_7
-  - 俄罗斯_8
-  - 南非_1
-  - 俄罗斯_9
   - 美国_20
-  - 俄罗斯_10
   - 美国_21
   - 美国_22
   - 美国_23
   - 美国_24
   - 美国_25
   - 美国_26
-  - 俄罗斯_11
-  - 俄罗斯_12
-  - 俄罗斯_13
   - 美国_27
   - 美国_28
-  - 俄罗斯_14
-  - 俄罗斯_15
-  - 捷克共和国
   - 美国_29
-  - 俄罗斯_16
   - 美国_30
   - 美国_31
-  - 格鲁吉亚
   - 美国_32
-  - 阿塞拜疆
-  - 日本_1
-  - 格鲁吉亚_1
-  - 德国_2
-  - 中国香港
-  - 中国台湾
-  - 中国香港_1
-  - 格鲁吉亚_2
   - 美国_33
   - 美国_34
   - 美国_35
@@ -4802,185 +3370,140 @@ proxy-groups:
   - 美国_44
   - 美国_45
   - 美国_46
-  - 德国_3
-  - 俄罗斯_17
-  - Nofound
-  - Nofound_1
-  - 保加利亚
   - 美国_47
-  - 新加坡
-  - 保加利亚_1
-  - 英国_19
-  - 英国_20
-  - 英国_21
-  - 荷兰
-  - 保加利亚_2
-  - 新加坡_1
-  - 荷兰_1
-  - 罗马尼亚
-  - 瑞典
-  - 英国_22
-  - 法国_1
-  - 瑞士
   - 美国_48
-  - 保加利亚_3
-  - 白俄罗斯
-  - 瑞士_1
   - 美国_49
-  - 比利时
-  - 波兰
-  - 白俄罗斯_1
   - 美国_50
   - 美国_51
-  - 白俄罗斯_2
-  - 阿联酋
-  - 罗马尼亚_1
   - 美国_52
-  - 葡萄牙
-  - 荷兰_2
-  - 瑞典_1
-  - 白俄罗斯_3
-  - 瑞士_2
   - 美国_53
-  - 瑞典_2
-  - 荷兰_3
   - 美国_54
-  - 印度
   - 美国_55
-  - 俄罗斯_18
-  - 保加利亚_4
   - 美国_56
-  - 伊朗
   - 美国_57
-  - 奥地利
-  - 瑞典_3
-  - 俄罗斯_19
   - 美国_58
-  - 乌克兰
-  - 比利时_1
   - 美国_59
-  - 俄罗斯_20
-  - 匈牙利
-  - 乌克兰_1
   - 美国_60
-  - 保加利亚_5
-  - 法国_2
-  - 以色列
-  - 俄罗斯_21
-  - 俄罗斯_22
   - 美国_61
   - 美国_62
   - 美国_63
-  - 印度_1
   - 美国_64
-  - 匈牙利_1
-  - 南非_2
-  - 保加利亚_6
-  - 奥地利_1
-  - Nofound_2
-  - 保加利亚_7
   - 美国_65
-  - 以色列_1
-  - 罗马尼亚_2
-  - 南非_3
   - 美国_66
-  - 亚美尼亚
   - 美国_67
-  - 南非_4
-  - 意大利
-  - 阿联酋_1
   - 美国_68
-  - 德国_4
   - 美国_69
-  - 法国_3
   - 美国_70
-  - 尼日利亚
-  - 俄罗斯_23
-  - 土耳其
   - 美国_71
   - 美国_72
-  - 葡萄牙_1
-  - 保加利亚_8
-  - 匈牙利_2
-  - 新加坡_2
-  - 瑞士_3
-  - 亚美尼亚_1
-  - 俄罗斯_24
-  - 多米尼加共和国
-  - 意大利_1
-  - 匈牙利_3
-  - 意大利_2
-  - 亚美尼亚_2
-  - 乌克兰_2
-  - 法国_4
-  - 瑞士_4
-  - 荷兰_4
-  - 德国_5
-  - 俄罗斯_25
-  - 多米尼加共和国_1
   - 美国_73
-  - 多米尼加共和国_2
-  - 俄罗斯_26
-  - 乌克兰_3
-  - 多米尼加共和国_3
-  - 立陶宛
-  - 加拿大
-  - 多米尼加共和国_4
-  - 加拿大_1
-  - 冰岛
-  - 俄罗斯_27
-  - 多米尼加共和国_5
-  - 波兰_1
-  - Nofound_3
-  - 多米尼加共和国_6
-  - 罗马尼亚_3
-  - 俄罗斯_28
-  - 瑞士_5
-  - 多米尼加共和国_7
-  - 塞浦路斯
-  - 匈牙利_4
   - 美国_74
   - 美国_75
-  - 日本_2
-  - 意大利_3
-  - 英国_23
-  - 多米尼加共和国_8
-  - 英国_24
-  - 亚美尼亚_3
   - 美国_76
-  - 土耳其_1
   - 美国_77
-  - 罗马尼亚_4
-  - 冰岛_1
   - 美国_78
-  - 南非_5
-  - 俄罗斯_29
-  - 俄罗斯_30
   - 美国_79
-  - 韩国
-  - 奥地利_2
   - 美国_80
   - 美国_81
-  - 罗马尼亚_5
   - 美国_82
-  - 以色列_2
   - 美国_83
-  - 英国_25
   - 美国_84
-  - 哈萨克斯坦
-  - 俄罗斯_31
-  - 哈萨克斯坦_1
   - 美国_85
-  - 哈萨克斯坦_2
-  - 俄罗斯_32
-  - 俄罗斯_33
-  - 俄罗斯_34
   - 美国_86
-  - 日本_3
   - 美国_87
-  - 多米尼加共和国_9
-  - 以色列_3
-  - 德国_6
+  - 美国_88
+  - 美国_89
+  - 美国_90
+  - 美国_91
+  - 美国_92
+  - 美国_93
+  - 美国_94
+  - 美国_95
+  - 美国_96
+  - 美国_97
+  - 美国_98
+  - 美国_99
+  - 美国_100
+  - 美国_101
+  - 美国_102
+  - 美国_103
+  - 美国_104
+  - 美国_105
+  - 美国_106
+  - 美国_107
+  - 美国_108
+  - 美国_109
+  - 美国_110
+  - 美国_111
+  - 美国_112
+  - 美国_113
+  - 美国_114
+  - 美国_115
+  - 美国_116
+  - 美国_117
+  - 美国_118
+  - 美国_119
+  - 美国_120
+  - 美国_121
+  - 美国_122
+  - 美国_123
+  - 美国_124
+  - 美国_125
+  - 美国_126
+  - 美国_127
+  - 美国_128
+  - 美国_129
+  - 美国_130
+  - 美国_131
+  - 美国_132
+  - 美国_133
+  - 美国_134
+  - 美国_135
+  - 美国_136
+  - 美国_137
+  - 美国_138
+  - 美国_139
+  - 美国_140
+  - 美国_141
+  - 美国_142
+  - 美国_143
+  - 美国_144
+  - 美国_145
+  - 美国_146
+  - 美国_147
+  - 美国_148
+  - 美国_149
+  - 日本_2
+  - 日本_3
+  - 日本_4
+  - 日本_5
+  - 日本_6
+  - 日本_7
+  - 日本_8
+  - 日本_9
+  - 日本_10
+  - 日本_11
+  - 日本_12
+  - 日本_13
+  - 日本_14
+  - 日本_15
+  - 未知
+  - 未知_1
+  - 未知_2
+  - 未知_3
+  - 香港
+  - 香港_1
+  - 香港_2
+  - 新加坡
+  - 新加坡_1
+  - 新加坡_2
+  - 新加坡_3
+  - 新加坡_4
+  - 英国
+  - 英国_1
+  - 英国_2
+  - 英國_4
+  - 中国香港_1
   type: select
 - name: Ⓜ️ 微软服务
   proxies:
@@ -4988,12 +3511,37 @@ proxy-groups:
   - 🚀 节点选择
   - 每天更新，请加电报群防止失联
   - 电报群：https://t.me/vvkj11
-  - 日期：06-09
+  - 日期：06-10
   - 免费VPN：https://tt.vg/OWeaF
+  - 德国
+  - 法国
+  - 日本
+  - 中国香港
+  - 日本_1
+  - 荷兰
   - 美国
   - 美国_1
   - 美国_2
   - 美国_3
+  - 德国_1
+  - 德国_2
+  - 德国_3
+  - 德国_4
+  - 德国_5
+  - 俄罗斯
+  - 俄罗斯_1
+  - 俄罗斯_2
+  - 俄罗斯_3
+  - 俄罗斯_4
+  - 法国_1
+  - 刚果(金)
+  - 韩国
+  - 韩国_1
+  - 加拿大
+  - 加拿大_1
+  - 加拿大_2
+  - 加拿大_3
+  - 加拿大_4
   - 美国_4
   - 美国_5
   - 美国_6
@@ -5001,86 +3549,28 @@ proxy-groups:
   - 美国_8
   - 美国_9
   - 美国_10
-  - 德国
   - 美国_11
-  - 芬兰
   - 美国_12
   - 美国_13
   - 美国_14
   - 美国_15
-  - 俄罗斯
   - 美国_16
   - 美国_17
-  - 德国_1
   - 美国_18
   - 美国_19
-  - 法国
-  - 日本
-  - 英国
-  - 英国_1
-  - 英国_2
-  - 英国_3
-  - 英国_4
-  - 英国_5
-  - 英国_6
-  - 英国_7
-  - 英国_8
-  - 英国_9
-  - 英国_10
-  - 英国_11
-  - 英国_12
-  - 英国_13
-  - 英国_14
-  - 英国_15
-  - 英国_16
-  - 英国_17
-  - 英国_18
-  - 俄罗斯_1
-  - 南非
-  - 澳大利亚
-  - 俄罗斯_2
-  - 俄罗斯_3
-  - 俄罗斯_4
-  - 俄罗斯_5
-  - 巴基斯坦
-  - 澳大利亚_1
-  - 澳大利亚_2
-  - 俄罗斯_6
-  - 澳大利亚_3
-  - 俄罗斯_7
-  - 俄罗斯_8
-  - 南非_1
-  - 俄罗斯_9
   - 美国_20
-  - 俄罗斯_10
   - 美国_21
   - 美国_22
   - 美国_23
   - 美国_24
   - 美国_25
   - 美国_26
-  - 俄罗斯_11
-  - 俄罗斯_12
-  - 俄罗斯_13
   - 美国_27
   - 美国_28
-  - 俄罗斯_14
-  - 俄罗斯_15
-  - 捷克共和国
   - 美国_29
-  - 俄罗斯_16
   - 美国_30
   - 美国_31
-  - 格鲁吉亚
   - 美国_32
-  - 阿塞拜疆
-  - 日本_1
-  - 格鲁吉亚_1
-  - 德国_2
-  - 中国香港
-  - 中国台湾
-  - 中国香港_1
-  - 格鲁吉亚_2
   - 美国_33
   - 美国_34
   - 美国_35
@@ -5095,185 +3585,140 @@ proxy-groups:
   - 美国_44
   - 美国_45
   - 美国_46
-  - 德国_3
-  - 俄罗斯_17
-  - Nofound
-  - Nofound_1
-  - 保加利亚
   - 美国_47
-  - 新加坡
-  - 保加利亚_1
-  - 英国_19
-  - 英国_20
-  - 英国_21
-  - 荷兰
-  - 保加利亚_2
-  - 新加坡_1
-  - 荷兰_1
-  - 罗马尼亚
-  - 瑞典
-  - 英国_22
-  - 法国_1
-  - 瑞士
   - 美国_48
-  - 保加利亚_3
-  - 白俄罗斯
-  - 瑞士_1
   - 美国_49
-  - 比利时
-  - 波兰
-  - 白俄罗斯_1
   - 美国_50
   - 美国_51
-  - 白俄罗斯_2
-  - 阿联酋
-  - 罗马尼亚_1
   - 美国_52
-  - 葡萄牙
-  - 荷兰_2
-  - 瑞典_1
-  - 白俄罗斯_3
-  - 瑞士_2
   - 美国_53
-  - 瑞典_2
-  - 荷兰_3
   - 美国_54
-  - 印度
   - 美国_55
-  - 俄罗斯_18
-  - 保加利亚_4
   - 美国_56
-  - 伊朗
   - 美国_57
-  - 奥地利
-  - 瑞典_3
-  - 俄罗斯_19
   - 美国_58
-  - 乌克兰
-  - 比利时_1
   - 美国_59
-  - 俄罗斯_20
-  - 匈牙利
-  - 乌克兰_1
   - 美国_60
-  - 保加利亚_5
-  - 法国_2
-  - 以色列
-  - 俄罗斯_21
-  - 俄罗斯_22
   - 美国_61
   - 美国_62
   - 美国_63
-  - 印度_1
   - 美国_64
-  - 匈牙利_1
-  - 南非_2
-  - 保加利亚_6
-  - 奥地利_1
-  - Nofound_2
-  - 保加利亚_7
   - 美国_65
-  - 以色列_1
-  - 罗马尼亚_2
-  - 南非_3
   - 美国_66
-  - 亚美尼亚
   - 美国_67
-  - 南非_4
-  - 意大利
-  - 阿联酋_1
   - 美国_68
-  - 德国_4
   - 美国_69
-  - 法国_3
   - 美国_70
-  - 尼日利亚
-  - 俄罗斯_23
-  - 土耳其
   - 美国_71
   - 美国_72
-  - 葡萄牙_1
-  - 保加利亚_8
-  - 匈牙利_2
-  - 新加坡_2
-  - 瑞士_3
-  - 亚美尼亚_1
-  - 俄罗斯_24
-  - 多米尼加共和国
-  - 意大利_1
-  - 匈牙利_3
-  - 意大利_2
-  - 亚美尼亚_2
-  - 乌克兰_2
-  - 法国_4
-  - 瑞士_4
-  - 荷兰_4
-  - 德国_5
-  - 俄罗斯_25
-  - 多米尼加共和国_1
   - 美国_73
-  - 多米尼加共和国_2
-  - 俄罗斯_26
-  - 乌克兰_3
-  - 多米尼加共和国_3
-  - 立陶宛
-  - 加拿大
-  - 多米尼加共和国_4
-  - 加拿大_1
-  - 冰岛
-  - 俄罗斯_27
-  - 多米尼加共和国_5
-  - 波兰_1
-  - Nofound_3
-  - 多米尼加共和国_6
-  - 罗马尼亚_3
-  - 俄罗斯_28
-  - 瑞士_5
-  - 多米尼加共和国_7
-  - 塞浦路斯
-  - 匈牙利_4
   - 美国_74
   - 美国_75
-  - 日本_2
-  - 意大利_3
-  - 英国_23
-  - 多米尼加共和国_8
-  - 英国_24
-  - 亚美尼亚_3
   - 美国_76
-  - 土耳其_1
   - 美国_77
-  - 罗马尼亚_4
-  - 冰岛_1
   - 美国_78
-  - 南非_5
-  - 俄罗斯_29
-  - 俄罗斯_30
   - 美国_79
-  - 韩国
-  - 奥地利_2
   - 美国_80
   - 美国_81
-  - 罗马尼亚_5
   - 美国_82
-  - 以色列_2
   - 美国_83
-  - 英国_25
   - 美国_84
-  - 哈萨克斯坦
-  - 俄罗斯_31
-  - 哈萨克斯坦_1
   - 美国_85
-  - 哈萨克斯坦_2
-  - 俄罗斯_32
-  - 俄罗斯_33
-  - 俄罗斯_34
   - 美国_86
-  - 日本_3
   - 美国_87
-  - 多米尼加共和国_9
-  - 以色列_3
-  - 德国_6
+  - 美国_88
+  - 美国_89
+  - 美国_90
+  - 美国_91
+  - 美国_92
+  - 美国_93
+  - 美国_94
+  - 美国_95
+  - 美国_96
+  - 美国_97
+  - 美国_98
+  - 美国_99
+  - 美国_100
+  - 美国_101
+  - 美国_102
+  - 美国_103
+  - 美国_104
+  - 美国_105
+  - 美国_106
+  - 美国_107
+  - 美国_108
+  - 美国_109
+  - 美国_110
+  - 美国_111
+  - 美国_112
+  - 美国_113
+  - 美国_114
+  - 美国_115
+  - 美国_116
+  - 美国_117
+  - 美国_118
+  - 美国_119
+  - 美国_120
+  - 美国_121
+  - 美国_122
+  - 美国_123
+  - 美国_124
+  - 美国_125
+  - 美国_126
+  - 美国_127
+  - 美国_128
+  - 美国_129
+  - 美国_130
+  - 美国_131
+  - 美国_132
+  - 美国_133
+  - 美国_134
+  - 美国_135
+  - 美国_136
+  - 美国_137
+  - 美国_138
+  - 美国_139
+  - 美国_140
+  - 美国_141
+  - 美国_142
+  - 美国_143
+  - 美国_144
+  - 美国_145
+  - 美国_146
+  - 美国_147
+  - 美国_148
+  - 美国_149
+  - 日本_2
+  - 日本_3
+  - 日本_4
+  - 日本_5
+  - 日本_6
+  - 日本_7
+  - 日本_8
+  - 日本_9
+  - 日本_10
+  - 日本_11
+  - 日本_12
+  - 日本_13
+  - 日本_14
+  - 日本_15
+  - 未知
+  - 未知_1
+  - 未知_2
+  - 未知_3
+  - 香港
+  - 香港_1
+  - 香港_2
+  - 新加坡
+  - 新加坡_1
+  - 新加坡_2
+  - 新加坡_3
+  - 新加坡_4
+  - 英国
+  - 英国_1
+  - 英国_2
+  - 英國_4
+  - 中国香港_1
   type: select
 - name: 🍎 苹果服务
   proxies:
@@ -5281,12 +3726,37 @@ proxy-groups:
   - 🎯 全球直连
   - 每天更新，请加电报群防止失联
   - 电报群：https://t.me/vvkj11
-  - 日期：06-09
+  - 日期：06-10
   - 免费VPN：https://tt.vg/OWeaF
+  - 德国
+  - 法国
+  - 日本
+  - 中国香港
+  - 日本_1
+  - 荷兰
   - 美国
   - 美国_1
   - 美国_2
   - 美国_3
+  - 德国_1
+  - 德国_2
+  - 德国_3
+  - 德国_4
+  - 德国_5
+  - 俄罗斯
+  - 俄罗斯_1
+  - 俄罗斯_2
+  - 俄罗斯_3
+  - 俄罗斯_4
+  - 法国_1
+  - 刚果(金)
+  - 韩国
+  - 韩国_1
+  - 加拿大
+  - 加拿大_1
+  - 加拿大_2
+  - 加拿大_3
+  - 加拿大_4
   - 美国_4
   - 美国_5
   - 美国_6
@@ -5294,86 +3764,28 @@ proxy-groups:
   - 美国_8
   - 美国_9
   - 美国_10
-  - 德国
   - 美国_11
-  - 芬兰
   - 美国_12
   - 美国_13
   - 美国_14
   - 美国_15
-  - 俄罗斯
   - 美国_16
   - 美国_17
-  - 德国_1
   - 美国_18
   - 美国_19
-  - 法国
-  - 日本
-  - 英国
-  - 英国_1
-  - 英国_2
-  - 英国_3
-  - 英国_4
-  - 英国_5
-  - 英国_6
-  - 英国_7
-  - 英国_8
-  - 英国_9
-  - 英国_10
-  - 英国_11
-  - 英国_12
-  - 英国_13
-  - 英国_14
-  - 英国_15
-  - 英国_16
-  - 英国_17
-  - 英国_18
-  - 俄罗斯_1
-  - 南非
-  - 澳大利亚
-  - 俄罗斯_2
-  - 俄罗斯_3
-  - 俄罗斯_4
-  - 俄罗斯_5
-  - 巴基斯坦
-  - 澳大利亚_1
-  - 澳大利亚_2
-  - 俄罗斯_6
-  - 澳大利亚_3
-  - 俄罗斯_7
-  - 俄罗斯_8
-  - 南非_1
-  - 俄罗斯_9
   - 美国_20
-  - 俄罗斯_10
   - 美国_21
   - 美国_22
   - 美国_23
   - 美国_24
   - 美国_25
   - 美国_26
-  - 俄罗斯_11
-  - 俄罗斯_12
-  - 俄罗斯_13
   - 美国_27
   - 美国_28
-  - 俄罗斯_14
-  - 俄罗斯_15
-  - 捷克共和国
   - 美国_29
-  - 俄罗斯_16
   - 美国_30
   - 美国_31
-  - 格鲁吉亚
   - 美国_32
-  - 阿塞拜疆
-  - 日本_1
-  - 格鲁吉亚_1
-  - 德国_2
-  - 中国香港
-  - 中国台湾
-  - 中国香港_1
-  - 格鲁吉亚_2
   - 美国_33
   - 美国_34
   - 美国_35
@@ -5388,185 +3800,140 @@ proxy-groups:
   - 美国_44
   - 美国_45
   - 美国_46
-  - 德国_3
-  - 俄罗斯_17
-  - Nofound
-  - Nofound_1
-  - 保加利亚
   - 美国_47
-  - 新加坡
-  - 保加利亚_1
-  - 英国_19
-  - 英国_20
-  - 英国_21
-  - 荷兰
-  - 保加利亚_2
-  - 新加坡_1
-  - 荷兰_1
-  - 罗马尼亚
-  - 瑞典
-  - 英国_22
-  - 法国_1
-  - 瑞士
   - 美国_48
-  - 保加利亚_3
-  - 白俄罗斯
-  - 瑞士_1
   - 美国_49
-  - 比利时
-  - 波兰
-  - 白俄罗斯_1
   - 美国_50
   - 美国_51
-  - 白俄罗斯_2
-  - 阿联酋
-  - 罗马尼亚_1
   - 美国_52
-  - 葡萄牙
-  - 荷兰_2
-  - 瑞典_1
-  - 白俄罗斯_3
-  - 瑞士_2
   - 美国_53
-  - 瑞典_2
-  - 荷兰_3
   - 美国_54
-  - 印度
   - 美国_55
-  - 俄罗斯_18
-  - 保加利亚_4
   - 美国_56
-  - 伊朗
   - 美国_57
-  - 奥地利
-  - 瑞典_3
-  - 俄罗斯_19
   - 美国_58
-  - 乌克兰
-  - 比利时_1
   - 美国_59
-  - 俄罗斯_20
-  - 匈牙利
-  - 乌克兰_1
   - 美国_60
-  - 保加利亚_5
-  - 法国_2
-  - 以色列
-  - 俄罗斯_21
-  - 俄罗斯_22
   - 美国_61
   - 美国_62
   - 美国_63
-  - 印度_1
   - 美国_64
-  - 匈牙利_1
-  - 南非_2
-  - 保加利亚_6
-  - 奥地利_1
-  - Nofound_2
-  - 保加利亚_7
   - 美国_65
-  - 以色列_1
-  - 罗马尼亚_2
-  - 南非_3
   - 美国_66
-  - 亚美尼亚
   - 美国_67
-  - 南非_4
-  - 意大利
-  - 阿联酋_1
   - 美国_68
-  - 德国_4
   - 美国_69
-  - 法国_3
   - 美国_70
-  - 尼日利亚
-  - 俄罗斯_23
-  - 土耳其
   - 美国_71
   - 美国_72
-  - 葡萄牙_1
-  - 保加利亚_8
-  - 匈牙利_2
-  - 新加坡_2
-  - 瑞士_3
-  - 亚美尼亚_1
-  - 俄罗斯_24
-  - 多米尼加共和国
-  - 意大利_1
-  - 匈牙利_3
-  - 意大利_2
-  - 亚美尼亚_2
-  - 乌克兰_2
-  - 法国_4
-  - 瑞士_4
-  - 荷兰_4
-  - 德国_5
-  - 俄罗斯_25
-  - 多米尼加共和国_1
   - 美国_73
-  - 多米尼加共和国_2
-  - 俄罗斯_26
-  - 乌克兰_3
-  - 多米尼加共和国_3
-  - 立陶宛
-  - 加拿大
-  - 多米尼加共和国_4
-  - 加拿大_1
-  - 冰岛
-  - 俄罗斯_27
-  - 多米尼加共和国_5
-  - 波兰_1
-  - Nofound_3
-  - 多米尼加共和国_6
-  - 罗马尼亚_3
-  - 俄罗斯_28
-  - 瑞士_5
-  - 多米尼加共和国_7
-  - 塞浦路斯
-  - 匈牙利_4
   - 美国_74
   - 美国_75
-  - 日本_2
-  - 意大利_3
-  - 英国_23
-  - 多米尼加共和国_8
-  - 英国_24
-  - 亚美尼亚_3
   - 美国_76
-  - 土耳其_1
   - 美国_77
-  - 罗马尼亚_4
-  - 冰岛_1
   - 美国_78
-  - 南非_5
-  - 俄罗斯_29
-  - 俄罗斯_30
   - 美国_79
-  - 韩国
-  - 奥地利_2
   - 美国_80
   - 美国_81
-  - 罗马尼亚_5
   - 美国_82
-  - 以色列_2
   - 美国_83
-  - 英国_25
   - 美国_84
-  - 哈萨克斯坦
-  - 俄罗斯_31
-  - 哈萨克斯坦_1
   - 美国_85
-  - 哈萨克斯坦_2
-  - 俄罗斯_32
-  - 俄罗斯_33
-  - 俄罗斯_34
   - 美国_86
-  - 日本_3
   - 美国_87
-  - 多米尼加共和国_9
-  - 以色列_3
-  - 德国_6
+  - 美国_88
+  - 美国_89
+  - 美国_90
+  - 美国_91
+  - 美国_92
+  - 美国_93
+  - 美国_94
+  - 美国_95
+  - 美国_96
+  - 美国_97
+  - 美国_98
+  - 美国_99
+  - 美国_100
+  - 美国_101
+  - 美国_102
+  - 美国_103
+  - 美国_104
+  - 美国_105
+  - 美国_106
+  - 美国_107
+  - 美国_108
+  - 美国_109
+  - 美国_110
+  - 美国_111
+  - 美国_112
+  - 美国_113
+  - 美国_114
+  - 美国_115
+  - 美国_116
+  - 美国_117
+  - 美国_118
+  - 美国_119
+  - 美国_120
+  - 美国_121
+  - 美国_122
+  - 美国_123
+  - 美国_124
+  - 美国_125
+  - 美国_126
+  - 美国_127
+  - 美国_128
+  - 美国_129
+  - 美国_130
+  - 美国_131
+  - 美国_132
+  - 美国_133
+  - 美国_134
+  - 美国_135
+  - 美国_136
+  - 美国_137
+  - 美国_138
+  - 美国_139
+  - 美国_140
+  - 美国_141
+  - 美国_142
+  - 美国_143
+  - 美国_144
+  - 美国_145
+  - 美国_146
+  - 美国_147
+  - 美国_148
+  - 美国_149
+  - 日本_2
+  - 日本_3
+  - 日本_4
+  - 日本_5
+  - 日本_6
+  - 日本_7
+  - 日本_8
+  - 日本_9
+  - 日本_10
+  - 日本_11
+  - 日本_12
+  - 日本_13
+  - 日本_14
+  - 日本_15
+  - 未知
+  - 未知_1
+  - 未知_2
+  - 未知_3
+  - 香港
+  - 香港_1
+  - 香港_2
+  - 新加坡
+  - 新加坡_1
+  - 新加坡_2
+  - 新加坡_3
+  - 新加坡_4
+  - 英国
+  - 英国_1
+  - 英国_2
+  - 英國_4
+  - 中国香港_1
   type: select
 - name: 🎯 全球直连
   proxies:
@@ -5591,12 +3958,37 @@ proxy-groups:
   - ♻️ 自动选择
   - 每天更新，请加电报群防止失联
   - 电报群：https://t.me/vvkj11
-  - 日期：06-09
+  - 日期：06-10
   - 免费VPN：https://tt.vg/OWeaF
+  - 德国
+  - 法国
+  - 日本
+  - 中国香港
+  - 日本_1
+  - 荷兰
   - 美国
   - 美国_1
   - 美国_2
   - 美国_3
+  - 德国_1
+  - 德国_2
+  - 德国_3
+  - 德国_4
+  - 德国_5
+  - 俄罗斯
+  - 俄罗斯_1
+  - 俄罗斯_2
+  - 俄罗斯_3
+  - 俄罗斯_4
+  - 法国_1
+  - 刚果(金)
+  - 韩国
+  - 韩国_1
+  - 加拿大
+  - 加拿大_1
+  - 加拿大_2
+  - 加拿大_3
+  - 加拿大_4
   - 美国_4
   - 美国_5
   - 美国_6
@@ -5604,86 +3996,28 @@ proxy-groups:
   - 美国_8
   - 美国_9
   - 美国_10
-  - 德国
   - 美国_11
-  - 芬兰
   - 美国_12
   - 美国_13
   - 美国_14
   - 美国_15
-  - 俄罗斯
   - 美国_16
   - 美国_17
-  - 德国_1
   - 美国_18
   - 美国_19
-  - 法国
-  - 日本
-  - 英国
-  - 英国_1
-  - 英国_2
-  - 英国_3
-  - 英国_4
-  - 英国_5
-  - 英国_6
-  - 英国_7
-  - 英国_8
-  - 英国_9
-  - 英国_10
-  - 英国_11
-  - 英国_12
-  - 英国_13
-  - 英国_14
-  - 英国_15
-  - 英国_16
-  - 英国_17
-  - 英国_18
-  - 俄罗斯_1
-  - 南非
-  - 澳大利亚
-  - 俄罗斯_2
-  - 俄罗斯_3
-  - 俄罗斯_4
-  - 俄罗斯_5
-  - 巴基斯坦
-  - 澳大利亚_1
-  - 澳大利亚_2
-  - 俄罗斯_6
-  - 澳大利亚_3
-  - 俄罗斯_7
-  - 俄罗斯_8
-  - 南非_1
-  - 俄罗斯_9
   - 美国_20
-  - 俄罗斯_10
   - 美国_21
   - 美国_22
   - 美国_23
   - 美国_24
   - 美国_25
   - 美国_26
-  - 俄罗斯_11
-  - 俄罗斯_12
-  - 俄罗斯_13
   - 美国_27
   - 美国_28
-  - 俄罗斯_14
-  - 俄罗斯_15
-  - 捷克共和国
   - 美国_29
-  - 俄罗斯_16
   - 美国_30
   - 美国_31
-  - 格鲁吉亚
   - 美国_32
-  - 阿塞拜疆
-  - 日本_1
-  - 格鲁吉亚_1
-  - 德国_2
-  - 中国香港
-  - 中国台湾
-  - 中国香港_1
-  - 格鲁吉亚_2
   - 美国_33
   - 美国_34
   - 美国_35
@@ -5698,185 +4032,140 @@ proxy-groups:
   - 美国_44
   - 美国_45
   - 美国_46
-  - 德国_3
-  - 俄罗斯_17
-  - Nofound
-  - Nofound_1
-  - 保加利亚
   - 美国_47
-  - 新加坡
-  - 保加利亚_1
-  - 英国_19
-  - 英国_20
-  - 英国_21
-  - 荷兰
-  - 保加利亚_2
-  - 新加坡_1
-  - 荷兰_1
-  - 罗马尼亚
-  - 瑞典
-  - 英国_22
-  - 法国_1
-  - 瑞士
   - 美国_48
-  - 保加利亚_3
-  - 白俄罗斯
-  - 瑞士_1
   - 美国_49
-  - 比利时
-  - 波兰
-  - 白俄罗斯_1
   - 美国_50
   - 美国_51
-  - 白俄罗斯_2
-  - 阿联酋
-  - 罗马尼亚_1
   - 美国_52
-  - 葡萄牙
-  - 荷兰_2
-  - 瑞典_1
-  - 白俄罗斯_3
-  - 瑞士_2
   - 美国_53
-  - 瑞典_2
-  - 荷兰_3
   - 美国_54
-  - 印度
   - 美国_55
-  - 俄罗斯_18
-  - 保加利亚_4
   - 美国_56
-  - 伊朗
   - 美国_57
-  - 奥地利
-  - 瑞典_3
-  - 俄罗斯_19
   - 美国_58
-  - 乌克兰
-  - 比利时_1
   - 美国_59
-  - 俄罗斯_20
-  - 匈牙利
-  - 乌克兰_1
   - 美国_60
-  - 保加利亚_5
-  - 法国_2
-  - 以色列
-  - 俄罗斯_21
-  - 俄罗斯_22
   - 美国_61
   - 美国_62
   - 美国_63
-  - 印度_1
   - 美国_64
-  - 匈牙利_1
-  - 南非_2
-  - 保加利亚_6
-  - 奥地利_1
-  - Nofound_2
-  - 保加利亚_7
   - 美国_65
-  - 以色列_1
-  - 罗马尼亚_2
-  - 南非_3
   - 美国_66
-  - 亚美尼亚
   - 美国_67
-  - 南非_4
-  - 意大利
-  - 阿联酋_1
   - 美国_68
-  - 德国_4
   - 美国_69
-  - 法国_3
   - 美国_70
-  - 尼日利亚
-  - 俄罗斯_23
-  - 土耳其
   - 美国_71
   - 美国_72
-  - 葡萄牙_1
-  - 保加利亚_8
-  - 匈牙利_2
-  - 新加坡_2
-  - 瑞士_3
-  - 亚美尼亚_1
-  - 俄罗斯_24
-  - 多米尼加共和国
-  - 意大利_1
-  - 匈牙利_3
-  - 意大利_2
-  - 亚美尼亚_2
-  - 乌克兰_2
-  - 法国_4
-  - 瑞士_4
-  - 荷兰_4
-  - 德国_5
-  - 俄罗斯_25
-  - 多米尼加共和国_1
   - 美国_73
-  - 多米尼加共和国_2
-  - 俄罗斯_26
-  - 乌克兰_3
-  - 多米尼加共和国_3
-  - 立陶宛
-  - 加拿大
-  - 多米尼加共和国_4
-  - 加拿大_1
-  - 冰岛
-  - 俄罗斯_27
-  - 多米尼加共和国_5
-  - 波兰_1
-  - Nofound_3
-  - 多米尼加共和国_6
-  - 罗马尼亚_3
-  - 俄罗斯_28
-  - 瑞士_5
-  - 多米尼加共和国_7
-  - 塞浦路斯
-  - 匈牙利_4
   - 美国_74
   - 美国_75
-  - 日本_2
-  - 意大利_3
-  - 英国_23
-  - 多米尼加共和国_8
-  - 英国_24
-  - 亚美尼亚_3
   - 美国_76
-  - 土耳其_1
   - 美国_77
-  - 罗马尼亚_4
-  - 冰岛_1
   - 美国_78
-  - 南非_5
-  - 俄罗斯_29
-  - 俄罗斯_30
   - 美国_79
-  - 韩国
-  - 奥地利_2
   - 美国_80
   - 美国_81
-  - 罗马尼亚_5
   - 美国_82
-  - 以色列_2
   - 美国_83
-  - 英国_25
   - 美国_84
-  - 哈萨克斯坦
-  - 俄罗斯_31
-  - 哈萨克斯坦_1
   - 美国_85
-  - 哈萨克斯坦_2
-  - 俄罗斯_32
-  - 俄罗斯_33
-  - 俄罗斯_34
   - 美国_86
-  - 日本_3
   - 美国_87
-  - 多米尼加共和国_9
-  - 以色列_3
-  - 德国_6
+  - 美国_88
+  - 美国_89
+  - 美国_90
+  - 美国_91
+  - 美国_92
+  - 美国_93
+  - 美国_94
+  - 美国_95
+  - 美国_96
+  - 美国_97
+  - 美国_98
+  - 美国_99
+  - 美国_100
+  - 美国_101
+  - 美国_102
+  - 美国_103
+  - 美国_104
+  - 美国_105
+  - 美国_106
+  - 美国_107
+  - 美国_108
+  - 美国_109
+  - 美国_110
+  - 美国_111
+  - 美国_112
+  - 美国_113
+  - 美国_114
+  - 美国_115
+  - 美国_116
+  - 美国_117
+  - 美国_118
+  - 美国_119
+  - 美国_120
+  - 美国_121
+  - 美国_122
+  - 美国_123
+  - 美国_124
+  - 美国_125
+  - 美国_126
+  - 美国_127
+  - 美国_128
+  - 美国_129
+  - 美国_130
+  - 美国_131
+  - 美国_132
+  - 美国_133
+  - 美国_134
+  - 美国_135
+  - 美国_136
+  - 美国_137
+  - 美国_138
+  - 美国_139
+  - 美国_140
+  - 美国_141
+  - 美国_142
+  - 美国_143
+  - 美国_144
+  - 美国_145
+  - 美国_146
+  - 美国_147
+  - 美国_148
+  - 美国_149
+  - 日本_2
+  - 日本_3
+  - 日本_4
+  - 日本_5
+  - 日本_6
+  - 日本_7
+  - 日本_8
+  - 日本_9
+  - 日本_10
+  - 日本_11
+  - 日本_12
+  - 日本_13
+  - 日本_14
+  - 日本_15
+  - 未知
+  - 未知_1
+  - 未知_2
+  - 未知_3
+  - 香港
+  - 香港_1
+  - 香港_2
+  - 新加坡
+  - 新加坡_1
+  - 新加坡_2
+  - 新加坡_3
+  - 新加坡_4
+  - 英国
+  - 英国_1
+  - 英国_2
+  - 英國_4
+  - 中国香港_1
   type: select
 rule-providers:
   Apple:
